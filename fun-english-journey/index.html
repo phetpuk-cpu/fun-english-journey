@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Fun English Journey 🦆</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ SCREEN: WELCOME ============ -->
+<div class="screen active" id="scr-welcome">
+  <div class="center" style="margin-top:40px">
+    <div class="mascot">🦆</div>
+    <h1>Fun English Journey</h1>
+    <p>เรียนอังกฤษกับ Ducky และผองเพื่อน!</p>
+  </div>
+  <div class="card">
+    <p style="margin:0 0 6px"><b>ชื่อเล่นของหนูคืออะไร?</b></p>
+    <input class="name-input" id="inp-name" maxlength="12" placeholder="พิมพ์ชื่อเล่น">
+    <p style="margin:14px 0 4px"><b>เลือกตัวแทนของหนู</b></p>
+    <div class="avatar-row" id="avatar-row">
+      <button class="avatar selected">🦁</button><button class="avatar">🐼</button>
+      <button class="avatar">🦊</button><button class="avatar">🐸</button><button class="avatar">🦄</button>
+    </div>
+    <button class="btn yellow" id="btn-start" onclick="startApp()" disabled>⏳ กำลังโหลดบทเรียน...</button>
+  </div>
+  <p class="note">เวอร์ชันต้นแบบ — คะแนนยังไม่ถูกบันทึกถาวร</p>
+</div>
+
+<!-- ============ SCREEN: MAP ============ -->
+<div class="screen" id="scr-map">
+  <div class="topbar">
+    <span class="mascot" style="font-size:2rem" id="map-avatar">🦁</span>
+    <div style="flex:1"><b id="map-name">เพื่อน</b><div style="font-size:.8rem;color:#6b7a99">นักผจญภัยฝึกหัด</div></div>
+    <span class="xp-pill">💎 <span id="xp-total">0</span> XP</span>
+  </div>
+  <div class="tab-row">
+    <button class="tab active" data-g="p3">🏙️ ป.3</button>
+    <button class="tab" data-g="p4">🎪 ป.4</button>
+  </div>
+  <div id="map-list"></div>
+</div>
+
+<!-- ============ SCREEN: LESSON ============ -->
+<div class="screen" id="scr-lesson">
+  <div class="topbar">
+    <button class="back" onclick="goMap()">🏠</button>
+    <div class="progress-track"><div class="progress-fill" id="lesson-progress"></div></div>
+    <span class="xp-pill">💎 <span id="xp-lesson">0</span></span>
+  </div>
+  <div class="step-label" id="step-label"></div>
+  <div id="stage"></div>
+</div>
+
+<script src="js/engine.js"></script>
+</body>
+</html>

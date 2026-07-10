@@ -1,0 +1,599 @@
+{
+  "grade": "p4",
+  "gradeName": "ป.4 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 1 · I Can Do It! — ฉันทำได้",
+  "lessons": [
+    {
+      "id": "p4u1l1",
+      "icon": "💪",
+      "title": "I Can!",
+      "sub": "บอกสิ่งที่ทำได้ (can)",
+      "intro": {
+        "en": "What can you do? Let us find out!",
+        "th": "หนูทำอะไรได้บ้าง? วันนี้เรียนคำว่า can แปลว่า 'สามารถ' นะ"
+      },
+      "vocab": [
+        {
+          "w": "swim",
+          "th": "ว่ายน้ำ",
+          "e": "🏊"
+        },
+        {
+          "w": "run fast",
+          "th": "วิ่งเร็ว",
+          "e": "🏃"
+        },
+        {
+          "w": "jump high",
+          "th": "กระโดดสูง",
+          "e": "🤸"
+        },
+        {
+          "w": "sing",
+          "th": "ร้องเพลง",
+          "e": "🎤"
+        },
+        {
+          "w": "dance",
+          "th": "เต้น",
+          "e": "💃"
+        },
+        {
+          "w": "ride a bike",
+          "th": "ขี่จักรยาน",
+          "e": "🚲"
+        },
+        {
+          "w": "play football",
+          "th": "เล่นฟุตบอล",
+          "e": "⚽"
+        },
+        {
+          "w": "draw",
+          "th": "วาดรูป",
+          "e": "🎨"
+        }
+      ],
+      "build": {
+        "sentence": "I can ride a bike very well.",
+        "th": "ฉันขี่จักรยานได้เก่งมาก"
+      },
+      "speak": [
+        {
+          "t": "I can swim.",
+          "th": "ฉันว่ายน้ำได้"
+        },
+        {
+          "t": "I can play football.",
+          "th": "ฉันเล่นฟุตบอลได้"
+        },
+        {
+          "t": "Can you dance?",
+          "th": "เธอเต้นได้ไหม?"
+        },
+        {
+          "t": "Yes, I can. I can dance very well.",
+          "th": "ได้สิ ฉันเต้นเก่งมากเลย"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🏊 ภาพนี้คือ...",
+          "c": [
+            "run fast",
+            "swim",
+            "jump high"
+          ],
+          "a": 1
+        },
+        {
+          "q": "'ฉันร้องเพลงได้' พูดว่า...",
+          "c": [
+            "I can sing.",
+            "I can dance.",
+            "I can run."
+          ],
+          "a": 0
+        },
+        {
+          "q": "___ you swim? — Yes, I can!",
+          "c": [
+            "Do",
+            "Is",
+            "Can"
+          ],
+          "a": 2
+        },
+        {
+          "q": "'ขี่จักรยาน' คือ...",
+          "c": [
+            "ride a bike",
+            "drive a car",
+            "jump rope"
+          ],
+          "a": 0
+        },
+        {
+          "q": "⚽ = play ___",
+          "c": [
+            "basketball",
+            "football",
+            "tennis"
+          ],
+          "a": 1
+        },
+        {
+          "q": "ถ้าทำไม่ได้ ตอบว่า...",
+          "c": [
+            "No, I can't.",
+            "Yes, I can.",
+            "No, I am."
+          ],
+          "a": 0
+        },
+        {
+          "q": "She ___ draw very well.",
+          "c": [
+            "can",
+            "do",
+            "is"
+          ],
+          "a": 0
+        },
+        {
+          "q": "Ducky ___ fly. (เป็ดบินได้!)",
+          "c": [
+            "can",
+            "can't",
+            "don't"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p4u1l2",
+      "icon": "🌟",
+      "title": "Special Talents",
+      "sub": "ความสามารถพิเศษ",
+      "intro": {
+        "en": "Everyone has a special talent!",
+        "th": "ทุกคนมีความสามารถพิเศษ! มาดูกันว่าเพื่อนๆ ที่งานแฟร์ทำอะไรได้บ้าง"
+      },
+      "vocab": [
+        {
+          "w": "cook",
+          "th": "ทำอาหาร",
+          "e": "🍳"
+        },
+        {
+          "w": "climb a tree",
+          "th": "ปีนต้นไม้",
+          "e": "🌳"
+        },
+        {
+          "w": "speak English",
+          "th": "พูดภาษาอังกฤษ",
+          "e": "🗣️"
+        },
+        {
+          "w": "play the guitar",
+          "th": "เล่นกีตาร์",
+          "e": "🎸"
+        },
+        {
+          "w": "take a photo",
+          "th": "ถ่ายรูป",
+          "e": "📷"
+        },
+        {
+          "w": "skate",
+          "th": "เล่นสเก็ต",
+          "e": "🛹"
+        },
+        {
+          "w": "do a magic trick",
+          "th": "เล่นมายากล",
+          "e": "🎩"
+        },
+        {
+          "w": "make a cake",
+          "th": "ทำเค้ก",
+          "e": "🎂"
+        }
+      ],
+      "build": {
+        "sentence": "My father can cook very well.",
+        "th": "พ่อของฉันทำอาหารเก่งมาก"
+      },
+      "speak": [
+        {
+          "t": "I can speak English.",
+          "th": "ฉันพูดภาษาอังกฤษได้"
+        },
+        {
+          "t": "My friend can play the guitar.",
+          "th": "เพื่อนของฉันเล่นกีตาร์ได้"
+        },
+        {
+          "t": "He can do a magic trick.",
+          "th": "เขาเล่นมายากลได้"
+        },
+        {
+          "t": "We can make a cake together.",
+          "th": "พวกเราทำเค้กด้วยกันได้"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🎸 = play the ___",
+          "c": [
+            "piano",
+            "guitar",
+            "drum"
+          ],
+          "a": 1
+        },
+        {
+          "q": "'ทำอาหาร' คือ...",
+          "c": [
+            "cook",
+            "cake",
+            "kitchen"
+          ],
+          "a": 0
+        },
+        {
+          "q": "📷 ภาพนี้คือ...",
+          "c": [
+            "take a photo",
+            "watch TV",
+            "draw"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ปีนต้นไม้' คือ...",
+          "c": [
+            "climb a tree",
+            "cut a tree",
+            "water a tree"
+          ],
+          "a": 0
+        },
+        {
+          "q": "My mom can ___ a cake.",
+          "c": [
+            "make",
+            "take",
+            "speak"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🎩✨ = do a ___ trick",
+          "c": [
+            "magic",
+            "music",
+            "math"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I can ___ English.",
+          "c": [
+            "speak",
+            "eat",
+            "climb"
+          ],
+          "a": 0
+        },
+        {
+          "q": "Monkey ___ climb a tree.",
+          "c": [
+            "can",
+            "can't",
+            "isn't"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p4u1l3",
+      "icon": "🦉",
+      "title": "Can or Can't?",
+      "sub": "ทำได้ vs ทำไม่ได้",
+      "intro": {
+        "en": "A bird can fly, but a fish cannot!",
+        "th": "สัตว์แต่ละชนิดเก่งไม่เหมือนกัน! เรียนประโยคปฏิเสธ can't = ทำไม่ได้"
+      },
+      "vocab": [
+        {
+          "w": "fly",
+          "th": "บิน",
+          "e": "🕊️"
+        },
+        {
+          "w": "hop",
+          "th": "กระโดดสองขา",
+          "e": "🐇"
+        },
+        {
+          "w": "climb",
+          "th": "ปีน",
+          "e": "🐒"
+        },
+        {
+          "w": "swim fast",
+          "th": "ว่ายน้ำเร็ว",
+          "e": "🐬"
+        },
+        {
+          "w": "run very fast",
+          "th": "วิ่งเร็วมาก",
+          "e": "🐆"
+        },
+        {
+          "w": "see at night",
+          "th": "มองเห็นตอนกลางคืน",
+          "e": "🦉"
+        },
+        {
+          "w": "carry heavy things",
+          "th": "แบกของหนัก",
+          "e": "🐘"
+        },
+        {
+          "w": "change color",
+          "th": "เปลี่ยนสี",
+          "e": "🦎"
+        }
+      ],
+      "build": {
+        "sentence": "A bird can fly but a fish cannot.",
+        "th": "นกบินได้ แต่ปลาบินไม่ได้"
+      },
+      "speak": [
+        {
+          "t": "A bird can fly.",
+          "th": "นกบินได้"
+        },
+        {
+          "t": "A fish can swim fast.",
+          "th": "ปลาว่ายน้ำได้เร็ว"
+        },
+        {
+          "t": "An owl can see at night.",
+          "th": "นกฮูกมองเห็นตอนกลางคืนได้"
+        },
+        {
+          "t": "I cannot fly, but I can dream!",
+          "th": "ฉันบินไม่ได้ แต่ฉันฝันได้!"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🕊️ นก ___ fly.",
+          "c": [
+            "can",
+            "can't",
+            "don't"
+          ],
+          "a": 0
+        },
+        {
+          "q": "ปลา ___ climb a tree.",
+          "c": [
+            "can",
+            "can't",
+            "do"
+          ],
+          "a": 1
+        },
+        {
+          "q": "🦉 นกฮูกเก่งเรื่อง...",
+          "c": [
+            "see at night",
+            "change color",
+            "carry heavy things"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🦎 กิ้งก่าเก่งเรื่อง...",
+          "c": [
+            "fly",
+            "change color",
+            "sing"
+          ],
+          "a": 1
+        },
+        {
+          "q": "🐘 ช้างเก่งเรื่อง...",
+          "c": [
+            "carry heavy things",
+            "hop",
+            "fly"
+          ],
+          "a": 0
+        },
+        {
+          "q": "can't ย่อมาจาก...",
+          "c": [
+            "cannot",
+            "can note",
+            "can it"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🐇 กระต่ายชอบ...",
+          "c": [
+            "hop",
+            "swim",
+            "fly"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🐆 เสือชีตาห์ can ___",
+          "c": [
+            "run very fast",
+            "see at night",
+            "change color"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p4u1l4",
+      "icon": "🏆",
+      "title": "The Talent Show",
+      "sub": "โชว์ความสามารถ + ทบทวน",
+      "intro": {
+        "en": "Welcome to the Fair Talent Show!",
+        "th": "ถึงเวลาประกวดความสามารถที่งานแฟร์! บทนี้ทบทวนทั้งหน่วยด้วยนะ"
+      },
+      "vocab": [
+        {
+          "w": "on stage",
+          "th": "บนเวที",
+          "e": "🎭"
+        },
+        {
+          "w": "practice",
+          "th": "ฝึกซ้อม",
+          "e": "🔁"
+        },
+        {
+          "w": "try again",
+          "th": "ลองอีกครั้ง",
+          "e": "💪"
+        },
+        {
+          "w": "do my best",
+          "th": "ทำให้เต็มที่",
+          "e": "🌟"
+        },
+        {
+          "w": "win a prize",
+          "th": "ได้รางวัล",
+          "e": "🏆"
+        },
+        {
+          "w": "clap",
+          "th": "ปรบมือ",
+          "e": "👏"
+        },
+        {
+          "w": "cheer",
+          "th": "ส่งเสียงเชียร์",
+          "e": "📣"
+        },
+        {
+          "w": "smile",
+          "th": "ยิ้ม",
+          "e": "😊"
+        }
+      ],
+      "build": {
+        "sentence": "I always do my best.",
+        "th": "ฉันทำเต็มที่เสมอ"
+      },
+      "speak": [
+        {
+          "t": "I practice every day.",
+          "th": "ฉันฝึกซ้อมทุกวัน"
+        },
+        {
+          "t": "Do not give up. Try again!",
+          "th": "อย่ายอมแพ้ ลองอีกครั้ง!"
+        },
+        {
+          "t": "I can do it!",
+          "th": "ฉันทำได้!"
+        },
+        {
+          "t": "Everyone claps and cheers.",
+          "th": "ทุกคนปรบมือและส่งเสียงเชียร์"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🎭 แสดงที่ไหน?",
+          "c": [
+            "on stage",
+            "at home",
+            "in bed"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ฝึกซ้อม' คือ...",
+          "c": [
+            "practice",
+            "prize",
+            "smile"
+          ],
+          "a": 0
+        },
+        {
+          "q": "ทำพลาดแล้วควร...",
+          "c": [
+            "try again",
+            "go home",
+            "cry"
+          ],
+          "a": 0
+        },
+        {
+          "q": "👏 = ?",
+          "c": [
+            "clap",
+            "cheer",
+            "climb"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ได้รางวัล' คือ...",
+          "c": [
+            "win a prize",
+            "do my best",
+            "on stage"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] ___ you play the guitar?",
+          "c": [
+            "Can",
+            "Is",
+            "Are"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] An owl can ___ at night.",
+          "c": [
+            "see",
+            "cook",
+            "skate"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] I can't swim, but I can ___ again!",
+          "c": [
+            "try",
+            "fly",
+            "cry"
+          ],
+          "a": 0
+        }
+      ]
+    }
+  ]
+}
