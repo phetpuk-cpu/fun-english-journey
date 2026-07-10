@@ -1,0 +1,143 @@
+{
+  "grade": "p4",
+  "gradeName": "ป.4 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 4 · Yummy Fair Food — ของกินในงานแฟร์",
+  "lessons": [
+    {
+      "id": "p4u4l1",
+      "icon": "🍿",
+      "title": "Fair Food Stalls",
+      "sub": "ร้านของกินในงานแฟร์",
+      "intro": { "en": "So many yummy foods at the fair!", "th": "ที่งานแฟร์มีของกินอร่อยๆ เยอะเลย!" },
+      "vocab": [
+        {"w":"cotton candy","th":"สายไหม","e":"🍭"},
+        {"w":"ice cream","th":"ไอศกรีม","e":"🍦"},
+        {"w":"popcorn","th":"ป๊อปคอร์น","e":"🍿"},
+        {"w":"hot dog","th":"ฮอทดอก","e":"🌭"},
+        {"w":"pizza","th":"พิซซ่า","e":"🍕"},
+        {"w":"donut","th":"โดนัท","e":"🍩"},
+        {"w":"lemonade","th":"น้ำมะนาว","e":"🍋"},
+        {"w":"corn on the cob","th":"ข้าวโพดต้ม","e":"🌽"}
+      ],
+      "build": {"sentence":"I want cotton candy.","th":"ฉันอยากได้สายไหม"},
+      "speak": [
+        {"t":"I want cotton candy.","th":"ฉันอยากได้สายไหม"},
+        {"t":"This ice cream is so cold.","th":"ไอศกรีมนี้เย็นมาก"},
+        {"t":"Can I have a hot dog?","th":"ขอฮอทดอกได้ไหม?"},
+        {"t":"I like popcorn at the fair.","th":"ฉันชอบป๊อปคอร์นที่งานแฟร์"}
+      ],
+      "quiz": [
+        {"q":"🍭 คือ...","c":["cotton candy","ice cream","popcorn"],"a":0},
+        {"q":"'ไอศกรีม' คือ...","c":["ice cream","donut","pizza"],"a":0},
+        {"q":"🌭 คือ...","c":["hot dog","pizza","popcorn"],"a":0},
+        {"q":"'พิซซ่า' คือ...","c":["pizza","donut","hot dog"],"a":0},
+        {"q":"🍩 คือ...","c":["donut","ice cream","popcorn"],"a":0},
+        {"q":"'น้ำมะนาว' คือ...","c":["lemonade","ice cream","popcorn"],"a":0},
+        {"q":"🌽 คือ...","c":["corn on the cob","hot dog","donut"],"a":0},
+        {"q":"'ป๊อปคอร์น' คือ...","c":["popcorn","cotton candy","pizza"],"a":0}
+      ]
+    },
+    {
+      "id": "p4u4l2",
+      "icon": "🙋",
+      "title": "I'd Like to Order",
+      "sub": "สั่งอาหาร",
+      "intro": { "en": "What would you like to order?", "th": "หนูอยากสั่งอะไรนะ?" },
+      "vocab": [
+        {"w":"would like","th":"อยากได้","e":"🙋"},
+        {"w":"order","th":"สั่ง","e":"📝"},
+        {"w":"a cup of","th":"...หนึ่งแก้ว","e":"🥤"},
+        {"w":"a piece of","th":"...หนึ่งชิ้น","e":"🍰"},
+        {"w":"take away","th":"ห่อกลับบ้าน","e":"🥡"},
+        {"w":"eat here","th":"ทานที่นี่","e":"🍽️"},
+        {"w":"please","th":"ได้โปรด","e":"🙏"},
+        {"w":"menu","th":"เมนู","e":"📋"}
+      ],
+      "build": {"sentence":"I would like a piece of pizza, please.","th":"ฉันอยากได้พิซซ่าหนึ่งชิ้นค่ะ/ครับ"},
+      "speak": [
+        {"t":"I would like to order, please.","th":"ฉันอยากสั่งอาหารค่ะ/ครับ"},
+        {"t":"I would like a cup of lemonade.","th":"ฉันอยากได้น้ำมะนาวหนึ่งแก้ว"},
+        {"t":"Is it take away or eat here?","th":"เอากลับบ้านหรือทานที่นี่?"},
+        {"t":"May I see the menu, please?","th":"ขอดูเมนูหน่อยได้ไหม?"}
+      ],
+      "quiz": [
+        {"q":"🙋 คือ...","c":["would like","order","please"],"a":0},
+        {"q":"'สั่ง' คือ...","c":["order","eat here","take away"],"a":0},
+        {"q":"🥤 คือ...","c":["a cup of","a piece of","menu"],"a":0},
+        {"q":"'ห่อกลับบ้าน' คือ...","c":["take away","eat here","order"],"a":0},
+        {"q":"🍰 คือ...","c":["a piece of","a cup of","menu"],"a":0},
+        {"q":"I ___ like a hot dog, please.","c":["would","do","can"],"a":0},
+        {"q":"📋 คือ...","c":["menu","order","please"],"a":0},
+        {"q":"'ทานที่นี่' คือ...","c":["eat here","take away","order"],"a":0}
+      ]
+    },
+    {
+      "id": "p4u4l3",
+      "icon": "🍰",
+      "title": "Let's Share!",
+      "sub": "แบ่งกันกิน",
+      "intro": { "en": "Sharing food is fun!", "th": "แบ่งอาหารกินด้วยกันสนุกจัง!" },
+      "vocab": [
+        {"w":"share","th":"แบ่งปัน","e":"🤝"},
+        {"w":"taste","th":"ลองชิม","e":"👅"},
+        {"w":"enough","th":"พอแล้ว","e":"👌"},
+        {"w":"a little","th":"นิดหน่อย","e":"🤏"},
+        {"w":"a lot","th":"เยอะมาก","e":"🙌"},
+        {"w":"some","th":"บ้าง/บางส่วน","e":"➗"},
+        {"w":"more","th":"เพิ่ม","e":"➕"},
+        {"w":"no more","th":"ไม่เอาอีกแล้ว","e":"🙅"}
+      ],
+      "build": {"sentence":"Can I taste a little?","th":"ขอชิมนิดหน่อยได้ไหม?"},
+      "speak": [
+        {"t":"Let's share this pizza.","th":"มาแบ่งพิซซ่ากันเถอะ"},
+        {"t":"Can I taste some?","th":"ขอชิมหน่อยได้ไหม?"},
+        {"t":"I want a little, please.","th":"ฉันขอนิดหน่อยค่ะ/ครับ"},
+        {"t":"That is enough for me.","th":"พอแล้วสำหรับฉัน"}
+      ],
+      "quiz": [
+        {"q":"🤝 คือ...","c":["share","taste","enough"],"a":0},
+        {"q":"'ลองชิม' คือ...","c":["taste","share","some"],"a":0},
+        {"q":"🤏 คือ...","c":["a little","a lot","more"],"a":0},
+        {"q":"'เยอะมาก' คือ...","c":["a lot","a little","enough"],"a":0},
+        {"q":"👌 คือ...","c":["enough","more","no more"],"a":0},
+        {"q":"'เพิ่ม' คือ...","c":["more","enough","some"],"a":0},
+        {"q":"Can I ___ some pizza?","c":["taste","share","give"],"a":0},
+        {"q":"🙅 ไม่เอาอีกแล้วคือ...","c":["no more","more","some"],"a":0}
+      ]
+    },
+    {
+      "id": "p4u4l4",
+      "icon": "🎪",
+      "title": "Food Festival",
+      "sub": "เทศกาลอาหาร + ทบทวน",
+      "intro": { "en": "Welcome to the Food Festival!", "th": "ยินดีต้อนรับสู่เทศกาลอาหาร! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"festival","th":"เทศกาล","e":"🎪"},
+        {"w":"favorite","th":"โปรด","e":"⭐"},
+        {"w":"crowded","th":"คนเยอะ","e":"👥"},
+        {"w":"queue","th":"ต่อแถว","e":"🚶‍♂️"},
+        {"w":"wait","th":"รอ","e":"⏳"},
+        {"w":"full","th":"อิ่ม","e":"🙂"},
+        {"w":"hungry","th":"หิว","e":"😫"},
+        {"w":"yummy","th":"อร่อยจัง","e":"🤤"}
+      ],
+      "build": {"sentence":"My favorite food is pizza.","th":"อาหารโปรดของฉันคือพิซซ่า"},
+      "speak": [
+        {"t":"My favorite food is ice cream.","th":"อาหารโปรดของฉันคือไอศกรีม"},
+        {"t":"We wait in the queue.","th":"พวกเรารอต่อแถว"},
+        {"t":"This place is very crowded.","th":"ที่นี่คนเยอะมาก"},
+        {"t":"I am full now, thank you.","th":"ตอนนี้ฉันอิ่มแล้ว ขอบคุณนะ"}
+      ],
+      "quiz": [
+        {"q":"🎪 คือ...","c":["festival","market","school"],"a":0},
+        {"q":"'คนเยอะ' คือ...","c":["crowded","hungry","full"],"a":0},
+        {"q":"⏳ คือ...","c":["wait","queue","favorite"],"a":0},
+        {"q":"'ต่อแถว' คือ...","c":["queue","wait","crowded"],"a":0},
+        {"q":"[ทบทวน] I ___ like a hot dog, please.","c":["would","do","can"],"a":0},
+        {"q":"[ทบทวน] 🍭 คือ...","c":["cotton candy","ice cream","popcorn"],"a":0},
+        {"q":"[ทบทวน] Can I ___ some pizza? (ชิม)","c":["taste","share","give"],"a":0},
+        {"q":"'อิ่ม' คือ...","c":["full","hungry","yummy"],"a":0}
+      ]
+    }
+  ]
+}

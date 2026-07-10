@@ -1,0 +1,143 @@
+{
+  "grade": "p3",
+  "gradeName": "ป.3 — Big City 🏙️",
+  "unitName": "หน่วย 6 · My Body & Health — ร่างกายและสุขภาพ",
+  "lessons": [
+    {
+      "id": "p3u6l1",
+      "icon": "🧍",
+      "title": "My Body",
+      "sub": "อวัยวะในร่างกาย",
+      "intro": { "en": "This is my body! Let's learn the parts.", "th": "นี่คือร่างกายของฉัน! มาเรียนชื่ออวัยวะกันเถอะ" },
+      "vocab": [
+        {"w":"head","th":"หัว","e":"🗣️"},
+        {"w":"eyes","th":"ตา","e":"👀"},
+        {"w":"ears","th":"หู","e":"👂"},
+        {"w":"nose","th":"จมูก","e":"👃"},
+        {"w":"mouth","th":"ปาก","e":"👄"},
+        {"w":"hands","th":"มือ","e":"✋"},
+        {"w":"legs","th":"ขา","e":"🦵"},
+        {"w":"feet","th":"เท้า","e":"🦶"}
+      ],
+      "build": {"sentence":"I have two eyes.","th":"ฉันมีตาสองข้าง"},
+      "speak": [
+        {"t":"This is my head.","th":"นี่คือหัวของฉัน"},
+        {"t":"I have two hands.","th":"ฉันมีมือสองข้าง"},
+        {"t":"I wash my hands before I eat.","th":"ฉันล้างมือก่อนกินข้าว"},
+        {"t":"My feet are big.","th":"เท้าของฉันใหญ่"}
+      ],
+      "quiz": [
+        {"q":"👀 คือ...","c":["eyes","ears","nose"],"a":0},
+        {"q":"'หู' คือ...","c":["ears","eyes","mouth"],"a":0},
+        {"q":"👃 คือ...","c":["nose","mouth","head"],"a":0},
+        {"q":"I have two ___. (มือ)","c":["hands","legs","feet"],"a":0},
+        {"q":"🦵 คือ...","c":["legs","feet","hands"],"a":0},
+        {"q":"'เท้า' คือ...","c":["feet","legs","hands"],"a":0},
+        {"q":"👄 คือ...","c":["mouth","nose","ears"],"a":0},
+        {"q":"'หัว' คือ...","c":["head","hands","feet"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u6l2",
+      "icon": "👁️",
+      "title": "My Senses",
+      "sub": "ประสาทสัมผัส",
+      "intro": { "en": "I can see, hear, and smell with my body!", "th": "ฉันมองเห็น ได้ยิน และได้กลิ่นด้วยร่างกายของฉันนะ" },
+      "vocab": [
+        {"w":"hair","th":"ผม","e":"💇"},
+        {"w":"teeth","th":"ฟัน","e":"🦷"},
+        {"w":"tongue","th":"ลิ้น","e":"👅"},
+        {"w":"finger","th":"นิ้วมือ","e":"👆"},
+        {"w":"see","th":"มองเห็น","e":"👁️"},
+        {"w":"hear","th":"ได้ยิน","e":"👂"},
+        {"w":"smell","th":"ได้กลิ่น","e":"👃"},
+        {"w":"taste","th":"รู้รส","e":"👅"}
+      ],
+      "build": {"sentence":"I see with my eyes.","th":"ฉันมองเห็นด้วยตา"},
+      "speak": [
+        {"t":"I see with my eyes.","th":"ฉันมองเห็นด้วยตา"},
+        {"t":"I hear with my ears.","th":"ฉันได้ยินด้วยหู"},
+        {"t":"I smell with my nose.","th":"ฉันได้กลิ่นด้วยจมูก"},
+        {"t":"I taste with my tongue.","th":"ฉันรู้รสด้วยลิ้น"}
+      ],
+      "quiz": [
+        {"q":"🦷 คือ...","c":["teeth","tongue","hair"],"a":0},
+        {"q":"'ลิ้น' คือ...","c":["tongue","teeth","finger"],"a":0},
+        {"q":"I ___ with my eyes. (มองเห็น)","c":["see","hear","smell"],"a":0},
+        {"q":"👂 ใช้ทำอะไร?","c":["hear","see","taste"],"a":0},
+        {"q":"'ได้กลิ่น' คือ...","c":["smell","taste","see"],"a":0},
+        {"q":"I ___ with my tongue. (รู้รส)","c":["taste","hear","smell"],"a":0},
+        {"q":"👆 คือ...","c":["finger","hair","teeth"],"a":0},
+        {"q":"'ผม' คือ...","c":["hair","finger","tongue"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u6l3",
+      "icon": "🤒",
+      "title": "I Feel Sick",
+      "sub": "เมื่อรู้สึกไม่สบาย",
+      "intro": { "en": "Oh no, I don't feel well today.", "th": "โอ๊ะ วันนี้ฉันรู้สึกไม่สบายเลย" },
+      "vocab": [
+        {"w":"sick","th":"ไม่สบาย","e":"🤒"},
+        {"w":"headache","th":"ปวดหัว","e":"🤕"},
+        {"w":"stomachache","th":"ปวดท้อง","e":"😖"},
+        {"w":"fever","th":"เป็นไข้","e":"🌡️"},
+        {"w":"cough","th":"ไอ","e":"😷"},
+        {"w":"rest","th":"พักผ่อน","e":"🛌"},
+        {"w":"medicine","th":"ยา","e":"💊"},
+        {"w":"see a doctor","th":"ไปหาหมอ","e":"👨‍⚕️"}
+      ],
+      "build": {"sentence":"I have a headache.","th":"ฉันปวดหัว"},
+      "speak": [
+        {"t":"I feel sick today.","th":"วันนี้ฉันรู้สึกไม่สบาย"},
+        {"t":"I have a fever.","th":"ฉันเป็นไข้"},
+        {"t":"I need to rest.","th":"ฉันต้องพักผ่อน"},
+        {"t":"I should see a doctor.","th":"ฉันควรไปหาหมอ"}
+      ],
+      "quiz": [
+        {"q":"🤒 คือ...","c":["sick","rest","medicine"],"a":0},
+        {"q":"'ปวดหัว' คือ...","c":["headache","stomachache","fever"],"a":0},
+        {"q":"🌡️ คือ...","c":["fever","cough","sick"],"a":0},
+        {"q":"'ไอ' คือ...","c":["cough","fever","sick"],"a":0},
+        {"q":"When I am sick, I need to ___.","c":["rest","play games","run fast"],"a":0},
+        {"q":"💊 คือ...","c":["medicine","doctor","rest"],"a":0},
+        {"q":"'ไปหาหมอ' คือ...","c":["see a doctor","take medicine","rest"],"a":0},
+        {"q":"😖 ปวดท้องคือ...","c":["stomachache","headache","fever"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u6l4",
+      "icon": "💪",
+      "title": "Stay Healthy",
+      "sub": "ดูแลสุขภาพให้แข็งแรง + ทบทวน",
+      "intro": { "en": "Let's stay healthy every day!", "th": "มาดูแลสุขภาพให้แข็งแรงทุกวันกันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"exercise","th":"ออกกำลังกาย","e":"🏃"},
+        {"w":"eat vegetables","th":"กินผัก","e":"🥦"},
+        {"w":"drink water","th":"ดื่มน้ำ","e":"💧"},
+        {"w":"sleep early","th":"นอนแต่หัวค่ำ","e":"🌙"},
+        {"w":"wash your hands","th":"ล้างมือ","e":"🧼"},
+        {"w":"keep clean","th":"รักษาความสะอาด","e":"🧴"},
+        {"w":"strong","th":"แข็งแรง","e":"💪"},
+        {"w":"healthy","th":"สุขภาพดี","e":"🥗"}
+      ],
+      "build": {"sentence":"I exercise every day to stay healthy.","th":"ฉันออกกำลังกายทุกวันเพื่อสุขภาพที่ดี"},
+      "speak": [
+        {"t":"I exercise every day.","th":"ฉันออกกำลังกายทุกวัน"},
+        {"t":"I eat vegetables to stay strong.","th":"ฉันกินผักเพื่อให้แข็งแรง"},
+        {"t":"I wash my hands before I eat.","th":"ฉันล้างมือก่อนกินข้าว"},
+        {"t":"I sleep early every night.","th":"ฉันนอนแต่หัวค่ำทุกคืน"}
+      ],
+      "quiz": [
+        {"q":"🏃 คือ...","c":["exercise","rest","sleep early"],"a":0},
+        {"q":"'ดื่มน้ำ' คือ...","c":["drink water","eat vegetables","keep clean"],"a":0},
+        {"q":"To stay healthy, I ___ every day.","c":["exercise","cough","feel sick"],"a":0},
+        {"q":"🧼 คือ...","c":["wash your hands","keep clean","rest"],"a":0},
+        {"q":"[ทบทวน] I ___ with my eyes. (มองเห็น)","c":["see","hear","smell"],"a":0},
+        {"q":"[ทบทวน] I have a ___. (ปวดหัว)","c":["headache","fever","cough"],"a":0},
+        {"q":"[ทบทวน] 🦶 คือ...","c":["feet","hands","legs"],"a":0},
+        {"q":"'แข็งแรง' คือ...","c":["strong","healthy","sick"],"a":0}
+      ]
+    }
+  ]
+}

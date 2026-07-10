@@ -1,0 +1,143 @@
+{
+  "grade": "p3",
+  "gradeName": "ป.3 — Big City 🏙️",
+  "unitName": "หน่วย 8 · Weather & Feelings — อากาศและความรู้สึก",
+  "lessons": [
+    {
+      "id": "p3u8l1",
+      "icon": "☀️",
+      "title": "What's the Weather?",
+      "sub": "สภาพอากาศ",
+      "intro": { "en": "What is the weather like today?", "th": "วันนี้อากาศเป็นยังไงนะ?" },
+      "vocab": [
+        {"w":"sunny","th":"แดดออก","e":"☀️"},
+        {"w":"rainy","th":"ฝนตก","e":"🌧️"},
+        {"w":"cloudy","th":"มีเมฆ","e":"☁️"},
+        {"w":"windy","th":"ลมแรง","e":"💨"},
+        {"w":"hot","th":"ร้อน","e":"🥵"},
+        {"w":"cold","th":"หนาว","e":"🥶"},
+        {"w":"snowy","th":"หิมะตก","e":"❄️"},
+        {"w":"stormy","th":"พายุ","e":"⛈️"}
+      ],
+      "build": {"sentence":"It is sunny today.","th":"วันนี้แดดออก"},
+      "speak": [
+        {"t":"It is sunny today.","th":"วันนี้แดดออก"},
+        {"t":"It is raining outside.","th":"ข้างนอกฝนตก"},
+        {"t":"It is very hot today.","th":"วันนี้ร้อนมาก"},
+        {"t":"It is cold and windy.","th":"อากาศหนาวและลมแรง"}
+      ],
+      "quiz": [
+        {"q":"☀️ คือ...","c":["sunny","rainy","cloudy"],"a":0},
+        {"q":"'ฝนตก' คือ...","c":["rainy","sunny","windy"],"a":0},
+        {"q":"☁️ คือ...","c":["cloudy","stormy","snowy"],"a":0},
+        {"q":"'ลมแรง' คือ...","c":["windy","hot","cold"],"a":0},
+        {"q":"🥵 คือ...","c":["hot","cold","rainy"],"a":0},
+        {"q":"'หนาว' คือ...","c":["cold","hot","sunny"],"a":0},
+        {"q":"❄️ คือ...","c":["snowy","stormy","cloudy"],"a":0},
+        {"q":"'พายุ' คือ...","c":["stormy","windy","rainy"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u8l2",
+      "icon": "😊",
+      "title": "How Do You Feel?",
+      "sub": "ความรู้สึกของฉัน",
+      "intro": { "en": "How are you feeling today?", "th": "วันนี้หนูรู้สึกยังไงบ้าง?" },
+      "vocab": [
+        {"w":"happy","th":"มีความสุข","e":"😊"},
+        {"w":"sad","th":"เศร้า","e":"😢"},
+        {"w":"angry","th":"โกรธ","e":"😠"},
+        {"w":"scared","th":"กลัว","e":"😨"},
+        {"w":"excited","th":"ตื่นเต้น","e":"🤩"},
+        {"w":"tired","th":"เหนื่อย","e":"😴"},
+        {"w":"surprised","th":"ประหลาดใจ","e":"😮"},
+        {"w":"bored","th":"เบื่อ","e":"😑"}
+      ],
+      "build": {"sentence":"I feel happy today.","th":"วันนี้ฉันรู้สึกมีความสุข"},
+      "speak": [
+        {"t":"I feel happy today.","th":"วันนี้ฉันรู้สึกมีความสุข"},
+        {"t":"I am tired after school.","th":"ฉันเหนื่อยหลังเลิกเรียน"},
+        {"t":"I feel excited about the trip.","th":"ฉันตื่นเต้นเรื่องทริปนี้"},
+        {"t":"Don't be scared, I am here.","th":"อย่ากลัวเลย ฉันอยู่ตรงนี้"}
+      ],
+      "quiz": [
+        {"q":"😊 คือ...","c":["happy","sad","angry"],"a":0},
+        {"q":"'เศร้า' คือ...","c":["sad","happy","excited"],"a":0},
+        {"q":"😠 คือ...","c":["angry","scared","bored"],"a":0},
+        {"q":"'กลัว' คือ...","c":["scared","tired","surprised"],"a":0},
+        {"q":"🤩 คือ...","c":["excited","bored","sad"],"a":0},
+        {"q":"'เหนื่อย' คือ...","c":["tired","angry","happy"],"a":0},
+        {"q":"😮 คือ...","c":["surprised","scared","bored"],"a":0},
+        {"q":"'เบื่อ' คือ...","c":["bored","tired","sad"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u8l3",
+      "icon": "🌦️",
+      "title": "Weather Makes Me Feel...",
+      "sub": "อากาศกับความรู้สึก",
+      "intro": { "en": "The weather can change how we feel!", "th": "อากาศทำให้ความรู้สึกของเราเปลี่ยนไปได้นะ" },
+      "vocab": [
+        {"w":"umbrella","th":"ร่ม","e":"☂️"},
+        {"w":"raincoat","th":"เสื้อกันฝน","e":"🧥"},
+        {"w":"sunglasses","th":"แว่นกันแดด","e":"🕶️"},
+        {"w":"rainbow","th":"รุ้งกินน้ำ","e":"🌈"},
+        {"w":"puddle","th":"แอ่งน้ำ","e":"💦"},
+        {"w":"thunder","th":"ฟ้าร้อง","e":"⚡"},
+        {"w":"stay inside","th":"อยู่ในบ้าน","e":"🏠"},
+        {"w":"play outside","th":"เล่นข้างนอก","e":"🤸"}
+      ],
+      "build": {"sentence":"When it rains, I feel sleepy.","th":"เวลาฝนตก ฉันรู้สึกง่วงนอน"},
+      "speak": [
+        {"t":"I feel happy when it is sunny.","th":"ฉันมีความสุขเวลาแดดออก"},
+        {"t":"I bring my umbrella when it rains.","th":"ฉันเอาร่มไปด้วยเวลาฝนตก"},
+        {"t":"I am scared of thunder.","th":"ฉันกลัวฟ้าร้อง"},
+        {"t":"I stay inside when it storms.","th":"ฉันอยู่ในบ้านเวลาพายุมา"}
+      ],
+      "quiz": [
+        {"q":"☂️ คือ...","c":["umbrella","raincoat","sunglasses"],"a":0},
+        {"q":"'รุ้งกินน้ำ' คือ...","c":["rainbow","puddle","thunder"],"a":0},
+        {"q":"⚡ คือ...","c":["thunder","rainbow","umbrella"],"a":0},
+        {"q":"เวลาฝนตกเราใส่...","c":["raincoat","sunglasses","shorts"],"a":0},
+        {"q":"🕶️ คือ...","c":["sunglasses","umbrella","raincoat"],"a":0},
+        {"q":"When it storms, I should ___.","c":["stay inside","play outside","go swimming"],"a":0},
+        {"q":"💦 คือ...","c":["puddle","rainbow","thunder"],"a":0},
+        {"q":"'เล่นข้างนอก' คือ...","c":["play outside","stay inside","take a bath"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u8l4",
+      "icon": "🎓",
+      "title": "Grand Review",
+      "sub": "ทบทวนใหญ่ ป.3 ทั้งหมด",
+      "intro": { "en": "You finished Grade 3! Let's review everything!", "th": "หนูเรียนจบ ป.3 แล้ว! มาทบทวนทุกอย่างที่เรียนมากันเถอะ" },
+      "vocab": [
+        {"w":"wake up","th":"ตื่นนอน","e":"⏰"},
+        {"w":"half past","th":"...ครึ่ง","e":"🕡"},
+        {"w":"family","th":"ครอบครัว","e":"👨‍👩‍👧‍👦"},
+        {"w":"bedroom","th":"ห้องนอน","e":"🛏️"},
+        {"w":"delicious","th":"อร่อย","e":"😋"},
+        {"w":"healthy","th":"สุขภาพดี","e":"🥗"},
+        {"w":"dog","th":"หมา","e":"🐶"},
+        {"w":"sunny","th":"แดดออก","e":"☀️"}
+      ],
+      "build": {"sentence":"I am happy because it is sunny today.","th":"ฉันมีความสุขเพราะวันนี้แดดออก"},
+      "speak": [
+        {"t":"I wake up early every day.","th":"ฉันตื่นนอนแต่เช้าทุกวัน"},
+        {"t":"My family is happy together.","th":"ครอบครัวของฉันมีความสุขด้วยกัน"},
+        {"t":"I eat healthy food every day.","th":"ฉันกินอาหารที่มีประโยชน์ทุกวัน"},
+        {"t":"I love my pet very much.","th":"ฉันรักสัตว์เลี้ยงของฉันมากๆ"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย1] ⏰ คือ...","c":["wake up","go to bed","eat dinner"],"a":0},
+        {"q":"[หน่วย2] เวลา 6:30 พูดว่า...","c":["half past six","six o'clock","six past half"],"a":0},
+        {"q":"[หน่วย3] 👨 คือ...","c":["father","mother","sister"],"a":0},
+        {"q":"[หน่วย4] 🛏️ อยู่ในห้องไหน?","c":["bedroom","kitchen","garage"],"a":0},
+        {"q":"[หน่วย5] 🍎 คือ...","c":["apple","banana","mango"],"a":0},
+        {"q":"[หน่วย6] I ___ with my eyes.","c":["see","hear","smell"],"a":0},
+        {"q":"[หน่วย7] 🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
+        {"q":"[หน่วย8] ☀️ คือ...","c":["sunny","rainy","cloudy"],"a":0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "grade": "p3",
+  "gradeName": "ป.3 — Big City 🏙️",
+  "unitName": "หน่วย 5 · Yummy Food — อาหารแสนอร่อย",
+  "lessons": [
+    {
+      "id": "p3u5l1",
+      "icon": "🍎",
+      "title": "Fruits",
+      "sub": "ผลไม้",
+      "intro": { "en": "I love eating fruit! Do you?", "th": "ฉันชอบกินผลไม้มาก แล้วหนูล่ะ?" },
+      "vocab": [
+        {"w":"apple","th":"แอปเปิล","e":"🍎"},
+        {"w":"banana","th":"กล้วย","e":"🍌"},
+        {"w":"orange","th":"ส้ม","e":"🍊"},
+        {"w":"mango","th":"มะม่วง","e":"🥭"},
+        {"w":"watermelon","th":"แตงโม","e":"🍉"},
+        {"w":"grape","th":"องุ่น","e":"🍇"},
+        {"w":"pineapple","th":"สับปะรด","e":"🍍"},
+        {"w":"strawberry","th":"สตรอว์เบอร์รี","e":"🍓"}
+      ],
+      "build": {"sentence":"I like eating apples.","th":"ฉันชอบกินแอปเปิล"},
+      "speak": [
+        {"t":"I like bananas.","th":"ฉันชอบกล้วย"},
+        {"t":"Mango is my favorite fruit.","th":"มะม่วงคือผลไม้โปรดของฉัน"},
+        {"t":"Can I have a watermelon, please?","th":"ขอแตงโมหน่อยได้ไหม?"},
+        {"t":"Grapes are sweet and small.","th":"องุ่นหวานและลูกเล็ก"}
+      ],
+      "quiz": [
+        {"q":"🍎 คือ...","c":["apple","orange","mango"],"a":0},
+        {"q":"'กล้วย' คือ...","c":["banana","grape","pineapple"],"a":0},
+        {"q":"🍉 คือ...","c":["watermelon","strawberry","orange"],"a":0},
+        {"q":"'สับปะรด' คือ...","c":["pineapple","mango","grape"],"a":0},
+        {"q":"🍓 คือ...","c":["strawberry","apple","banana"],"a":0},
+        {"q":"'ส้ม' คือ...","c":["orange","mango","apple"],"a":0},
+        {"q":"🍇 ลูกเล็กๆ เป็นพวงคือ...","c":["grape","watermelon","pineapple"],"a":0},
+        {"q":"'มะม่วง' คือ...","c":["mango","banana","grape"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u5l2",
+      "icon": "🍚",
+      "title": "My Meal",
+      "sub": "อาหารมื้อหลัก",
+      "intro": { "en": "What is on your plate today?", "th": "วันนี้บนจานของหนูมีอะไรบ้าง?" },
+      "vocab": [
+        {"w":"rice","th":"ข้าว","e":"🍚"},
+        {"w":"noodles","th":"ก๋วยเตี๋ยว","e":"🍜"},
+        {"w":"vegetable","th":"ผัก","e":"🥦"},
+        {"w":"egg","th":"ไข่","e":"🥚"},
+        {"w":"chicken","th":"เนื้อไก่","e":"🍗"},
+        {"w":"fish","th":"ปลา","e":"🐟"},
+        {"w":"soup","th":"ซุป","e":"🍲"},
+        {"w":"bread","th":"ขนมปัง","e":"🍞"}
+      ],
+      "build": {"sentence":"I eat rice every day.","th":"ฉันกินข้าวทุกวัน"},
+      "speak": [
+        {"t":"I eat rice with chicken.","th":"ฉันกินข้าวกับไก่"},
+        {"t":"I like eating vegetables.","th":"ฉันชอบกินผัก"},
+        {"t":"My mom cooks fish soup.","th":"แม่ของฉันทำซุปปลา"},
+        {"t":"I eat bread for breakfast.","th":"ฉันกินขนมปังตอนเช้า"}
+      ],
+      "quiz": [
+        {"q":"🍚 คือ...","c":["rice","noodles","bread"],"a":0},
+        {"q":"'ก๋วยเตี๋ยว' คือ...","c":["noodles","soup","rice"],"a":0},
+        {"q":"🥦 คือ...","c":["vegetable","egg","fish"],"a":0},
+        {"q":"'ไข่' คือ...","c":["egg","chicken","fish"],"a":0},
+        {"q":"🍗 คือ...","c":["chicken","fish","egg"],"a":0},
+        {"q":"'ปลา' คือ...","c":["fish","chicken","soup"],"a":0},
+        {"q":"🍲 คือ...","c":["soup","bread","rice"],"a":0},
+        {"q":"I eat ___ for breakfast. (ขนมปัง)","c":["bread","rice","noodles"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u5l3",
+      "icon": "😋",
+      "title": "Yummy or Yucky?",
+      "sub": "รสชาติและเครื่องดื่ม",
+      "intro": { "en": "How does it taste?", "th": "อาหารนี้รสชาติเป็นยังไงนะ?" },
+      "vocab": [
+        {"w":"sweet","th":"หวาน","e":"🍬"},
+        {"w":"sour","th":"เปรี้ยว","e":"🍋"},
+        {"w":"spicy","th":"เผ็ด","e":"🌶️"},
+        {"w":"salty","th":"เค็ม","e":"🧂"},
+        {"w":"delicious","th":"อร่อย","e":"😋"},
+        {"w":"water","th":"น้ำเปล่า","e":"💧"},
+        {"w":"milk","th":"นม","e":"🥛"},
+        {"w":"juice","th":"น้ำผลไม้","e":"🧃"}
+      ],
+      "build": {"sentence":"This soup is delicious.","th":"ซุปนี้อร่อยมาก"},
+      "speak": [
+        {"t":"This mango is sweet.","th":"มะม่วงลูกนี้หวาน"},
+        {"t":"I drink milk every morning.","th":"ฉันดื่มนมทุกเช้า"},
+        {"t":"This food is spicy!","th":"อาหารนี้เผ็ด!"},
+        {"t":"Can I have some juice, please?","th":"ขอน้ำผลไม้หน่อยได้ไหม?"}
+      ],
+      "quiz": [
+        {"q":"🍬 คือ...","c":["sweet","sour","spicy"],"a":0},
+        {"q":"'เปรี้ยว' คือ...","c":["sour","salty","sweet"],"a":0},
+        {"q":"🌶️ คือ...","c":["spicy","sour","delicious"],"a":0},
+        {"q":"'เค็ม' คือ...","c":["salty","sweet","sour"],"a":0},
+        {"q":"😋 อร่อยมากคือ...","c":["delicious","spicy","salty"],"a":0},
+        {"q":"🥛 คือ...","c":["milk","water","juice"],"a":0},
+        {"q":"'น้ำผลไม้' คือ...","c":["juice","milk","water"],"a":0},
+        {"q":"I drink ___ when I am thirsty. (น้ำเปล่า)","c":["water","juice","milk"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u5l4",
+      "icon": "🍽️",
+      "title": "At the Restaurant",
+      "sub": "ที่ร้านอาหาร + ทบทวน",
+      "intro": { "en": "Let's order some food!", "th": "มาสั่งอาหารกันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"menu","th":"เมนูอาหาร","e":"📋"},
+        {"w":"order","th":"สั่งอาหาร","e":"✍️"},
+        {"w":"hungry","th":"หิว","e":"😫"},
+        {"w":"thirsty","th":"กระหายน้ำ","e":"🥵"},
+        {"w":"more please","th":"ขอเพิ่มอีก","e":"➕"},
+        {"w":"no thank you","th":"ไม่เอาแล้วขอบคุณ","e":"🙅"},
+        {"w":"yummy","th":"อร่อยจัง","e":"🤤"},
+        {"w":"full","th":"อิ่ม","e":"🙂"}
+      ],
+      "build": {"sentence":"I am hungry. Can I order now?","th":"ฉันหิวแล้ว ขอสั่งอาหารได้ไหม?"},
+      "speak": [
+        {"t":"I am hungry.","th":"ฉันหิวแล้ว"},
+        {"t":"May I have the menu, please?","th":"ขอเมนูหน่อยได้ไหม?"},
+        {"t":"This is yummy! More, please.","th":"อร่อยจัง! ขอเพิ่มอีกหน่อย"},
+        {"t":"No, thank you. I am full.","th":"ไม่เอาแล้วครับ/ค่ะ อิ่มแล้ว"}
+      ],
+      "quiz": [
+        {"q":"📋 คือ...","c":["menu","order","full"],"a":0},
+        {"q":"'หิว' คือ...","c":["hungry","thirsty","full"],"a":0},
+        {"q":"🥵 อยากดื่มน้ำคือ...","c":["thirsty","hungry","full"],"a":0},
+        {"q":"'อิ่ม' คือ...","c":["full","hungry","yummy"],"a":0},
+        {"q":"[ทบทวน] 🍎 คือ...","c":["apple","orange","mango"],"a":0},
+        {"q":"[ทบทวน] 🍗 คือ...","c":["chicken","fish","egg"],"a":0},
+        {"q":"[ทบทวน] This soup is ___. (อร่อย)","c":["delicious","sour","salty"],"a":0},
+        {"q":"'ขอเพิ่มอีก' คือ...","c":["more please","no thank you","full"],"a":0}
+      ]
+    }
+  ]
+}

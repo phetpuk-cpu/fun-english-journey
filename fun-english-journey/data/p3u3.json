@@ -1,0 +1,143 @@
+{
+  "grade": "p3",
+  "gradeName": "ป.3 — Big City 🏙️",
+  "unitName": "หน่วย 3 · My Family — ครอบครัวของฉัน",
+  "lessons": [
+    {
+      "id": "p3u3l1",
+      "icon": "👨‍👩‍👧‍👦",
+      "title": "My Family",
+      "sub": "สมาชิกในครอบครัว",
+      "intro": { "en": "This is my family! Let me show you.", "th": "นี่คือครอบครัวของฉัน! มาดูกันเลย" },
+      "vocab": [
+        {"w":"father","th":"พ่อ","e":"👨"},
+        {"w":"mother","th":"แม่","e":"👩"},
+        {"w":"brother","th":"พี่ชาย/น้องชาย","e":"👦"},
+        {"w":"sister","th":"พี่สาว/น้องสาว","e":"👧"},
+        {"w":"grandfather","th":"ปู่/ตา","e":"👴"},
+        {"w":"grandmother","th":"ย่า/ยาย","e":"👵"},
+        {"w":"baby","th":"ทารก","e":"👶"},
+        {"w":"family","th":"ครอบครัว","e":"👨‍👩‍👧‍👦"}
+      ],
+      "build": {"sentence":"This is my father.","th":"นี่คือพ่อของฉัน"},
+      "speak": [
+        {"t":"This is my mother.","th":"นี่คือแม่ของฉัน"},
+        {"t":"I love my family.","th":"ฉันรักครอบครัวของฉัน"},
+        {"t":"This is my brother.","th":"นี่คือพี่ชายของฉัน"},
+        {"t":"My family is happy.","th":"ครอบครัวของฉันมีความสุข"}
+      ],
+      "quiz": [
+        {"q":"👨 คือ...","c":["father","mother","brother"],"a":0},
+        {"q":"'แม่' คือ...","c":["father","mother","sister"],"a":1},
+        {"q":"This is my ___. (👦)","c":["brother","sister","baby"],"a":0},
+        {"q":"👴 คือ...","c":["grandmother","grandfather","father"],"a":1},
+        {"q":"'ทารก' คือ...","c":["baby","sister","family"],"a":0},
+        {"q":"I love my ___.","c":["family","school","bus"],"a":0},
+        {"q":"👵 คือ...","c":["grandfather","grandmother","mother"],"a":1},
+        {"q":"'พี่สาว/น้องสาว' คือ...","c":["sister","brother","baby"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u3l2",
+      "icon": "😊",
+      "title": "What Are They Like?",
+      "sub": "บรรยายลักษณะครอบครัว",
+      "intro": { "en": "Let's describe our family!", "th": "มาบรรยายครอบครัวของเรากันเถอะ" },
+      "vocab": [
+        {"w":"tall","th":"สูง","e":"🧍"},
+        {"w":"short","th":"เตี้ย","e":"🧒"},
+        {"w":"kind","th":"ใจดี","e":"😊"},
+        {"w":"funny","th":"ตลก","e":"😄"},
+        {"w":"strong","th":"แข็งแรง","e":"💪"},
+        {"w":"beautiful","th":"สวย","e":"🌸"},
+        {"w":"handsome","th":"หล่อ","e":"😎"},
+        {"w":"old","th":"อายุมาก","e":"👴"}
+      ],
+      "build": {"sentence":"My father is tall.","th":"พ่อของฉันตัวสูง"},
+      "speak": [
+        {"t":"My father is tall.","th":"พ่อของฉันตัวสูง"},
+        {"t":"My mother is kind.","th":"แม่ของฉันใจดี"},
+        {"t":"My brother is funny.","th":"พี่ชายของฉันตลก"},
+        {"t":"My grandfather is strong.","th":"ปู่ของฉันแข็งแรง"}
+      ],
+      "quiz": [
+        {"q":"'สูง' คือ...","c":["tall","short","old"],"a":0},
+        {"q":"My mother is ___. (ใจดี)","c":["kind","funny","tall"],"a":0},
+        {"q":"😄 คือ...","c":["funny","kind","strong"],"a":0},
+        {"q":"'แข็งแรง' คือ...","c":["strong","beautiful","short"],"a":0},
+        {"q":"🌸 บรรยายว่า...","c":["beautiful","handsome","old"],"a":0},
+        {"q":"'หล่อ' คือ...","c":["handsome","tall","kind"],"a":0},
+        {"q":"ตรงข้ามกับ tall คือ...","c":["short","strong","funny"],"a":0},
+        {"q":"My grandmother is ___. (อายุมาก)","c":["old","young","tall"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u3l3",
+      "icon": "👩‍⚕️",
+      "title": "What Do They Do?",
+      "sub": "อาชีพในครอบครัว",
+      "intro": { "en": "What does your family do?", "th": "ครอบครัวของหนูทำอาชีพอะไรกันบ้าง?" },
+      "vocab": [
+        {"w":"teacher","th":"ครู","e":"👩‍🏫"},
+        {"w":"doctor","th":"หมอ","e":"👨‍⚕️"},
+        {"w":"nurse","th":"พยาบาล","e":"👩‍⚕️"},
+        {"w":"farmer","th":"ชาวนา","e":"👨‍🌾"},
+        {"w":"cook","th":"พ่อครัว/แม่ครัว","e":"👨‍🍳"},
+        {"w":"driver","th":"คนขับรถ","e":"🚕"},
+        {"w":"singer","th":"นักร้อง","e":"🎤"},
+        {"w":"artist","th":"ศิลปิน","e":"🎨"}
+      ],
+      "build": {"sentence":"My mother is a doctor.","th":"แม่ของฉันเป็นหมอ"},
+      "speak": [
+        {"t":"My father is a driver.","th":"พ่อของฉันเป็นคนขับรถ"},
+        {"t":"My mother is a teacher.","th":"แม่ของฉันเป็นครู"},
+        {"t":"I want to be a singer.","th":"ฉันอยากเป็นนักร้อง"},
+        {"t":"My grandfather is a farmer.","th":"ปู่ของฉันเป็นชาวนา"}
+      ],
+      "quiz": [
+        {"q":"👩‍🏫 คือ...","c":["teacher","doctor","nurse"],"a":0},
+        {"q":"'หมอ' คือ...","c":["doctor","cook","driver"],"a":0},
+        {"q":"My father is a ___. (คนขับรถ)","c":["driver","singer","artist"],"a":0},
+        {"q":"👨‍🍳 คือ...","c":["cook","farmer","nurse"],"a":0},
+        {"q":"'นักร้อง' คือ...","c":["singer","artist","teacher"],"a":0},
+        {"q":"🎨 คือ...","c":["artist","singer","doctor"],"a":0},
+        {"q":"'ชาวนา' คือ...","c":["farmer","cook","driver"],"a":0},
+        {"q":"My mother is a ___. (พยาบาล)","c":["nurse","teacher","farmer"],"a":0}
+      ]
+    },
+    {
+      "id": "p3u3l4",
+      "icon": "❤️",
+      "title": "Family Time",
+      "sub": "เวลาของครอบครัว + ทบทวน",
+      "intro": { "en": "Family time is the best time!", "th": "เวลาที่อยู่กับครอบครัวคือเวลาที่ดีที่สุด! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"have dinner","th":"ทานข้าวเย็นด้วยกัน","e":"🍽️"},
+        {"w":"watch a movie","th":"ดูหนัง","e":"🎬"},
+        {"w":"go to the park","th":"ไปสวนสาธารณะ","e":"🏞️"},
+        {"w":"play games","th":"เล่นเกม","e":"🎲"},
+        {"w":"tell a story","th":"เล่านิทาน","e":"📖"},
+        {"w":"hug","th":"กอด","e":"🤗"},
+        {"w":"laugh","th":"หัวเราะ","e":"😂"},
+        {"w":"love","th":"รัก","e":"❤️"}
+      ],
+      "build": {"sentence":"We have dinner together.","th":"พวกเราทานข้าวเย็นด้วยกัน"},
+      "speak": [
+        {"t":"We watch a movie together.","th":"พวกเราดูหนังด้วยกัน"},
+        {"t":"I hug my mom every day.","th":"ฉันกอดแม่ทุกวัน"},
+        {"t":"My family makes me laugh.","th":"ครอบครัวของฉันทำให้ฉันหัวเราะ"},
+        {"t":"I love my family so much.","th":"ฉันรักครอบครัวของฉันมากๆ"}
+      ],
+      "quiz": [
+        {"q":"🍽️ คือ...","c":["have dinner","watch a movie","play games"],"a":0},
+        {"q":"'เล่านิทาน' คือ...","c":["tell a story","hug","laugh"],"a":0},
+        {"q":"😂 คือ...","c":["laugh","hug","love"],"a":0},
+        {"q":"We ___ to the park on Sunday.","c":["go","have","tell"],"a":0},
+        {"q":"[ทบทวน] 👨 คือ...","c":["father","mother","sister"],"a":0},
+        {"q":"[ทบทวน] My mother is ___. (ใจดี)","c":["kind","tall","old"],"a":0},
+        {"q":"[ทบทวน] My father is a ___. (คนขับรถ)","c":["driver","singer","nurse"],"a":0},
+        {"q":"'กอด' คือ...","c":["hug","love","laugh"],"a":0}
+      ]
+    }
+  ]
+}

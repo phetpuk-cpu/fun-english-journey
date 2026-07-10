@@ -1,0 +1,143 @@
+{
+  "grade": "p4",
+  "gradeName": "ป.4 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 8 · My Favorite Season — ฤดูกาลที่ฉันชอบ",
+  "lessons": [
+    {
+      "id": "p4u8l1",
+      "icon": "🍂",
+      "title": "The Four Seasons",
+      "sub": "สี่ฤดูกาล",
+      "intro": { "en": "Welcome to the Four Seasons Fair!", "th": "ยินดีต้อนรับสู่งานแฟร์สี่ฤดูกาล!" },
+      "vocab": [
+        {"w":"spring","th":"ฤดูใบไม้ผลิ","e":"🌸"},
+        {"w":"summer","th":"ฤดูร้อน","e":"☀️"},
+        {"w":"autumn","th":"ฤดูใบไม้ร่วง","e":"🍂"},
+        {"w":"winter","th":"ฤดูหนาว","e":"❄️"},
+        {"w":"season","th":"ฤดูกาล","e":"🗓️"},
+        {"w":"leaves","th":"ใบไม้","e":"🍁"},
+        {"w":"flower","th":"ดอกไม้","e":"🌷"},
+        {"w":"snowman","th":"ตุ๊กตาหิมะ","e":"⛄"}
+      ],
+      "build": {"sentence":"Flowers bloom in spring.","th":"ดอกไม้บานในฤดูใบไม้ผลิ"},
+      "speak": [
+        {"t":"I like spring best.","th":"ฉันชอบฤดูใบไม้ผลิที่สุด"},
+        {"t":"Leaves fall in autumn.","th":"ใบไม้ร่วงในฤดูใบไม้ร่วง"},
+        {"t":"We build a snowman in winter.","th":"พวกเราปั้นตุ๊กตาหิมะในฤดูหนาว"},
+        {"t":"Summer is hot and sunny.","th":"ฤดูร้อนนั้นร้อนและมีแดด"}
+      ],
+      "quiz": [
+        {"q":"🌸 คือ...","c":["spring","summer","autumn"],"a":0},
+        {"q":"'ฤดูร้อน' คือ...","c":["summer","winter","spring"],"a":0},
+        {"q":"🍂 คือ...","c":["autumn","spring","winter"],"a":0},
+        {"q":"'ฤดูหนาว' คือ...","c":["winter","summer","autumn"],"a":0},
+        {"q":"⛄ คือ...","c":["snowman","flower","leaves"],"a":0},
+        {"q":"'ใบไม้' คือ...","c":["leaves","flower","season"],"a":0},
+        {"q":"🌷 คือ...","c":["flower","leaves","snowman"],"a":0},
+        {"q":"Flowers bloom in ___.","c":["spring","winter","autumn"],"a":0}
+      ]
+    },
+    {
+      "id": "p4u8l2",
+      "icon": "🪁",
+      "title": "Seasonal Fun",
+      "sub": "กิจกรรมตามฤดูกาล",
+      "intro": { "en": "Every season has fun things to do!", "th": "แต่ละฤดูกาลมีกิจกรรมสนุกๆ ให้ทำนะ" },
+      "vocab": [
+        {"w":"plant flowers","th":"ปลูกดอกไม้","e":"🌱"},
+        {"w":"swim in the sea","th":"ว่ายน้ำในทะเล","e":"🏖️"},
+        {"w":"collect leaves","th":"เก็บใบไม้","e":"🍁"},
+        {"w":"build a snowman","th":"ปั้นตุ๊กตาหิมะ","e":"⛄"},
+        {"w":"fly a kite","th":"เล่นว่าว","e":"🪁"},
+        {"w":"go on a picnic","th":"ไปปิกนิก","e":"🧺"},
+        {"w":"wear a coat","th":"ใส่เสื้อโค้ท","e":"🧥"},
+        {"w":"wear shorts","th":"ใส่กางเกงขาสั้น","e":"🩳"}
+      ],
+      "build": {"sentence":"I fly a kite in spring.","th":"ฉันเล่นว่าวในฤดูใบไม้ผลิ"},
+      "speak": [
+        {"t":"I swim in the sea in summer.","th":"ฉันว่ายน้ำในทะเลตอนฤดูร้อน"},
+        {"t":"We collect leaves in autumn.","th":"พวกเราเก็บใบไม้ในฤดูใบไม้ร่วง"},
+        {"t":"I wear a coat in winter.","th":"ฉันใส่เสื้อโค้ทในฤดูหนาว"},
+        {"t":"Let's go on a picnic today.","th":"ไปปิกนิกกันวันนี้เถอะ"}
+      ],
+      "quiz": [
+        {"q":"🌱 คือ...","c":["plant flowers","collect leaves","fly a kite"],"a":0},
+        {"q":"'ว่ายน้ำในทะเล' คือ...","c":["swim in the sea","go on a picnic","build a snowman"],"a":0},
+        {"q":"⛄ คือ...","c":["build a snowman","fly a kite","wear a coat"],"a":0},
+        {"q":"'เล่นว่าว' คือ...","c":["fly a kite","plant flowers","wear shorts"],"a":0},
+        {"q":"🧥 ใส่ตอนฤดูหนาวคือ...","c":["wear a coat","wear shorts","swim in the sea"],"a":0},
+        {"q":"'ใส่กางเกงขาสั้น' คือ...","c":["wear shorts","wear a coat","fly a kite"],"a":0},
+        {"q":"🧺 คือ...","c":["go on a picnic","collect leaves","plant flowers"],"a":0},
+        {"q":"In autumn, we ___.","c":["collect leaves","build a snowman","swim in the sea"],"a":0}
+      ]
+    },
+    {
+      "id": "p4u8l3",
+      "icon": "❤️",
+      "title": "My Favorite Season",
+      "sub": "ฤดูกาลที่ชอบและเหตุผล",
+      "intro": { "en": "Which season do you like best? Why?", "th": "หนูชอบฤดูไหนที่สุด? เพราะอะไรนะ?" },
+      "vocab": [
+        {"w":"like best","th":"ชอบที่สุด","e":"❤️"},
+        {"w":"because","th":"เพราะว่า","e":"🔗"},
+        {"w":"warm","th":"อบอุ่น","e":"🌤️"},
+        {"w":"cool weather","th":"อากาศเย็นสบาย","e":"🍃"},
+        {"w":"favorite season","th":"ฤดูกาลโปรด","e":"⭐"},
+        {"w":"reason","th":"เหตุผล","e":"💭"},
+        {"w":"prefer","th":"ชอบมากกว่า","e":"👍"},
+        {"w":"beautiful view","th":"วิวสวยงาม","e":"🏞️"}
+      ],
+      "build": {"sentence":"I like summer best because it is warm.","th":"ฉันชอบฤดูร้อนที่สุดเพราะอากาศอบอุ่น"},
+      "speak": [
+        {"t":"My favorite season is winter.","th":"ฤดูกาลโปรดของฉันคือฤดูหนาว"},
+        {"t":"I like it because the weather is cool.","th":"ฉันชอบเพราะอากาศเย็นสบาย"},
+        {"t":"I prefer spring to summer.","th":"ฉันชอบฤดูใบไม้ผลิมากกว่าฤดูร้อน"},
+        {"t":"Autumn has a beautiful view.","th":"ฤดูใบไม้ร่วงมีวิวที่สวยงาม"}
+      ],
+      "quiz": [
+        {"q":"❤️ คือ...","c":["like best","because","prefer"],"a":0},
+        {"q":"'เพราะว่า' คือ...","c":["because","reason","prefer"],"a":0},
+        {"q":"🌤️ คือ...","c":["warm","cool weather","beautiful view"],"a":0},
+        {"q":"'อากาศเย็นสบาย' คือ...","c":["cool weather","warm","reason"],"a":0},
+        {"q":"I like winter ___ it is cool.","c":["because","and","but"],"a":0},
+        {"q":"'ชอบมากกว่า' คือ...","c":["prefer","like best","reason"],"a":0},
+        {"q":"⭐ คือ...","c":["favorite season","reason","warm"],"a":0},
+        {"q":"'เหตุผล' คือ...","c":["reason","because","prefer"],"a":0}
+      ]
+    },
+    {
+      "id": "p4u8l4",
+      "icon": "🎓",
+      "title": "Grand Review",
+      "sub": "ทบทวนใหญ่ ป.4 ทั้งหมด",
+      "intro": { "en": "You finished Grade 4! Amazing job!", "th": "หนูเรียนจบ ป.4 แล้ว! เก่งมากๆ เลย มาทบทวนทุกอย่างที่เรียนมากันเถอะ" },
+      "vocab": [
+        {"w":"can","th":"สามารถ","e":"💪"},
+        {"w":"kicking","th":"กำลังเตะ","e":"🦵"},
+        {"w":"price","th":"ราคา","e":"🏷️"},
+        {"w":"would like","th":"อยากได้","e":"🙋"},
+        {"w":"turn left","th":"เลี้ยวซ้าย","e":"⬅️"},
+        {"w":"bigger","th":"ใหญ่กว่า","e":"🐘"},
+        {"w":"went","th":"ไป (อดีต)","e":"🚶‍♀️"},
+        {"w":"favorite season","th":"ฤดูกาลโปรด","e":"⭐"}
+      ],
+      "build": {"sentence":"Last year I learned so many new things!","th":"ปีที่แล้วฉันเรียนรู้สิ่งใหม่ๆ เยอะมาก!"},
+      "speak": [
+        {"t":"I can speak English now.","th":"ตอนนี้ฉันพูดภาษาอังกฤษได้"},
+        {"t":"I went to the fair and had fun.","th":"ฉันไปงานแฟร์และสนุกมาก"},
+        {"t":"My favorite season is summer.","th":"ฤดูกาลโปรดของฉันคือฤดูร้อน"},
+        {"t":"I am proud of myself!","th":"ฉันภูมิใจในตัวเอง!"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย1] I ___ swim. (สามารถ)","c":["can","is","do"],"a":0},
+        {"q":"[หน่วย2] He is ___ the ball.","c":["kicking","kick","kicks"],"a":0},
+        {"q":"[หน่วย3] How much ___ it?","c":["is","are","do"],"a":0},
+        {"q":"[หน่วย4] I ___ like a hot dog, please.","c":["would","do","can"],"a":0},
+        {"q":"[หน่วย5] 🏦 คือ...","c":["bank","hospital","library"],"a":0},
+        {"q":"[หน่วย6] 🐘 ตัวใหญ่กว่าคือ...","c":["bigger","smaller","lighter"],"a":0},
+        {"q":"[หน่วย7] I ___ to the fair. (ไป)","c":["went","go","going"],"a":0},
+        {"q":"[หน่วย8] 🌸 คือ...","c":["spring","summer","autumn"],"a":0}
+      ]
+    }
+  ]
+}
