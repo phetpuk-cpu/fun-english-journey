@@ -104,8 +104,18 @@ function playAudio(filename, fallbackText, fallbackLang){
 }
 document.addEventListener("click", e=>{
   const b = e.target.closest("[data-say]");
-  if(b) playAudio(b.dataset.audio, b.dataset.say, b.dataset.lang || "en-US");
+  if(b){ playAudio(b.dataset.audio, b.dataset.say, b.dataset.lang || "en-US"); return; }
+  if(e.target.closest(".btn, .lesson-node, .tab, .avatar, .back")) playSfx("click");
 });
+
+/* sfx-*.wav ไม่มี fallback (ไม่ใช่เสียงพูด ไม่มีอะไรให้ TTS แทน) เงียบไปเฉยๆ ถ้ายังไม่มีไฟล์ */
+function playSfx(name){
+  try{
+    const a = new Audio(`assets/audio/sfx-${name}.wav`);
+    a.volume = 0.7;
+    a.play().catch(()=>{});
+  }catch(e){}
+}
 
 /* ================= NAVIGATION ================= */
 function show(id){ document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active")); document.getElementById(id).classList.add("active"); window.scrollTo(0,0); }
@@ -228,12 +238,12 @@ function render(){
     document.querySelectorAll(".pick-item").forEach(el=>{
       el.onclick=()=>{
         if(el.dataset.w===answer.w){
-          el.classList.add("correct"); addXp(2);
+          el.classList.add("correct"); addXp(2); playSfx("correct");
           document.getElementById("listen-fb").textContent = `✅ ${answer.w} = ${answer.th}`;
           document.querySelectorAll(".pick-item").forEach(x=>x.style.pointerEvents="none");
           setTimeout(next, 1000);
         }else{
-          el.classList.add("wrong");
+          el.classList.add("wrong"); playSfx("wrong");
           document.getElementById("listen-fb").textContent = "ฟังอีกครั้งนะ 🎧";
           playAudio(`${L.id}-vocab-${slug(answer.w)}-en.mp3`, answer.w, "en-US");
           setTimeout(()=>el.classList.remove("wrong"),400);
@@ -262,12 +272,12 @@ function render(){
         if(sel.dataset.t !== el.dataset.t && sel.dataset.k === el.dataset.k){
           sel.classList.add("done"); el.classList.add("done");
           sel.classList.remove("selected");
-          addXp(2); done++;
+          addXp(2); done++; playSfx("match");
           playAudio(`${L.id}-vocab-${slug(el.dataset.k)}-en.mp3`, el.dataset.k, "en-US");
           document.getElementById("match-fb").textContent = "✅ เก่งมาก!";
           if(done===4) setTimeout(next, 900);
         }else{
-          el.classList.add("wrong"); setTimeout(()=>el.classList.remove("wrong"),400);
+          el.classList.add("wrong"); playSfx("wrong"); setTimeout(()=>el.classList.remove("wrong"),400);
           sel.classList.remove("selected");
           document.getElementById("match-fb").textContent = "ลองใหม่นะ 💪";
         }
@@ -344,12 +354,12 @@ function render(){
     document.querySelectorAll(".choice").forEach(el=>{
       el.onclick=()=>{
         if(+el.dataset.i === q.a){
-          el.classList.add("correct"); addXp(3);
+          el.classList.add("correct"); addXp(3); playSfx("correct");
           document.getElementById("quiz-fb").textContent = "✅ ถูกต้อง!";
           document.querySelectorAll(".choice").forEach(c=>c.style.pointerEvents="none");
           setTimeout(next, 800);
         }else{
-          el.classList.add("wrong");
+          el.classList.add("wrong"); playSfx("wrong");
           document.getElementById("quiz-fb").textContent = "เกือบแล้ว ลองใหม่นะ 💪";
         }
       };
@@ -374,10 +384,12 @@ function render(){
           <p>${L2.icon} ${L2.title} — ${L2.sub}</p>
           ${stars<3?"<p>💡 เล่นซ้ำเพื่อเก็บดาวให้ครบ 3 ได้นะ!</p>":"<p>🏅 ได้เหรียญ Perfect Lesson!</p>"}
         </div>
-        ${nid?`<button class="btn green" onclick="startLesson('${nid}')">▶️ บทถัดไป: ${getLesson(nid).title}</button>`:""}
+        ${nid?`<button class="btn green" onclick="playSfx('levelup');startLesson('${nid}')">▶️ บทถัดไป: ${getLesson(nid).title}</button>`:""}
         <button class="btn yellow" onclick="startLesson(state.lessonId)">🔁 เล่นอีกครั้ง</button>
         <button class="btn" onclick="goMap()">🗺️ กลับแผนที่</button>
       </div>`;
+    playSfx("lesson-complete");
+    if(stars===3) setTimeout(()=>playSfx("perfect"), 400);
     speak("เก่งมากๆ เลย! ได้ "+stars+" ดาว","th-TH");
   }
 
@@ -414,15 +426,16 @@ function setupSpeech(target){
   function finishScore(best, heard){
     const stars = best>=80?3:best>=50?2:1;
     starEl.textContent = "⭐".repeat(stars)+"☆".repeat(3-stars);
-    if(best>=80){ fb.innerHTML = `🌟 Excellent! <b>${best} คะแนน</b><br>กด ▶️ ฟังเสียงตัวเองเทียบกับต้นแบบได้เลย`; addXp(10); }
-    else if(best>=50){ fb.innerHTML = `👍 Good! <b>${best} คะแนน</b> (ได้ยิน: "${heard}")<br>ฟังเทียบแล้วลองอัดใหม่ได้นะ`; addXp(6); }
-    else { fb.innerHTML = `💪 ลองอีกครั้งนะ (ได้ยิน: "${heard||"—"}")<br>กด 🔊 ต้นแบบ ฟังช้าๆ ก่อน`; }
+    if(best>=80){ fb.innerHTML = `🌟 Excellent! <b>${best} คะแนน</b><br>กด ▶️ ฟังเสียงตัวเองเทียบกับต้นแบบได้เลย`; addXp(10); playSfx("star"); }
+    else if(best>=50){ fb.innerHTML = `👍 Good! <b>${best} คะแนน</b> (ได้ยิน: "${heard}")<br>ฟังเทียบแล้วลองอัดใหม่ได้นะ`; addXp(6); playSfx("star"); }
+    else { fb.innerHTML = `💪 ลองอีกครั้งนะ (ได้ยิน: "${heard||"—"}")<br>กด 🔊 ต้นแบบ ฟังช้าๆ ก่อน`; playSfx("wrong"); }
     skip.style.display="block";
   }
 
   async function startRecording(){
     if(busy) return;
     busy = true;
+    playSfx("record-start");
     speechSynthesis.cancel();
     chunks = []; myVoiceUrl = null; playSelf.style.display="none";
 
@@ -474,6 +487,7 @@ function setupSpeech(target){
   }
   function stopRecording(){
     busy = false;
+    playSfx("record-stop");
     mic.classList.remove("listening");
     if(rec){ try{ rec.stop(); }catch(e){} rec = null; }
     if(recorder && recorder.state !== "inactive") recorder.stop();
