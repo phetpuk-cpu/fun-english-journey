@@ -70,22 +70,28 @@ function stopAllAudio(){
 function slug(w){
   return w.toLowerCase().replace(/'/g,"").replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
 }
+/* Codex เก็บภาพเป็นหมวดหมู่ย่อย (characters/, scenes/, ...) ไม่ใช่ชื่อแบนตามกฎ A3/A4 เป๊ะ
+   เลยลองทั้งสองที่: ชื่อแบนก่อน แล้วค่อย fallback ไปโฟลเดอร์หมวดหมู่ */
 function vocabImgSlot(lessonId, v){
   const file = `${lessonId}-vocab-${slug(v.w)}.png`;
-  return `<span class="img-slot" data-img="${file}">${v.e}</span>`;
+  return `<span class="img-slot" data-img="${file}" data-img-alt="vocab/${file}">${v.e}</span>`;
 }
 function sceneImgSlot(lessonId, fallbackEmoji){
   const file = `${lessonId}-scene.png`;
-  return `<span class="img-slot scene-slot" data-img="${file}">${fallbackEmoji}</span>`;
+  return `<span class="img-slot scene-slot" data-img="${file}" data-img-alt="scenes/${file}">${fallbackEmoji}</span>`;
 }
 function hydrateImages(){
   document.querySelectorAll("#stage [data-img]").forEach(el=>{
     if(el.dataset.hydrated) return;
     el.dataset.hydrated = "1";
-    const img = new Image();
-    img.onload = ()=>{ el.innerHTML = ""; img.className = "asset-img"; el.appendChild(img); };
-    img.onerror = ()=>{ /* ไม่มีไฟล์จริง — ปล่อย emoji เดิมไว้ */ };
-    img.src = "assets/img/"+el.dataset.img;
+    const candidates = [el.dataset.img, el.dataset.imgAlt].filter(Boolean);
+    (function tryNext(i){
+      if(i>=candidates.length) return; /* ไม่มีไฟล์จริงที่ path ไหนเลย — ปล่อย emoji เดิมไว้ */
+      const img = new Image();
+      img.onload = ()=>{ el.innerHTML = ""; img.className = "asset-img"; el.appendChild(img); };
+      img.onerror = ()=> tryNext(i+1);
+      img.src = "assets/img/"+candidates[i];
+    })(0);
   });
 }
 function playAudio(filename, fallbackText, fallbackLang){
