@@ -486,15 +486,17 @@ function render(){
 
   else if(st.type==="quiz"){
     const q = L.quiz[st.idx];
+    /* สุ่มตำแหน่งตัวเลือก ไม่ให้คำตอบถูกอยู่ปุ่มแรกเสมอ (เดิม data มี a=0 เกือบทุกข้อ) */
+    const opts = q.c.map((c,i)=>({text:c, correct:i===q.a})).sort(()=>Math.random()-.5);
     stage.innerHTML = `
       <div class="bubble"><b>Quiz ข้อ ${st.idx+1}/${L.quiz.length} 🦉</b></div>
       <div class="card"><h2 style="margin-top:0">${q.q}</h2>
-        ${q.c.map((c,i)=>`<button class="choice" data-i="${i}">${c}</button>`).join("")}
+        ${opts.map(o=>`<button class="choice" data-correct="${o.correct}">${o.text}</button>`).join("")}
         <div class="feedback" id="quiz-fb"></div>
       </div>`;
     document.querySelectorAll(".choice").forEach(el=>{
       el.onclick=()=>{
-        if(+el.dataset.i === q.a){
+        if(el.dataset.correct === "true"){
           el.classList.add("correct"); addXp(3); playSfx("correct");
           document.getElementById("quiz-fb").textContent = "✅ ถูกต้อง!";
           document.querySelectorAll(".choice").forEach(c=>c.style.pointerEvents="none");
@@ -510,17 +512,19 @@ function render(){
   else if(st.type==="transform"){
     const t = L.transform[st.idx];
     const taskLabel = {negative:"เปลี่ยนเป็นประโยคปฏิเสธ", question:"เปลี่ยนเป็นประโยคคำถาม"}[t.task] || "แปลงประโยค";
+    /* สุ่มตำแหน่งตัวเลือกเช่นเดียวกับควิซ */
+    const topts = t.c.map((c,i)=>({text:c, correct:i===t.a})).sort(()=>Math.random()-.5);
     stage.innerHTML = `
       <div class="bubble"><b>Sentence Transform 🔄</b><div class="th">${taskLabel}</div></div>
       <div class="card">
         <h2 style="margin-top:0">${t.base}</h2>
         <p class="th">${t.baseTh}</p>
-        ${t.c.map((c,i)=>`<button class="choice" data-i="${i}">${c}</button>`).join("")}
+        ${topts.map(o=>`<button class="choice" data-correct="${o.correct}">${o.text}</button>`).join("")}
         <div class="feedback" id="transform-fb"></div>
       </div>`;
     document.querySelectorAll(".choice").forEach(el=>{
       el.onclick=()=>{
-        if(+el.dataset.i === t.a){
+        if(el.dataset.correct === "true"){
           el.classList.add("correct"); addXp(4); playSfx("correct");
           document.getElementById("transform-fb").textContent = "✅ ถูกต้อง!";
           document.querySelectorAll(".choice").forEach(c=>c.style.pointerEvents="none");
