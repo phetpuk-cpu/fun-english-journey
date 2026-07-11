@@ -8,6 +8,14 @@
       "icon": "📜",
       "title": "Academy Rules",
       "sub": "กฎของสถาบัน",
+      "transform": [
+        {"base":"You must wear your uniform.","baseTh":"เธอต้องสวมใส่ชุดยูนิฟอร์ม","task":"negative",
+         "c":["You mustn't wear your uniform.","You not must wear your uniform.","You don't must wear your uniform."],"a":0},
+        {"base":"You must arrive on time.","baseTh":"เธอต้องมาถึงตรงเวลา","task":"question",
+         "c":["Must you arrive on time?","Do you must arrive on time?","You must arrive on time?"],"a":0},
+        {"base":"We must follow the rules.","baseTh":"พวกเราต้องปฏิบัติตามกฎ","task":"negative",
+         "c":["We mustn't follow the rules.","We not must follow the rules.","We don't must follow the rules."],"a":0}
+      ],
       "intro": { "en": "Every academy has rules to follow.", "th": "ทุกสถาบันมีกฎที่ต้องปฏิบัติตาม" },
       "vocab": [
         {"w":"rule","th":"กฎ","e":"📜"},
@@ -38,6 +46,14 @@
       ]
     },
     {
+      "transform": [
+        {"base":"You must wear a helmet.","baseTh":"เธอต้องสวมหมวกกันน็อค","task":"negative",
+         "c":["You mustn't wear a helmet.","You not must wear a helmet.","You don't must wear a helmet."],"a":0},
+        {"base":"You mustn't run in the hallway.","baseTh":"ห้ามวิ่งในทางเดิน","task":"question",
+         "c":["Must you run in the hallway?","Do you must run in the hallway?","You mustn't run in the hallway?"],"a":0},
+        {"base":"You must protect your head.","baseTh":"เธอต้องปกป้องศีรษะของเธอ","task":"negative",
+         "c":["You mustn't protect your head.","You not must protect your head.","You don't must protect your head."],"a":0}
+      ],
       "id": "p5u4l2",
       "icon": "⚠️",
       "title": "Safety First",

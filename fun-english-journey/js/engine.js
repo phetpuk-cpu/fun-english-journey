@@ -311,6 +311,7 @@ function startLesson(id){
     {type:"build"},
     ...L.speak.map((s,i)=>({type:"speak", idx:i})),
     ...L.quiz.map((q,i)=>({type:"quiz", idx:i})),
+    ...(L.transform||[]).map((t,i)=>({type:"transform", idx:i})),
     {type:"result"},
   ];
   state.step = 0;
@@ -321,7 +322,7 @@ function addXp(n){ state.lessonXp += n; document.getElementById("xp-lesson").tex
 function next(){ stopAllAudio(); state.step++; render(); }
 function stepLabel(){
   const t = steps[state.step].type;
-  const names = {intro:"เริ่มบทเรียน", vocab:"📖 คำศัพท์", listen:"🎧 ฟังแล้วเลือก", match:"🎮 จับคู่", build:"🧩 เรียงประโยค", speak:"🎤 ฝึกพูด", quiz:"⭐ ควิซ", result:"สรุปผล"};
+  const names = {intro:"เริ่มบทเรียน", vocab:"📖 คำศัพท์", listen:"🎧 ฟังแล้วเลือก", match:"🎮 จับคู่", build:"🧩 เรียงประโยค", speak:"🎤 ฝึกพูด", quiz:"⭐ ควิซ", transform:"🔄 แปลงประโยค", result:"สรุปผล"};
   return `${names[t]||""} · ${state.step+1}/${steps.length}`;
 }
 function render(){
@@ -506,9 +507,35 @@ function render(){
     });
   }
 
+  else if(st.type==="transform"){
+    const t = L.transform[st.idx];
+    const taskLabel = {negative:"เปลี่ยนเป็นประโยคปฏิเสธ", question:"เปลี่ยนเป็นประโยคคำถาม"}[t.task] || "แปลงประโยค";
+    stage.innerHTML = `
+      <div class="bubble"><b>Sentence Transform 🔄</b><div class="th">${taskLabel}</div></div>
+      <div class="card">
+        <h2 style="margin-top:0">${t.base}</h2>
+        <p class="th">${t.baseTh}</p>
+        ${t.c.map((c,i)=>`<button class="choice" data-i="${i}">${c}</button>`).join("")}
+        <div class="feedback" id="transform-fb"></div>
+      </div>`;
+    document.querySelectorAll(".choice").forEach(el=>{
+      el.onclick=()=>{
+        if(+el.dataset.i === t.a){
+          el.classList.add("correct"); addXp(4); playSfx("correct");
+          document.getElementById("transform-fb").textContent = "✅ ถูกต้อง!";
+          document.querySelectorAll(".choice").forEach(c=>c.style.pointerEvents="none");
+          setTimeout(next, 800);
+        }else{
+          el.classList.add("wrong"); playSfx("wrong");
+          document.getElementById("transform-fb").textContent = "เกือบแล้ว ลองใหม่นะ 💪";
+        }
+      };
+    });
+  }
+
   else if(st.type==="result"){
     const L2 = getLesson(state.lessonId);
-    const max = 10 + 6 + 8 + 5 + (L2.speak.length*10) + (L2.quiz.length*3);
+    const max = 10 + 6 + 8 + 5 + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
     const ratio = state.lessonXp / max;
     const stars = ratio>=.8?3:ratio>=.5?2:1;
     state.xp += state.lessonXp;

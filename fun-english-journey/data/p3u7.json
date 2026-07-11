@@ -156,6 +156,14 @@
       "icon": "🎮",
       "title": "What Did You Do?",
       "sub": "กริยาช่องที่ 2 (เติม -ed)",
+      "transform": [
+        {"base":"I played games at the fair.","baseTh":"ฉันเล่นเกมที่งานแฟร์","task":"negative",
+         "c":["I didn't play games at the fair.","I not played games at the fair.","I didn't played games at the fair."],"a":0},
+        {"base":"We watched a show together.","baseTh":"พวกเราดูการแสดงด้วยกัน","task":"question",
+         "c":["Did we watch a show together?","Did we watched a show together?","We did watch a show together?"],"a":0},
+        {"base":"I walked around the fair.","baseTh":"ฉันเดินเที่ยวรอบๆ งานแฟร์","task":"negative",
+         "c":["I didn't walk around the fair.","I not walked around the fair.","I didn't walked around the fair."],"a":0}
+      ],
       "intro": {
         "en": "What did you do at the fair yesterday?",
         "th": "เมื่อวานหนูทำอะไรที่งานแฟร์บ้าง?"
