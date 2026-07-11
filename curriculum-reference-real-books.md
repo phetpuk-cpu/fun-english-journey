@@ -32,8 +32,19 @@
 - ป.5 (ใหม่) ใช้ท้ายเล่ม "My family" ที่ยังไม่ได้ใช้ (must/mustn't, there was/were, be going to) + past continuous ของ ป.5 เดิม
 - ป.6 (ใหม่) ต้องคิดใหม่เพราะ will future ย้ายไปแล้ว — อาจเป็น modals อื่น (should/could), first conditional เบาๆ, หรือรอข้อมูลจริงจากหนังสือ ป.5-6 ถ้ามี
 
-## คำถามก่อนตัดสินใจขั้นสุดท้าย
+## คำถามที่ถามไว้ก่อนหน้า — อัปเดตคำตอบ (11 ก.ค. 2026)
 
-1. มีหนังสือ ป.5 หรือ ป.6 จริงที่จะส่งมาเพิ่มไหมครับ? (ถ้ามี อยากรอครบก่อนแล้วค่อย rename ทีเดียว จะได้ไม่ต้องทำซ้ำ)
-2. "About us" คือชั้นไหนกันแน่ — พอจะเช็คปกหนังสือ/คำนำได้ไหมครับ?
-3. อยากให้แอปเพิ่ม**โหมดฝึกแปลงประโยค** (บอกเล่า→ปฏิเสธ→คำถาม) ให้ตรงกับสไตล์หนังสือ ป.4 จริงไหม หรือปล่อยเป็นแบบเลือกคำตอบต่อไปแบบที่ทำอยู่ (เก็บไอเดียนี้ไว้ใน Phase 3 แผนพรีเมียมก็ได้ถ้ายังไม่อยากทำตอนนี้)
+1. **มีหนังสือ ป.5-6 เพิ่มไหม?** → ไม่มีแล้ว ผู้ปกครองยืนยัน — ให้ผมรีเสิร์ชเพิ่มเองแทน
+2. **"About us" คือชั้นไหน?** → รีเสิร์ชแล้วพบว่าน่าจะเป็นหนังสือชุด **Oxford International Primary English** (คอร์ส 6 ระดับ ตรงกับ ป.1-6, มีจุดเด่นตรงกับที่อธิบายไว้: wellbeing focus, culturally diverse content, Extensive Reading) — ระดับความยากของ "About us" (demonstratives, present simple ครบ, prepositions of time, weather, present continuous, comparative, past simple ของ be, quantifiers, ordinal numbers) ใกล้เคียงกับ "My family" (ยืนยันแล้วว่า ป.3) มาก **ข้อสรุป: "About us" น่าจะเป็นหนังสือเรียนหลักคู่กับ "My family" ที่เป็นหนังสือไวยากรณ์เสริม ของชั้น ป.3 เดียวกัน** (ไม่ใช่คนละชั้น) — ไม่สามารถยืนยัน unit title แบบ 100% จากการค้นเว็บได้ (หน้าเว็บ OUP ไม่เปิดเผยสารบัญให้ search engine) แต่มั่นใจระดับความยากพอสมควร
+3. **โหมดฝึกแปลงประโยค?** → ยังไม่ทำตอนนี้ (เป็น engine feature ใหญ่) เก็บเป็นข้อเสนอในแผนด้านล่าง
+
+## รีเสิร์ชเพิ่มเติม: ภาษาอังกฤษ ม.ต้น (สำหรับ "ช่วงท้าย" ของ ป.6)
+
+ใช้ Cambridge A2 Key for Schools (KET — มาตรฐานช่วงปลายประถม/ต้นมัธยม) และ B1 Preliminary for Schools (PET — มาตรฐาน ม.ต้น-ม.ปลายตอนต้น) เป็นกรอบ:
+
+| ระดับ | Cambridge | ไวยากรณ์ |
+|---|---|---|
+| ปลาย ป.6 (bridge) | A2 Key ปลายทาง | comparative/superlative (ทบทวน), prepositions of time, gerund vs infinitive (-ing/to+V), future ด้วย present simple/continuous |
+| ม.ต้นตอนต้น (แค่แตะเบาๆ ปลาย ป.6 ได้) | เข้าใกล้ B1 Preliminary | present perfect เบื้องต้น (Have you ever...?), passive voice เบื้องต้น (is/are + V.3), first conditional (if + present, will + V.1), reported speech เบื้องต้น |
+
+**ข้อเสนอ:** ปลาย ป.6 (หน่วยสุดท้าย 1-2 หน่วย) ใส่เนื้อหา "แตะเบาๆ" present perfect + passive + first conditional เป็น preview ก่อนขึ้น ม.1 — ไม่ต้องสอนลึก แค่ให้คุ้นหน้าคุ้นตาโครงสร้างประโยค

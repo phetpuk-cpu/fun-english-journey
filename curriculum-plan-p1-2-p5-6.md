@@ -1,125 +1,131 @@
-# 🗺️ แผนหลักสูตร ป.1-2 และ ป.5-6 — เตรียมสำหรับรอบถัดไป
-อัปเดต: 11 ก.ค. 2026 (ป.1-2 อัปเดตให้อิงหนังสือเรียนจริงที่ผู้ปกครองส่งมา — ดูรายละเอียดในหัวข้อ ป.1/ป.2 ด้านล่าง แทนที่การเดาจาก Cambridge Starters ล้วนๆ แบบเดิม)
+# 🗺️ แผนหลักสูตรเต็ม ป.1-6 (เวอร์ชันสุดท้าย หลังปรับให้ตรงหนังสือจริง)
+อัปเดต: 11 ก.ค. 2026 (v3 — ปรับ grade calibration ทั้งระบบ หลังพบว่าแอปช้ากว่าหลักสูตรจริงของโรงเรียน ~1 ชั้น)
 
-> เอกสารนี้เป็น**แผน** (หัวข้อหน่วย + เหตุผลด้านไวยากรณ์ + ขอบเขตงาน) ยังไม่ใช่เนื้อหาบทเรียนเต็ม — พอตกลงหัวข้อกันแล้วค่อยลงมือเขียนเนื้อหาเต็ม (intro/ศัพท์8/พูด4/ควิซ8 ต่อบท) แบบเดียวกับที่ทำให้ ป.3-4 ครบไปแล้ว รอบนี้ทำ 4 ชั้น ป.1, ป.2, ป.5, ป.6 รวม 32 หน่วย / 128 บทเรียนใหม่ (ใหญ่กว่ารอบที่แล้ว 48 บทเกือบ 3 เท่า — ควรแบ่งทำเป็นช่วงๆ ไม่ใช่ทีเดียวหมด)
+> **สรุปการเปลี่ยนแปลงสำคัญ:** หลังได้หนังสือจริง ป.1-4 ครบ (ผู้ปกครองยืนยันไม่มีเพิ่มแล้ว) พบว่าที่ทำไปแล้ว (แอป ป.3/4/5 เดิม) มีระดับไวยากรณ์ตรงกับ ป.2/3/4 จริงมากกว่า — จึง**เลื่อนป้ายชื่อชั้นทั้งหมดลง 1 ระดับ** (relabel ไม่ใช่เขียนใหม่ เพื่อไม่เสียงานเสียง/ภาพที่ Codex/Antigravity ทำไปแล้ว) แล้วเขียนเนื้อหาใหม่เติมช่องว่างที่เหลือ (ป.1 ใหม่ทั้งหมด, ป.5-6 ใหม่ทั้งหมด) โดยใช้หนังสือจริงเป็น**แนวทางออกแบบเท่านั้น ไม่ใช่แปลตรงตัว** ตามที่คุยกันไว้
 
-## หลักการออกแบบ
+## หลักการออกแบบ (ปรับใหม่)
 
-ระดับความยากไล่เป็นเส้นตรงตลอด 6 ชั้น โดยอิงมาตรฐาน 2 ทาง เหมือนที่ใช้กับ ป.3-4:
-1. **สพฐ. หลักสูตรแกนกลาง** — สิ่งที่โรงเรียนรัฐ/เอกชนทั่วไปสอนจริง
-2. **Cambridge YLE** (Starters → Movers → Flyers) — มาตรฐานที่โรงเรียน EP/เอกชนเข้มข้นใช้อ้างอิง
+ลำดับความน่าเชื่อถือของแหล่งอ้างอิง:
+1. **หนังสือเรียนจริงที่ผู้ปกครองถ่ายมา** — น้ำหนักสูงสุด ใช้กำหนดไวยากรณ์/หัวข้อหลักของแต่ละชั้น
+2. **Cambridge YLE/KET/PET** — ใช้เติมช่องว่างที่ไม่มีหนังสือจริง (ป.1 บางส่วน, ป.5-6, และ bridge ปลาย ป.6 สู่ ม.ต้น)
+3. **สพฐ. หลักสูตรแกนกลาง** — เช็คว่าไม่หลุดจากมาตรฐานขั้นต่ำ
 
-| ชั้น | Cambridge YLE | โฟกัสหลัก |
-|---|---|---|
-| ป.1-2 | Pre-A1 **Starters** | คำศัพท์เดี่ยว + ประโยคสั้นมาก (This is..., I am..., I like...) ไม่มีไวยากรณ์ซับซ้อน |
-| ป.3-4 | A1 **Movers** (ทำไปแล้ว) | ประโยคสมบูรณ์, can, present continuous, comparatives, past simple เบื้องต้น |
-| ป.5-6 | A2 **Flyers** | superlatives, past continuous, going to/will future, modals (must/should), เชื่อมประโยคด้วย because/so/but |
+## ตารางเทียบชั้นสุดท้าย
 
-ยืนยันจากการค้นข้อมูลรอบนี้: สพฐ. ป.1 เน้นตัวอักษร+เสียง, ตัวเลข 1-20, สี, ขนาด, ตำแหน่งสิ่งของ, บอกชื่อ/อายุ/รูปร่าง — ตรงกับ Starters level แบบตรงตัว และ Cambridge Flyers ยืนยันชัดว่ามี superlative, going to future, past tense/continuous, modal can/could/must — ตรงกับที่วางแผนไว้สำหรับ ป.5-6 ด้านล่าง
+| ชั้นใหม่ | ธีม | มาจาก | ไวยากรณ์หลัก | สถานะ |
+|---|---|---|---|---|
+| **ป.1** | 🌻 Ducky's Pond School | เขียนใหม่ (แผนเดิมไม่เปลี่ยน) | phonics, ABC, คำเดี่ยว, wh-Q, can/have-got เบื้องต้น | ยังไม่เขียน |
+| **ป.2** | 🏙️ Big City | **relabel จากแอป ป.3 เดิม** | present simple ล้วน (กิจวัตร/ครอบครัว/บ้าน/อาหาร/ร่างกาย/สัตว์/อากาศ) | ✅ เขียนแล้ว (แค่เปลี่ยนป้าย) |
+| **ป.3** | 🎪 Four Seasons Fair | **relabel จากแอป ป.4 เดิม** | can, present continuous, would like, comparative, past simple เบื้องต้น | ✅ เขียนแล้ว (แค่เปลี่ยนป้าย) |
+| **ป.4** | 🌍 World Explorer Club | **relabel จากแอป ป.5 เดิม** | past continuous, superlative, บุพบทการเคลื่อนไหว | ✅ เขียนแล้ว (แค่เปลี่ยนป้าย) |
+| **ป.5** | 🏆 Champion Academy | เขียนใหม่ | adverbs of frequency, countable/uncountable, must/mustn't, there was/were, **will future**, **possessive adjectives vs pronouns**, connectors | ยังไม่เขียน |
+| **ป.6** | 🚀 Future & Beyond | เขียนใหม่ | going to future, modals (should), เทคโนโลยี/วิทยาศาสตร์ + **bridge ม.ต้น**: present perfect/passive/first conditional เบื้องต้น | ยังไม่เขียน |
 
-## ธีมโลกของแต่ละชั้น (ต่อยอดจักรวาล Ducky เดิม)
-
-| ชั้น | ธีม | เหตุผล |
-|---|---|---|
-| ป.1 | 🌻 **Ducky's Pond School** | จุดเริ่มต้นจักรวาล — หมู่บ้านสระน้ำเล็กๆ อบอุ่น เหมาะกับเด็กเริ่มเรียน ABC ตัวแรก |
-| ป.2 | 🎈 **Sunny Pond Village** | ขยายจากโรงเรียนไปเป็นหมู่บ้าน เริ่มมีประโยคสั้นๆ ทำกิจกรรมกับเพื่อนบ้าน |
-| ป.3 | 🏙️ Big City *(ทำแล้ว)* | ย้ายจากหมู่บ้านเข้าเมือง — โครงสร้างประโยคเต็มรูปแบบครั้งแรก |
-| ป.4 | 🎪 Four Seasons Fair *(ทำแล้ว)* | งานแฟร์ประจำปีในเมือง — can, กำลังทำ, เปรียบเทียบ, อดีต |
-| ป.5 | 🌍 **World Explorer Club** | Ducky โตขึ้น ออกเดินทางนอกเมือง ไปสำรวจโลกกว้าง — เข้ากับหัวข้อประเทศ/วัฒนธรรม/สิ่งแวดล้อม |
-| ป.6 | 🚀 **Future & Beyond** | ปีสุดท้ายก่อนขึ้น ม.1 — มองไปข้างหน้า: อาชีพในฝัน, เทคโนโลยี, แผนอนาคต, จบด้วยพิธีจบการศึกษาทบทวนทั้ง 6 ปี |
+**หมายเหตุสำคัญ:** ป.2-4 (relabel) เนื้อหายังคงเดิมทุกตัวอักษร — ไม่ได้ไปสอนหัวข้อ "Hello again!"/"My family" ตรงๆ ตามที่คุยกันไว้ว่าจะใช้หนังสือเป็นแนวทางเท่านั้น ไม่ใช่แปลตรงตัว ดังนั้นแผนย่อย ป.2 แบบ 10 หน่วยที่เคยร่างจาก "Hello again!" (Time for School, Mealtime ฯลฯ) **ถูกพักไว้ไม่ใช้แล้ว** — เก็บไว้ท้ายเอกสารนี้เผื่ออยากทำเป็นคอร์สเสริม/แทร็กท้าทายในอนาคต
 
 ---
 
-## ป.1 · Ducky's Pond School 🌻 — อิงหลักสูตรจริง (อัปเดต 11 ก.ค. 2026)
-
-**แหล่งอ้างอิง:** ผู้ปกครองส่งสรุปเนื้อหาจากหนังสือจริง 3 เล่ม (Oxford ระดับเริ่มต้น "Hello!", Oxford ระดับลึกกว่า "About us", ชุด Olly & Molly 6 Topics) บวกตาราง Scope & Sequence แยก Words/Grammar/Phonics/Skills 15 หน่วย — แทนที่แผนเดาเดิม (Cambridge Starters ล้วนๆ) ด้วยของจริง
-
-**วิธี synthesize แหล่งข้อมูล 4 แหล่งเข้าด้วยกัน:**
-- **โครงหน่วย/phonics** → ยึดตาราง Scope & Sequence เป็นหลัก (ละเอียดสุด มี Words/Grammar/Phonics/Skills ชัดเจนต่อหน่วย)
-- **หัวข้อ/คำศัพท์เสริม** → ใช้ Olly & Molly 6 Topics ตรวจทาน/เติมช่องว่างที่ Scope & Sequence ไม่ได้ระบุละเอียด (หน่วย 2-3) และยืมโครง "Reading Check + Write" ไปเป็นไอเดียสำหรับโหมดอ่าน-เขียนในอนาคต (ตรงกับช่องว่าง Phase 3 ในแผนพรีเมียม)
-- **ลำดับไวยากรณ์** → ใช้ Oxford เล่ม 2 "Hello!" (ระดับเริ่มต้น) เป็นตัวกำหนดจังหวะไวยากรณ์ ป.1 เพราะยืนยันแล้วว่าเหมาะกับเด็กเริ่มเรียน (a/an, possessive adjectives, plural nouns, subject pronouns, wh-questions, have got, present simple "like", there's/there are, can, imperatives)
-- **Oxford เล่ม 1 "About us" (ลึกกว่า) เก็บไว้ใช้กับ ป.2** — ระบุไว้ในเล่มเองว่า "เหมาะกับเด็กที่มีพื้นฐานแล้ว" ตรงกับตำแหน่ง ป.2 ในแผนนี้พอดี
-
-**การจัดกลุ่มหน่วยจริง 15 หน่วย + Olly&Molly เป็น 8 หน่วยของแอป** (2 หน่วยที่ทำเครื่องหมาย 🔸 คือช่วงที่ตาราง Scope & Sequence ไม่ได้ระบุรายละเอียด U2-U3 ไว้ — ผมเติมหัวข้อที่ Olly&Molly ยืนยันเป็น Topic แยกอยู่แล้ว [Colors/Shapes] และหัวข้อร่างกายซึ่งเป็นมาตรฐาน ป.1 ทั่วไป เพื่อไม่ให้เนื้อหาขาดช่วง — ควรเช็คกับหนังสือจริงอีกทีว่าตรงกับที่โรงเรียนสอนจริงไหม):
+## ป.1 · Ducky's Pond School 🌻 (ไม่เปลี่ยนจากแผนก่อนหน้า)
 
 | หน่วย | หัวข้อ | อิงจาก | ไวยากรณ์/โฟนิกส์ |
 |---|---|---|---|
-| 1 | What's This? (School Things) | S&S U1 + Olly&Molly Topic1 "In Your School" | wh-Q (What's this?), a/an, phonics Aa-Dd |
-| 2 🔸 | Colors, Shapes & Numbers | Olly&Molly Topic3 "Colors and Shapes" | plural nouns, phonics Ee-Hh |
-| 3 | Jobs & My Family | S&S U4+U6 + Olly&Molly Topic6 (ครึ่ง family) | possessive 's, subject pronouns |
-| 4 🔸 | The Park & My Body | S&S U5 "The park" + ร่างกายพื้นฐาน | prepositions in/on/under |
+| 1 | What's This? (School Things) | Scope&Sequence U1 + Olly&Molly "In Your School" | wh-Q, a/an, phonics Aa-Dd |
+| 2 | Colors, Shapes & Numbers | Olly&Molly "Colors and Shapes" | plural nouns, phonics Ee-Hh |
+| 3 | Jobs & My Family | S&S U4+U6 + Olly&Molly (ครึ่ง family) | possessive 's, subject pronouns |
+| 4 | The Park & My Body | S&S U5 + ร่างกายพื้นฐาน | prepositions in/on/under |
 | 5 | My Clothes & My House | S&S U7+U8 | digraphs sh/ch, Have got |
-| 6 | My Lunch Box & What I Like | S&S U9+U12 + Olly&Molly Topic4 "What Do You Like?" | digraph th, CVC a/e, present simple "like" |
-| 7 | My Friends & Animals (Zoo) | S&S U10+U11 + Olly&Molly Topic2 "Animals" + Topic6 (ครึ่ง friends) | CVC i/o/u, there's/there are |
-| 8 | My Bedroom, Weather & The Beach + ทบทวนใหญ่ | S&S U13+U14+U15 + Olly&Molly Topic5 "How's the Weather?" | Can/can't, Let's + verb, imperatives, ทบทวนทั้งปี |
+| 6 | My Lunch Box & What I Like | S&S U9+U12 + Olly&Molly "What Do You Like?" | digraph th, CVC a/e, present simple "like" |
+| 7 | My Friends & Animals (Zoo) | S&S U10+U11 + Olly&Molly "Animals" | CVC i/o/u, there's/there are |
+| 8 | My Bedroom, Weather & The Beach + ทบทวนใหญ่ | S&S U13-15 + Olly&Molly "How's the Weather?" | Can/can't, Let's + verb, imperatives |
 
-**Fluency Time / โปรเจกต์ระหว่างหน่วย:** Olly&Molly มีโปรเจกต์ลงมือทำ (หุ่นมือ, โปสเตอร์สวนสาธารณะ ฯลฯ) หลังทุก 3 หน่วย — ยังไม่มีโหมดนี้ในแอป ถ้าอยากทำจริงต้องออกแบบ UI ใหม่ (เก็บไว้เป็นไอเดีย ไม่ใช่ scope ตอนนี้)
+## ป.2 · Big City 🏙️ (= แอป ป.3 เดิม, แค่เปลี่ยนป้าย)
 
-## ป.2 · Sunny Pond Village 🎈 — อิงหลักสูตรจริง (อัปเดต 11 ก.ค. 2026 รอบ 2)
+เนื้อหาเดิม 8 หน่วย 32 บท: My Day (กิจวัตร) → What Time Is It? → My Family → My House → Yummy Food → My Body & Health → Animals & Pets → Weather & Feelings + ทบทวนใหญ่ — **ไม่ต้องเขียนใหม่** แค่เปลี่ยนชื่อไฟล์/id จาก p3u* → p2u*
 
-**⚠️ แก้ไขจากเวอร์ชันก่อนหน้า:** ตารางเดิมผูก ป.2 กับไวยากรณ์ของ Oxford "About us" (เดาว่าเป็นเล่มถัดจาก "Hello!") — ตอนนี้ผู้ปกครองส่งหนังสือที่ระบุระดับ ป.2 ชัดเจนมาแล้วคือ **Oxford "Hello again!"** ซึ่งน่าจะเป็นเล่มต่อจาก "Hello!" ตัวจริงในซีรีส์เดียวกัน (Hello! → Hello again! → ...) ดังนั้น **"About us" อาจไม่ใช่ ป.2** — เนื้อหาที่ระบุไว้ (demonstratives, comparative, past simple ของ be, quantifiers, ordinal numbers) ดูลึกกว่า "Hello again!" พอสมควร มีโอกาสเป็นเล่ม **ป.3** ในซีรีส์เดียวกัน หรือหนังสือเสริมนอกซีรีส์ — **รอผู้ปกครองยืนยันว่า "About us" คือระดับไหนกันแน่** (ถ้าเป็น ป.3 ก็ไม่ต้องใช้แล้วเพราะ ป.3 ของแอปทำเสร็จไปแล้ว แต่ถ้าเป็นเล่มเสริมสำหรับเด็กเก่ง อาจเก็บไว้ทำเป็นโหมด "ท้าทาย" เสริมทีหลัง)
+## ป.3 · Four Seasons Fair 🎪 (= แอป ป.4 เดิม, แค่เปลี่ยนป้าย)
 
-**แหล่งอ้างอิง 2 เล่มสำหรับ ป.2 จริง:**
-1. **Oxford "Hello again!"** — 10 บทเรียน แต่ละบทมี 5 Lesson (Words→Grammar→Words&Grammar→Story→Skills/Culture) + Extensive Reading คั่นทุก 2 บท + Emotional wellbeing สอดแทรก + culture comparison + โปรเจกต์ลงมือทำ → ใช้เป็น**โครงหน่วย+ไวยากรณ์หลัก**ของ ป.2 โดยตรง
-2. **Oxford Skills World: Reading with Writing 2** — กรอบทักษะอ่าน-เขียน 12 หน่วย (Read the Title/Headings, Find Key Info/Setting/Main Idea/Cause-Effect/Likes-Dislikes/Sequence ควบคู่ Write a Conversation/E-mail/Story/Paragraph/Opinion/Schedule) → **engine ปัจจุบันยังไม่รองรับกิจกรรมแบบนี้** (ไม่มีโหมดอ่านย่อหน้า/เขียนอีเมล) เก็บไว้เป็นข้อมูลออกแบบสำหรับ **Phase 3 ในแผนพรีเมียม** (โหมดเขียน/อ่านจับใจความ) แทนที่จะยัดใส่บทเรียนตอนนี้ — รายละเอียด 6 คู่ reading-goal/writing-goal นี้ใช้ออกแบบ UI โหมดใหม่ได้ตรงเป้ามาก
+เนื้อหาเดิม 8 หน่วย 32 บท: I Can! → Sports Day → At the Market → Yummy Fair Food → Around Town → Bigger Faster Stronger (comparative) → Yesterday at the Fair (past simple) → My Favorite Season + ทบทวนใหญ่ — **ไม่ต้องเขียนใหม่** แค่เปลี่ยนชื่อไฟล์/id จาก p4u* → p3u*
 
-**โครงหน่วย ป.2 (10 หน่วยตามหนังสือจริง แทนที่ 8 หน่วยเดาเดิม — ป.2 จะมี 40 บทแทน 32 บท):**
+## ป.4 · World Explorer Club 🌍 (= แอป ป.5 เดิม, แค่เปลี่ยนป้าย)
 
-| หน่วย | หัวข้อ | ไวยากรณ์หลักจาก Hello again! |
+เนื้อหาเดิม 8 หน่วย 32 บท: Countries & Nationalities → Amazing Landmarks → What Were You Doing? (past continuous) → Best of the Best (superlative) → Getting There → Festivals Around the World → Save Our Earth → Explorer's Journal + ทบทวนใหญ่ — **ไม่ต้องเขียนใหม่** แค่เปลี่ยนชื่อไฟล์/id จาก p5u* → p4u*
+
+**ช่องว่างที่รู้ตัว:** ป.4 จริง (จากหนังสือติวไวยากรณ์) เน้น sentence-transformation (บอกเล่า↔ปฏิเสธ↔คำถาม) ของ Present Simple/Continuous/Past Simple ซึ่งเนื้อหานี้ไม่มี — ยอมรับช่องว่างนี้ไว้ก่อน (เป็นเรื่อง activity-type ไม่ใช่หัวข้อ ดูหัวข้อ "โหมดฝึกแปลงประโยค" ท้ายเอกสาร)
+
+## ป.5 · Champion Academy 🏆 (ใหม่ทั้งหมด)
+
+**ไวยากรณ์:** อิงจากท้ายหนังสือ "My family" (ป.3 จริง หน่วย 7-12 ที่ยังไม่ได้ใช้) + Future Simple และ Possessive Adjectives-vs-Pronouns จากหนังสือติวไวยากรณ์ ป.4 จริง (ย้ายมาไว้ที่นี่แทน เพราะ ป.4 relabel ข้างบนใช้เนื้อหาเดิมไปแล้ว)
+
+ธีม: Ducky เข้าโรงเรียนกีฬา/กิจกรรมพิเศษ ฝึกวินัย กติกา และวางแผนอนาคต — เข้ากับไวยากรณ์เรื่องความถี่/กฎ/ความเป็นเจ้าของ/แผนการได้ดี
+
+| หน่วย | หัวข้อ (ร่าง) | ไวยากรณ์ |
 |---|---|---|
-| 1 | Time for School | Have you got a...? / Has he/she got...? |
-| 2 | Mealtime | I have...for breakfast, Do you have...? |
-| 3 | Wild Animals | live on land / in water |
-| 4 | My Favourite Things | Whose...is it? mine/yours/hers/his |
-| 5 | Around Town | Is there a...? Are there any...? |
-| 6 | At the Weekend | What's he/she doing? (present continuous) |
-| 7 | My Day | Daily routines, in the morning/afternoon/evening |
-| 8 | My Talents | I like/don't like, What can you do? |
-| 9 | My Home | There's a.../There are some... |
-| 10 | Days Out + ทบทวนใหญ่ | I was at... (past simple), What was the weather like? |
+| 1 | Training Schedule | adverbs of frequency (always/usually/sometimes/never) |
+| 2 | My Gear | possessive adjectives vs possessive pronouns (mine/yours/his/hers/ours/theirs) |
+| 3 | Snack Time | countable/uncountable nouns (some/any/much/many) |
+| 4 | Academy Rules | must/mustn't |
+| 5 | Last Season | there was/were, past simple ของ have/be (ทบทวน+ขยาย) |
+| 6 | Big Plans | Future Simple (will/won't) |
+| 7 | Because I Practice | connectors (because/so/but/and) เชื่อมประโยคยาวขึ้น |
+| 8 | Champion's Day + ทบทวนใหญ่ | รวมทุกหน่วย ป.5 |
 
-**หมายเหตุ:** หัวข้อ/ไวยากรณ์อิงหนังสือจริง 100% (ไม่ได้เดา) เปลี่ยนธีมโลกจาก "Sunny Pond Village" เดิมเล็กน้อยให้เข้ากับหัวข้อจริง (Around Town, Days Out) ได้ —ยังคงใช้ธีม Sunny Pond Village ได้ เพราะหัวข้อจริงก็เป็นเรื่องหมู่บ้าน/เมืองเล็กๆ อยู่แล้ว ไม่ขัดกัน แต่ละหน่วยยังใส่ **Emotional wellbeing message** (เช่น "taking part is more important than winning") ไว้ในบท intro ได้ ตรงกับสไตล์หนังสือต้นฉบับ
+## ป.6 · Future & Beyond 🚀 (ใหม่ทั้งหมด, ปรับจากแผนเดิม)
 
-## ป.5 · World Explorer Club 🌍 (Cambridge Flyers เริ่มต้น)
-**ไวยากรณ์:** past continuous (was/were + -ing), superlatives (-est/most), บุพบทการเคลื่อนไหว (into/through/across), เชื่อมประโยคด้วย because/so/but
+**ไวยากรณ์:** going to future, modals (should/could), + **bridge สู่ ม.ต้น** ปลายชั้น (อิง Cambridge A2 Key→B1 Preliminary): present perfect เบื้องต้น, passive voice เบื้องต้น, first conditional
 
-| หน่วย | หัวข้อ | ตัวอย่างคำศัพท์ / จุดไวยากรณ์ |
+| หน่วย | หัวข้อ | ไวยากรณ์ |
 |---|---|---|
-| 1 | Countries & Nationalities | ชื่อประเทศ, nationality, Where are you from? |
-| 2 | Amazing Landmarks | สถานที่ดัง, has/have, simple facts |
-| 3 | What Were You Doing? | past continuous |
-| 4 | Best of the Best | superlatives: tallest, biggest, most beautiful |
-| 5 | Getting There | transportation, into/through/across/along |
-| 6 | Festivals Around the World | ประเพณี, เทศกาล, เสื้อผ้า/อาหารประจำชาติ |
-| 7 | Save Our Earth | recycle, save water/energy, สิ่งแวดล้อม |
-| 8 | Explorer's Journal + ทบทวนใหญ่ | รวมทุกหน่วย ป.5 |
-
-## ป.6 · Future & Beyond 🚀 (Cambridge Flyers เต็มรูปแบบ)
-**ไวยากรณ์:** going to future, will future, modals (must/should สำหรับคำแนะนำ/กฎ), คำถามซับซ้อนขึ้น
-
-| หน่วย | หัวข้อ | ตัวอย่างคำศัพท์ / จุดไวยากรณ์ |
-|---|---|---|
-| 1 | My Future Job | อาชีพ, I want to be a... |
-| 2 | Weekend Plans | going to future |
-| 3 | Predictions | will future: It will rain tomorrow |
-| 4 | Should and Must | modals คำแนะนำ/กฎ |
-| 5 | Technology Today | computer, phone, internet, คำศัพท์เทคโนโลยี |
-| 6 | Science & Discovery | การทดลองง่ายๆ, คำถามเชิงสงสัย |
-| 7 | My Dream Vacation | รวม future + travel + preference |
-| 8 | Graduation Day + ทบทวนใหญ่ทั้ง ป.1-6 | บทปิดจบใหญ่ที่สุดของทั้งซีรีส์ |
+| 1 | My Future Job | going to future: I'm going to be a... |
+| 2 | Weekend Plans | going to future ต่อเนื่อง |
+| 3 | Should and Could | modals คำแนะนำ |
+| 4 | Technology Today | คำศัพท์เทคโนโลยี, will future ทบทวน |
+| 5 | Science & Discovery | คำถามเชิงสงสัย, connectors ต่อเนื่อง |
+| 6 | Have You Ever...? | 🆕 present perfect เบื้องต้น (bridge ม.ต้น) |
+| 7 | It Is Made Of... | 🆕 passive voice เบื้องต้น (bridge ม.ต้น) |
+| 8 | If I Try My Best + ทบทวนใหญ่ทั้ง ป.1-6 | 🆕 first conditional (bridge ม.ต้น) + บทปิดจบใหญ่ที่สุดของทั้งซีรีส์ |
 
 ---
 
-## ขอบเขตงานที่เหลือ (อัปเดตหลัง ป.5 เสร็จแล้วและปรับจำนวนหน่วย ป.2 ตามหนังสือจริง)
+## ขั้นตอนการดำเนินการ (ยังไม่ได้ลงมือ — รอคำสั่งสุดท้าย)
 
-| ชั้น | สถานะ | หน่วย | บทเรียน |
-|---|---|---|---|
-| ป.5 🌍 World Explorer Club | ✅ เขียนเสร็จแล้ว | 8 | 32 |
-| ป.1 🌻 Ducky's Pond School | ยังไม่เขียน (มีแผนแล้ว อิงหนังสือจริง) | 8 | 32 |
-| ป.2 🎈 Sunny Pond Village | ยังไม่เขียน (มีแผนแล้ว อิงหนังสือจริง — ปรับเป็น 10 หน่วยตามหนังสือ) | 10 | 40 |
-| ป.6 🚀 Future & Beyond | ยังไม่เขียน (แผนเดาจาก Cambridge Flyers ยังไม่มีหนังสือจริงอ้างอิง) | 8 | 32 |
-| **รวมที่เหลือ** | | **26 หน่วย** | **104 บท** |
+### ขั้นที่ 1: Rename ของเดิม (ป.3→2, ป.4→3, ป.5→4)
+ต้องแก้พร้อมกันทั้งหมดในรอบเดียว:
+- ไฟล์ข้อมูล: `data/p3u*.json`→`p2u*.json`, `p4u*.json`→`p3u*.json`, `p5u*.json`→`p4u*.json` (เปลี่ยนทั้งชื่อไฟล์และ `id`/`grade`/`gradeName` ข้างในทุกบรรทัด)
+- `engine.js`: UNIT_FILES keys และ path
+- `index.html`: data-g และ label ของ 3 แท็บ (🏙️ป.3→ป.2, 🎪ป.4→ป.3, 🌍ป.5→ป.4)
+- **ไฟล์เสียง 1,408 ไฟล์ + ภาพที่ผลิตแล้ว** ใน `assets/audio/` และ `assets/img/` — เปลี่ยน prefix ทั้งหมด (p3u→p2u, p4u→p3u, p5u→p4u)
+- เอกสาร: `asset-production-kit.md`, `-batch2.md`, `-batch3.md`, `project-handoff.md`
 
-**คำแนะนำ:** อย่าทำทีเดียวทั้ง 104 บท — ใหญ่กว่ารอบที่แล้ว (48 บท) กว่า 2 เท่า เสี่ยงคุณภาพตกและตรวจทานยาก แนะนำแบ่งทำทีละชั้น ทำเสร็จแต่ละชั้นแล้วค่อยส่งชุดสั่งงานภาพ/เสียงให้ Codex/Antigravity ทยอยผลิตตามไป ไม่ต้องรอครบทุกชั้นพร้อมกัน (แบบเดียวกับที่ทำสำเร็จมาแล้วกับ ป.3-4-5)
+### ขั้นที่ 2: แจ้ง Codex/Antigravity scheme ใหม่
+งานที่มันทำค้างอยู่ตอนนี้ (ภาพ vocab บางส่วน) อาจมาช้ากว่าที่ rename เสร็จ — ต้อง sync/rename รอบสองอีกทีหลัง
 
-**ลำดับแนะนำ:** ป.1 หรือ ป.2 ก่อน (มีหนังสือจริงอ้างอิงแล้วทั้งคู่ ความเสี่ยงเนื้อหาผิดต่ำสุด) → ป.6 ทำทีหลังสุด (ยังไม่มีหนังสือจริง ควรรอดูว่ามีเล่มอ้างอิงส่งมาเพิ่มไหมก่อนเขียนเนื้อหาเดา)
+### ขั้นที่ 3: เขียนเนื้อหาใหม่ ป.1, ป.5, ป.6 (96 บทเรียนใหม่รวม)
+
+| ชั้น | หน่วย | บทเรียน |
+|---|---|---|
+| ป.1 | 8 | 32 |
+| ป.5 | 8 | 32 |
+| ป.6 | 8 | 32 |
+| **รวม** | **24** | **96** |
+
+### ขั้นที่ 4: โหมดฝึกแปลงประโยค (ข้อเสนอเสริม ยังไม่ตัดสินใจ)
+ถ้าอยากให้แอปตรงกับสไตล์หนังสือ ป.4 จริง (บอกเล่า→ปฏิเสธ→คำถาม) ต้องเพิ่ม activity type ใหม่ในเอนจิ้น — เก็บเป็นตัวเลือกเสริม ไม่ใช่ blocker ของการ rename/เขียนเนื้อหาใหม่
+
+---
+
+## เก็บไว้เผื่อใช้ภายหลัง: แผน ป.2 แบบ 10 หน่วยจาก "Hello again!" (พักไว้ไม่ใช้ตอนนี้)
+
+| หน่วย | หัวข้อ | ไวยากรณ์ |
+|---|---|---|
+| 1 | Time for School | Have you got...? Has he/she got...? |
+| 2 | Mealtime | I have...for breakfast |
+| 3 | Wild Animals | live on land/in water |
+| 4 | My Favourite Things | Whose...is it? mine/yours/hers/his |
+| 5 | Around Town | Is there.../Are there any...? |
+| 6 | At the Weekend | present continuous |
+| 7 | My Day | daily routines |
+| 8 | My Talents | I like/can |
+| 9 | My Home | there's/there are |
+| 10 | Days Out + ทบทวน | past simple, weather |
+
+(เช่นเดียวกับ Oxford Skills World Reading with Writing 2/3 — เก็บไว้ใน `curriculum-reference-real-books.md` สำหรับ Phase 3 แผนพรีเมียม)
