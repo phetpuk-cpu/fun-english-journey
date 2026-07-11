@@ -1,0 +1,59 @@
+name: Deploy to GitHub Pages
+
+# Deploys the Fun English Journey web app (in fun-english-journey/) to GitHub Pages.
+# The app's assets/ folder is a symlink to the repo-root assets/ (single source of
+# truth that Codex/Antigravity write to). GitHub Pages does not follow symlinks, so
+# the build step below uses `cp -rL` to dereference the symlink into real files,
+# producing a self-contained _site/ that Pages can serve.
+
+on:
+  push:
+    branches: [main]
+    # Only rebuild when something the site actually serves changes.
+    paths:
+      - "fun-english-journey/**"
+      - "assets/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; newer pushes cancel in-progress runs.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build self-contained site (dereference asset symlinks)
+        run: |
+          mkdir -p _site
+          # -L dereferences the assets/ symlink into real files; /. copies dotfiles too.
+          cp -rL fun-english-journey/. _site/
+          # Strip macOS AppleDouble junk if any slipped in.
+          find _site -name '._*' -delete
+          echo "Built site: $(find _site -type f | wc -l) files, $(du -sh _site | cut -f1)"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
