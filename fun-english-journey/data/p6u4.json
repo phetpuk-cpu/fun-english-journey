@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 4 · Technology Today — เทคโนโลยีในวันนี้",
+  "lessons": [
+    {
+      "id": "p6u4l1",
+      "icon": "💻",
+      "title": "Cool Gadgets",
+      "sub": "อุปกรณ์เทคโนโลยีสุดเจ๋ง",
+      "intro": { "en": "Technology is everywhere around us!", "th": "เทคโนโลยีอยู่รอบตัวเราเลยนะ!" },
+      "vocab": [
+        {"w":"computer","th":"คอมพิวเตอร์","e":"💻"},
+        {"w":"smartphone","th":"สมาร์ทโฟน","e":"📱"},
+        {"w":"robot","th":"หุ่นยนต์","e":"🤖"},
+        {"w":"internet","th":"อินเทอร์เน็ต","e":"🌐"},
+        {"w":"application","th":"แอปพลิเคชัน","e":"📲"},
+        {"w":"tablet","th":"แท็บเล็ต","e":"📱"},
+        {"w":"camera","th":"กล้อง","e":"📷"},
+        {"w":"screen","th":"หน้าจอ","e":"🖥️"}
+      ],
+      "build": {"sentence":"I use a computer every day.","th":"ฉันใช้คอมพิวเตอร์ทุกวัน"},
+      "speak": [
+        {"t":"I use a computer every day.","th":"ฉันใช้คอมพิวเตอร์ทุกวัน"},
+        {"t":"My robot can clean the room.","th":"หุ่นยนต์ของฉันทำความสะอาดห้องได้"},
+        {"t":"I need the internet for my homework.","th":"ฉันต้องใช้อินเทอร์เน็ตทำการบ้าน"},
+        {"t":"This application is very useful.","th":"แอปพลิเคชันนี้มีประโยชน์มาก"}
+      ],
+      "quiz": [
+        {"q":"💻 คือ...","c":["computer","smartphone","tablet"],"a":0},
+        {"q":"'สมาร์ทโฟน' คือ...","c":["smartphone","computer","camera"],"a":0},
+        {"q":"🤖 คือ...","c":["robot","screen","internet"],"a":0},
+        {"q":"🌐 คือ...","c":["internet","application","screen"],"a":0},
+        {"q":"'แอปพลิเคชัน' คือ...","c":["application","internet","tablet"],"a":0},
+        {"q":"📱 (แผ่นจอใหญ่กว่าโทรศัพท์) คือ...","c":["tablet","smartphone","camera"],"a":0},
+        {"q":"📷 คือ...","c":["camera","screen","robot"],"a":0},
+        {"q":"🖥️ คือ...","c":["screen","camera","computer"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u4l2",
+      "icon": "🔮",
+      "title": "How Will We Live?",
+      "sub": "อนาคตเราจะใช้ชีวิตแบบไหน",
+      "intro": { "en": "How will we live in the future?", "th": "อนาคตเราจะใช้ชีวิตแบบไหนนะ?" },
+      "vocab": [
+        {"w":"self-driving car","th":"รถขับเคลื่อนอัตโนมัติ","e":"🚗"},
+        {"w":"smart home","th":"บ้านอัจฉริยะ","e":"🏠"},
+        {"w":"video call","th":"วิดีโอคอล","e":"📹"},
+        {"w":"artificial intelligence","th":"ปัญญาประดิษฐ์","e":"🧠"},
+        {"w":"virtual reality","th":"ความจริงเสมือน","e":"🥽"},
+        {"w":"wearable device","th":"อุปกรณ์สวมใส่","e":"⌚"},
+        {"w":"drone","th":"โดรน","e":"🚁"},
+        {"w":"solar power","th":"พลังงานแสงอาทิตย์","e":"☀️"}
+      ],
+      "build": {"sentence":"In the future, cars will drive themselves.","th":"ในอนาคต รถจะขับเคลื่อนได้เอง"},
+      "speak": [
+        {"t":"In the future, cars will drive themselves.","th":"ในอนาคต รถจะขับเคลื่อนได้เอง"},
+        {"t":"We will live in smart homes.","th":"พวกเราจะอาศัยในบ้านอัจฉริยะ"},
+        {"t":"Robots will help us more.","th":"หุ่นยนต์จะช่วยเหลือเรามากขึ้น"},
+        {"t":"We will use solar power.","th":"พวกเราจะใช้พลังงานแสงอาทิตย์"}
+      ],
+      "quiz": [
+        {"q":"🚗 (ขับเอง) คือ...","c":["self-driving car","smart home","drone"],"a":0},
+        {"q":"'บ้านอัจฉริยะ' คือ...","c":["smart home","self-driving car","video call"],"a":0},
+        {"q":"📹 คือ...","c":["video call","virtual reality","drone"],"a":0},
+        {"q":"'ปัญญาประดิษฐ์' คือ...","c":["artificial intelligence","virtual reality","wearable device"],"a":0},
+        {"q":"🥽 คือ...","c":["virtual reality","artificial intelligence","drone"],"a":0},
+        {"q":"⌚ คือ...","c":["wearable device","smart home","drone"],"a":0},
+        {"q":"🚁 คือ...","c":["drone","self-driving car","wearable device"],"a":0},
+        {"q":"In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u4l3",
+      "icon": "🔒",
+      "title": "Online Safety",
+      "sub": "ความปลอดภัยออนไลน์",
+      "intro": { "en": "We must stay safe online.", "th": "เราต้องปลอดภัยเมื่ออยู่ออนไลน์" },
+      "vocab": [
+        {"w":"password","th":"รหัสผ่าน","e":"🔑"},
+        {"w":"private","th":"ส่วนตัว","e":"🔒"},
+        {"w":"safe","th":"ปลอดภัย","e":"🛡️"},
+        {"w":"stranger","th":"คนแปลกหน้า","e":"❓"},
+        {"w":"personal information","th":"ข้อมูลส่วนตัว","e":"📋"},
+        {"w":"share","th":"แบ่งปัน","e":"📤"},
+        {"w":"careful online","th":"ระมัดระวังบนโลกออนไลน์","e":"⚠️"},
+        {"w":"trust","th":"ไว้วางใจ","e":"🤝"}
+      ],
+      "build": {"sentence":"You should keep your password private.","th":"เธอควรเก็บรหัสผ่านเป็นความลับ"},
+      "speak": [
+        {"t":"You should keep your password private.","th":"เธอควรเก็บรหัสผ่านเป็นความลับ"},
+        {"t":"You shouldn't talk to strangers online.","th":"เธอไม่ควรคุยกับคนแปลกหน้าออนไลน์"},
+        {"t":"Never share your personal information.","th":"อย่าแบ่งปันข้อมูลส่วนตัวของเธอเด็ดขาด"},
+        {"t":"Be careful online.","th":"ระมัดระวังบนโลกออนไลน์ด้วยนะ"}
+      ],
+      "quiz": [
+        {"q":"🔑 คือ...","c":["password","private","safe"],"a":0},
+        {"q":"'ส่วนตัว' คือ...","c":["private","personal information","share"],"a":0},
+        {"q":"🛡️ คือ...","c":["safe","stranger","trust"],"a":0},
+        {"q":"'คนแปลกหน้า' คือ...","c":["stranger","trust","share"],"a":0},
+        {"q":"📋 คือ...","c":["personal information","password","private"],"a":0},
+        {"q":"📤 คือ...","c":["share","trust","safe"],"a":0},
+        {"q":"⚠️ คือ...","c":["careful online","safe","trust"],"a":0},
+        {"q":"You should keep your password ___. (ส่วนตัว)","c":["private","share","safe"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u4l4",
+      "icon": "📱",
+      "title": "Tech Review",
+      "sub": "ทบทวนเทคโนโลยี + ทบทวนทั้งหน่วย",
+      "intro": { "en": "Let's review what we learned about technology!", "th": "มาทบทวนเรื่องเทคโนโลยีที่เรียนมากันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"invention","th":"สิ่งประดิษฐ์","e":"💡"},
+        {"w":"upgrade","th":"อัปเกรด","e":"⬆️"},
+        {"w":"connect","th":"เชื่อมต่อ","e":"🔗"},
+        {"w":"digital","th":"ดิจิทัล","e":"🔢"},
+        {"w":"innovation","th":"นวัตกรรม","e":"🚀"},
+        {"w":"progress","th":"ความก้าวหน้า","e":"📈"},
+        {"w":"convenient","th":"สะดวกสบาย","e":"👍"},
+        {"w":"powerful","th":"ทรงพลัง","e":"⚡"}
+      ],
+      "build": {"sentence":"Technology will make our lives easier.","th":"เทคโนโลยีจะทำให้ชีวิตเราง่ายขึ้น"},
+      "speak": [
+        {"t":"Technology will make our lives easier.","th":"เทคโนโลยีจะทำให้ชีวิตเราง่ายขึ้น"},
+        {"t":"This is an amazing invention.","th":"นี่เป็นสิ่งประดิษฐ์ที่น่าทึ่งมาก"},
+        {"t":"We should upgrade our skills too.","th":"พวกเราก็ควรอัปเกรดทักษะของเราด้วย"},
+        {"t":"The internet connects the whole world.","th":"อินเทอร์เน็ตเชื่อมต่อคนทั้งโลกเข้าด้วยกัน"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย4] 💡 คือ...","c":["invention","innovation","progress"],"a":0},
+        {"q":"[หน่วย4] 🚀 คือ...","c":["innovation","invention","upgrade"],"a":0},
+        {"q":"[ทบทวน] In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0},
+        {"q":"[ทบทวน] You should keep your password ___. (ส่วนตัว)","c":["private","share","safe"],"a":0},
+        {"q":"[ทบทวน] 💻 คือ...","c":["computer","smartphone","tablet"],"a":0},
+        {"q":"🔗 คือ...","c":["connect","digital","convenient"],"a":0},
+        {"q":"⚡ คือ...","c":["powerful","convenient","digital"],"a":0},
+        {"q":"Technology will make our lives ___. (ง่ายขึ้น)","c":["easier","harder","slower"],"a":0}
+      ]
+    }
+  ]
+}

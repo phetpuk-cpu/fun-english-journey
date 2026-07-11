@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 5 · Science & Discovery — วิทยาศาสตร์และการค้นพบ",
+  "lessons": [
+    {
+      "id": "p6u5l1",
+      "icon": "❓",
+      "title": "Big Questions",
+      "sub": "คำถามยิ่งใหญ่",
+      "intro": { "en": "I have so many questions about the world!", "th": "ฉันมีคำถามมากมายเกี่ยวกับโลกใบนี้เลย!" },
+      "vocab": [
+        {"w":"wonder","th":"สงสัย","e":"🤔"},
+        {"w":"explore","th":"สำรวจ","e":"🧭"},
+        {"w":"mystery","th":"ความลึกลับ","e":"🔍"},
+        {"w":"question","th":"คำถาม","e":"❓"},
+        {"w":"investigate","th":"สืบค้น","e":"🕵️"},
+        {"w":"observe","th":"สังเกต","e":"👀"},
+        {"w":"imagine","th":"จินตนาการ","e":"💭"},
+        {"w":"amazing","th":"น่าทึ่ง","e":"🤩"}
+      ],
+      "build": {"sentence":"I wonder how birds fly.","th":"ฉันสงสัยว่านกบินได้ยังไง"},
+      "speak": [
+        {"t":"I wonder how birds fly.","th":"ฉันสงสัยว่านกบินได้ยังไง"},
+        {"t":"Let's explore the forest.","th":"ไปสำรวจป่ากันเถอะ"},
+        {"t":"This is a big mystery.","th":"นี่คือความลึกลับที่ยิ่งใหญ่"},
+        {"t":"I like to imagine new things.","th":"ฉันชอบจินตนาการสิ่งใหม่ๆ"}
+      ],
+      "quiz": [
+        {"q":"🤔 คือ...","c":["wonder","imagine","observe"],"a":0},
+        {"q":"'สำรวจ' คือ...","c":["explore","investigate","observe"],"a":0},
+        {"q":"🔍 คือ...","c":["mystery","question","wonder"],"a":0},
+        {"q":"❓ คือ...","c":["question","mystery","explore"],"a":0},
+        {"q":"🕵️ คือ...","c":["investigate","observe","explore"],"a":0},
+        {"q":"'สังเกต' คือ...","c":["observe","investigate","imagine"],"a":0},
+        {"q":"💭 คือ...","c":["imagine","wonder","amazing"],"a":0},
+        {"q":"I ___ how birds fly. (สงสัย)","c":["wonder","imagine","observe"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u5l2",
+      "icon": "🔬",
+      "title": "Amazing Discoveries",
+      "sub": "การค้นพบที่น่าทึ่ง",
+      "intro": { "en": "Scientists discover amazing things every day.", "th": "นักวิทยาศาสตร์ค้นพบสิ่งน่าทึ่งทุกวันเลยนะ" },
+      "vocab": [
+        {"w":"discover","th":"ค้นพบ","e":"🔭"},
+        {"w":"invent","th":"ประดิษฐ์","e":"💡"},
+        {"w":"experiment","th":"การทดลอง","e":"🧪"},
+        {"w":"planet","th":"ดาวเคราะห์","e":"🪐"},
+        {"w":"space","th":"อวกาศ","e":"🌌"},
+        {"w":"gravity","th":"แรงโน้มถ่วง","e":"🍎"},
+        {"w":"energy","th":"พลังงาน","e":"⚡"},
+        {"w":"universe","th":"จักรวาล","e":"🌠"}
+      ],
+      "build": {"sentence":"Scientists discovered a new planet.","th":"นักวิทยาศาสตร์ค้นพบดาวเคราะห์ดวงใหม่"},
+      "speak": [
+        {"t":"Scientists discovered a new planet.","th":"นักวิทยาศาสตร์ค้นพบดาวเคราะห์ดวงใหม่"},
+        {"t":"He invented a useful machine.","th":"เขาประดิษฐ์เครื่องจักรที่มีประโยชน์"},
+        {"t":"We did a fun experiment today.","th":"วันนี้พวกเราทำการทดลองที่สนุกมาก"},
+        {"t":"Space is full of mysteries.","th":"อวกาศเต็มไปด้วยความลึกลับ"}
+      ],
+      "quiz": [
+        {"q":"🔭 คือ...","c":["discover","invent","explore"],"a":0},
+        {"q":"'ประดิษฐ์' คือ...","c":["invent","discover","experiment"],"a":0},
+        {"q":"🧪 คือ...","c":["experiment","invent","discover"],"a":0},
+        {"q":"🪐 คือ...","c":["planet","space","universe"],"a":0},
+        {"q":"'อวกาศ' คือ...","c":["space","planet","gravity"],"a":0},
+        {"q":"🍎 (แรงดึงดูด) คือ...","c":["gravity","energy","space"],"a":0},
+        {"q":"⚡ คือ...","c":["energy","gravity","universe"],"a":0},
+        {"q":"Scientists ___ a new planet. (ค้นพบ, อดีต)","c":["discovered","invented","explored"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u5l3",
+      "icon": "🧪",
+      "title": "Young Scientists",
+      "sub": "นักวิทยาศาสตร์ตัวน้อย",
+      "intro": { "en": "Let's think and act like real scientists!", "th": "มาคิดและทำตัวเหมือนนักวิทยาศาสตร์ตัวจริงกันเถอะ!" },
+      "vocab": [
+        {"w":"hypothesis","th":"สมมติฐาน","e":"📝"},
+        {"w":"test","th":"ทดสอบ","e":"🧪"},
+        {"w":"record","th":"บันทึก","e":"📓"},
+        {"w":"result","th":"ผลลัพธ์","e":"📊"},
+        {"w":"conclusion","th":"บทสรุป","e":"✅"},
+        {"w":"evidence","th":"หลักฐาน","e":"🔎"},
+        {"w":"measure","th":"วัด","e":"📏"},
+        {"w":"method","th":"วิธีการ","e":"🗂️"}
+      ],
+      "build": {"sentence":"We tested our hypothesis.","th":"พวกเราทดสอบสมมติฐานของเรา"},
+      "speak": [
+        {"t":"We tested our hypothesis.","th":"พวกเราทดสอบสมมติฐานของเรา"},
+        {"t":"I recorded the results carefully.","th":"ฉันบันทึกผลลัพธ์อย่างระมัดระวัง"},
+        {"t":"What is your conclusion?","th":"บทสรุปของเธอคืออะไร?"},
+        {"t":"We need more evidence.","th":"พวกเราต้องการหลักฐานมากขึ้น"}
+      ],
+      "quiz": [
+        {"q":"📝 คือ...","c":["hypothesis","conclusion","evidence"],"a":0},
+        {"q":"'ทดสอบ' คือ...","c":["test","measure","record"],"a":0},
+        {"q":"📓 คือ...","c":["record","result","method"],"a":0},
+        {"q":"'ผลลัพธ์' คือ...","c":["result","conclusion","evidence"],"a":0},
+        {"q":"✅ คือ...","c":["conclusion","hypothesis","test"],"a":0},
+        {"q":"🔎 คือ...","c":["evidence","result","record"],"a":0},
+        {"q":"📏 คือ...","c":["measure","test","record"],"a":0},
+        {"q":"We ___ our hypothesis. (ทดสอบ, อดีต)","c":["tested","recorded","measured"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u5l4",
+      "icon": "🌌",
+      "title": "Discovery Review",
+      "sub": "ทบทวนการค้นพบ + ทบทวนทั้งหน่วย",
+      "intro": { "en": "Let's review our science journey!", "th": "มาทบทวนการเดินทางทางวิทยาศาสตร์ของเรากันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"knowledge","th":"ความรู้","e":"📚"},
+        {"w":"fact","th":"ข้อเท็จจริง","e":"✔️"},
+        {"w":"theory","th":"ทฤษฎี","e":"📖"},
+        {"w":"amazing fact","th":"ข้อเท็จจริงที่น่าทึ่ง","e":"🌟"},
+        {"w":"technology","th":"เทคโนโลยี","e":"⚙️"},
+        {"w":"nature","th":"ธรรมชาติ","e":"🌿"},
+        {"w":"learn about","th":"เรียนรู้เกี่ยวกับ","e":"🧠"},
+        {"w":"curiosity","th":"ความอยากรู้อยากเห็น","e":"🔦"}
+      ],
+      "build": {"sentence":"Curiosity leads to great discoveries.","th":"ความอยากรู้อยากเห็นนำไปสู่การค้นพบที่ยิ่งใหญ่"},
+      "speak": [
+        {"t":"Curiosity leads to great discoveries.","th":"ความอยากรู้อยากเห็นนำไปสู่การค้นพบที่ยิ่งใหญ่"},
+        {"t":"I love learning about nature.","th":"ฉันชอบเรียนรู้เกี่ยวกับธรรมชาติ"},
+        {"t":"That is an amazing fact!","th":"นั่นเป็นข้อเท็จจริงที่น่าทึ่งมากเลย!"},
+        {"t":"Knowledge is powerful.","th":"ความรู้คือพลัง"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย5] 📚 คือ...","c":["knowledge","fact","theory"],"a":0},
+        {"q":"[หน่วย5] ✔️ คือ...","c":["fact","theory","knowledge"],"a":0},
+        {"q":"[ทบทวน] I ___ how birds fly. (สงสัย)","c":["wonder","imagine","observe"],"a":0},
+        {"q":"[ทบทวน] Scientists ___ a new planet. (ค้นพบ, อดีต)","c":["discovered","invented","explored"],"a":0},
+        {"q":"[ทบทวน] We ___ our hypothesis. (ทดสอบ, อดีต)","c":["tested","recorded","measured"],"a":0},
+        {"q":"🌿 คือ...","c":["nature","technology","theory"],"a":0},
+        {"q":"🔦 คือ...","c":["curiosity","knowledge","fact"],"a":0},
+        {"q":"___ leads to great discoveries. (ความอยากรู้)","c":["Curiosity","Knowledge","Technology"],"a":0}
+      ]
+    }
+  ]
+}

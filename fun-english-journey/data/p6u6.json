@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 6 · Have You Ever...? — เธอเคยไหม",
+  "lessons": [
+    {
+      "id": "p6u6l1",
+      "icon": "🙋",
+      "title": "Have You Ever?",
+      "sub": "เธอเคยไหม",
+      "intro": { "en": "Have you ever done something amazing?", "th": "เธอเคยทำสิ่งที่น่าทึ่งบ้างไหม?" },
+      "vocab": [
+        {"w":"been","th":"เคยไป(past participle ของ be)","e":"✈️"},
+        {"w":"seen","th":"เคยเห็น(past participle ของ see)","e":"👀"},
+        {"w":"tried","th":"เคยลอง(past participle ของ try)","e":"🎯"},
+        {"w":"eaten","th":"เคยกิน(past participle ของ eat)","e":"🍽️"},
+        {"w":"done","th":"เคยทำ(past participle ของ do)","e":"✅"},
+        {"w":"gone","th":"เคยไป(past participle ของ go)","e":"🚶"},
+        {"w":"made","th":"เคยทำขึ้น(past participle ของ make)","e":"🛠️"},
+        {"w":"read","th":"เคยอ่าน(past participle ของ read)","e":"📖"}
+      ],
+      "build": {"sentence":"Have you ever been to Japan?","th":"เธอเคยไปญี่ปุ่นไหม?"},
+      "speak": [
+        {"t":"Have you ever been to Japan?","th":"เธอเคยไปญี่ปุ่นไหม?"},
+        {"t":"I have seen a real elephant.","th":"ฉันเคยเห็นช้างจริงๆ"},
+        {"t":"She has tried surfing before.","th":"หล่อนเคยลองเล่นเซิร์ฟมาก่อน"},
+        {"t":"I have never eaten durian.","th":"ฉันไม่เคยกินทุเรียนเลย"}
+      ],
+      "quiz": [
+        {"q":"✈️ (past participle ของ be) คือ...","c":["been","seen","gone"],"a":0},
+        {"q":"'เคยเห็น' คือ...","c":["seen","been","tried"],"a":0},
+        {"q":"🎯 (past participle ของ try) คือ...","c":["tried","done","made"],"a":0},
+        {"q":"'เคยกิน' คือ...","c":["eaten","tried","done"],"a":0},
+        {"q":"✅ (past participle ของ do) คือ...","c":["done","made","read"],"a":0},
+        {"q":"🚶 (past participle ของ go) คือ...","c":["gone","been","seen"],"a":0},
+        {"q":"🛠️ (past participle ของ make) คือ...","c":["made","done","read"],"a":0},
+        {"q":"Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u6l2",
+      "icon": "🌏",
+      "title": "My Experiences",
+      "sub": "ประสบการณ์ของฉัน",
+      "intro": { "en": "Let's talk about our experiences.", "th": "มาคุยเรื่องประสบการณ์ของเรากันเถอะ" },
+      "vocab": [
+        {"w":"experience","th":"ประสบการณ์","e":"🌟"},
+        {"w":"already","th":"...แล้ว","e":"✅"},
+        {"w":"yet","th":"ยัง(ไม่)...","e":"⏳"},
+        {"w":"just","th":"เพิ่งจะ","e":"🕐"},
+        {"w":"before","th":"มาก่อน","e":"⏮️"},
+        {"w":"once","th":"หนึ่งครั้ง","e":"1️⃣"},
+        {"w":"twice","th":"สองครั้ง","e":"2️⃣"},
+        {"w":"many times","th":"หลายครั้ง","e":"🔁"}
+      ],
+      "build": {"sentence":"I have already finished my homework.","th":"ฉันทำการบ้านเสร็จแล้ว"},
+      "speak": [
+        {"t":"I have already finished my homework.","th":"ฉันทำการบ้านเสร็จแล้ว"},
+        {"t":"I haven't eaten breakfast yet.","th":"ฉันยังไม่ได้กินอาหารเช้าเลย"},
+        {"t":"I have just arrived home.","th":"ฉันเพิ่งจะมาถึงบ้าน"},
+        {"t":"I have visited Chiang Mai twice.","th":"ฉันเคยไปเชียงใหม่มาสองครั้งแล้ว"}
+      ],
+      "quiz": [
+        {"q":"🌟 คือ...","c":["experience","before","just"],"a":0},
+        {"q":"'...แล้ว' คือ...","c":["already","yet","just"],"a":0},
+        {"q":"⏳ คือ...","c":["yet","already","before"],"a":0},
+        {"q":"'เพิ่งจะ' คือ...","c":["just","yet","once"],"a":0},
+        {"q":"⏮️ คือ...","c":["before","just","twice"],"a":0},
+        {"q":"1️⃣ ครั้ง คือ...","c":["once","twice","many times"],"a":0},
+        {"q":"2️⃣ ครั้ง คือ...","c":["twice","once","many times"],"a":0},
+        {"q":"I have ___ finished my homework. (...แล้ว)","c":["already","yet","before"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u6l3",
+      "icon": "🚫",
+      "title": "Never and Ever",
+      "sub": "ไม่เคยและเคย",
+      "intro": { "en": "Some things I have never tried before!", "th": "บางอย่างฉันไม่เคยลองมาก่อนเลย!" },
+      "vocab": [
+        {"w":"never","th":"ไม่เคยเลย","e":"🚫"},
+        {"w":"ever","th":"เคย(ไหม)","e":"❓"},
+        {"w":"so far","th":"เท่าที่ผ่านมา","e":"📍"},
+        {"w":"in my life","th":"ในชีวิตของฉัน","e":"🌱"},
+        {"w":"first time","th":"ครั้งแรก","e":"1️⃣"},
+        {"w":"exciting experience","th":"ประสบการณ์ที่น่าตื่นเต้น","e":"🎢"},
+        {"w":"unusual","th":"ไม่ธรรมดา","e":"🌀"},
+        {"w":"surprising","th":"น่าประหลาดใจ","e":"😲"}
+      ],
+      "build": {"sentence":"I have never eaten durian before.","th":"ฉันไม่เคยกินทุเรียนมาก่อนเลย"},
+      "speak": [
+        {"t":"I have never eaten durian before.","th":"ฉันไม่เคยกินทุเรียนมาก่อนเลย"},
+        {"t":"Have you ever seen snow?","th":"เธอเคยเห็นหิมะไหม?"},
+        {"t":"This is the first time for me.","th":"นี่เป็นครั้งแรกสำหรับฉัน"},
+        {"t":"That was a surprising experience.","th":"นั่นเป็นประสบการณ์ที่น่าประหลาดใจ"}
+      ],
+      "quiz": [
+        {"q":"🚫 คือ...","c":["never","ever","so far"],"a":0},
+        {"q":"'เคย(ไหม)' คือ...","c":["ever","never","first time"],"a":0},
+        {"q":"📍 คือ...","c":["so far","in my life","ever"],"a":0},
+        {"q":"'ในชีวิตของฉัน' คือ...","c":["in my life","so far","first time"],"a":0},
+        {"q":"1️⃣ (ครั้งแรก) คือ...","c":["first time","once","so far"],"a":0},
+        {"q":"🎢 คือ...","c":["exciting experience","unusual","surprising"],"a":0},
+        {"q":"🌀 คือ...","c":["unusual","surprising","exciting experience"],"a":0},
+        {"q":"I have ___ eaten durian before. (ไม่เคยเลย)","c":["never","ever","already"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u6l4",
+      "icon": "🏅",
+      "title": "Experience Review",
+      "sub": "ทบทวนประสบการณ์ + ทบทวนทั้งหน่วย",
+      "intro": { "en": "Let's review all our experiences!", "th": "มาทบทวนประสบการณ์ทั้งหมดของเรากันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"achievement","th":"ความสำเร็จ","e":"🏆"},
+        {"w":"grateful","th":"ซาบซึ้งใจ","e":"🙏"},
+        {"w":"lesson learned","th":"บทเรียนที่ได้รับ","e":"📘"},
+        {"w":"grow","th":"เติบโต","e":"🌱"},
+        {"w":"proud of","th":"ภูมิใจใน","e":"😌"},
+        {"w":"unforgettable moment","th":"ช่วงเวลาที่ไม่มีวันลืม","e":"💫"},
+        {"w":"share a story","th":"เล่าเรื่อง","e":"📢"},
+        {"w":"reflect","th":"ทบทวนตัวเอง","e":"🪞"}
+      ],
+      "build": {"sentence":"I am proud of my achievements.","th":"ฉันภูมิใจในความสำเร็จของฉัน"},
+      "speak": [
+        {"t":"I am proud of my achievements.","th":"ฉันภูมิใจในความสำเร็จของฉัน"},
+        {"t":"I have grown so much this year.","th":"ปีนี้ฉันเติบโตขึ้นมากเลย"},
+        {"t":"That was an unforgettable moment.","th":"นั่นเป็นช่วงเวลาที่ไม่มีวันลืม"},
+        {"t":"I like to share my story.","th":"ฉันชอบเล่าเรื่องราวของฉัน"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย6] 🏆 คือ...","c":["achievement","lesson learned","grow"],"a":0},
+        {"q":"[หน่วย6] 🌱 คือ...","c":["grow","achievement","reflect"],"a":0},
+        {"q":"[ทบทวน] Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0},
+        {"q":"[ทบทวน] I have ___ finished my homework. (...แล้ว)","c":["already","yet","before"],"a":0},
+        {"q":"[ทบทวน] I have ___ eaten durian before. (ไม่เคยเลย)","c":["never","ever","already"],"a":0},
+        {"q":"🪞 คือ...","c":["reflect","grateful","proud of"],"a":0},
+        {"q":"💫 คือ...","c":["unforgettable moment","lesson learned","reflect"],"a":0},
+        {"q":"I am ___ my achievements. (ภูมิใจใน)","c":["proud of","grateful","reflect"],"a":0}
+      ]
+    }
+  ]
+}

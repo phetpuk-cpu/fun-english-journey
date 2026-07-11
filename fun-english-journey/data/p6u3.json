@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 3 · Should and Could — ควรทำและอาจลองทำ",
+  "lessons": [
+    {
+      "id": "p6u3l1",
+      "icon": "💡",
+      "title": "You Should...",
+      "sub": "เธอควร...",
+      "intro": { "en": "Let me give you some good advice!", "th": "ให้คำแนะนำดีๆ กับเธอหน่อยนะ!" },
+      "vocab": [
+        {"w":"should","th":"ควร","e":"💡"},
+        {"w":"shouldn't","th":"ไม่ควร","e":"🚫"},
+        {"w":"advice","th":"คำแนะนำ","e":"🗣️"},
+        {"w":"healthy habit","th":"นิสัยที่ดีต่อสุขภาพ","e":"💚"},
+        {"w":"exercise","th":"ออกกำลังกาย","e":"🏃"},
+        {"w":"sleep well","th":"นอนหลับให้เพียงพอ","e":"😴"},
+        {"w":"brush teeth","th":"แปรงฟัน","e":"🦷"},
+        {"w":"drink water","th":"ดื่มน้ำ","e":"💧"}
+      ],
+      "build": {"sentence":"You should drink more water.","th":"เธอควรดื่มน้ำให้มากขึ้น"},
+      "speak": [
+        {"t":"You should drink more water.","th":"เธอควรดื่มน้ำให้มากขึ้น"},
+        {"t":"You should exercise every day.","th":"เธอควรออกกำลังกายทุกวัน"},
+        {"t":"You shouldn't stay up too late.","th":"เธอไม่ควรนอนดึกเกินไป"},
+        {"t":"You should sleep well tonight.","th":"คืนนี้เธอควรนอนหลับให้เพียงพอ"}
+      ],
+      "quiz": [
+        {"q":"💡 คือ...","c":["should","shouldn't","advice"],"a":0},
+        {"q":"'ไม่ควร' คือ...","c":["shouldn't","should","advice"],"a":0},
+        {"q":"🗣️ คือ...","c":["advice","healthy habit","exercise"],"a":0},
+        {"q":"💚 คือ...","c":["healthy habit","exercise","sleep well"],"a":0},
+        {"q":"'ออกกำลังกาย' คือ...","c":["exercise","sleep well","brush teeth"],"a":0},
+        {"q":"🦷 คือ...","c":["brush teeth","drink water","exercise"],"a":0},
+        {"q":"💧 คือ...","c":["drink water","sleep well","brush teeth"],"a":0},
+        {"q":"You ___ drink more water. (ควร)","c":["should","shouldn't","could"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u3l2",
+      "icon": "💭",
+      "title": "You Could Try...",
+      "sub": "เธออาจลองทำ...",
+      "intro": { "en": "Here are some ideas you could try!", "th": "นี่คือไอเดียที่เธออาจลองทำดูนะ!" },
+      "vocab": [
+        {"w":"could","th":"อาจ(ลอง)","e":"💭"},
+        {"w":"suggestion","th":"ข้อเสนอแนะ","e":"💡"},
+        {"w":"try","th":"ลอง","e":"🎯"},
+        {"w":"option","th":"ทางเลือก","e":"🔀"},
+        {"w":"maybe","th":"บางที","e":"🤷"},
+        {"w":"perhaps","th":"อาจจะ","e":"🌤️"},
+        {"w":"idea","th":"ไอเดีย","e":"💡"},
+        {"w":"alternative","th":"ทางเลือกอื่น","e":"🔁"}
+      ],
+      "build": {"sentence":"You could try a new hobby.","th":"เธออาจลองทำงานอดิเรกใหม่ๆ ดู"},
+      "speak": [
+        {"t":"You could try a new hobby.","th":"เธออาจลองทำงานอดิเรกใหม่ๆ ดู"},
+        {"t":"Maybe you could join a club.","th":"บางทีเธออาจเข้าร่วมชมรมดู"},
+        {"t":"I have a suggestion for you.","th":"ฉันมีข้อเสนอแนะให้เธอ"},
+        {"t":"That is a good idea!","th":"นั่นเป็นไอเดียที่ดีมาก!"}
+      ],
+      "quiz": [
+        {"q":"💭 คือ...","c":["could","should","try"],"a":0},
+        {"q":"'ข้อเสนอแนะ' คือ...","c":["suggestion","idea","option"],"a":0},
+        {"q":"🎯 คือ...","c":["try","option","alternative"],"a":0},
+        {"q":"'ทางเลือก' คือ...","c":["option","suggestion","idea"],"a":0},
+        {"q":"🤷 คือ...","c":["maybe","perhaps","try"],"a":0},
+        {"q":"'อาจจะ' คือ...","c":["perhaps","maybe","could"],"a":0},
+        {"q":"💡 (ความคิด) คือ...","c":["idea","suggestion","option"],"a":0},
+        {"q":"You ___ try a new hobby. (อาจลอง)","c":["could","should","must"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u3l3",
+      "icon": "🩺",
+      "title": "Good Advice",
+      "sub": "คำแนะนำที่ดี",
+      "intro": { "en": "Good friends give good advice.", "th": "เพื่อนที่ดีให้คำแนะนำที่ดี" },
+      "vocab": [
+        {"w":"problem","th":"ปัญหา","e":"❗"},
+        {"w":"worried","th":"กังวล","e":"😟"},
+        {"w":"solve","th":"แก้ไข","e":"🧩"},
+        {"w":"solution","th":"ทางออก","e":"🔑"},
+        {"w":"listen","th":"รับฟัง","e":"👂"},
+        {"w":"understand","th":"เข้าใจ","e":"🧠"},
+        {"w":"comfort","th":"ปลอบโยน","e":"🤗"},
+        {"w":"helpful","th":"เป็นประโยชน์","e":"🙌"}
+      ],
+      "build": {"sentence":"You should talk to someone about your problem.","th":"เธอควรคุยกับใครสักคนเรื่องปัญหาของเธอ"},
+      "speak": [
+        {"t":"You should talk to someone about your problem.","th":"เธอควรคุยกับใครสักคนเรื่องปัญหาของเธอ"},
+        {"t":"I understand how you feel.","th":"ฉันเข้าใจความรู้สึกของเธอ"},
+        {"t":"Let's find a solution together.","th":"มาหาทางออกด้วยกันเถอะ"},
+        {"t":"I am here to listen.","th":"ฉันพร้อมรับฟังนะ"}
+      ],
+      "quiz": [
+        {"q":"❗ คือ...","c":["problem","solution","worried"],"a":0},
+        {"q":"'กังวล' คือ...","c":["worried","problem","helpful"],"a":0},
+        {"q":"🧩 คือ...","c":["solve","solution","understand"],"a":0},
+        {"q":"'ทางออก' คือ...","c":["solution","problem","comfort"],"a":0},
+        {"q":"👂 คือ...","c":["listen","understand","comfort"],"a":0},
+        {"q":"🧠 คือ...","c":["understand","listen","solve"],"a":0},
+        {"q":"🤗 คือ...","c":["comfort","helpful","worried"],"a":0},
+        {"q":"You should talk to someone about your ___. (ปัญหา)","c":["problem","solution","advice"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u3l4",
+      "icon": "📣",
+      "title": "Advice Review",
+      "sub": "ทบทวนคำแนะนำ + ทบทวนทั้งหน่วย",
+      "intro": { "en": "Let's review all the advice we learned!", "th": "มาทบทวนคำแนะนำที่เรียนมากันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"recommend","th":"แนะนำ","e":"👍"},
+        {"w":"tip","th":"เคล็ดลับ","e":"✨"},
+        {"w":"wise","th":"ฉลาดรอบคอบ","e":"🦉"},
+        {"w":"choice","th":"ตัวเลือก","e":"🔀"},
+        {"w":"guide","th":"แนะแนวทาง","e":"🧭"},
+        {"w":"support","th":"สนับสนุน","e":"🙌"},
+        {"w":"kindness","th":"ความมีน้ำใจ","e":"❤️"},
+        {"w":"encourage","th":"ให้กำลังใจ","e":"📣"}
+      ],
+      "build": {"sentence":"I recommend that you try your best.","th":"ฉันแนะนำให้เธอพยายามให้ดีที่สุด"},
+      "speak": [
+        {"t":"I recommend that you try your best.","th":"ฉันแนะนำให้เธอพยายามให้ดีที่สุด"},
+        {"t":"Here is a helpful tip.","th":"นี่คือเคล็ดลับที่เป็นประโยชน์"},
+        {"t":"You made a wise choice.","th":"เธอตัดสินใจได้อย่างฉลาดรอบคอบ"},
+        {"t":"I will always support you.","th":"ฉันจะสนับสนุนเธอเสมอ"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย3] 👍 คือ...","c":["recommend","tip","guide"],"a":0},
+        {"q":"[หน่วย3] ✨ คือ...","c":["tip","recommend","wise"],"a":0},
+        {"q":"[ทบทวน] You ___ drink more water. (ควร)","c":["should","shouldn't","could"],"a":0},
+        {"q":"[ทบทวน] You ___ try a new hobby. (อาจลอง)","c":["could","should","must"],"a":0},
+        {"q":"[ทบทวน] You should talk to someone about your ___. (ปัญหา)","c":["problem","solution","advice"],"a":0},
+        {"q":"🦉 คือ...","c":["wise","kindness","encourage"],"a":0},
+        {"q":"🧭 คือ...","c":["guide","support","choice"],"a":0},
+        {"q":"I will always ___ you. (สนับสนุน)","c":["support","guide","recommend"],"a":0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 7 · It Is Made Of... — สิ่งนี้ทำจากอะไร",
+  "lessons": [
+    {
+      "id": "p6u7l1",
+      "icon": "🏗️",
+      "title": "What Is It Made Of?",
+      "sub": "สิ่งนี้ทำจากอะไร",
+      "intro": { "en": "What is your chair made of?", "th": "เก้าอี้ของเธอทำจากอะไรนะ?" },
+      "vocab": [
+        {"w":"made of","th":"ทำจาก","e":"🏗️"},
+        {"w":"wood","th":"ไม้","e":"🪵"},
+        {"w":"glass","th":"แก้ว","e":"🥛"},
+        {"w":"plastic","th":"พลาสติก","e":"🧴"},
+        {"w":"metal","th":"โลหะ","e":"🔩"},
+        {"w":"paper","th":"กระดาษ","e":"📄"},
+        {"w":"cotton","th":"ผ้าฝ้าย","e":"🧵"},
+        {"w":"rubber","th":"ยาง","e":"⚫"}
+      ],
+      "build": {"sentence":"This chair is made of wood.","th":"เก้าอี้ตัวนี้ทำจากไม้"},
+      "speak": [
+        {"t":"This chair is made of wood.","th":"เก้าอี้ตัวนี้ทำจากไม้"},
+        {"t":"The window is made of glass.","th":"หน้าต่างทำจากแก้ว"},
+        {"t":"My shirt is made of cotton.","th":"เสื้อของฉันทำจากผ้าฝ้าย"},
+        {"t":"This ball is made of rubber.","th":"ลูกบอลนี้ทำจากยาง"}
+      ],
+      "quiz": [
+        {"q":"🏗️ คือ...","c":["made of","made in","designed"],"a":0},
+        {"q":"'ไม้' คือ...","c":["wood","glass","metal"],"a":0},
+        {"q":"🥛 คือ...","c":["glass","plastic","paper"],"a":0},
+        {"q":"'พลาสติก' คือ...","c":["plastic","rubber","metal"],"a":0},
+        {"q":"🔩 คือ...","c":["metal","wood","glass"],"a":0},
+        {"q":"📄 คือ...","c":["paper","cotton","rubber"],"a":0},
+        {"q":"🧵 คือ...","c":["cotton","paper","rubber"],"a":0},
+        {"q":"This chair is ___ wood. (ทำจาก)","c":["made of","made in","made by"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u7l2",
+      "icon": "🏭",
+      "title": "Where Is It Made?",
+      "sub": "สิ่งนี้ผลิตที่ไหน",
+      "intro": { "en": "Have you ever checked where your things are made?", "th": "เธอเคยเช็คไหมว่าของเธอผลิตที่ไหน?" },
+      "vocab": [
+        {"w":"made in","th":"ผลิตในประเทศ","e":"🏭"},
+        {"w":"factory","th":"โรงงาน","e":"🏭"},
+        {"w":"produce","th":"ผลิต","e":"⚙️"},
+        {"w":"country","th":"ประเทศ","e":"🌍"},
+        {"w":"imported","th":"นำเข้า","e":"🚢"},
+        {"w":"product","th":"ผลิตภัณฑ์","e":"📦"},
+        {"w":"manufacture","th":"ผลิต(อุตสาหกรรม)","e":"🔧"},
+        {"w":"label","th":"ฉลาก","e":"🏷️"}
+      ],
+      "build": {"sentence":"This toy is made in Thailand.","th":"ของเล่นนี้ผลิตในประเทศไทย"},
+      "speak": [
+        {"t":"This toy is made in Thailand.","th":"ของเล่นนี้ผลิตในประเทศไทย"},
+        {"t":"This product is imported from Japan.","th":"ผลิตภัณฑ์นี้นำเข้าจากญี่ปุ่น"},
+        {"t":"The factory produces many things.","th":"โรงงานผลิตสิ่งของมากมาย"},
+        {"t":"Check the label before you buy.","th":"เช็คฉลากก่อนซื้อนะ"}
+      ],
+      "quiz": [
+        {"q":"🏭 (ผลิตในประเทศ) คือ...","c":["made in","made of","factory"],"a":0},
+        {"q":"'โรงงาน' คือ...","c":["factory","product","label"],"a":0},
+        {"q":"⚙️ คือ...","c":["produce","manufacture","imported"],"a":0},
+        {"q":"🌍 คือ...","c":["country","factory","product"],"a":0},
+        {"q":"'นำเข้า' คือ...","c":["imported","produce","manufacture"],"a":0},
+        {"q":"📦 คือ...","c":["product","factory","label"],"a":0},
+        {"q":"🏷️ คือ...","c":["label","product","country"],"a":0},
+        {"q":"This toy is ___ Thailand. (ผลิตใน)","c":["made in","made of","made by"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u7l3",
+      "icon": "⚙️",
+      "title": "How Things Are Made",
+      "sub": "สิ่งของถูกทำขึ้นอย่างไร",
+      "intro": { "en": "Have you ever wondered how things are made?", "th": "เธอเคยสงสัยไหมว่าสิ่งของถูกทำขึ้นได้อย่างไร?" },
+      "vocab": [
+        {"w":"process","th":"กระบวนการ","e":"🔄"},
+        {"w":"grown","th":"ถูกปลูก","e":"🌾"},
+        {"w":"built","th":"ถูกสร้าง","e":"🏗️"},
+        {"w":"designed","th":"ถูกออกแบบ","e":"✏️"},
+        {"w":"created","th":"ถูกสร้างสรรค์","e":"✨"},
+        {"w":"collected","th":"ถูกเก็บรวบรวม","e":"🧺"},
+        {"w":"packed","th":"ถูกบรรจุ","e":"📦"},
+        {"w":"delivered","th":"ถูกจัดส่ง","e":"🚚"}
+      ],
+      "build": {"sentence":"Rice is grown in the field.","th":"ข้าวถูกปลูกในนา"},
+      "speak": [
+        {"t":"Rice is grown in the field.","th":"ข้าวถูกปลูกในนา"},
+        {"t":"This bridge was built last year.","th":"สะพานนี้ถูกสร้างเมื่อปีที่แล้ว"},
+        {"t":"The package is delivered every day.","th":"พัสดุถูกจัดส่งทุกวัน"},
+        {"t":"This game was designed by kids.","th":"เกมนี้ถูกออกแบบโดยเด็กๆ"}
+      ],
+      "quiz": [
+        {"q":"🔄 คือ...","c":["process","packed","collected"],"a":0},
+        {"q":"'ถูกปลูก' คือ...","c":["grown","built","designed"],"a":0},
+        {"q":"🏗️ (ถูกสร้าง) คือ...","c":["built","grown","created"],"a":0},
+        {"q":"✏️ คือ...","c":["designed","created","built"],"a":0},
+        {"q":"'ถูกสร้างสรรค์' คือ...","c":["created","designed","grown"],"a":0},
+        {"q":"🧺 คือ...","c":["collected","packed","delivered"],"a":0},
+        {"q":"📦 (ถูกบรรจุ) คือ...","c":["packed","collected","delivered"],"a":0},
+        {"q":"Rice is ___ in the field. (ถูกปลูก)","c":["grown","built","made"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u7l4",
+      "icon": "📦",
+      "title": "Passive Review",
+      "sub": "ทบทวนประโยคถูกกระทำ + ทบทวนทั้งหน่วย",
+      "intro": { "en": "Let's review how things are made!", "th": "มาทบทวนว่าสิ่งของถูกทำขึ้นอย่างไรกันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"material","th":"วัสดุ","e":"🧱"},
+        {"w":"raw material","th":"วัตถุดิบ","e":"🌰"},
+        {"w":"handmade","th":"ทำมือ","e":"✋"},
+        {"w":"machine-made","th":"ทำโดยเครื่องจักร","e":"🤖"},
+        {"w":"quality","th":"คุณภาพ","e":"⭐"},
+        {"w":"recycled","th":"ถูกนำกลับมาใช้ใหม่","e":"♻️"},
+        {"w":"eco-friendly","th":"เป็นมิตรต่อสิ่งแวดล้อม","e":"🌱"},
+        {"w":"durable","th":"ทนทาน","e":"💪"}
+      ],
+      "build": {"sentence":"This bag is made of recycled plastic.","th":"กระเป๋าใบนี้ทำจากพลาสติกที่นำกลับมาใช้ใหม่"},
+      "speak": [
+        {"t":"This bag is made of recycled plastic.","th":"กระเป๋าใบนี้ทำจากพลาสติกที่นำกลับมาใช้ใหม่"},
+        {"t":"This basket is handmade.","th":"ตะกร้าใบนี้ทำมือ"},
+        {"t":"We should use eco-friendly products.","th":"พวกเราควรใช้ผลิตภัณฑ์ที่เป็นมิตรต่อสิ่งแวดล้อม"},
+        {"t":"This material is very durable.","th":"วัสดุนี้ทนทานมาก"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย7] 🧱 คือ...","c":["material","raw material","quality"],"a":0},
+        {"q":"[หน่วย7] ✋ คือ...","c":["handmade","machine-made","recycled"],"a":0},
+        {"q":"[ทบทวน] This chair is ___ wood. (ทำจาก)","c":["made of","made in","made by"],"a":0},
+        {"q":"[ทบทวน] This toy is ___ Thailand. (ผลิตใน)","c":["made in","made of","made by"],"a":0},
+        {"q":"[ทบทวน] Rice is ___ in the field. (ถูกปลูก)","c":["grown","built","made"],"a":0},
+        {"q":"♻️ คือ...","c":["recycled","eco-friendly","durable"],"a":0},
+        {"q":"🌱 (เป็นมิตรต่อสิ่งแวดล้อม) คือ...","c":["eco-friendly","recycled","durable"],"a":0},
+        {"q":"This material is very ___. (ทนทาน)","c":["durable","handmade","eco-friendly"],"a":0}
+      ]
+    }
+  ]
+}

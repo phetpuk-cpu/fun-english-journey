@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 2 · Weekend Plans — แผนวันหยุดสุดสัปดาห์",
+  "lessons": [
+    {
+      "id": "p6u2l1",
+      "icon": "📅",
+      "title": "This Weekend",
+      "sub": "สุดสัปดาห์นี้",
+      "intro": { "en": "What are your weekend plans?", "th": "แผนวันหยุดสุดสัปดาห์ของเธอคืออะไรนะ?" },
+      "vocab": [
+        {"w":"go shopping","th":"ไปช้อปปิ้ง","e":"🛍️"},
+        {"w":"watch a movie","th":"ดูหนัง","e":"🎬"},
+        {"w":"visit grandma","th":"ไปเยี่ยมย่า/ยาย","e":"👵"},
+        {"w":"play video games","th":"เล่นวิดีโอเกม","e":"🎮"},
+        {"w":"ride a bike","th":"ขี่จักรยาน","e":"🚲"},
+        {"w":"go hiking","th":"ไปเดินป่า","e":"🥾"},
+        {"w":"have a picnic","th":"ไปปิกนิก","e":"🧺"},
+        {"w":"sleep in","th":"นอนตื่นสาย","e":"😴"}
+      ],
+      "build": {"sentence":"I am going to go shopping this weekend.","th":"สุดสัปดาห์นี้ฉันจะไปช้อปปิ้ง"},
+      "speak": [
+        {"t":"I am going to go shopping this weekend.","th":"สุดสัปดาห์นี้ฉันจะไปช้อปปิ้ง"},
+        {"t":"We are going to watch a movie.","th":"พวกเราจะไปดูหนัง"},
+        {"t":"I am going to visit my grandma.","th":"ฉันจะไปเยี่ยมย่าของฉัน"},
+        {"t":"He is going to sleep in on Sunday.","th":"เขาจะนอนตื่นสายในวันอาทิตย์"}
+      ],
+      "quiz": [
+        {"q":"🛍️ คือ...","c":["go shopping","watch a movie","sleep in"],"a":0},
+        {"q":"'ดูหนัง' คือ...","c":["watch a movie","go shopping","go hiking"],"a":0},
+        {"q":"👵 คือ...","c":["visit grandma","have a picnic","ride a bike"],"a":0},
+        {"q":"🎮 คือ...","c":["play video games","go hiking","sleep in"],"a":0},
+        {"q":"'ขี่จักรยาน' คือ...","c":["ride a bike","go hiking","have a picnic"],"a":0},
+        {"q":"🥾 คือ...","c":["go hiking","ride a bike","sleep in"],"a":0},
+        {"q":"🧺 คือ...","c":["have a picnic","go shopping","watch a movie"],"a":0},
+        {"q":"😴 คือ...","c":["sleep in","go hiking","visit grandma"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u2l2",
+      "icon": "📋",
+      "title": "Making Plans",
+      "sub": "การวางแผน",
+      "intro": { "en": "Let's make a plan together!", "th": "มาวางแผนด้วยกันเถอะ!" },
+      "vocab": [
+        {"w":"plan","th":"แผนการ","e":"📋"},
+        {"w":"decide","th":"ตัดสินใจ","e":"🤔"},
+        {"w":"invite","th":"เชิญชวน","e":"💌"},
+        {"w":"together","th":"ด้วยกัน","e":"👫"},
+        {"w":"meet up","th":"นัดเจอกัน","e":"🤝"},
+        {"w":"hang out","th":"ไปเที่ยวเล่น","e":"😎"},
+        {"w":"free time","th":"เวลาว่าง","e":"⏰"},
+        {"w":"busy","th":"ยุ่ง","e":"🏃"}
+      ],
+      "build": {"sentence":"What are you going to do this weekend?","th":"สุดสัปดาห์นี้เธอจะทำอะไร?"},
+      "speak": [
+        {"t":"What are you going to do this weekend?","th":"สุดสัปดาห์นี้เธอจะทำอะไร?"},
+        {"t":"I am going to invite my friends.","th":"ฉันจะเชิญเพื่อนๆ ของฉัน"},
+        {"t":"Let's meet up on Saturday.","th":"มานัดเจอกันวันเสาร์เถอะ"},
+        {"t":"I am busy this weekend.","th":"สุดสัปดาห์นี้ฉันยุ่ง"}
+      ],
+      "quiz": [
+        {"q":"📋 คือ...","c":["plan","decide","invite"],"a":0},
+        {"q":"'ตัดสินใจ' คือ...","c":["decide","plan","meet up"],"a":0},
+        {"q":"💌 คือ...","c":["invite","hang out","free time"],"a":0},
+        {"q":"'ด้วยกัน' คือ...","c":["together","busy","hang out"],"a":0},
+        {"q":"🤝 คือ...","c":["meet up","invite","decide"],"a":0},
+        {"q":"😎 คือ...","c":["hang out","meet up","busy"],"a":0},
+        {"q":"⏰ คือ...","c":["free time","busy","plan"],"a":0},
+        {"q":"What ___ you going to do? (จะ)","c":["are","is","will"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u2l3",
+      "icon": "⛅",
+      "title": "Weather and Plans",
+      "sub": "อากาศกับแผนการ",
+      "intro": { "en": "Weather can change our plans!", "th": "อากาศเปลี่ยนแผนการของเราได้นะ!" },
+      "vocab": [
+        {"w":"sunny","th":"แดดออก","e":"☀️"},
+        {"w":"rainy","th":"ฝนตก","e":"🌧️"},
+        {"w":"indoor activity","th":"กิจกรรมในร่ม","e":"🏠"},
+        {"w":"outdoor activity","th":"กิจกรรมกลางแจ้ง","e":"🌳"},
+        {"w":"change plans","th":"เปลี่ยนแผน","e":"🔄"},
+        {"w":"forecast","th":"พยากรณ์อากาศ","e":"📺"},
+        {"w":"cancel","th":"ยกเลิก","e":"❌"},
+        {"w":"postpone","th":"เลื่อนออกไป","e":"⏭️"}
+      ],
+      "build": {"sentence":"We are going to stay indoors because it's rainy.","th":"พวกเราจะอยู่ในร่มเพราะฝนตก"},
+      "speak": [
+        {"t":"We are going to stay indoors because it's rainy.","th":"พวกเราจะอยู่ในร่มเพราะฝนตก"},
+        {"t":"I checked the forecast today.","th":"วันนี้ฉันเช็คพยากรณ์อากาศแล้ว"},
+        {"t":"We need to change our plans.","th":"พวกเราต้องเปลี่ยนแผน"},
+        {"t":"Let's postpone the picnic.","th":"มาเลื่อนปิกนิกออกไปเถอะ"}
+      ],
+      "quiz": [
+        {"q":"☀️ คือ...","c":["sunny","rainy","cancel"],"a":0},
+        {"q":"'ฝนตก' คือ...","c":["rainy","sunny","postpone"],"a":0},
+        {"q":"🏠 คือ...","c":["indoor activity","outdoor activity","forecast"],"a":0},
+        {"q":"'กิจกรรมกลางแจ้ง' คือ...","c":["outdoor activity","indoor activity","change plans"],"a":0},
+        {"q":"🔄 คือ...","c":["change plans","cancel","postpone"],"a":0},
+        {"q":"📺 คือ...","c":["forecast","sunny","rainy"],"a":0},
+        {"q":"❌ คือ...","c":["cancel","postpone","change plans"],"a":0},
+        {"q":"We are going to stay indoors ___ it's rainy. (เพราะ)","c":["because","so","but"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u2l4",
+      "icon": "🗓️",
+      "title": "Plan Review",
+      "sub": "ทบทวนการวางแผน + ทบทวนทั้งหน่วย",
+      "intro": { "en": "Let's review all our weekend plans!", "th": "มาทบทวนแผนวันหยุดสุดสัปดาห์กันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"schedule","th":"ตารางเวลา","e":"📆"},
+        {"w":"activity","th":"กิจกรรม","e":"🎯"},
+        {"w":"relax","th":"ผ่อนคลาย","e":"😌"},
+        {"w":"adventure","th":"การผจญภัย","e":"🧭"},
+        {"w":"memorable","th":"น่าจดจำ","e":"📸"},
+        {"w":"exciting","th":"น่าตื่นเต้น","e":"🤩"},
+        {"w":"choose","th":"เลือก","e":"👉"},
+        {"w":"enjoy","th":"สนุกกับ","e":"😄"}
+      ],
+      "build": {"sentence":"I am going to enjoy my weekend.","th":"ฉันจะสนุกกับสุดสัปดาห์ของฉัน"},
+      "speak": [
+        {"t":"I am going to enjoy my weekend.","th":"ฉันจะสนุกกับสุดสัปดาห์ของฉัน"},
+        {"t":"This weekend will be memorable.","th":"สุดสัปดาห์นี้จะน่าจดจำ"},
+        {"t":"I need to choose an activity.","th":"ฉันต้องเลือกกิจกรรม"},
+        {"t":"Let's have an adventure!","th":"ไปผจญภัยกันเถอะ!"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย2] 📆 คือ...","c":["schedule","activity","relax"],"a":0},
+        {"q":"[หน่วย2] 🧭 คือ...","c":["adventure","memorable","exciting"],"a":0},
+        {"q":"[ทบทวน] What ___ you going to do? (จะ)","c":["are","is","will"],"a":0},
+        {"q":"[ทบทวน] We are going to stay indoors ___ it's rainy. (เพราะ)","c":["because","so","but"],"a":0},
+        {"q":"[ทบทวน] 🛍️ คือ...","c":["go shopping","watch a movie","sleep in"],"a":0},
+        {"q":"😄 คือ...","c":["enjoy","relax","choose"],"a":0},
+        {"q":"📸 คือ...","c":["memorable","exciting","adventure"],"a":0},
+        {"q":"I am going to ___ my weekend. (สนุกกับ)","c":["enjoy","choose","relax"],"a":0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 1 · My Future Job — งานในฝันของฉัน",
+  "lessons": [
+    {
+      "id": "p6u1l1",
+      "icon": "🚀",
+      "title": "What Will You Be?",
+      "sub": "อนาคตเธอจะเป็นอะไร",
+      "intro": { "en": "What are you going to be in the future?", "th": "อนาคตเธอจะเป็นอะไรนะ?" },
+      "vocab": [
+        {"w":"doctor","th":"หมอ","e":"👩‍⚕️"},
+        {"w":"engineer","th":"วิศวกร","e":"👷"},
+        {"w":"pilot","th":"นักบิน","e":"👨‍✈️"},
+        {"w":"scientist","th":"นักวิทยาศาสตร์","e":"🧑‍🔬"},
+        {"w":"artist","th":"ศิลปิน","e":"🧑‍🎨"},
+        {"w":"chef","th":"เชฟ","e":"👨‍🍳"},
+        {"w":"vet","th":"สัตวแพทย์","e":"🐾"},
+        {"w":"astronaut","th":"นักบินอวกาศ","e":"🧑‍🚀"}
+      ],
+      "build": {"sentence":"I am going to be a doctor.","th":"ฉันจะเป็นหมอ"},
+      "speak": [
+        {"t":"I am going to be a doctor.","th":"ฉันจะเป็นหมอ"},
+        {"t":"She is going to be an engineer.","th":"หล่อนจะเป็นวิศวกร"},
+        {"t":"What are you going to be?","th":"เธอจะเป็นอะไร?"},
+        {"t":"He is going to be a pilot.","th":"เขาจะเป็นนักบิน"}
+      ],
+      "quiz": [
+        {"q":"👩‍⚕️ คือ...","c":["doctor","vet","scientist"],"a":0},
+        {"q":"'วิศวกร' คือ...","c":["engineer","pilot","artist"],"a":0},
+        {"q":"👨‍✈️ คือ...","c":["pilot","astronaut","chef"],"a":0},
+        {"q":"'นักวิทยาศาสตร์' คือ...","c":["scientist","doctor","engineer"],"a":0},
+        {"q":"🧑‍🎨 คือ...","c":["artist","chef","vet"],"a":0},
+        {"q":"'เชฟ' คือ...","c":["chef","artist","vet"],"a":0},
+        {"q":"🐾 (สัตวแพทย์) คือ...","c":["vet","doctor","scientist"],"a":0},
+        {"q":"I am ___ to be a doctor. (จะ)","c":["going","go","went"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u1l2",
+      "icon": "💭",
+      "title": "My Dream Job",
+      "sub": "งานในฝันของฉัน",
+      "intro": { "en": "Everyone has a dream job.", "th": "ทุกคนมีงานในฝันของตัวเอง" },
+      "vocab": [
+        {"w":"dream job","th":"งานในฝัน","e":"💭"},
+        {"w":"interested in","th":"สนใจใน","e":"🤩"},
+        {"w":"good at","th":"เก่งเรื่อง","e":"👍"},
+        {"w":"help people","th":"ช่วยเหลือผู้คน","e":"🤝"},
+        {"w":"travel","th":"เดินทาง","e":"✈️"},
+        {"w":"creative","th":"มีความคิดสร้างสรรค์","e":"🎨"},
+        {"w":"brave","th":"กล้าหาญ","e":"🦁"},
+        {"w":"curious","th":"ช่างสงสัย","e":"🔍"}
+      ],
+      "build": {"sentence":"I am interested in science.","th":"ฉันสนใจในวิทยาศาสตร์"},
+      "speak": [
+        {"t":"I am interested in science.","th":"ฉันสนใจในวิทยาศาสตร์"},
+        {"t":"I am good at drawing.","th":"ฉันเก่งเรื่องการวาดรูป"},
+        {"t":"I want to help people.","th":"ฉันอยากช่วยเหลือผู้คน"},
+        {"t":"I am going to travel the world.","th":"ฉันจะเดินทางไปทั่วโลก"}
+      ],
+      "quiz": [
+        {"q":"💭 คือ...","c":["dream job","good at","travel"],"a":0},
+        {"q":"'สนใจใน' คือ...","c":["interested in","good at","curious"],"a":0},
+        {"q":"👍 คือ...","c":["good at","interested in","brave"],"a":0},
+        {"q":"'ช่วยเหลือผู้คน' คือ...","c":["help people","travel","creative"],"a":0},
+        {"q":"✈️ คือ...","c":["travel","brave","curious"],"a":0},
+        {"q":"🎨 คือ...","c":["creative","brave","curious"],"a":0},
+        {"q":"🦁 คือ...","c":["brave","creative","curious"],"a":0},
+        {"q":"I am ___ science. (สนใจ)","c":["interested in","good at","curious of"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u1l3",
+      "icon": "🪜",
+      "title": "Steps to My Dream",
+      "sub": "ก้าวสู่ความฝัน",
+      "intro": { "en": "Every dream needs a plan.", "th": "ความฝันทุกอย่างต้องมีแผน" },
+      "vocab": [
+        {"w":"study hard","th":"เรียนอย่างหนัก","e":"📚"},
+        {"w":"practice","th":"ฝึกฝน","e":"💪"},
+        {"w":"learn","th":"เรียนรู้","e":"🧠"},
+        {"w":"skill","th":"ทักษะ","e":"🛠️"},
+        {"w":"university","th":"มหาวิทยาลัย","e":"🎓"},
+        {"w":"experience","th":"ประสบการณ์","e":"📝"},
+        {"w":"work hard","th":"ทำงานหนัก","e":"🔨"},
+        {"w":"achieve","th":"บรรลุผล","e":"🏆"}
+      ],
+      "build": {"sentence":"I am going to study hard.","th":"ฉันจะเรียนอย่างหนัก"},
+      "speak": [
+        {"t":"I am going to study hard.","th":"ฉันจะเรียนอย่างหนัก"},
+        {"t":"I need to learn new skills.","th":"ฉันต้องเรียนรู้ทักษะใหม่ๆ"},
+        {"t":"I am going to university.","th":"ฉันจะไปเรียนมหาวิทยาลัย"},
+        {"t":"I will achieve my dream.","th":"ฉันจะบรรลุความฝันของฉัน"}
+      ],
+      "quiz": [
+        {"q":"📚 คือ...","c":["study hard","learn","practice"],"a":0},
+        {"q":"'ฝึกฝน' คือ...","c":["practice","learn","study hard"],"a":0},
+        {"q":"🧠 คือ...","c":["learn","skill","study hard"],"a":0},
+        {"q":"'ทักษะ' คือ...","c":["skill","experience","achieve"],"a":0},
+        {"q":"🎓 คือ...","c":["university","skill","experience"],"a":0},
+        {"q":"📝 คือ...","c":["experience","skill","achieve"],"a":0},
+        {"q":"🔨 คือ...","c":["work hard","study hard","practice"],"a":0},
+        {"q":"I am going to ___ hard. (เรียน)","c":["study","learn","practice"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u1l4",
+      "icon": "🌟",
+      "title": "Future Job Review",
+      "sub": "ทบทวนงานในอนาคต",
+      "intro": { "en": "Let's review our future dreams!", "th": "มาทบทวนความฝันในอนาคตกันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"career","th":"อาชีพ","e":"💼"},
+        {"w":"passion","th":"ความหลงใหล","e":"❤️"},
+        {"w":"opportunity","th":"โอกาส","e":"🚪"},
+        {"w":"success","th":"ความสำเร็จ","e":"🌟"},
+        {"w":"future","th":"อนาคต","e":"🔮"},
+        {"w":"become","th":"กลายเป็น","e":"➡️"},
+        {"w":"proud","th":"ภาคภูมิใจ","e":"😌"},
+        {"w":"determined","th":"มุ่งมั่น","e":"🔥"}
+      ],
+      "build": {"sentence":"I am going to become a great doctor.","th":"ฉันจะกลายเป็นหมอที่ยอดเยี่ยม"},
+      "speak": [
+        {"t":"I am going to become a great doctor.","th":"ฉันจะกลายเป็นหมอที่ยอดเยี่ยม"},
+        {"t":"I am determined to succeed.","th":"ฉันมุ่งมั่นที่จะประสบความสำเร็จ"},
+        {"t":"This is my career choice.","th":"นี่คือทางเลือกอาชีพของฉัน"},
+        {"t":"I will follow my passion.","th":"ฉันจะทำตามความหลงใหลของฉัน"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย1] 💼 คือ...","c":["career","opportunity","success"],"a":0},
+        {"q":"[หน่วย1] 🚪 คือ...","c":["opportunity","career","future"],"a":0},
+        {"q":"[ทบทวน] I am ___ to be a doctor. (จะ)","c":["going","go","went"],"a":0},
+        {"q":"[ทบทวน] I am ___ science. (สนใจ)","c":["interested in","good at","curious of"],"a":0},
+        {"q":"[ทบทวน] I am going to ___ hard. (เรียน)","c":["study","learn","practice"],"a":0},
+        {"q":"🔮 คือ...","c":["future","become","career"],"a":0},
+        {"q":"🔥 คือ...","c":["determined","proud","passion"],"a":0},
+        {"q":"I am going to ___ a great doctor. (กลายเป็น)","c":["become","becomes","became"],"a":0}
+      ]
+    }
+  ]
+}

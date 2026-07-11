@@ -1,0 +1,143 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 8 · If I Try My Best — ถ้าฉันพยายามเต็มที่",
+  "lessons": [
+    {
+      "id": "p6u8l1",
+      "icon": "📖",
+      "title": "If I Study Hard",
+      "sub": "ถ้าฉันเรียนหนัก",
+      "intro": { "en": "If I try my best, I can do anything!", "th": "ถ้าฉันพยายามเต็มที่ ฉันทำได้ทุกอย่างเลย!" },
+      "vocab": [
+        {"w":"if","th":"ถ้า","e":"🔀"},
+        {"w":"then","th":"แล้ว/ดังนั้น","e":"➡️"},
+        {"w":"condition","th":"เงื่อนไข","e":"📋"},
+        {"w":"possible","th":"เป็นไปได้","e":"✅"},
+        {"w":"likely","th":"มีแนวโน้ม","e":"📈"},
+        {"w":"outcome","th":"ผลลัพธ์","e":"🎯"},
+        {"w":"chance","th":"โอกาส","e":"🍀"},
+        {"w":"decision","th":"การตัดสินใจ","e":"🤔"}
+      ],
+      "build": {"sentence":"If I study hard, I will pass the exam.","th":"ถ้าฉันเรียนหนัก ฉันจะสอบผ่าน"},
+      "speak": [
+        {"t":"If I study hard, I will pass the exam.","th":"ถ้าฉันเรียนหนัก ฉันจะสอบผ่าน"},
+        {"t":"If you practice, you will improve.","th":"ถ้าเธอฝึกฝน เธอจะพัฒนาขึ้น"},
+        {"t":"There is a good chance I will win.","th":"มีโอกาสดีที่ฉันจะชนะ"},
+        {"t":"It is possible to reach your dream.","th":"เป็นไปได้ที่จะไปถึงความฝันของเธอ"}
+      ],
+      "quiz": [
+        {"q":"🔀 คือ...","c":["if","then","condition"],"a":0},
+        {"q":"'แล้ว/ดังนั้น' คือ...","c":["then","if","likely"],"a":0},
+        {"q":"📋 คือ...","c":["condition","outcome","decision"],"a":0},
+        {"q":"'เป็นไปได้' คือ...","c":["possible","likely","chance"],"a":0},
+        {"q":"📈 คือ...","c":["likely","possible","outcome"],"a":0},
+        {"q":"🎯 คือ...","c":["outcome","condition","chance"],"a":0},
+        {"q":"🍀 คือ...","c":["chance","decision","outcome"],"a":0},
+        {"q":"___ I study hard, I will pass. (ถ้า)","c":["If","Then","So"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u8l2",
+      "icon": "🌦️",
+      "title": "If It Rains...",
+      "sub": "ถ้าฝนตก...",
+      "intro": { "en": "What will you do if it rains?", "th": "ถ้าฝนตก เธอจะทำอะไร?" },
+      "vocab": [
+        {"w":"if it rains","th":"ถ้าฝนตก","e":"🌧️"},
+        {"w":"if I have time","th":"ถ้าฉันมีเวลา","e":"⏰"},
+        {"w":"if I win","th":"ถ้าฉันชนะ","e":"🏆"},
+        {"w":"if I lose","th":"ถ้าฉันแพ้","e":"😔"},
+        {"w":"stay home","th":"อยู่บ้าน","e":"🏠"},
+        {"w":"get wet","th":"เปียก","e":"💦"},
+        {"w":"celebrate","th":"เฉลิมฉลอง","e":"🎉"},
+        {"w":"try again","th":"ลองอีกครั้ง","e":"🔁"}
+      ],
+      "build": {"sentence":"If it rains, I will stay home.","th":"ถ้าฝนตก ฉันจะอยู่บ้าน"},
+      "speak": [
+        {"t":"If it rains, I will stay home.","th":"ถ้าฝนตก ฉันจะอยู่บ้าน"},
+        {"t":"If I have time, I will call you.","th":"ถ้าฉันมีเวลา ฉันจะโทรหาเธอ"},
+        {"t":"If I win, I will celebrate.","th":"ถ้าฉันชนะ ฉันจะเฉลิมฉลอง"},
+        {"t":"If I lose, I will try again.","th":"ถ้าฉันแพ้ ฉันจะลองอีกครั้ง"}
+      ],
+      "quiz": [
+        {"q":"🌧️ คือ...","c":["if it rains","if I win","get wet"],"a":0},
+        {"q":"'ถ้าฉันมีเวลา' คือ...","c":["if I have time","if it rains","if I lose"],"a":0},
+        {"q":"🏆 (ถ้าฉันชนะ) คือ...","c":["if I win","if I lose","if it rains"],"a":0},
+        {"q":"'ถ้าฉันแพ้' คือ...","c":["if I lose","if I win","stay home"],"a":0},
+        {"q":"🏠 คือ...","c":["stay home","get wet","celebrate"],"a":0},
+        {"q":"💦 คือ...","c":["get wet","stay home","try again"],"a":0},
+        {"q":"🎉 คือ...","c":["celebrate","try again","get wet"],"a":0},
+        {"q":"If it rains, I will ___ home. (อยู่)","c":["stay","go","leave"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u8l3",
+      "icon": "🏆",
+      "title": "My Champion Journey",
+      "sub": "การเดินทางของฉัน",
+      "intro": { "en": "Look how far we have come together!", "th": "ดูสิว่าเรามาไกลกันแค่ไหนแล้ว!" },
+      "vocab": [
+        {"w":"journey","th":"การเดินทาง","e":"🛤️"},
+        {"w":"milestone","th":"เหตุการณ์สำคัญ","e":"🚩"},
+        {"w":"growth","th":"การเติบโต","e":"🌱"},
+        {"w":"thankful","th":"ขอบคุณ","e":"🙏"},
+        {"w":"cherish","th":"หวงแหน","e":"💝"},
+        {"w":"memories","th":"ความทรงจำ","e":"📸"},
+        {"w":"proud moment","th":"ช่วงเวลาที่ภาคภูมิใจ","e":"😌"},
+        {"w":"look back","th":"มองย้อนกลับไป","e":"👀"}
+      ],
+      "build": {"sentence":"I have grown so much on this journey.","th":"ฉันเติบโตขึ้นมากบนเส้นทางนี้"},
+      "speak": [
+        {"t":"I have grown so much on this journey.","th":"ฉันเติบโตขึ้นมากบนเส้นทางนี้"},
+        {"t":"I am thankful for every lesson.","th":"ฉันขอบคุณทุกบทเรียนที่ผ่านมา"},
+        {"t":"I will cherish these memories forever.","th":"ฉันจะหวงแหนความทรงจำเหล่านี้ตลอดไป"},
+        {"t":"This was a proud moment for me.","th":"นี่คือช่วงเวลาที่ฉันภาคภูมิใจ"}
+      ],
+      "quiz": [
+        {"q":"🛤️ คือ...","c":["journey","milestone","growth"],"a":0},
+        {"q":"🚩 คือ...","c":["milestone","journey","memories"],"a":0},
+        {"q":"'การเติบโต' คือ...","c":["growth","milestone","journey"],"a":0},
+        {"q":"🙏 คือ...","c":["thankful","cherish","proud moment"],"a":0},
+        {"q":"💝 คือ...","c":["cherish","thankful","memories"],"a":0},
+        {"q":"📸 คือ...","c":["memories","cherish","milestone"],"a":0},
+        {"q":"😌 คือ...","c":["proud moment","look back","growth"],"a":0},
+        {"q":"I have ___ so much on this journey. (เติบโต)","c":["grown","grow","growing"],"a":0}
+      ]
+    },
+    {
+      "id": "p6u8l4",
+      "icon": "🎓",
+      "title": "Graduation Day",
+      "sub": "วันจบการศึกษา + ทบทวนใหญ่ทั้ง ป.1-6",
+      "intro": { "en": "You finished the whole Fun English Journey! You are a true champion!", "th": "หนูเรียนจบ Fun English Journey ทั้งหมดแล้ว! หนูคือแชมป์เปี้ยนตัวจริง! บทนี้มีทบทวนใหญ่ที่สุดของทั้งซีรีส์ ตั้งแต่ ป.1 ถึง ป.6 เลย" },
+      "vocab": [
+        {"w":"graduate","th":"จบการศึกษา","e":"🎓"},
+        {"w":"certificate","th":"ประกาศนียบัตร","e":"📜"},
+        {"w":"new beginning","th":"จุดเริ่มต้นใหม่","e":"🌅"},
+        {"w":"congratulations","th":"ขอแสดงความยินดี","e":"🎊"},
+        {"w":"forever","th":"ตลอดไป","e":"♾️"},
+        {"w":"believe in yourself","th":"เชื่อมั่นในตัวเอง","e":"✨"},
+        {"w":"keep going","th":"ก้าวต่อไป","e":"🚶"},
+        {"w":"shine bright","th":"เปล่งประกาย","e":"🌟"}
+      ],
+      "build": {"sentence":"Congratulations, you are a true champion forever!","th":"ขอแสดงความยินดี หนูคือแชมป์เปี้ยนตัวจริงตลอดไป!"},
+      "speak": [
+        {"t":"Congratulations, you are a true champion forever!","th":"ขอแสดงความยินดี หนูคือแชมป์เปี้ยนตัวจริงตลอดไป!"},
+        {"t":"This is a new beginning for you.","th":"นี่คือจุดเริ่มต้นใหม่สำหรับหนู"},
+        {"t":"Always believe in yourself.","th":"เชื่อมั่นในตัวเองเสมอนะ"},
+        {"t":"Keep going and shine bright!","th":"ก้าวต่อไปและเปล่งประกายนะ!"}
+      ],
+      "quiz": [
+        {"q":"[ป.1] This is my ___. (กระเป๋า)","c":["bag","book","pen"],"a":0},
+        {"q":"[ป.2] I ___ every year. (เฉลิมฉลอง)","c":["celebrate","decorate","dance"],"a":0},
+        {"q":"[ป.3] I ___ swim fast. (ทำได้)","c":["can","can't","must"],"a":0},
+        {"q":"[ป.4] In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0},
+        {"q":"[ป.5] We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"[ป.6] Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0},
+        {"q":"[ป.6] If I study hard, I ___ pass the exam. (จะ)","c":["will","would","won't"],"a":0},
+        {"q":"You are a true ___ forever! (แชมป์เปี้ยน)","c":["champion","student","winner"],"a":0}
+      ]
+    }
+  ]
+}
