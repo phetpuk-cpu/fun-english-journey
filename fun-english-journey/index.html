@@ -47,6 +47,7 @@
     <span class="mascot" style="font-size:2rem" id="map-avatar">🦁</span>
     <div style="flex:1"><b id="map-name">เพื่อน</b><div style="font-size:.8rem;color:#6b7a99">นักผจญภัยฝึกหัด</div></div>
     <span class="xp-pill">💎 <span id="xp-total">0</span> XP</span>
+    <button class="back" onclick="show('scr-characters')" title="รู้จักเพื่อนๆ" style="font-size:1.3rem">👥</button>
   </div>
   <div class="tab-row">
     <button class="tab" data-g="p1">🌻 ป.1</button>
@@ -57,6 +58,32 @@
     <button class="tab" data-g="p6">🚀 ป.6</button>
   </div>
   <div id="map-list"></div>
+</div>
+
+<!-- ============ SCREEN: CHARACTERS ============ -->
+<div class="screen" id="scr-characters">
+  <div class="topbar">
+    <button class="back" onclick="goMap()">🏠</button>
+    <div style="flex:1"><b>รู้จักเพื่อนๆ 👥</b></div>
+  </div>
+  <div class="card" style="display:grid; grid-template-columns:1fr; gap:14px">
+    <div style="display:flex; align-items:center; gap:14px">
+      <img src="assets/img/characters/ducky-character-sheet.png" alt="Ducky" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🦆',style:'font-size:3.5rem'}))">
+      <div><b>Ducky 🦆</b><div style="font-size:.85rem;color:#6b7a99">ตัวเอกของเรื่อง เด็กเป็ดผู้กล้าหาญและอยากรู้อยากเห็น พาทุกคนผจญภัยเรียนภาษาอังกฤษไปด้วยกัน</div></div>
+    </div>
+    <div style="display:flex; align-items:center; gap:14px">
+      <img src="assets/img/characters/mali-character-sheet.png" alt="Mali" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🐘',style:'font-size:3.5rem'}))">
+      <div><b>Mali 🐘</b><div style="font-size:.85rem;color:#6b7a99">ช้างน้อยผู้ช่วยแปลภาษาไทย ใจดีและคอยอธิบายทุกอย่างให้เข้าใจง่ายเสมอ</div></div>
+    </div>
+    <div style="display:flex; align-items:center; gap:14px">
+      <img src="assets/img/characters/teacher-owl-character-sheet.png" alt="Teacher Owl" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🦉',style:'font-size:3.5rem'}))">
+      <div><b>Teacher Owl 🦉</b><div style="font-size:.85rem;color:#6b7a99">คุณครูนกฮูกผู้รอบรู้ คอยสอนกฎ คำแนะนำ และให้กำลังใจนักเรียนทุกคน</div></div>
+    </div>
+    <div style="display:flex; align-items:center; gap:14px">
+      <img src="assets/img/characters/grumpy-cat-character-sheet.png" alt="Grumpy Cat" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🐱',style:'font-size:3.5rem'}))">
+      <div><b>Grumpy Cat 🐱</b><div style="font-size:.85rem;color:#6b7a99">แมวหน้าบึ้งแต่จริงๆ ใจดี บางทีก็มาแซวๆ แต่จะคอยเชียร์อยู่ห่างๆ เสมอ</div></div>
+    </div>
+  </div>
 </div>
 
 <!-- ============ SCREEN: LESSON ============ -->
