@@ -149,6 +149,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "I was reading a book.",
+          "baseTh": "ฉันกำลังอ่านหนังสือ",
+          "task": "negative",
+          "c": [
+            "I wasn't reading a book.",
+            "I weren't reading a book.",
+            "I didn't reading a book."
+          ],
+          "a": 0
+        },
+        {
+          "base": "She was singing a song.",
+          "baseTh": "หล่อนกำลังร้องเพลง",
+          "task": "question",
+          "c": [
+            "Was she singing a song?",
+            "Were she singing a song?",
+            "Did she singing a song?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "He was playing football.",
+          "baseTh": "เขากำลังเล่นฟุตบอล",
+          "task": "negative",
+          "c": [
+            "He wasn't playing football.",
+            "He weren't playing football.",
+            "He didn't playing football."
+          ],
+          "a": 0
+        }
       ]
     },
     {
@@ -445,6 +480,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "We were looking at old paintings.",
+          "baseTh": "พวกเรากำลังดูภาพวาดเก่า",
+          "task": "negative",
+          "c": [
+            "We weren't looking at old paintings.",
+            "We wasn't looking at old paintings.",
+            "We didn't looking at old paintings."
+          ],
+          "a": 0
+        },
+        {
+          "base": "They were walking in the museum.",
+          "baseTh": "พวกเขากำลังเดินในพิพิธภัณฑ์",
+          "task": "question",
+          "c": [
+            "Were they walking in the museum?",
+            "Was they walking in the museum?",
+            "Did they walking in the museum?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "The children were drawing pictures.",
+          "baseTh": "เด็กๆ กำลังวาดรูป",
+          "task": "negative",
+          "c": [
+            "The children weren't drawing pictures.",
+            "The children wasn't drawing pictures.",
+            "The children didn't drawing pictures."
+          ],
+          "a": 0
+        }
       ]
     },
     {
@@ -590,6 +660,41 @@
             "happened",
             "happens",
             "happen"
+          ],
+          "a": 0
+        }
+      ],
+      "transform": [
+        {
+          "base": "I was sleeping.",
+          "baseTh": "ฉันกำลังนอนหลับ",
+          "task": "question",
+          "c": [
+            "What was I doing?",
+            "What were I doing?",
+            "What did I doing?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "You were eating dinner.",
+          "baseTh": "เธอกำลังกินอาหารเย็น",
+          "task": "question",
+          "c": [
+            "What were you doing?",
+            "What was you doing?",
+            "What did you doing?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "They were watching TV.",
+          "baseTh": "พวกเขากำลังดูทีวี",
+          "task": "negative",
+          "c": [
+            "They weren't watching TV.",
+            "They wasn't watching TV.",
+            "They didn't watching TV."
           ],
           "a": 0
         }

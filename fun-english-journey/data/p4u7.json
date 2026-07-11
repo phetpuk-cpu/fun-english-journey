@@ -297,6 +297,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "We recycle plastic bottles.",
+          "baseTh": "พวกเรารีไซเคิลขวดพลาสติก",
+          "task": "negative",
+          "c": [
+            "We don't recycle plastic bottles.",
+            "We not recycle plastic bottles.",
+            "We doesn't recycle plastic bottles."
+          ],
+          "a": 0
+        },
+        {
+          "base": "They reuse old paper.",
+          "baseTh": "พวกเขานำกระดาษเก่ากลับมาใช้ใหม่",
+          "task": "question",
+          "c": [
+            "Do they reuse old paper?",
+            "Does they reuse old paper?",
+            "Do they reuses old paper?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "She saves water every day.",
+          "baseTh": "หล่อนประหยัดน้ำทุกวัน",
+          "task": "question",
+          "c": [
+            "Does she save water every day?",
+            "Does she saves water every day?",
+            "Do she save water every day?"
+          ],
+          "a": 0
+        }
       ]
     },
     {

@@ -149,6 +149,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "We celebrate every year.",
+          "baseTh": "พวกเราเฉลิมฉลองทุกปี",
+          "task": "negative",
+          "c": [
+            "We don't celebrate every year.",
+            "We not celebrate every year.",
+            "We doesn't celebrate every year."
+          ],
+          "a": 0
+        },
+        {
+          "base": "They dance at the festival.",
+          "baseTh": "พวกเขาเต้นรำในเทศกาล",
+          "task": "question",
+          "c": [
+            "Do they dance at the festival?",
+            "Does they dance at the festival?",
+            "Do they dances at the festival?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "We watch the fireworks.",
+          "baseTh": "พวกเราดูพลุ",
+          "task": "negative",
+          "c": [
+            "We don't watch the fireworks.",
+            "We don't watches the fireworks.",
+            "We not watch the fireworks."
+          ],
+          "a": 0
+        }
       ]
     },
     {

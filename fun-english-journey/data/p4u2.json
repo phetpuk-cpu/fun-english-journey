@@ -445,6 +445,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "This tower has a great view.",
+          "baseTh": "หอคอยนี้มีวิวที่สวยงาม",
+          "task": "negative",
+          "c": [
+            "This tower doesn't have a great view.",
+            "This tower not have a great view.",
+            "This tower doesn't has a great view."
+          ],
+          "a": 0
+        },
+        {
+          "base": "This building has a garden.",
+          "baseTh": "อาคารนี้มีสวน",
+          "task": "question",
+          "c": [
+            "Does this building have a garden?",
+            "Does this building has a garden?",
+            "Do this building have a garden?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "The palace has golden walls.",
+          "baseTh": "วังมีกำแพงสีทอง",
+          "task": "negative",
+          "c": [
+            "The palace doesn't have golden walls.",
+            "The palace don't have golden walls.",
+            "The palace doesn't has golden walls."
+          ],
+          "a": 0
+        }
       ]
     },
     {
