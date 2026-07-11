@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 4 · Academy Rules — กฎของสถาบัน",
+  "lessons": [
+    {
+      "id": "p5u4l1",
+      "icon": "📜",
+      "title": "Academy Rules",
+      "sub": "กฎของสถาบัน",
+      "intro": { "en": "Every academy has rules to follow.", "th": "ทุกสถาบันมีกฎที่ต้องปฏิบัติตาม" },
+      "vocab": [
+        {"w":"rule","th":"กฎ","e":"📜"},
+        {"w":"must","th":"ต้อง","e":"✅"},
+        {"w":"wear","th":"สวมใส่","e":"👕"},
+        {"w":"uniform","th":"ชุดยูนิฟอร์ม","e":"👔"},
+        {"w":"arrive","th":"มาถึง","e":"🚶"},
+        {"w":"on time","th":"ตรงเวลา","e":"⏰"},
+        {"w":"listen","th":"ฟัง","e":"👂"},
+        {"w":"follow","th":"ปฏิบัติตาม","e":"➡️"}
+      ],
+      "build": {"sentence":"You must wear your uniform.","th":"เธอต้องสวมใส่ชุดยูนิฟอร์มของเธอ"},
+      "speak": [
+        {"t":"You must wear your uniform.","th":"เธอต้องสวมใส่ชุดยูนิฟอร์มของเธอ"},
+        {"t":"You must arrive on time.","th":"เธอต้องมาถึงตรงเวลา"},
+        {"t":"You must listen to the coach.","th":"เธอต้องฟังโค้ช"},
+        {"t":"We must follow the rules.","th":"พวกเราต้องปฏิบัติตามกฎ"}
+      ],
+      "quiz": [
+        {"q":"📜 คือ...","c":["rule","must","follow"],"a":0},
+        {"q":"'ต้อง' คือ...","c":["must","wear","arrive"],"a":0},
+        {"q":"👕 คือ...","c":["wear","uniform","rule"],"a":0},
+        {"q":"'ชุดยูนิฟอร์ม' คือ...","c":["uniform","gear","jersey"],"a":0},
+        {"q":"🚶 คือ...","c":["arrive","follow","listen"],"a":0},
+        {"q":"'ตรงเวลา' คือ...","c":["on time","late","early"],"a":0},
+        {"q":"👂 คือ...","c":["listen","follow","arrive"],"a":0},
+        {"q":"You ___ wear your uniform. (ต้อง)","c":["must","can","like"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u4l2",
+      "icon": "⚠️",
+      "title": "Safety First",
+      "sub": "ความปลอดภัยต้องมาก่อน",
+      "intro": { "en": "Safety rules keep everyone safe!", "th": "กฎความปลอดภัยช่วยให้ทุกคนปลอดภัยนะ" },
+      "vocab": [
+        {"w":"safety","th":"ความปลอดภัย","e":"⚠️"},
+        {"w":"mustn't","th":"ห้าม","e":"🚫"},
+        {"w":"hallway","th":"ทางเดิน","e":"🚪"},
+        {"w":"helmet","th":"หมวกกันน็อค","e":"⛑️"},
+        {"w":"protect","th":"ปกป้อง","e":"🛡️"},
+        {"w":"dangerous","th":"อันตราย","e":"☠️"},
+        {"w":"careful","th":"ระมัดระวัง","e":"🧐"},
+        {"w":"injury","th":"การบาดเจ็บ","e":"🤕"}
+      ],
+      "build": {"sentence":"You mustn't run in the hallway.","th":"ห้ามวิ่งในทางเดิน"},
+      "speak": [
+        {"t":"You mustn't run in the hallway.","th":"ห้ามวิ่งในทางเดิน"},
+        {"t":"You must wear a helmet.","th":"เธอต้องสวมหมวกกันน็อค"},
+        {"t":"Be careful, it's dangerous.","th":"ระวังนะ มันอันตราย"},
+        {"t":"A helmet protects your head.","th":"หมวกกันน็อคปกป้องศีรษะของเธอ"}
+      ],
+      "quiz": [
+        {"q":"⚠️ คือ...","c":["safety","dangerous","injury"],"a":0},
+        {"q":"'ห้าม' คือ...","c":["mustn't","must","can"],"a":0},
+        {"q":"🚪 คือ...","c":["hallway","gym","locker"],"a":0},
+        {"q":"⛑️ คือ...","c":["helmet","gloves","jersey"],"a":0},
+        {"q":"🛡️ คือ...","c":["protect","dangerous","careful"],"a":0},
+        {"q":"'อันตราย' คือ...","c":["dangerous","safety","careful"],"a":0},
+        {"q":"🤕 คือ...","c":["injury","protect","careful"],"a":0},
+        {"q":"You ___ run in the hallway. (ห้าม)","c":["mustn't","must","can"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u4l3",
+      "icon": "🤝",
+      "title": "Good Sportsmanship",
+      "sub": "น้ำใจนักกีฬา",
+      "intro": { "en": "A true champion always plays fair.", "th": "แชมป์เปี้ยนตัวจริงเล่นอย่างยุติธรรมเสมอ" },
+      "vocab": [
+        {"w":"sportsmanship","th":"น้ำใจนักกีฬา","e":"🤝"},
+        {"w":"fair","th":"ยุติธรรม","e":"⚖️"},
+        {"w":"cheat","th":"โกง","e":"🙅"},
+        {"w":"respect","th":"เคารพ","e":"❤️"},
+        {"w":"teamwork","th":"การทำงานเป็นทีม","e":"👥"},
+        {"w":"honest","th":"ซื่อสัตย์","e":"😇"},
+        {"w":"shake hands","th":"จับมือ","e":"🤲"},
+        {"w":"congratulate","th":"แสดงความยินดี","e":"🎊"}
+      ],
+      "build": {"sentence":"You must respect your opponent.","th":"เธอต้องเคารพคู่แข่งของเธอ"},
+      "speak": [
+        {"t":"You must respect your opponent.","th":"เธอต้องเคารพคู่แข่งของเธอ"},
+        {"t":"You mustn't cheat in the game.","th":"ห้ามโกงในเกม"},
+        {"t":"We shake hands after the game.","th":"พวกเราจับมือกันหลังจบเกม"},
+        {"t":"I congratulate the winning team.","th":"ฉันแสดงความยินดีกับทีมที่ชนะ"}
+      ],
+      "quiz": [
+        {"q":"🤝 คือ...","c":["sportsmanship","teamwork","respect"],"a":0},
+        {"q":"'ยุติธรรม' คือ...","c":["fair","cheat","honest"],"a":0},
+        {"q":"🙅 คือ...","c":["cheat","fair","respect"],"a":0},
+        {"q":"❤️ คือ...","c":["respect","congratulate","honest"],"a":0},
+        {"q":"'การทำงานเป็นทีม' คือ...","c":["teamwork","sportsmanship","fair"],"a":0},
+        {"q":"😇 คือ...","c":["honest","cheat","fair"],"a":0},
+        {"q":"🎊 คือ...","c":["congratulate","shake hands","respect"],"a":0},
+        {"q":"You mustn't ___ in the game. (โกง)","c":["cheat","respect","congratulate"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u4l4",
+      "icon": "📋",
+      "title": "Rule Review",
+      "sub": "ทบทวนกฎ + ทบทวนทั้งหน่วย",
+      "intro": { "en": "Let's review all the academy rules!", "th": "มาทบทวนกฎของสถาบันกันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"obey","th":"เชื่อฟัง","e":"🙇"},
+        {"w":"permission","th":"การอนุญาต","e":"🙏"},
+        {"w":"allowed","th":"ได้รับอนุญาต","e":"✔️"},
+        {"w":"forbidden","th":"ต้องห้าม","e":"⛔"},
+        {"w":"break a rule","th":"ทำผิดกฎ","e":"💢"},
+        {"w":"warning","th":"คำเตือน","e":"⚠️"},
+        {"w":"punctual","th":"ตรงต่อเวลา","e":"⏱️"},
+        {"w":"discipline","th":"วินัย","e":"🎯"}
+      ],
+      "build": {"sentence":"We must obey the academy rules.","th":"พวกเราต้องเชื่อฟังกฎของสถาบัน"},
+      "speak": [
+        {"t":"We must obey the academy rules.","th":"พวกเราต้องเชื่อฟังกฎของสถาบัน"},
+        {"t":"Running is not allowed here.","th":"ที่นี่ไม่อนุญาตให้วิ่ง"},
+        {"t":"A champion needs discipline.","th":"แชมป์เปี้ยนต้องการวินัย"},
+        {"t":"Please be punctual every day.","th":"กรุณาตรงต่อเวลาทุกวัน"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย4] 🙇 คือ...","c":["obey","forbidden","warning"],"a":0},
+        {"q":"[หน่วย4] ⛔ คือ...","c":["forbidden","allowed","obey"],"a":0},
+        {"q":"[ทบทวน] You ___ wear your uniform. (ต้อง)","c":["must","can","like"],"a":0},
+        {"q":"[ทบทวน] You ___ run in the hallway. (ห้าม)","c":["mustn't","must","can"],"a":0},
+        {"q":"[ทบทวน] You mustn't ___ in the game. (โกง)","c":["cheat","respect","congratulate"],"a":0},
+        {"q":"🎯 คือ...","c":["discipline","permission","warning"],"a":0},
+        {"q":"⏱️ คือ...","c":["punctual","forbidden","allowed"],"a":0},
+        {"q":"A champion needs ___. (วินัย)","c":["discipline","permission","warning"],"a":0}
+      ]
+    }
+  ]
+}

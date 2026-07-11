@@ -6,6 +6,7 @@ const UNIT_FILES = {
   p2: ["data/p2u1.json", "data/p2u2.json", "data/p2u3.json", "data/p2u4.json", "data/p2u5.json", "data/p2u6.json", "data/p2u7.json", "data/p2u8.json"],
   p3: ["data/p3u1.json", "data/p3u2.json", "data/p3u3.json", "data/p3u4.json", "data/p3u5.json", "data/p3u6.json", "data/p3u7.json", "data/p3u8.json"],
   p4: ["data/p4u1.json", "data/p4u2.json", "data/p4u3.json", "data/p4u4.json", "data/p4u5.json", "data/p4u6.json", "data/p4u7.json", "data/p4u8.json"],
+  p5: ["data/p5u1.json", "data/p5u2.json", "data/p5u3.json", "data/p5u4.json", "data/p5u5.json", "data/p5u6.json", "data/p5u7.json", "data/p5u8.json"],
 };
 let CONTENT = null;
 

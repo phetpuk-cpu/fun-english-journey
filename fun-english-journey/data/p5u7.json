@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 7 · Because I Practice — เพราะฉันฝึกซ้อม",
+  "lessons": [
+    {
+      "id": "p5u7l1",
+      "icon": "🤔",
+      "title": "Why I Practice",
+      "sub": "ทำไมฉันถึงฝึกซ้อม",
+      "intro": { "en": "Everyone has a reason to practice.", "th": "ทุกคนมีเหตุผลในการฝึกซ้อม" },
+      "vocab": [
+        {"w":"because","th":"เพราะ","e":"💡"},
+        {"w":"reason","th":"เหตุผล","e":"❓"},
+        {"w":"why","th":"ทำไม","e":"🤔"},
+        {"w":"strong","th":"แข็งแรง","e":"💪"},
+        {"w":"skilled","th":"มีทักษะ","e":"🌟"},
+        {"w":"motivated","th":"มีแรงจูงใจ","e":"🔥"},
+        {"w":"passion","th":"ความหลงใหล","e":"❤️"},
+        {"w":"dedicated","th":"ทุ่มเท","e":"🎯"}
+      ],
+      "build": {"sentence":"I practice because I love sports.","th":"ฉันฝึกซ้อมเพราะฉันรักกีฬา"},
+      "speak": [
+        {"t":"I practice because I love sports.","th":"ฉันฝึกซ้อมเพราะฉันรักกีฬา"},
+        {"t":"Why do you practice every day?","th":"ทำไมเธอถึงฝึกซ้อมทุกวัน?"},
+        {"t":"I want to be strong and skilled.","th":"ฉันอยากแข็งแรงและมีทักษะ"},
+        {"t":"I am dedicated to my sport.","th":"ฉันทุ่มเทให้กับกีฬาของฉัน"}
+      ],
+      "quiz": [
+        {"q":"💡 คือ...","c":["because","reason","why"],"a":0},
+        {"q":"'เหตุผล' คือ...","c":["reason","because","why"],"a":0},
+        {"q":"🤔 คือ...","c":["why","because","reason"],"a":0},
+        {"q":"💪 คือ...","c":["strong","skilled","motivated"],"a":0},
+        {"q":"'มีทักษะ' คือ...","c":["skilled","strong","dedicated"],"a":0},
+        {"q":"🔥 คือ...","c":["motivated","dedicated","passion"],"a":0},
+        {"q":"❤️ คือ...","c":["passion","motivated","reason"],"a":0},
+        {"q":"I practice ___ I love sports. (เพราะ)","c":["because","so","but"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u7l2",
+      "icon": "✨",
+      "title": "Practice Makes Perfect",
+      "sub": "ฝึกฝนให้เชี่ยวชาญ",
+      "intro": { "en": "The more you practice, the better you get!", "th": "ยิ่งฝึกซ้อมมากเท่าไหร่ ยิ่งเก่งขึ้นเท่านั้น!" },
+      "vocab": [
+        {"w":"so","th":"ดังนั้น","e":"➡️"},
+        {"w":"result","th":"ผลลัพธ์","e":"📊"},
+        {"w":"effort","th":"ความพยายาม","e":"💪"},
+        {"w":"hard work","th":"ความขยัน","e":"⚒️"},
+        {"w":"patience","th":"ความอดทน","e":"⏳"},
+        {"w":"consistent","th":"สม่ำเสมอ","e":"🔁"},
+        {"w":"progress","th":"ความก้าวหน้า","e":"📈"},
+        {"w":"perfect","th":"สมบูรณ์แบบ","e":"💯"}
+      ],
+      "build": {"sentence":"I practice hard, so I improve.","th":"ฉันฝึกซ้อมหนัก ดังนั้นฉันจึงพัฒนาขึ้น"},
+      "speak": [
+        {"t":"I practice hard, so I improve.","th":"ฉันฝึกซ้อมหนัก ดังนั้นฉันจึงพัฒนาขึ้น"},
+        {"t":"I need patience and hard work.","th":"ฉันต้องการความอดทนและความขยัน"},
+        {"t":"My progress is very good this month.","th":"ความก้าวหน้าของฉันดีมากในเดือนนี้"},
+        {"t":"Practice makes perfect.","th":"ฝึกฝนให้เชี่ยวชาญ"}
+      ],
+      "quiz": [
+        {"q":"➡️ คือ...","c":["so","because","but"],"a":0},
+        {"q":"📊 คือ...","c":["result","effort","progress"],"a":0},
+        {"q":"'ความพยายาม' คือ...","c":["effort","hard work","patience"],"a":0},
+        {"q":"⚒️ คือ...","c":["hard work","effort","result"],"a":0},
+        {"q":"⏳ คือ...","c":["patience","consistent","progress"],"a":0},
+        {"q":"🔁 คือ...","c":["consistent","patience","perfect"],"a":0},
+        {"q":"📈 คือ...","c":["progress","result","effort"],"a":0},
+        {"q":"I practice hard, ___ I improve. (ดังนั้น)","c":["so","because","but"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u7l3",
+      "icon": "⚖️",
+      "title": "Win or Lose",
+      "sub": "ชนะหรือแพ้",
+      "intro": { "en": "Champions learn from every game.", "th": "แชมป์เปี้ยนเรียนรู้จากทุกเกม" },
+      "vocab": [
+        {"w":"but","th":"แต่","e":"⚖️"},
+        {"w":"win","th":"ชนะ","e":"🥇"},
+        {"w":"lose","th":"แพ้","e":"😔"},
+        {"w":"however","th":"อย่างไรก็ตาม","e":"🔀"},
+        {"w":"disappointed","th":"ผิดหวัง","e":"😞"},
+        {"w":"accept","th":"ยอมรับ","e":"🤲"},
+        {"w":"learn from","th":"เรียนรู้จาก","e":"📚"},
+        {"w":"mistake","th":"ข้อผิดพลาด","e":"❌"}
+      ],
+      "build": {"sentence":"We lost, but we learned a lot.","th":"พวกเราแพ้ แต่พวกเราได้เรียนรู้มากมาย"},
+      "speak": [
+        {"t":"We lost, but we learned a lot.","th":"พวกเราแพ้ แต่พวกเราได้เรียนรู้มากมาย"},
+        {"t":"I was disappointed, but I didn't give up.","th":"ฉันผิดหวัง แต่ฉันไม่ยอมแพ้"},
+        {"t":"We must accept our mistakes.","th":"พวกเราต้องยอมรับข้อผิดพลาดของเรา"},
+        {"t":"I learn from every game.","th":"ฉันเรียนรู้จากทุกเกม"}
+      ],
+      "quiz": [
+        {"q":"⚖️ คือ...","c":["but","however","so"],"a":0},
+        {"q":"🥇 คือ...","c":["win","lose","mistake"],"a":0},
+        {"q":"'แพ้' คือ...","c":["lose","win","accept"],"a":0},
+        {"q":"🔀 คือ...","c":["however","but","because"],"a":0},
+        {"q":"😞 คือ...","c":["disappointed","accept","mistake"],"a":0},
+        {"q":"🤲 คือ...","c":["accept","learn from","disappointed"],"a":0},
+        {"q":"❌ คือ...","c":["mistake","lose","disappointed"],"a":0},
+        {"q":"We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u7l4",
+      "icon": "🎊",
+      "title": "Team Spirit",
+      "sub": "จิตวิญญาณของทีม + ทบทวน",
+      "intro": { "en": "Together, we are stronger!", "th": "เมื่อรวมกัน พวกเราแข็งแกร่งขึ้น บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"and","th":"และ","e":"🔗"},
+        {"w":"together","th":"ด้วยกัน","e":"👫"},
+        {"w":"unity","th":"ความสามัคคี","e":"🤝"},
+        {"w":"bond","th":"ความผูกพัน","e":"💞"},
+        {"w":"trust","th":"ความไว้วางใจ","e":"🔒"},
+        {"w":"loyal","th":"ซื่อสัตย์ต่อทีม","e":"🛡️"},
+        {"w":"cheer","th":"เชียร์","e":"📣"},
+        {"w":"family","th":"ครอบครัว","e":"👨‍👩‍👧‍👦"}
+      ],
+      "build": {"sentence":"We practice and we play together.","th":"พวกเราฝึกซ้อมและเล่นด้วยกัน"},
+      "speak": [
+        {"t":"We practice and we play together.","th":"พวกเราฝึกซ้อมและเล่นด้วยกัน"},
+        {"t":"Our team has strong unity.","th":"ทีมของพวกเรามีความสามัคคีที่แข็งแกร่ง"},
+        {"t":"I trust my teammates.","th":"ฉันไว้วางใจเพื่อนร่วมทีมของฉัน"},
+        {"t":"My team is like my family.","th":"ทีมของฉันเหมือนครอบครัวของฉัน"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย7] 🔗 คือ...","c":["and","but","so"],"a":0},
+        {"q":"[หน่วย7] 🤝 คือ...","c":["unity","bond","trust"],"a":0},
+        {"q":"[ทบทวน] I practice ___ I love sports. (เพราะ)","c":["because","so","but"],"a":0},
+        {"q":"[ทบทวน] I practice hard, ___ I improve. (ดังนั้น)","c":["so","because","but"],"a":0},
+        {"q":"[ทบทวน] We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0},
+        {"q":"💞 คือ...","c":["bond","trust","loyal"],"a":0},
+        {"q":"📣 คือ...","c":["cheer","trust","bond"],"a":0},
+        {"q":"My team is like my ___. (ครอบครัว)","c":["family","unity","bond"],"a":0}
+      ]
+    }
+  ]
+}

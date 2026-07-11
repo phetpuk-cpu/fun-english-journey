@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 3 · Snack Time — เวลาว่าง กินของว่าง",
+  "lessons": [
+    {
+      "id": "p5u3l1",
+      "icon": "🍎",
+      "title": "Healthy Snacks",
+      "sub": "ของว่างเพื่อสุขภาพ",
+      "intro": { "en": "Champions need healthy food!", "th": "แชมป์เปี้ยนต้องการอาหารเพื่อสุขภาพนะ" },
+      "vocab": [
+        {"w":"fruit","th":"ผลไม้","e":"🍎"},
+        {"w":"vegetable","th":"ผัก","e":"🥦"},
+        {"w":"protein","th":"โปรตีน","e":"🍗"},
+        {"w":"snack","th":"ของว่าง","e":"🍪"},
+        {"w":"healthy","th":"มีประโยชน์ต่อสุขภาพ","e":"💚"},
+        {"w":"unhealthy","th":"ไม่มีประโยชน์","e":"🚫"},
+        {"w":"energy","th":"พลังงาน","e":"⚡"},
+        {"w":"nutrition","th":"โภชนาการ","e":"🥗"}
+      ],
+      "build": {"sentence":"I eat fruit every day.","th":"ฉันกินผลไม้ทุกวัน"},
+      "speak": [
+        {"t":"I eat fruit every day.","th":"ฉันกินผลไม้ทุกวัน"},
+        {"t":"Vegetables are healthy.","th":"ผักมีประโยชน์ต่อสุขภาพ"},
+        {"t":"Chips are unhealthy.","th":"มันฝรั่งทอดไม่มีประโยชน์"},
+        {"t":"I need energy before the game.","th":"ฉันต้องการพลังงานก่อนการแข่งขัน"}
+      ],
+      "quiz": [
+        {"q":"🍎 คือ...","c":["fruit","vegetable","snack"],"a":0},
+        {"q":"'ผัก' คือ...","c":["vegetable","fruit","protein"],"a":0},
+        {"q":"🍗 คือ...","c":["protein","snack","energy"],"a":0},
+        {"q":"'มีประโยชน์ต่อสุขภาพ' คือ...","c":["healthy","unhealthy","energy"],"a":0},
+        {"q":"🚫 (ของกิน) คือ...","c":["unhealthy","healthy","nutrition"],"a":0},
+        {"q":"⚡ คือ...","c":["energy","nutrition","protein"],"a":0},
+        {"q":"🥗 คือ...","c":["nutrition","vegetable","snack"],"a":0},
+        {"q":"Vegetables are ___. (มีประโยชน์)","c":["healthy","unhealthy","energy"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u3l2",
+      "icon": "❓",
+      "title": "How Much? How Many?",
+      "sub": "มากแค่ไหน กี่อย่าง",
+      "intro": { "en": "Let's count our food the right way!", "th": "มานับอาหารของเราให้ถูกวิธีกันเถอะ" },
+      "vocab": [
+        {"w":"how much","th":"มากแค่ไหน(นับไม่ได้)","e":"❓"},
+        {"w":"how many","th":"กี่อย่าง(นับได้)","e":"🔢"},
+        {"w":"a little","th":"นิดหน่อย","e":"🤏"},
+        {"w":"a lot of","th":"เยอะมาก","e":"📦"},
+        {"w":"some","th":"บ้าง/บางส่วน","e":"➕"},
+        {"w":"any","th":"บ้างเลย(คำถาม/ปฏิเสธ)","e":"❔"},
+        {"w":"none","th":"ไม่มีเลย","e":"0️⃣"},
+        {"w":"enough","th":"พอ","e":"👌"}
+      ],
+      "build": {"sentence":"How many apples do you have?","th":"เธอมีแอปเปิลกี่ลูก?"},
+      "speak": [
+        {"t":"How many apples do you have?","th":"เธอมีแอปเปิลกี่ลูก?"},
+        {"t":"How much water do you drink?","th":"เธอดื่มน้ำมากแค่ไหน?"},
+        {"t":"I have a lot of energy today.","th":"วันนี้ฉันมีพลังงานเยอะมาก"},
+        {"t":"I don't have any snacks.","th":"ฉันไม่มีของว่างเลย"}
+      ],
+      "quiz": [
+        {"q":"'มากแค่ไหน(นับไม่ได้)' คือ...","c":["how much","how many","enough"],"a":0},
+        {"q":"🔢 คือ...","c":["how many","how much","a little"],"a":0},
+        {"q":"🤏 คือ...","c":["a little","a lot of","enough"],"a":0},
+        {"q":"'เยอะมาก' คือ...","c":["a lot of","a little","none"],"a":0},
+        {"q":"➕ คือ...","c":["some","any","none"],"a":0},
+        {"q":"0️⃣ คือ...","c":["none","some","any"],"a":0},
+        {"q":"👌 คือ...","c":["enough","a little","none"],"a":0},
+        {"q":"___ apples do you have? (กี่ลูก, นับได้)","c":["How many","How much","How"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u3l3",
+      "icon": "🥪",
+      "title": "At the Snack Bar",
+      "sub": "ที่ร้านขายของว่าง",
+      "intro": { "en": "What would you like to order?", "th": "เธออยากสั่งอะไรนะ?" },
+      "vocab": [
+        {"w":"order","th":"สั่ง","e":"📝"},
+        {"w":"snack bar","th":"ร้านขายของว่าง","e":"🏪"},
+        {"w":"sandwich","th":"แซนด์วิช","e":"🥪"},
+        {"w":"juice","th":"น้ำผลไม้","e":"🧃"},
+        {"w":"chips","th":"มันฝรั่งทอด","e":"🍟"},
+        {"w":"cookie","th":"คุกกี้","e":"🍪"},
+        {"w":"popcorn","th":"ป๊อปคอร์น","e":"🍿"},
+        {"w":"ice cream","th":"ไอศกรีม","e":"🍦"}
+      ],
+      "build": {"sentence":"Can I have some juice, please?","th":"ขอน้ำผลไม้หน่อยได้ไหมคะ/ครับ?"},
+      "speak": [
+        {"t":"Can I have some juice, please?","th":"ขอน้ำผลไม้หน่อยได้ไหมคะ/ครับ?"},
+        {"t":"I would like to order a sandwich.","th":"ฉันอยากสั่งแซนด์วิช"},
+        {"t":"Is there any popcorn left?","th":"ยังมีป๊อปคอร์นเหลืออยู่ไหม?"},
+        {"t":"I don't want any chips.","th":"ฉันไม่อยากได้มันฝรั่งทอดเลย"}
+      ],
+      "quiz": [
+        {"q":"📝 คือ...","c":["order","snack bar","enough"],"a":0},
+        {"q":"'ร้านขายของว่าง' คือ...","c":["snack bar","order","juice"],"a":0},
+        {"q":"🥪 คือ...","c":["sandwich","cookie","chips"],"a":0},
+        {"q":"'น้ำผลไม้' คือ...","c":["juice","water","ice cream"],"a":0},
+        {"q":"🍟 คือ...","c":["chips","cookie","popcorn"],"a":0},
+        {"q":"🍿 คือ...","c":["popcorn","chips","cookie"],"a":0},
+        {"q":"🍦 คือ...","c":["ice cream","juice","sandwich"],"a":0},
+        {"q":"Can I have ___ juice? (บ้าง)","c":["some","any","none"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u3l4",
+      "icon": "⚡",
+      "title": "Energy Food",
+      "sub": "อาหารให้พลังงาน + ทบทวน",
+      "intro": { "en": "Champions eat right to play their best!", "th": "แชมป์เปี้ยนกินอาหารให้ถูกต้องเพื่อเล่นให้ดีที่สุด บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"carbohydrate","th":"คาร์โบไฮเดรต","e":"🍚"},
+        {"w":"vitamin","th":"วิตามิน","e":"💊"},
+        {"w":"rice","th":"ข้าว","e":"🍙"},
+        {"w":"chicken","th":"ไก่","e":"🍗"},
+        {"w":"egg","th":"ไข่","e":"🥚"},
+        {"w":"milk","th":"นม","e":"🥛"},
+        {"w":"water","th":"น้ำ","e":"💧"},
+        {"w":"balanced diet","th":"อาหารที่สมดุล","e":"⚖️"}
+      ],
+      "build": {"sentence":"I eat a balanced diet every day.","th":"ฉันกินอาหารที่สมดุลทุกวัน"},
+      "speak": [
+        {"t":"I eat a balanced diet every day.","th":"ฉันกินอาหารที่สมดุลทุกวัน"},
+        {"t":"Rice gives me carbohydrates.","th":"ข้าวให้คาร์โบไฮเดรตกับฉัน"},
+        {"t":"I drink milk for vitamins.","th":"ฉันดื่มนมเพื่อวิตามิน"},
+        {"t":"Drink enough water every day.","th":"ดื่มน้ำให้เพียงพอทุกวัน"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย3] 🍚 คือ...","c":["carbohydrate","protein","vitamin"],"a":0},
+        {"q":"[หน่วย3] 💊 คือ...","c":["vitamin","carbohydrate","protein"],"a":0},
+        {"q":"[ทบทวน] ___ apples do you have? (กี่ลูก)","c":["How many","How much","How"],"a":0},
+        {"q":"[ทบทวน] Can I have ___ juice? (บ้าง)","c":["some","any","none"],"a":0},
+        {"q":"🥚 คือ...","c":["egg","chicken","rice"],"a":0},
+        {"q":"'นม' คือ...","c":["milk","water","juice"],"a":0},
+        {"q":"⚖️ คือ...","c":["balanced diet","nutrition","energy"],"a":0},
+        {"q":"Rice gives me ___. (คาร์โบไฮเดรต)","c":["carbohydrates","protein","vitamins"],"a":0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 2 · My Gear — อุปกรณ์ของฉัน",
+  "lessons": [
+    {
+      "id": "p5u2l1",
+      "icon": "🎒",
+      "title": "Whose Gear Is This?",
+      "sub": "อุปกรณ์นี้ของใคร",
+      "intro": { "en": "Everyone has their own sports gear!", "th": "ทุกคนมีอุปกรณ์กีฬาของตัวเองนะ" },
+      "vocab": [
+        {"w":"gear","th":"อุปกรณ์","e":"🎒"},
+        {"w":"jersey","th":"เสื้อทีม","e":"👕"},
+        {"w":"helmet","th":"หมวกกันน็อค","e":"⛑️"},
+        {"w":"gloves","th":"ถุงมือ","e":"🧤"},
+        {"w":"sneakers","th":"รองเท้าผ้าใบ","e":"👟"},
+        {"w":"water bottle","th":"ขวดน้ำ","e":"🍶"},
+        {"w":"backpack","th":"เป้สะพายหลัง","e":"🎒"},
+        {"w":"whistle","th":"นกหวีด","e":"📯"}
+      ],
+      "build": {"sentence":"Whose jersey is this?","th":"เสื้อทีมตัวนี้ของใครนะ?"},
+      "speak": [
+        {"t":"Whose jersey is this?","th":"เสื้อทีมตัวนี้ของใครนะ?"},
+        {"t":"I need my helmet.","th":"ฉันต้องใช้หมวกกันน็อคของฉัน"},
+        {"t":"Where are my gloves?","th":"ถุงมือของฉันอยู่ไหนนะ?"},
+        {"t":"Don't forget your water bottle.","th":"อย่าลืมขวดน้ำของเธอล่ะ"}
+      ],
+      "quiz": [
+        {"q":"🎒 คือ...","c":["gear","jersey","backpack"],"a":0},
+        {"q":"'เสื้อทีม' คือ...","c":["jersey","gear","helmet"],"a":0},
+        {"q":"⛑️ คือ...","c":["helmet","gloves","whistle"],"a":0},
+        {"q":"'ถุงมือ' คือ...","c":["gloves","sneakers","helmet"],"a":0},
+        {"q":"👟 คือ...","c":["sneakers","gloves","jersey"],"a":0},
+        {"q":"'ขวดน้ำ' คือ...","c":["water bottle","backpack","gear"],"a":0},
+        {"q":"📯 คือ...","c":["whistle","helmet","gloves"],"a":0},
+        {"q":"___ jersey is this? (ของใคร)","c":["Whose","Who","Which"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u2l2",
+      "icon": "🙋",
+      "title": "Mine or Yours?",
+      "sub": "ของฉันหรือของเธอ",
+      "intro": { "en": "Let's learn how to talk about who owns what!", "th": "มาเรียนวิธีพูดว่าของนี้เป็นของใครกันเถอะ" },
+      "vocab": [
+        {"w":"mine","th":"ของฉัน","e":"🙋"},
+        {"w":"yours","th":"ของเธอ","e":"👉"},
+        {"w":"his","th":"ของเขา(ผู้ชาย)","e":"👦"},
+        {"w":"hers","th":"ของเธอ(ผู้หญิง)","e":"👧"},
+        {"w":"ours","th":"ของพวกเรา","e":"👨‍👩‍👧"},
+        {"w":"theirs","th":"ของพวกเขา","e":"👥"},
+        {"w":"belongs to","th":"เป็นของ","e":"🔗"},
+        {"w":"whose","th":"ของใคร","e":"❓"}
+      ],
+      "build": {"sentence":"This jersey is mine.","th":"เสื้อทีมตัวนี้เป็นของฉัน"},
+      "speak": [
+        {"t":"This jersey is mine.","th":"เสื้อทีมตัวนี้เป็นของฉัน"},
+        {"t":"That water bottle is yours.","th":"ขวดน้ำนั้นเป็นของเธอ"},
+        {"t":"This gear belongs to him.","th":"อุปกรณ์นี้เป็นของเขา"},
+        {"t":"Those sneakers are hers.","th":"รองเท้าผ้าใบคู่นั้นเป็นของเธอ(ผู้หญิง)"}
+      ],
+      "quiz": [
+        {"q":"🙋 (ของฉัน) คือ...","c":["mine","yours","ours"],"a":0},
+        {"q":"'ของเธอ' คือ...","c":["yours","mine","hers"],"a":0},
+        {"q":"👦 ของเขา(ผู้ชาย) คือ...","c":["his","hers","theirs"],"a":0},
+        {"q":"'ของเธอ(ผู้หญิง)' คือ...","c":["hers","his","ours"],"a":0},
+        {"q":"👨‍👩‍👧 ของพวกเรา คือ...","c":["ours","theirs","mine"],"a":0},
+        {"q":"'ของพวกเขา' คือ...","c":["theirs","ours","yours"],"a":0},
+        {"q":"🔗 คือ...","c":["belongs to","whose","mine"],"a":0},
+        {"q":"This jersey is ___. (ของฉัน)","c":["mine","my","I"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u2l3",
+      "icon": "👕",
+      "title": "Team Gear",
+      "sub": "อุปกรณ์ของทีม",
+      "intro": { "en": "Every team has its own colors and gear!", "th": "ทุกทีมมีสีและอุปกรณ์ของตัวเอง" },
+      "vocab": [
+        {"w":"team","th":"ทีม","e":"👥"},
+        {"w":"uniform","th":"ชุดยูนิฟอร์ม","e":"👕"},
+        {"w":"number","th":"หมายเลข","e":"🔢"},
+        {"w":"locker","th":"ล็อกเกอร์","e":"🗄️"},
+        {"w":"captain","th":"กัปตันทีม","e":"🎖️"},
+        {"w":"medal","th":"เหรียญรางวัล","e":"🏅"},
+        {"w":"trophy","th":"ถ้วยรางวัล","e":"🏆"},
+        {"w":"scoreboard","th":"กระดานคะแนน","e":"📊"}
+      ],
+      "build": {"sentence":"This is his locker.","th":"นี่คือล็อกเกอร์ของเขา"},
+      "speak": [
+        {"t":"This is his locker.","th":"นี่คือล็อกเกอร์ของเขา"},
+        {"t":"Her uniform number is seven.","th":"หมายเลขในชุดยูนิฟอร์มของเธอคือเจ็ด"},
+        {"t":"Our team won the trophy.","th":"ทีมของพวกเราชนะถ้วยรางวัล"},
+        {"t":"Their captain is very strong.","th":"กัปตันทีมของพวกเขาแข็งแรงมาก"}
+      ],
+      "quiz": [
+        {"q":"👥 คือ...","c":["team","captain","uniform"],"a":0},
+        {"q":"'ชุดยูนิฟอร์ม' คือ...","c":["uniform","gear","jersey"],"a":0},
+        {"q":"🗄️ คือ...","c":["locker","scoreboard","number"],"a":0},
+        {"q":"'กัปตันทีม' คือ...","c":["captain","team","coach"],"a":0},
+        {"q":"🏅 คือ...","c":["medal","trophy","number"],"a":0},
+        {"q":"'ถ้วยรางวัล' คือ...","c":["trophy","medal","scoreboard"],"a":0},
+        {"q":"📊 คือ...","c":["scoreboard","locker","uniform"],"a":0},
+        {"q":"This is ___ locker. (ของเขา)","c":["his","he","him"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u2l4",
+      "icon": "🔍",
+      "title": "Lost and Found",
+      "sub": "ของหายของเจอ + ทบทวน",
+      "intro": { "en": "Someone lost their gear! Let's help find it.", "th": "มีคนทำอุปกรณ์หาย มาช่วยกันหากันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"lost","th":"ทำหาย","e":"😟"},
+        {"w":"found","th":"เจอแล้ว","e":"🔍"},
+        {"w":"name tag","th":"ป้ายชื่อ","e":"🏷️"},
+        {"w":"label","th":"ฉลาก","e":"📛"},
+        {"w":"borrow","th":"ยืม","e":"🤲"},
+        {"w":"lend","th":"ให้ยืม","e":"🫴"},
+        {"w":"share","th":"แบ่งปัน","e":"🤝"},
+        {"w":"careful","th":"ระมัดระวัง","e":"⚠️"}
+      ],
+      "build": {"sentence":"Is this bag yours?","th":"กระเป๋าใบนี้เป็นของเธอไหม?"},
+      "speak": [
+        {"t":"Is this bag yours?","th":"กระเป๋าใบนี้เป็นของเธอไหม?"},
+        {"t":"I lost my water bottle.","th":"ฉันทำขวดน้ำหาย"},
+        {"t":"Can I borrow your gloves?","th":"ฉันขอยืมถุงมือของเธอได้ไหม?"},
+        {"t":"Please be careful with your gear.","th":"กรุณาระมัดระวังอุปกรณ์ของเธอด้วย"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย2] 😟 คือ...","c":["lost","found","careful"],"a":0},
+        {"q":"[หน่วย2] 🏷️ คือ...","c":["name tag","label","borrow"],"a":0},
+        {"q":"[ทบทวน] This jersey is ___. (ของฉัน)","c":["mine","my","I"],"a":0},
+        {"q":"[ทบทวน] This is ___ locker. (ของเขา)","c":["his","he","him"],"a":0},
+        {"q":"'ยืม' คือ...","c":["borrow","lend","share"],"a":0},
+        {"q":"'ให้ยืม' คือ...","c":["lend","borrow","share"],"a":0},
+        {"q":"🤝 คือ...","c":["share","lend","borrow"],"a":0},
+        {"q":"Can I ___ your gloves? (ยืม)","c":["borrow","lend","keep"],"a":0}
+      ]
+    }
+  ]
+}

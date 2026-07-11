@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 8 · Champion's Day — วันแห่งแชมป์เปี้ยน",
+  "lessons": [
+    {
+      "id": "p5u8l1",
+      "icon": "🏟️",
+      "title": "The Final Match",
+      "sub": "การแข่งขันนัดชิงชนะเลิศ",
+      "intro": { "en": "Today is the final match!", "th": "วันนี้คือการแข่งขันนัดชิงชนะเลิศ!" },
+      "vocab": [
+        {"w":"final match","th":"นัดชิงชนะเลิศ","e":"🏟️"},
+        {"w":"stadium","th":"สนามกีฬา","e":"🏟️"},
+        {"w":"audience","th":"ผู้ชม","e":"👀"},
+        {"w":"referee","th":"กรรมการ","e":"🧑‍⚖️"},
+        {"w":"nervous","th":"ประหม่า","e":"😰"},
+        {"w":"excited","th":"ตื่นเต้น","e":"🤩"},
+        {"w":"ready","th":"พร้อม","e":"👍"},
+        {"w":"applaud","th":"ปรบมือ","e":"👏"}
+      ],
+      "build": {"sentence":"I am ready for the final match.","th":"ฉันพร้อมสำหรับนัดชิงชนะเลิศแล้ว"},
+      "speak": [
+        {"t":"I am ready for the final match.","th":"ฉันพร้อมสำหรับนัดชิงชนะเลิศแล้ว"},
+        {"t":"I feel a little nervous.","th":"ฉันรู้สึกประหม่านิดหน่อย"},
+        {"t":"The stadium is full of people.","th":"สนามกีฬาเต็มไปด้วยผู้คน"},
+        {"t":"The audience applauded loudly.","th":"ผู้ชมปรบมือดังมาก"}
+      ],
+      "quiz": [
+        {"q":"🏟️ คือ...","c":["stadium","audience","referee"],"a":0},
+        {"q":"👀 คือ...","c":["audience","referee","stadium"],"a":0},
+        {"q":"'กรรมการ' คือ...","c":["referee","audience","coach"],"a":0},
+        {"q":"😰 คือ...","c":["nervous","excited","ready"],"a":0},
+        {"q":"'ตื่นเต้น' คือ...","c":["excited","nervous","ready"],"a":0},
+        {"q":"👍 คือ...","c":["ready","nervous","excited"],"a":0},
+        {"q":"👏 คือ...","c":["applaud","cheer","excited"],"a":0},
+        {"q":"I am ___ for the final match. (พร้อม)","c":["ready","nervous","excited"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u8l2",
+      "icon": "🏅",
+      "title": "Award Ceremony",
+      "sub": "พิธีมอบรางวัล",
+      "intro": { "en": "It's time for the award ceremony!", "th": "ถึงเวลาพิธีมอบรางวัลแล้ว!" },
+      "vocab": [
+        {"w":"award","th":"รางวัล","e":"🏅"},
+        {"w":"ceremony","th":"พิธีการ","e":"🎪"},
+        {"w":"announce","th":"ประกาศ","e":"📢"},
+        {"w":"receive","th":"ได้รับ","e":"🤲"},
+        {"w":"honor","th":"เกียรติยศ","e":"🎖️"},
+        {"w":"stage","th":"เวที","e":"🎭"},
+        {"w":"applause","th":"เสียงปรบมือ","e":"👏"},
+        {"w":"crown","th":"มงกุฎ","e":"👑"}
+      ],
+      "build": {"sentence":"I will receive an award today.","th":"วันนี้ฉันจะได้รับรางวัล"},
+      "speak": [
+        {"t":"I will receive an award today.","th":"วันนี้ฉันจะได้รับรางวัล"},
+        {"t":"They announced the winner.","th":"พวกเขาประกาศผู้ชนะ"},
+        {"t":"I walked onto the stage.","th":"ฉันเดินขึ้นไปบนเวที"},
+        {"t":"It is a great honor for me.","th":"นี่เป็นเกียรติยศอันยิ่งใหญ่สำหรับฉัน"}
+      ],
+      "quiz": [
+        {"q":"🏅 คือ...","c":["award","ceremony","honor"],"a":0},
+        {"q":"🎪 คือ...","c":["ceremony","award","stage"],"a":0},
+        {"q":"'ประกาศ' คือ...","c":["announce","receive","applause"],"a":0},
+        {"q":"🤲 คือ...","c":["receive","announce","honor"],"a":0},
+        {"q":"🎖️ คือ...","c":["honor","award","crown"],"a":0},
+        {"q":"🎭 คือ...","c":["stage","ceremony","applause"],"a":0},
+        {"q":"👑 คือ...","c":["crown","award","honor"],"a":0},
+        {"q":"I will ___ an award today. (ได้รับ)","c":["receive","announce","honor"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u8l3",
+      "icon": "🎤",
+      "title": "Thank You Speech",
+      "sub": "คำกล่าวขอบคุณ",
+      "intro": { "en": "It's time to say thank you!", "th": "ถึงเวลากล่าวขอบคุณแล้ว!" },
+      "vocab": [
+        {"w":"speech","th":"คำกล่าว","e":"🎤"},
+        {"w":"grateful","th":"ซาบซึ้งใจ","e":"🙏"},
+        {"w":"thankful","th":"ขอบคุณ","e":"😊"},
+        {"w":"mention","th":"กล่าวถึง","e":"💬"},
+        {"w":"appreciate","th":"ซาบซึ้ง/ขอบคุณ","e":"❤️"},
+        {"w":"support","th":"การสนับสนุน","e":"🙌"},
+        {"w":"journey","th":"การเดินทาง","e":"🛤️"},
+        {"w":"unforgettable","th":"ไม่มีวันลืม","e":"💫"}
+      ],
+      "build": {"sentence":"I am grateful for my team's support.","th":"ฉันซาบซึ้งใจในการสนับสนุนของทีม"},
+      "speak": [
+        {"t":"I am grateful for my team's support.","th":"ฉันซาบซึ้งใจในการสนับสนุนของทีม"},
+        {"t":"I want to thank my coach.","th":"ฉันอยากขอบคุณโค้ชของฉัน"},
+        {"t":"This journey was unforgettable.","th":"การเดินทางครั้งนี้ไม่มีวันลืม"},
+        {"t":"I appreciate everyone here.","th":"ฉันซาบซึ้งใจกับทุกคนที่นี่"}
+      ],
+      "quiz": [
+        {"q":"🎤 คือ...","c":["speech","mention","support"],"a":0},
+        {"q":"🙏 คือ...","c":["grateful","thankful","appreciate"],"a":0},
+        {"q":"'ขอบคุณ' คือ...","c":["thankful","grateful","mention"],"a":0},
+        {"q":"💬 คือ...","c":["mention","speech","support"],"a":0},
+        {"q":"❤️ คือ...","c":["appreciate","grateful","thankful"],"a":0},
+        {"q":"🙌 คือ...","c":["support","journey","speech"],"a":0},
+        {"q":"🛤️ คือ...","c":["journey","support","speech"],"a":0},
+        {"q":"I am ___ for my team's support. (ซาบซึ้งใจ)","c":["grateful","thankful","mention"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u8l4",
+      "icon": "🎆",
+      "title": "We Are Champions!",
+      "sub": "พวกเราคือแชมป์เปี้ยน! + ทบทวนใหญ่ทั้งปี",
+      "intro": { "en": "You finished Grade 5! You are all champions!", "th": "หนูเรียนจบ ป.5 แล้ว! หนูคือแชมป์เปี้ยนทุกคนเลย! บทนี้มีทบทวนทุกอย่างที่เรียนมากันเถอะ" },
+      "vocab": [
+        {"w":"champion","th":"แชมป์เปี้ยน","e":"🏆"},
+        {"w":"success","th":"ความสำเร็จ","e":"🌟"},
+        {"w":"strong","th":"แข็งแกร่ง","e":"💪"},
+        {"w":"brave","th":"กล้าหาญ","e":"🦁"},
+        {"w":"never give up","th":"ไม่ยอมแพ้","e":"🔥"},
+        {"w":"believe in yourself","th":"เชื่อมั่นในตัวเอง","e":"✨"},
+        {"w":"proud","th":"ภาคภูมิใจ","e":"😌"},
+        {"w":"celebrate","th":"เฉลิมฉลอง","e":"🎉"}
+      ],
+      "build": {"sentence":"We are champions, now and forever!","th":"พวกเราคือแชมป์เปี้ยน ทั้งตอนนี้และตลอดไป!"},
+      "speak": [
+        {"t":"We are champions, now and forever!","th":"พวกเราคือแชมป์เปี้ยน ทั้งตอนนี้และตลอดไป!"},
+        {"t":"I believe in myself.","th":"ฉันเชื่อมั่นในตัวเอง"},
+        {"t":"I will never give up.","th":"ฉันจะไม่มีวันยอมแพ้"},
+        {"t":"Let's celebrate together!","th":"มาเฉลิมฉลองด้วยกันเถอะ!"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย1] I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0},
+        {"q":"[หน่วย2] This jersey is ___. (ของฉัน)","c":["mine","my","I"],"a":0},
+        {"q":"[หน่วย3] Can I have ___ juice? (บ้าง)","c":["some","any","none"],"a":0},
+        {"q":"[หน่วย4] You ___ wear your uniform. (ต้อง)","c":["must","can","like"],"a":0},
+        {"q":"[หน่วย5] There ___ ten players last year. (มี)","c":["were","was","are"],"a":0},
+        {"q":"[หน่วย6] We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"[หน่วย7] We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0},
+        {"q":"We are ___, now and forever! (แชมป์เปี้ยน)","c":["champions","brave","strong"],"a":0}
+      ]
+    }
+  ]
+}

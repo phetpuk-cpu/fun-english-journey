@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 5 · Last Season — ฤดูกาลที่แล้ว",
+  "lessons": [
+    {
+      "id": "p5u5l1",
+      "icon": "📅",
+      "title": "Last Year's Team",
+      "sub": "ทีมของปีที่แล้ว",
+      "intro": { "en": "Let's remember last year's team!", "th": "มาย้อนความหลังทีมของปีที่แล้วกันเถอะ" },
+      "vocab": [
+        {"w":"last year","th":"ปีที่แล้ว","e":"📅"},
+        {"w":"last season","th":"ฤดูกาลที่แล้ว","e":"🍂"},
+        {"w":"member","th":"สมาชิก","e":"🙋"},
+        {"w":"join","th":"เข้าร่วม","e":"➕"},
+        {"w":"new","th":"ใหม่","e":"✨"},
+        {"w":"old","th":"เก่า","e":"📦"},
+        {"w":"change","th":"เปลี่ยนแปลง","e":"🔄"},
+        {"w":"grow","th":"เติบโต","e":"🌱"}
+      ],
+      "build": {"sentence":"There were ten players last year.","th":"เมื่อปีที่แล้วมีนักกีฬาสิบคน"},
+      "speak": [
+        {"t":"There were ten players last year.","th":"เมื่อปีที่แล้วมีนักกีฬาสิบคน"},
+        {"t":"There was a new coach last season.","th":"ฤดูกาลที่แล้วมีโค้ชคนใหม่"},
+        {"t":"I joined the team last year.","th":"ฉันเข้าร่วมทีมเมื่อปีที่แล้ว"},
+        {"t":"Our team has changed a lot.","th":"ทีมของพวกเราเปลี่ยนไปเยอะมาก"}
+      ],
+      "quiz": [
+        {"q":"📅 คือ...","c":["last year","last season","new"],"a":0},
+        {"q":"🍂 คือ...","c":["last season","last year","old"],"a":0},
+        {"q":"'สมาชิก' คือ...","c":["member","join","team"],"a":0},
+        {"q":"➕ คือ...","c":["join","member","change"],"a":0},
+        {"q":"'ใหม่' คือ...","c":["new","old","last"],"a":0},
+        {"q":"📦 คือ...","c":["old","new","member"],"a":0},
+        {"q":"🌱 คือ...","c":["grow","change","join"],"a":0},
+        {"q":"There ___ ten players last year. (มี, พหูพจน์)","c":["were","was","are"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u5l2",
+      "icon": "🎒",
+      "title": "My Old Gear",
+      "sub": "อุปกรณ์เก่าของฉัน",
+      "intro": { "en": "My gear was so different before!", "th": "อุปกรณ์ของฉันแตกต่างมากในตอนก่อน" },
+      "vocab": [
+        {"w":"had","th":"เคยมี(อดีต)","e":"📦"},
+        {"w":"before","th":"ก่อนหน้านี้","e":"⏮️"},
+        {"w":"past","th":"อดีต","e":"🕰️"},
+        {"w":"used to","th":"เคย...(อดีต)","e":"🔙"},
+        {"w":"now","th":"ตอนนี้","e":"⏱️"},
+        {"w":"small","th":"เล็ก","e":"🤏"},
+        {"w":"big","th":"ใหญ่","e":"📏"},
+        {"w":"fit","th":"พอดี","e":"👍"}
+      ],
+      "build": {"sentence":"I had a small jersey last year.","th":"เมื่อปีที่แล้วฉันเคยมีเสื้อทีมตัวเล็ก"},
+      "speak": [
+        {"t":"I had a small jersey last year.","th":"เมื่อปีที่แล้วฉันเคยมีเสื้อทีมตัวเล็ก"},
+        {"t":"I used to have short shoes.","th":"ฉันเคยมีรองเท้าคู่สั้นๆ"},
+        {"t":"My gear was old before.","th":"อุปกรณ์ของฉันเก่าในตอนก่อน"},
+        {"t":"Now my new gear fits well.","th":"ตอนนี้อุปกรณ์ใหม่ของฉันพอดีมาก"}
+      ],
+      "quiz": [
+        {"q":"📦 (เคยมี) คือ...","c":["had","has","have"],"a":0},
+        {"q":"⏮️ คือ...","c":["before","now","past"],"a":0},
+        {"q":"🕰️ คือ...","c":["past","before","now"],"a":0},
+        {"q":"'เคย...(อดีต)' คือ...","c":["used to","now","fit"],"a":0},
+        {"q":"⏱️ คือ...","c":["now","before","past"],"a":0},
+        {"q":"🤏 คือ...","c":["small","big","fit"],"a":0},
+        {"q":"📏 คือ...","c":["big","small","fit"],"a":0},
+        {"q":"I ___ a small jersey last year. (เคยมี)","c":["had","have","has"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u5l3",
+      "icon": "🏆",
+      "title": "The Big Game",
+      "sub": "เกมสำคัญ",
+      "intro": { "en": "Last season's big game was amazing!", "th": "เกมสำคัญของฤดูกาลที่แล้วยอดเยี่ยมมาก" },
+      "vocab": [
+        {"w":"was","th":"เป็น/อยู่(เอกพจน์อดีต)","e":"1️⃣"},
+        {"w":"were","th":"เป็น/อยู่(พหูพจน์อดีต)","e":"➰"},
+        {"w":"winner","th":"ผู้ชนะ","e":"🏆"},
+        {"w":"loser","th":"ผู้แพ้","e":"😔"},
+        {"w":"score","th":"คะแนน","e":"📊"},
+        {"w":"exciting","th":"น่าตื่นเต้น","e":"🤩"},
+        {"w":"close game","th":"เกมที่สูสี","e":"⚔️"},
+        {"w":"crowd","th":"ฝูงชน","e":"👨‍👩‍👧‍👦"}
+      ],
+      "build": {"sentence":"The game was exciting.","th":"เกมนั้นน่าตื่นเต้นมาก"},
+      "speak": [
+        {"t":"The game was exciting.","th":"เกมนั้นน่าตื่นเต้นมาก"},
+        {"t":"We were the winners.","th":"พวกเราเป็นผู้ชนะ"},
+        {"t":"The score was very close.","th":"คะแนนสูสีกันมาก"},
+        {"t":"The crowd was so loud.","th":"ฝูงชนเสียงดังมากเลย"}
+      ],
+      "quiz": [
+        {"q":"1️⃣ (เอกพจน์อดีต) คือ...","c":["was","were","is"],"a":0},
+        {"q":"➰ (พหูพจน์อดีต) คือ...","c":["were","was","are"],"a":0},
+        {"q":"🏆 คือ...","c":["winner","loser","score"],"a":0},
+        {"q":"😔 คือ...","c":["loser","winner","crowd"],"a":0},
+        {"q":"📊 คือ...","c":["score","winner","crowd"],"a":0},
+        {"q":"🤩 คือ...","c":["exciting","close game","score"],"a":0},
+        {"q":"⚔️ คือ...","c":["close game","winner","exciting"],"a":0},
+        {"q":"The game ___ exciting. (เป็น, เอกพจน์อดีต)","c":["was","were","is"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u5l4",
+      "icon": "📸",
+      "title": "Champion Memories",
+      "sub": "ความทรงจำของแชมป์เปี้ยน + ทบทวน",
+      "intro": { "en": "Let's look back at our best memories!", "th": "มาย้อนดูความทรงจำที่ดีที่สุดของพวกเรากันเถอะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"memory","th":"ความทรงจำ","e":"📸"},
+        {"w":"proud","th":"ภาคภูมิใจ","e":"😌"},
+        {"w":"achievement","th":"ความสำเร็จ","e":"🌟"},
+        {"w":"remember","th":"จดจำ","e":"🧠"},
+        {"w":"celebrate","th":"เฉลิมฉลอง","e":"🎉"},
+        {"w":"improve","th":"พัฒนาให้ดีขึ้น","e":"📈"},
+        {"w":"since","th":"ตั้งแต่","e":"⏳"},
+        {"w":"season","th":"ฤดูกาล","e":"🍁"}
+      ],
+      "build": {"sentence":"I remember last season with pride.","th":"ฉันจดจำฤดูกาลที่แล้วด้วยความภาคภูมิใจ"},
+      "speak": [
+        {"t":"I remember last season with pride.","th":"ฉันจดจำฤดูกาลที่แล้วด้วยความภาคภูมิใจ"},
+        {"t":"We were so proud of our team.","th":"พวกเราภาคภูมิใจในทีมของเรามาก"},
+        {"t":"I have improved a lot since last year.","th":"ฉันพัฒนาขึ้นมากตั้งแต่ปีที่แล้ว"},
+        {"t":"That was a great achievement.","th":"นั่นเป็นความสำเร็จที่ยอดเยี่ยม"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย5] 📸 คือ...","c":["memory","achievement","proud"],"a":0},
+        {"q":"[หน่วย5] 🌟 คือ...","c":["achievement","memory","celebrate"],"a":0},
+        {"q":"[ทบทวน] There ___ ten players last year. (มี, พหูพจน์)","c":["were","was","are"],"a":0},
+        {"q":"[ทบทวน] I ___ a small jersey last year. (เคยมี)","c":["had","have","has"],"a":0},
+        {"q":"[ทบทวน] The game ___ exciting. (เป็น, เอกพจน์อดีต)","c":["was","were","is"],"a":0},
+        {"q":"😌 คือ...","c":["proud","celebrate","improve"],"a":0},
+        {"q":"📈 คือ...","c":["improve","remember","since"],"a":0},
+        {"q":"We were so ___ of our team. (ภาคภูมิใจ)","c":["proud","improve","remember"],"a":0}
+      ]
+    }
+  ]
+}

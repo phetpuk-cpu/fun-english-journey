@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 1 · Training Schedule — ตารางฝึกซ้อม",
+  "lessons": [
+    {
+      "id": "p5u1l1",
+      "icon": "📅",
+      "title": "My Training Days",
+      "sub": "วันฝึกซ้อมของฉัน",
+      "intro": { "en": "Welcome to Champion Academy! Let's talk about training.", "th": "ยินดีต้อนรับสู่ Champion Academy! มาคุยเรื่องการฝึกซ้อมกันเถอะ" },
+      "vocab": [
+        {"w":"always","th":"เสมอ","e":"🔁"},
+        {"w":"usually","th":"ปกติแล้ว","e":"⏰"},
+        {"w":"sometimes","th":"บางครั้ง","e":"🔂"},
+        {"w":"never","th":"ไม่เคยเลย","e":"🚫"},
+        {"w":"often","th":"บ่อยๆ","e":"🔄"},
+        {"w":"rarely","th":"แทบไม่เคย","e":"🌤️"},
+        {"w":"every day","th":"ทุกวัน","e":"📆"},
+        {"w":"weekend","th":"วันหยุดสุดสัปดาห์","e":"🎉"}
+      ],
+      "build": {"sentence":"I always practice in the morning.","th":"ฉันฝึกซ้อมตอนเช้าเสมอ"},
+      "speak": [
+        {"t":"I always practice in the morning.","th":"ฉันฝึกซ้อมตอนเช้าเสมอ"},
+        {"t":"I usually train after school.","th":"ปกติแล้วฉันฝึกหลังเลิกเรียน"},
+        {"t":"I sometimes rest on weekends.","th":"บางครั้งฉันพักผ่อนตอนวันหยุดสุดสัปดาห์"},
+        {"t":"I never miss training.","th":"ฉันไม่เคยขาดการฝึกซ้อมเลย"}
+      ],
+      "quiz": [
+        {"q":"🔁 คือ...","c":["always","never","sometimes"],"a":0},
+        {"q":"'ไม่เคยเลย' คือ...","c":["never","always","often"],"a":0},
+        {"q":"🔂 คือ...","c":["sometimes","usually","rarely"],"a":0},
+        {"q":"'บ่อยๆ' คือ...","c":["often","rarely","never"],"a":0},
+        {"q":"🌤️ คือ...","c":["rarely","often","always"],"a":0},
+        {"q":"'ทุกวัน' คือ...","c":["every day","weekend","usually"],"a":0},
+        {"q":"🎉 คือ...","c":["weekend","every day","often"],"a":0},
+        {"q":"I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u1l2",
+      "icon": "❓",
+      "title": "How Often?",
+      "sub": "บ่อยแค่ไหน",
+      "intro": { "en": "How often do you practice, champion?", "th": "แชมป์เปี้ยน เธอฝึกซ้อมบ่อยแค่ไหน?" },
+      "vocab": [
+        {"w":"how often","th":"บ่อยแค่ไหน","e":"❓"},
+        {"w":"once a week","th":"สัปดาห์ละครั้ง","e":"1️⃣"},
+        {"w":"twice a week","th":"สัปดาห์ละสองครั้ง","e":"2️⃣"},
+        {"w":"three times a week","th":"สัปดาห์ละสามครั้ง","e":"3️⃣"},
+        {"w":"every morning","th":"ทุกเช้า","e":"🌅"},
+        {"w":"every night","th":"ทุกคืน","e":"🌙"},
+        {"w":"schedule","th":"ตารางเวลา","e":"🗓️"},
+        {"w":"routine","th":"กิจวัตร","e":"📋"}
+      ],
+      "build": {"sentence":"I practice three times a week.","th":"ฉันฝึกซ้อมสัปดาห์ละสามครั้ง"},
+      "speak": [
+        {"t":"How often do you practice?","th":"เธอฝึกซ้อมบ่อยแค่ไหน?"},
+        {"t":"I practice twice a week.","th":"ฉันฝึกซ้อมสัปดาห์ละสองครั้ง"},
+        {"t":"I stretch every morning.","th":"ฉันยืดกล้ามเนื้อทุกเช้า"},
+        {"t":"This is my training schedule.","th":"นี่คือตารางฝึกซ้อมของฉัน"}
+      ],
+      "quiz": [
+        {"q":"❓ คือ...","c":["how often","schedule","routine"],"a":0},
+        {"q":"'สัปดาห์ละครั้ง' คือ...","c":["once a week","every night","twice a week"],"a":0},
+        {"q":"2️⃣ ต่อสัปดาห์ คือ...","c":["twice a week","once a week","every day"],"a":0},
+        {"q":"'สัปดาห์ละสามครั้ง' คือ...","c":["three times a week","once a week","every morning"],"a":0},
+        {"q":"🌅 คือ...","c":["every morning","every night","weekend"],"a":0},
+        {"q":"🗓️ คือ...","c":["schedule","routine","often"],"a":0},
+        {"q":"📋 คือ...","c":["routine","schedule","often"],"a":0},
+        {"q":"I practice ___ a week. (สามครั้ง)","c":["three times","once","twice"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u1l3",
+      "icon": "⚽",
+      "title": "Sports I Play",
+      "sub": "กีฬาที่ฉันเล่น",
+      "intro": { "en": "Which sport is your favorite?", "th": "กีฬาไหนเป็นกีฬาโปรดของเธอ?" },
+      "vocab": [
+        {"w":"basketball","th":"บาสเกตบอล","e":"🏀"},
+        {"w":"football","th":"ฟุตบอล","e":"⚽"},
+        {"w":"swimming","th":"ว่ายน้ำ","e":"🏊"},
+        {"w":"running","th":"วิ่ง","e":"🏃"},
+        {"w":"tennis","th":"เทนนิส","e":"🎾"},
+        {"w":"badminton","th":"แบดมินตัน","e":"🏸"},
+        {"w":"volleyball","th":"วอลเลย์บอล","e":"🏐"},
+        {"w":"gymnastics","th":"ยิมนาสติก","e":"🤸"}
+      ],
+      "build": {"sentence":"I usually play basketball on Monday.","th":"ปกติแล้วฉันเล่นบาสเกตบอลในวันจันทร์"},
+      "speak": [
+        {"t":"I usually play basketball on Monday.","th":"ปกติแล้วฉันเล่นบาสเกตบอลในวันจันทร์"},
+        {"t":"I often go swimming after school.","th":"ฉันไปว่ายน้ำหลังเลิกเรียนบ่อยๆ"},
+        {"t":"I sometimes play tennis with my dad.","th":"บางครั้งฉันเล่นเทนนิสกับพ่อ"},
+        {"t":"I never play volleyball.","th":"ฉันไม่เคยเล่นวอลเลย์บอลเลย"}
+      ],
+      "quiz": [
+        {"q":"🏀 คือ...","c":["basketball","football","tennis"],"a":0},
+        {"q":"'ฟุตบอล' คือ...","c":["football","basketball","volleyball"],"a":0},
+        {"q":"🏊 คือ...","c":["swimming","running","gymnastics"],"a":0},
+        {"q":"'วิ่ง' คือ...","c":["running","swimming","tennis"],"a":0},
+        {"q":"🎾 คือ...","c":["tennis","badminton","volleyball"],"a":0},
+        {"q":"'แบดมินตัน' คือ...","c":["badminton","tennis","gymnastics"],"a":0},
+        {"q":"🏐 คือ...","c":["volleyball","football","basketball"],"a":0},
+        {"q":"🤸 คือ...","c":["gymnastics","running","swimming"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u1l4",
+      "icon": "🗓️",
+      "title": "My Weekly Routine",
+      "sub": "กิจวัตรประจำสัปดาห์ของฉัน + ทบทวน",
+      "intro": { "en": "Every champion needs a good routine!", "th": "แชมป์เปี้ยนทุกคนต้องมีกิจวัตรที่ดีนะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"warm up","th":"อบอุ่นร่างกาย","e":"🔥"},
+        {"w":"cool down","th":"ผ่อนคลายร่างกาย","e":"❄️"},
+        {"w":"stretch","th":"ยืดกล้ามเนื้อ","e":"🙆"},
+        {"w":"rest day","th":"วันพัก","e":"🛌"},
+        {"w":"practice","th":"ฝึกซ้อม","e":"💪"},
+        {"w":"coach","th":"โค้ช","e":"🧑‍🏫"},
+        {"w":"gym","th":"โรงยิม","e":"🏋️"},
+        {"w":"teammate","th":"เพื่อนร่วมทีม","e":"🤝"}
+      ],
+      "build": {"sentence":"We always warm up before practice.","th":"พวกเราอบอุ่นร่างกายก่อนฝึกซ้อมเสมอ"},
+      "speak": [
+        {"t":"We always warm up before practice.","th":"พวกเราอบอุ่นร่างกายก่อนฝึกซ้อมเสมอ"},
+        {"t":"My coach is very kind.","th":"โค้ชของฉันใจดีมาก"},
+        {"t":"I go to the gym every day.","th":"ฉันไปโรงยิมทุกวัน"},
+        {"t":"Sunday is my rest day.","th":"วันอาทิตย์คือวันพักของฉัน"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย1] 🔥 คือ...","c":["warm up","cool down","stretch"],"a":0},
+        {"q":"[หน่วย1] 🛌 คือ...","c":["rest day","gym","practice"],"a":0},
+        {"q":"[ทบทวน] I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0},
+        {"q":"[ทบทวน] I practice ___ a week. (สามครั้ง)","c":["three times","once","twice"],"a":0},
+        {"q":"[ทบทวน] 🏀 คือ...","c":["basketball","football","tennis"],"a":0},
+        {"q":"🧑‍🏫 คือ...","c":["coach","teammate","gym"],"a":0},
+        {"q":"'เพื่อนร่วมทีม' คือ...","c":["teammate","coach","practice"],"a":0},
+        {"q":"We ___ before practice. (อบอุ่นร่างกาย)","c":["warm up","cool down","rest"],"a":0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 6 · Big Plans — แผนการใหญ่",
+  "lessons": [
+    {
+      "id": "p5u6l1",
+      "icon": "🔮",
+      "title": "Next Season",
+      "sub": "ฤดูกาลหน้า",
+      "intro": { "en": "What will you do next season?", "th": "ฤดูกาลหน้าเธอจะทำอะไรนะ?" },
+      "vocab": [
+        {"w":"will","th":"จะ","e":"🔮"},
+        {"w":"won't","th":"จะไม่","e":"🚫"},
+        {"w":"next season","th":"ฤดูกาลหน้า","e":"➡️"},
+        {"w":"next year","th":"ปีหน้า","e":"📅"},
+        {"w":"future","th":"อนาคต","e":"🌠"},
+        {"w":"plan","th":"แผนการ","e":"📋"},
+        {"w":"goal","th":"เป้าหมาย","e":"🎯"},
+        {"w":"dream","th":"ความฝัน","e":"💭"}
+      ],
+      "build": {"sentence":"I will practice harder next season.","th":"ฉันจะฝึกซ้อมให้หนักขึ้นในฤดูกาลหน้า"},
+      "speak": [
+        {"t":"I will practice harder next season.","th":"ฉันจะฝึกซ้อมให้หนักขึ้นในฤดูกาลหน้า"},
+        {"t":"I won't give up.","th":"ฉันจะไม่ยอมแพ้"},
+        {"t":"Next year, I will join a new team.","th":"ปีหน้า ฉันจะเข้าร่วมทีมใหม่"},
+        {"t":"This is my plan for the future.","th":"นี่คือแผนการของฉันสำหรับอนาคต"}
+      ],
+      "quiz": [
+        {"q":"🔮 คือ...","c":["will","won't","future"],"a":0},
+        {"q":"'จะไม่' คือ...","c":["won't","will","never"],"a":0},
+        {"q":"➡️ คือ...","c":["next season","next year","future"],"a":0},
+        {"q":"📅 คือ...","c":["next year","next season","plan"],"a":0},
+        {"q":"🌠 คือ...","c":["future","past","dream"],"a":0},
+        {"q":"'แผนการ' คือ...","c":["plan","goal","dream"],"a":0},
+        {"q":"🎯 คือ...","c":["goal","plan","dream"],"a":0},
+        {"q":"I ___ practice harder. (จะ)","c":["will","won't","must"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u6l2",
+      "icon": "🎯",
+      "title": "My Goals",
+      "sub": "เป้าหมายของฉัน",
+      "intro": { "en": "Every champion has goals to reach.", "th": "แชมป์เปี้ยนทุกคนมีเป้าหมายที่ต้องไปให้ถึง" },
+      "vocab": [
+        {"w":"promise","th":"สัญญา","e":"🤞"},
+        {"w":"improve","th":"พัฒนาให้ดีขึ้น","e":"📈"},
+        {"w":"achieve","th":"บรรลุผล","e":"🏅"},
+        {"w":"believe","th":"เชื่อมั่น","e":"💫"},
+        {"w":"try","th":"พยายาม","e":"💪"},
+        {"w":"succeed","th":"ประสบความสำเร็จ","e":"🌟"},
+        {"w":"hope","th":"หวัง","e":"🙏"},
+        {"w":"never give up","th":"ไม่ยอมแพ้","e":"🔥"}
+      ],
+      "build": {"sentence":"I will achieve my goal.","th":"ฉันจะบรรลุเป้าหมายของฉัน"},
+      "speak": [
+        {"t":"I will achieve my goal.","th":"ฉันจะบรรลุเป้าหมายของฉัน"},
+        {"t":"I promise I will try my best.","th":"ฉันสัญญาว่าฉันจะพยายามให้ดีที่สุด"},
+        {"t":"I believe I will succeed.","th":"ฉันเชื่อมั่นว่าฉันจะประสบความสำเร็จ"},
+        {"t":"I will never give up.","th":"ฉันจะไม่มีวันยอมแพ้"}
+      ],
+      "quiz": [
+        {"q":"🤞 คือ...","c":["promise","believe","hope"],"a":0},
+        {"q":"📈 คือ...","c":["improve","achieve","succeed"],"a":0},
+        {"q":"🏅 คือ...","c":["achieve","improve","try"],"a":0},
+        {"q":"'เชื่อมั่น' คือ...","c":["believe","hope","promise"],"a":0},
+        {"q":"💪 คือ...","c":["try","succeed","achieve"],"a":0},
+        {"q":"🌟 คือ...","c":["succeed","try","hope"],"a":0},
+        {"q":"🙏 คือ...","c":["hope","promise","believe"],"a":0},
+        {"q":"I will ___ my goal. (บรรลุ)","c":["achieve","try","hope"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u6l3",
+      "icon": "🏆",
+      "title": "The Championship",
+      "sub": "การแข่งขันชิงแชมป์",
+      "intro": { "en": "The championship is coming soon!", "th": "การแข่งขันชิงแชมป์กำลังจะมาถึงแล้ว!" },
+      "vocab": [
+        {"w":"championship","th":"การแข่งขันชิงแชมป์","e":"🏆"},
+        {"w":"compete","th":"แข่งขัน","e":"🏁"},
+        {"w":"prepare","th":"เตรียมตัว","e":"📝"},
+        {"w":"opponent","th":"คู่แข่ง","e":"🥊"},
+        {"w":"challenge","th":"ความท้าทาย","e":"⚡"},
+        {"w":"victory","th":"ชัยชนะ","e":"🎉"},
+        {"w":"semi-final","th":"รอบรองชนะเลิศ","e":"4️⃣"},
+        {"w":"final","th":"รอบชิงชนะเลิศ","e":"🥇"}
+      ],
+      "build": {"sentence":"We will win the championship.","th":"พวกเราจะชนะการแข่งขันชิงแชมป์"},
+      "speak": [
+        {"t":"We will win the championship.","th":"พวกเราจะชนะการแข่งขันชิงแชมป์"},
+        {"t":"We will prepare very hard.","th":"พวกเราจะเตรียมตัวอย่างหนัก"},
+        {"t":"Our opponent will be strong.","th":"คู่แข่งของพวกเราจะแข็งแกร่ง"},
+        {"t":"I won't be afraid of the challenge.","th":"ฉันจะไม่กลัวความท้าทาย"}
+      ],
+      "quiz": [
+        {"q":"🏆 คือ...","c":["championship","victory","final"],"a":0},
+        {"q":"🏁 คือ...","c":["compete","prepare","challenge"],"a":0},
+        {"q":"📝 คือ...","c":["prepare","compete","opponent"],"a":0},
+        {"q":"🥊 คือ...","c":["opponent","challenge","victory"],"a":0},
+        {"q":"'ความท้าทาย' คือ...","c":["challenge","opponent","victory"],"a":0},
+        {"q":"🎉 คือ...","c":["victory","challenge","final"],"a":0},
+        {"q":"🥇 คือ...","c":["final","semi-final","championship"],"a":0},
+        {"q":"We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u6l4",
+      "icon": "🌟",
+      "title": "Future Champions",
+      "sub": "แชมป์เปี้ยนแห่งอนาคต + ทบทวน",
+      "intro": { "en": "You will all be future champions!", "th": "พวกเธอทุกคนจะเป็นแชมป์เปี้ยนแห่งอนาคต บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"inspire","th":"สร้างแรงบันดาลใจ","e":"✨"},
+        {"w":"role model","th":"ต้นแบบที่ดี","e":"🌟"},
+        {"w":"determination","th":"ความมุ่งมั่น","e":"🔥"},
+        {"w":"confidence","th":"ความมั่นใจ","e":"😎"},
+        {"w":"leader","th":"ผู้นำ","e":"🧑‍✈️"},
+        {"w":"support","th":"สนับสนุน","e":"🙌"},
+        {"w":"encourage","th":"ให้กำลังใจ","e":"📣"},
+        {"w":"shine","th":"เปล่งประกาย","e":"💫"}
+      ],
+      "build": {"sentence":"I will shine like a true champion.","th":"ฉันจะเปล่งประกายเหมือนแชมป์เปี้ยนตัวจริง"},
+      "speak": [
+        {"t":"I will shine like a true champion.","th":"ฉันจะเปล่งประกายเหมือนแชมป์เปี้ยนตัวจริง"},
+        {"t":"My coach will always support me.","th":"โค้ชของฉันจะสนับสนุนฉันเสมอ"},
+        {"t":"We will encourage each other.","th":"พวกเราจะให้กำลังใจกันและกัน"},
+        {"t":"I will be a good role model.","th":"ฉันจะเป็นต้นแบบที่ดี"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย6] ✨ คือ...","c":["inspire","shine","support"],"a":0},
+        {"q":"[หน่วย6] 🔥 คือ...","c":["determination","confidence","leader"],"a":0},
+        {"q":"[ทบทวน] I ___ practice harder. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"[ทบทวน] I will ___ my goal. (บรรลุ)","c":["achieve","try","hope"],"a":0},
+        {"q":"[ทบทวน] We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"😎 คือ...","c":["confidence","determination","support"],"a":0},
+        {"q":"📣 คือ...","c":["encourage","support","inspire"],"a":0},
+        {"q":"I will be a good ___. (ต้นแบบที่ดี)","c":["role model","leader","champion"],"a":0}
+      ]
+    }
+  ]
+}
