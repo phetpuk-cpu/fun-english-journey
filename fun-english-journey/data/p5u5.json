@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — World Explorer Club 🌍",
+  "unitName": "หน่วย 5 · Getting There — เดินทางไปให้ถึง",
+  "lessons": [
+    {
+      "id": "p5u5l1",
+      "icon": "✈️",
+      "title": "Ways to Travel",
+      "sub": "วิธีการเดินทาง",
+      "intro": { "en": "How do explorers travel around the world?", "th": "นักสำรวจเดินทางรอบโลกด้วยวิธีไหนบ้างนะ?" },
+      "vocab": [
+        {"w":"airplane","th":"เครื่องบิน","e":"✈️"},
+        {"w":"ship","th":"เรือเดินสมุทร","e":"🚢"},
+        {"w":"train","th":"รถไฟ","e":"🚆"},
+        {"w":"subway","th":"รถไฟใต้ดิน","e":"🚇"},
+        {"w":"motorcycle","th":"มอเตอร์ไซค์","e":"🏍️"},
+        {"w":"boat","th":"เรือ","e":"⛵"},
+        {"w":"helicopter","th":"เฮลิคอปเตอร์","e":"🚁"},
+        {"w":"spaceship","th":"ยานอวกาศ","e":"🚀"}
+      ],
+      "build": {"sentence":"We travel by airplane to Japan.","th":"พวกเราเดินทางไปญี่ปุ่นโดยเครื่องบิน"},
+      "speak": [
+        {"t":"We travel by airplane.","th":"พวกเราเดินทางโดยเครื่องบิน"},
+        {"t":"I want to ride a train.","th":"ฉันอยากนั่งรถไฟ"},
+        {"t":"The ship crosses the ocean.","th":"เรือเดินสมุทรข้ามมหาสมุทร"},
+        {"t":"A helicopter can fly very high.","th":"เฮลิคอปเตอร์บินได้สูงมาก"}
+      ],
+      "quiz": [
+        {"q":"✈️ คือ...","c":["airplane","ship","train"],"a":0},
+        {"q":"'รถไฟ' คือ...","c":["train","subway","ship"],"a":0},
+        {"q":"🚇 คือ...","c":["subway","train","boat"],"a":0},
+        {"q":"'เรือเดินสมุทร' คือ...","c":["ship","boat","train"],"a":0},
+        {"q":"🏍️ คือ...","c":["motorcycle","helicopter","spaceship"],"a":0},
+        {"q":"'เฮลิคอปเตอร์' คือ...","c":["helicopter","spaceship","airplane"],"a":0},
+        {"q":"🚀 คือ...","c":["spaceship","airplane","helicopter"],"a":0},
+        {"q":"We travel by ___ to Japan.","c":["airplane","foot","bicycle"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u5l2",
+      "icon": "🧭",
+      "title": "Directions & Movement",
+      "sub": "บุพบทการเคลื่อนไหว",
+      "intro": { "en": "Let's move around the city!", "th": "มาเคลื่อนที่ไปรอบเมืองกันเถอะ" },
+      "vocab": [
+        {"w":"into","th":"เข้าไปใน","e":"➡️"},
+        {"w":"out of","th":"ออกจาก","e":"⬅️"},
+        {"w":"through","th":"ผ่านเข้าไป","e":"↗️"},
+        {"w":"across","th":"ข้ามไป","e":"↔️"},
+        {"w":"along","th":"ไปตาม","e":"➰"},
+        {"w":"around","th":"รอบๆ","e":"🔄"},
+        {"w":"over","th":"ข้ามผ่าน","e":"⬆️"},
+        {"w":"under","th":"ใต้","e":"⬇️"}
+      ],
+      "build": {"sentence":"We walked through the market.","th":"พวกเราเดินผ่านตลาด"},
+      "speak": [
+        {"t":"We walked into the museum.","th":"พวกเราเดินเข้าไปในพิพิธภัณฑ์"},
+        {"t":"The train goes through the tunnel.","th":"รถไฟวิ่งผ่านอุโมงค์"},
+        {"t":"We walked across the bridge.","th":"พวกเราเดินข้ามสะพาน"},
+        {"t":"The boat sailed along the river.","th":"เรือแล่นไปตามแม่น้ำ"}
+      ],
+      "quiz": [
+        {"q":"➡️ คือ...","c":["into","out of","through"],"a":0},
+        {"q":"'ออกจาก' คือ...","c":["out of","into","across"],"a":0},
+        {"q":"We walked ___ the tunnel. (ผ่าน)","c":["through","around","under"],"a":0},
+        {"q":"↔️ คือ...","c":["across","along","around"],"a":0},
+        {"q":"'ไปตาม' คือ...","c":["along","across","through"],"a":0},
+        {"q":"🔄 คือ...","c":["around","over","under"],"a":0},
+        {"q":"The plane flew ___ the clouds. (ข้ามผ่าน)","c":["over","under","into"],"a":0},
+        {"q":"'ใต้' คือ...","c":["under","over","around"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u5l3",
+      "icon": "🛄",
+      "title": "At the Airport",
+      "sub": "ที่สนามบิน",
+      "intro": { "en": "Let's check in at the airport!", "th": "มาเช็คอินที่สนามบินกันเถอะ" },
+      "vocab": [
+        {"w":"passport","th":"หนังสือเดินทาง","e":"🛂"},
+        {"w":"ticket","th":"ตั๋ว","e":"🎫"},
+        {"w":"luggage","th":"กระเป๋าเดินทาง","e":"🧳"},
+        {"w":"gate","th":"ประตูขึ้นเครื่อง","e":"🚪"},
+        {"w":"boarding","th":"การขึ้นเครื่อง","e":"🛫"},
+        {"w":"security","th":"จุดตรวจความปลอดภัย","e":"🛡️"},
+        {"w":"flight","th":"เที่ยวบิน","e":"✈️"},
+        {"w":"delay","th":"ความล่าช้า","e":"⏰"}
+      ],
+      "build": {"sentence":"Don't forget your passport!","th":"อย่าลืมหนังสือเดินทางนะ!"},
+      "speak": [
+        {"t":"Please show me your passport.","th":"ขอดูหนังสือเดินทางของคุณหน่อย"},
+        {"t":"My luggage is very heavy.","th":"กระเป๋าเดินทางของฉันหนักมาก"},
+        {"t":"The flight is at nine o'clock.","th":"เที่ยวบินคือตอนเก้าโมง"},
+        {"t":"Our flight has a delay.","th":"เที่ยวบินของเราล่าช้า"}
+      ],
+      "quiz": [
+        {"q":"🛂 คือ...","c":["passport","ticket","luggage"],"a":0},
+        {"q":"'กระเป๋าเดินทาง' คือ...","c":["luggage","ticket","gate"],"a":0},
+        {"q":"🚪 คือ...","c":["gate","boarding","security"],"a":0},
+        {"q":"'การขึ้นเครื่อง' คือ...","c":["boarding","flight","delay"],"a":0},
+        {"q":"🛡️ คือ...","c":["security","gate","luggage"],"a":0},
+        {"q":"'เที่ยวบิน' คือ...","c":["flight","gate","ticket"],"a":0},
+        {"q":"⏰ ล่าช้าคือ...","c":["delay","boarding","security"],"a":0},
+        {"q":"Don't forget your ___! (ตั๋ว)","c":["ticket","luggage","gate"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u5l4",
+      "icon": "🗺️",
+      "title": "Trip Planning",
+      "sub": "วางแผนการเดินทาง + ทบทวน",
+      "intro": { "en": "Let's plan our next big trip!", "th": "มาวางแผนทริปใหญ่ครั้งต่อไปกันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"itinerary","th":"แผนการเดินทาง","e":"📋"},
+        {"w":"destination","th":"จุดหมายปลายทาง","e":"📍"},
+        {"w":"journey","th":"การเดินทาง","e":"🛤️"},
+        {"w":"pack a bag","th":"จัดกระเป๋า","e":"🎒"},
+        {"w":"book a hotel","th":"จองโรงแรม","e":"🏨"},
+        {"w":"travel guide","th":"หนังสือคู่มือท่องเที่ยว","e":"📕"},
+        {"w":"adventure","th":"การผจญภัย","e":"🗺️"},
+        {"w":"explore","th":"สำรวจ","e":"🔭"}
+      ],
+      "build": {"sentence":"Our destination is Japan.","th":"จุดหมายปลายทางของเราคือญี่ปุ่น"},
+      "speak": [
+        {"t":"I need to pack a bag.","th":"ฉันต้องจัดกระเป๋า"},
+        {"t":"We booked a hotel near the beach.","th":"พวกเราจองโรงแรมใกล้ชายหาด"},
+        {"t":"This will be a great adventure.","th":"นี่จะเป็นการผจญภัยที่ยอดเยี่ยม"},
+        {"t":"Let's explore a new place.","th":"ไปสำรวจสถานที่ใหม่กันเถอะ"}
+      ],
+      "quiz": [
+        {"q":"📋 คือ...","c":["itinerary","destination","journey"],"a":0},
+        {"q":"'จุดหมายปลายทาง' คือ...","c":["destination","itinerary","journey"],"a":0},
+        {"q":"🎒 คือ...","c":["pack a bag","book a hotel","explore"],"a":0},
+        {"q":"[ทบทวน] We travel by ___ to Japan.","c":["airplane","foot","bicycle"],"a":0},
+        {"q":"[ทบทวน] We walked ___ the bridge. (ข้าม)","c":["across","into","under"],"a":0},
+        {"q":"[ทบทวน] Don't forget your ___! (หนังสือเดินทาง)","c":["passport","ticket","luggage"],"a":0},
+        {"q":"'สำรวจ' คือ...","c":["explore","adventure","journey"],"a":0},
+        {"q":"🏨 คือ...","c":["book a hotel","pack a bag","travel guide"],"a":0}
+      ]
+    }
+  ]
+}

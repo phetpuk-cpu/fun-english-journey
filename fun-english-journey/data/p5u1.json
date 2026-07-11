@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — World Explorer Club 🌍",
+  "unitName": "หน่วย 1 · Countries & Nationalities — ประเทศและสัญชาติ",
+  "lessons": [
+    {
+      "id": "p5u1l1",
+      "icon": "🌍",
+      "title": "Where Are You From?",
+      "sub": "ถามและตอบเรื่องประเทศ",
+      "intro": { "en": "Welcome to the World Explorer Club!", "th": "ยินดีต้อนรับสู่ชมรมนักสำรวจโลก!" },
+      "vocab": [
+        {"w":"country","th":"ประเทศ","e":"🌏"},
+        {"w":"nationality","th":"สัญชาติ","e":"🪪"},
+        {"w":"continent","th":"ทวีป","e":"🗺️"},
+        {"w":"city","th":"เมือง","e":"🏙️"},
+        {"w":"capital","th":"เมืองหลวง","e":"🏛️"},
+        {"w":"flag","th":"ธง","e":"🚩"},
+        {"w":"map","th":"แผนที่","e":"🗺️"},
+        {"w":"world","th":"โลก","e":"🌐"}
+      ],
+      "build": {"sentence":"Where are you from? I am from Thailand.","th":"เธอมาจากไหน? ฉันมาจากประเทศไทย"},
+      "speak": [
+        {"t":"Where are you from?","th":"เธอมาจากไหน?"},
+        {"t":"I am from Thailand.","th":"ฉันมาจากประเทศไทย"},
+        {"t":"Bangkok is the capital of Thailand.","th":"กรุงเทพเป็นเมืองหลวงของประเทศไทย"},
+        {"t":"Asia is a big continent.","th":"เอเชียเป็นทวีปที่ใหญ่"}
+      ],
+      "quiz": [
+        {"q":"🌏 คือ...","c":["country","city","flag"],"a":0},
+        {"q":"'สัญชาติ' คือ...","c":["nationality","continent","capital"],"a":0},
+        {"q":"Where ___ you from?","c":["are","is","do"],"a":0},
+        {"q":"🏛️ คือ...","c":["capital","city","country"],"a":0},
+        {"q":"'ทวีป' คือ...","c":["continent","country","world"],"a":0},
+        {"q":"🚩 คือ...","c":["flag","map","world"],"a":0},
+        {"q":"I am ___ Thailand.","c":["from","in","at"],"a":0},
+        {"q":"'แผนที่' คือ...","c":["map","flag","city"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u1l2",
+      "icon": "🎎",
+      "title": "Countries of Asia",
+      "sub": "ประเทศในทวีปเอเชีย",
+      "intro": { "en": "Let's explore our neighbors in Asia!", "th": "มาสำรวจเพื่อนบ้านของเราในทวีปเอเชียกันเถอะ" },
+      "vocab": [
+        {"w":"Thailand","th":"ประเทศไทย","e":"🇹🇭"},
+        {"w":"Japan","th":"ญี่ปุ่น","e":"🇯🇵"},
+        {"w":"China","th":"จีน","e":"🇨🇳"},
+        {"w":"Korea","th":"เกาหลี","e":"🇰🇷"},
+        {"w":"Vietnam","th":"เวียดนาม","e":"🇻🇳"},
+        {"w":"India","th":"อินเดีย","e":"🇮🇳"},
+        {"w":"Singapore","th":"สิงคโปร์","e":"🇸🇬"},
+        {"w":"Malaysia","th":"มาเลเซีย","e":"🇲🇾"}
+      ],
+      "build": {"sentence":"Japan is in Asia.","th":"ญี่ปุ่นอยู่ในทวีปเอเชีย"},
+      "speak": [
+        {"t":"I live in Thailand.","th":"ฉันอาศัยอยู่ในประเทศไทย"},
+        {"t":"Japan has beautiful mountains.","th":"ญี่ปุ่นมีภูเขาที่สวยงาม"},
+        {"t":"My friend is from Vietnam.","th":"เพื่อนของฉันมาจากเวียดนาม"},
+        {"t":"Singapore is a small country.","th":"สิงคโปร์เป็นประเทศเล็กๆ"}
+      ],
+      "quiz": [
+        {"q":"🇹🇭 คือ...","c":["Thailand","Vietnam","Korea"],"a":0},
+        {"q":"'ญี่ปุ่น' คือ...","c":["Japan","China","India"],"a":0},
+        {"q":"🇨🇳 คือ...","c":["China","Korea","Japan"],"a":0},
+        {"q":"'เกาหลี' คือ...","c":["Korea","Malaysia","Singapore"],"a":0},
+        {"q":"🇮🇳 คือ...","c":["India","Vietnam","China"],"a":0},
+        {"q":"'สิงคโปร์' คือ...","c":["Singapore","Malaysia","Thailand"],"a":0},
+        {"q":"🇲🇾 คือ...","c":["Malaysia","Singapore","Vietnam"],"a":0},
+        {"q":"'เวียดนาม' คือ...","c":["Vietnam","Korea","Japan"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u1l3",
+      "icon": "🗽",
+      "title": "Countries Far Away",
+      "sub": "ประเทศในทวีปอื่น",
+      "intro": { "en": "There is a big world out there to explore!", "th": "โลกใบใหญ่มีอะไรให้สำรวจอีกเยอะเลย!" },
+      "vocab": [
+        {"w":"America","th":"อเมริกา","e":"🇺🇸"},
+        {"w":"England","th":"อังกฤษ","e":"🇬🇧"},
+        {"w":"France","th":"ฝรั่งเศส","e":"🇫🇷"},
+        {"w":"Australia","th":"ออสเตรเลีย","e":"🇦🇺"},
+        {"w":"Canada","th":"แคนาดา","e":"🇨🇦"},
+        {"w":"Brazil","th":"บราซิล","e":"🇧🇷"},
+        {"w":"Egypt","th":"อียิปต์","e":"🇪🇬"},
+        {"w":"Italy","th":"อิตาลี","e":"🇮🇹"}
+      ],
+      "build": {"sentence":"Australia is far from Thailand.","th":"ออสเตรเลียอยู่ไกลจากประเทศไทย"},
+      "speak": [
+        {"t":"I want to visit America.","th":"ฉันอยากไปเที่ยวอเมริกา"},
+        {"t":"France has many old castles.","th":"ฝรั่งเศสมีปราสาทเก่าแก่เยอะ"},
+        {"t":"Egypt has ancient pyramids.","th":"อียิปต์มีพีระมิดโบราณ"},
+        {"t":"Canada is very cold in winter.","th":"แคนาดาหนาวมากในฤดูหนาว"}
+      ],
+      "quiz": [
+        {"q":"🇺🇸 คือ...","c":["America","England","Canada"],"a":0},
+        {"q":"'อังกฤษ' คือ...","c":["England","France","Italy"],"a":0},
+        {"q":"🇫🇷 คือ...","c":["France","Egypt","Brazil"],"a":0},
+        {"q":"'ออสเตรเลีย' คือ...","c":["Australia","Canada","America"],"a":0},
+        {"q":"🇧🇷 คือ...","c":["Brazil","Egypt","Italy"],"a":0},
+        {"q":"'อียิปต์' คือ...","c":["Egypt","Brazil","France"],"a":0},
+        {"q":"🇮🇹 คือ...","c":["Italy","England","Canada"],"a":0},
+        {"q":"'แคนาดา' คือ...","c":["Canada","Australia","America"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u1l4",
+      "icon": "🪪",
+      "title": "What Is Your Nationality?",
+      "sub": "สัญชาติ + ทบทวน",
+      "intro": { "en": "Everyone has a different nationality!", "th": "ทุกคนมีสัญชาติแตกต่างกันนะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"Thai","th":"คนไทย/สัญชาติไทย","e":"🇹🇭"},
+        {"w":"Japanese","th":"คนญี่ปุ่น/สัญชาติญี่ปุ่น","e":"🇯🇵"},
+        {"w":"Chinese","th":"คนจีน/สัญชาติจีน","e":"🇨🇳"},
+        {"w":"American","th":"คนอเมริกัน","e":"🇺🇸"},
+        {"w":"English","th":"คนอังกฤษ","e":"🇬🇧"},
+        {"w":"French","th":"คนฝรั่งเศส","e":"🇫🇷"},
+        {"w":"Australian","th":"คนออสเตรเลีย","e":"🇦🇺"},
+        {"w":"Italian","th":"คนอิตาลี","e":"🇮🇹"}
+      ],
+      "build": {"sentence":"I am Thai. I am from Thailand.","th":"ฉันเป็นคนไทย ฉันมาจากประเทศไทย"},
+      "speak": [
+        {"t":"I am Thai.","th":"ฉันเป็นคนไทย"},
+        {"t":"My friend is Japanese.","th":"เพื่อนของฉันเป็นคนญี่ปุ่น"},
+        {"t":"Are you American?","th":"เธอเป็นคนอเมริกันหรือเปล่า?"},
+        {"t":"She is French.","th":"เธอเป็นคนฝรั่งเศส"}
+      ],
+      "quiz": [
+        {"q":"'คนไทย' คือ...","c":["Thai","Thailand","Thais"],"a":0},
+        {"q":"I am from Japan. I am ___.","c":["Japanese","Japan","China"],"a":0},
+        {"q":"'คนอเมริกัน' คือ...","c":["American","England","France"],"a":0},
+        {"q":"She is from France. She is ___.","c":["French","England","Italian"],"a":0},
+        {"q":"[ทบทวน] Where ___ you from?","c":["are","is","do"],"a":0},
+        {"q":"[ทบทวน] 🇯🇵 คือ...","c":["Japan","China","Korea"],"a":0},
+        {"q":"[ทบทวน] 🇪🇬 คือ...","c":["Egypt","Brazil","Italy"],"a":0},
+        {"q":"'คนออสเตรเลีย' คือ...","c":["Australian","America","English"],"a":0}
+      ]
+    }
+  ]
+}

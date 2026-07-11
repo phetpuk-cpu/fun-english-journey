@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — World Explorer Club 🌍",
+  "unitName": "หน่วย 2 · Amazing Landmarks — สถานที่สำคัญของโลก",
+  "lessons": [
+    {
+      "id": "p5u2l1",
+      "icon": "🗼",
+      "title": "Famous Places",
+      "sub": "สถานที่ที่มีชื่อเสียง",
+      "intro": { "en": "Let's visit famous places around the world!", "th": "ไปเที่ยวสถานที่มีชื่อเสียงรอบโลกกันเถอะ" },
+      "vocab": [
+        {"w":"pyramid","th":"พีระมิด","e":"🔺"},
+        {"w":"tower","th":"หอคอย","e":"🗼"},
+        {"w":"castle","th":"ปราสาท","e":"🏰"},
+        {"w":"temple","th":"วัด","e":"🛕"},
+        {"w":"bridge","th":"สะพาน","e":"🌉"},
+        {"w":"statue","th":"รูปปั้น","e":"🗿"},
+        {"w":"palace","th":"พระราชวัง","e":"🏯"},
+        {"w":"wall","th":"กำแพง","e":"🧱"}
+      ],
+      "build": {"sentence":"The tower is very tall.","th":"หอคอยนี้สูงมาก"},
+      "speak": [
+        {"t":"I want to see the pyramid.","th":"ฉันอยากไปดูพีระมิด"},
+        {"t":"This castle is very old.","th":"ปราสาทนี้เก่าแก่มาก"},
+        {"t":"We visited a beautiful temple.","th":"พวกเราไปเยี่ยมชมวัดที่สวยงาม"},
+        {"t":"The bridge crosses the river.","th":"สะพานทอดข้ามแม่น้ำ"}
+      ],
+      "quiz": [
+        {"q":"🔺 คือ...","c":["pyramid","tower","castle"],"a":0},
+        {"q":"'หอคอย' คือ...","c":["tower","bridge","statue"],"a":0},
+        {"q":"🏰 คือ...","c":["castle","palace","temple"],"a":0},
+        {"q":"'วัด' คือ...","c":["temple","palace","wall"],"a":0},
+        {"q":"🌉 คือ...","c":["bridge","statue","tower"],"a":0},
+        {"q":"'รูปปั้น' คือ...","c":["statue","wall","castle"],"a":0},
+        {"q":"🏯 คือ...","c":["palace","pyramid","bridge"],"a":0},
+        {"q":"'กำแพง' คือ...","c":["wall","tower","temple"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u2l2",
+      "icon": "📸",
+      "title": "What Is It Famous For?",
+      "sub": "ทำไมสถานที่นี้ถึงมีชื่อเสียง",
+      "intro": { "en": "Why is this place so famous?", "th": "ทำไมสถานที่นี้ถึงมีชื่อเสียงนะ?" },
+      "vocab": [
+        {"w":"famous for","th":"มีชื่อเสียงเรื่อง","e":"⭐"},
+        {"w":"tourist","th":"นักท่องเที่ยว","e":"🧳"},
+        {"w":"visit","th":"ไปเยี่ยมชม","e":"📍"},
+        {"w":"take a photo","th":"ถ่ายรูป","e":"📸"},
+        {"w":"souvenir","th":"ของที่ระลึก","e":"🎁"},
+        {"w":"guide","th":"ไกด์นำเที่ยว","e":"🧑‍🏫"},
+        {"w":"ticket","th":"ตั๋ว","e":"🎫"},
+        {"w":"amazing","th":"น่าทึ่ง","e":"🤩"}
+      ],
+      "build": {"sentence":"This place is famous for its beautiful view.","th":"ที่นี่มีชื่อเสียงเรื่องวิวสวยงาม"},
+      "speak": [
+        {"t":"Many tourists visit this place.","th":"นักท่องเที่ยวหลายคนมาเยี่ยมชมที่นี่"},
+        {"t":"Let's take a photo here.","th":"มาถ่ายรูปกันตรงนี้เถอะ"},
+        {"t":"I bought a souvenir for my mom.","th":"ฉันซื้อของที่ระลึกให้แม่"},
+        {"t":"This place is amazing!","th":"ที่นี่น่าทึ่งมาก!"}
+      ],
+      "quiz": [
+        {"q":"⭐ คือ...","c":["famous for","tourist","guide"],"a":0},
+        {"q":"'นักท่องเที่ยว' คือ...","c":["tourist","guide","souvenir"],"a":0},
+        {"q":"📸 คือ...","c":["take a photo","visit","ticket"],"a":0},
+        {"q":"'ของที่ระลึก' คือ...","c":["souvenir","ticket","guide"],"a":0},
+        {"q":"🧑‍🏫 คือ...","c":["guide","tourist","ticket"],"a":0},
+        {"q":"'ตั๋ว' คือ...","c":["ticket","souvenir","guide"],"a":0},
+        {"q":"🤩 คือ...","c":["amazing","famous for","visit"],"a":0},
+        {"q":"This place is famous ___ its food.","c":["for","in","at"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u2l3",
+      "icon": "🏙️",
+      "title": "This Building Has...",
+      "sub": "บรรยายสถานที่ด้วย has/have",
+      "intro": { "en": "This building has so many amazing things!", "th": "อาคารนี้มีอะไรน่าทึ่งเยอะเลย!" },
+      "vocab": [
+        {"w":"has","th":"มี (เอกพจน์)","e":"🏢"},
+        {"w":"have","th":"มี (พหูพจน์)","e":"🏢"},
+        {"w":"ancient","th":"โบราณ","e":"🏺"},
+        {"w":"modern","th":"ทันสมัย","e":"🏙️"},
+        {"w":"huge","th":"มหึมา","e":"📏"},
+        {"w":"a great view","th":"วิวที่สวยงาม","e":"🌄"},
+        {"w":"steps","th":"ขั้นบันได","e":"🪜"},
+        {"w":"a light show","th":"การแสดงแสงสี","e":"💡"}
+      ],
+      "build": {"sentence":"This tower has a great view.","th":"หอคอยนี้มีวิวที่สวยงาม"},
+      "speak": [
+        {"t":"This tower has a great view.","th":"หอคอยนี้มีวิวที่สวยงาม"},
+        {"t":"These temples have ancient statues.","th":"วัดเหล่านี้มีรูปปั้นโบราณ"},
+        {"t":"This castle has many steps.","th":"ปราสาทนี้มีขั้นบันไดเยอะมาก"},
+        {"t":"The city has a light show at night.","th":"เมืองนี้มีการแสดงแสงสีตอนกลางคืน"}
+      ],
+      "quiz": [
+        {"q":"This tower ___ a great view.","c":["has","have","is"],"a":0},
+        {"q":"These castles ___ ancient walls.","c":["have","has","is"],"a":0},
+        {"q":"🏺 คือ...","c":["ancient","modern","huge"],"a":0},
+        {"q":"'ทันสมัย' คือ...","c":["modern","ancient","huge"],"a":0},
+        {"q":"📏 คือ...","c":["huge","ancient","modern"],"a":0},
+        {"q":"🌄 คือ...","c":["a great view","steps","a light show"],"a":0},
+        {"q":"'ขั้นบันได' คือ...","c":["steps","view","show"],"a":0},
+        {"q":"💡 คือ...","c":["a light show","a great view","steps"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u2l4",
+      "icon": "🇹🇭",
+      "title": "My Country's Landmarks",
+      "sub": "สถานที่สำคัญของไทย + ทบทวน",
+      "intro": { "en": "Thailand has amazing landmarks too!", "th": "ประเทศไทยก็มีสถานที่สำคัญที่น่าทึ่งเหมือนกันนะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"Grand Palace","th":"พระบรมมหาราชวัง","e":"🏯"},
+        {"w":"Wat Arun","th":"วัดอรุณ","e":"🛕"},
+        {"w":"floating market","th":"ตลาดน้ำ","e":"🛶"},
+        {"w":"beach","th":"ชายหาด","e":"🏖️"},
+        {"w":"mountain","th":"ภูเขา","e":"⛰️"},
+        {"w":"waterfall","th":"น้ำตก","e":"💦"},
+        {"w":"island","th":"เกาะ","e":"🏝️"},
+        {"w":"national park","th":"อุทยานแห่งชาติ","e":"🌳"}
+      ],
+      "build": {"sentence":"The Grand Palace is beautiful and famous.","th":"พระบรมมหาราชวังสวยงามและมีชื่อเสียง"},
+      "speak": [
+        {"t":"I visited the Grand Palace.","th":"ฉันไปเยี่ยมชมพระบรมมหาราชวัง"},
+        {"t":"Thailand has beautiful beaches.","th":"ประเทศไทยมีชายหาดที่สวยงาม"},
+        {"t":"We saw a waterfall in the national park.","th":"พวกเราเห็นน้ำตกในอุทยานแห่งชาติ"},
+        {"t":"The floating market is fun to visit.","th":"ตลาดน้ำสนุกที่จะไปเยี่ยมชม"}
+      ],
+      "quiz": [
+        {"q":"🏯 คือ...","c":["Grand Palace","Wat Arun","floating market"],"a":0},
+        {"q":"🛶 คือ...","c":["floating market","beach","island"],"a":0},
+        {"q":"'ชายหาด' คือ...","c":["beach","island","mountain"],"a":0},
+        {"q":"⛰️ คือ...","c":["mountain","waterfall","island"],"a":0},
+        {"q":"[ทบทวน] This tower ___ a great view.","c":["has","have","is"],"a":0},
+        {"q":"[ทบทวน] 🔺 คือ...","c":["pyramid","tower","castle"],"a":0},
+        {"q":"[ทบทวน] Many ___ visit this place.","c":["tourists","guides","tickets"],"a":0},
+        {"q":"'อุทยานแห่งชาติ' คือ...","c":["national park","island","waterfall"],"a":0}
+      ]
+    }
+  ]
+}

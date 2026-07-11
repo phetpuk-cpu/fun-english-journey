@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — World Explorer Club 🌍",
+  "unitName": "หน่วย 4 · Best of the Best — สุดยอดที่สุด",
+  "lessons": [
+    {
+      "id": "p5u4l1",
+      "icon": "📏",
+      "title": "Big and Small",
+      "sub": "ขั้นสุด: ใหญ่ที่สุด เล็กที่สุด",
+      "intro": { "en": "What is the biggest thing in the world?", "th": "อะไรที่ใหญ่ที่สุดในโลกนะ?" },
+      "vocab": [
+        {"w":"biggest","th":"ใหญ่ที่สุด","e":"🐘"},
+        {"w":"smallest","th":"เล็กที่สุด","e":"🐜"},
+        {"w":"tallest","th":"สูงที่สุด","e":"🗼"},
+        {"w":"shortest","th":"เตี้ยที่สุด","e":"📏"},
+        {"w":"longest","th":"ยาวที่สุด","e":"🐍"},
+        {"w":"widest","th":"กว้างที่สุด","e":"↔️"},
+        {"w":"deepest","th":"ลึกที่สุด","e":"🌊"},
+        {"w":"highest","th":"สูงที่สุด(ระดับ)","e":"⛰️"}
+      ],
+      "build": {"sentence":"This is the tallest tower in the world.","th":"นี่คือหอคอยที่สูงที่สุดในโลก"},
+      "speak": [
+        {"t":"This is the biggest elephant.","th":"นี่คือช้างที่ใหญ่ที่สุด"},
+        {"t":"That is the tallest tower.","th":"นั่นคือหอคอยที่สูงที่สุด"},
+        {"t":"The Nile is the longest river.","th":"แม่น้ำไนล์คือแม่น้ำที่ยาวที่สุด"},
+        {"t":"Everest is the highest mountain.","th":"เอเวอเรสต์คือภูเขาที่สูงที่สุด"}
+      ],
+      "quiz": [
+        {"q":"🐘 คือ...","c":["biggest","smallest","tallest"],"a":0},
+        {"q":"'เล็กที่สุด' คือ...","c":["smallest","biggest","shortest"],"a":0},
+        {"q":"🗼 คือ...","c":["tallest","shortest","widest"],"a":0},
+        {"q":"'ยาวที่สุด' คือ...","c":["longest","shortest","widest"],"a":0},
+        {"q":"🌊 คือ...","c":["deepest","widest","highest"],"a":0},
+        {"q":"'กว้างที่สุด' คือ...","c":["widest","deepest","longest"],"a":0},
+        {"q":"Everest is the ___ mountain. (สูงที่สุด)","c":["highest","tallest","biggest"],"a":0},
+        {"q":"⛰️ คือ...","c":["highest","deepest","widest"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u4l2",
+      "icon": "🏆",
+      "title": "Good and Bad",
+      "sub": "ขั้นสุด: ดีที่สุด แย่ที่สุด",
+      "intro": { "en": "What is the best thing you have ever eaten?", "th": "อะไรคือของกินที่ดีที่สุดที่หนูเคยกินนะ?" },
+      "vocab": [
+        {"w":"best","th":"ดีที่สุด","e":"🏆"},
+        {"w":"worst","th":"แย่ที่สุด","e":"👎"},
+        {"w":"most beautiful","th":"สวยที่สุด","e":"🌸"},
+        {"w":"most delicious","th":"อร่อยที่สุด","e":"😋"},
+        {"w":"most exciting","th":"น่าตื่นเต้นที่สุด","e":"🎢"},
+        {"w":"most popular","th":"เป็นที่นิยมที่สุด","e":"⭐"},
+        {"w":"favorite","th":"โปรด","e":"❤️"},
+        {"w":"least","th":"น้อยที่สุด","e":"➖"}
+      ],
+      "build": {"sentence":"This is the best day of my life.","th":"นี่คือวันที่ดีที่สุดในชีวิตของฉัน"},
+      "speak": [
+        {"t":"This is the best day ever.","th":"นี่คือวันที่ดีที่สุดเลย"},
+        {"t":"That was the most exciting ride.","th":"นั่นคือเครื่องเล่นที่น่าตื่นเต้นที่สุด"},
+        {"t":"Pizza is the most popular food.","th":"พิซซ่าคืออาหารที่นิยมที่สุด"},
+        {"t":"This is my favorite place.","th":"นี่คือสถานที่โปรดของฉัน"}
+      ],
+      "quiz": [
+        {"q":"🏆 คือ...","c":["best","worst","favorite"],"a":0},
+        {"q":"'แย่ที่สุด' คือ...","c":["worst","best","least"],"a":0},
+        {"q":"🌸 คือ...","c":["most beautiful","most delicious","most popular"],"a":0},
+        {"q":"'อร่อยที่สุด' คือ...","c":["most delicious","most beautiful","most exciting"],"a":0},
+        {"q":"🎢 คือ...","c":["most exciting","most popular","favorite"],"a":0},
+        {"q":"'เป็นที่นิยมที่สุด' คือ...","c":["most popular","most exciting","best"],"a":0},
+        {"q":"This is my ___ color. (โปรด)","c":["favorite","best","least"],"a":0},
+        {"q":"➖ คือ...","c":["least","worst","best"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u4l3",
+      "icon": "🏃",
+      "title": "Speed and Strength",
+      "sub": "ขั้นสุด: เร็วที่สุด แข็งแรงที่สุด",
+      "intro": { "en": "Who is the fastest runner in your class?", "th": "ใครวิ่งเร็วที่สุดในห้องของหนูนะ?" },
+      "vocab": [
+        {"w":"fastest","th":"เร็วที่สุด","e":"🐆"},
+        {"w":"slowest","th":"ช้าที่สุด","e":"🐢"},
+        {"w":"strongest","th":"แข็งแรงที่สุด","e":"💪"},
+        {"w":"most powerful","th":"ทรงพลังที่สุด","e":"⚡"},
+        {"w":"easiest","th":"ง่ายที่สุด","e":"😌"},
+        {"w":"hardest","th":"ยากที่สุด","e":"😓"},
+        {"w":"cleverest","th":"ฉลาดที่สุด","e":"🧠"},
+        {"w":"bravest","th":"กล้าหาญที่สุด","e":"🦸"}
+      ],
+      "build": {"sentence":"The cheetah is the fastest animal.","th":"เสือชีตาห์คือสัตว์ที่เร็วที่สุด"},
+      "speak": [
+        {"t":"The cheetah is the fastest animal.","th":"เสือชีตาห์คือสัตว์ที่เร็วที่สุด"},
+        {"t":"He is the strongest boy in class.","th":"เขาแข็งแรงที่สุดในห้อง"},
+        {"t":"This question is the hardest.","th":"คำถามนี้ยากที่สุด"},
+        {"t":"She is the cleverest student.","th":"เธอฉลาดที่สุดในห้อง"}
+      ],
+      "quiz": [
+        {"q":"🐆 คือ...","c":["fastest","slowest","strongest"],"a":0},
+        {"q":"'ช้าที่สุด' คือ...","c":["slowest","fastest","hardest"],"a":0},
+        {"q":"💪 คือ...","c":["strongest","most powerful","bravest"],"a":0},
+        {"q":"'ง่ายที่สุด' คือ...","c":["easiest","hardest","cleverest"],"a":0},
+        {"q":"😓 คือ...","c":["hardest","easiest","fastest"],"a":0},
+        {"q":"'ฉลาดที่สุด' คือ...","c":["cleverest","bravest","strongest"],"a":0},
+        {"q":"🦸 คือ...","c":["bravest","cleverest","strongest"],"a":0},
+        {"q":"The cheetah is the ___ animal.","c":["fastest","slowest","strongest"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u4l4",
+      "icon": "🎖️",
+      "title": "World Records",
+      "sub": "สถิติโลก + ทบทวน",
+      "intro": { "en": "Let's learn about amazing world records!", "th": "มาเรียนรู้เรื่องสถิติโลกที่น่าทึ่งกันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"record","th":"สถิติ","e":"🎖️"},
+        {"w":"amazing fact","th":"ข้อเท็จจริงที่น่าทึ่ง","e":"💡"},
+        {"w":"incredible","th":"เหลือเชื่อ","e":"😲"},
+        {"w":"world's largest","th":"ใหญ่ที่สุดในโลก","e":"🌍"},
+        {"w":"achievement","th":"ความสำเร็จ","e":"🏅"},
+        {"w":"champion","th":"แชมป์เปี้ยน","e":"👑"},
+        {"w":"unique","th":"มีเอกลักษณ์เฉพาะตัว","e":"✨"},
+        {"w":"special","th":"พิเศษ","e":"🌟"}
+      ],
+      "build": {"sentence":"This is the world's largest cake.","th":"นี่คือเค้กที่ใหญ่ที่สุดในโลก"},
+      "speak": [
+        {"t":"This is an incredible world record.","th":"นี่คือสถิติโลกที่เหลือเชื่อ"},
+        {"t":"That is the world's largest cake.","th":"นั่นคือเค้กที่ใหญ่ที่สุดในโลก"},
+        {"t":"I am proud of my achievement.","th":"ฉันภูมิใจในความสำเร็จของฉัน"},
+        {"t":"Everyone is unique and special.","th":"ทุกคนมีเอกลักษณ์และพิเศษ"}
+      ],
+      "quiz": [
+        {"q":"🎖️ คือ...","c":["record","achievement","champion"],"a":0},
+        {"q":"'เหลือเชื่อ' คือ...","c":["incredible","unique","special"],"a":0},
+        {"q":"👑 คือ...","c":["champion","record","achievement"],"a":0},
+        {"q":"[ทบทวน] This is the ___ tower. (สูงที่สุด)","c":["tallest","biggest","longest"],"a":0},
+        {"q":"[ทบทวน] This is the ___ day of my life.","c":["best","worst","least"],"a":0},
+        {"q":"[ทบทวน] The cheetah is the ___ animal.","c":["fastest","slowest","strongest"],"a":0},
+        {"q":"'มีเอกลักษณ์เฉพาะตัว' คือ...","c":["unique","special","amazing"],"a":0},
+        {"q":"🏅 คือ...","c":["achievement","record","champion"],"a":0}
+      ]
+    }
+  ]
+}

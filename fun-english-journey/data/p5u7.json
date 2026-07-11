@@ -1,0 +1,143 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — World Explorer Club 🌍",
+  "unitName": "หน่วย 7 · Save Our Earth — ปกป้องโลกของเรา",
+  "lessons": [
+    {
+      "id": "p5u7l1",
+      "icon": "🌍",
+      "title": "Our Planet",
+      "sub": "โลกของเรา",
+      "intro": { "en": "We only have one planet. Let's take care of it!", "th": "เรามีโลกใบเดียว มาช่วยกันดูแลโลกกันเถอะ!" },
+      "vocab": [
+        {"w":"Earth","th":"โลก","e":"🌍"},
+        {"w":"ocean","th":"มหาสมุทร","e":"🌊"},
+        {"w":"forest","th":"ป่า","e":"🌳"},
+        {"w":"mountain","th":"ภูเขา","e":"⛰️"},
+        {"w":"river","th":"แม่น้ำ","e":"🏞️"},
+        {"w":"air","th":"อากาศ","e":"💨"},
+        {"w":"nature","th":"ธรรมชาติ","e":"🌿"},
+        {"w":"environment","th":"สิ่งแวดล้อม","e":"🌱"}
+      ],
+      "build": {"sentence":"We must take care of the Earth.","th":"พวกเราต้องดูแลโลก"},
+      "speak": [
+        {"t":"We must take care of the Earth.","th":"พวกเราต้องดูแลโลก"},
+        {"t":"The ocean is full of life.","th":"มหาสมุทรเต็มไปด้วยสิ่งมีชีวิต"},
+        {"t":"I love spending time in nature.","th":"ฉันชอบใช้เวลาอยู่กับธรรมชาติ"},
+        {"t":"We need clean air to breathe.","th":"เราต้องการอากาศสะอาดในการหายใจ"}
+      ],
+      "quiz": [
+        {"q":"🌍 คือ...","c":["Earth","ocean","forest"],"a":0},
+        {"q":"'มหาสมุทร' คือ...","c":["ocean","river","forest"],"a":0},
+        {"q":"🌳 คือ...","c":["forest","mountain","river"],"a":0},
+        {"q":"'แม่น้ำ' คือ...","c":["river","ocean","mountain"],"a":0},
+        {"q":"💨 คือ...","c":["air","water","nature"],"a":0},
+        {"q":"'ธรรมชาติ' คือ...","c":["nature","environment","air"],"a":0},
+        {"q":"🌱 คือ...","c":["environment","nature","forest"],"a":0},
+        {"q":"We must take care of the ___.","c":["Earth","sky","moon"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u7l2",
+      "icon": "♻️",
+      "title": "Reduce, Reuse, Recycle",
+      "sub": "ลด ใช้ซ้ำ รีไซเคิล",
+      "intro": { "en": "Small actions can make a big difference!", "th": "การกระทำเล็กๆ ก็สร้างความเปลี่ยนแปลงที่ยิ่งใหญ่ได้นะ" },
+      "vocab": [
+        {"w":"recycle","th":"รีไซเคิล","e":"♻️"},
+        {"w":"reduce","th":"ลด","e":"⬇️"},
+        {"w":"reuse","th":"ใช้ซ้ำ","e":"🔄"},
+        {"w":"plastic","th":"พลาสติก","e":"🥤"},
+        {"w":"trash","th":"ขยะ","e":"🗑️"},
+        {"w":"bin","th":"ถังขยะ","e":"🚮"},
+        {"w":"save energy","th":"ประหยัดพลังงาน","e":"💡"},
+        {"w":"save water","th":"ประหยัดน้ำ","e":"🚰"}
+      ],
+      "build": {"sentence":"We should recycle plastic bottles.","th":"พวกเราควรรีไซเคิลขวดพลาสติก"},
+      "speak": [
+        {"t":"We should recycle plastic bottles.","th":"พวกเราควรรีไซเคิลขวดพลาสติก"},
+        {"t":"Let's reduce our trash.","th":"มาช่วยกันลดขยะกันเถอะ"},
+        {"t":"I reuse my shopping bag.","th":"ฉันใช้ถุงช้อปปิ้งซ้ำ"},
+        {"t":"Please turn off the light to save energy.","th":"ช่วยปิดไฟเพื่อประหยัดพลังงานด้วยนะ"}
+      ],
+      "quiz": [
+        {"q":"♻️ คือ...","c":["recycle","reduce","reuse"],"a":0},
+        {"q":"'ลด' คือ...","c":["reduce","recycle","reuse"],"a":0},
+        {"q":"🔄 คือ...","c":["reuse","recycle","reduce"],"a":0},
+        {"q":"'พลาสติก' คือ...","c":["plastic","trash","bin"],"a":0},
+        {"q":"🗑️ คือ...","c":["trash","bin","plastic"],"a":0},
+        {"q":"'ถังขยะ' คือ...","c":["bin","trash","plastic"],"a":0},
+        {"q":"💡 คือ...","c":["save energy","save water","recycle"],"a":0},
+        {"q":"We should ___ plastic bottles.","c":["recycle","throw","burn"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u7l3",
+      "icon": "🐢",
+      "title": "Protecting Animals",
+      "sub": "ปกป้องสัตว์ป่า",
+      "intro": { "en": "Some animals need our help!", "th": "สัตว์บางชนิดต้องการความช่วยเหลือจากเรานะ" },
+      "vocab": [
+        {"w":"endangered","th":"ใกล้สูญพันธุ์","e":"⚠️"},
+        {"w":"wildlife","th":"สัตว์ป่า","e":"🦌"},
+        {"w":"habitat","th":"ถิ่นที่อยู่อาศัย","e":"🏞️"},
+        {"w":"extinct","th":"สูญพันธุ์","e":"🦕"},
+        {"w":"protect","th":"ปกป้อง","e":"🛡️"},
+        {"w":"conservation","th":"การอนุรักษ์","e":"🌿"},
+        {"w":"rescue","th":"ช่วยเหลือ/กู้ภัย","e":"🚑"},
+        {"w":"national park","th":"อุทยานแห่งชาติ","e":"🌳"}
+      ],
+      "build": {"sentence":"We must protect endangered animals.","th":"พวกเราต้องปกป้องสัตว์ที่ใกล้สูญพันธุ์"},
+      "speak": [
+        {"t":"We must protect endangered animals.","th":"พวกเราต้องปกป้องสัตว์ที่ใกล้สูญพันธุ์"},
+        {"t":"This is a wildlife habitat.","th":"นี่คือถิ่นที่อยู่อาศัยของสัตว์ป่า"},
+        {"t":"They rescued a baby elephant.","th":"พวกเขาช่วยเหลือลูกช้าง"},
+        {"t":"This national park protects many animals.","th":"อุทยานแห่งชาตินี้ปกป้องสัตว์หลายชนิด"}
+      ],
+      "quiz": [
+        {"q":"⚠️ คือ...","c":["endangered","extinct","wildlife"],"a":0},
+        {"q":"'สัตว์ป่า' คือ...","c":["wildlife","habitat","conservation"],"a":0},
+        {"q":"🏞️ คือ...","c":["habitat","wildlife","rescue"],"a":0},
+        {"q":"'สูญพันธุ์' คือ...","c":["extinct","endangered","rescue"],"a":0},
+        {"q":"🛡️ คือ...","c":["protect","rescue","conservation"],"a":0},
+        {"q":"'การอนุรักษ์' คือ...","c":["conservation","protect","habitat"],"a":0},
+        {"q":"🚑 คือ...","c":["rescue","protect","conservation"],"a":0},
+        {"q":"We must ___ endangered animals.","c":["protect","hunt","catch"],"a":0}
+      ]
+    },
+    {
+      "id": "p5u7l4",
+      "icon": "🌱",
+      "title": "Be a Green Hero",
+      "sub": "เป็นฮีโร่รักษ์โลก + ทบทวน",
+      "intro": { "en": "You can be a green hero too!", "th": "หนูก็เป็นฮีโร่รักษ์โลกได้นะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"plant a tree","th":"ปลูกต้นไม้","e":"🌳"},
+        {"w":"turn off lights","th":"ปิดไฟ","e":"💡"},
+        {"w":"walk or bike","th":"เดินหรือขี่จักรยาน","e":"🚲"},
+        {"w":"use less water","th":"ใช้น้ำให้น้อยลง","e":"🚰"},
+        {"w":"clean up","th":"เก็บกวาดความสะอาด","e":"🧹"},
+        {"w":"green hero","th":"ฮีโร่รักษ์โลก","e":"🦸"},
+        {"w":"take action","th":"ลงมือทำ","e":"💪"},
+        {"w":"future","th":"อนาคต","e":"🔮"}
+      ],
+      "build": {"sentence":"I plant a tree to help the Earth.","th":"ฉันปลูกต้นไม้เพื่อช่วยโลก"},
+      "speak": [
+        {"t":"I plant a tree every year.","th":"ฉันปลูกต้นไม้ทุกปี"},
+        {"t":"Let's walk or bike to school.","th":"ไปโรงเรียนโดยเดินหรือขี่จักรยานกันเถอะ"},
+        {"t":"We clean up the park together.","th":"พวกเราช่วยกันเก็บกวาดสวนสาธารณะ"},
+        {"t":"Every green hero can help the future.","th":"ฮีโร่รักษ์โลกทุกคนช่วยอนาคตได้"}
+      ],
+      "quiz": [
+        {"q":"🌳 คือ...","c":["plant a tree","turn off lights","clean up"],"a":0},
+        {"q":"'ปิดไฟ' คือ...","c":["turn off lights","use less water","plant a tree"],"a":0},
+        {"q":"🚲 คือ...","c":["walk or bike","clean up","take action"],"a":0},
+        {"q":"[ทบทวน] We must take care of the ___.","c":["Earth","sky","moon"],"a":0},
+        {"q":"[ทบทวน] We should ___ plastic bottles.","c":["recycle","throw","burn"],"a":0},
+        {"q":"[ทบทวน] We must ___ endangered animals.","c":["protect","hunt","catch"],"a":0},
+        {"q":"'ลงมือทำ' คือ...","c":["take action","clean up","use less water"],"a":0},
+        {"q":"🦸 คือ...","c":["green hero","future","take action"],"a":0}
+      ]
+    }
+  ]
+}
