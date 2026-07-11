@@ -55,21 +55,30 @@
 
 **Fluency Time / โปรเจกต์ระหว่างหน่วย:** Olly&Molly มีโปรเจกต์ลงมือทำ (หุ่นมือ, โปสเตอร์สวนสาธารณะ ฯลฯ) หลังทุก 3 หน่วย — ยังไม่มีโหมดนี้ในแอป ถ้าอยากทำจริงต้องออกแบบ UI ใหม่ (เก็บไว้เป็นไอเดีย ไม่ใช่ scope ตอนนี้)
 
-## ป.2 · Sunny Pond Village 🎈 — อิงหลักสูตรจริง (Oxford เล่ม 1 "About us")
-**ไวยากรณ์:** ใช้ checklist จาก Oxford เล่ม 1 ทั้งหมด — demonstratives (this/that), verb "be", can for ability (ทบทวน+ลึกขึ้น), have got (ทบทวน+ลึกขึ้น), present simple ครบทุกรูปแบบ, prepositions of time, weather, present continuous, comparative adjectives, past simple ของ be, quantifiers (some/any), เลขลำดับ (ordinal numbers)
+## ป.2 · Sunny Pond Village 🎈 — อิงหลักสูตรจริง (อัปเดต 11 ก.ค. 2026 รอบ 2)
 
-| หน่วย | หัวข้อ | ไวยากรณ์จาก Oxford เล่ม 1 |
+**⚠️ แก้ไขจากเวอร์ชันก่อนหน้า:** ตารางเดิมผูก ป.2 กับไวยากรณ์ของ Oxford "About us" (เดาว่าเป็นเล่มถัดจาก "Hello!") — ตอนนี้ผู้ปกครองส่งหนังสือที่ระบุระดับ ป.2 ชัดเจนมาแล้วคือ **Oxford "Hello again!"** ซึ่งน่าจะเป็นเล่มต่อจาก "Hello!" ตัวจริงในซีรีส์เดียวกัน (Hello! → Hello again! → ...) ดังนั้น **"About us" อาจไม่ใช่ ป.2** — เนื้อหาที่ระบุไว้ (demonstratives, comparative, past simple ของ be, quantifiers, ordinal numbers) ดูลึกกว่า "Hello again!" พอสมควร มีโอกาสเป็นเล่ม **ป.3** ในซีรีส์เดียวกัน หรือหนังสือเสริมนอกซีรีส์ — **รอผู้ปกครองยืนยันว่า "About us" คือระดับไหนกันแน่** (ถ้าเป็น ป.3 ก็ไม่ต้องใช้แล้วเพราะ ป.3 ของแอปทำเสร็จไปแล้ว แต่ถ้าเป็นเล่มเสริมสำหรับเด็กเก่ง อาจเก็บไว้ทำเป็นโหมด "ท้าทาย" เสริมทีหลัง)
+
+**แหล่งอ้างอิง 2 เล่มสำหรับ ป.2 จริง:**
+1. **Oxford "Hello again!"** — 10 บทเรียน แต่ละบทมี 5 Lesson (Words→Grammar→Words&Grammar→Story→Skills/Culture) + Extensive Reading คั่นทุก 2 บท + Emotional wellbeing สอดแทรก + culture comparison + โปรเจกต์ลงมือทำ → ใช้เป็น**โครงหน่วย+ไวยากรณ์หลัก**ของ ป.2 โดยตรง
+2. **Oxford Skills World: Reading with Writing 2** — กรอบทักษะอ่าน-เขียน 12 หน่วย (Read the Title/Headings, Find Key Info/Setting/Main Idea/Cause-Effect/Likes-Dislikes/Sequence ควบคู่ Write a Conversation/E-mail/Story/Paragraph/Opinion/Schedule) → **engine ปัจจุบันยังไม่รองรับกิจกรรมแบบนี้** (ไม่มีโหมดอ่านย่อหน้า/เขียนอีเมล) เก็บไว้เป็นข้อมูลออกแบบสำหรับ **Phase 3 ในแผนพรีเมียม** (โหมดเขียน/อ่านจับใจความ) แทนที่จะยัดใส่บทเรียนตอนนี้ — รายละเอียด 6 คู่ reading-goal/writing-goal นี้ใช้ออกแบบ UI โหมดใหม่ได้ตรงเป้ามาก
+
+**โครงหน่วย ป.2 (10 หน่วยตามหนังสือจริง แทนที่ 8 หน่วยเดาเดิม — ป.2 จะมี 40 บทแทน 32 บท):**
+
+| หน่วย | หัวข้อ | ไวยากรณ์หลักจาก Hello again! |
 |---|---|---|
-| 1 | Days & Time | prepositions of time, weather เบื้องต้น |
-| 2 | This Is My Family | demonstratives (this/that), verb "be" |
-| 3 | Yummy or Not | quantifiers (some/any) |
-| 4 | Where Is It? | prepositions of place (ทบทวนจาก ป.1) |
-| 5 | What Can You Do? | can for ability (ลึกขึ้นจาก ป.1) |
-| 6 | My Favorite Things | comparative adjectives |
-| 7 | Playtime at the Park | present continuous |
-| 8 | All About Me + ทบทวนใหญ่ | past simple ของ be, ordinal numbers, ทบทวนทั้งปี |
+| 1 | Time for School | Have you got a...? / Has he/she got...? |
+| 2 | Mealtime | I have...for breakfast, Do you have...? |
+| 3 | Wild Animals | live on land / in water |
+| 4 | My Favourite Things | Whose...is it? mine/yours/hers/his |
+| 5 | Around Town | Is there a...? Are there any...? |
+| 6 | At the Weekend | What's he/she doing? (present continuous) |
+| 7 | My Day | Daily routines, in the morning/afternoon/evening |
+| 8 | My Talents | I like/don't like, What can you do? |
+| 9 | My Home | There's a.../There are some... |
+| 10 | Days Out + ทบทวนใหญ่ | I was at... (past simple), What was the weather like? |
 
-**หมายเหตุ:** หัวข้อหน่วยยังคงเดิมตามที่ออกแบบไว้ก่อนหน้า (เข้ากับธีม Sunny Pond Village) แค่ผูกไวยากรณ์แต่ละหน่วยให้ตรงกับ checklist จริงของ Oxford เล่ม 1 แทนการเดาแบบ Cambridge Starters ทั่วไป
+**หมายเหตุ:** หัวข้อ/ไวยากรณ์อิงหนังสือจริง 100% (ไม่ได้เดา) เปลี่ยนธีมโลกจาก "Sunny Pond Village" เดิมเล็กน้อยให้เข้ากับหัวข้อจริง (Around Town, Days Out) ได้ —ยังคงใช้ธีม Sunny Pond Village ได้ เพราะหัวข้อจริงก็เป็นเรื่องหมู่บ้าน/เมืองเล็กๆ อยู่แล้ว ไม่ขัดกัน แต่ละหน่วยยังใส่ **Emotional wellbeing message** (เช่น "taking part is more important than winning") ไว้ในบท intro ได้ ตรงกับสไตล์หนังสือต้นฉบับ
 
 ## ป.5 · World Explorer Club 🌍 (Cambridge Flyers เริ่มต้น)
 **ไวยากรณ์:** past continuous (was/were + -ing), superlatives (-est/most), บุพบทการเคลื่อนไหว (into/through/across), เชื่อมประโยคด้วย because/so/but
@@ -101,16 +110,16 @@
 
 ---
 
-## ขอบเขตงานรอบถัดไป (ประมาณการ)
+## ขอบเขตงานที่เหลือ (อัปเดตหลัง ป.5 เสร็จแล้วและปรับจำนวนหน่วย ป.2 ตามหนังสือจริง)
 
-| รายการ | จำนวน |
-|---|---|
-| หน่วยใหม่ | 32 หน่วย (8 หน่วย × 4 ชั้น) |
-| บทเรียนใหม่ | 128 บท (4 บท/หน่วย) |
-| ภาพฉากเปิดบท | 128 ภาพ |
-| ภาพคำศัพท์ | ~1,024 ภาพ (128 บท × 8 คำ) |
-| ไฟล์เสียง | ~1,088 ไฟล์ (ศัพท์ EN+TH, พูด, เปิดบท EN+TH) |
+| ชั้น | สถานะ | หน่วย | บทเรียน |
+|---|---|---|---|
+| ป.5 🌍 World Explorer Club | ✅ เขียนเสร็จแล้ว | 8 | 32 |
+| ป.1 🌻 Ducky's Pond School | ยังไม่เขียน (มีแผนแล้ว อิงหนังสือจริง) | 8 | 32 |
+| ป.2 🎈 Sunny Pond Village | ยังไม่เขียน (มีแผนแล้ว อิงหนังสือจริง — ปรับเป็น 10 หน่วยตามหนังสือ) | 10 | 40 |
+| ป.6 🚀 Future & Beyond | ยังไม่เขียน (แผนเดาจาก Cambridge Flyers ยังไม่มีหนังสือจริงอ้างอิง) | 8 | 32 |
+| **รวมที่เหลือ** | | **26 หน่วย** | **104 บท** |
 
-**คำแนะนำ:** อย่าทำทีเดียวทั้ง 128 บท — ใหญ่กว่ารอบที่แล้ว (48 บท) เกือบ 3 เท่า เสี่ยงคุณภาพตกและตรวจทานยาก แนะนำแบ่งเป็น 4 รอบย่อยตามชั้น (ป.1 → ป.2 → ป.5 → ป.6) แต่ละรอบ 32 บท ขนาดใกล้เคียงกับรอบที่เพิ่งทำเสร็จ ทำเสร็จแต่ละชั้นแล้วค่อยส่งชุดสั่งงานภาพ/เสียงให้ Codex/Antigravity ทยอยผลิตตามไป ไม่ต้องรอครบ 4 ชั้นพร้อมกัน
+**คำแนะนำ:** อย่าทำทีเดียวทั้ง 104 บท — ใหญ่กว่ารอบที่แล้ว (48 บท) กว่า 2 เท่า เสี่ยงคุณภาพตกและตรวจทานยาก แนะนำแบ่งทำทีละชั้น ทำเสร็จแต่ละชั้นแล้วค่อยส่งชุดสั่งงานภาพ/เสียงให้ Codex/Antigravity ทยอยผลิตตามไป ไม่ต้องรอครบทุกชั้นพร้อมกัน (แบบเดียวกับที่ทำสำเร็จมาแล้วกับ ป.3-4-5)
 
-**ลำดับแนะนำ:** ป.5 ก่อน (เพราะลูกชายอยู่ ป.4 กำลังจะขึ้น ป.5 ปีหน้า ใช้ได้เร็วที่สุด) → ป.6 → ป.1 → ป.2 (สองชั้นหลังนี้ไม่รีบเพราะลูกชายผ่านช่วงนั้นไปแล้ว แต่มีประโยชน์ถ้าจะมีน้องหรือขยายไปใช้กับเด็กคนอื่น)
+**ลำดับแนะนำ:** ป.1 หรือ ป.2 ก่อน (มีหนังสือจริงอ้างอิงแล้วทั้งคู่ ความเสี่ยงเนื้อหาผิดต่ำสุด) → ป.6 ทำทีหลังสุด (ยังไม่มีหนังสือจริง ควรรอดูว่ามีเล่มอ้างอิงส่งมาเพิ่มไหมก่อนเขียนเนื้อหาเดา)

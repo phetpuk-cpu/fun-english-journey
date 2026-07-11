@@ -24,7 +24,7 @@ Phase 0 (ตอนนี้) มี 16 บทแรก (ป.3-4 หน่วย 
 ### Phase 3 — เพิ่มความลึกระดับ EP (เก็บเงินจาก "ความเข้มข้น")
 แก้ช่องว่าง 4 ข้อด้านบนตรงๆ:
 - **โหมดเขียน** — บางจุดในแต่ละบทเปลี่ยนจาก drag-word-order เป็นพิมพ์ประโยคเอง (มี virtual keyboard + ตรวจตัวสะกดแบบยืดหยุ่น)
-- **โหมดอ่านจับใจความ** — ย่อหน้าสั้น 3-4 ประโยคต่อบท + โจทย์สไตล์ Cambridge Reading & Writing (เติมคำ, จับคู่ประโยค-รูป, true/false)
+- **โหมดอ่านจับใจความ** — ย่อหน้าสั้น 3-4 ประโยคต่อบท + โจทย์สไตล์ Cambridge Reading & Writing (เติมคำ, จับคู่ประโยค-รูป, true/false) — มีหนังสือจริงอ้างอิงแล้ว: Oxford Skills World Reading with Writing 2 (ป.2) ให้กรอบ 6 คู่ reading-goal/writing-goal พร้อมใช้ (Read the Title/Headings → Write a Conversation, Find Key Info/Setting → Write an E-mail, Find Action Words/Main Idea → Write a Story, Find Places/Cause-Effect → Write a Paragraph, Find Likes-Dislikes/Similar-Different → Write an Opinion, Find Times/Sequence → Write a Schedule) ดู `curriculum-plan-p1-2-p5-6.md` หัวข้อ ป.2
 - **โหมดตั้งคำถามเอง** — ฝึกประกอบคำถาม (What time...? / Can you...?) แทนที่จะเลือกจากตัวเลือก
 - **ขยาย vocab ต่อบท** — เพิ่ม "extra vocab" เสริมนอกจาก 8 คำหลัก ให้ใกล้เคียง Cambridge wordlist มากขึ้น (opt-in ไม่บังคับ)
 - **หน่วยเสริม Past Simple + Future (going to/will)** — ปลดล็อกหลัง placement quiz สั้นๆ ว่าเด็กพร้อมหรือยัง
