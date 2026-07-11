@@ -1,5 +1,5 @@
 # 🗺️ แผนหลักสูตร ป.1-2 และ ป.5-6 — เตรียมสำหรับรอบถัดไป
-อัปเดต: 10 ก.ค. 2026
+อัปเดต: 11 ก.ค. 2026 (ป.1-2 อัปเดตให้อิงหนังสือเรียนจริงที่ผู้ปกครองส่งมา — ดูรายละเอียดในหัวข้อ ป.1/ป.2 ด้านล่าง แทนที่การเดาจาก Cambridge Starters ล้วนๆ แบบเดิม)
 
 > เอกสารนี้เป็น**แผน** (หัวข้อหน่วย + เหตุผลด้านไวยากรณ์ + ขอบเขตงาน) ยังไม่ใช่เนื้อหาบทเรียนเต็ม — พอตกลงหัวข้อกันแล้วค่อยลงมือเขียนเนื้อหาเต็ม (intro/ศัพท์8/พูด4/ควิซ8 ต่อบท) แบบเดียวกับที่ทำให้ ป.3-4 ครบไปแล้ว รอบนี้ทำ 4 ชั้น ป.1, ป.2, ป.5, ป.6 รวม 32 หน่วย / 128 บทเรียนใหม่ (ใหญ่กว่ารอบที่แล้ว 48 บทเกือบ 3 เท่า — ควรแบ่งทำเป็นช่วงๆ ไม่ใช่ทีเดียวหมด)
 
@@ -30,33 +30,46 @@
 
 ---
 
-## ป.1 · Ducky's Pond School 🌻 (Cambridge Pre-A1 Starters)
-**ไวยากรณ์:** ไม่มีประโยคซับซ้อน — คำศัพท์เดี่ยว + แพทเทิร์นสั้นมาก (This is a..., I am..., I like...)
+## ป.1 · Ducky's Pond School 🌻 — อิงหลักสูตรจริง (อัปเดต 11 ก.ค. 2026)
 
-| หน่วย | หัวข้อ | ตัวอย่างคำศัพท์ |
+**แหล่งอ้างอิง:** ผู้ปกครองส่งสรุปเนื้อหาจากหนังสือจริง 3 เล่ม (Oxford ระดับเริ่มต้น "Hello!", Oxford ระดับลึกกว่า "About us", ชุด Olly & Molly 6 Topics) บวกตาราง Scope & Sequence แยก Words/Grammar/Phonics/Skills 15 หน่วย — แทนที่แผนเดาเดิม (Cambridge Starters ล้วนๆ) ด้วยของจริง
+
+**วิธี synthesize แหล่งข้อมูล 4 แหล่งเข้าด้วยกัน:**
+- **โครงหน่วย/phonics** → ยึดตาราง Scope & Sequence เป็นหลัก (ละเอียดสุด มี Words/Grammar/Phonics/Skills ชัดเจนต่อหน่วย)
+- **หัวข้อ/คำศัพท์เสริม** → ใช้ Olly & Molly 6 Topics ตรวจทาน/เติมช่องว่างที่ Scope & Sequence ไม่ได้ระบุละเอียด (หน่วย 2-3) และยืมโครง "Reading Check + Write" ไปเป็นไอเดียสำหรับโหมดอ่าน-เขียนในอนาคต (ตรงกับช่องว่าง Phase 3 ในแผนพรีเมียม)
+- **ลำดับไวยากรณ์** → ใช้ Oxford เล่ม 2 "Hello!" (ระดับเริ่มต้น) เป็นตัวกำหนดจังหวะไวยากรณ์ ป.1 เพราะยืนยันแล้วว่าเหมาะกับเด็กเริ่มเรียน (a/an, possessive adjectives, plural nouns, subject pronouns, wh-questions, have got, present simple "like", there's/there are, can, imperatives)
+- **Oxford เล่ม 1 "About us" (ลึกกว่า) เก็บไว้ใช้กับ ป.2** — ระบุไว้ในเล่มเองว่า "เหมาะกับเด็กที่มีพื้นฐานแล้ว" ตรงกับตำแหน่ง ป.2 ในแผนนี้พอดี
+
+**การจัดกลุ่มหน่วยจริง 15 หน่วย + Olly&Molly เป็น 8 หน่วยของแอป** (2 หน่วยที่ทำเครื่องหมาย 🔸 คือช่วงที่ตาราง Scope & Sequence ไม่ได้ระบุรายละเอียด U2-U3 ไว้ — ผมเติมหัวข้อที่ Olly&Molly ยืนยันเป็น Topic แยกอยู่แล้ว [Colors/Shapes] และหัวข้อร่างกายซึ่งเป็นมาตรฐาน ป.1 ทั่วไป เพื่อไม่ให้เนื้อหาขาดช่วง — ควรเช็คกับหนังสือจริงอีกทีว่าตรงกับที่โรงเรียนสอนจริงไหม):
+
+| หน่วย | หัวข้อ | อิงจาก | ไวยากรณ์/โฟนิกส์ |
+|---|---|---|---|
+| 1 | What's This? (School Things) | S&S U1 + Olly&Molly Topic1 "In Your School" | wh-Q (What's this?), a/an, phonics Aa-Dd |
+| 2 🔸 | Colors, Shapes & Numbers | Olly&Molly Topic3 "Colors and Shapes" | plural nouns, phonics Ee-Hh |
+| 3 | Jobs & My Family | S&S U4+U6 + Olly&Molly Topic6 (ครึ่ง family) | possessive 's, subject pronouns |
+| 4 🔸 | The Park & My Body | S&S U5 "The park" + ร่างกายพื้นฐาน | prepositions in/on/under |
+| 5 | My Clothes & My House | S&S U7+U8 | digraphs sh/ch, Have got |
+| 6 | My Lunch Box & What I Like | S&S U9+U12 + Olly&Molly Topic4 "What Do You Like?" | digraph th, CVC a/e, present simple "like" |
+| 7 | My Friends & Animals (Zoo) | S&S U10+U11 + Olly&Molly Topic2 "Animals" + Topic6 (ครึ่ง friends) | CVC i/o/u, there's/there are |
+| 8 | My Bedroom, Weather & The Beach + ทบทวนใหญ่ | S&S U13+U14+U15 + Olly&Molly Topic5 "How's the Weather?" | Can/can't, Let's + verb, imperatives, ทบทวนทั้งปี |
+
+**Fluency Time / โปรเจกต์ระหว่างหน่วย:** Olly&Molly มีโปรเจกต์ลงมือทำ (หุ่นมือ, โปสเตอร์สวนสาธารณะ ฯลฯ) หลังทุก 3 หน่วย — ยังไม่มีโหมดนี้ในแอป ถ้าอยากทำจริงต้องออกแบบ UI ใหม่ (เก็บไว้เป็นไอเดีย ไม่ใช่ scope ตอนนี้)
+
+## ป.2 · Sunny Pond Village 🎈 — อิงหลักสูตรจริง (Oxford เล่ม 1 "About us")
+**ไวยากรณ์:** ใช้ checklist จาก Oxford เล่ม 1 ทั้งหมด — demonstratives (this/that), verb "be", can for ability (ทบทวน+ลึกขึ้น), have got (ทบทวน+ลึกขึ้น), present simple ครบทุกรูปแบบ, prepositions of time, weather, present continuous, comparative adjectives, past simple ของ be, quantifiers (some/any), เลขลำดับ (ordinal numbers)
+
+| หน่วย | หัวข้อ | ไวยากรณ์จาก Oxford เล่ม 1 |
 |---|---|---|
-| 1 | ABC Time (A–M) | ชื่อตัวอักษรและเสียง A ถึง M |
-| 2 | ABC Time (N–Z) + ทบทวน | ชื่อตัวอักษรและเสียง N ถึง Z |
-| 3 | Numbers 1–10 | one–ten, นับของ |
-| 4 | Colors & Shapes | red, blue, circle, square |
-| 5 | My Body | head, eyes, hands, feet (ง่ายกว่าเวอร์ชัน ป.3) |
-| 6 | My Toys | ball, doll, book, pencil, bag |
-| 7 | Animals I Know | dog, cat, bird, fish, cow |
-| 8 | This Is Me! + ทบทวนใหญ่ | ชื่อ, อายุ, boy/girl, happy/sad, ทบทวนทั้งปี |
+| 1 | Days & Time | prepositions of time, weather เบื้องต้น |
+| 2 | This Is My Family | demonstratives (this/that), verb "be" |
+| 3 | Yummy or Not | quantifiers (some/any) |
+| 4 | Where Is It? | prepositions of place (ทบทวนจาก ป.1) |
+| 5 | What Can You Do? | can for ability (ลึกขึ้นจาก ป.1) |
+| 6 | My Favorite Things | comparative adjectives |
+| 7 | Playtime at the Park | present continuous |
+| 8 | All About Me + ทบทวนใหญ่ | past simple ของ be, ordinal numbers, ทบทวนทั้งปี |
 
-## ป.2 · Sunny Pond Village 🎈 (Cambridge Starters สูง)
-**ไวยากรณ์:** ประโยคสั้น 3-5 คำ, I like/I don't like, I can (แนะนำเบาๆ ก่อน ป.4 จะเจอเต็มรูปแบบ), บุพบทง่าย (in/on/under)
-
-| หน่วย | หัวข้อ | ตัวอย่างคำศัพท์ |
-|---|---|---|
-| 1 | Days & Time | Monday–Sunday, morning/afternoon/night |
-| 2 | My Family (เบื้องต้น) | mom, dad, brother, sister (ง่ายกว่าเวอร์ชัน ป.3) |
-| 3 | Yummy or Not | food พื้นฐาน, I like / I don't like |
-| 4 | Where Is It? | in, on, under, next to + ของใช้ในบ้าน |
-| 5 | What Can You Do? | run, jump, swim, sing, dance, draw |
-| 6 | My Favorite Things | สี/ของเล่น/สัตว์โปรด, favorite |
-| 7 | Playtime at the Park | swing, slide, ball, playground verbs |
-| 8 | All About Me + ทบทวนใหญ่ | รวมทุกหน่วย ป.2 |
+**หมายเหตุ:** หัวข้อหน่วยยังคงเดิมตามที่ออกแบบไว้ก่อนหน้า (เข้ากับธีม Sunny Pond Village) แค่ผูกไวยากรณ์แต่ละหน่วยให้ตรงกับ checklist จริงของ Oxford เล่ม 1 แทนการเดาแบบ Cambridge Starters ทั่วไป
 
 ## ป.5 · World Explorer Club 🌍 (Cambridge Flyers เริ่มต้น)
 **ไวยากรณ์:** past continuous (was/were + -ing), superlatives (-est/most), บุพบทการเคลื่อนไหว (into/through/across), เชื่อมประโยคด้วย because/so/but
