@@ -17,7 +17,17 @@
     <h1>Fun English Journey</h1>
     <p>เรียนอังกฤษกับ Ducky และผองเพื่อน!</p>
   </div>
-  <div class="card">
+  <!-- กล่องแสดงรายการโปรไฟล์ที่มีอยู่เดิม -->
+  <div class="card" id="profiles-box" style="display:none">
+    <p style="margin:0 0 10px"><b>เลือกผู้เล่น 🎒</b></p>
+    <div id="profiles-list" style="display:grid; grid-template-columns:1fr; gap:10px; margin-bottom:14px">
+      <!-- รายการโปรไฟล์จะถูกแสดงด้วย JS -->
+    </div>
+    <button class="btn ghost" onclick="showCreateForm()">สร้างผู้เล่นใหม่ ➕</button>
+  </div>
+
+  <!-- กล่องสร้างโปรไฟล์ใหม่ -->
+  <div class="card" id="create-profile-box">
     <p style="margin:0 0 6px"><b>ชื่อเล่นของหนูคืออะไร?</b></p>
     <input class="name-input" id="inp-name" maxlength="12" placeholder="พิมพ์ชื่อเล่น">
     <p style="margin:14px 0 4px"><b>เลือกตัวแทนของหนู</b></p>
@@ -26,8 +36,9 @@
       <button class="avatar">🦊</button><button class="avatar">🐸</button><button class="avatar">🦄</button>
     </div>
     <button class="btn yellow" id="btn-start" onclick="startApp()" disabled>⏳ กำลังโหลดบทเรียน...</button>
+    <button class="btn ghost" id="btn-cancel-create" onclick="showProfilesList()" style="display:none; margin-top:10px">ยกเลิก ✖</button>
   </div>
-  <p class="note">เวอร์ชันต้นแบบ — คะแนนยังไม่ถูกบันทึกถาวร</p>
+  <p class="note">ข้อมูลบันทึกในอุปกรณ์นี้ออฟไลน์ด้วย IndexedDB</p>
 </div>
 
 <!-- ============ SCREEN: MAP ============ -->

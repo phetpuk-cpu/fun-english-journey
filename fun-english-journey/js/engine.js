@@ -25,8 +25,127 @@ async function loadContent(){
   return build;
 }
 
+/* ================= DATABASE (IndexedDB) ================= */
+class FEJDatabase {
+  constructor() {
+    this.dbName = "FunEnglishJourneyDB";
+    this.dbVersion = 1;
+    this.db = null;
+  }
+
+  open() {
+    return new Promise((resolve, reject) => {
+      const request = indexedDB.open(this.dbName, this.dbVersion);
+      request.onerror = (e) => reject(e.target.error);
+      request.onsuccess = (e) => { this.db = e.target.result; resolve(this.db); };
+      request.onupgradeneeded = (e) => {
+        const db = e.target.result;
+        if (!db.objectStoreNames.contains("profiles")) {
+          db.createObjectStore("profiles", { keyPath: "id", autoIncrement: true });
+        }
+      };
+    });
+  }
+
+  getAllProfiles() {
+    return new Promise((resolve, reject) => {
+      const transaction = this.db.transaction(["profiles"], "readonly");
+      const store = transaction.objectStore("profiles");
+      const request = store.getAll();
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = (e) => reject(e.target.error);
+    });
+  }
+
+  saveProfile(profile) {
+    return new Promise((resolve, reject) => {
+      const transaction = this.db.transaction(["profiles"], "readwrite");
+      const store = transaction.objectStore("profiles");
+      const request = store.put(profile);
+      request.onsuccess = (e) => {
+        profile.id = e.target.result;
+        resolve(profile);
+      };
+      request.onerror = (e) => reject(e.target.error);
+    });
+  }
+}
+
+const db = new FEJDatabase();
+let activeProfile = null;
+
+async function refreshProfilesList() {
+  try {
+    const profiles = await db.getAllProfiles();
+    const pBox = document.getElementById("profiles-box");
+    const cBox = document.getElementById("create-profile-box");
+    const cancelBtn = document.getElementById("btn-cancel-create");
+
+    if (profiles.length > 0) {
+      pBox.style.display = "block";
+      cBox.style.display = "none";
+      cancelBtn.style.display = "inline-block";
+
+      const list = document.getElementById("profiles-list");
+      list.innerHTML = profiles.map(p => `
+        <button class="lesson-node" onclick="handleSelectProfile(${p.id})" style="border: 2px solid var(--blue); margin: 4px 0; width: 100%; text-align: left;">
+          <span class="icon" style="font-size: 2.2rem; margin-right: 10px;">${p.avatar}</span>
+          <span class="info" style="flex: 1;">
+            <span class="name" style="font-size: 1.1rem; font-weight: 700; display: block; color: var(--ink);">น้อง ${p.name}</span>
+            <span class="sub" style="font-size: 0.85rem; color: #6b7a99;">💎 ${p.xp || 0} XP</span>
+          </span>
+          <span style="font-size: 1rem; color: var(--duck); font-weight: bold;">
+            ⭐ ${Object.values(p.stars || {}).reduce((a, b) => a + b, 0)}
+          </span>
+        </button>
+      `).join("");
+    } else {
+      pBox.style.display = "none";
+      cBox.style.display = "block";
+      cancelBtn.style.display = "none";
+    }
+  } catch (e) {
+    console.error(e);
+  }
+}
+
+async function handleSelectProfile(id) {
+  const profiles = await db.getAllProfiles();
+  const found = profiles.find(p => p.id === id);
+  if (found) {
+    selectProfile(found);
+  }
+}
+
+function selectProfile(profile) {
+  activeProfile = profile;
+  state.id = profile.id;
+  state.name = profile.name;
+  state.avatar = profile.avatar;
+  state.xp = profile.xp || 0;
+  state.stars = profile.stars || {};
+  
+  document.getElementById("map-name").textContent = state.name;
+  document.getElementById("map-avatar").textContent = state.avatar;
+  document.getElementById("xp-total").textContent = state.xp;
+  
+  speak("สวัสดี น้อง" + state.name + " ยินดีต้อนรับกลับมาผจญภัย!","th-TH");
+  goMap();
+}
+
+function showCreateForm() {
+  document.getElementById("profiles-box").style.display = "none";
+  document.getElementById("create-profile-box").style.display = "block";
+  document.getElementById("inp-name").value = "";
+}
+
+function showProfilesList() {
+  document.getElementById("profiles-box").style.display = "block";
+  document.getElementById("create-profile-box").style.display = "none";
+}
+
 /* ================= STATE (in-memory) ================= */
-const state = {name:"เพื่อน", avatar:"🦁", xp:0, grade:"p3", lessonId:null, step:0, lessonXp:0, stars:{}};
+const state = {id: null, name:"เพื่อน", avatar:"🦁", xp:0, grade:"p3", lessonId:null, step:0, lessonXp:0, stars:{}};
 function getLesson(id){
   for(const g of Object.values(CONTENT))
     for(const u of g.units)
@@ -134,13 +253,24 @@ document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
   t.classList.add("active"); state.grade = t.dataset.g; drawMap();
 });
-function startApp(){
+async function startApp(){
   const n = document.getElementById("inp-name").value.trim();
-  if(n) state.name = n;
-  document.getElementById("map-name").textContent = state.name;
-  document.getElementById("map-avatar").textContent = state.avatar;
-  speak("สวัสดี น้อง"+state.name+" ยินดีต้อนรับสู่การผจญภัยภาษาอังกฤษ!","th-TH");
-  goMap();
+  if(!n) return;
+  const newProfile = {
+    name: n,
+    avatar: state.avatar || "🦁",
+    xp: 0,
+    stars: {},
+    speakingStats: []
+  };
+  try {
+    const saved = await db.saveProfile(newProfile);
+    selectProfile(saved);
+  } catch (e) {
+    console.error(e);
+    state.name = n;
+    goMap();
+  }
 }
 function drawMap(){
   const g = CONTENT[state.grade];
@@ -380,6 +510,13 @@ function render(){
     const stars = ratio>=.8?3:ratio>=.5?2:1;
     state.xp += state.lessonXp;
     state.stars[state.lessonId] = Math.max(state.stars[state.lessonId]||0, stars);
+    
+    if(activeProfile){
+      activeProfile.xp = state.xp;
+      activeProfile.stars = state.stars;
+      db.saveProfile(activeProfile).catch(console.error);
+    }
+    
     const nid = nextLessonId(state.lessonId);
     stage.innerHTML = `
       <div class="center">
@@ -502,16 +639,20 @@ function setupSpeech(target){
   mic.onclick = ()=>{ busy ? stopRecording() : startRecording(); };
 }
 
-/* ================= INIT: โหลดเนื้อหาบทเรียนก่อนปลดล็อกปุ่มเริ่ม ================= */
+/* ================= INIT: โหลดเนื้อหาบทเรียนและเปิดฐานข้อมูลก่อนปลดล็อก ================= */
 (function init(){
   const btn = document.getElementById("btn-start");
-  loadContent().then(c=>{
+  Promise.all([
+    loadContent(),
+    db.open()
+  ]).then(([c]) => {
     CONTENT = c;
     btn.disabled = false;
     btn.textContent = "เริ่มผจญภัย! 🚀";
-  }).catch(err=>{
+    refreshProfilesList();
+  }).catch(err => {
     btn.textContent = "โหลดไม่สำเร็จ 😢";
     console.error(err);
-    alert("โหลดข้อมูลบทเรียนไม่สำเร็จ: "+err.message+"\n\nถ้าเปิดไฟล์นี้ตรงๆ (file://) เบราว์เซอร์จะบล็อกการโหลด JSON — ต้องรันผ่านเว็บเซิร์ฟเวอร์ในเครื่อง เช่น python3 -m http.server แล้วเปิด http://localhost:8000");
+    alert("โหลดข้อมูลเริ่มต้นไม่สำเร็จ: " + err.message);
   });
 })();
