@@ -1,151 +1,151 @@
 {
   "grade": "p4",
-  "gradeName": "ป.4 — Four Seasons Fair 🎪",
-  "unitName": "หน่วย 2 · Sports Day — วันกีฬาสี",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 2 · Amazing Landmarks — สถานที่สำคัญของโลก",
   "lessons": [
     {
       "id": "p4u2l1",
-      "icon": "⚽",
-      "title": "Let's Play Sports!",
-      "sub": "กีฬาชนิดต่างๆ",
+      "icon": "🗼",
+      "title": "Famous Places",
+      "sub": "สถานที่ที่มีชื่อเสียง",
       "intro": {
-        "en": "Sports Day is coming! What sports do you like?",
-        "th": "วันกีฬาสีใกล้มาแล้ว! มารู้จักกีฬาชนิดต่างๆ กัน"
+        "en": "Let's visit famous places around the world!",
+        "th": "ไปเที่ยวสถานที่มีชื่อเสียงรอบโลกกันเถอะ"
       },
       "vocab": [
         {
-          "w": "football",
-          "th": "ฟุตบอล",
-          "e": "⚽"
+          "w": "pyramid",
+          "th": "พีระมิด",
+          "e": "🔺"
         },
         {
-          "w": "basketball",
-          "th": "บาสเกตบอล",
-          "e": "🏀"
+          "w": "tower",
+          "th": "หอคอย",
+          "e": "🗼"
         },
         {
-          "w": "volleyball",
-          "th": "วอลเลย์บอล",
-          "e": "🏐"
+          "w": "castle",
+          "th": "ปราสาท",
+          "e": "🏰"
         },
         {
-          "w": "badminton",
-          "th": "แบดมินตัน",
-          "e": "🏸"
+          "w": "temple",
+          "th": "วัด",
+          "e": "🛕"
         },
         {
-          "w": "table tennis",
-          "th": "ปิงปอง",
-          "e": "🏓"
+          "w": "bridge",
+          "th": "สะพาน",
+          "e": "🌉"
         },
         {
-          "w": "running",
-          "th": "วิ่งแข่ง",
-          "e": "🏃"
+          "w": "statue",
+          "th": "รูปปั้น",
+          "e": "🗿"
         },
         {
-          "w": "swimming",
-          "th": "ว่ายน้ำ",
-          "e": "🏊"
+          "w": "palace",
+          "th": "พระราชวัง",
+          "e": "🏯"
         },
         {
-          "w": "tug of war",
-          "th": "ชักเย่อ",
-          "e": "🪢"
+          "w": "wall",
+          "th": "กำแพง",
+          "e": "🧱"
         }
       ],
       "build": {
-        "sentence": "I play basketball with my friends.",
-        "th": "ฉันเล่นบาสเกตบอลกับเพื่อนๆ"
+        "sentence": "The tower is very tall.",
+        "th": "หอคอยนี้สูงมาก"
       },
       "speak": [
         {
-          "t": "I like football.",
-          "th": "ฉันชอบฟุตบอล"
+          "t": "I want to see the pyramid.",
+          "th": "ฉันอยากไปดูพีระมิด"
         },
         {
-          "t": "Do you play badminton?",
-          "th": "เธอเล่นแบดมินตันไหม?"
+          "t": "This castle is very old.",
+          "th": "ปราสาทนี้เก่าแก่มาก"
         },
         {
-          "t": "Swimming is fun.",
-          "th": "ว่ายน้ำสนุกดี"
+          "t": "We visited a beautiful temple.",
+          "th": "พวกเราไปเยี่ยมชมวัดที่สวยงาม"
         },
         {
-          "t": "Let us play table tennis.",
-          "th": "ไปเล่นปิงปองกันเถอะ"
+          "t": "The bridge crosses the river.",
+          "th": "สะพานทอดข้ามแม่น้ำ"
         }
       ],
       "quiz": [
         {
-          "q": "🏀 คือกีฬา...",
+          "q": "🔺 คือ...",
           "c": [
-            "football",
-            "basketball",
-            "volleyball"
-          ],
-          "a": 1
-        },
-        {
-          "q": "'ปิงปอง' คือ...",
-          "c": [
-            "table tennis",
-            "badminton",
-            "tennis"
+            "pyramid",
+            "tower",
+            "castle"
           ],
           "a": 0
         },
         {
-          "q": "🏸 คือ...",
+          "q": "'หอคอย' คือ...",
           "c": [
-            "badminton",
-            "volleyball",
-            "running"
+            "tower",
+            "bridge",
+            "statue"
           ],
           "a": 0
         },
         {
-          "q": "'ชักเย่อ' คือ...",
+          "q": "🏰 คือ...",
           "c": [
-            "tug of war",
-            "running",
-            "jumping"
+            "castle",
+            "palace",
+            "temple"
           ],
           "a": 0
         },
         {
-          "q": "กีฬาในน้ำคือ...",
+          "q": "'วัด' คือ...",
           "c": [
-            "swimming",
-            "running",
-            "football"
+            "temple",
+            "palace",
+            "wall"
           ],
           "a": 0
         },
         {
-          "q": "I ___ football every day.",
+          "q": "🌉 คือ...",
           "c": [
-            "play",
-            "go",
-            "do"
+            "bridge",
+            "statue",
+            "tower"
           ],
           "a": 0
         },
         {
-          "q": "🏐 คือ...",
+          "q": "'รูปปั้น' คือ...",
           "c": [
-            "basketball",
-            "volleyball",
-            "football"
+            "statue",
+            "wall",
+            "castle"
           ],
-          "a": 1
+          "a": 0
         },
         {
-          "q": "กีฬาที่ใช้เท้าเตะคือ...",
+          "q": "🏯 คือ...",
           "c": [
-            "football",
-            "badminton",
-            "table tennis"
+            "palace",
+            "pyramid",
+            "bridge"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กำแพง' คือ...",
+          "c": [
+            "wall",
+            "tower",
+            "temple"
           ],
           "a": 0
         }
@@ -153,147 +153,147 @@
     },
     {
       "id": "p4u2l2",
-      "icon": "🏃",
-      "title": "Look! He Is Running!",
-      "sub": "กำลังทำอยู่ (-ing)",
+      "icon": "📸",
+      "title": "What Is It Famous For?",
+      "sub": "ทำไมสถานที่นี้ถึงมีชื่อเสียง",
       "intro": {
-        "en": "Look at the field! Everyone is playing!",
-        "th": "ดูที่สนามสิ ทุกคนกำลังเล่นกีฬา! เรียนประโยค 'กำลังทำ' (is/are + ing)"
+        "en": "Why is this place so famous?",
+        "th": "ทำไมสถานที่นี้ถึงมีชื่อเสียงนะ?"
       },
       "vocab": [
         {
-          "w": "kicking",
-          "th": "กำลังเตะ",
-          "e": "🦵"
+          "w": "famous for",
+          "th": "มีชื่อเสียงเรื่อง",
+          "e": "⭐"
         },
         {
-          "w": "throwing",
-          "th": "กำลังขว้าง",
-          "e": "🥏"
+          "w": "tourist",
+          "th": "นักท่องเที่ยว",
+          "e": "🧳"
         },
         {
-          "w": "catching",
-          "th": "กำลังรับลูก",
-          "e": "🧤"
+          "w": "visit",
+          "th": "ไปเยี่ยมชม",
+          "e": "📍"
         },
         {
-          "w": "bouncing",
-          "th": "กำลังเลี้ยงลูก",
-          "e": "⛹️"
+          "w": "take a photo",
+          "th": "ถ่ายรูป",
+          "e": "📸"
         },
         {
-          "w": "hitting",
-          "th": "กำลังตีลูก",
-          "e": "🏓"
+          "w": "souvenir",
+          "th": "ของที่ระลึก",
+          "e": "🎁"
         },
         {
-          "w": "skipping",
-          "th": "กำลังกระโดดเชือก",
-          "e": "🪢"
+          "w": "guide",
+          "th": "ไกด์นำเที่ยว",
+          "e": "🧑‍🏫"
         },
         {
-          "w": "racing",
-          "th": "กำลังแข่งกัน",
-          "e": "🏁"
+          "w": "ticket",
+          "th": "ตั๋ว",
+          "e": "🎫"
         },
         {
-          "w": "cheering",
-          "th": "กำลังเชียร์",
-          "e": "📣"
+          "w": "amazing",
+          "th": "น่าทึ่ง",
+          "e": "🤩"
         }
       ],
       "build": {
-        "sentence": "He is kicking the ball now.",
-        "th": "เขากำลังเตะบอลอยู่ตอนนี้"
+        "sentence": "This place is famous for its beautiful view.",
+        "th": "ที่นี่มีชื่อเสียงเรื่องวิวสวยงาม"
       },
       "speak": [
         {
-          "t": "He is running fast.",
-          "th": "เขากำลังวิ่งเร็วมาก"
+          "t": "Many tourists visit this place.",
+          "th": "นักท่องเที่ยวหลายคนมาเยี่ยมชมที่นี่"
         },
         {
-          "t": "She is throwing the ball.",
-          "th": "เธอกำลังขว้างลูกบอล"
+          "t": "Let's take a photo here.",
+          "th": "มาถ่ายรูปกันตรงนี้เถอะ"
         },
         {
-          "t": "They are cheering loudly.",
-          "th": "พวกเขากำลังเชียร์เสียงดัง"
+          "t": "I bought a souvenir for my mom.",
+          "th": "ฉันซื้อของที่ระลึกให้แม่"
         },
         {
-          "t": "We are racing to the line.",
-          "th": "พวกเรากำลังแข่งวิ่งไปที่เส้นชัย"
+          "t": "This place is amazing!",
+          "th": "ที่นี่น่าทึ่งมาก!"
         }
       ],
       "quiz": [
         {
-          "q": "🦵⚽ = ?",
+          "q": "⭐ คือ...",
           "c": [
-            "kicking",
-            "catching",
-            "throwing"
+            "famous for",
+            "tourist",
+            "guide"
           ],
           "a": 0
         },
         {
-          "q": "'กำลังรับลูก' คือ...",
+          "q": "'นักท่องเที่ยว' คือ...",
           "c": [
-            "catching",
-            "kicking",
-            "hitting"
+            "tourist",
+            "guide",
+            "souvenir"
           ],
           "a": 0
         },
         {
-          "q": "He ___ running now.",
+          "q": "📸 คือ...",
           "c": [
-            "is",
-            "are",
-            "am"
+            "take a photo",
+            "visit",
+            "ticket"
           ],
           "a": 0
         },
         {
-          "q": "They ___ cheering.",
+          "q": "'ของที่ระลึก' คือ...",
           "c": [
-            "is",
-            "are",
-            "am"
-          ],
-          "a": 1
-        },
-        {
-          "q": "🪢 กระโดดเชือกคือ...",
-          "c": [
-            "skipping",
-            "bouncing",
-            "racing"
+            "souvenir",
+            "ticket",
+            "guide"
           ],
           "a": 0
         },
         {
-          "q": "She is ___ the ball. (ขว้าง)",
+          "q": "🧑‍🏫 คือ...",
           "c": [
-            "throwing",
-            "eating",
-            "reading"
+            "guide",
+            "tourist",
+            "ticket"
           ],
           "a": 0
         },
         {
-          "q": "⛹️ เลี้ยงลูกบาสคือ...",
+          "q": "'ตั๋ว' คือ...",
           "c": [
-            "bouncing",
-            "hitting",
-            "kicking"
+            "ticket",
+            "souvenir",
+            "guide"
           ],
           "a": 0
         },
         {
-          "q": "Look! คำนี้แปลว่า...",
+          "q": "🤩 คือ...",
           "c": [
-            "ดูสิ!",
-            "ฟังสิ!",
-            "ไปกัน!"
+            "amazing",
+            "famous for",
+            "visit"
+          ],
+          "a": 0
+        },
+        {
+          "q": "This place is famous ___ its food.",
+          "c": [
+            "for",
+            "in",
+            "at"
           ],
           "a": 0
         }
@@ -301,147 +301,147 @@
     },
     {
       "id": "p4u2l3",
-      "icon": "🥇",
-      "title": "Team & Equipment",
-      "sub": "ทีมและอุปกรณ์กีฬา",
+      "icon": "🏙️",
+      "title": "This Building Has...",
+      "sub": "บรรยายสถานที่ด้วย has/have",
       "intro": {
-        "en": "A good team needs a good coach!",
-        "th": "รู้จักคำเรียกทีม อุปกรณ์ และสถานที่เล่นกีฬากัน"
+        "en": "This building has so many amazing things!",
+        "th": "อาคารนี้มีอะไรน่าทึ่งเยอะเลย!"
       },
       "vocab": [
         {
-          "w": "ball",
-          "th": "ลูกบอล",
-          "e": "🥎"
+          "w": "has",
+          "th": "มี (เอกพจน์)",
+          "e": "🏢"
         },
         {
-          "w": "racket",
-          "th": "ไม้แร็กเกต",
-          "e": "🎾"
+          "w": "have",
+          "th": "มี (พหูพจน์)",
+          "e": "🏢"
         },
         {
-          "w": "net",
-          "th": "ตาข่าย/เน็ต",
-          "e": "🥅"
+          "w": "ancient",
+          "th": "โบราณ",
+          "e": "🏺"
         },
         {
-          "w": "team",
-          "th": "ทีม",
-          "e": "👥"
+          "w": "modern",
+          "th": "ทันสมัย",
+          "e": "🏙️"
         },
         {
-          "w": "coach",
-          "th": "โค้ช",
-          "e": "🧑‍🏫"
+          "w": "huge",
+          "th": "มหึมา",
+          "e": "📏"
         },
         {
-          "w": "player",
-          "th": "นักกีฬา",
-          "e": "🧍"
+          "w": "a great view",
+          "th": "วิวที่สวยงาม",
+          "e": "🌄"
         },
         {
-          "w": "field",
-          "th": "สนาม",
-          "e": "🏟️"
+          "w": "steps",
+          "th": "ขั้นบันได",
+          "e": "🪜"
         },
         {
-          "w": "medal",
-          "th": "เหรียญรางวัล",
-          "e": "🥇"
+          "w": "a light show",
+          "th": "การแสดงแสงสี",
+          "e": "💡"
         }
       ],
       "build": {
-        "sentence": "Our team has a good coach.",
-        "th": "ทีมของเรามีโค้ชที่เก่ง"
+        "sentence": "This tower has a great view.",
+        "th": "หอคอยนี้มีวิวที่สวยงาม"
       },
       "speak": [
         {
-          "t": "I am a football player.",
-          "th": "ฉันเป็นนักฟุตบอล"
+          "t": "This tower has a great view.",
+          "th": "หอคอยนี้มีวิวที่สวยงาม"
         },
         {
-          "t": "Our team is red team.",
-          "th": "ทีมของเราคือทีมสีแดง"
+          "t": "These temples have ancient statues.",
+          "th": "วัดเหล่านี้มีรูปปั้นโบราณ"
         },
         {
-          "t": "The coach helps us practice.",
-          "th": "โค้ชช่วยพวกเราฝึกซ้อม"
+          "t": "This castle has many steps.",
+          "th": "ปราสาทนี้มีขั้นบันไดเยอะมาก"
         },
         {
-          "t": "We want to win a medal.",
-          "th": "พวกเราอยากได้เหรียญรางวัล"
+          "t": "The city has a light show at night.",
+          "th": "เมืองนี้มีการแสดงแสงสีตอนกลางคืน"
         }
       ],
       "quiz": [
         {
-          "q": "🥇 คือ...",
+          "q": "This tower ___ a great view.",
           "c": [
-            "medal",
-            "ball",
-            "net"
+            "has",
+            "have",
+            "is"
           ],
           "a": 0
         },
         {
-          "q": "คนที่สอนทีมคือ...",
+          "q": "These castles ___ ancient walls.",
           "c": [
-            "coach",
-            "player",
-            "team"
+            "have",
+            "has",
+            "is"
           ],
           "a": 0
         },
         {
-          "q": "'สนาม' คือ...",
+          "q": "🏺 คือ...",
           "c": [
-            "field",
-            "net",
-            "racket"
+            "ancient",
+            "modern",
+            "huge"
           ],
           "a": 0
         },
         {
-          "q": "แบดมินตันต้องใช้...",
+          "q": "'ทันสมัย' คือ...",
           "c": [
-            "racket",
-            "goal",
-            "medal"
+            "modern",
+            "ancient",
+            "huge"
           ],
           "a": 0
         },
         {
-          "q": "'นักกีฬา' คือ...",
+          "q": "📏 คือ...",
           "c": [
-            "player",
-            "coach",
-            "team"
+            "huge",
+            "ancient",
+            "modern"
           ],
           "a": 0
         },
         {
-          "q": "Our ___ has ten players.",
+          "q": "🌄 คือ...",
           "c": [
-            "team",
-            "ball",
-            "field"
+            "a great view",
+            "steps",
+            "a light show"
           ],
           "a": 0
         },
         {
-          "q": "🥅 ตาข่ายคือ...",
+          "q": "'ขั้นบันได' คือ...",
           "c": [
-            "net",
-            "ball",
-            "field"
+            "steps",
+            "view",
+            "show"
           ],
           "a": 0
         },
         {
-          "q": "ทีมที่ชนะจะได้...",
+          "q": "💡 คือ...",
           "c": [
-            "a medal",
-            "a net",
-            "a racket"
+            "a light show",
+            "a great view",
+            "steps"
           ],
           "a": 0
         }
@@ -449,147 +449,147 @@
     },
     {
       "id": "p4u2l4",
-      "icon": "🏁",
-      "title": "Ready, Set, Go!",
-      "sub": "วันแข่งจริง + ทบทวน",
+      "icon": "🇹🇭",
+      "title": "My Country's Landmarks",
+      "sub": "สถานที่สำคัญของไทย + ทบทวน",
       "intro": {
-        "en": "Today is Sports Day! Ready, set, go!",
-        "th": "วันกีฬาสีมาถึงแล้ว! บทสุดท้ายของหน่วย พร้อมทบทวนทั้งหมด"
+        "en": "Thailand has amazing landmarks too!",
+        "th": "ประเทศไทยก็มีสถานที่สำคัญที่น่าทึ่งเหมือนกันนะ บทนี้มีทบทวนทั้งหน่วยด้วย"
       },
       "vocab": [
         {
-          "w": "get ready",
-          "th": "เตรียมตัว",
-          "e": "🎽"
+          "w": "Grand Palace",
+          "th": "พระบรมมหาราชวัง",
+          "e": "🏯"
         },
         {
-          "w": "warm up",
-          "th": "อบอุ่นร่างกาย",
-          "e": "🧘"
+          "w": "Wat Arun",
+          "th": "วัดอรุณ",
+          "e": "🛕"
         },
         {
-          "w": "start",
-          "th": "เริ่ม",
-          "e": "🚦"
+          "w": "floating market",
+          "th": "ตลาดน้ำ",
+          "e": "🛶"
         },
         {
-          "w": "run the race",
-          "th": "วิ่งแข่ง",
-          "e": "🏃"
+          "w": "beach",
+          "th": "ชายหาด",
+          "e": "🏖️"
         },
         {
-          "w": "finish line",
-          "th": "เส้นชัย",
-          "e": "🏁"
+          "w": "mountain",
+          "th": "ภูเขา",
+          "e": "⛰️"
         },
         {
-          "w": "winner",
-          "th": "ผู้ชนะ",
-          "e": "🏆"
+          "w": "waterfall",
+          "th": "น้ำตก",
+          "e": "💦"
         },
         {
-          "w": "teamwork",
-          "th": "การทำงานเป็นทีม",
-          "e": "🤝"
+          "w": "island",
+          "th": "เกาะ",
+          "e": "🏝️"
         },
         {
-          "w": "have fun",
-          "th": "สนุกสนาน",
-          "e": "🎉"
+          "w": "national park",
+          "th": "อุทยานแห่งชาติ",
+          "e": "🌳"
         }
       ],
       "build": {
-        "sentence": "We run to the finish line.",
-        "th": "พวกเราวิ่งไปที่เส้นชัย"
+        "sentence": "The Grand Palace is beautiful and famous.",
+        "th": "พระบรมมหาราชวังสวยงามและมีชื่อเสียง"
       },
       "speak": [
         {
-          "t": "Ready, set, go!",
-          "th": "เข้าที่ ระวัง ไป!"
+          "t": "I visited the Grand Palace.",
+          "th": "ฉันไปเยี่ยมชมพระบรมมหาราชวัง"
         },
         {
-          "t": "Warm up before you play.",
-          "th": "อบอุ่นร่างกายก่อนเล่นนะ"
+          "t": "Thailand has beautiful beaches.",
+          "th": "ประเทศไทยมีชายหาดที่สวยงาม"
         },
         {
-          "t": "Teamwork makes us strong.",
-          "th": "การร่วมมือกันทำให้เราแข็งแกร่ง"
+          "t": "We saw a waterfall in the national park.",
+          "th": "พวกเราเห็นน้ำตกในอุทยานแห่งชาติ"
         },
         {
-          "t": "Winning is fun, but playing is more fun!",
-          "th": "ชนะก็สนุก แต่ได้เล่นสนุกกว่า!"
+          "t": "The floating market is fun to visit.",
+          "th": "ตลาดน้ำสนุกที่จะไปเยี่ยมชม"
         }
       ],
       "quiz": [
         {
-          "q": "ก่อนเล่นกีฬาต้อง...",
+          "q": "🏯 คือ...",
           "c": [
-            "warm up",
-            "sleep",
-            "eat a lot"
+            "Grand Palace",
+            "Wat Arun",
+            "floating market"
           ],
           "a": 0
         },
         {
-          "q": "🏁 คือ...",
+          "q": "🛶 คือ...",
           "c": [
-            "finish line",
-            "start",
-            "field"
+            "floating market",
+            "beach",
+            "island"
           ],
           "a": 0
         },
         {
-          "q": "'ผู้ชนะ' คือ...",
+          "q": "'ชายหาด' คือ...",
           "c": [
-            "winner",
-            "loser",
-            "runner"
+            "beach",
+            "island",
+            "mountain"
           ],
           "a": 0
         },
         {
-          "q": "🤝 ช่วยกันทั้งทีมคือ...",
+          "q": "⛰️ คือ...",
           "c": [
-            "teamwork",
-            "homework",
-            "network"
+            "mountain",
+            "waterfall",
+            "island"
           ],
           "a": 0
         },
         {
-          "q": "Ready, set, ___!",
+          "q": "[ทบทวน] This tower ___ a great view.",
           "c": [
-            "go",
-            "stop",
-            "eat"
+            "has",
+            "have",
+            "is"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] She is ___ the ball.",
+          "q": "[ทบทวน] 🔺 คือ...",
           "c": [
-            "kicking",
-            "kick",
-            "kicks"
+            "pyramid",
+            "tower",
+            "castle"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] 🏓 กีฬานี้คือ...",
+          "q": "[ทบทวน] Many ___ visit this place.",
           "c": [
-            "table tennis",
-            "volleyball",
-            "tug of war"
+            "tourists",
+            "guides",
+            "tickets"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] ทีมของเรามี ___ ที่เก่ง",
+          "q": "'อุทยานแห่งชาติ' คือ...",
           "c": [
-            "coach",
-            "medal",
-            "net"
+            "national park",
+            "island",
+            "waterfall"
           ],
           "a": 0
         }

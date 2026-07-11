@@ -1,142 +1,598 @@
 {
   "grade": "p3",
-  "gradeName": "ป.3 — Big City 🏙️",
-  "unitName": "หน่วย 3 · My Family — ครอบครัวของฉัน",
+  "gradeName": "ป.3 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 3 · At the Market — ที่ตลาดในงานแฟร์",
   "lessons": [
     {
       "id": "p3u3l1",
-      "icon": "👨‍👩‍👧‍👦",
-      "title": "My Family",
-      "sub": "สมาชิกในครอบครัว",
-      "intro": { "en": "This is my family! Let me show you.", "th": "นี่คือครอบครัวของฉัน! มาดูกันเลย" },
+      "icon": "🏪",
+      "title": "At the Market",
+      "sub": "ที่ตลาด",
+      "intro": {
+        "en": "Welcome to the fair market!",
+        "th": "ยินดีต้อนรับสู่ตลาดในงานแฟร์!"
+      },
       "vocab": [
-        {"w":"father","th":"พ่อ","e":"👨"},
-        {"w":"mother","th":"แม่","e":"👩"},
-        {"w":"brother","th":"พี่ชาย/น้องชาย","e":"👦"},
-        {"w":"sister","th":"พี่สาว/น้องสาว","e":"👧"},
-        {"w":"grandfather","th":"ปู่/ตา","e":"👴"},
-        {"w":"grandmother","th":"ย่า/ยาย","e":"👵"},
-        {"w":"baby","th":"ทารก","e":"👶"},
-        {"w":"family","th":"ครอบครัว","e":"👨‍👩‍👧‍👦"}
+        {
+          "w": "market",
+          "th": "ตลาด",
+          "e": "🏪"
+        },
+        {
+          "w": "stall",
+          "th": "แผงขายของ",
+          "e": "🛖"
+        },
+        {
+          "w": "shop",
+          "th": "ร้านค้า",
+          "e": "🏬"
+        },
+        {
+          "w": "seller",
+          "th": "คนขาย",
+          "e": "🧑‍💼"
+        },
+        {
+          "w": "customer",
+          "th": "ลูกค้า",
+          "e": "🙋"
+        },
+        {
+          "w": "basket",
+          "th": "ตะกร้า",
+          "e": "🧺"
+        },
+        {
+          "w": "bag",
+          "th": "ถุง",
+          "e": "👜"
+        },
+        {
+          "w": "cart",
+          "th": "รถเข็น",
+          "e": "🛒"
+        }
       ],
-      "build": {"sentence":"This is my father.","th":"นี่คือพ่อของฉัน"},
+      "build": {
+        "sentence": "I put the fruit in my basket.",
+        "th": "ฉันใส่ผลไม้ในตะกร้า"
+      },
       "speak": [
-        {"t":"This is my mother.","th":"นี่คือแม่ของฉัน"},
-        {"t":"I love my family.","th":"ฉันรักครอบครัวของฉัน"},
-        {"t":"This is my brother.","th":"นี่คือพี่ชายของฉัน"},
-        {"t":"My family is happy.","th":"ครอบครัวของฉันมีความสุข"}
+        {
+          "t": "I go to the market with my mom.",
+          "th": "ฉันไปตลาดกับแม่"
+        },
+        {
+          "t": "The seller is very kind.",
+          "th": "คนขายใจดีมาก"
+        },
+        {
+          "t": "I put things in my cart.",
+          "th": "ฉันใส่ของในรถเข็น"
+        },
+        {
+          "t": "There are many stalls here.",
+          "th": "ที่นี่มีแผงขายของเยอะมาก"
+        }
       ],
       "quiz": [
-        {"q":"👨 คือ...","c":["father","mother","brother"],"a":0},
-        {"q":"'แม่' คือ...","c":["father","mother","sister"],"a":1},
-        {"q":"This is my ___. (👦)","c":["brother","sister","baby"],"a":0},
-        {"q":"👴 คือ...","c":["grandmother","grandfather","father"],"a":1},
-        {"q":"'ทารก' คือ...","c":["baby","sister","family"],"a":0},
-        {"q":"I love my ___.","c":["family","school","bus"],"a":0},
-        {"q":"👵 คือ...","c":["grandfather","grandmother","mother"],"a":1},
-        {"q":"'พี่สาว/น้องสาว' คือ...","c":["sister","brother","baby"],"a":0}
+        {
+          "q": "🏪 คือ...",
+          "c": [
+            "market",
+            "shop",
+            "stall"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'คนขาย' คือ...",
+          "c": [
+            "seller",
+            "customer",
+            "cart"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🧺 คือ...",
+          "c": [
+            "basket",
+            "bag",
+            "cart"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ลูกค้า' คือ...",
+          "c": [
+            "customer",
+            "seller",
+            "shop"
+          ],
+          "a": 0
+        },
+        {
+          "q": "👜 คือ...",
+          "c": [
+            "bag",
+            "basket",
+            "cart"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'รถเข็น' คือ...",
+          "c": [
+            "cart",
+            "basket",
+            "bag"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🛖 คือ...",
+          "c": [
+            "stall",
+            "shop",
+            "market"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I go to the ___ with my mom.",
+          "c": [
+            "market",
+            "school",
+            "garden"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u3l2",
-      "icon": "😊",
-      "title": "What Are They Like?",
-      "sub": "บรรยายลักษณะครอบครัว",
-      "intro": { "en": "Let's describe our family!", "th": "มาบรรยายครอบครัวของเรากันเถอะ" },
+      "icon": "💰",
+      "title": "How Much Is It?",
+      "sub": "ถามราคา",
+      "intro": {
+        "en": "How much does it cost?",
+        "th": "ของนี้ราคาเท่าไหร่นะ?"
+      },
       "vocab": [
-        {"w":"tall","th":"สูง","e":"🧍"},
-        {"w":"short","th":"เตี้ย","e":"🧒"},
-        {"w":"kind","th":"ใจดี","e":"😊"},
-        {"w":"funny","th":"ตลก","e":"😄"},
-        {"w":"strong","th":"แข็งแรง","e":"💪"},
-        {"w":"beautiful","th":"สวย","e":"🌸"},
-        {"w":"handsome","th":"หล่อ","e":"😎"},
-        {"w":"old","th":"อายุมาก","e":"👴"}
+        {
+          "w": "money",
+          "th": "เงิน",
+          "e": "💵"
+        },
+        {
+          "w": "coin",
+          "th": "เหรียญ",
+          "e": "🪙"
+        },
+        {
+          "w": "baht",
+          "th": "บาท",
+          "e": "💰"
+        },
+        {
+          "w": "price",
+          "th": "ราคา",
+          "e": "🏷️"
+        },
+        {
+          "w": "expensive",
+          "th": "แพง",
+          "e": "💎"
+        },
+        {
+          "w": "cheap",
+          "th": "ถูก",
+          "e": "🪙"
+        },
+        {
+          "w": "pay",
+          "th": "จ่ายเงิน",
+          "e": "💳"
+        },
+        {
+          "w": "change",
+          "th": "เงินทอน",
+          "e": "🔄"
+        }
       ],
-      "build": {"sentence":"My father is tall.","th":"พ่อของฉันตัวสูง"},
+      "build": {
+        "sentence": "How much is it? It is ten baht.",
+        "th": "ราคาเท่าไหร่? ราคาสิบบาท"
+      },
       "speak": [
-        {"t":"My father is tall.","th":"พ่อของฉันตัวสูง"},
-        {"t":"My mother is kind.","th":"แม่ของฉันใจดี"},
-        {"t":"My brother is funny.","th":"พี่ชายของฉันตลก"},
-        {"t":"My grandfather is strong.","th":"ปู่ของฉันแข็งแรง"}
+        {
+          "t": "How much is it?",
+          "th": "ราคาเท่าไหร่?"
+        },
+        {
+          "t": "It is ten baht.",
+          "th": "ราคาสิบบาท"
+        },
+        {
+          "t": "This is too expensive.",
+          "th": "อันนี้แพงเกินไป"
+        },
+        {
+          "t": "Here is your change.",
+          "th": "นี่เงินทอนของคุณ"
+        }
       ],
       "quiz": [
-        {"q":"'สูง' คือ...","c":["tall","short","old"],"a":0},
-        {"q":"My mother is ___. (ใจดี)","c":["kind","funny","tall"],"a":0},
-        {"q":"😄 คือ...","c":["funny","kind","strong"],"a":0},
-        {"q":"'แข็งแรง' คือ...","c":["strong","beautiful","short"],"a":0},
-        {"q":"🌸 บรรยายว่า...","c":["beautiful","handsome","old"],"a":0},
-        {"q":"'หล่อ' คือ...","c":["handsome","tall","kind"],"a":0},
-        {"q":"ตรงข้ามกับ tall คือ...","c":["short","strong","funny"],"a":0},
-        {"q":"My grandmother is ___. (อายุมาก)","c":["old","young","tall"],"a":0}
+        {
+          "q": "💵 คือ...",
+          "c": [
+            "money",
+            "coin",
+            "price"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แพง' คือ...",
+          "c": [
+            "expensive",
+            "cheap",
+            "free"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🪙 คือ...",
+          "c": [
+            "coin",
+            "money",
+            "change"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ถูก' คือ...",
+          "c": [
+            "cheap",
+            "expensive",
+            "price"
+          ],
+          "a": 0
+        },
+        {
+          "q": "How much ___ it?",
+          "c": [
+            "is",
+            "are",
+            "do"
+          ],
+          "a": 0
+        },
+        {
+          "q": "💳 คือ...",
+          "c": [
+            "pay",
+            "change",
+            "price"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เงินทอน' คือ...",
+          "c": [
+            "change",
+            "money",
+            "price"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🏷️ คือ...",
+          "c": [
+            "price",
+            "money",
+            "coin"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u3l3",
-      "icon": "👩‍⚕️",
-      "title": "What Do They Do?",
-      "sub": "อาชีพในครอบครัว",
-      "intro": { "en": "What does your family do?", "th": "ครอบครัวของหนูทำอาชีพอะไรกันบ้าง?" },
+      "icon": "🛍️",
+      "title": "Let's Go Shopping",
+      "sub": "ไปช้อปปิ้งกัน",
+      "intro": {
+        "en": "Let's buy something nice today!",
+        "th": "วันนี้ไปซื้อของดีๆ กันเถอะ!"
+      },
       "vocab": [
-        {"w":"teacher","th":"ครู","e":"👩‍🏫"},
-        {"w":"doctor","th":"หมอ","e":"👨‍⚕️"},
-        {"w":"nurse","th":"พยาบาล","e":"👩‍⚕️"},
-        {"w":"farmer","th":"ชาวนา","e":"👨‍🌾"},
-        {"w":"cook","th":"พ่อครัว/แม่ครัว","e":"👨‍🍳"},
-        {"w":"driver","th":"คนขับรถ","e":"🚕"},
-        {"w":"singer","th":"นักร้อง","e":"🎤"},
-        {"w":"artist","th":"ศิลปิน","e":"🎨"}
+        {
+          "w": "buy",
+          "th": "ซื้อ",
+          "e": "🛍️"
+        },
+        {
+          "w": "sell",
+          "th": "ขาย",
+          "e": "🏷️"
+        },
+        {
+          "w": "choose",
+          "th": "เลือก",
+          "e": "👉"
+        },
+        {
+          "w": "try on",
+          "th": "ลองใส่",
+          "e": "👕"
+        },
+        {
+          "w": "size",
+          "th": "ขนาด",
+          "e": "📏"
+        },
+        {
+          "w": "color",
+          "th": "สี",
+          "e": "🎨"
+        },
+        {
+          "w": "gift",
+          "th": "ของขวัญ",
+          "e": "🎁"
+        },
+        {
+          "w": "wrap",
+          "th": "ห่อของ",
+          "e": "🎀"
+        }
       ],
-      "build": {"sentence":"My mother is a doctor.","th":"แม่ของฉันเป็นหมอ"},
+      "build": {
+        "sentence": "I want to buy a gift for my mom.",
+        "th": "ฉันอยากซื้อของขวัญให้แม่"
+      },
       "speak": [
-        {"t":"My father is a driver.","th":"พ่อของฉันเป็นคนขับรถ"},
-        {"t":"My mother is a teacher.","th":"แม่ของฉันเป็นครู"},
-        {"t":"I want to be a singer.","th":"ฉันอยากเป็นนักร้อง"},
-        {"t":"My grandfather is a farmer.","th":"ปู่ของฉันเป็นชาวนา"}
+        {
+          "t": "I want to buy a gift.",
+          "th": "ฉันอยากซื้อของขวัญ"
+        },
+        {
+          "t": "Can I try this on?",
+          "th": "ขอลองใส่อันนี้ได้ไหม?"
+        },
+        {
+          "t": "What color do you like?",
+          "th": "เธอชอบสีอะไร?"
+        },
+        {
+          "t": "Please wrap it for me.",
+          "th": "ช่วยห่อให้หน่อยนะ"
+        }
       ],
       "quiz": [
-        {"q":"👩‍🏫 คือ...","c":["teacher","doctor","nurse"],"a":0},
-        {"q":"'หมอ' คือ...","c":["doctor","cook","driver"],"a":0},
-        {"q":"My father is a ___. (คนขับรถ)","c":["driver","singer","artist"],"a":0},
-        {"q":"👨‍🍳 คือ...","c":["cook","farmer","nurse"],"a":0},
-        {"q":"'นักร้อง' คือ...","c":["singer","artist","teacher"],"a":0},
-        {"q":"🎨 คือ...","c":["artist","singer","doctor"],"a":0},
-        {"q":"'ชาวนา' คือ...","c":["farmer","cook","driver"],"a":0},
-        {"q":"My mother is a ___. (พยาบาล)","c":["nurse","teacher","farmer"],"a":0}
+        {
+          "q": "🛍️ คือ...",
+          "c": [
+            "buy",
+            "sell",
+            "choose"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ขาย' คือ...",
+          "c": [
+            "sell",
+            "buy",
+            "pay"
+          ],
+          "a": 0
+        },
+        {
+          "q": "👕 ลองใส่คือ...",
+          "c": [
+            "try on",
+            "wrap",
+            "choose"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เลือก' คือ...",
+          "c": [
+            "choose",
+            "buy",
+            "sell"
+          ],
+          "a": 0
+        },
+        {
+          "q": "📏 คือ...",
+          "c": [
+            "size",
+            "color",
+            "gift"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ของขวัญ' คือ...",
+          "c": [
+            "gift",
+            "price",
+            "money"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🎀 คือ...",
+          "c": [
+            "wrap",
+            "try on",
+            "choose"
+          ],
+          "a": 0
+        },
+        {
+          "q": "What ___ do you like? (สี)",
+          "c": [
+            "color",
+            "size",
+            "price"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u3l4",
-      "icon": "❤️",
-      "title": "Family Time",
-      "sub": "เวลาของครอบครัว + ทบทวน",
-      "intro": { "en": "Family time is the best time!", "th": "เวลาที่อยู่กับครอบครัวคือเวลาที่ดีที่สุด! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "icon": "🎉",
+      "title": "Bargain Time!",
+      "sub": "ต่อรองราคา + ทบทวน",
+      "intro": {
+        "en": "It is bargain time! Everything is on sale!",
+        "th": "ได้เวลาต่อรองราคาแล้ว! ทุกอย่างลดราคา! บทนี้มีทบทวนทั้งหน่วยด้วย"
+      },
       "vocab": [
-        {"w":"have dinner","th":"ทานข้าวเย็นด้วยกัน","e":"🍽️"},
-        {"w":"watch a movie","th":"ดูหนัง","e":"🎬"},
-        {"w":"go to the park","th":"ไปสวนสาธารณะ","e":"🏞️"},
-        {"w":"play games","th":"เล่นเกม","e":"🎲"},
-        {"w":"tell a story","th":"เล่านิทาน","e":"📖"},
-        {"w":"hug","th":"กอด","e":"🤗"},
-        {"w":"laugh","th":"หัวเราะ","e":"😂"},
-        {"w":"love","th":"รัก","e":"❤️"}
+        {
+          "w": "bargain",
+          "th": "ต่อรองราคา",
+          "e": "🤝"
+        },
+        {
+          "w": "discount",
+          "th": "ส่วนลด",
+          "e": "➖"
+        },
+        {
+          "w": "sale",
+          "th": "การลดราคา",
+          "e": "🏷️"
+        },
+        {
+          "w": "free",
+          "th": "ฟรี",
+          "e": "🆓"
+        },
+        {
+          "w": "on sale",
+          "th": "กำลังลดราคา",
+          "e": "📢"
+        },
+        {
+          "w": "save money",
+          "th": "ประหยัดเงิน",
+          "e": "🐷"
+        },
+        {
+          "w": "spend",
+          "th": "ใช้จ่าย",
+          "e": "💸"
+        },
+        {
+          "w": "deal",
+          "th": "ข้อเสนอดีๆ",
+          "e": "✅"
+        }
       ],
-      "build": {"sentence":"We have dinner together.","th":"พวกเราทานข้าวเย็นด้วยกัน"},
+      "build": {
+        "sentence": "Can you give me a discount?",
+        "th": "ลดราคาให้หน่อยได้ไหม?"
+      },
       "speak": [
-        {"t":"We watch a movie together.","th":"พวกเราดูหนังด้วยกัน"},
-        {"t":"I hug my mom every day.","th":"ฉันกอดแม่ทุกวัน"},
-        {"t":"My family makes me laugh.","th":"ครอบครัวของฉันทำให้ฉันหัวเราะ"},
-        {"t":"I love my family so much.","th":"ฉันรักครอบครัวของฉันมากๆ"}
+        {
+          "t": "Can you give me a discount?",
+          "th": "ลดราคาให้หน่อยได้ไหม?"
+        },
+        {
+          "t": "This is a good deal!",
+          "th": "นี่เป็นข้อเสนอที่ดีมาก!"
+        },
+        {
+          "t": "I want to save my money.",
+          "th": "ฉันอยากประหยัดเงิน"
+        },
+        {
+          "t": "This one is free!",
+          "th": "อันนี้ฟรี!"
+        }
       ],
       "quiz": [
-        {"q":"🍽️ คือ...","c":["have dinner","watch a movie","play games"],"a":0},
-        {"q":"'เล่านิทาน' คือ...","c":["tell a story","hug","laugh"],"a":0},
-        {"q":"😂 คือ...","c":["laugh","hug","love"],"a":0},
-        {"q":"We ___ to the park on Sunday.","c":["go","have","tell"],"a":0},
-        {"q":"[ทบทวน] 👨 คือ...","c":["father","mother","sister"],"a":0},
-        {"q":"[ทบทวน] My mother is ___. (ใจดี)","c":["kind","tall","old"],"a":0},
-        {"q":"[ทบทวน] My father is a ___. (คนขับรถ)","c":["driver","singer","nurse"],"a":0},
-        {"q":"'กอด' คือ...","c":["hug","love","laugh"],"a":0}
+        {
+          "q": "🤝 คือ...",
+          "c": [
+            "bargain",
+            "sell",
+            "buy"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ส่วนลด' คือ...",
+          "c": [
+            "discount",
+            "price",
+            "change"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🆓 คือ...",
+          "c": [
+            "free",
+            "cheap",
+            "expensive"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ประหยัดเงิน' คือ...",
+          "c": [
+            "save money",
+            "spend",
+            "pay"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] How much ___ it?",
+          "c": [
+            "is",
+            "are",
+            "do"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] 'แพง' คือ...",
+          "c": [
+            "expensive",
+            "cheap",
+            "free"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] 🛍️ คือ...",
+          "c": [
+            "buy",
+            "sell",
+            "choose"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ใช้จ่าย' คือ...",
+          "c": [
+            "spend",
+            "save money",
+            "pay"
+          ],
+          "a": 0
+        }
       ]
     }
   ]

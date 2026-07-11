@@ -1,142 +1,598 @@
 {
   "grade": "p4",
-  "gradeName": "ป.4 — Four Seasons Fair 🎪",
-  "unitName": "หน่วย 7 · Yesterday at the Fair — เมื่อวานที่งานแฟร์",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 7 · Save Our Earth — ปกป้องโลกของเรา",
   "lessons": [
     {
       "id": "p4u7l1",
-      "icon": "🕰️",
-      "title": "Was and Were",
-      "sub": "เหตุการณ์ในอดีต (was/were)",
-      "intro": { "en": "Yesterday was a fun day at the fair!", "th": "เมื่อวานเป็นวันที่สนุกมากที่งานแฟร์! วันนี้เรียน was/were พูดถึงอดีตกัน" },
+      "icon": "🌍",
+      "title": "Our Planet",
+      "sub": "โลกของเรา",
+      "intro": {
+        "en": "We only have one planet. Let's take care of it!",
+        "th": "เรามีโลกใบเดียว มาช่วยกันดูแลโลกกันเถอะ!"
+      },
       "vocab": [
-        {"w":"was","th":"เป็น/อยู่ (อดีต, ฉัน/เขา)","e":"⏮️"},
-        {"w":"were","th":"เป็น/อยู่ (อดีต, พวกเรา/เธอ)","e":"⏪"},
-        {"w":"yesterday","th":"เมื่อวาน","e":"📅"},
-        {"w":"last night","th":"เมื่อคืน","e":"🌙"},
-        {"w":"last week","th":"สัปดาห์ที่แล้ว","e":"🗓️"},
-        {"w":"ago","th":"...ที่แล้ว","e":"⏳"},
-        {"w":"then","th":"ตอนนั้น","e":"🕰️"},
-        {"w":"before","th":"ก่อนหน้านี้","e":"⏱️"}
+        {
+          "w": "Earth",
+          "th": "โลก",
+          "e": "🌍"
+        },
+        {
+          "w": "ocean",
+          "th": "มหาสมุทร",
+          "e": "🌊"
+        },
+        {
+          "w": "forest",
+          "th": "ป่า",
+          "e": "🌳"
+        },
+        {
+          "w": "mountain",
+          "th": "ภูเขา",
+          "e": "⛰️"
+        },
+        {
+          "w": "river",
+          "th": "แม่น้ำ",
+          "e": "🏞️"
+        },
+        {
+          "w": "air",
+          "th": "อากาศ",
+          "e": "💨"
+        },
+        {
+          "w": "nature",
+          "th": "ธรรมชาติ",
+          "e": "🌿"
+        },
+        {
+          "w": "environment",
+          "th": "สิ่งแวดล้อม",
+          "e": "🌱"
+        }
       ],
-      "build": {"sentence":"I was at the fair yesterday.","th":"เมื่อวานฉันอยู่ที่งานแฟร์"},
+      "build": {
+        "sentence": "We must take care of the Earth.",
+        "th": "พวกเราต้องดูแลโลก"
+      },
       "speak": [
-        {"t":"I was happy yesterday.","th":"เมื่อวานฉันมีความสุข"},
-        {"t":"We were at the fair last night.","th":"เมื่อคืนพวกเราอยู่ที่งานแฟร์"},
-        {"t":"It was a fun day.","th":"เป็นวันที่สนุกมาก"},
-        {"t":"They were tired after the game.","th":"พวกเขาเหนื่อยหลังจากเล่นเกม"}
+        {
+          "t": "We must take care of the Earth.",
+          "th": "พวกเราต้องดูแลโลก"
+        },
+        {
+          "t": "The ocean is full of life.",
+          "th": "มหาสมุทรเต็มไปด้วยสิ่งมีชีวิต"
+        },
+        {
+          "t": "I love spending time in nature.",
+          "th": "ฉันชอบใช้เวลาอยู่กับธรรมชาติ"
+        },
+        {
+          "t": "We need clean air to breathe.",
+          "th": "เราต้องการอากาศสะอาดในการหายใจ"
+        }
       ],
       "quiz": [
-        {"q":"I ___ happy yesterday.","c":["was","were","am"],"a":0},
-        {"q":"We ___ at the fair last night.","c":["were","was","are"],"a":0},
-        {"q":"'เมื่อวาน' คือ...","c":["yesterday","last night","before"],"a":0},
-        {"q":"'เมื่อคืน' คือ...","c":["last night","yesterday","last week"],"a":0},
-        {"q":"It ___ a fun day.","c":["was","were","is"],"a":0},
-        {"q":"🗓️ คือ...","c":["last week","last night","ago"],"a":0},
-        {"q":"'...ที่แล้ว' คือ...","c":["ago","then","before"],"a":0},
-        {"q":"They ___ tired.","c":["were","was","are"],"a":0}
+        {
+          "q": "🌍 คือ...",
+          "c": [
+            "Earth",
+            "ocean",
+            "forest"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'มหาสมุทร' คือ...",
+          "c": [
+            "ocean",
+            "river",
+            "forest"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🌳 คือ...",
+          "c": [
+            "forest",
+            "mountain",
+            "river"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แม่น้ำ' คือ...",
+          "c": [
+            "river",
+            "ocean",
+            "mountain"
+          ],
+          "a": 0
+        },
+        {
+          "q": "💨 คือ...",
+          "c": [
+            "air",
+            "water",
+            "nature"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ธรรมชาติ' คือ...",
+          "c": [
+            "nature",
+            "environment",
+            "air"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🌱 คือ...",
+          "c": [
+            "environment",
+            "nature",
+            "forest"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We must take care of the ___.",
+          "c": [
+            "Earth",
+            "sky",
+            "moon"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u7l2",
-      "icon": "🎮",
-      "title": "What Did You Do?",
-      "sub": "กริยาช่องที่ 2 (เติม -ed)",
-      "intro": { "en": "What did you do at the fair yesterday?", "th": "เมื่อวานหนูทำอะไรที่งานแฟร์บ้าง?" },
+      "icon": "♻️",
+      "title": "Reduce, Reuse, Recycle",
+      "sub": "ลด ใช้ซ้ำ รีไซเคิล",
+      "intro": {
+        "en": "Small actions can make a big difference!",
+        "th": "การกระทำเล็กๆ ก็สร้างความเปลี่ยนแปลงที่ยิ่งใหญ่ได้นะ"
+      },
       "vocab": [
-        {"w":"played","th":"เล่น (อดีต)","e":"🎮"},
-        {"w":"watched","th":"ดู (อดีต)","e":"👀"},
-        {"w":"walked","th":"เดิน (อดีต)","e":"🚶"},
-        {"w":"jumped","th":"กระโดด (อดีต)","e":"🤸"},
-        {"w":"cleaned","th":"ทำความสะอาด (อดีต)","e":"🧹"},
-        {"w":"cooked","th":"ทำอาหาร (อดีต)","e":"🍳"},
-        {"w":"listened","th":"ฟัง (อดีต)","e":"👂"},
-        {"w":"helped","th":"ช่วยเหลือ (อดีต)","e":"🤝"}
+        {
+          "w": "recycle",
+          "th": "รีไซเคิล",
+          "e": "♻️"
+        },
+        {
+          "w": "reduce",
+          "th": "ลด",
+          "e": "⬇️"
+        },
+        {
+          "w": "reuse",
+          "th": "ใช้ซ้ำ",
+          "e": "🔄"
+        },
+        {
+          "w": "plastic",
+          "th": "พลาสติก",
+          "e": "🥤"
+        },
+        {
+          "w": "trash",
+          "th": "ขยะ",
+          "e": "🗑️"
+        },
+        {
+          "w": "bin",
+          "th": "ถังขยะ",
+          "e": "🚮"
+        },
+        {
+          "w": "save energy",
+          "th": "ประหยัดพลังงาน",
+          "e": "💡"
+        },
+        {
+          "w": "save water",
+          "th": "ประหยัดน้ำ",
+          "e": "🚰"
+        }
       ],
-      "build": {"sentence":"I played games at the fair.","th":"ฉันเล่นเกมที่งานแฟร์"},
+      "build": {
+        "sentence": "We should recycle plastic bottles.",
+        "th": "พวกเราควรรีไซเคิลขวดพลาสติก"
+      },
       "speak": [
-        {"t":"I played games at the fair.","th":"ฉันเล่นเกมที่งานแฟร์"},
-        {"t":"We watched a show together.","th":"พวกเราดูการแสดงด้วยกัน"},
-        {"t":"I walked around the fair.","th":"ฉันเดินเที่ยวรอบๆ งานแฟร์"},
-        {"t":"I helped my mom cook dinner.","th":"ฉันช่วยแม่ทำอาหารเย็น"}
+        {
+          "t": "We should recycle plastic bottles.",
+          "th": "พวกเราควรรีไซเคิลขวดพลาสติก"
+        },
+        {
+          "t": "Let's reduce our trash.",
+          "th": "มาช่วยกันลดขยะกันเถอะ"
+        },
+        {
+          "t": "I reuse my shopping bag.",
+          "th": "ฉันใช้ถุงช้อปปิ้งซ้ำ"
+        },
+        {
+          "t": "Please turn off the light to save energy.",
+          "th": "ช่วยปิดไฟเพื่อประหยัดพลังงานด้วยนะ"
+        }
       ],
       "quiz": [
-        {"q":"🎮 คือ...","c":["played","watched","jumped"],"a":0},
-        {"q":"'ดู (อดีต)' คือ...","c":["watched","played","listened"],"a":0},
-        {"q":"Yesterday, I ___ games. (เล่น)","c":["played","play","playing"],"a":0},
-        {"q":"🚶 คือ...","c":["walked","jumped","cleaned"],"a":0},
-        {"q":"'ทำความสะอาด (อดีต)' คือ...","c":["cleaned","cooked","helped"],"a":0},
-        {"q":"I ___ my mom cook dinner. (ช่วย)","c":["helped","played","walked"],"a":0},
-        {"q":"👂 คือ...","c":["listened","watched","cooked"],"a":0},
-        {"q":"'กระโดด (อดีต)' คือ...","c":["jumped","walked","played"],"a":0}
+        {
+          "q": "♻️ คือ...",
+          "c": [
+            "recycle",
+            "reduce",
+            "reuse"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ลด' คือ...",
+          "c": [
+            "reduce",
+            "recycle",
+            "reuse"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🔄 คือ...",
+          "c": [
+            "reuse",
+            "recycle",
+            "reduce"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'พลาสติก' คือ...",
+          "c": [
+            "plastic",
+            "trash",
+            "bin"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🗑️ คือ...",
+          "c": [
+            "trash",
+            "bin",
+            "plastic"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ถังขยะ' คือ...",
+          "c": [
+            "bin",
+            "trash",
+            "plastic"
+          ],
+          "a": 0
+        },
+        {
+          "q": "💡 คือ...",
+          "c": [
+            "save energy",
+            "save water",
+            "recycle"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We should ___ plastic bottles.",
+          "c": [
+            "recycle",
+            "throw",
+            "burn"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u7l3",
-      "icon": "🍽️",
-      "title": "Irregular Past Verbs",
-      "sub": "กริยาช่องที่ 2 แบบพิเศษ",
-      "intro": { "en": "Some past verbs are special! Let's learn them.", "th": "คำกริยาบางคำในอดีตไม่เติม -ed นะ มาเรียนกัน" },
+      "icon": "🐢",
+      "title": "Protecting Animals",
+      "sub": "ปกป้องสัตว์ป่า",
+      "intro": {
+        "en": "Some animals need our help!",
+        "th": "สัตว์บางชนิดต้องการความช่วยเหลือจากเรานะ"
+      },
       "vocab": [
-        {"w":"went","th":"ไป (อดีต)","e":"🚶‍♀️"},
-        {"w":"ate","th":"กิน (อดีต)","e":"🍽️"},
-        {"w":"saw","th":"เห็น (อดีต)","e":"👁️"},
-        {"w":"had","th":"มี (อดีต)","e":"🤲"},
-        {"w":"did","th":"ทำ (อดีต)","e":"✅"},
-        {"w":"made","th":"ทำ/สร้าง (อดีต)","e":"🛠️"},
-        {"w":"bought","th":"ซื้อ (อดีต)","e":"🛍️"},
-        {"w":"won","th":"ชนะ (อดีต)","e":"🏆"}
+        {
+          "w": "endangered",
+          "th": "ใกล้สูญพันธุ์",
+          "e": "⚠️"
+        },
+        {
+          "w": "wildlife",
+          "th": "สัตว์ป่า",
+          "e": "🦌"
+        },
+        {
+          "w": "habitat",
+          "th": "ถิ่นที่อยู่อาศัย",
+          "e": "🏞️"
+        },
+        {
+          "w": "extinct",
+          "th": "สูญพันธุ์",
+          "e": "🦕"
+        },
+        {
+          "w": "protect",
+          "th": "ปกป้อง",
+          "e": "🛡️"
+        },
+        {
+          "w": "conservation",
+          "th": "การอนุรักษ์",
+          "e": "🌿"
+        },
+        {
+          "w": "rescue",
+          "th": "ช่วยเหลือ/กู้ภัย",
+          "e": "🚑"
+        },
+        {
+          "w": "national park",
+          "th": "อุทยานแห่งชาติ",
+          "e": "🌳"
+        }
       ],
-      "build": {"sentence":"I went to the fair yesterday.","th":"เมื่อวานฉันไปงานแฟร์"},
+      "build": {
+        "sentence": "We must protect endangered animals.",
+        "th": "พวกเราต้องปกป้องสัตว์ที่ใกล้สูญพันธุ์"
+      },
       "speak": [
-        {"t":"I went to the fair.","th":"ฉันไปงานแฟร์"},
-        {"t":"I ate a hot dog.","th":"ฉันกินฮอทดอก"},
-        {"t":"I saw my friend there.","th":"ฉันเห็นเพื่อนของฉันที่นั่น"},
-        {"t":"I won first place!","th":"ฉันได้อันดับหนึ่ง!"}
+        {
+          "t": "We must protect endangered animals.",
+          "th": "พวกเราต้องปกป้องสัตว์ที่ใกล้สูญพันธุ์"
+        },
+        {
+          "t": "This is a wildlife habitat.",
+          "th": "นี่คือถิ่นที่อยู่อาศัยของสัตว์ป่า"
+        },
+        {
+          "t": "They rescued a baby elephant.",
+          "th": "พวกเขาช่วยเหลือลูกช้าง"
+        },
+        {
+          "t": "This national park protects many animals.",
+          "th": "อุทยานแห่งชาตินี้ปกป้องสัตว์หลายชนิด"
+        }
       ],
       "quiz": [
-        {"q":"'ไป (อดีต)' คือ...","c":["went","go","going"],"a":0},
-        {"q":"I ___ a hot dog yesterday. (กิน)","c":["ate","eat","eating"],"a":0},
-        {"q":"👁️ (อดีต) คือ...","c":["saw","see","seeing"],"a":0},
-        {"q":"'มี (อดีต)' คือ...","c":["had","have","having"],"a":0},
-        {"q":"🛍️ (อดีต) คือ...","c":["bought","buy","buying"],"a":0},
-        {"q":"I ___ first place! (ชนะ)","c":["won","win","winning"],"a":0},
-        {"q":"'ทำ/สร้าง (อดีต)' คือ...","c":["made","make","making"],"a":0},
-        {"q":"What ___ you do yesterday?","c":["did","do","were"],"a":0}
+        {
+          "q": "⚠️ คือ...",
+          "c": [
+            "endangered",
+            "extinct",
+            "wildlife"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สัตว์ป่า' คือ...",
+          "c": [
+            "wildlife",
+            "habitat",
+            "conservation"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🏞️ คือ...",
+          "c": [
+            "habitat",
+            "wildlife",
+            "rescue"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สูญพันธุ์' คือ...",
+          "c": [
+            "extinct",
+            "endangered",
+            "rescue"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🛡️ คือ...",
+          "c": [
+            "protect",
+            "rescue",
+            "conservation"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'การอนุรักษ์' คือ...",
+          "c": [
+            "conservation",
+            "protect",
+            "habitat"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🚑 คือ...",
+          "c": [
+            "rescue",
+            "protect",
+            "conservation"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We must ___ endangered animals.",
+          "c": [
+            "protect",
+            "hunt",
+            "catch"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u7l4",
-      "icon": "📔",
-      "title": "My Day Yesterday",
-      "sub": "เล่าเรื่องเมื่อวาน + ทบทวน",
-      "intro": { "en": "Let's talk about our day yesterday!", "th": "มาเล่าเรื่องเมื่อวานของเรากันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "icon": "🌱",
+      "title": "Be a Green Hero",
+      "sub": "เป็นฮีโร่รักษ์โลก + ทบทวน",
+      "intro": {
+        "en": "You can be a green hero too!",
+        "th": "หนูก็เป็นฮีโร่รักษ์โลกได้นะ! บทนี้มีทบทวนทั้งหน่วยด้วย"
+      },
       "vocab": [
-        {"w":"woke up","th":"ตื่นนอน (อดีต)","e":"⏰"},
-        {"w":"got up","th":"ลุกจากที่นอน (อดีต)","e":"🌄"},
-        {"w":"came home","th":"กลับถึงบ้าน (อดีต)","e":"🏠"},
-        {"w":"felt happy","th":"รู้สึกมีความสุข (อดีต)","e":"😊"},
-        {"w":"had fun","th":"สนุกมาก (อดีต)","e":"🎉"},
-        {"w":"was tired","th":"เหนื่อย (อดีต)","e":"😴"},
-        {"w":"slept early","th":"นอนแต่หัวค่ำ (อดีต)","e":"🛌"},
-        {"w":"a great day","th":"วันที่ดีมาก","e":"🌟"}
+        {
+          "w": "plant a tree",
+          "th": "ปลูกต้นไม้",
+          "e": "🌳"
+        },
+        {
+          "w": "turn off lights",
+          "th": "ปิดไฟ",
+          "e": "💡"
+        },
+        {
+          "w": "walk or bike",
+          "th": "เดินหรือขี่จักรยาน",
+          "e": "🚲"
+        },
+        {
+          "w": "use less water",
+          "th": "ใช้น้ำให้น้อยลง",
+          "e": "🚰"
+        },
+        {
+          "w": "clean up",
+          "th": "เก็บกวาดความสะอาด",
+          "e": "🧹"
+        },
+        {
+          "w": "green hero",
+          "th": "ฮีโร่รักษ์โลก",
+          "e": "🦸"
+        },
+        {
+          "w": "take action",
+          "th": "ลงมือทำ",
+          "e": "💪"
+        },
+        {
+          "w": "future",
+          "th": "อนาคต",
+          "e": "🔮"
+        }
       ],
-      "build": {"sentence":"Yesterday was a great day.","th":"เมื่อวานเป็นวันที่ดีมาก"},
+      "build": {
+        "sentence": "I plant a tree to help the Earth.",
+        "th": "ฉันปลูกต้นไม้เพื่อช่วยโลก"
+      },
       "speak": [
-        {"t":"I woke up early yesterday.","th":"เมื่อวานฉันตื่นแต่เช้า"},
-        {"t":"I had fun at the fair.","th":"ฉันสนุกมากที่งานแฟร์"},
-        {"t":"I came home and felt happy.","th":"ฉันกลับถึงบ้านและรู้สึกมีความสุข"},
-        {"t":"I was tired, so I slept early.","th":"ฉันเหนื่อย เลยนอนแต่หัวค่ำ"}
+        {
+          "t": "I plant a tree every year.",
+          "th": "ฉันปลูกต้นไม้ทุกปี"
+        },
+        {
+          "t": "Let's walk or bike to school.",
+          "th": "ไปโรงเรียนโดยเดินหรือขี่จักรยานกันเถอะ"
+        },
+        {
+          "t": "We clean up the park together.",
+          "th": "พวกเราช่วยกันเก็บกวาดสวนสาธารณะ"
+        },
+        {
+          "t": "Every green hero can help the future.",
+          "th": "ฮีโร่รักษ์โลกทุกคนช่วยอนาคตได้"
+        }
       ],
       "quiz": [
-        {"q":"'ตื่นนอน (อดีต)' คือ...","c":["woke up","wake up","waking up"],"a":0},
-        {"q":"I ___ home at five. (กลับถึง)","c":["came","come","coming"],"a":0},
-        {"q":"[ทบทวน] I ___ happy yesterday.","c":["was","were","am"],"a":0},
-        {"q":"[ทบทวน] I ___ to the fair. (ไป)","c":["went","go","going"],"a":0},
-        {"q":"[ทบทวน] Yesterday, I ___ games. (เล่น)","c":["played","play","playing"],"a":0},
-        {"q":"'สนุกมาก (อดีต)' คือ...","c":["had fun","was tired","felt happy"],"a":0},
-        {"q":"I was tired, so I ___ early.","c":["slept","sleep","sleeping"],"a":0},
-        {"q":"'วันที่ดีมาก' คือ...","c":["a great day","a bad day","a long day"],"a":0}
+        {
+          "q": "🌳 คือ...",
+          "c": [
+            "plant a tree",
+            "turn off lights",
+            "clean up"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ปิดไฟ' คือ...",
+          "c": [
+            "turn off lights",
+            "use less water",
+            "plant a tree"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🚲 คือ...",
+          "c": [
+            "walk or bike",
+            "clean up",
+            "take action"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] We must take care of the ___.",
+          "c": [
+            "Earth",
+            "sky",
+            "moon"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] We should ___ plastic bottles.",
+          "c": [
+            "recycle",
+            "throw",
+            "burn"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] We must ___ endangered animals.",
+          "c": [
+            "protect",
+            "hunt",
+            "catch"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ลงมือทำ' คือ...",
+          "c": [
+            "take action",
+            "clean up",
+            "use less water"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🦸 คือ...",
+          "c": [
+            "green hero",
+            "future",
+            "take action"
+          ],
+          "a": 0
+        }
       ]
     }
   ]

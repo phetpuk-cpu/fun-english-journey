@@ -1,0 +1,599 @@
+{
+  "grade": "p2",
+  "gradeName": "ป.2 — Big City 🏙️",
+  "unitName": "หน่วย 2 · What Time Is It? — กี่โมงแล้วนะ",
+  "lessons": [
+    {
+      "id": "p2u2l1",
+      "icon": "🕐",
+      "title": "Time Words",
+      "sub": "คำบอกช่วงเวลา",
+      "intro": {
+        "en": "Tick tock! What time is it?",
+        "th": "ติ๊กต่อกๆ! วันนี้เรียนคำบอกช่วงเวลาของวันกัน"
+      },
+      "vocab": [
+        {
+          "w": "clock",
+          "th": "นาฬิกา",
+          "e": "🕐"
+        },
+        {
+          "w": "watch",
+          "th": "นาฬิกาข้อมือ",
+          "e": "⌚"
+        },
+        {
+          "w": "morning",
+          "th": "ตอนเช้า",
+          "e": "🌅"
+        },
+        {
+          "w": "afternoon",
+          "th": "ตอนบ่าย",
+          "e": "☀️"
+        },
+        {
+          "w": "evening",
+          "th": "ตอนเย็น",
+          "e": "🌇"
+        },
+        {
+          "w": "night",
+          "th": "ตอนกลางคืน",
+          "e": "🌃"
+        },
+        {
+          "w": "early",
+          "th": "เช้าตรู่/ก่อนเวลา",
+          "e": "🐓"
+        },
+        {
+          "w": "late",
+          "th": "สาย/ช้า",
+          "e": "🐢"
+        }
+      ],
+      "build": {
+        "sentence": "I get up early in the morning.",
+        "th": "ฉันตื่นแต่เช้าตรู่"
+      },
+      "speak": [
+        {
+          "t": "What time is it?",
+          "th": "กี่โมงแล้ว?"
+        },
+        {
+          "t": "Good morning!",
+          "th": "สวัสดีตอนเช้า"
+        },
+        {
+          "t": "I play in the afternoon.",
+          "th": "ฉันเล่นตอนบ่าย"
+        },
+        {
+          "t": "Do not be late for school.",
+          "th": "อย่าไปโรงเรียนสายนะ"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🌅 คือช่วงเวลา...",
+          "c": [
+            "morning",
+            "evening",
+            "night"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ตอนกลางคืน' คือ...",
+          "c": [
+            "afternoon",
+            "night",
+            "morning"
+          ],
+          "a": 1
+        },
+        {
+          "q": "⌚ ที่ใส่ข้อมือคือ...",
+          "c": [
+            "clock",
+            "watch",
+            "phone"
+          ],
+          "a": 1
+        },
+        {
+          "q": "🐢 มาช้า = ?",
+          "c": [
+            "early",
+            "late",
+            "fast"
+          ],
+          "a": 1
+        },
+        {
+          "q": "ตรงข้ามกับ late คือ...",
+          "c": [
+            "early",
+            "night",
+            "slow"
+          ],
+          "a": 0
+        },
+        {
+          "q": "ตอนบ่ายคือ...",
+          "c": [
+            "morning",
+            "afternoon",
+            "evening"
+          ],
+          "a": 1
+        },
+        {
+          "q": "Good ___! (ตอนเช้า)",
+          "c": [
+            "night",
+            "morning",
+            "bye"
+          ],
+          "a": 1
+        },
+        {
+          "q": "🌇 พระอาทิตย์ตกคือ...",
+          "c": [
+            "evening",
+            "morning",
+            "early"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p2u2l2",
+      "icon": "⏰",
+      "title": "O'clock!",
+      "sub": "บอกเวลาเต็มชั่วโมง",
+      "intro": {
+        "en": "It is seven o'clock! Time to wake up!",
+        "th": "เจ็ดโมงแล้ว! มาหัดบอกเวลาแบบเต็มชั่วโมงกัน — ตัวเลข + o'clock"
+      },
+      "vocab": [
+        {
+          "w": "o'clock",
+          "th": "...นาฬิกา (เต็มชั่วโมง)",
+          "e": "🕛"
+        },
+        {
+          "w": "half past",
+          "th": "...ครึ่ง (30 นาที)",
+          "e": "🕡"
+        },
+        {
+          "w": "hour",
+          "th": "ชั่วโมง",
+          "e": "⏳"
+        },
+        {
+          "w": "minute",
+          "th": "นาที",
+          "e": "⏱️"
+        },
+        {
+          "w": "alarm clock",
+          "th": "นาฬิกาปลุก",
+          "e": "⏰"
+        },
+        {
+          "w": "noon",
+          "th": "เที่ยงวัน",
+          "e": "🌞"
+        },
+        {
+          "w": "midnight",
+          "th": "เที่ยงคืน",
+          "e": "🌌"
+        },
+        {
+          "w": "time",
+          "th": "เวลา",
+          "e": "⌛"
+        }
+      ],
+      "build": {
+        "sentence": "It is half past six.",
+        "th": "ตอนนี้หกโมงครึ่ง"
+      },
+      "speak": [
+        {
+          "t": "It is seven o'clock.",
+          "th": "ตอนนี้เจ็ดนาฬิกา"
+        },
+        {
+          "t": "It is half past eight.",
+          "th": "ตอนนี้แปดโมงครึ่ง"
+        },
+        {
+          "t": "My alarm clock rings at six.",
+          "th": "นาฬิกาปลุกของฉันดังตอนหกโมง"
+        },
+        {
+          "t": "It is noon. Time for lunch!",
+          "th": "เที่ยงแล้ว ได้เวลากินข้าว!"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "เวลา 7:00 พูดว่า...",
+          "c": [
+            "seven o'clock",
+            "seven thirty",
+            "half seven"
+          ],
+          "a": 0
+        },
+        {
+          "q": "เวลา 6:30 พูดว่า...",
+          "c": [
+            "six o'clock",
+            "half past six",
+            "six past half"
+          ],
+          "a": 1
+        },
+        {
+          "q": "'เที่ยงวัน' คือ...",
+          "c": [
+            "midnight",
+            "noon",
+            "morning"
+          ],
+          "a": 1
+        },
+        {
+          "q": "🌌 เที่ยงคืนคือ...",
+          "c": [
+            "noon",
+            "midnight",
+            "evening"
+          ],
+          "a": 1
+        },
+        {
+          "q": "1 hour มีกี่ minutes?",
+          "c": [
+            "30",
+            "60",
+            "100"
+          ],
+          "a": 1
+        },
+        {
+          "q": "⏰ ที่ปลุกเราตื่นคือ...",
+          "c": [
+            "alarm clock",
+            "watch",
+            "hour"
+          ],
+          "a": 0
+        },
+        {
+          "q": "It is nine ___. (9:00)",
+          "c": [
+            "o'clock",
+            "hour",
+            "minute"
+          ],
+          "a": 0
+        },
+        {
+          "q": "What ___ is it?",
+          "c": [
+            "time",
+            "clock",
+            "late"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p2u2l3",
+      "icon": "📅",
+      "title": "My Schedule",
+      "sub": "ตารางเวลาของฉัน",
+      "intro": {
+        "en": "Every time has a name! Breakfast time, playtime...",
+        "th": "แต่ละช่วงเวลามีชื่อเรียกด้วยนะ มาดูตารางเวลาใน 1 วันกัน"
+      },
+      "vocab": [
+        {
+          "w": "breakfast time",
+          "th": "เวลาอาหารเช้า",
+          "e": "🥞"
+        },
+        {
+          "w": "school time",
+          "th": "เวลาเรียน",
+          "e": "🏫"
+        },
+        {
+          "w": "lunch time",
+          "th": "เวลาอาหารกลางวัน",
+          "e": "🍱"
+        },
+        {
+          "w": "playtime",
+          "th": "เวลาเล่น",
+          "e": "🪁"
+        },
+        {
+          "w": "snack time",
+          "th": "เวลาของว่าง",
+          "e": "🍪"
+        },
+        {
+          "w": "homework time",
+          "th": "เวลาทำการบ้าน",
+          "e": "📓"
+        },
+        {
+          "w": "dinner time",
+          "th": "เวลาอาหารเย็น",
+          "e": "🍲"
+        },
+        {
+          "w": "bedtime",
+          "th": "เวลานอน",
+          "e": "🛌"
+        }
+      ],
+      "build": {
+        "sentence": "It is time for lunch.",
+        "th": "ได้เวลาอาหารกลางวันแล้ว"
+      },
+      "speak": [
+        {
+          "t": "It is breakfast time.",
+          "th": "ถึงเวลาอาหารเช้าแล้ว"
+        },
+        {
+          "t": "Playtime is my favorite time.",
+          "th": "เวลาเล่นคือเวลาโปรดของฉัน"
+        },
+        {
+          "t": "It is time for homework.",
+          "th": "ได้เวลาทำการบ้านแล้ว"
+        },
+        {
+          "t": "Bedtime is at nine o'clock.",
+          "th": "เวลานอนคือสามทุ่ม"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🥞 ตอนเช้าคือ...",
+          "c": [
+            "breakfast time",
+            "dinner time",
+            "bedtime"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เวลาเล่น' คือ...",
+          "c": [
+            "playtime",
+            "school time",
+            "snack time"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🍪 เวลาของว่างคือ...",
+          "c": [
+            "lunch time",
+            "snack time",
+            "dinner time"
+          ],
+          "a": 1
+        },
+        {
+          "q": "เวลานอนคือ...",
+          "c": [
+            "bedtime",
+            "playtime",
+            "breakfast time"
+          ],
+          "a": 0
+        },
+        {
+          "q": "It is ___ for lunch.",
+          "c": [
+            "time",
+            "clock",
+            "hour"
+          ],
+          "a": 0
+        },
+        {
+          "q": "หลังเลิกเรียนคือ ___ time",
+          "c": [
+            "homework",
+            "school",
+            "breakfast"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🍲 มื้อเย็นคือ...",
+          "c": [
+            "dinner time",
+            "lunch time",
+            "snack time"
+          ],
+          "a": 0
+        },
+        {
+          "q": "เรียงให้ถูก...",
+          "c": [
+            "breakfast → lunch → dinner",
+            "dinner → breakfast → lunch",
+            "lunch → dinner → breakfast"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p2u2l4",
+      "icon": "🔔",
+      "title": "What Time Do You...?",
+      "sub": "ถาม-ตอบเวลา + ทบทวน",
+      "intro": {
+        "en": "What time do you wake up? Let us ask and answer!",
+        "th": "บทสุดท้ายของหน่วย! ฝึกถาม-ตอบว่าทำอะไรกี่โมง แล้วทบทวนทั้งหน่วยกัน"
+      },
+      "vocab": [
+        {
+          "w": "get up",
+          "th": "ลุกจากที่นอน",
+          "e": "🌄"
+        },
+        {
+          "w": "start school",
+          "th": "เริ่มเรียน",
+          "e": "🔔"
+        },
+        {
+          "w": "finish school",
+          "th": "เลิกเรียน",
+          "e": "🏁"
+        },
+        {
+          "w": "come home",
+          "th": "กลับถึงบ้าน",
+          "e": "🚪"
+        },
+        {
+          "w": "every day",
+          "th": "ทุกวัน",
+          "e": "📅"
+        },
+        {
+          "w": "on time",
+          "th": "ตรงเวลา",
+          "e": "👌"
+        },
+        {
+          "w": "too late",
+          "th": "สายเกินไป",
+          "e": "🏃"
+        },
+        {
+          "w": "hurry up",
+          "th": "รีบหน่อย",
+          "e": "⏩"
+        }
+      ],
+      "build": {
+        "sentence": "What time do you go to school?",
+        "th": "เธอไปโรงเรียนกี่โมง?"
+      },
+      "speak": [
+        {
+          "t": "What time do you get up?",
+          "th": "เธอตื่นกี่โมง?"
+        },
+        {
+          "t": "I get up at six o'clock.",
+          "th": "ฉันตื่นตอนหกโมง"
+        },
+        {
+          "t": "School starts at eight.",
+          "th": "โรงเรียนเข้าแปดโมง"
+        },
+        {
+          "t": "Hurry up! We are late!",
+          "th": "เร็วเข้า! เราสายแล้ว!"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "'เลิกเรียน' คือ...",
+          "c": [
+            "start school",
+            "finish school",
+            "come home"
+          ],
+          "a": 1
+        },
+        {
+          "q": "'ตรงเวลา' คือ...",
+          "c": [
+            "on time",
+            "too late",
+            "every day"
+          ],
+          "a": 0
+        },
+        {
+          "q": "⏩ รีบๆ หน่อย = ?",
+          "c": [
+            "hurry up",
+            "slow down",
+            "sit down"
+          ],
+          "a": 0
+        },
+        {
+          "q": "What time ___ you get up?",
+          "c": [
+            "do",
+            "is",
+            "are"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] 7:30 คือ...",
+          "c": [
+            "seven o'clock",
+            "half past seven",
+            "seven past half"
+          ],
+          "a": 1
+        },
+        {
+          "q": "[ทบทวน] 🌞 เที่ยงวันคือ...",
+          "c": [
+            "noon",
+            "midnight",
+            "evening"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] ตื่นสายตรงข้ามกับ...",
+          "c": [
+            "get up early",
+            "go to bed",
+            "come home"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I go to school ___ day.",
+          "c": [
+            "every",
+            "all",
+            "much"
+          ],
+          "a": 0
+        }
+      ]
+    }
+  ]
+}

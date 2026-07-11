@@ -1,142 +1,598 @@
 {
   "grade": "p4",
-  "gradeName": "ป.4 — Four Seasons Fair 🎪",
-  "unitName": "หน่วย 3 · At the Market — ที่ตลาดในงานแฟร์",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 3 · What Were You Doing? — กำลังทำอะไรอยู่ (อดีต)",
   "lessons": [
     {
       "id": "p4u3l1",
-      "icon": "🏪",
-      "title": "At the Market",
-      "sub": "ที่ตลาด",
-      "intro": { "en": "Welcome to the fair market!", "th": "ยินดีต้อนรับสู่ตลาดในงานแฟร์!" },
+      "icon": "📖",
+      "title": "Was / Were + -ing",
+      "sub": "โครงสร้างประโยคอดีตกำลังทำ",
+      "intro": {
+        "en": "What were you doing yesterday at six?",
+        "th": "เมื่อวานตอนหกโมง หนูกำลังทำอะไรอยู่นะ?"
+      },
       "vocab": [
-        {"w":"market","th":"ตลาด","e":"🏪"},
-        {"w":"stall","th":"แผงขายของ","e":"🛖"},
-        {"w":"shop","th":"ร้านค้า","e":"🏬"},
-        {"w":"seller","th":"คนขาย","e":"🧑‍💼"},
-        {"w":"customer","th":"ลูกค้า","e":"🙋"},
-        {"w":"basket","th":"ตะกร้า","e":"🧺"},
-        {"w":"bag","th":"ถุง","e":"👜"},
-        {"w":"cart","th":"รถเข็น","e":"🛒"}
+        {
+          "w": "was reading",
+          "th": "กำลังอ่าน (อดีต)",
+          "e": "📖"
+        },
+        {
+          "w": "was eating",
+          "th": "กำลังกิน (อดีต)",
+          "e": "🍽️"
+        },
+        {
+          "w": "was sleeping",
+          "th": "กำลังนอนหลับ (อดีต)",
+          "e": "😴"
+        },
+        {
+          "w": "was playing",
+          "th": "กำลังเล่น (อดีต)",
+          "e": "🎮"
+        },
+        {
+          "w": "was walking",
+          "th": "กำลังเดิน (อดีต)",
+          "e": "🚶"
+        },
+        {
+          "w": "was talking",
+          "th": "กำลังพูดคุย (อดีต)",
+          "e": "💬"
+        },
+        {
+          "w": "was watching",
+          "th": "กำลังดู (อดีต)",
+          "e": "📺"
+        },
+        {
+          "w": "was writing",
+          "th": "กำลังเขียน (อดีต)",
+          "e": "✍️"
+        }
       ],
-      "build": {"sentence":"I put the fruit in my basket.","th":"ฉันใส่ผลไม้ในตะกร้า"},
+      "build": {
+        "sentence": "I was reading a book at seven.",
+        "th": "ฉันกำลังอ่านหนังสืออยู่ตอนเจ็ดโมง"
+      },
       "speak": [
-        {"t":"I go to the market with my mom.","th":"ฉันไปตลาดกับแม่"},
-        {"t":"The seller is very kind.","th":"คนขายใจดีมาก"},
-        {"t":"I put things in my cart.","th":"ฉันใส่ของในรถเข็น"},
-        {"t":"There are many stalls here.","th":"ที่นี่มีแผงขายของเยอะมาก"}
+        {
+          "t": "I was reading a book.",
+          "th": "ฉันกำลังอ่านหนังสือ"
+        },
+        {
+          "t": "She was eating breakfast.",
+          "th": "เธอกำลังกินอาหารเช้า"
+        },
+        {
+          "t": "They were playing in the park.",
+          "th": "พวกเขากำลังเล่นอยู่ในสวน"
+        },
+        {
+          "t": "We were watching TV together.",
+          "th": "พวกเรากำลังดูทีวีด้วยกัน"
+        }
       ],
       "quiz": [
-        {"q":"🏪 คือ...","c":["market","shop","stall"],"a":0},
-        {"q":"'คนขาย' คือ...","c":["seller","customer","cart"],"a":0},
-        {"q":"🧺 คือ...","c":["basket","bag","cart"],"a":0},
-        {"q":"'ลูกค้า' คือ...","c":["customer","seller","shop"],"a":0},
-        {"q":"👜 คือ...","c":["bag","basket","cart"],"a":0},
-        {"q":"'รถเข็น' คือ...","c":["cart","basket","bag"],"a":0},
-        {"q":"🛖 คือ...","c":["stall","shop","market"],"a":0},
-        {"q":"I go to the ___ with my mom.","c":["market","school","garden"],"a":0}
+        {
+          "q": "I ___ reading a book. (กำลัง)",
+          "c": [
+            "was",
+            "is",
+            "am"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กำลังนอนหลับ (อดีต)' คือ...",
+          "c": [
+            "was sleeping",
+            "was eating",
+            "was playing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "They ___ playing in the park.",
+          "c": [
+            "were",
+            "was",
+            "are"
+          ],
+          "a": 0
+        },
+        {
+          "q": "📺 คือ...",
+          "c": [
+            "was watching",
+            "was reading",
+            "was writing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กำลังเดิน (อดีต)' คือ...",
+          "c": [
+            "was walking",
+            "was talking",
+            "was eating"
+          ],
+          "a": 0
+        },
+        {
+          "q": "✍️ คือ...",
+          "c": [
+            "was writing",
+            "was reading",
+            "was playing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We ___ watching TV together.",
+          "c": [
+            "were",
+            "was",
+            "are"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กำลังพูดคุย (อดีต)' คือ...",
+          "c": [
+            "was talking",
+            "was walking",
+            "was sleeping"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u3l2",
-      "icon": "💰",
-      "title": "How Much Is It?",
-      "sub": "ถามราคา",
-      "intro": { "en": "How much does it cost?", "th": "ของนี้ราคาเท่าไหร่นะ?" },
+      "icon": "⏳",
+      "title": "At That Time",
+      "sub": "คำเชื่อมเวลาในอดีต",
+      "intro": {
+        "en": "So many things were happening at the same time!",
+        "th": "มีหลายอย่างเกิดขึ้นพร้อมกันเลยนะ"
+      },
       "vocab": [
-        {"w":"money","th":"เงิน","e":"💵"},
-        {"w":"coin","th":"เหรียญ","e":"🪙"},
-        {"w":"baht","th":"บาท","e":"💰"},
-        {"w":"price","th":"ราคา","e":"🏷️"},
-        {"w":"expensive","th":"แพง","e":"💎"},
-        {"w":"cheap","th":"ถูก","e":"🪙"},
-        {"w":"pay","th":"จ่ายเงิน","e":"💳"},
-        {"w":"change","th":"เงินทอน","e":"🔄"}
+        {
+          "w": "while",
+          "th": "ในขณะที่",
+          "e": "⏳"
+        },
+        {
+          "w": "when",
+          "th": "เมื่อ/ตอนที่",
+          "e": "🕐"
+        },
+        {
+          "w": "suddenly",
+          "th": "ทันใดนั้น",
+          "e": "⚡"
+        },
+        {
+          "w": "at that moment",
+          "th": "ในขณะนั้น",
+          "e": "📍"
+        },
+        {
+          "w": "meanwhile",
+          "th": "ในระหว่างนั้น",
+          "e": "🔄"
+        },
+        {
+          "w": "still",
+          "th": "ยังคง",
+          "e": "⏸️"
+        },
+        {
+          "w": "already",
+          "th": "...แล้ว",
+          "e": "✅"
+        },
+        {
+          "w": "just",
+          "th": "เพิ่งจะ",
+          "e": "👌"
+        }
       ],
-      "build": {"sentence":"How much is it? It is ten baht.","th":"ราคาเท่าไหร่? ราคาสิบบาท"},
+      "build": {
+        "sentence": "While I was reading, my sister was singing.",
+        "th": "ในขณะที่ฉันกำลังอ่านหนังสือ น้องสาวกำลังร้องเพลง"
+      },
       "speak": [
-        {"t":"How much is it?","th":"ราคาเท่าไหร่?"},
-        {"t":"It is ten baht.","th":"ราคาสิบบาท"},
-        {"t":"This is too expensive.","th":"อันนี้แพงเกินไป"},
-        {"t":"Here is your change.","th":"นี่เงินทอนของคุณ"}
+        {
+          "t": "While I was sleeping, it started to rain.",
+          "th": "ในขณะที่ฉันกำลังนอนหลับ ฝนก็เริ่มตก"
+        },
+        {
+          "t": "Suddenly, the phone rang.",
+          "th": "ทันใดนั้น โทรศัพท์ก็ดังขึ้น"
+        },
+        {
+          "t": "I was still reading at nine.",
+          "th": "ฉันยังคงอ่านหนังสืออยู่ตอนสามทุ่ม"
+        },
+        {
+          "t": "I had already finished my homework.",
+          "th": "ฉันทำการบ้านเสร็จแล้ว"
+        }
       ],
       "quiz": [
-        {"q":"💵 คือ...","c":["money","coin","price"],"a":0},
-        {"q":"'แพง' คือ...","c":["expensive","cheap","free"],"a":0},
-        {"q":"🪙 คือ...","c":["coin","money","change"],"a":0},
-        {"q":"'ถูก' คือ...","c":["cheap","expensive","price"],"a":0},
-        {"q":"How much ___ it?","c":["is","are","do"],"a":0},
-        {"q":"💳 คือ...","c":["pay","change","price"],"a":0},
-        {"q":"'เงินทอน' คือ...","c":["change","money","price"],"a":0},
-        {"q":"🏷️ คือ...","c":["price","money","coin"],"a":0}
+        {
+          "q": "⏳ คือ...",
+          "c": [
+            "while",
+            "when",
+            "suddenly"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ทันใดนั้น' คือ...",
+          "c": [
+            "suddenly",
+            "meanwhile",
+            "still"
+          ],
+          "a": 0
+        },
+        {
+          "q": "___ I was reading, it started to rain.",
+          "c": [
+            "While",
+            "Suddenly",
+            "Already"
+          ],
+          "a": 0
+        },
+        {
+          "q": "📍 คือ...",
+          "c": [
+            "at that moment",
+            "while",
+            "just"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ยังคง' คือ...",
+          "c": [
+            "still",
+            "already",
+            "just"
+          ],
+          "a": 0
+        },
+        {
+          "q": "✅ คือ...",
+          "c": [
+            "already",
+            "still",
+            "just"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เพิ่งจะ' คือ...",
+          "c": [
+            "just",
+            "already",
+            "still"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🔄 คือ...",
+          "c": [
+            "meanwhile",
+            "suddenly",
+            "when"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u3l3",
-      "icon": "🛍️",
-      "title": "Let's Go Shopping",
-      "sub": "ไปช้อปปิ้งกัน",
-      "intro": { "en": "Let's buy something nice today!", "th": "วันนี้ไปซื้อของดีๆ กันเถอะ!" },
+      "icon": "🏛️",
+      "title": "A Day at the Museum",
+      "sub": "วันหนึ่งที่พิพิธภัณฑ์",
+      "intro": {
+        "en": "We had a great day at the museum!",
+        "th": "วันนั้นพวกเราไปพิพิธภัณฑ์กันมาสนุกมาก!"
+      },
       "vocab": [
-        {"w":"buy","th":"ซื้อ","e":"🛍️"},
-        {"w":"sell","th":"ขาย","e":"🏷️"},
-        {"w":"choose","th":"เลือก","e":"👉"},
-        {"w":"try on","th":"ลองใส่","e":"👕"},
-        {"w":"size","th":"ขนาด","e":"📏"},
-        {"w":"color","th":"สี","e":"🎨"},
-        {"w":"gift","th":"ของขวัญ","e":"🎁"},
-        {"w":"wrap","th":"ห่อของ","e":"🎀"}
+        {
+          "w": "looking at",
+          "th": "กำลังมองดู",
+          "e": "👀"
+        },
+        {
+          "w": "listening to",
+          "th": "กำลังฟัง",
+          "e": "👂"
+        },
+        {
+          "w": "taking notes",
+          "th": "กำลังจดบันทึก",
+          "e": "📝"
+        },
+        {
+          "w": "standing",
+          "th": "กำลังยืน",
+          "e": "🧍"
+        },
+        {
+          "w": "sitting",
+          "th": "กำลังนั่ง",
+          "e": "🪑"
+        },
+        {
+          "w": "waiting",
+          "th": "กำลังรอ",
+          "e": "⏳"
+        },
+        {
+          "w": "exploring",
+          "th": "กำลังสำรวจ",
+          "e": "🔍"
+        },
+        {
+          "w": "learning",
+          "th": "กำลังเรียนรู้",
+          "e": "🧠"
+        }
       ],
-      "build": {"sentence":"I want to buy a gift for my mom.","th":"ฉันอยากซื้อของขวัญให้แม่"},
+      "build": {
+        "sentence": "We were looking at old paintings.",
+        "th": "พวกเรากำลังดูภาพวาดเก่าๆ"
+      },
       "speak": [
-        {"t":"I want to buy a gift.","th":"ฉันอยากซื้อของขวัญ"},
-        {"t":"Can I try this on?","th":"ขอลองใส่อันนี้ได้ไหม?"},
-        {"t":"What color do you like?","th":"เธอชอบสีอะไร?"},
-        {"t":"Please wrap it for me.","th":"ช่วยห่อให้หน่อยนะ"}
+        {
+          "t": "I was looking at the dinosaur bones.",
+          "th": "ฉันกำลังดูกระดูกไดโนเสาร์"
+        },
+        {
+          "t": "We were listening to the guide.",
+          "th": "พวกเรากำลังฟังไกด์"
+        },
+        {
+          "t": "My friend was taking notes.",
+          "th": "เพื่อนของฉันกำลังจดบันทึก"
+        },
+        {
+          "t": "We were exploring the museum together.",
+          "th": "พวกเรากำลังสำรวจพิพิธภัณฑ์ด้วยกัน"
+        }
       ],
       "quiz": [
-        {"q":"🛍️ คือ...","c":["buy","sell","choose"],"a":0},
-        {"q":"'ขาย' คือ...","c":["sell","buy","pay"],"a":0},
-        {"q":"👕 ลองใส่คือ...","c":["try on","wrap","choose"],"a":0},
-        {"q":"'เลือก' คือ...","c":["choose","buy","sell"],"a":0},
-        {"q":"📏 คือ...","c":["size","color","gift"],"a":0},
-        {"q":"'ของขวัญ' คือ...","c":["gift","price","money"],"a":0},
-        {"q":"🎀 คือ...","c":["wrap","try on","choose"],"a":0},
-        {"q":"What ___ do you like? (สี)","c":["color","size","price"],"a":0}
+        {
+          "q": "👀 คือ...",
+          "c": [
+            "looking at",
+            "listening to",
+            "waiting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กำลังฟัง' คือ...",
+          "c": [
+            "listening to",
+            "looking at",
+            "standing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "📝 คือ...",
+          "c": [
+            "taking notes",
+            "sitting",
+            "waiting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กำลังยืน' คือ...",
+          "c": [
+            "standing",
+            "sitting",
+            "waiting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🔍 คือ...",
+          "c": [
+            "exploring",
+            "learning",
+            "waiting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กำลังเรียนรู้' คือ...",
+          "c": [
+            "learning",
+            "exploring",
+            "sitting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We were ___ for the bus.",
+          "c": [
+            "waiting",
+            "sitting",
+            "standing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🪑 คือ...",
+          "c": [
+            "sitting",
+            "standing",
+            "waiting"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u3l4",
-      "icon": "🎉",
-      "title": "Bargain Time!",
-      "sub": "ต่อรองราคา + ทบทวน",
-      "intro": { "en": "It is bargain time! Everything is on sale!", "th": "ได้เวลาต่อรองราคาแล้ว! ทุกอย่างลดราคา! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "icon": "⚡",
+      "title": "What Happened?",
+      "sub": "เหตุการณ์ขัดจังหวะ + ทบทวน",
+      "intro": {
+        "en": "Something surprising happened yesterday!",
+        "th": "เมื่อวานมีเรื่องน่าประหลาดใจเกิดขึ้น! บทนี้มีทบทวนทั้งหน่วยด้วย"
+      },
       "vocab": [
-        {"w":"bargain","th":"ต่อรองราคา","e":"🤝"},
-        {"w":"discount","th":"ส่วนลด","e":"➖"},
-        {"w":"sale","th":"การลดราคา","e":"🏷️"},
-        {"w":"free","th":"ฟรี","e":"🆓"},
-        {"w":"on sale","th":"กำลังลดราคา","e":"📢"},
-        {"w":"save money","th":"ประหยัดเงิน","e":"🐷"},
-        {"w":"spend","th":"ใช้จ่าย","e":"💸"},
-        {"w":"deal","th":"ข้อเสนอดีๆ","e":"✅"}
+        {
+          "w": "storm",
+          "th": "พายุ",
+          "e": "⛈️"
+        },
+        {
+          "w": "rang",
+          "th": "ดังขึ้น (โทรศัพท์)",
+          "e": "🔔"
+        },
+        {
+          "w": "arrived",
+          "th": "มาถึง",
+          "e": "🚪"
+        },
+        {
+          "w": "started",
+          "th": "เริ่มต้น",
+          "e": "▶️"
+        },
+        {
+          "w": "stopped",
+          "th": "หยุด",
+          "e": "⏹️"
+        },
+        {
+          "w": "happened",
+          "th": "เกิดขึ้น",
+          "e": "❗"
+        },
+        {
+          "w": "surprised",
+          "th": "ประหลาดใจ",
+          "e": "😲"
+        },
+        {
+          "w": "suddenly",
+          "th": "ทันใดนั้น",
+          "e": "⚡"
+        }
       ],
-      "build": {"sentence":"Can you give me a discount?","th":"ลดราคาให้หน่อยได้ไหม?"},
+      "build": {
+        "sentence": "I was sleeping when the phone rang.",
+        "th": "ฉันกำลังนอนหลับตอนที่โทรศัพท์ดังขึ้น"
+      },
       "speak": [
-        {"t":"Can you give me a discount?","th":"ลดราคาให้หน่อยได้ไหม?"},
-        {"t":"This is a good deal!","th":"นี่เป็นข้อเสนอที่ดีมาก!"},
-        {"t":"I want to save my money.","th":"ฉันอยากประหยัดเงิน"},
-        {"t":"This one is free!","th":"อันนี้ฟรี!"}
+        {
+          "t": "I was sleeping when the phone rang.",
+          "th": "ฉันกำลังนอนหลับตอนที่โทรศัพท์ดังขึ้น"
+        },
+        {
+          "t": "We were playing when the storm started.",
+          "th": "พวกเรากำลังเล่นอยู่ตอนที่พายุเริ่มมา"
+        },
+        {
+          "t": "I was surprised when my friend arrived.",
+          "th": "ฉันประหลาดใจตอนที่เพื่อนมาถึง"
+        },
+        {
+          "t": "What happened while I was away?",
+          "th": "เกิดอะไรขึ้นตอนที่ฉันไม่อยู่?"
+        }
       ],
       "quiz": [
-        {"q":"🤝 คือ...","c":["bargain","sell","buy"],"a":0},
-        {"q":"'ส่วนลด' คือ...","c":["discount","price","change"],"a":0},
-        {"q":"🆓 คือ...","c":["free","cheap","expensive"],"a":0},
-        {"q":"'ประหยัดเงิน' คือ...","c":["save money","spend","pay"],"a":0},
-        {"q":"[ทบทวน] How much ___ it?","c":["is","are","do"],"a":0},
-        {"q":"[ทบทวน] 'แพง' คือ...","c":["expensive","cheap","free"],"a":0},
-        {"q":"[ทบทวน] 🛍️ คือ...","c":["buy","sell","choose"],"a":0},
-        {"q":"'ใช้จ่าย' คือ...","c":["spend","save money","pay"],"a":0}
+        {
+          "q": "I was sleeping when the phone ___.",
+          "c": [
+            "rang",
+            "ring",
+            "ringing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'พายุ' คือ...",
+          "c": [
+            "storm",
+            "rang",
+            "arrived"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We were playing when it ___ to rain.",
+          "c": [
+            "started",
+            "start",
+            "starting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] I ___ reading a book.",
+          "c": [
+            "was",
+            "is",
+            "am"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] ___ I was reading, it started to rain.",
+          "c": [
+            "While",
+            "Suddenly",
+            "Already"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] We were ___ at the paintings.",
+          "c": [
+            "looking",
+            "standing",
+            "waiting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ประหลาดใจ' คือ...",
+          "c": [
+            "surprised",
+            "happened",
+            "stopped"
+          ],
+          "a": 0
+        },
+        {
+          "q": "What ___ while I was away?",
+          "c": [
+            "happened",
+            "happens",
+            "happen"
+          ],
+          "a": 0
+        }
       ]
     }
   ]

@@ -1,142 +1,598 @@
 {
   "grade": "p4",
-  "gradeName": "ป.4 — Four Seasons Fair 🎪",
-  "unitName": "หน่วย 6 · Bigger, Faster, Stronger — เปรียบเทียบ",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 6 · Festivals Around the World — เทศกาลรอบโลก",
   "lessons": [
     {
       "id": "p4u6l1",
-      "icon": "📏",
-      "title": "Which One Is Bigger?",
-      "sub": "เปรียบเทียบขนาด",
-      "intro": { "en": "Let's compare things at the fair!", "th": "มาเปรียบเทียบของต่างๆ ที่งานแฟร์กันเถอะ" },
+      "icon": "🎉",
+      "title": "Let's Celebrate!",
+      "sub": "การเฉลิมฉลอง",
+      "intro": {
+        "en": "People celebrate in many different ways!",
+        "th": "ผู้คนเฉลิมฉลองด้วยวิธีที่แตกต่างกันเยอะเลยนะ"
+      },
       "vocab": [
-        {"w":"bigger","th":"ใหญ่กว่า","e":"🐘"},
-        {"w":"smaller","th":"เล็กกว่า","e":"🐭"},
-        {"w":"longer","th":"ยาวกว่า","e":"🐍"},
-        {"w":"shorter","th":"สั้นกว่า","e":"✏️"},
-        {"w":"taller","th":"สูงกว่า","e":"🦒"},
-        {"w":"heavier","th":"หนักกว่า","e":"🏋️"},
-        {"w":"lighter","th":"เบากว่า","e":"🪶"},
-        {"w":"wider","th":"กว้างกว่า","e":"↔️"}
+        {
+          "w": "festival",
+          "th": "เทศกาล",
+          "e": "🎉"
+        },
+        {
+          "w": "parade",
+          "th": "ขบวนพาเหรด",
+          "e": "🎊"
+        },
+        {
+          "w": "fireworks",
+          "th": "พลุ",
+          "e": "🎆"
+        },
+        {
+          "w": "celebrate",
+          "th": "เฉลิมฉลอง",
+          "e": "🥳"
+        },
+        {
+          "w": "decorate",
+          "th": "ตกแต่ง",
+          "e": "🎀"
+        },
+        {
+          "w": "costume",
+          "th": "ชุดแฟนซี",
+          "e": "👘"
+        },
+        {
+          "w": "dance",
+          "th": "เต้นรำ",
+          "e": "💃"
+        },
+        {
+          "w": "music",
+          "th": "ดนตรี",
+          "e": "🎵"
+        }
       ],
-      "build": {"sentence":"The elephant is bigger than the mouse.","th":"ช้างตัวใหญ่กว่าหนู"},
+      "build": {
+        "sentence": "We celebrate with fireworks and music.",
+        "th": "พวกเราเฉลิมฉลองด้วยพลุและดนตรี"
+      },
       "speak": [
-        {"t":"My bag is bigger than yours.","th":"กระเป๋าของฉันใหญ่กว่าของเธอ"},
-        {"t":"The giraffe is taller than the horse.","th":"ยีราฟสูงกว่าม้า"},
-        {"t":"This box is heavier than that one.","th":"กล่องนี้หนักกว่ากล่องนั้น"},
-        {"t":"My pencil is shorter than yours.","th":"ดินสอของฉันสั้นกว่าของเธอ"}
+        {
+          "t": "We celebrate every year.",
+          "th": "พวกเราเฉลิมฉลองทุกปี"
+        },
+        {
+          "t": "There is a big parade today.",
+          "th": "วันนี้มีขบวนพาเหรดใหญ่"
+        },
+        {
+          "t": "I love watching fireworks.",
+          "th": "ฉันชอบดูพลุมาก"
+        },
+        {
+          "t": "We decorate the house for the festival.",
+          "th": "พวกเราตกแต่งบ้านสำหรับเทศกาล"
+        }
       ],
       "quiz": [
-        {"q":"🐘 ตัวใหญ่กว่าคือ...","c":["bigger","smaller","lighter"],"a":0},
-        {"q":"'เล็กกว่า' คือ...","c":["smaller","bigger","taller"],"a":0},
-        {"q":"🦒 คือ...","c":["taller","shorter","wider"],"a":0},
-        {"q":"'หนักกว่า' คือ...","c":["heavier","lighter","longer"],"a":0},
-        {"q":"An elephant is ___ than a mouse.","c":["bigger","smaller","shorter"],"a":0},
-        {"q":"🪶 คือ...","c":["lighter","heavier","wider"],"a":0},
-        {"q":"'ยาวกว่า' คือ...","c":["longer","shorter","wider"],"a":0},
-        {"q":"This road is ___ than that one. (กว้างกว่า)","c":["wider","longer","taller"],"a":0}
+        {
+          "q": "🎉 คือ...",
+          "c": [
+            "festival",
+            "parade",
+            "music"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ขบวนพาเหรด' คือ...",
+          "c": [
+            "parade",
+            "festival",
+            "dance"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🎆 คือ...",
+          "c": [
+            "fireworks",
+            "costume",
+            "music"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ตกแต่ง' คือ...",
+          "c": [
+            "decorate",
+            "celebrate",
+            "dance"
+          ],
+          "a": 0
+        },
+        {
+          "q": "👘 คือ...",
+          "c": [
+            "costume",
+            "parade",
+            "dance"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เต้นรำ' คือ...",
+          "c": [
+            "dance",
+            "music",
+            "celebrate"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🎵 คือ...",
+          "c": [
+            "music",
+            "dance",
+            "costume"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We ___ every year. (เฉลิมฉลอง)",
+          "c": [
+            "celebrate",
+            "decorate",
+            "dance"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u6l2",
-      "icon": "🏃",
-      "title": "Faster and Stronger",
-      "sub": "เปรียบเทียบความเร็วและพลัง",
-      "intro": { "en": "Who is faster? Let's find out!", "th": "ใครวิ่งเร็วกว่ากันนะ? มาดูกัน!" },
+      "icon": "💦",
+      "title": "Thai Festivals",
+      "sub": "เทศกาลของไทย",
+      "intro": {
+        "en": "Thailand has wonderful festivals!",
+        "th": "ประเทศไทยมีเทศกาลที่แสนวิเศษนะ"
+      },
       "vocab": [
-        {"w":"faster","th":"เร็วกว่า","e":"🐆"},
-        {"w":"slower","th":"ช้ากว่า","e":"🐢"},
-        {"w":"stronger","th":"แข็งแรงกว่า","e":"💪"},
-        {"w":"weaker","th":"อ่อนแอกว่า","e":"🍃"},
-        {"w":"higher","th":"สูงกว่า(ระดับ)","e":"⬆️"},
-        {"w":"lower","th":"ต่ำกว่า","e":"⬇️"},
-        {"w":"louder","th":"เสียงดังกว่า","e":"🔊"},
-        {"w":"quieter","th":"เงียบกว่า","e":"🔈"}
+        {
+          "w": "Songkran",
+          "th": "สงกรานต์",
+          "e": "💦"
+        },
+        {
+          "w": "Loy Krathong",
+          "th": "ลอยกระทง",
+          "e": "🏮"
+        },
+        {
+          "w": "water",
+          "th": "น้ำ",
+          "e": "💧"
+        },
+        {
+          "w": "krathong",
+          "th": "กระทง",
+          "e": "🕯️"
+        },
+        {
+          "w": "lantern",
+          "th": "โคมไฟ",
+          "e": "🏮"
+        },
+        {
+          "w": "temple fair",
+          "th": "งานวัด",
+          "e": "🛕"
+        },
+        {
+          "w": "tradition",
+          "th": "ประเพณี",
+          "e": "📿"
+        },
+        {
+          "w": "merit",
+          "th": "บุญ",
+          "e": "🙏"
+        }
       ],
-      "build": {"sentence":"A cheetah is faster than a horse.","th":"เสือชีตาห์วิ่งเร็วกว่าม้า"},
+      "build": {
+        "sentence": "We play with water during Songkran.",
+        "th": "พวกเราเล่นน้ำกันช่วงสงกรานต์"
+      },
       "speak": [
-        {"t":"I am faster than my brother.","th":"ฉันวิ่งเร็วกว่าพี่ชาย"},
-        {"t":"An elephant is stronger than a dog.","th":"ช้างแข็งแรงกว่าหมา"},
-        {"t":"This music is louder than that one.","th":"เพลงนี้ดังกว่าเพลงนั้น"},
-        {"t":"The library is quieter than the market.","th":"ห้องสมุดเงียบกว่าตลาด"}
+        {
+          "t": "We play with water during Songkran.",
+          "th": "พวกเราเล่นน้ำกันช่วงสงกรานต์"
+        },
+        {
+          "t": "We float a krathong on the river.",
+          "th": "พวกเราลอยกระทงในแม่น้ำ"
+        },
+        {
+          "t": "Loy Krathong is a beautiful tradition.",
+          "th": "ลอยกระทงเป็นประเพณีที่สวยงาม"
+        },
+        {
+          "t": "We go to the temple fair together.",
+          "th": "พวกเราไปงานวัดด้วยกัน"
+        }
       ],
       "quiz": [
-        {"q":"🐆 คือ...","c":["faster","slower","stronger"],"a":0},
-        {"q":"'ช้ากว่า' คือ...","c":["slower","faster","weaker"],"a":0},
-        {"q":"💪 คือ...","c":["stronger","weaker","quieter"],"a":0},
-        {"q":"'อ่อนแอกว่า' คือ...","c":["weaker","stronger","louder"],"a":0},
-        {"q":"A cheetah is ___ than a horse.","c":["faster","slower","weaker"],"a":0},
-        {"q":"🔊 คือ...","c":["louder","quieter","higher"],"a":0},
-        {"q":"'เงียบกว่า' คือ...","c":["quieter","louder","lower"],"a":0},
-        {"q":"The plane flies ___ than the bird.","c":["higher","lower","louder"],"a":0}
+        {
+          "q": "💦 คือเทศกาล...",
+          "c": [
+            "Songkran",
+            "Loy Krathong",
+            "temple fair"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ลอยกระทง' คือ...",
+          "c": [
+            "Loy Krathong",
+            "Songkran",
+            "merit"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🕯️ คือ...",
+          "c": [
+            "krathong",
+            "lantern",
+            "water"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'โคมไฟ' คือ...",
+          "c": [
+            "lantern",
+            "krathong",
+            "water"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🛕 คือ...",
+          "c": [
+            "temple fair",
+            "tradition",
+            "merit"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ประเพณี' คือ...",
+          "c": [
+            "tradition",
+            "merit",
+            "festival"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🙏 คือ...",
+          "c": [
+            "merit",
+            "tradition",
+            "water"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We play with ___ during Songkran.",
+          "c": [
+            "water",
+            "fire",
+            "lanterns"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u6l3",
-      "icon": "⚖️",
-      "title": "Comparing Two Things",
-      "sub": "รูปแบบประโยคเปรียบเทียบ",
-      "intro": { "en": "Let's compare two things together!", "th": "มาเปรียบเทียบของสองอย่างด้วยกันนะ" },
+      "icon": "🎆",
+      "title": "World Festivals",
+      "sub": "เทศกาลของโลก",
+      "intro": {
+        "en": "Let's explore festivals from other countries!",
+        "th": "มาสำรวจเทศกาลจากประเทศอื่นๆ กันเถอะ"
+      },
       "vocab": [
-        {"w":"more than","th":"มากกว่า","e":"➕"},
-        {"w":"less than","th":"น้อยกว่า","e":"➖"},
-        {"w":"the same as","th":"เหมือนกับ","e":"🟰"},
-        {"w":"different from","th":"แตกต่างจาก","e":"🔀"},
-        {"w":"better","th":"ดีกว่า","e":"👍"},
-        {"w":"worse","th":"แย่กว่า","e":"👎"},
-        {"w":"easier","th":"ง่ายกว่า","e":"😌"},
-        {"w":"harder","th":"ยากกว่า","e":"😓"}
+        {
+          "w": "Chinese New Year",
+          "th": "ตรุษจีน",
+          "e": "🧧"
+        },
+        {
+          "w": "Christmas",
+          "th": "คริสต์มาส",
+          "e": "🎄"
+        },
+        {
+          "w": "Halloween",
+          "th": "ฮาโลวีน",
+          "e": "🎃"
+        },
+        {
+          "w": "Diwali",
+          "th": "เทศกาลดิวาลี",
+          "e": "🪔"
+        },
+        {
+          "w": "carnival",
+          "th": "งานคาร์นิวัล",
+          "e": "🎭"
+        },
+        {
+          "w": "lantern festival",
+          "th": "เทศกาลโคมไฟ",
+          "e": "🏮"
+        },
+        {
+          "w": "harvest festival",
+          "th": "เทศกาลเก็บเกี่ยว",
+          "e": "🌾"
+        },
+        {
+          "w": "thanksgiving",
+          "th": "เทศกาลขอบคุณพระเจ้า",
+          "e": "🦃"
+        }
       ],
-      "build": {"sentence":"This game is easier than that one.","th":"เกมนี้ง่ายกว่าเกมนั้น"},
+      "build": {
+        "sentence": "We wear costumes on Halloween.",
+        "th": "พวกเราใส่ชุดแฟนซีในวันฮาโลวีน"
+      },
       "speak": [
-        {"t":"This is better than that.","th":"อันนี้ดีกว่าอันนั้น"},
-        {"t":"My score is the same as yours.","th":"คะแนนของฉันเหมือนกับของเธอ"},
-        {"t":"This puzzle is harder than that one.","th":"จิ๊กซอว์นี้ยากกว่าอันนั้น"},
-        {"t":"My drawing is different from yours.","th":"ภาพวาดของฉันแตกต่างจากของเธอ"}
+        {
+          "t": "We celebrate Chinese New Year with red envelopes.",
+          "th": "พวกเราฉลองตรุษจีนด้วยซองแดง"
+        },
+        {
+          "t": "Christmas trees are beautiful.",
+          "th": "ต้นคริสต์มาสสวยงามมาก"
+        },
+        {
+          "t": "We wear costumes on Halloween.",
+          "th": "พวกเราใส่ชุดแฟนซีในวันฮาโลวีน"
+        },
+        {
+          "t": "Diwali is the festival of lights.",
+          "th": "ดิวาลีคือเทศกาลแห่งแสงไฟ"
+        }
       ],
       "quiz": [
-        {"q":"➕ คือ...","c":["more than","less than","the same as"],"a":0},
-        {"q":"'น้อยกว่า' คือ...","c":["less than","more than","better"],"a":0},
-        {"q":"🟰 คือ...","c":["the same as","different from","worse"],"a":0},
-        {"q":"'ดีกว่า' คือ...","c":["better","worse","harder"],"a":0},
-        {"q":"👎 คือ...","c":["worse","better","easier"],"a":0},
-        {"q":"'ง่ายกว่า' คือ...","c":["easier","harder","worse"],"a":0},
-        {"q":"This game is ___ than that one. (ยากกว่า)","c":["harder","easier","better"],"a":0},
-        {"q":"'แตกต่างจาก' คือ...","c":["different from","the same as","more than"],"a":0}
+        {
+          "q": "🧧 คือ...",
+          "c": [
+            "Chinese New Year",
+            "Christmas",
+            "Halloween"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'คริสต์มาส' คือ...",
+          "c": [
+            "Christmas",
+            "Diwali",
+            "carnival"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🎃 คือ...",
+          "c": [
+            "Halloween",
+            "Christmas",
+            "Diwali"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เทศกาลดิวาลี' คือ...",
+          "c": [
+            "Diwali",
+            "carnival",
+            "harvest festival"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🎭 คือ...",
+          "c": [
+            "carnival",
+            "lantern festival",
+            "thanksgiving"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เทศกาลเก็บเกี่ยว' คือ...",
+          "c": [
+            "harvest festival",
+            "thanksgiving",
+            "carnival"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🦃 คือ...",
+          "c": [
+            "thanksgiving",
+            "harvest festival",
+            "carnival"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We wear ___ on Halloween. (ชุดแฟนซี)",
+          "c": [
+            "costumes",
+            "lanterns",
+            "fireworks"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u6l4",
-      "icon": "🏆",
-      "title": "Fair Games",
-      "sub": "เกมในงานแฟร์ + ทบทวน",
-      "intro": { "en": "Let's play games and see who wins!", "th": "มาเล่นเกมกันดูว่าใครจะชนะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "icon": "👘",
+      "title": "Clothes & Customs",
+      "sub": "เสื้อผ้าและธรรมเนียม + ทบทวน",
+      "intro": {
+        "en": "Every culture has special clothes and customs.",
+        "th": "แต่ละวัฒนธรรมมีเสื้อผ้าและธรรมเนียมพิเศษของตัวเอง บทนี้มีทบทวนทั้งหน่วยด้วย"
+      },
       "vocab": [
-        {"w":"win","th":"ชนะ","e":"🏆"},
-        {"w":"lose","th":"แพ้","e":"😞"},
-        {"w":"first place","th":"อันดับหนึ่ง","e":"🥇"},
-        {"w":"second place","th":"อันดับสอง","e":"🥈"},
-        {"w":"winner","th":"ผู้ชนะ","e":"🎉"},
-        {"w":"champion","th":"แชมป์เปี้ยน","e":"👑"},
-        {"w":"compete","th":"แข่งขัน","e":"🤺"},
-        {"w":"try your best","th":"ทำให้เต็มที่","e":"🌟"}
+        {
+          "w": "traditional dress",
+          "th": "ชุดประจำชาติ",
+          "e": "👘"
+        },
+        {
+          "w": "custom",
+          "th": "ธรรมเนียม",
+          "e": "📜"
+        },
+        {
+          "w": "greeting",
+          "th": "การทักทาย",
+          "e": "🙏"
+        },
+        {
+          "w": "bow",
+          "th": "การโค้งคำนับ",
+          "e": "🙇"
+        },
+        {
+          "w": "handshake",
+          "th": "การจับมือ",
+          "e": "🤝"
+        },
+        {
+          "w": "polite",
+          "th": "สุภาพ",
+          "e": "😊"
+        },
+        {
+          "w": "respect",
+          "th": "ความเคารพ",
+          "e": "❤️"
+        },
+        {
+          "w": "culture",
+          "th": "วัฒนธรรม",
+          "e": "🌏"
+        }
       ],
-      "build": {"sentence":"I want to be the champion!","th":"ฉันอยากเป็นแชมป์เปี้ยน!"},
+      "build": {
+        "sentence": "We wear traditional dress at festivals.",
+        "th": "พวกเราใส่ชุดประจำชาติในเทศกาล"
+      },
       "speak": [
-        {"t":"I want to win first place.","th":"ฉันอยากได้อันดับหนึ่ง"},
-        {"t":"It is okay if we lose.","th":"ไม่เป็นไรถ้าเราแพ้"},
-        {"t":"Just try your best!","th":"แค่ทำให้เต็มที่ก็พอ!"},
-        {"t":"She is the champion this year.","th":"เธอเป็นแชมป์เปี้ยนปีนี้"}
+        {
+          "t": "We wear traditional dress at festivals.",
+          "th": "พวกเราใส่ชุดประจำชาติในเทศกาล"
+        },
+        {
+          "t": "In Japan, people bow to greet.",
+          "th": "ที่ญี่ปุ่น คนทักทายกันด้วยการโค้งคำนับ"
+        },
+        {
+          "t": "It is polite to say thank you.",
+          "th": "การพูดขอบคุณเป็นเรื่องสุภาพ"
+        },
+        {
+          "t": "We respect other cultures.",
+          "th": "พวกเราเคารพวัฒนธรรมอื่น"
+        }
       ],
       "quiz": [
-        {"q":"🏆 คือ...","c":["win","lose","compete"],"a":0},
-        {"q":"'แพ้' คือ...","c":["lose","win","champion"],"a":0},
-        {"q":"🥇 คือ...","c":["first place","second place","winner"],"a":0},
-        {"q":"'แชมป์เปี้ยน' คือ...","c":["champion","winner","loser"],"a":0},
-        {"q":"[ทบทวน] 🐆 คือ...","c":["faster","slower","stronger"],"a":0},
-        {"q":"[ทบทวน] This is ___ than that. (ดีกว่า)","c":["better","worse","harder"],"a":0},
-        {"q":"[ทบทวน] 🐘 ตัวใหญ่กว่าคือ...","c":["bigger","smaller","lighter"],"a":0},
-        {"q":"'แข่งขัน' คือ...","c":["compete","win","lose"],"a":0}
+        {
+          "q": "👘 คือ...",
+          "c": [
+            "traditional dress",
+            "custom",
+            "culture"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'การโค้งคำนับ' คือ...",
+          "c": [
+            "bow",
+            "handshake",
+            "greeting"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🤝 คือ...",
+          "c": [
+            "handshake",
+            "bow",
+            "respect"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] We ___ every year. (เฉลิมฉลอง)",
+          "c": [
+            "celebrate",
+            "decorate",
+            "dance"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] We play with ___ during Songkran.",
+          "c": [
+            "water",
+            "fire",
+            "lanterns"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] We wear ___ on Halloween.",
+          "c": [
+            "costumes",
+            "lanterns",
+            "fireworks"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ความเคารพ' คือ...",
+          "c": [
+            "respect",
+            "polite",
+            "custom"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สุภาพ' คือ...",
+          "c": [
+            "polite",
+            "respect",
+            "greeting"
+          ],
+          "a": 0
+        }
       ]
     }
   ]

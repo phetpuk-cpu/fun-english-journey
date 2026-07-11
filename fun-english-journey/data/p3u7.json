@@ -1,142 +1,598 @@
 {
   "grade": "p3",
-  "gradeName": "ป.3 — Big City 🏙️",
-  "unitName": "หน่วย 7 · Animals & Pets — สัตว์เลี้ยงแสนรัก",
+  "gradeName": "ป.3 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 7 · Yesterday at the Fair — เมื่อวานที่งานแฟร์",
   "lessons": [
     {
       "id": "p3u7l1",
-      "icon": "🐶",
-      "title": "My Pet",
-      "sub": "สัตว์เลี้ยงแสนรัก",
-      "intro": { "en": "Do you have a pet at home?", "th": "ที่บ้านหนูมีสัตว์เลี้ยงไหมนะ?" },
+      "icon": "🕰️",
+      "title": "Was and Were",
+      "sub": "เหตุการณ์ในอดีต (was/were)",
+      "intro": {
+        "en": "Yesterday was a fun day at the fair!",
+        "th": "เมื่อวานเป็นวันที่สนุกมากที่งานแฟร์! วันนี้เรียน was/were พูดถึงอดีตกัน"
+      },
       "vocab": [
-        {"w":"dog","th":"หมา","e":"🐶"},
-        {"w":"cat","th":"แมว","e":"🐱"},
-        {"w":"rabbit","th":"กระต่าย","e":"🐰"},
-        {"w":"bird","th":"นก","e":"🐦"},
-        {"w":"fish","th":"ปลา","e":"🐠"},
-        {"w":"hamster","th":"หนูแฮมสเตอร์","e":"🐹"},
-        {"w":"turtle","th":"เต่า","e":"🐢"},
-        {"w":"puppy","th":"ลูกหมา","e":"🐕"}
+        {
+          "w": "was",
+          "th": "เป็น/อยู่ (อดีต, ฉัน/เขา)",
+          "e": "⏮️"
+        },
+        {
+          "w": "were",
+          "th": "เป็น/อยู่ (อดีต, พวกเรา/เธอ)",
+          "e": "⏪"
+        },
+        {
+          "w": "yesterday",
+          "th": "เมื่อวาน",
+          "e": "📅"
+        },
+        {
+          "w": "last night",
+          "th": "เมื่อคืน",
+          "e": "🌙"
+        },
+        {
+          "w": "last week",
+          "th": "สัปดาห์ที่แล้ว",
+          "e": "🗓️"
+        },
+        {
+          "w": "ago",
+          "th": "...ที่แล้ว",
+          "e": "⏳"
+        },
+        {
+          "w": "then",
+          "th": "ตอนนั้น",
+          "e": "🕰️"
+        },
+        {
+          "w": "before",
+          "th": "ก่อนหน้านี้",
+          "e": "⏱️"
+        }
       ],
-      "build": {"sentence":"I have a puppy at home.","th":"ฉันมีลูกหมาที่บ้าน"},
+      "build": {
+        "sentence": "I was at the fair yesterday.",
+        "th": "เมื่อวานฉันอยู่ที่งานแฟร์"
+      },
       "speak": [
-        {"t":"I have a dog.","th":"ฉันมีหมา"},
-        {"t":"My cat is very cute.","th":"แมวของฉันน่ารักมาก"},
-        {"t":"I have three fish.","th":"ฉันมีปลาสามตัว"},
-        {"t":"My rabbit likes carrots.","th":"กระต่ายของฉันชอบแครอท"}
+        {
+          "t": "I was happy yesterday.",
+          "th": "เมื่อวานฉันมีความสุข"
+        },
+        {
+          "t": "We were at the fair last night.",
+          "th": "เมื่อคืนพวกเราอยู่ที่งานแฟร์"
+        },
+        {
+          "t": "It was a fun day.",
+          "th": "เป็นวันที่สนุกมาก"
+        },
+        {
+          "t": "They were tired after the game.",
+          "th": "พวกเขาเหนื่อยหลังจากเล่นเกม"
+        }
       ],
       "quiz": [
-        {"q":"🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
-        {"q":"'แมว' คือ...","c":["cat","dog","bird"],"a":0},
-        {"q":"🐰 คือ...","c":["rabbit","hamster","turtle"],"a":0},
-        {"q":"'เต่า' คือ...","c":["turtle","fish","bird"],"a":0},
-        {"q":"🐹 คือ...","c":["hamster","rabbit","puppy"],"a":0},
-        {"q":"'นก' คือ...","c":["bird","fish","cat"],"a":0},
-        {"q":"🐕 ลูกหมาคือ...","c":["puppy","dog","cat"],"a":0},
-        {"q":"I have three ___. (ปลา)","c":["fish","dogs","cats"],"a":0}
+        {
+          "q": "I ___ happy yesterday.",
+          "c": [
+            "was",
+            "were",
+            "am"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We ___ at the fair last night.",
+          "c": [
+            "were",
+            "was",
+            "are"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เมื่อวาน' คือ...",
+          "c": [
+            "yesterday",
+            "last night",
+            "before"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เมื่อคืน' คือ...",
+          "c": [
+            "last night",
+            "yesterday",
+            "last week"
+          ],
+          "a": 0
+        },
+        {
+          "q": "It ___ a fun day.",
+          "c": [
+            "was",
+            "were",
+            "is"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🗓️ คือ...",
+          "c": [
+            "last week",
+            "last night",
+            "ago"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'...ที่แล้ว' คือ...",
+          "c": [
+            "ago",
+            "then",
+            "before"
+          ],
+          "a": 0
+        },
+        {
+          "q": "They ___ tired.",
+          "c": [
+            "were",
+            "was",
+            "are"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u7l2",
-      "icon": "🐄",
-      "title": "Farm Animals",
-      "sub": "สัตว์ในฟาร์ม",
-      "intro": { "en": "Let's visit a farm today!", "th": "วันนี้ไปเที่ยวฟาร์มกันเถอะ!" },
+      "icon": "🎮",
+      "title": "What Did You Do?",
+      "sub": "กริยาช่องที่ 2 (เติม -ed)",
+      "intro": {
+        "en": "What did you do at the fair yesterday?",
+        "th": "เมื่อวานหนูทำอะไรที่งานแฟร์บ้าง?"
+      },
       "vocab": [
-        {"w":"cow","th":"วัว","e":"🐄"},
-        {"w":"pig","th":"หมู","e":"🐷"},
-        {"w":"horse","th":"ม้า","e":"🐴"},
-        {"w":"sheep","th":"แกะ","e":"🐑"},
-        {"w":"duck","th":"เป็ด","e":"🦆"},
-        {"w":"chicken","th":"ไก่","e":"🐔"},
-        {"w":"goat","th":"แพะ","e":"🐐"},
-        {"w":"buffalo","th":"ควาย","e":"🐃"}
+        {
+          "w": "played",
+          "th": "เล่น (อดีต)",
+          "e": "🎮"
+        },
+        {
+          "w": "watched",
+          "th": "ดู (อดีต)",
+          "e": "👀"
+        },
+        {
+          "w": "walked",
+          "th": "เดิน (อดีต)",
+          "e": "🚶"
+        },
+        {
+          "w": "jumped",
+          "th": "กระโดด (อดีต)",
+          "e": "🤸"
+        },
+        {
+          "w": "cleaned",
+          "th": "ทำความสะอาด (อดีต)",
+          "e": "🧹"
+        },
+        {
+          "w": "cooked",
+          "th": "ทำอาหาร (อดีต)",
+          "e": "🍳"
+        },
+        {
+          "w": "listened",
+          "th": "ฟัง (อดีต)",
+          "e": "👂"
+        },
+        {
+          "w": "helped",
+          "th": "ช่วยเหลือ (อดีต)",
+          "e": "🤝"
+        }
       ],
-      "build": {"sentence":"The cow says moo.","th":"วัวร้องมู"},
+      "build": {
+        "sentence": "I played games at the fair.",
+        "th": "ฉันเล่นเกมที่งานแฟร์"
+      },
       "speak": [
-        {"t":"I see a cow on the farm.","th":"ฉันเห็นวัวที่ฟาร์ม"},
-        {"t":"The duck swims in the pond.","th":"เป็ดว่ายน้ำในบ่อ"},
-        {"t":"The horse can run fast.","th":"ม้าวิ่งเร็วได้"},
-        {"t":"I feed the chicken.","th":"ฉันให้อาหารไก่"}
+        {
+          "t": "I played games at the fair.",
+          "th": "ฉันเล่นเกมที่งานแฟร์"
+        },
+        {
+          "t": "We watched a show together.",
+          "th": "พวกเราดูการแสดงด้วยกัน"
+        },
+        {
+          "t": "I walked around the fair.",
+          "th": "ฉันเดินเที่ยวรอบๆ งานแฟร์"
+        },
+        {
+          "t": "I helped my mom cook dinner.",
+          "th": "ฉันช่วยแม่ทำอาหารเย็น"
+        }
       ],
       "quiz": [
-        {"q":"🐄 คือ...","c":["cow","buffalo","horse"],"a":0},
-        {"q":"'หมู' คือ...","c":["pig","goat","sheep"],"a":0},
-        {"q":"🐴 คือ...","c":["horse","cow","pig"],"a":0},
-        {"q":"'แกะ' คือ...","c":["sheep","goat","duck"],"a":0},
-        {"q":"🦆 คือ...","c":["duck","chicken","goat"],"a":0},
-        {"q":"'ไก่' คือ...","c":["chicken","duck","sheep"],"a":0},
-        {"q":"🐐 คือ...","c":["goat","sheep","pig"],"a":0},
-        {"q":"'ควาย' คือ...","c":["buffalo","cow","horse"],"a":0}
+        {
+          "q": "🎮 คือ...",
+          "c": [
+            "played",
+            "watched",
+            "jumped"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ดู (อดีต)' คือ...",
+          "c": [
+            "watched",
+            "played",
+            "listened"
+          ],
+          "a": 0
+        },
+        {
+          "q": "Yesterday, I ___ games. (เล่น)",
+          "c": [
+            "played",
+            "play",
+            "playing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🚶 คือ...",
+          "c": [
+            "walked",
+            "jumped",
+            "cleaned"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ทำความสะอาด (อดีต)' คือ...",
+          "c": [
+            "cleaned",
+            "cooked",
+            "helped"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ my mom cook dinner. (ช่วย)",
+          "c": [
+            "helped",
+            "played",
+            "walked"
+          ],
+          "a": 0
+        },
+        {
+          "q": "👂 คือ...",
+          "c": [
+            "listened",
+            "watched",
+            "cooked"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กระโดด (อดีต)' คือ...",
+          "c": [
+            "jumped",
+            "walked",
+            "played"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u7l3",
-      "icon": "🦁",
-      "title": "Wild Animals",
-      "sub": "สัตว์ป่า",
-      "intro": { "en": "Let's go to the zoo and see wild animals!", "th": "ไปสวนสัตว์ดูสัตว์ป่ากันเถอะ!" },
+      "icon": "🍽️",
+      "title": "Irregular Past Verbs",
+      "sub": "กริยาช่องที่ 2 แบบพิเศษ",
+      "intro": {
+        "en": "Some past verbs are special! Let's learn them.",
+        "th": "คำกริยาบางคำในอดีตไม่เติม -ed นะ มาเรียนกัน"
+      },
       "vocab": [
-        {"w":"lion","th":"สิงโต","e":"🦁"},
-        {"w":"elephant","th":"ช้าง","e":"🐘"},
-        {"w":"tiger","th":"เสือ","e":"🐯"},
-        {"w":"monkey","th":"ลิง","e":"🐒"},
-        {"w":"bear","th":"หมี","e":"🐻"},
-        {"w":"zebra","th":"ม้าลาย","e":"🦓"},
-        {"w":"giraffe","th":"ยีราฟ","e":"🦒"},
-        {"w":"snake","th":"งู","e":"🐍"}
+        {
+          "w": "went",
+          "th": "ไป (อดีต)",
+          "e": "🚶‍♀️"
+        },
+        {
+          "w": "ate",
+          "th": "กิน (อดีต)",
+          "e": "🍽️"
+        },
+        {
+          "w": "saw",
+          "th": "เห็น (อดีต)",
+          "e": "👁️"
+        },
+        {
+          "w": "had",
+          "th": "มี (อดีต)",
+          "e": "🤲"
+        },
+        {
+          "w": "did",
+          "th": "ทำ (อดีต)",
+          "e": "✅"
+        },
+        {
+          "w": "made",
+          "th": "ทำ/สร้าง (อดีต)",
+          "e": "🛠️"
+        },
+        {
+          "w": "bought",
+          "th": "ซื้อ (อดีต)",
+          "e": "🛍️"
+        },
+        {
+          "w": "won",
+          "th": "ชนะ (อดีต)",
+          "e": "🏆"
+        }
       ],
-      "build": {"sentence":"The elephant is very big.","th":"ช้างตัวใหญ่มาก"},
+      "build": {
+        "sentence": "I went to the fair yesterday.",
+        "th": "เมื่อวานฉันไปงานแฟร์"
+      },
       "speak": [
-        {"t":"The lion is strong.","th":"สิงโตแข็งแรง"},
-        {"t":"The giraffe has a long neck.","th":"ยีราฟมีคอยาว"},
-        {"t":"I saw a tiger at the zoo.","th":"ฉันเห็นเสือที่สวนสัตว์"},
-        {"t":"The monkey likes bananas.","th":"ลิงชอบกล้วย"}
+        {
+          "t": "I went to the fair.",
+          "th": "ฉันไปงานแฟร์"
+        },
+        {
+          "t": "I ate a hot dog.",
+          "th": "ฉันกินฮอทดอก"
+        },
+        {
+          "t": "I saw my friend there.",
+          "th": "ฉันเห็นเพื่อนของฉันที่นั่น"
+        },
+        {
+          "t": "I won first place!",
+          "th": "ฉันได้อันดับหนึ่ง!"
+        }
       ],
       "quiz": [
-        {"q":"🦁 คือ...","c":["lion","tiger","bear"],"a":0},
-        {"q":"'ช้าง' คือ...","c":["elephant","giraffe","zebra"],"a":0},
-        {"q":"🐯 คือ...","c":["tiger","lion","monkey"],"a":0},
-        {"q":"'ลิง' คือ...","c":["monkey","bear","snake"],"a":0},
-        {"q":"🦒 คอยาวคือ...","c":["giraffe","zebra","elephant"],"a":0},
-        {"q":"'ม้าลาย' คือ...","c":["zebra","tiger","lion"],"a":0},
-        {"q":"🐍 คือ...","c":["snake","bear","monkey"],"a":0},
-        {"q":"'หมี' คือ...","c":["bear","snake","tiger"],"a":0}
+        {
+          "q": "'ไป (อดีต)' คือ...",
+          "c": [
+            "went",
+            "go",
+            "going"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ a hot dog yesterday. (กิน)",
+          "c": [
+            "ate",
+            "eat",
+            "eating"
+          ],
+          "a": 0
+        },
+        {
+          "q": "👁️ (อดีต) คือ...",
+          "c": [
+            "saw",
+            "see",
+            "seeing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'มี (อดีต)' คือ...",
+          "c": [
+            "had",
+            "have",
+            "having"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🛍️ (อดีต) คือ...",
+          "c": [
+            "bought",
+            "buy",
+            "buying"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ first place! (ชนะ)",
+          "c": [
+            "won",
+            "win",
+            "winning"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ทำ/สร้าง (อดีต)' คือ...",
+          "c": [
+            "made",
+            "make",
+            "making"
+          ],
+          "a": 0
+        },
+        {
+          "q": "What ___ you do yesterday?",
+          "c": [
+            "did",
+            "do",
+            "were"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u7l4",
-      "icon": "🐾",
-      "title": "Take Care of Animals",
-      "sub": "ดูแลสัตว์เลี้ยง + ทบทวน",
-      "intro": { "en": "We must take good care of animals.", "th": "เราต้องดูแลสัตว์ให้ดีนะ บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "icon": "📔",
+      "title": "My Day Yesterday",
+      "sub": "เล่าเรื่องเมื่อวาน + ทบทวน",
+      "intro": {
+        "en": "Let's talk about our day yesterday!",
+        "th": "มาเล่าเรื่องเมื่อวานของเรากันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย"
+      },
       "vocab": [
-        {"w":"feed","th":"ให้อาหาร","e":"🍖"},
-        {"w":"walk the dog","th":"พาหมาไปเดินเล่น","e":"🚶"},
-        {"w":"give water","th":"ให้น้ำ","e":"💧"},
-        {"w":"clean the cage","th":"ทำความสะอาดกรง","e":"🧽"},
-        {"w":"gentle","th":"อ่อนโยน","e":"🤲"},
-        {"w":"love animals","th":"รักสัตว์","e":"❤️"},
-        {"w":"protect","th":"ปกป้อง","e":"🛡️"},
-        {"w":"kind to animals","th":"ใจดีกับสัตว์","e":"🐾"}
+        {
+          "w": "woke up",
+          "th": "ตื่นนอน (อดีต)",
+          "e": "⏰"
+        },
+        {
+          "w": "got up",
+          "th": "ลุกจากที่นอน (อดีต)",
+          "e": "🌄"
+        },
+        {
+          "w": "came home",
+          "th": "กลับถึงบ้าน (อดีต)",
+          "e": "🏠"
+        },
+        {
+          "w": "felt happy",
+          "th": "รู้สึกมีความสุข (อดีต)",
+          "e": "😊"
+        },
+        {
+          "w": "had fun",
+          "th": "สนุกมาก (อดีต)",
+          "e": "🎉"
+        },
+        {
+          "w": "was tired",
+          "th": "เหนื่อย (อดีต)",
+          "e": "😴"
+        },
+        {
+          "w": "slept early",
+          "th": "นอนแต่หัวค่ำ (อดีต)",
+          "e": "🛌"
+        },
+        {
+          "w": "a great day",
+          "th": "วันที่ดีมาก",
+          "e": "🌟"
+        }
       ],
-      "build": {"sentence":"I feed my dog every day.","th":"ฉันให้อาหารหมาทุกวัน"},
+      "build": {
+        "sentence": "Yesterday was a great day.",
+        "th": "เมื่อวานเป็นวันที่ดีมาก"
+      },
       "speak": [
-        {"t":"I feed my cat every day.","th":"ฉันให้อาหารแมวทุกวัน"},
-        {"t":"I walk the dog in the park.","th":"ฉันพาหมาไปเดินเล่นในสวน"},
-        {"t":"We should be gentle with animals.","th":"เราควรอ่อนโยนกับสัตว์"},
-        {"t":"I love animals very much.","th":"ฉันรักสัตว์มากๆ"}
+        {
+          "t": "I woke up early yesterday.",
+          "th": "เมื่อวานฉันตื่นแต่เช้า"
+        },
+        {
+          "t": "I had fun at the fair.",
+          "th": "ฉันสนุกมากที่งานแฟร์"
+        },
+        {
+          "t": "I came home and felt happy.",
+          "th": "ฉันกลับถึงบ้านและรู้สึกมีความสุข"
+        },
+        {
+          "t": "I was tired, so I slept early.",
+          "th": "ฉันเหนื่อย เลยนอนแต่หัวค่ำ"
+        }
       ],
       "quiz": [
-        {"q":"🍖 คือ...","c":["feed","give water","clean the cage"],"a":0},
-        {"q":"'พาหมาไปเดินเล่น' คือ...","c":["walk the dog","feed","protect"],"a":0},
-        {"q":"We should be ___ with animals.","c":["gentle","loud","fast"],"a":0},
-        {"q":"[ทบทวน] 🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
-        {"q":"[ทบทวน] 🐄 คือ...","c":["cow","buffalo","horse"],"a":0},
-        {"q":"[ทบทวน] 🦁 คือ...","c":["lion","tiger","bear"],"a":0},
-        {"q":"'ปกป้อง' คือ...","c":["protect","feed","clean the cage"],"a":0},
-        {"q":"I ___ animals very much. (รัก)","c":["love","clean","walk"],"a":0}
+        {
+          "q": "'ตื่นนอน (อดีต)' คือ...",
+          "c": [
+            "woke up",
+            "wake up",
+            "waking up"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ home at five. (กลับถึง)",
+          "c": [
+            "came",
+            "come",
+            "coming"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] I ___ happy yesterday.",
+          "c": [
+            "was",
+            "were",
+            "am"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] I ___ to the fair. (ไป)",
+          "c": [
+            "went",
+            "go",
+            "going"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] Yesterday, I ___ games. (เล่น)",
+          "c": [
+            "played",
+            "play",
+            "playing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สนุกมาก (อดีต)' คือ...",
+          "c": [
+            "had fun",
+            "was tired",
+            "felt happy"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I was tired, so I ___ early.",
+          "c": [
+            "slept",
+            "sleep",
+            "sleeping"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'วันที่ดีมาก' คือ...",
+          "c": [
+            "a great day",
+            "a bad day",
+            "a long day"
+          ],
+          "a": 0
+        }
       ]
     }
   ]

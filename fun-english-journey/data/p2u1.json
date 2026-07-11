@@ -1,0 +1,599 @@
+{
+  "grade": "p2",
+  "gradeName": "ป.2 — Big City 🏙️",
+  "unitName": "หน่วย 1 · My Day — วันของฉัน",
+  "lessons": [
+    {
+      "id": "p2u1l1",
+      "icon": "🌅",
+      "title": "Good Morning!",
+      "sub": "กิจวัตรตอนเช้า",
+      "intro": {
+        "en": "Good morning! This is my morning.",
+        "th": "เช้าแล้ว! มาดูกันว่าตอนเช้า Ducky ทำอะไรบ้าง"
+      },
+      "vocab": [
+        {
+          "w": "wake up",
+          "th": "ตื่นนอน",
+          "e": "⏰"
+        },
+        {
+          "w": "take a shower",
+          "th": "อาบน้ำ",
+          "e": "🚿"
+        },
+        {
+          "w": "brush my teeth",
+          "th": "แปรงฟัน",
+          "e": "🪥"
+        },
+        {
+          "w": "wash my face",
+          "th": "ล้างหน้า",
+          "e": "🧼"
+        },
+        {
+          "w": "get dressed",
+          "th": "แต่งตัว",
+          "e": "👕"
+        },
+        {
+          "w": "comb my hair",
+          "th": "หวีผม",
+          "e": "💇"
+        },
+        {
+          "w": "eat breakfast",
+          "th": "กินข้าวเช้า",
+          "e": "🍳"
+        },
+        {
+          "w": "go to school",
+          "th": "ไปโรงเรียน",
+          "e": "🎒"
+        }
+      ],
+      "build": {
+        "sentence": "I brush my teeth in the morning.",
+        "th": "ฉันแปรงฟันตอนเช้า"
+      },
+      "speak": [
+        {
+          "t": "I wake up at seven.",
+          "th": "ฉันตื่นนอนตอนเจ็ดโมง"
+        },
+        {
+          "t": "I take a shower.",
+          "th": "ฉันอาบน้ำ"
+        },
+        {
+          "t": "I eat breakfast with my family.",
+          "th": "ฉันกินข้าวเช้ากับครอบครัว"
+        },
+        {
+          "t": "I go to school by bus.",
+          "th": "ฉันไปโรงเรียนโดยรถบัส"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "⏰ ภาพนี้คือ...",
+          "c": [
+            "wake up",
+            "go to bed",
+            "eat breakfast"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แปรงฟัน' พูดว่าอย่างไร?",
+          "c": [
+            "wash my face",
+            "brush my teeth",
+            "take a shower"
+          ],
+          "a": 1
+        },
+        {
+          "q": "I ___ to school.",
+          "c": [
+            "go",
+            "eat",
+            "sleep"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🚿 = ?",
+          "c": [
+            "take a shower",
+            "wake up",
+            "get dressed"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แต่งตัว' คือ...",
+          "c": [
+            "comb my hair",
+            "get dressed",
+            "wash my face"
+          ],
+          "a": 1
+        },
+        {
+          "q": "ตอนเช้าเรากิน...",
+          "c": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I wash my ___ in the morning.",
+          "c": [
+            "face",
+            "school",
+            "bus"
+          ],
+          "a": 0
+        },
+        {
+          "q": "เรียงลำดับที่ถูกต้อง...",
+          "c": [
+            "go to school → wake up",
+            "wake up → go to school",
+            "eat breakfast → wake up"
+          ],
+          "a": 1
+        }
+      ]
+    },
+    {
+      "id": "p2u1l2",
+      "icon": "🏫",
+      "title": "At School",
+      "sub": "ที่โรงเรียน",
+      "intro": {
+        "en": "Welcome to Forest School! What do we do at school?",
+        "th": "ถึงโรงเรียนแล้ว! วันนี้เรียนคำที่ใช้ในห้องเรียนนะ"
+      },
+      "vocab": [
+        {
+          "w": "study English",
+          "th": "เรียนภาษาอังกฤษ",
+          "e": "📖"
+        },
+        {
+          "w": "read a book",
+          "th": "อ่านหนังสือ",
+          "e": "📚"
+        },
+        {
+          "w": "write",
+          "th": "เขียน",
+          "e": "✏️"
+        },
+        {
+          "w": "listen to the teacher",
+          "th": "ฟังคุณครู",
+          "e": "👂"
+        },
+        {
+          "w": "sing a song",
+          "th": "ร้องเพลง",
+          "e": "🎶"
+        },
+        {
+          "w": "draw a picture",
+          "th": "วาดรูป",
+          "e": "🖍️"
+        },
+        {
+          "w": "play with friends",
+          "th": "เล่นกับเพื่อน",
+          "e": "🤸"
+        },
+        {
+          "w": "eat lunch",
+          "th": "กินข้าวกลางวัน",
+          "e": "🍜"
+        }
+      ],
+      "build": {
+        "sentence": "I read a book at school.",
+        "th": "ฉันอ่านหนังสือที่โรงเรียน"
+      },
+      "speak": [
+        {
+          "t": "I study English at school.",
+          "th": "ฉันเรียนภาษาอังกฤษที่โรงเรียน"
+        },
+        {
+          "t": "I listen to the teacher.",
+          "th": "ฉันฟังคุณครู"
+        },
+        {
+          "t": "I play with my friends.",
+          "th": "ฉันเล่นกับเพื่อนๆ"
+        },
+        {
+          "t": "We sing a song together.",
+          "th": "พวกเรากันร้องเพลงด้วยกัน"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "📚 ภาพนี้คือ...",
+          "c": [
+            "write",
+            "read a book",
+            "draw a picture"
+          ],
+          "a": 1
+        },
+        {
+          "q": "'ฟังคุณครู' คือ...",
+          "c": [
+            "listen to the teacher",
+            "play with friends",
+            "sing a song"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ a picture.",
+          "c": [
+            "draw",
+            "eat",
+            "listen"
+          ],
+          "a": 0
+        },
+        {
+          "q": "ตอนเที่ยงที่โรงเรียนเรา...",
+          "c": [
+            "eat lunch",
+            "go to bed",
+            "take a shower"
+          ],
+          "a": 0
+        },
+        {
+          "q": "✏️ = ?",
+          "c": [
+            "read",
+            "write",
+            "sing"
+          ],
+          "a": 1
+        },
+        {
+          "q": "'เล่นกับเพื่อน' คือ...",
+          "c": [
+            "play with friends",
+            "study English",
+            "eat lunch"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We ___ a song in music class.",
+          "c": [
+            "draw",
+            "sing",
+            "write"
+          ],
+          "a": 1
+        },
+        {
+          "q": "I study ___ at school.",
+          "c": [
+            "English",
+            "breakfast",
+            "shower"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p2u1l3",
+      "icon": "🏠",
+      "title": "After School",
+      "sub": "หลังเลิกเรียน",
+      "intro": {
+        "en": "School is over! What do you do after school?",
+        "th": "เลิกเรียนแล้ว! หลังเลิกเรียนหนูทำอะไรบ้าง?"
+      },
+      "vocab": [
+        {
+          "w": "go home",
+          "th": "กลับบ้าน",
+          "e": "🏠"
+        },
+        {
+          "w": "do homework",
+          "th": "ทำการบ้าน",
+          "e": "📝"
+        },
+        {
+          "w": "play games",
+          "th": "เล่นเกม",
+          "e": "🎮"
+        },
+        {
+          "w": "watch TV",
+          "th": "ดูทีวี",
+          "e": "📺"
+        },
+        {
+          "w": "help my mom",
+          "th": "ช่วยคุณแม่",
+          "e": "🧹"
+        },
+        {
+          "w": "feed the dog",
+          "th": "ให้อาหารหมา",
+          "e": "🐶"
+        },
+        {
+          "w": "take a bath",
+          "th": "อาบน้ำเย็น",
+          "e": "🛁"
+        },
+        {
+          "w": "eat dinner",
+          "th": "กินข้าวเย็น",
+          "e": "🍛"
+        }
+      ],
+      "build": {
+        "sentence": "I do my homework after school.",
+        "th": "ฉันทำการบ้านหลังเลิกเรียน"
+      },
+      "speak": [
+        {
+          "t": "I go home at four.",
+          "th": "ฉันกลับบ้านตอนสี่โมง"
+        },
+        {
+          "t": "I do my homework first.",
+          "th": "ฉันทำการบ้านก่อน"
+        },
+        {
+          "t": "I help my mom at home.",
+          "th": "ฉันช่วยคุณแม่ที่บ้าน"
+        },
+        {
+          "t": "I eat dinner with my family.",
+          "th": "ฉันกินข้าวเย็นกับครอบครัว"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "หลังเลิกเรียนเรา ___ ก่อนเล่น",
+          "c": [
+            "do homework",
+            "watch TV",
+            "play games"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🐶 + อาหาร = ?",
+          "c": [
+            "feed the dog",
+            "help my mom",
+            "take a bath"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ดูทีวี' คือ...",
+          "c": [
+            "play games",
+            "watch TV",
+            "go home"
+          ],
+          "a": 1
+        },
+        {
+          "q": "I ___ my mom.",
+          "c": [
+            "help",
+            "eat",
+            "watch"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🍛 ตอนเย็นคือมื้อ...",
+          "c": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "a": 2
+        },
+        {
+          "q": "'กลับบ้าน' คือ...",
+          "c": [
+            "go home",
+            "go to school",
+            "go to bed"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I take a ___ in the evening.",
+          "c": [
+            "bath",
+            "game",
+            "dog"
+          ],
+          "a": 0
+        },
+        {
+          "q": "ข้อไหนเป็นการช่วยงานบ้าน?",
+          "c": [
+            "play games",
+            "help my mom",
+            "watch TV"
+          ],
+          "a": 1
+        }
+      ]
+    },
+    {
+      "id": "p2u1l4",
+      "icon": "🌙",
+      "title": "Good Night!",
+      "sub": "ก่อนนอน + ทบทวน",
+      "intro": {
+        "en": "It is night time. Sweet dreams!",
+        "th": "ค่ำแล้ว ก่อนนอนทำอะไรบ้างนะ? บทนี้มีทบทวนทั้งหน่วยด้วย!"
+      },
+      "vocab": [
+        {
+          "w": "put on pajamas",
+          "th": "ใส่ชุดนอน",
+          "e": "🧸"
+        },
+        {
+          "w": "read a bedtime story",
+          "th": "อ่านนิทานก่อนนอน",
+          "e": "🌛"
+        },
+        {
+          "w": "hug my mom and dad",
+          "th": "กอดพ่อแม่",
+          "e": "🤗"
+        },
+        {
+          "w": "say goodnight",
+          "th": "บอกราตรีสวัสดิ์",
+          "e": "💤"
+        },
+        {
+          "w": "turn off the light",
+          "th": "ปิดไฟ",
+          "e": "💡"
+        },
+        {
+          "w": "go to bed",
+          "th": "เข้านอน",
+          "e": "🛏️"
+        },
+        {
+          "w": "sleep tight",
+          "th": "หลับฝันดี",
+          "e": "😴"
+        },
+        {
+          "w": "have a good dream",
+          "th": "ฝันดี",
+          "e": "🌈"
+        }
+      ],
+      "build": {
+        "sentence": "I go to bed at nine.",
+        "th": "ฉันเข้านอนตอนสามทุ่ม"
+      },
+      "speak": [
+        {
+          "t": "I put on my pajamas.",
+          "th": "ฉันใส่ชุดนอน"
+        },
+        {
+          "t": "Mom reads a bedtime story.",
+          "th": "แม่อ่านนิทานก่อนนอนให้ฟัง"
+        },
+        {
+          "t": "Good night, Mom and Dad.",
+          "th": "ราตรีสวัสดิ์ครับ/ค่ะ พ่อกับแม่"
+        },
+        {
+          "t": "I sleep tight every night.",
+          "th": "ฉันหลับสบายทุกคืน"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "ก่อนนอนเราพูดว่า...",
+          "c": [
+            "Good morning!",
+            "Good night!",
+            "Good luck!"
+          ],
+          "a": 1
+        },
+        {
+          "q": "💡 กดปุ่มแล้วมืด = ?",
+          "c": [
+            "turn off the light",
+            "turn on the TV",
+            "open the door"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เข้านอน' คือ...",
+          "c": [
+            "go to bed",
+            "go to school",
+            "go home"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🌛 ภาพนี้คือ...",
+          "c": [
+            "read a bedtime story",
+            "play games",
+            "do homework"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] ตื่นนอนตอนเช้า คือ...",
+          "c": [
+            "go to bed",
+            "wake up",
+            "eat dinner"
+          ],
+          "a": 1
+        },
+        {
+          "q": "[ทบทวน] I ___ my homework after school.",
+          "c": [
+            "do",
+            "go",
+            "sleep"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] เรียงวันให้ถูก...",
+          "c": [
+            "wake up → school → homework → bed",
+            "bed → school → wake up",
+            "school → wake up → bed"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I have a good ___ every night.",
+          "c": [
+            "dream",
+            "lunch",
+            "bus"
+          ],
+          "a": 0
+        }
+      ]
+    }
+  ]
+}

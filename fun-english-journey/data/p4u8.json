@@ -1,142 +1,598 @@
 {
   "grade": "p4",
-  "gradeName": "ป.4 — Four Seasons Fair 🎪",
-  "unitName": "หน่วย 8 · My Favorite Season — ฤดูกาลที่ฉันชอบ",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 8 · Explorer's Journal — สมุดบันทึกนักสำรวจ",
   "lessons": [
     {
       "id": "p4u8l1",
-      "icon": "🍂",
-      "title": "The Four Seasons",
-      "sub": "สี่ฤดูกาล",
-      "intro": { "en": "Welcome to the Four Seasons Fair!", "th": "ยินดีต้อนรับสู่งานแฟร์สี่ฤดูกาล!" },
+      "icon": "📔",
+      "title": "My Explorer Journal",
+      "sub": "บันทึกการเดินทางของฉัน",
+      "intro": {
+        "en": "Let's write about our journey so far!",
+        "th": "มาเขียนบันทึกการเดินทางของเรากันเถอะ"
+      },
       "vocab": [
-        {"w":"spring","th":"ฤดูใบไม้ผลิ","e":"🌸"},
-        {"w":"summer","th":"ฤดูร้อน","e":"☀️"},
-        {"w":"autumn","th":"ฤดูใบไม้ร่วง","e":"🍂"},
-        {"w":"winter","th":"ฤดูหนาว","e":"❄️"},
-        {"w":"season","th":"ฤดูกาล","e":"🗓️"},
-        {"w":"leaves","th":"ใบไม้","e":"🍁"},
-        {"w":"flower","th":"ดอกไม้","e":"🌷"},
-        {"w":"snowman","th":"ตุ๊กตาหิมะ","e":"⛄"}
+        {
+          "w": "journal",
+          "th": "สมุดบันทึก",
+          "e": "📔"
+        },
+        {
+          "w": "adventure",
+          "th": "การผจญภัย",
+          "e": "🗺️"
+        },
+        {
+          "w": "memory",
+          "th": "ความทรงจำ",
+          "e": "💭"
+        },
+        {
+          "w": "discover",
+          "th": "ค้นพบ",
+          "e": "🔍"
+        },
+        {
+          "w": "learn",
+          "th": "เรียนรู้",
+          "e": "🧠"
+        },
+        {
+          "w": "experience",
+          "th": "ประสบการณ์",
+          "e": "🌟"
+        },
+        {
+          "w": "proud",
+          "th": "ภูมิใจ",
+          "e": "😌"
+        },
+        {
+          "w": "grateful",
+          "th": "ซาบซึ้งใจ",
+          "e": "🙏"
+        }
       ],
-      "build": {"sentence":"Flowers bloom in spring.","th":"ดอกไม้บานในฤดูใบไม้ผลิ"},
+      "build": {
+        "sentence": "I am proud of my adventures.",
+        "th": "ฉันภูมิใจในการผจญภัยของฉัน"
+      },
       "speak": [
-        {"t":"I like spring best.","th":"ฉันชอบฤดูใบไม้ผลิที่สุด"},
-        {"t":"Leaves fall in autumn.","th":"ใบไม้ร่วงในฤดูใบไม้ร่วง"},
-        {"t":"We build a snowman in winter.","th":"พวกเราปั้นตุ๊กตาหิมะในฤดูหนาว"},
-        {"t":"Summer is hot and sunny.","th":"ฤดูร้อนนั้นร้อนและมีแดด"}
+        {
+          "t": "I write in my journal every day.",
+          "th": "ฉันเขียนบันทึกทุกวัน"
+        },
+        {
+          "t": "I discovered so many new things.",
+          "th": "ฉันค้นพบสิ่งใหม่ๆ เยอะมาก"
+        },
+        {
+          "t": "This was an amazing experience.",
+          "th": "นี่เป็นประสบการณ์ที่น่าทึ่ง"
+        },
+        {
+          "t": "I am grateful for this journey.",
+          "th": "ฉันซาบซึ้งใจกับการเดินทางครั้งนี้"
+        }
       ],
       "quiz": [
-        {"q":"🌸 คือ...","c":["spring","summer","autumn"],"a":0},
-        {"q":"'ฤดูร้อน' คือ...","c":["summer","winter","spring"],"a":0},
-        {"q":"🍂 คือ...","c":["autumn","spring","winter"],"a":0},
-        {"q":"'ฤดูหนาว' คือ...","c":["winter","summer","autumn"],"a":0},
-        {"q":"⛄ คือ...","c":["snowman","flower","leaves"],"a":0},
-        {"q":"'ใบไม้' คือ...","c":["leaves","flower","season"],"a":0},
-        {"q":"🌷 คือ...","c":["flower","leaves","snowman"],"a":0},
-        {"q":"Flowers bloom in ___.","c":["spring","winter","autumn"],"a":0}
+        {
+          "q": "📔 คือ...",
+          "c": [
+            "journal",
+            "adventure",
+            "memory"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ความทรงจำ' คือ...",
+          "c": [
+            "memory",
+            "journal",
+            "experience"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🔍 คือ...",
+          "c": [
+            "discover",
+            "learn",
+            "explore"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เรียนรู้' คือ...",
+          "c": [
+            "learn",
+            "discover",
+            "experience"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🌟 คือ...",
+          "c": [
+            "experience",
+            "memory",
+            "adventure"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ภูมิใจ' คือ...",
+          "c": [
+            "proud",
+            "grateful",
+            "happy"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🙏 คือ...",
+          "c": [
+            "grateful",
+            "proud",
+            "happy"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I am ___ of my adventures. (ภูมิใจ)",
+          "c": [
+            "proud",
+            "grateful",
+            "tired"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u8l2",
-      "icon": "🪁",
-      "title": "Seasonal Fun",
-      "sub": "กิจกรรมตามฤดูกาล",
-      "intro": { "en": "Every season has fun things to do!", "th": "แต่ละฤดูกาลมีกิจกรรมสนุกๆ ให้ทำนะ" },
+      "icon": "❓",
+      "title": "Ask Me Anything",
+      "sub": "ฝึกตั้งคำถามทบทวนไวยากรณ์ทั้งเทอม",
+      "intro": {
+        "en": "Let's practice asking questions!",
+        "th": "มาฝึกตั้งคำถามกันเถอะ"
+      },
       "vocab": [
-        {"w":"plant flowers","th":"ปลูกดอกไม้","e":"🌱"},
-        {"w":"swim in the sea","th":"ว่ายน้ำในทะเล","e":"🏖️"},
-        {"w":"collect leaves","th":"เก็บใบไม้","e":"🍁"},
-        {"w":"build a snowman","th":"ปั้นตุ๊กตาหิมะ","e":"⛄"},
-        {"w":"fly a kite","th":"เล่นว่าว","e":"🪁"},
-        {"w":"go on a picnic","th":"ไปปิกนิก","e":"🧺"},
-        {"w":"wear a coat","th":"ใส่เสื้อโค้ท","e":"🧥"},
-        {"w":"wear shorts","th":"ใส่กางเกงขาสั้น","e":"🩳"}
+        {
+          "w": "question",
+          "th": "คำถาม",
+          "e": "❓"
+        },
+        {
+          "w": "answer",
+          "th": "คำตอบ",
+          "e": "💬"
+        },
+        {
+          "w": "interview",
+          "th": "สัมภาษณ์",
+          "e": "🎤"
+        },
+        {
+          "w": "curious",
+          "th": "อยากรู้อยากเห็น",
+          "e": "🤔"
+        },
+        {
+          "w": "guess",
+          "th": "เดา",
+          "e": "🎲"
+        },
+        {
+          "w": "share",
+          "th": "แบ่งปัน",
+          "e": "🤝"
+        },
+        {
+          "w": "partner",
+          "th": "คู่หู",
+          "e": "👫"
+        },
+        {
+          "w": "turn",
+          "th": "ตาของฉัน/เธอ",
+          "e": "🔄"
+        }
       ],
-      "build": {"sentence":"I fly a kite in spring.","th":"ฉันเล่นว่าวในฤดูใบไม้ผลิ"},
+      "build": {
+        "sentence": "What is the tallest mountain in the world?",
+        "th": "ภูเขาที่สูงที่สุดในโลกคือภูเขาอะไร?"
+      },
       "speak": [
-        {"t":"I swim in the sea in summer.","th":"ฉันว่ายน้ำในทะเลตอนฤดูร้อน"},
-        {"t":"We collect leaves in autumn.","th":"พวกเราเก็บใบไม้ในฤดูใบไม้ร่วง"},
-        {"t":"I wear a coat in winter.","th":"ฉันใส่เสื้อโค้ทในฤดูหนาว"},
-        {"t":"Let's go on a picnic today.","th":"ไปปิกนิกกันวันนี้เถอะ"}
+        {
+          "t": "Where are you from?",
+          "th": "เธอมาจากไหน?"
+        },
+        {
+          "t": "What were you doing yesterday?",
+          "th": "เมื่อวานเธอกำลังทำอะไรอยู่?"
+        },
+        {
+          "t": "What is the tallest mountain?",
+          "th": "ภูเขาที่สูงที่สุดคืออะไร?"
+        },
+        {
+          "t": "How do you get to school?",
+          "th": "เธอไปโรงเรียนยังไง?"
+        }
       ],
       "quiz": [
-        {"q":"🌱 คือ...","c":["plant flowers","collect leaves","fly a kite"],"a":0},
-        {"q":"'ว่ายน้ำในทะเล' คือ...","c":["swim in the sea","go on a picnic","build a snowman"],"a":0},
-        {"q":"⛄ คือ...","c":["build a snowman","fly a kite","wear a coat"],"a":0},
-        {"q":"'เล่นว่าว' คือ...","c":["fly a kite","plant flowers","wear shorts"],"a":0},
-        {"q":"🧥 ใส่ตอนฤดูหนาวคือ...","c":["wear a coat","wear shorts","swim in the sea"],"a":0},
-        {"q":"'ใส่กางเกงขาสั้น' คือ...","c":["wear shorts","wear a coat","fly a kite"],"a":0},
-        {"q":"🧺 คือ...","c":["go on a picnic","collect leaves","plant flowers"],"a":0},
-        {"q":"In autumn, we ___.","c":["collect leaves","build a snowman","swim in the sea"],"a":0}
+        {
+          "q": "❓ คือ...",
+          "c": [
+            "question",
+            "answer",
+            "interview"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'คำตอบ' คือ...",
+          "c": [
+            "answer",
+            "question",
+            "guess"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🤔 คือ...",
+          "c": [
+            "curious",
+            "guess",
+            "share"
+          ],
+          "a": 0
+        },
+        {
+          "q": "Where ___ you from?",
+          "c": [
+            "are",
+            "is",
+            "do"
+          ],
+          "a": 0
+        },
+        {
+          "q": "What ___ you doing yesterday?",
+          "c": [
+            "were",
+            "was",
+            "are"
+          ],
+          "a": 0
+        },
+        {
+          "q": "What is the ___ mountain? (สูงที่สุด)",
+          "c": [
+            "tallest",
+            "biggest",
+            "longest"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สัมภาษณ์' คือ...",
+          "c": [
+            "interview",
+            "question",
+            "answer"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แบ่งปัน' คือ...",
+          "c": [
+            "share",
+            "guess",
+            "turn"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u8l3",
-      "icon": "❤️",
-      "title": "My Favorite Season",
-      "sub": "ฤดูกาลที่ชอบและเหตุผล",
-      "intro": { "en": "Which season do you like best? Why?", "th": "หนูชอบฤดูไหนที่สุด? เพราะอะไรนะ?" },
+      "icon": "💌",
+      "title": "Postcards from Around the World",
+      "sub": "โปสการ์ดจากรอบโลก",
+      "intro": {
+        "en": "Let's send a postcard to a friend!",
+        "th": "มาส่งโปสการ์ดหาเพื่อนกันเถอะ"
+      },
       "vocab": [
-        {"w":"like best","th":"ชอบที่สุด","e":"❤️"},
-        {"w":"because","th":"เพราะว่า","e":"🔗"},
-        {"w":"warm","th":"อบอุ่น","e":"🌤️"},
-        {"w":"cool weather","th":"อากาศเย็นสบาย","e":"🍃"},
-        {"w":"favorite season","th":"ฤดูกาลโปรด","e":"⭐"},
-        {"w":"reason","th":"เหตุผล","e":"💭"},
-        {"w":"prefer","th":"ชอบมากกว่า","e":"👍"},
-        {"w":"beautiful view","th":"วิวสวยงาม","e":"🏞️"}
+        {
+          "w": "postcard",
+          "th": "โปสการ์ด",
+          "e": "💌"
+        },
+        {
+          "w": "souvenir",
+          "th": "ของที่ระลึก",
+          "e": "🎁"
+        },
+        {
+          "w": "stamp",
+          "th": "แสตมป์",
+          "e": "📮"
+        },
+        {
+          "w": "send",
+          "th": "ส่ง",
+          "e": "📤"
+        },
+        {
+          "w": "greetings",
+          "th": "คำทักทาย",
+          "e": "👋"
+        },
+        {
+          "w": "miss you",
+          "th": "คิดถึงเธอ",
+          "e": "💕"
+        },
+        {
+          "w": "wish",
+          "th": "ปรารถนา",
+          "e": "🌠"
+        },
+        {
+          "w": "address",
+          "th": "ที่อยู่",
+          "e": "🏠"
+        }
       ],
-      "build": {"sentence":"I like summer best because it is warm.","th":"ฉันชอบฤดูร้อนที่สุดเพราะอากาศอบอุ่น"},
+      "build": {
+        "sentence": "I will send you a postcard.",
+        "th": "ฉันจะส่งโปสการ์ดให้เธอ"
+      },
       "speak": [
-        {"t":"My favorite season is winter.","th":"ฤดูกาลโปรดของฉันคือฤดูหนาว"},
-        {"t":"I like it because the weather is cool.","th":"ฉันชอบเพราะอากาศเย็นสบาย"},
-        {"t":"I prefer spring to summer.","th":"ฉันชอบฤดูใบไม้ผลิมากกว่าฤดูร้อน"},
-        {"t":"Autumn has a beautiful view.","th":"ฤดูใบไม้ร่วงมีวิวที่สวยงาม"}
+        {
+          "t": "I will send you a postcard.",
+          "th": "ฉันจะส่งโปสการ์ดให้เธอ"
+        },
+        {
+          "t": "Greetings from Japan!",
+          "th": "คำทักทายจากญี่ปุ่น!"
+        },
+        {
+          "t": "I miss you and my family.",
+          "th": "ฉันคิดถึงเธอและครอบครัวของฉัน"
+        },
+        {
+          "t": "I wish you were here.",
+          "th": "ฉันอยากให้เธออยู่ที่นี่ด้วย"
+        }
       ],
       "quiz": [
-        {"q":"❤️ คือ...","c":["like best","because","prefer"],"a":0},
-        {"q":"'เพราะว่า' คือ...","c":["because","reason","prefer"],"a":0},
-        {"q":"🌤️ คือ...","c":["warm","cool weather","beautiful view"],"a":0},
-        {"q":"'อากาศเย็นสบาย' คือ...","c":["cool weather","warm","reason"],"a":0},
-        {"q":"I like winter ___ it is cool.","c":["because","and","but"],"a":0},
-        {"q":"'ชอบมากกว่า' คือ...","c":["prefer","like best","reason"],"a":0},
-        {"q":"⭐ คือ...","c":["favorite season","reason","warm"],"a":0},
-        {"q":"'เหตุผล' คือ...","c":["reason","because","prefer"],"a":0}
+        {
+          "q": "💌 คือ...",
+          "c": [
+            "postcard",
+            "souvenir",
+            "stamp"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แสตมป์' คือ...",
+          "c": [
+            "stamp",
+            "postcard",
+            "address"
+          ],
+          "a": 0
+        },
+        {
+          "q": "📤 คือ...",
+          "c": [
+            "send",
+            "wish",
+            "miss you"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'คำทักทาย' คือ...",
+          "c": [
+            "greetings",
+            "wish",
+            "address"
+          ],
+          "a": 0
+        },
+        {
+          "q": "💕 คือ...",
+          "c": [
+            "miss you",
+            "greetings",
+            "wish"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ปรารถนา' คือ...",
+          "c": [
+            "wish",
+            "miss you",
+            "send"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🏠 คือ...",
+          "c": [
+            "address",
+            "postcard",
+            "stamp"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I will ___ you a postcard.",
+          "c": [
+            "send",
+            "wish",
+            "miss"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p4u8l4",
       "icon": "🎓",
       "title": "Grand Review",
-      "sub": "ทบทวนใหญ่ ป.4 ทั้งหมด",
-      "intro": { "en": "You finished Grade 4! Amazing job!", "th": "หนูเรียนจบ ป.4 แล้ว! เก่งมากๆ เลย มาทบทวนทุกอย่างที่เรียนมากันเถอะ" },
+      "sub": "ทบทวนใหญ่ ป.5 ทั้งหมด",
+      "intro": {
+        "en": "You finished Grade 5! You are a real World Explorer!",
+        "th": "หนูเรียนจบ ป.5 แล้ว! หนูเป็นนักสำรวจโลกตัวจริงแล้วนะ มาทบทวนทุกอย่างที่เรียนมากันเถอะ"
+      },
       "vocab": [
-        {"w":"can","th":"สามารถ","e":"💪"},
-        {"w":"kicking","th":"กำลังเตะ","e":"🦵"},
-        {"w":"price","th":"ราคา","e":"🏷️"},
-        {"w":"would like","th":"อยากได้","e":"🙋"},
-        {"w":"turn left","th":"เลี้ยวซ้าย","e":"⬅️"},
-        {"w":"bigger","th":"ใหญ่กว่า","e":"🐘"},
-        {"w":"went","th":"ไป (อดีต)","e":"🚶‍♀️"},
-        {"w":"favorite season","th":"ฤดูกาลโปรด","e":"⭐"}
+        {
+          "w": "country",
+          "th": "ประเทศ",
+          "e": "🌏"
+        },
+        {
+          "w": "tallest",
+          "th": "สูงที่สุด",
+          "e": "🗼"
+        },
+        {
+          "w": "was reading",
+          "th": "กำลังอ่าน (อดีต)",
+          "e": "📖"
+        },
+        {
+          "w": "biggest",
+          "th": "ใหญ่ที่สุด",
+          "e": "🐘"
+        },
+        {
+          "w": "airplane",
+          "th": "เครื่องบิน",
+          "e": "✈️"
+        },
+        {
+          "w": "festival",
+          "th": "เทศกาล",
+          "e": "🎉"
+        },
+        {
+          "w": "recycle",
+          "th": "รีไซเคิล",
+          "e": "♻️"
+        },
+        {
+          "w": "journal",
+          "th": "สมุดบันทึก",
+          "e": "📔"
+        }
       ],
-      "build": {"sentence":"Last year I learned so many new things!","th":"ปีที่แล้วฉันเรียนรู้สิ่งใหม่ๆ เยอะมาก!"},
+      "build": {
+        "sentence": "I explored the world and learned so much.",
+        "th": "ฉันสำรวจโลกและเรียนรู้มากมาย"
+      },
       "speak": [
-        {"t":"I can speak English now.","th":"ตอนนี้ฉันพูดภาษาอังกฤษได้"},
-        {"t":"I went to the fair and had fun.","th":"ฉันไปงานแฟร์และสนุกมาก"},
-        {"t":"My favorite season is summer.","th":"ฤดูกาลโปรดของฉันคือฤดูร้อน"},
-        {"t":"I am proud of myself!","th":"ฉันภูมิใจในตัวเอง!"}
+        {
+          "t": "I am from Thailand.",
+          "th": "ฉันมาจากประเทศไทย"
+        },
+        {
+          "t": "This is the tallest tower in the world.",
+          "th": "นี่คือหอคอยที่สูงที่สุดในโลก"
+        },
+        {
+          "t": "I was reading when the phone rang.",
+          "th": "ฉันกำลังอ่านหนังสือตอนที่โทรศัพท์ดังขึ้น"
+        },
+        {
+          "t": "I am proud to be a World Explorer!",
+          "th": "ฉันภูมิใจที่ได้เป็นนักสำรวจโลก!"
+        }
       ],
       "quiz": [
-        {"q":"[หน่วย1] I ___ swim. (สามารถ)","c":["can","is","do"],"a":0},
-        {"q":"[หน่วย2] He is ___ the ball.","c":["kicking","kick","kicks"],"a":0},
-        {"q":"[หน่วย3] How much ___ it?","c":["is","are","do"],"a":0},
-        {"q":"[หน่วย4] I ___ like a hot dog, please.","c":["would","do","can"],"a":0},
-        {"q":"[หน่วย5] 🏦 คือ...","c":["bank","hospital","library"],"a":0},
-        {"q":"[หน่วย6] 🐘 ตัวใหญ่กว่าคือ...","c":["bigger","smaller","lighter"],"a":0},
-        {"q":"[หน่วย7] I ___ to the fair. (ไป)","c":["went","go","going"],"a":0},
-        {"q":"[หน่วย8] 🌸 คือ...","c":["spring","summer","autumn"],"a":0}
+        {
+          "q": "[หน่วย1] Where ___ you from?",
+          "c": [
+            "are",
+            "is",
+            "do"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[หน่วย2] This tower ___ a great view.",
+          "c": [
+            "has",
+            "have",
+            "is"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[หน่วย3] I ___ reading a book.",
+          "c": [
+            "was",
+            "is",
+            "am"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[หน่วย4] This is the ___ mountain. (สูงที่สุด)",
+          "c": [
+            "tallest",
+            "biggest",
+            "longest"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[หน่วย5] We travel by ___ to Japan.",
+          "c": [
+            "airplane",
+            "foot",
+            "bicycle"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[หน่วย6] We ___ every year. (เฉลิมฉลอง)",
+          "c": [
+            "celebrate",
+            "decorate",
+            "dance"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[หน่วย7] We should ___ plastic bottles.",
+          "c": [
+            "recycle",
+            "throw",
+            "burn"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[หน่วย8] I am ___ of my adventures.",
+          "c": [
+            "proud",
+            "tired",
+            "scared"
+          ],
+          "a": 0
+        }
       ]
     }
   ]

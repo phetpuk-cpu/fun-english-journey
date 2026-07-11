@@ -1,0 +1,599 @@
+{
+  "grade": "p2",
+  "gradeName": "ป.2 — Big City 🏙️",
+  "unitName": "หน่วย 4 · My House — บ้านของฉัน",
+  "lessons": [
+    {
+      "id": "p2u4l1",
+      "icon": "🏠",
+      "title": "Rooms in My House",
+      "sub": "ห้องต่างๆ ในบ้าน",
+      "intro": {
+        "en": "Welcome to my house! Let me show you around.",
+        "th": "ยินดีต้อนรับสู่บ้านของฉัน! มาเดินดูรอบบ้านกัน"
+      },
+      "vocab": [
+        {
+          "w": "bedroom",
+          "th": "ห้องนอน",
+          "e": "🛏️"
+        },
+        {
+          "w": "bathroom",
+          "th": "ห้องน้ำ",
+          "e": "🚽"
+        },
+        {
+          "w": "kitchen",
+          "th": "ห้องครัว",
+          "e": "🍳"
+        },
+        {
+          "w": "living room",
+          "th": "ห้องนั่งเล่น",
+          "e": "🛋️"
+        },
+        {
+          "w": "garden",
+          "th": "สวน",
+          "e": "🌳"
+        },
+        {
+          "w": "garage",
+          "th": "โรงรถ",
+          "e": "🚗"
+        },
+        {
+          "w": "stairs",
+          "th": "บันได",
+          "e": "🪜"
+        },
+        {
+          "w": "door",
+          "th": "ประตู",
+          "e": "🚪"
+        }
+      ],
+      "build": {
+        "sentence": "I sleep in my bedroom.",
+        "th": "ฉันนอนในห้องนอน"
+      },
+      "speak": [
+        {
+          "t": "This is my bedroom.",
+          "th": "นี่คือห้องนอนของฉัน"
+        },
+        {
+          "t": "I cook in the kitchen.",
+          "th": "ฉันทำอาหารในห้องครัว"
+        },
+        {
+          "t": "We watch TV in the living room.",
+          "th": "พวกเราดูทีวีในห้องนั่งเล่น"
+        },
+        {
+          "t": "There is a garden behind my house.",
+          "th": "มีสวนอยู่หลังบ้านของฉัน"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🛏️ คือ...",
+          "c": [
+            "bedroom",
+            "bathroom",
+            "kitchen"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ห้องครัว' คือ...",
+          "c": [
+            "kitchen",
+            "garden",
+            "garage"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I sleep in my ___.",
+          "c": [
+            "bedroom",
+            "kitchen",
+            "garage"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🛋️ คือ...",
+          "c": [
+            "living room",
+            "bathroom",
+            "garden"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'บันได' คือ...",
+          "c": [
+            "stairs",
+            "door",
+            "garage"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We keep the car in the ___.",
+          "c": [
+            "garage",
+            "bathroom",
+            "kitchen"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🚪 คือ...",
+          "c": [
+            "door",
+            "stairs",
+            "garden"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สวน' คือ...",
+          "c": [
+            "garden",
+            "garage",
+            "living room"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p2u4l2",
+      "icon": "🪑",
+      "title": "Furniture",
+      "sub": "เฟอร์นิเจอร์ในบ้าน",
+      "intro": {
+        "en": "What is in your room?",
+        "th": "ในห้องของหนูมีอะไรบ้างนะ?"
+      },
+      "vocab": [
+        {
+          "w": "bed",
+          "th": "เตียง",
+          "e": "🛏️"
+        },
+        {
+          "w": "table",
+          "th": "โต๊ะ",
+          "e": "🪵"
+        },
+        {
+          "w": "chair",
+          "th": "เก้าอี้",
+          "e": "🪑"
+        },
+        {
+          "w": "sofa",
+          "th": "โซฟา",
+          "e": "🛋️"
+        },
+        {
+          "w": "lamp",
+          "th": "โคมไฟ",
+          "e": "💡"
+        },
+        {
+          "w": "mirror",
+          "th": "กระจก",
+          "e": "🪞"
+        },
+        {
+          "w": "shelf",
+          "th": "ชั้นวางของ",
+          "e": "🗄️"
+        },
+        {
+          "w": "window",
+          "th": "หน้าต่าง",
+          "e": "🪟"
+        }
+      ],
+      "build": {
+        "sentence": "There is a bed in my bedroom.",
+        "th": "มีเตียงอยู่ในห้องนอนของฉัน"
+      },
+      "speak": [
+        {
+          "t": "There is a table in the kitchen.",
+          "th": "มีโต๊ะอยู่ในห้องครัว"
+        },
+        {
+          "t": "I sit on the chair.",
+          "th": "ฉันนั่งบนเก้าอี้"
+        },
+        {
+          "t": "There is a lamp on my table.",
+          "th": "มีโคมไฟอยู่บนโต๊ะของฉัน"
+        },
+        {
+          "t": "I look in the mirror.",
+          "th": "ฉันส่องกระจก"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🪑 คือ...",
+          "c": [
+            "chair",
+            "table",
+            "sofa"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'โซฟา' คือ...",
+          "c": [
+            "sofa",
+            "bed",
+            "shelf"
+          ],
+          "a": 0
+        },
+        {
+          "q": "There is a ___ in my bedroom. (เตียง)",
+          "c": [
+            "bed",
+            "chair",
+            "table"
+          ],
+          "a": 0
+        },
+        {
+          "q": "💡 คือ...",
+          "c": [
+            "lamp",
+            "mirror",
+            "window"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กระจก' คือ...",
+          "c": [
+            "mirror",
+            "window",
+            "shelf"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I put my books on the ___.",
+          "c": [
+            "shelf",
+            "mirror",
+            "lamp"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🪟 คือ...",
+          "c": [
+            "window",
+            "door",
+            "shelf"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'โต๊ะ' คือ...",
+          "c": [
+            "table",
+            "chair",
+            "bed"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p2u4l3",
+      "icon": "🧹",
+      "title": "House Chores",
+      "sub": "งานบ้าน",
+      "intro": {
+        "en": "Everyone helps at home!",
+        "th": "ทุกคนช่วยกันทำงานบ้านนะ!"
+      },
+      "vocab": [
+        {
+          "w": "clean the room",
+          "th": "ทำความสะอาดห้อง",
+          "e": "🧹"
+        },
+        {
+          "w": "wash the dishes",
+          "th": "ล้างจาน",
+          "e": "🍽️"
+        },
+        {
+          "w": "water the plants",
+          "th": "รดน้ำต้นไม้",
+          "e": "🪴"
+        },
+        {
+          "w": "sweep the floor",
+          "th": "กวาดพื้น",
+          "e": "🧽"
+        },
+        {
+          "w": "make the bed",
+          "th": "เก็บที่นอน",
+          "e": "🛏️"
+        },
+        {
+          "w": "take out the trash",
+          "th": "เอาขยะไปทิ้ง",
+          "e": "🗑️"
+        },
+        {
+          "w": "fold clothes",
+          "th": "พับเสื้อผ้า",
+          "e": "👕"
+        },
+        {
+          "w": "tidy up",
+          "th": "จัดของให้เรียบร้อย",
+          "e": "📦"
+        }
+      ],
+      "build": {
+        "sentence": "I help clean the room.",
+        "th": "ฉันช่วยทำความสะอาดห้อง"
+      },
+      "speak": [
+        {
+          "t": "I make my bed every morning.",
+          "th": "ฉันเก็บที่นอนทุกเช้า"
+        },
+        {
+          "t": "My brother washes the dishes.",
+          "th": "พี่ชายของฉันล้างจาน"
+        },
+        {
+          "t": "I water the plants.",
+          "th": "ฉันรดน้ำต้นไม้"
+        },
+        {
+          "t": "We tidy up together.",
+          "th": "พวกเราช่วยกันจัดของให้เรียบร้อย"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🧹 คือ...",
+          "c": [
+            "clean the room",
+            "wash the dishes",
+            "fold clothes"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ล้างจาน' คือ...",
+          "c": [
+            "wash the dishes",
+            "sweep the floor",
+            "make the bed"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ my bed every morning.",
+          "c": [
+            "make",
+            "water",
+            "fold"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🪴 คือ...",
+          "c": [
+            "water the plants",
+            "take out the trash",
+            "tidy up"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'กวาดพื้น' คือ...",
+          "c": [
+            "sweep the floor",
+            "clean the room",
+            "fold clothes"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🗑️ คือ...",
+          "c": [
+            "take out the trash",
+            "wash the dishes",
+            "make the bed"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'พับเสื้อผ้า' คือ...",
+          "c": [
+            "fold clothes",
+            "tidy up",
+            "sweep the floor"
+          ],
+          "a": 0
+        },
+        {
+          "q": "We ___ up together.",
+          "c": [
+            "tidy",
+            "water",
+            "fold"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "p2u4l4",
+      "icon": "🏡",
+      "title": "My Dream House",
+      "sub": "บ้านในฝัน + ทบทวน",
+      "intro": {
+        "en": "What does your dream house look like?",
+        "th": "บ้านในฝันของหนูเป็นแบบไหนนะ? บทนี้มีทบทวนทั้งหน่วยด้วย"
+      },
+      "vocab": [
+        {
+          "w": "big",
+          "th": "ใหญ่",
+          "e": "🏰"
+        },
+        {
+          "w": "small",
+          "th": "เล็ก",
+          "e": "🏠"
+        },
+        {
+          "w": "swimming pool",
+          "th": "สระว่ายน้ำ",
+          "e": "🏊"
+        },
+        {
+          "w": "roof",
+          "th": "หลังคา",
+          "e": "🏘️"
+        },
+        {
+          "w": "wall",
+          "th": "กำแพง",
+          "e": "🧱"
+        },
+        {
+          "w": "fence",
+          "th": "รั้ว",
+          "e": "🚧"
+        },
+        {
+          "w": "colorful",
+          "th": "มีสีสัน",
+          "e": "🌈"
+        },
+        {
+          "w": "cozy",
+          "th": "อบอุ่นสบาย",
+          "e": "🕯️"
+        }
+      ],
+      "build": {
+        "sentence": "My dream house is big and colorful.",
+        "th": "บ้านในฝันของฉันใหญ่และมีสีสัน"
+      },
+      "speak": [
+        {
+          "t": "I want a swimming pool.",
+          "th": "ฉันอยากมีสระว่ายน้ำ"
+        },
+        {
+          "t": "My dream house is big.",
+          "th": "บ้านในฝันของฉันใหญ่"
+        },
+        {
+          "t": "I like a cozy house.",
+          "th": "ฉันชอบบ้านที่อบอุ่นสบาย"
+        },
+        {
+          "t": "There is a fence around my house.",
+          "th": "มีรั้วล้อมรอบบ้านของฉัน"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "🏰 คือ...",
+          "c": [
+            "big",
+            "small",
+            "cozy"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สระว่ายน้ำ' คือ...",
+          "c": [
+            "swimming pool",
+            "garden",
+            "garage"
+          ],
+          "a": 0
+        },
+        {
+          "q": "My house has a red ___. (หลังคา)",
+          "c": [
+            "roof",
+            "wall",
+            "fence"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🧱 คือ...",
+          "c": [
+            "wall",
+            "fence",
+            "roof"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'มีสีสัน' คือ...",
+          "c": [
+            "colorful",
+            "cozy",
+            "big"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] 🛋️ คือ...",
+          "c": [
+            "living room",
+            "bedroom",
+            "kitchen"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] I ___ my bed every morning.",
+          "c": [
+            "make",
+            "water",
+            "fold"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] There is a ___ in my bedroom. (เตียง)",
+          "c": [
+            "bed",
+            "chair",
+            "lamp"
+          ],
+          "a": 0
+        }
+      ]
+    }
+  ]
+}

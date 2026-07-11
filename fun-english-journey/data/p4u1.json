@@ -1,151 +1,151 @@
 {
   "grade": "p4",
-  "gradeName": "ป.4 — Four Seasons Fair 🎪",
-  "unitName": "หน่วย 1 · I Can Do It! — ฉันทำได้",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 1 · Countries & Nationalities — ประเทศและสัญชาติ",
   "lessons": [
     {
       "id": "p4u1l1",
-      "icon": "💪",
-      "title": "I Can!",
-      "sub": "บอกสิ่งที่ทำได้ (can)",
+      "icon": "🌍",
+      "title": "Where Are You From?",
+      "sub": "ถามและตอบเรื่องประเทศ",
       "intro": {
-        "en": "What can you do? Let us find out!",
-        "th": "หนูทำอะไรได้บ้าง? วันนี้เรียนคำว่า can แปลว่า 'สามารถ' นะ"
+        "en": "Welcome to the World Explorer Club!",
+        "th": "ยินดีต้อนรับสู่ชมรมนักสำรวจโลก!"
       },
       "vocab": [
         {
-          "w": "swim",
-          "th": "ว่ายน้ำ",
-          "e": "🏊"
+          "w": "country",
+          "th": "ประเทศ",
+          "e": "🌏"
         },
         {
-          "w": "run fast",
-          "th": "วิ่งเร็ว",
-          "e": "🏃"
+          "w": "nationality",
+          "th": "สัญชาติ",
+          "e": "🪪"
         },
         {
-          "w": "jump high",
-          "th": "กระโดดสูง",
-          "e": "🤸"
+          "w": "continent",
+          "th": "ทวีป",
+          "e": "🗺️"
         },
         {
-          "w": "sing",
-          "th": "ร้องเพลง",
-          "e": "🎤"
+          "w": "city",
+          "th": "เมือง",
+          "e": "🏙️"
         },
         {
-          "w": "dance",
-          "th": "เต้น",
-          "e": "💃"
+          "w": "capital",
+          "th": "เมืองหลวง",
+          "e": "🏛️"
         },
         {
-          "w": "ride a bike",
-          "th": "ขี่จักรยาน",
-          "e": "🚲"
+          "w": "flag",
+          "th": "ธง",
+          "e": "🚩"
         },
         {
-          "w": "play football",
-          "th": "เล่นฟุตบอล",
-          "e": "⚽"
+          "w": "map",
+          "th": "แผนที่",
+          "e": "🗺️"
         },
         {
-          "w": "draw",
-          "th": "วาดรูป",
-          "e": "🎨"
+          "w": "world",
+          "th": "โลก",
+          "e": "🌐"
         }
       ],
       "build": {
-        "sentence": "I can ride a bike very well.",
-        "th": "ฉันขี่จักรยานได้เก่งมาก"
+        "sentence": "Where are you from? I am from Thailand.",
+        "th": "เธอมาจากไหน? ฉันมาจากประเทศไทย"
       },
       "speak": [
         {
-          "t": "I can swim.",
-          "th": "ฉันว่ายน้ำได้"
+          "t": "Where are you from?",
+          "th": "เธอมาจากไหน?"
         },
         {
-          "t": "I can play football.",
-          "th": "ฉันเล่นฟุตบอลได้"
+          "t": "I am from Thailand.",
+          "th": "ฉันมาจากประเทศไทย"
         },
         {
-          "t": "Can you dance?",
-          "th": "เธอเต้นได้ไหม?"
+          "t": "Bangkok is the capital of Thailand.",
+          "th": "กรุงเทพเป็นเมืองหลวงของประเทศไทย"
         },
         {
-          "t": "Yes, I can. I can dance very well.",
-          "th": "ได้สิ ฉันเต้นเก่งมากเลย"
+          "t": "Asia is a big continent.",
+          "th": "เอเชียเป็นทวีปที่ใหญ่"
         }
       ],
       "quiz": [
         {
-          "q": "🏊 ภาพนี้คือ...",
+          "q": "🌏 คือ...",
           "c": [
-            "run fast",
-            "swim",
-            "jump high"
-          ],
-          "a": 1
-        },
-        {
-          "q": "'ฉันร้องเพลงได้' พูดว่า...",
-          "c": [
-            "I can sing.",
-            "I can dance.",
-            "I can run."
+            "country",
+            "city",
+            "flag"
           ],
           "a": 0
         },
         {
-          "q": "___ you swim? — Yes, I can!",
+          "q": "'สัญชาติ' คือ...",
           "c": [
-            "Do",
-            "Is",
-            "Can"
-          ],
-          "a": 2
-        },
-        {
-          "q": "'ขี่จักรยาน' คือ...",
-          "c": [
-            "ride a bike",
-            "drive a car",
-            "jump rope"
+            "nationality",
+            "continent",
+            "capital"
           ],
           "a": 0
         },
         {
-          "q": "⚽ = play ___",
+          "q": "Where ___ you from?",
           "c": [
-            "basketball",
-            "football",
-            "tennis"
-          ],
-          "a": 1
-        },
-        {
-          "q": "ถ้าทำไม่ได้ ตอบว่า...",
-          "c": [
-            "No, I can't.",
-            "Yes, I can.",
-            "No, I am."
+            "are",
+            "is",
+            "do"
           ],
           "a": 0
         },
         {
-          "q": "She ___ draw very well.",
+          "q": "🏛️ คือ...",
           "c": [
-            "can",
-            "do",
-            "is"
+            "capital",
+            "city",
+            "country"
           ],
           "a": 0
         },
         {
-          "q": "Ducky ___ fly. (เป็ดบินได้!)",
+          "q": "'ทวีป' คือ...",
           "c": [
-            "can",
-            "can't",
-            "don't"
+            "continent",
+            "country",
+            "world"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🚩 คือ...",
+          "c": [
+            "flag",
+            "map",
+            "world"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I am ___ Thailand.",
+          "c": [
+            "from",
+            "in",
+            "at"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แผนที่' คือ...",
+          "c": [
+            "map",
+            "flag",
+            "city"
           ],
           "a": 0
         }
@@ -153,147 +153,147 @@
     },
     {
       "id": "p4u1l2",
-      "icon": "🌟",
-      "title": "Special Talents",
-      "sub": "ความสามารถพิเศษ",
+      "icon": "🎎",
+      "title": "Countries of Asia",
+      "sub": "ประเทศในทวีปเอเชีย",
       "intro": {
-        "en": "Everyone has a special talent!",
-        "th": "ทุกคนมีความสามารถพิเศษ! มาดูกันว่าเพื่อนๆ ที่งานแฟร์ทำอะไรได้บ้าง"
+        "en": "Let's explore our neighbors in Asia!",
+        "th": "มาสำรวจเพื่อนบ้านของเราในทวีปเอเชียกันเถอะ"
       },
       "vocab": [
         {
-          "w": "cook",
-          "th": "ทำอาหาร",
-          "e": "🍳"
+          "w": "Thailand",
+          "th": "ประเทศไทย",
+          "e": "🇹🇭"
         },
         {
-          "w": "climb a tree",
-          "th": "ปีนต้นไม้",
-          "e": "🌳"
+          "w": "Japan",
+          "th": "ญี่ปุ่น",
+          "e": "🇯🇵"
         },
         {
-          "w": "speak English",
-          "th": "พูดภาษาอังกฤษ",
-          "e": "🗣️"
+          "w": "China",
+          "th": "จีน",
+          "e": "🇨🇳"
         },
         {
-          "w": "play the guitar",
-          "th": "เล่นกีตาร์",
-          "e": "🎸"
+          "w": "Korea",
+          "th": "เกาหลี",
+          "e": "🇰🇷"
         },
         {
-          "w": "take a photo",
-          "th": "ถ่ายรูป",
-          "e": "📷"
+          "w": "Vietnam",
+          "th": "เวียดนาม",
+          "e": "🇻🇳"
         },
         {
-          "w": "skate",
-          "th": "เล่นสเก็ต",
-          "e": "🛹"
+          "w": "India",
+          "th": "อินเดีย",
+          "e": "🇮🇳"
         },
         {
-          "w": "do a magic trick",
-          "th": "เล่นมายากล",
-          "e": "🎩"
+          "w": "Singapore",
+          "th": "สิงคโปร์",
+          "e": "🇸🇬"
         },
         {
-          "w": "make a cake",
-          "th": "ทำเค้ก",
-          "e": "🎂"
+          "w": "Malaysia",
+          "th": "มาเลเซีย",
+          "e": "🇲🇾"
         }
       ],
       "build": {
-        "sentence": "My father can cook very well.",
-        "th": "พ่อของฉันทำอาหารเก่งมาก"
+        "sentence": "Japan is in Asia.",
+        "th": "ญี่ปุ่นอยู่ในทวีปเอเชีย"
       },
       "speak": [
         {
-          "t": "I can speak English.",
-          "th": "ฉันพูดภาษาอังกฤษได้"
+          "t": "I live in Thailand.",
+          "th": "ฉันอาศัยอยู่ในประเทศไทย"
         },
         {
-          "t": "My friend can play the guitar.",
-          "th": "เพื่อนของฉันเล่นกีตาร์ได้"
+          "t": "Japan has beautiful mountains.",
+          "th": "ญี่ปุ่นมีภูเขาที่สวยงาม"
         },
         {
-          "t": "He can do a magic trick.",
-          "th": "เขาเล่นมายากลได้"
+          "t": "My friend is from Vietnam.",
+          "th": "เพื่อนของฉันมาจากเวียดนาม"
         },
         {
-          "t": "We can make a cake together.",
-          "th": "พวกเราทำเค้กด้วยกันได้"
+          "t": "Singapore is a small country.",
+          "th": "สิงคโปร์เป็นประเทศเล็กๆ"
         }
       ],
       "quiz": [
         {
-          "q": "🎸 = play the ___",
+          "q": "🇹🇭 คือ...",
           "c": [
-            "piano",
-            "guitar",
-            "drum"
-          ],
-          "a": 1
-        },
-        {
-          "q": "'ทำอาหาร' คือ...",
-          "c": [
-            "cook",
-            "cake",
-            "kitchen"
+            "Thailand",
+            "Vietnam",
+            "Korea"
           ],
           "a": 0
         },
         {
-          "q": "📷 ภาพนี้คือ...",
+          "q": "'ญี่ปุ่น' คือ...",
           "c": [
-            "take a photo",
-            "watch TV",
-            "draw"
+            "Japan",
+            "China",
+            "India"
           ],
           "a": 0
         },
         {
-          "q": "'ปีนต้นไม้' คือ...",
+          "q": "🇨🇳 คือ...",
           "c": [
-            "climb a tree",
-            "cut a tree",
-            "water a tree"
+            "China",
+            "Korea",
+            "Japan"
           ],
           "a": 0
         },
         {
-          "q": "My mom can ___ a cake.",
+          "q": "'เกาหลี' คือ...",
           "c": [
-            "make",
-            "take",
-            "speak"
+            "Korea",
+            "Malaysia",
+            "Singapore"
           ],
           "a": 0
         },
         {
-          "q": "🎩✨ = do a ___ trick",
+          "q": "🇮🇳 คือ...",
           "c": [
-            "magic",
-            "music",
-            "math"
+            "India",
+            "Vietnam",
+            "China"
           ],
           "a": 0
         },
         {
-          "q": "I can ___ English.",
+          "q": "'สิงคโปร์' คือ...",
           "c": [
-            "speak",
-            "eat",
-            "climb"
+            "Singapore",
+            "Malaysia",
+            "Thailand"
           ],
           "a": 0
         },
         {
-          "q": "Monkey ___ climb a tree.",
+          "q": "🇲🇾 คือ...",
           "c": [
-            "can",
-            "can't",
-            "isn't"
+            "Malaysia",
+            "Singapore",
+            "Vietnam"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เวียดนาม' คือ...",
+          "c": [
+            "Vietnam",
+            "Korea",
+            "Japan"
           ],
           "a": 0
         }
@@ -301,147 +301,147 @@
     },
     {
       "id": "p4u1l3",
-      "icon": "🦉",
-      "title": "Can or Can't?",
-      "sub": "ทำได้ vs ทำไม่ได้",
+      "icon": "🗽",
+      "title": "Countries Far Away",
+      "sub": "ประเทศในทวีปอื่น",
       "intro": {
-        "en": "A bird can fly, but a fish cannot!",
-        "th": "สัตว์แต่ละชนิดเก่งไม่เหมือนกัน! เรียนประโยคปฏิเสธ can't = ทำไม่ได้"
+        "en": "There is a big world out there to explore!",
+        "th": "โลกใบใหญ่มีอะไรให้สำรวจอีกเยอะเลย!"
       },
       "vocab": [
         {
-          "w": "fly",
-          "th": "บิน",
-          "e": "🕊️"
+          "w": "America",
+          "th": "อเมริกา",
+          "e": "🇺🇸"
         },
         {
-          "w": "hop",
-          "th": "กระโดดสองขา",
-          "e": "🐇"
+          "w": "England",
+          "th": "อังกฤษ",
+          "e": "🇬🇧"
         },
         {
-          "w": "climb",
-          "th": "ปีน",
-          "e": "🐒"
+          "w": "France",
+          "th": "ฝรั่งเศส",
+          "e": "🇫🇷"
         },
         {
-          "w": "swim fast",
-          "th": "ว่ายน้ำเร็ว",
-          "e": "🐬"
+          "w": "Australia",
+          "th": "ออสเตรเลีย",
+          "e": "🇦🇺"
         },
         {
-          "w": "run very fast",
-          "th": "วิ่งเร็วมาก",
-          "e": "🐆"
+          "w": "Canada",
+          "th": "แคนาดา",
+          "e": "🇨🇦"
         },
         {
-          "w": "see at night",
-          "th": "มองเห็นตอนกลางคืน",
-          "e": "🦉"
+          "w": "Brazil",
+          "th": "บราซิล",
+          "e": "🇧🇷"
         },
         {
-          "w": "carry heavy things",
-          "th": "แบกของหนัก",
-          "e": "🐘"
+          "w": "Egypt",
+          "th": "อียิปต์",
+          "e": "🇪🇬"
         },
         {
-          "w": "change color",
-          "th": "เปลี่ยนสี",
-          "e": "🦎"
+          "w": "Italy",
+          "th": "อิตาลี",
+          "e": "🇮🇹"
         }
       ],
       "build": {
-        "sentence": "A bird can fly but a fish cannot.",
-        "th": "นกบินได้ แต่ปลาบินไม่ได้"
+        "sentence": "Australia is far from Thailand.",
+        "th": "ออสเตรเลียอยู่ไกลจากประเทศไทย"
       },
       "speak": [
         {
-          "t": "A bird can fly.",
-          "th": "นกบินได้"
+          "t": "I want to visit America.",
+          "th": "ฉันอยากไปเที่ยวอเมริกา"
         },
         {
-          "t": "A fish can swim fast.",
-          "th": "ปลาว่ายน้ำได้เร็ว"
+          "t": "France has many old castles.",
+          "th": "ฝรั่งเศสมีปราสาทเก่าแก่เยอะ"
         },
         {
-          "t": "An owl can see at night.",
-          "th": "นกฮูกมองเห็นตอนกลางคืนได้"
+          "t": "Egypt has ancient pyramids.",
+          "th": "อียิปต์มีพีระมิดโบราณ"
         },
         {
-          "t": "I cannot fly, but I can dream!",
-          "th": "ฉันบินไม่ได้ แต่ฉันฝันได้!"
+          "t": "Canada is very cold in winter.",
+          "th": "แคนาดาหนาวมากในฤดูหนาว"
         }
       ],
       "quiz": [
         {
-          "q": "🕊️ นก ___ fly.",
+          "q": "🇺🇸 คือ...",
           "c": [
-            "can",
-            "can't",
-            "don't"
+            "America",
+            "England",
+            "Canada"
           ],
           "a": 0
         },
         {
-          "q": "ปลา ___ climb a tree.",
+          "q": "'อังกฤษ' คือ...",
           "c": [
-            "can",
-            "can't",
-            "do"
-          ],
-          "a": 1
-        },
-        {
-          "q": "🦉 นกฮูกเก่งเรื่อง...",
-          "c": [
-            "see at night",
-            "change color",
-            "carry heavy things"
+            "England",
+            "France",
+            "Italy"
           ],
           "a": 0
         },
         {
-          "q": "🦎 กิ้งก่าเก่งเรื่อง...",
+          "q": "🇫🇷 คือ...",
           "c": [
-            "fly",
-            "change color",
-            "sing"
-          ],
-          "a": 1
-        },
-        {
-          "q": "🐘 ช้างเก่งเรื่อง...",
-          "c": [
-            "carry heavy things",
-            "hop",
-            "fly"
+            "France",
+            "Egypt",
+            "Brazil"
           ],
           "a": 0
         },
         {
-          "q": "can't ย่อมาจาก...",
+          "q": "'ออสเตรเลีย' คือ...",
           "c": [
-            "cannot",
-            "can note",
-            "can it"
+            "Australia",
+            "Canada",
+            "America"
           ],
           "a": 0
         },
         {
-          "q": "🐇 กระต่ายชอบ...",
+          "q": "🇧🇷 คือ...",
           "c": [
-            "hop",
-            "swim",
-            "fly"
+            "Brazil",
+            "Egypt",
+            "Italy"
           ],
           "a": 0
         },
         {
-          "q": "🐆 เสือชีตาห์ can ___",
+          "q": "'อียิปต์' คือ...",
           "c": [
-            "run very fast",
-            "see at night",
-            "change color"
+            "Egypt",
+            "Brazil",
+            "France"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🇮🇹 คือ...",
+          "c": [
+            "Italy",
+            "England",
+            "Canada"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'แคนาดา' คือ...",
+          "c": [
+            "Canada",
+            "Australia",
+            "America"
           ],
           "a": 0
         }
@@ -449,147 +449,147 @@
     },
     {
       "id": "p4u1l4",
-      "icon": "🏆",
-      "title": "The Talent Show",
-      "sub": "โชว์ความสามารถ + ทบทวน",
+      "icon": "🪪",
+      "title": "What Is Your Nationality?",
+      "sub": "สัญชาติ + ทบทวน",
       "intro": {
-        "en": "Welcome to the Fair Talent Show!",
-        "th": "ถึงเวลาประกวดความสามารถที่งานแฟร์! บทนี้ทบทวนทั้งหน่วยด้วยนะ"
+        "en": "Everyone has a different nationality!",
+        "th": "ทุกคนมีสัญชาติแตกต่างกันนะ บทนี้มีทบทวนทั้งหน่วยด้วย"
       },
       "vocab": [
         {
-          "w": "on stage",
-          "th": "บนเวที",
-          "e": "🎭"
+          "w": "Thai",
+          "th": "คนไทย/สัญชาติไทย",
+          "e": "🇹🇭"
         },
         {
-          "w": "practice",
-          "th": "ฝึกซ้อม",
-          "e": "🔁"
+          "w": "Japanese",
+          "th": "คนญี่ปุ่น/สัญชาติญี่ปุ่น",
+          "e": "🇯🇵"
         },
         {
-          "w": "try again",
-          "th": "ลองอีกครั้ง",
-          "e": "💪"
+          "w": "Chinese",
+          "th": "คนจีน/สัญชาติจีน",
+          "e": "🇨🇳"
         },
         {
-          "w": "do my best",
-          "th": "ทำให้เต็มที่",
-          "e": "🌟"
+          "w": "American",
+          "th": "คนอเมริกัน",
+          "e": "🇺🇸"
         },
         {
-          "w": "win a prize",
-          "th": "ได้รางวัล",
-          "e": "🏆"
+          "w": "English",
+          "th": "คนอังกฤษ",
+          "e": "🇬🇧"
         },
         {
-          "w": "clap",
-          "th": "ปรบมือ",
-          "e": "👏"
+          "w": "French",
+          "th": "คนฝรั่งเศส",
+          "e": "🇫🇷"
         },
         {
-          "w": "cheer",
-          "th": "ส่งเสียงเชียร์",
-          "e": "📣"
+          "w": "Australian",
+          "th": "คนออสเตรเลีย",
+          "e": "🇦🇺"
         },
         {
-          "w": "smile",
-          "th": "ยิ้ม",
-          "e": "😊"
+          "w": "Italian",
+          "th": "คนอิตาลี",
+          "e": "🇮🇹"
         }
       ],
       "build": {
-        "sentence": "I always do my best.",
-        "th": "ฉันทำเต็มที่เสมอ"
+        "sentence": "I am Thai. I am from Thailand.",
+        "th": "ฉันเป็นคนไทย ฉันมาจากประเทศไทย"
       },
       "speak": [
         {
-          "t": "I practice every day.",
-          "th": "ฉันฝึกซ้อมทุกวัน"
+          "t": "I am Thai.",
+          "th": "ฉันเป็นคนไทย"
         },
         {
-          "t": "Do not give up. Try again!",
-          "th": "อย่ายอมแพ้ ลองอีกครั้ง!"
+          "t": "My friend is Japanese.",
+          "th": "เพื่อนของฉันเป็นคนญี่ปุ่น"
         },
         {
-          "t": "I can do it!",
-          "th": "ฉันทำได้!"
+          "t": "Are you American?",
+          "th": "เธอเป็นคนอเมริกันหรือเปล่า?"
         },
         {
-          "t": "Everyone claps and cheers.",
-          "th": "ทุกคนปรบมือและส่งเสียงเชียร์"
+          "t": "She is French.",
+          "th": "เธอเป็นคนฝรั่งเศส"
         }
       ],
       "quiz": [
         {
-          "q": "🎭 แสดงที่ไหน?",
+          "q": "'คนไทย' คือ...",
           "c": [
-            "on stage",
-            "at home",
-            "in bed"
+            "Thai",
+            "Thailand",
+            "Thais"
           ],
           "a": 0
         },
         {
-          "q": "'ฝึกซ้อม' คือ...",
+          "q": "I am from Japan. I am ___.",
           "c": [
-            "practice",
-            "prize",
-            "smile"
+            "Japanese",
+            "Japan",
+            "China"
           ],
           "a": 0
         },
         {
-          "q": "ทำพลาดแล้วควร...",
+          "q": "'คนอเมริกัน' คือ...",
           "c": [
-            "try again",
-            "go home",
-            "cry"
+            "American",
+            "England",
+            "France"
           ],
           "a": 0
         },
         {
-          "q": "👏 = ?",
+          "q": "She is from France. She is ___.",
           "c": [
-            "clap",
-            "cheer",
-            "climb"
+            "French",
+            "England",
+            "Italian"
           ],
           "a": 0
         },
         {
-          "q": "'ได้รางวัล' คือ...",
+          "q": "[ทบทวน] Where ___ you from?",
           "c": [
-            "win a prize",
-            "do my best",
-            "on stage"
+            "are",
+            "is",
+            "do"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] ___ you play the guitar?",
+          "q": "[ทบทวน] 🇯🇵 คือ...",
           "c": [
-            "Can",
-            "Is",
-            "Are"
+            "Japan",
+            "China",
+            "Korea"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] An owl can ___ at night.",
+          "q": "[ทบทวน] 🇪🇬 คือ...",
           "c": [
-            "see",
-            "cook",
-            "skate"
+            "Egypt",
+            "Brazil",
+            "Italy"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] I can't swim, but I can ___ again!",
+          "q": "'คนออสเตรเลีย' คือ...",
           "c": [
-            "try",
-            "fly",
-            "cry"
+            "Australian",
+            "America",
+            "English"
           ],
           "a": 0
         }

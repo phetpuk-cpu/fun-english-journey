@@ -1,142 +1,598 @@
 {
   "grade": "p3",
-  "gradeName": "ป.3 — Big City 🏙️",
-  "unitName": "หน่วย 4 · My House — บ้านของฉัน",
+  "gradeName": "ป.3 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 4 · Yummy Fair Food — ของกินในงานแฟร์",
   "lessons": [
     {
       "id": "p3u4l1",
-      "icon": "🏠",
-      "title": "Rooms in My House",
-      "sub": "ห้องต่างๆ ในบ้าน",
-      "intro": { "en": "Welcome to my house! Let me show you around.", "th": "ยินดีต้อนรับสู่บ้านของฉัน! มาเดินดูรอบบ้านกัน" },
+      "icon": "🍿",
+      "title": "Fair Food Stalls",
+      "sub": "ร้านของกินในงานแฟร์",
+      "intro": {
+        "en": "So many yummy foods at the fair!",
+        "th": "ที่งานแฟร์มีของกินอร่อยๆ เยอะเลย!"
+      },
       "vocab": [
-        {"w":"bedroom","th":"ห้องนอน","e":"🛏️"},
-        {"w":"bathroom","th":"ห้องน้ำ","e":"🚽"},
-        {"w":"kitchen","th":"ห้องครัว","e":"🍳"},
-        {"w":"living room","th":"ห้องนั่งเล่น","e":"🛋️"},
-        {"w":"garden","th":"สวน","e":"🌳"},
-        {"w":"garage","th":"โรงรถ","e":"🚗"},
-        {"w":"stairs","th":"บันได","e":"🪜"},
-        {"w":"door","th":"ประตู","e":"🚪"}
+        {
+          "w": "cotton candy",
+          "th": "สายไหม",
+          "e": "🍭"
+        },
+        {
+          "w": "ice cream",
+          "th": "ไอศกรีม",
+          "e": "🍦"
+        },
+        {
+          "w": "popcorn",
+          "th": "ป๊อปคอร์น",
+          "e": "🍿"
+        },
+        {
+          "w": "hot dog",
+          "th": "ฮอทดอก",
+          "e": "🌭"
+        },
+        {
+          "w": "pizza",
+          "th": "พิซซ่า",
+          "e": "🍕"
+        },
+        {
+          "w": "donut",
+          "th": "โดนัท",
+          "e": "🍩"
+        },
+        {
+          "w": "lemonade",
+          "th": "น้ำมะนาว",
+          "e": "🍋"
+        },
+        {
+          "w": "corn on the cob",
+          "th": "ข้าวโพดต้ม",
+          "e": "🌽"
+        }
       ],
-      "build": {"sentence":"I sleep in my bedroom.","th":"ฉันนอนในห้องนอน"},
+      "build": {
+        "sentence": "I want cotton candy.",
+        "th": "ฉันอยากได้สายไหม"
+      },
       "speak": [
-        {"t":"This is my bedroom.","th":"นี่คือห้องนอนของฉัน"},
-        {"t":"I cook in the kitchen.","th":"ฉันทำอาหารในห้องครัว"},
-        {"t":"We watch TV in the living room.","th":"พวกเราดูทีวีในห้องนั่งเล่น"},
-        {"t":"There is a garden behind my house.","th":"มีสวนอยู่หลังบ้านของฉัน"}
+        {
+          "t": "I want cotton candy.",
+          "th": "ฉันอยากได้สายไหม"
+        },
+        {
+          "t": "This ice cream is so cold.",
+          "th": "ไอศกรีมนี้เย็นมาก"
+        },
+        {
+          "t": "Can I have a hot dog?",
+          "th": "ขอฮอทดอกได้ไหม?"
+        },
+        {
+          "t": "I like popcorn at the fair.",
+          "th": "ฉันชอบป๊อปคอร์นที่งานแฟร์"
+        }
       ],
       "quiz": [
-        {"q":"🛏️ คือ...","c":["bedroom","bathroom","kitchen"],"a":0},
-        {"q":"'ห้องครัว' คือ...","c":["kitchen","garden","garage"],"a":0},
-        {"q":"I sleep in my ___.","c":["bedroom","kitchen","garage"],"a":0},
-        {"q":"🛋️ คือ...","c":["living room","bathroom","garden"],"a":0},
-        {"q":"'บันได' คือ...","c":["stairs","door","garage"],"a":0},
-        {"q":"We keep the car in the ___.","c":["garage","bathroom","kitchen"],"a":0},
-        {"q":"🚪 คือ...","c":["door","stairs","garden"],"a":0},
-        {"q":"'สวน' คือ...","c":["garden","garage","living room"],"a":0}
+        {
+          "q": "🍭 คือ...",
+          "c": [
+            "cotton candy",
+            "ice cream",
+            "popcorn"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ไอศกรีม' คือ...",
+          "c": [
+            "ice cream",
+            "donut",
+            "pizza"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🌭 คือ...",
+          "c": [
+            "hot dog",
+            "pizza",
+            "popcorn"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'พิซซ่า' คือ...",
+          "c": [
+            "pizza",
+            "donut",
+            "hot dog"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🍩 คือ...",
+          "c": [
+            "donut",
+            "ice cream",
+            "popcorn"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'น้ำมะนาว' คือ...",
+          "c": [
+            "lemonade",
+            "ice cream",
+            "popcorn"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🌽 คือ...",
+          "c": [
+            "corn on the cob",
+            "hot dog",
+            "donut"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ป๊อปคอร์น' คือ...",
+          "c": [
+            "popcorn",
+            "cotton candy",
+            "pizza"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u4l2",
-      "icon": "🪑",
-      "title": "Furniture",
-      "sub": "เฟอร์นิเจอร์ในบ้าน",
-      "intro": { "en": "What is in your room?", "th": "ในห้องของหนูมีอะไรบ้างนะ?" },
+      "icon": "🙋",
+      "title": "I'd Like to Order",
+      "sub": "สั่งอาหาร",
+      "intro": {
+        "en": "What would you like to order?",
+        "th": "หนูอยากสั่งอะไรนะ?"
+      },
       "vocab": [
-        {"w":"bed","th":"เตียง","e":"🛏️"},
-        {"w":"table","th":"โต๊ะ","e":"🪵"},
-        {"w":"chair","th":"เก้าอี้","e":"🪑"},
-        {"w":"sofa","th":"โซฟา","e":"🛋️"},
-        {"w":"lamp","th":"โคมไฟ","e":"💡"},
-        {"w":"mirror","th":"กระจก","e":"🪞"},
-        {"w":"shelf","th":"ชั้นวางของ","e":"🗄️"},
-        {"w":"window","th":"หน้าต่าง","e":"🪟"}
+        {
+          "w": "would like",
+          "th": "อยากได้",
+          "e": "🙋"
+        },
+        {
+          "w": "order",
+          "th": "สั่ง",
+          "e": "📝"
+        },
+        {
+          "w": "a cup of",
+          "th": "...หนึ่งแก้ว",
+          "e": "🥤"
+        },
+        {
+          "w": "a piece of",
+          "th": "...หนึ่งชิ้น",
+          "e": "🍰"
+        },
+        {
+          "w": "take away",
+          "th": "ห่อกลับบ้าน",
+          "e": "🥡"
+        },
+        {
+          "w": "eat here",
+          "th": "ทานที่นี่",
+          "e": "🍽️"
+        },
+        {
+          "w": "please",
+          "th": "ได้โปรด",
+          "e": "🙏"
+        },
+        {
+          "w": "menu",
+          "th": "เมนู",
+          "e": "📋"
+        }
       ],
-      "build": {"sentence":"There is a bed in my bedroom.","th":"มีเตียงอยู่ในห้องนอนของฉัน"},
+      "build": {
+        "sentence": "I would like a piece of pizza, please.",
+        "th": "ฉันอยากได้พิซซ่าหนึ่งชิ้นค่ะ/ครับ"
+      },
       "speak": [
-        {"t":"There is a table in the kitchen.","th":"มีโต๊ะอยู่ในห้องครัว"},
-        {"t":"I sit on the chair.","th":"ฉันนั่งบนเก้าอี้"},
-        {"t":"There is a lamp on my table.","th":"มีโคมไฟอยู่บนโต๊ะของฉัน"},
-        {"t":"I look in the mirror.","th":"ฉันส่องกระจก"}
+        {
+          "t": "I would like to order, please.",
+          "th": "ฉันอยากสั่งอาหารค่ะ/ครับ"
+        },
+        {
+          "t": "I would like a cup of lemonade.",
+          "th": "ฉันอยากได้น้ำมะนาวหนึ่งแก้ว"
+        },
+        {
+          "t": "Is it take away or eat here?",
+          "th": "เอากลับบ้านหรือทานที่นี่?"
+        },
+        {
+          "t": "May I see the menu, please?",
+          "th": "ขอดูเมนูหน่อยได้ไหม?"
+        }
       ],
       "quiz": [
-        {"q":"🪑 คือ...","c":["chair","table","sofa"],"a":0},
-        {"q":"'โซฟา' คือ...","c":["sofa","bed","shelf"],"a":0},
-        {"q":"There is a ___ in my bedroom. (เตียง)","c":["bed","chair","table"],"a":0},
-        {"q":"💡 คือ...","c":["lamp","mirror","window"],"a":0},
-        {"q":"'กระจก' คือ...","c":["mirror","window","shelf"],"a":0},
-        {"q":"I put my books on the ___.","c":["shelf","mirror","lamp"],"a":0},
-        {"q":"🪟 คือ...","c":["window","door","shelf"],"a":0},
-        {"q":"'โต๊ะ' คือ...","c":["table","chair","bed"],"a":0}
+        {
+          "q": "🙋 คือ...",
+          "c": [
+            "would like",
+            "order",
+            "please"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'สั่ง' คือ...",
+          "c": [
+            "order",
+            "eat here",
+            "take away"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🥤 คือ...",
+          "c": [
+            "a cup of",
+            "a piece of",
+            "menu"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ห่อกลับบ้าน' คือ...",
+          "c": [
+            "take away",
+            "eat here",
+            "order"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🍰 คือ...",
+          "c": [
+            "a piece of",
+            "a cup of",
+            "menu"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ like a hot dog, please.",
+          "c": [
+            "would",
+            "do",
+            "can"
+          ],
+          "a": 0
+        },
+        {
+          "q": "📋 คือ...",
+          "c": [
+            "menu",
+            "order",
+            "please"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ทานที่นี่' คือ...",
+          "c": [
+            "eat here",
+            "take away",
+            "order"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u4l3",
-      "icon": "🧹",
-      "title": "House Chores",
-      "sub": "งานบ้าน",
-      "intro": { "en": "Everyone helps at home!", "th": "ทุกคนช่วยกันทำงานบ้านนะ!" },
+      "icon": "🍰",
+      "title": "Let's Share!",
+      "sub": "แบ่งกันกิน",
+      "intro": {
+        "en": "Sharing food is fun!",
+        "th": "แบ่งอาหารกินด้วยกันสนุกจัง!"
+      },
       "vocab": [
-        {"w":"clean the room","th":"ทำความสะอาดห้อง","e":"🧹"},
-        {"w":"wash the dishes","th":"ล้างจาน","e":"🍽️"},
-        {"w":"water the plants","th":"รดน้ำต้นไม้","e":"🪴"},
-        {"w":"sweep the floor","th":"กวาดพื้น","e":"🧽"},
-        {"w":"make the bed","th":"เก็บที่นอน","e":"🛏️"},
-        {"w":"take out the trash","th":"เอาขยะไปทิ้ง","e":"🗑️"},
-        {"w":"fold clothes","th":"พับเสื้อผ้า","e":"👕"},
-        {"w":"tidy up","th":"จัดของให้เรียบร้อย","e":"📦"}
+        {
+          "w": "share",
+          "th": "แบ่งปัน",
+          "e": "🤝"
+        },
+        {
+          "w": "taste",
+          "th": "ลองชิม",
+          "e": "👅"
+        },
+        {
+          "w": "enough",
+          "th": "พอแล้ว",
+          "e": "👌"
+        },
+        {
+          "w": "a little",
+          "th": "นิดหน่อย",
+          "e": "🤏"
+        },
+        {
+          "w": "a lot",
+          "th": "เยอะมาก",
+          "e": "🙌"
+        },
+        {
+          "w": "some",
+          "th": "บ้าง/บางส่วน",
+          "e": "➗"
+        },
+        {
+          "w": "more",
+          "th": "เพิ่ม",
+          "e": "➕"
+        },
+        {
+          "w": "no more",
+          "th": "ไม่เอาอีกแล้ว",
+          "e": "🙅"
+        }
       ],
-      "build": {"sentence":"I help clean the room.","th":"ฉันช่วยทำความสะอาดห้อง"},
+      "build": {
+        "sentence": "Can I taste a little?",
+        "th": "ขอชิมนิดหน่อยได้ไหม?"
+      },
       "speak": [
-        {"t":"I make my bed every morning.","th":"ฉันเก็บที่นอนทุกเช้า"},
-        {"t":"My brother washes the dishes.","th":"พี่ชายของฉันล้างจาน"},
-        {"t":"I water the plants.","th":"ฉันรดน้ำต้นไม้"},
-        {"t":"We tidy up together.","th":"พวกเราช่วยกันจัดของให้เรียบร้อย"}
+        {
+          "t": "Let's share this pizza.",
+          "th": "มาแบ่งพิซซ่ากันเถอะ"
+        },
+        {
+          "t": "Can I taste some?",
+          "th": "ขอชิมหน่อยได้ไหม?"
+        },
+        {
+          "t": "I want a little, please.",
+          "th": "ฉันขอนิดหน่อยค่ะ/ครับ"
+        },
+        {
+          "t": "That is enough for me.",
+          "th": "พอแล้วสำหรับฉัน"
+        }
       ],
       "quiz": [
-        {"q":"🧹 คือ...","c":["clean the room","wash the dishes","fold clothes"],"a":0},
-        {"q":"'ล้างจาน' คือ...","c":["wash the dishes","sweep the floor","make the bed"],"a":0},
-        {"q":"I ___ my bed every morning.","c":["make","water","fold"],"a":0},
-        {"q":"🪴 คือ...","c":["water the plants","take out the trash","tidy up"],"a":0},
-        {"q":"'กวาดพื้น' คือ...","c":["sweep the floor","clean the room","fold clothes"],"a":0},
-        {"q":"🗑️ คือ...","c":["take out the trash","wash the dishes","make the bed"],"a":0},
-        {"q":"'พับเสื้อผ้า' คือ...","c":["fold clothes","tidy up","sweep the floor"],"a":0},
-        {"q":"We ___ up together.","c":["tidy","water","fold"],"a":0}
+        {
+          "q": "🤝 คือ...",
+          "c": [
+            "share",
+            "taste",
+            "enough"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ลองชิม' คือ...",
+          "c": [
+            "taste",
+            "share",
+            "some"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🤏 คือ...",
+          "c": [
+            "a little",
+            "a lot",
+            "more"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เยอะมาก' คือ...",
+          "c": [
+            "a lot",
+            "a little",
+            "enough"
+          ],
+          "a": 0
+        },
+        {
+          "q": "👌 คือ...",
+          "c": [
+            "enough",
+            "more",
+            "no more"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'เพิ่ม' คือ...",
+          "c": [
+            "more",
+            "enough",
+            "some"
+          ],
+          "a": 0
+        },
+        {
+          "q": "Can I ___ some pizza?",
+          "c": [
+            "taste",
+            "share",
+            "give"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🙅 ไม่เอาอีกแล้วคือ...",
+          "c": [
+            "no more",
+            "more",
+            "some"
+          ],
+          "a": 0
+        }
       ]
     },
     {
       "id": "p3u4l4",
-      "icon": "🏡",
-      "title": "My Dream House",
-      "sub": "บ้านในฝัน + ทบทวน",
-      "intro": { "en": "What does your dream house look like?", "th": "บ้านในฝันของหนูเป็นแบบไหนนะ? บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "icon": "🎪",
+      "title": "Food Festival",
+      "sub": "เทศกาลอาหาร + ทบทวน",
+      "intro": {
+        "en": "Welcome to the Food Festival!",
+        "th": "ยินดีต้อนรับสู่เทศกาลอาหาร! บทนี้มีทบทวนทั้งหน่วยด้วย"
+      },
       "vocab": [
-        {"w":"big","th":"ใหญ่","e":"🏰"},
-        {"w":"small","th":"เล็ก","e":"🏠"},
-        {"w":"swimming pool","th":"สระว่ายน้ำ","e":"🏊"},
-        {"w":"roof","th":"หลังคา","e":"🏘️"},
-        {"w":"wall","th":"กำแพง","e":"🧱"},
-        {"w":"fence","th":"รั้ว","e":"🚧"},
-        {"w":"colorful","th":"มีสีสัน","e":"🌈"},
-        {"w":"cozy","th":"อบอุ่นสบาย","e":"🕯️"}
+        {
+          "w": "festival",
+          "th": "เทศกาล",
+          "e": "🎪"
+        },
+        {
+          "w": "favorite",
+          "th": "โปรด",
+          "e": "⭐"
+        },
+        {
+          "w": "crowded",
+          "th": "คนเยอะ",
+          "e": "👥"
+        },
+        {
+          "w": "queue",
+          "th": "ต่อแถว",
+          "e": "🚶‍♂️"
+        },
+        {
+          "w": "wait",
+          "th": "รอ",
+          "e": "⏳"
+        },
+        {
+          "w": "full",
+          "th": "อิ่ม",
+          "e": "🙂"
+        },
+        {
+          "w": "hungry",
+          "th": "หิว",
+          "e": "😫"
+        },
+        {
+          "w": "yummy",
+          "th": "อร่อยจัง",
+          "e": "🤤"
+        }
       ],
-      "build": {"sentence":"My dream house is big and colorful.","th":"บ้านในฝันของฉันใหญ่และมีสีสัน"},
+      "build": {
+        "sentence": "My favorite food is pizza.",
+        "th": "อาหารโปรดของฉันคือพิซซ่า"
+      },
       "speak": [
-        {"t":"I want a swimming pool.","th":"ฉันอยากมีสระว่ายน้ำ"},
-        {"t":"My dream house is big.","th":"บ้านในฝันของฉันใหญ่"},
-        {"t":"I like a cozy house.","th":"ฉันชอบบ้านที่อบอุ่นสบาย"},
-        {"t":"There is a fence around my house.","th":"มีรั้วล้อมรอบบ้านของฉัน"}
+        {
+          "t": "My favorite food is ice cream.",
+          "th": "อาหารโปรดของฉันคือไอศกรีม"
+        },
+        {
+          "t": "We wait in the queue.",
+          "th": "พวกเรารอต่อแถว"
+        },
+        {
+          "t": "This place is very crowded.",
+          "th": "ที่นี่คนเยอะมาก"
+        },
+        {
+          "t": "I am full now, thank you.",
+          "th": "ตอนนี้ฉันอิ่มแล้ว ขอบคุณนะ"
+        }
       ],
       "quiz": [
-        {"q":"🏰 คือ...","c":["big","small","cozy"],"a":0},
-        {"q":"'สระว่ายน้ำ' คือ...","c":["swimming pool","garden","garage"],"a":0},
-        {"q":"My house has a red ___. (หลังคา)","c":["roof","wall","fence"],"a":0},
-        {"q":"🧱 คือ...","c":["wall","fence","roof"],"a":0},
-        {"q":"'มีสีสัน' คือ...","c":["colorful","cozy","big"],"a":0},
-        {"q":"[ทบทวน] 🛋️ คือ...","c":["living room","bedroom","kitchen"],"a":0},
-        {"q":"[ทบทวน] I ___ my bed every morning.","c":["make","water","fold"],"a":0},
-        {"q":"[ทบทวน] There is a ___ in my bedroom. (เตียง)","c":["bed","chair","lamp"],"a":0}
+        {
+          "q": "🎪 คือ...",
+          "c": [
+            "festival",
+            "market",
+            "school"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'คนเยอะ' คือ...",
+          "c": [
+            "crowded",
+            "hungry",
+            "full"
+          ],
+          "a": 0
+        },
+        {
+          "q": "⏳ คือ...",
+          "c": [
+            "wait",
+            "queue",
+            "favorite"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'ต่อแถว' คือ...",
+          "c": [
+            "queue",
+            "wait",
+            "crowded"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] I ___ like a hot dog, please.",
+          "c": [
+            "would",
+            "do",
+            "can"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] 🍭 คือ...",
+          "c": [
+            "cotton candy",
+            "ice cream",
+            "popcorn"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] Can I ___ some pizza? (ชิม)",
+          "c": [
+            "taste",
+            "share",
+            "give"
+          ],
+          "a": 0
+        },
+        {
+          "q": "'อิ่ม' คือ...",
+          "c": [
+            "full",
+            "hungry",
+            "yummy"
+          ],
+          "a": 0
+        }
       ]
     }
   ]

@@ -1,151 +1,151 @@
 {
   "grade": "p3",
-  "gradeName": "ป.3 — Big City 🏙️",
-  "unitName": "หน่วย 2 · What Time Is It? — กี่โมงแล้วนะ",
+  "gradeName": "ป.3 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 2 · Sports Day — วันกีฬาสี",
   "lessons": [
     {
       "id": "p3u2l1",
-      "icon": "🕐",
-      "title": "Time Words",
-      "sub": "คำบอกช่วงเวลา",
+      "icon": "⚽",
+      "title": "Let's Play Sports!",
+      "sub": "กีฬาชนิดต่างๆ",
       "intro": {
-        "en": "Tick tock! What time is it?",
-        "th": "ติ๊กต่อกๆ! วันนี้เรียนคำบอกช่วงเวลาของวันกัน"
+        "en": "Sports Day is coming! What sports do you like?",
+        "th": "วันกีฬาสีใกล้มาแล้ว! มารู้จักกีฬาชนิดต่างๆ กัน"
       },
       "vocab": [
         {
-          "w": "clock",
-          "th": "นาฬิกา",
-          "e": "🕐"
+          "w": "football",
+          "th": "ฟุตบอล",
+          "e": "⚽"
         },
         {
-          "w": "watch",
-          "th": "นาฬิกาข้อมือ",
-          "e": "⌚"
+          "w": "basketball",
+          "th": "บาสเกตบอล",
+          "e": "🏀"
         },
         {
-          "w": "morning",
-          "th": "ตอนเช้า",
-          "e": "🌅"
+          "w": "volleyball",
+          "th": "วอลเลย์บอล",
+          "e": "🏐"
         },
         {
-          "w": "afternoon",
-          "th": "ตอนบ่าย",
-          "e": "☀️"
+          "w": "badminton",
+          "th": "แบดมินตัน",
+          "e": "🏸"
         },
         {
-          "w": "evening",
-          "th": "ตอนเย็น",
-          "e": "🌇"
+          "w": "table tennis",
+          "th": "ปิงปอง",
+          "e": "🏓"
         },
         {
-          "w": "night",
-          "th": "ตอนกลางคืน",
-          "e": "🌃"
+          "w": "running",
+          "th": "วิ่งแข่ง",
+          "e": "🏃"
         },
         {
-          "w": "early",
-          "th": "เช้าตรู่/ก่อนเวลา",
-          "e": "🐓"
+          "w": "swimming",
+          "th": "ว่ายน้ำ",
+          "e": "🏊"
         },
         {
-          "w": "late",
-          "th": "สาย/ช้า",
-          "e": "🐢"
+          "w": "tug of war",
+          "th": "ชักเย่อ",
+          "e": "🪢"
         }
       ],
       "build": {
-        "sentence": "I get up early in the morning.",
-        "th": "ฉันตื่นแต่เช้าตรู่"
+        "sentence": "I play basketball with my friends.",
+        "th": "ฉันเล่นบาสเกตบอลกับเพื่อนๆ"
       },
       "speak": [
         {
-          "t": "What time is it?",
-          "th": "กี่โมงแล้ว?"
+          "t": "I like football.",
+          "th": "ฉันชอบฟุตบอล"
         },
         {
-          "t": "Good morning!",
-          "th": "สวัสดีตอนเช้า"
+          "t": "Do you play badminton?",
+          "th": "เธอเล่นแบดมินตันไหม?"
         },
         {
-          "t": "I play in the afternoon.",
-          "th": "ฉันเล่นตอนบ่าย"
+          "t": "Swimming is fun.",
+          "th": "ว่ายน้ำสนุกดี"
         },
         {
-          "t": "Do not be late for school.",
-          "th": "อย่าไปโรงเรียนสายนะ"
+          "t": "Let us play table tennis.",
+          "th": "ไปเล่นปิงปองกันเถอะ"
         }
       ],
       "quiz": [
         {
-          "q": "🌅 คือช่วงเวลา...",
+          "q": "🏀 คือกีฬา...",
           "c": [
-            "morning",
-            "evening",
-            "night"
+            "football",
+            "basketball",
+            "volleyball"
+          ],
+          "a": 1
+        },
+        {
+          "q": "'ปิงปอง' คือ...",
+          "c": [
+            "table tennis",
+            "badminton",
+            "tennis"
           ],
           "a": 0
         },
         {
-          "q": "'ตอนกลางคืน' คือ...",
+          "q": "🏸 คือ...",
           "c": [
-            "afternoon",
-            "night",
-            "morning"
-          ],
-          "a": 1
-        },
-        {
-          "q": "⌚ ที่ใส่ข้อมือคือ...",
-          "c": [
-            "clock",
-            "watch",
-            "phone"
-          ],
-          "a": 1
-        },
-        {
-          "q": "🐢 มาช้า = ?",
-          "c": [
-            "early",
-            "late",
-            "fast"
-          ],
-          "a": 1
-        },
-        {
-          "q": "ตรงข้ามกับ late คือ...",
-          "c": [
-            "early",
-            "night",
-            "slow"
+            "badminton",
+            "volleyball",
+            "running"
           ],
           "a": 0
         },
         {
-          "q": "ตอนบ่ายคือ...",
+          "q": "'ชักเย่อ' คือ...",
           "c": [
-            "morning",
-            "afternoon",
-            "evening"
+            "tug of war",
+            "running",
+            "jumping"
+          ],
+          "a": 0
+        },
+        {
+          "q": "กีฬาในน้ำคือ...",
+          "c": [
+            "swimming",
+            "running",
+            "football"
+          ],
+          "a": 0
+        },
+        {
+          "q": "I ___ football every day.",
+          "c": [
+            "play",
+            "go",
+            "do"
+          ],
+          "a": 0
+        },
+        {
+          "q": "🏐 คือ...",
+          "c": [
+            "basketball",
+            "volleyball",
+            "football"
           ],
           "a": 1
         },
         {
-          "q": "Good ___! (ตอนเช้า)",
+          "q": "กีฬาที่ใช้เท้าเตะคือ...",
           "c": [
-            "night",
-            "morning",
-            "bye"
-          ],
-          "a": 1
-        },
-        {
-          "q": "🌇 พระอาทิตย์ตกคือ...",
-          "c": [
-            "evening",
-            "morning",
-            "early"
+            "football",
+            "badminton",
+            "table tennis"
           ],
           "a": 0
         }
@@ -153,147 +153,147 @@
     },
     {
       "id": "p3u2l2",
-      "icon": "⏰",
-      "title": "O'clock!",
-      "sub": "บอกเวลาเต็มชั่วโมง",
+      "icon": "🏃",
+      "title": "Look! He Is Running!",
+      "sub": "กำลังทำอยู่ (-ing)",
       "intro": {
-        "en": "It is seven o'clock! Time to wake up!",
-        "th": "เจ็ดโมงแล้ว! มาหัดบอกเวลาแบบเต็มชั่วโมงกัน — ตัวเลข + o'clock"
+        "en": "Look at the field! Everyone is playing!",
+        "th": "ดูที่สนามสิ ทุกคนกำลังเล่นกีฬา! เรียนประโยค 'กำลังทำ' (is/are + ing)"
       },
       "vocab": [
         {
-          "w": "o'clock",
-          "th": "...นาฬิกา (เต็มชั่วโมง)",
-          "e": "🕛"
+          "w": "kicking",
+          "th": "กำลังเตะ",
+          "e": "🦵"
         },
         {
-          "w": "half past",
-          "th": "...ครึ่ง (30 นาที)",
-          "e": "🕡"
+          "w": "throwing",
+          "th": "กำลังขว้าง",
+          "e": "🥏"
         },
         {
-          "w": "hour",
-          "th": "ชั่วโมง",
-          "e": "⏳"
+          "w": "catching",
+          "th": "กำลังรับลูก",
+          "e": "🧤"
         },
         {
-          "w": "minute",
-          "th": "นาที",
-          "e": "⏱️"
+          "w": "bouncing",
+          "th": "กำลังเลี้ยงลูก",
+          "e": "⛹️"
         },
         {
-          "w": "alarm clock",
-          "th": "นาฬิกาปลุก",
-          "e": "⏰"
+          "w": "hitting",
+          "th": "กำลังตีลูก",
+          "e": "🏓"
         },
         {
-          "w": "noon",
-          "th": "เที่ยงวัน",
-          "e": "🌞"
+          "w": "skipping",
+          "th": "กำลังกระโดดเชือก",
+          "e": "🪢"
         },
         {
-          "w": "midnight",
-          "th": "เที่ยงคืน",
-          "e": "🌌"
+          "w": "racing",
+          "th": "กำลังแข่งกัน",
+          "e": "🏁"
         },
         {
-          "w": "time",
-          "th": "เวลา",
-          "e": "⌛"
+          "w": "cheering",
+          "th": "กำลังเชียร์",
+          "e": "📣"
         }
       ],
       "build": {
-        "sentence": "It is half past six.",
-        "th": "ตอนนี้หกโมงครึ่ง"
+        "sentence": "He is kicking the ball now.",
+        "th": "เขากำลังเตะบอลอยู่ตอนนี้"
       },
       "speak": [
         {
-          "t": "It is seven o'clock.",
-          "th": "ตอนนี้เจ็ดนาฬิกา"
+          "t": "He is running fast.",
+          "th": "เขากำลังวิ่งเร็วมาก"
         },
         {
-          "t": "It is half past eight.",
-          "th": "ตอนนี้แปดโมงครึ่ง"
+          "t": "She is throwing the ball.",
+          "th": "เธอกำลังขว้างลูกบอล"
         },
         {
-          "t": "My alarm clock rings at six.",
-          "th": "นาฬิกาปลุกของฉันดังตอนหกโมง"
+          "t": "They are cheering loudly.",
+          "th": "พวกเขากำลังเชียร์เสียงดัง"
         },
         {
-          "t": "It is noon. Time for lunch!",
-          "th": "เที่ยงแล้ว ได้เวลากินข้าว!"
+          "t": "We are racing to the line.",
+          "th": "พวกเรากำลังแข่งวิ่งไปที่เส้นชัย"
         }
       ],
       "quiz": [
         {
-          "q": "เวลา 7:00 พูดว่า...",
+          "q": "🦵⚽ = ?",
           "c": [
-            "seven o'clock",
-            "seven thirty",
-            "half seven"
+            "kicking",
+            "catching",
+            "throwing"
           ],
           "a": 0
         },
         {
-          "q": "เวลา 6:30 พูดว่า...",
+          "q": "'กำลังรับลูก' คือ...",
           "c": [
-            "six o'clock",
-            "half past six",
-            "six past half"
-          ],
-          "a": 1
-        },
-        {
-          "q": "'เที่ยงวัน' คือ...",
-          "c": [
-            "midnight",
-            "noon",
-            "morning"
-          ],
-          "a": 1
-        },
-        {
-          "q": "🌌 เที่ยงคืนคือ...",
-          "c": [
-            "noon",
-            "midnight",
-            "evening"
-          ],
-          "a": 1
-        },
-        {
-          "q": "1 hour มีกี่ minutes?",
-          "c": [
-            "30",
-            "60",
-            "100"
-          ],
-          "a": 1
-        },
-        {
-          "q": "⏰ ที่ปลุกเราตื่นคือ...",
-          "c": [
-            "alarm clock",
-            "watch",
-            "hour"
+            "catching",
+            "kicking",
+            "hitting"
           ],
           "a": 0
         },
         {
-          "q": "It is nine ___. (9:00)",
+          "q": "He ___ running now.",
           "c": [
-            "o'clock",
-            "hour",
-            "minute"
+            "is",
+            "are",
+            "am"
           ],
           "a": 0
         },
         {
-          "q": "What ___ is it?",
+          "q": "They ___ cheering.",
           "c": [
-            "time",
-            "clock",
-            "late"
+            "is",
+            "are",
+            "am"
+          ],
+          "a": 1
+        },
+        {
+          "q": "🪢 กระโดดเชือกคือ...",
+          "c": [
+            "skipping",
+            "bouncing",
+            "racing"
+          ],
+          "a": 0
+        },
+        {
+          "q": "She is ___ the ball. (ขว้าง)",
+          "c": [
+            "throwing",
+            "eating",
+            "reading"
+          ],
+          "a": 0
+        },
+        {
+          "q": "⛹️ เลี้ยงลูกบาสคือ...",
+          "c": [
+            "bouncing",
+            "hitting",
+            "kicking"
+          ],
+          "a": 0
+        },
+        {
+          "q": "Look! คำนี้แปลว่า...",
+          "c": [
+            "ดูสิ!",
+            "ฟังสิ!",
+            "ไปกัน!"
           ],
           "a": 0
         }
@@ -301,147 +301,147 @@
     },
     {
       "id": "p3u2l3",
-      "icon": "📅",
-      "title": "My Schedule",
-      "sub": "ตารางเวลาของฉัน",
+      "icon": "🥇",
+      "title": "Team & Equipment",
+      "sub": "ทีมและอุปกรณ์กีฬา",
       "intro": {
-        "en": "Every time has a name! Breakfast time, playtime...",
-        "th": "แต่ละช่วงเวลามีชื่อเรียกด้วยนะ มาดูตารางเวลาใน 1 วันกัน"
+        "en": "A good team needs a good coach!",
+        "th": "รู้จักคำเรียกทีม อุปกรณ์ และสถานที่เล่นกีฬากัน"
       },
       "vocab": [
         {
-          "w": "breakfast time",
-          "th": "เวลาอาหารเช้า",
-          "e": "🥞"
+          "w": "ball",
+          "th": "ลูกบอล",
+          "e": "🥎"
         },
         {
-          "w": "school time",
-          "th": "เวลาเรียน",
-          "e": "🏫"
+          "w": "racket",
+          "th": "ไม้แร็กเกต",
+          "e": "🎾"
         },
         {
-          "w": "lunch time",
-          "th": "เวลาอาหารกลางวัน",
-          "e": "🍱"
+          "w": "net",
+          "th": "ตาข่าย/เน็ต",
+          "e": "🥅"
         },
         {
-          "w": "playtime",
-          "th": "เวลาเล่น",
-          "e": "🪁"
+          "w": "team",
+          "th": "ทีม",
+          "e": "👥"
         },
         {
-          "w": "snack time",
-          "th": "เวลาของว่าง",
-          "e": "🍪"
+          "w": "coach",
+          "th": "โค้ช",
+          "e": "🧑‍🏫"
         },
         {
-          "w": "homework time",
-          "th": "เวลาทำการบ้าน",
-          "e": "📓"
+          "w": "player",
+          "th": "นักกีฬา",
+          "e": "🧍"
         },
         {
-          "w": "dinner time",
-          "th": "เวลาอาหารเย็น",
-          "e": "🍲"
+          "w": "field",
+          "th": "สนาม",
+          "e": "🏟️"
         },
         {
-          "w": "bedtime",
-          "th": "เวลานอน",
-          "e": "🛌"
+          "w": "medal",
+          "th": "เหรียญรางวัล",
+          "e": "🥇"
         }
       ],
       "build": {
-        "sentence": "It is time for lunch.",
-        "th": "ได้เวลาอาหารกลางวันแล้ว"
+        "sentence": "Our team has a good coach.",
+        "th": "ทีมของเรามีโค้ชที่เก่ง"
       },
       "speak": [
         {
-          "t": "It is breakfast time.",
-          "th": "ถึงเวลาอาหารเช้าแล้ว"
+          "t": "I am a football player.",
+          "th": "ฉันเป็นนักฟุตบอล"
         },
         {
-          "t": "Playtime is my favorite time.",
-          "th": "เวลาเล่นคือเวลาโปรดของฉัน"
+          "t": "Our team is red team.",
+          "th": "ทีมของเราคือทีมสีแดง"
         },
         {
-          "t": "It is time for homework.",
-          "th": "ได้เวลาทำการบ้านแล้ว"
+          "t": "The coach helps us practice.",
+          "th": "โค้ชช่วยพวกเราฝึกซ้อม"
         },
         {
-          "t": "Bedtime is at nine o'clock.",
-          "th": "เวลานอนคือสามทุ่ม"
+          "t": "We want to win a medal.",
+          "th": "พวกเราอยากได้เหรียญรางวัล"
         }
       ],
       "quiz": [
         {
-          "q": "🥞 ตอนเช้าคือ...",
+          "q": "🥇 คือ...",
           "c": [
-            "breakfast time",
-            "dinner time",
-            "bedtime"
+            "medal",
+            "ball",
+            "net"
           ],
           "a": 0
         },
         {
-          "q": "'เวลาเล่น' คือ...",
+          "q": "คนที่สอนทีมคือ...",
           "c": [
-            "playtime",
-            "school time",
-            "snack time"
+            "coach",
+            "player",
+            "team"
           ],
           "a": 0
         },
         {
-          "q": "🍪 เวลาของว่างคือ...",
+          "q": "'สนาม' คือ...",
           "c": [
-            "lunch time",
-            "snack time",
-            "dinner time"
-          ],
-          "a": 1
-        },
-        {
-          "q": "เวลานอนคือ...",
-          "c": [
-            "bedtime",
-            "playtime",
-            "breakfast time"
+            "field",
+            "net",
+            "racket"
           ],
           "a": 0
         },
         {
-          "q": "It is ___ for lunch.",
+          "q": "แบดมินตันต้องใช้...",
           "c": [
-            "time",
-            "clock",
-            "hour"
+            "racket",
+            "goal",
+            "medal"
           ],
           "a": 0
         },
         {
-          "q": "หลังเลิกเรียนคือ ___ time",
+          "q": "'นักกีฬา' คือ...",
           "c": [
-            "homework",
-            "school",
-            "breakfast"
+            "player",
+            "coach",
+            "team"
           ],
           "a": 0
         },
         {
-          "q": "🍲 มื้อเย็นคือ...",
+          "q": "Our ___ has ten players.",
           "c": [
-            "dinner time",
-            "lunch time",
-            "snack time"
+            "team",
+            "ball",
+            "field"
           ],
           "a": 0
         },
         {
-          "q": "เรียงให้ถูก...",
+          "q": "🥅 ตาข่ายคือ...",
           "c": [
-            "breakfast → lunch → dinner",
-            "dinner → breakfast → lunch",
-            "lunch → dinner → breakfast"
+            "net",
+            "ball",
+            "field"
+          ],
+          "a": 0
+        },
+        {
+          "q": "ทีมที่ชนะจะได้...",
+          "c": [
+            "a medal",
+            "a net",
+            "a racket"
           ],
           "a": 0
         }
@@ -449,147 +449,147 @@
     },
     {
       "id": "p3u2l4",
-      "icon": "🔔",
-      "title": "What Time Do You...?",
-      "sub": "ถาม-ตอบเวลา + ทบทวน",
+      "icon": "🏁",
+      "title": "Ready, Set, Go!",
+      "sub": "วันแข่งจริง + ทบทวน",
       "intro": {
-        "en": "What time do you wake up? Let us ask and answer!",
-        "th": "บทสุดท้ายของหน่วย! ฝึกถาม-ตอบว่าทำอะไรกี่โมง แล้วทบทวนทั้งหน่วยกัน"
+        "en": "Today is Sports Day! Ready, set, go!",
+        "th": "วันกีฬาสีมาถึงแล้ว! บทสุดท้ายของหน่วย พร้อมทบทวนทั้งหมด"
       },
       "vocab": [
         {
-          "w": "get up",
-          "th": "ลุกจากที่นอน",
-          "e": "🌄"
+          "w": "get ready",
+          "th": "เตรียมตัว",
+          "e": "🎽"
         },
         {
-          "w": "start school",
-          "th": "เริ่มเรียน",
-          "e": "🔔"
+          "w": "warm up",
+          "th": "อบอุ่นร่างกาย",
+          "e": "🧘"
         },
         {
-          "w": "finish school",
-          "th": "เลิกเรียน",
-          "e": "🏁"
+          "w": "start",
+          "th": "เริ่ม",
+          "e": "🚦"
         },
         {
-          "w": "come home",
-          "th": "กลับถึงบ้าน",
-          "e": "🚪"
-        },
-        {
-          "w": "every day",
-          "th": "ทุกวัน",
-          "e": "📅"
-        },
-        {
-          "w": "on time",
-          "th": "ตรงเวลา",
-          "e": "👌"
-        },
-        {
-          "w": "too late",
-          "th": "สายเกินไป",
+          "w": "run the race",
+          "th": "วิ่งแข่ง",
           "e": "🏃"
         },
         {
-          "w": "hurry up",
-          "th": "รีบหน่อย",
-          "e": "⏩"
+          "w": "finish line",
+          "th": "เส้นชัย",
+          "e": "🏁"
+        },
+        {
+          "w": "winner",
+          "th": "ผู้ชนะ",
+          "e": "🏆"
+        },
+        {
+          "w": "teamwork",
+          "th": "การทำงานเป็นทีม",
+          "e": "🤝"
+        },
+        {
+          "w": "have fun",
+          "th": "สนุกสนาน",
+          "e": "🎉"
         }
       ],
       "build": {
-        "sentence": "What time do you go to school?",
-        "th": "เธอไปโรงเรียนกี่โมง?"
+        "sentence": "We run to the finish line.",
+        "th": "พวกเราวิ่งไปที่เส้นชัย"
       },
       "speak": [
         {
-          "t": "What time do you get up?",
-          "th": "เธอตื่นกี่โมง?"
+          "t": "Ready, set, go!",
+          "th": "เข้าที่ ระวัง ไป!"
         },
         {
-          "t": "I get up at six o'clock.",
-          "th": "ฉันตื่นตอนหกโมง"
+          "t": "Warm up before you play.",
+          "th": "อบอุ่นร่างกายก่อนเล่นนะ"
         },
         {
-          "t": "School starts at eight.",
-          "th": "โรงเรียนเข้าแปดโมง"
+          "t": "Teamwork makes us strong.",
+          "th": "การร่วมมือกันทำให้เราแข็งแกร่ง"
         },
         {
-          "t": "Hurry up! We are late!",
-          "th": "เร็วเข้า! เราสายแล้ว!"
+          "t": "Winning is fun, but playing is more fun!",
+          "th": "ชนะก็สนุก แต่ได้เล่นสนุกกว่า!"
         }
       ],
       "quiz": [
         {
-          "q": "'เลิกเรียน' คือ...",
+          "q": "ก่อนเล่นกีฬาต้อง...",
           "c": [
-            "start school",
-            "finish school",
-            "come home"
-          ],
-          "a": 1
-        },
-        {
-          "q": "'ตรงเวลา' คือ...",
-          "c": [
-            "on time",
-            "too late",
-            "every day"
+            "warm up",
+            "sleep",
+            "eat a lot"
           ],
           "a": 0
         },
         {
-          "q": "⏩ รีบๆ หน่อย = ?",
+          "q": "🏁 คือ...",
           "c": [
-            "hurry up",
-            "slow down",
-            "sit down"
+            "finish line",
+            "start",
+            "field"
           ],
           "a": 0
         },
         {
-          "q": "What time ___ you get up?",
+          "q": "'ผู้ชนะ' คือ...",
           "c": [
-            "do",
-            "is",
-            "are"
+            "winner",
+            "loser",
+            "runner"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] 7:30 คือ...",
+          "q": "🤝 ช่วยกันทั้งทีมคือ...",
           "c": [
-            "seven o'clock",
-            "half past seven",
-            "seven past half"
-          ],
-          "a": 1
-        },
-        {
-          "q": "[ทบทวน] 🌞 เที่ยงวันคือ...",
-          "c": [
-            "noon",
-            "midnight",
-            "evening"
+            "teamwork",
+            "homework",
+            "network"
           ],
           "a": 0
         },
         {
-          "q": "[ทบทวน] ตื่นสายตรงข้ามกับ...",
+          "q": "Ready, set, ___!",
           "c": [
-            "get up early",
-            "go to bed",
-            "come home"
+            "go",
+            "stop",
+            "eat"
           ],
           "a": 0
         },
         {
-          "q": "I go to school ___ day.",
+          "q": "[ทบทวน] She is ___ the ball.",
           "c": [
-            "every",
-            "all",
-            "much"
+            "kicking",
+            "kick",
+            "kicks"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] 🏓 กีฬานี้คือ...",
+          "c": [
+            "table tennis",
+            "volleyball",
+            "tug of war"
+          ],
+          "a": 0
+        },
+        {
+          "q": "[ทบทวน] ทีมของเรามี ___ ที่เก่ง",
+          "c": [
+            "coach",
+            "medal",
+            "net"
           ],
           "a": 0
         }
