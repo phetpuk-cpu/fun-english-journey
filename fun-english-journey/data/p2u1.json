@@ -149,6 +149,41 @@
           ],
           "a": 1
         }
+      ],
+      "transform": [
+        {
+          "base": "I brush my teeth in the morning.",
+          "baseTh": "ฉันแปรงฟันตอนเช้า",
+          "task": "negative",
+          "c": [
+            "I don't brush my teeth in the morning.",
+            "I doesn't brush my teeth in the morning.",
+            "I not brush my teeth in the morning."
+          ],
+          "a": 0
+        },
+        {
+          "base": "He brushes his teeth every day.",
+          "baseTh": "เขาแปรงฟันทุกวัน",
+          "task": "negative",
+          "c": [
+            "He doesn't brush his teeth every day.",
+            "He don't brush his teeth every day.",
+            "He doesn't brushes his teeth every day."
+          ],
+          "a": 0
+        },
+        {
+          "base": "You wake up early.",
+          "baseTh": "เธอตื่นเช้า",
+          "task": "question",
+          "c": [
+            "Do you wake up early?",
+            "Does you wake up early?",
+            "Do you wakes up early?"
+          ],
+          "a": 0
+        }
       ]
     },
     {

@@ -297,6 +297,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "He is kicking the ball.",
+          "baseTh": "เขากำลังเตะลูกบอล",
+          "task": "negative",
+          "c": [
+            "He isn't kicking the ball.",
+            "He doesn't kicking the ball.",
+            "He not kicking the ball."
+          ],
+          "a": 0
+        },
+        {
+          "base": "They are playing football.",
+          "baseTh": "พวกเขากำลังเล่นฟุตบอล",
+          "task": "question",
+          "c": [
+            "Are they playing football?",
+            "Is they playing football?",
+            "Do they playing football?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "She is running fast.",
+          "baseTh": "หล่อนกำลังวิ่งเร็ว",
+          "task": "question",
+          "c": [
+            "Is she running fast?",
+            "Does she running fast?",
+            "Are she running fast?"
+          ],
+          "a": 0
+        }
       ]
     },
     {

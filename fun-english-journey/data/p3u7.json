@@ -149,6 +149,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "I was at the fair yesterday.",
+          "baseTh": "เมื่อวานฉันอยู่ที่งานแฟร์",
+          "task": "negative",
+          "c": [
+            "I wasn't at the fair yesterday.",
+            "I weren't at the fair yesterday.",
+            "I didn't at the fair yesterday."
+          ],
+          "a": 0
+        },
+        {
+          "base": "They were happy at the show.",
+          "baseTh": "พวกเขามีความสุขที่งานแสดง",
+          "task": "question",
+          "c": [
+            "Were they happy at the show?",
+            "Was they happy at the show?",
+            "Did they happy at the show?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "She was very tired.",
+          "baseTh": "หล่อนเหนื่อยมาก",
+          "task": "negative",
+          "c": [
+            "She wasn't very tired.",
+            "She weren't very tired.",
+            "She didn't very tired."
+          ],
+          "a": 0
+        }
       ]
     },
     {
@@ -157,12 +192,39 @@
       "title": "What Did You Do?",
       "sub": "กริยาช่องที่ 2 (เติม -ed)",
       "transform": [
-        {"base":"I played games at the fair.","baseTh":"ฉันเล่นเกมที่งานแฟร์","task":"negative",
-         "c":["I didn't play games at the fair.","I not played games at the fair.","I didn't played games at the fair."],"a":0},
-        {"base":"We watched a show together.","baseTh":"พวกเราดูการแสดงด้วยกัน","task":"question",
-         "c":["Did we watch a show together?","Did we watched a show together?","We did watch a show together?"],"a":0},
-        {"base":"I walked around the fair.","baseTh":"ฉันเดินเที่ยวรอบๆ งานแฟร์","task":"negative",
-         "c":["I didn't walk around the fair.","I not walked around the fair.","I didn't walked around the fair."],"a":0}
+        {
+          "base": "I played games at the fair.",
+          "baseTh": "ฉันเล่นเกมที่งานแฟร์",
+          "task": "negative",
+          "c": [
+            "I didn't play games at the fair.",
+            "I not played games at the fair.",
+            "I didn't played games at the fair."
+          ],
+          "a": 0
+        },
+        {
+          "base": "We watched a show together.",
+          "baseTh": "พวกเราดูการแสดงด้วยกัน",
+          "task": "question",
+          "c": [
+            "Did we watch a show together?",
+            "Did we watched a show together?",
+            "We did watch a show together?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "I walked around the fair.",
+          "baseTh": "ฉันเดินเที่ยวรอบๆ งานแฟร์",
+          "task": "negative",
+          "c": [
+            "I didn't walk around the fair.",
+            "I not walked around the fair.",
+            "I didn't walked around the fair."
+          ],
+          "a": 0
+        }
       ],
       "intro": {
         "en": "What did you do at the fair yesterday?",
@@ -450,6 +512,41 @@
             "did",
             "do",
             "were"
+          ],
+          "a": 0
+        }
+      ],
+      "transform": [
+        {
+          "base": "I went to the fair yesterday.",
+          "baseTh": "เมื่อวานฉันไปงานแฟร์",
+          "task": "negative",
+          "c": [
+            "I didn't go to the fair yesterday.",
+            "I didn't went to the fair yesterday.",
+            "I not went to the fair yesterday."
+          ],
+          "a": 0
+        },
+        {
+          "base": "You ate cotton candy.",
+          "baseTh": "เธอกินสายไหม",
+          "task": "question",
+          "c": [
+            "Did you eat cotton candy?",
+            "Did you ate cotton candy?",
+            "Do you eat cotton candy?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "We saw a big show.",
+          "baseTh": "พวกเราดูการแสดงใหญ่",
+          "task": "question",
+          "c": [
+            "Did we see a big show?",
+            "Did we saw a big show?",
+            "Do we see a big show?"
           ],
           "a": 0
         }

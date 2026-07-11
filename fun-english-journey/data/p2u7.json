@@ -593,6 +593,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "She feeds her dog every day.",
+          "baseTh": "หล่อนให้อาหารหมาของเธอทุกวัน",
+          "task": "negative",
+          "c": [
+            "She doesn't feed her dog every day.",
+            "She don't feed her dog every day.",
+            "She doesn't feeds her dog every day."
+          ],
+          "a": 0
+        },
+        {
+          "base": "He walks his dog in the park.",
+          "baseTh": "เขาพาหมาเดินเล่นในสวน",
+          "task": "question",
+          "c": [
+            "Does he walk his dog in the park?",
+            "Does he walks his dog in the park?",
+            "Do he walk his dog in the park?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "We love our pets.",
+          "baseTh": "พวกเรารักสัตว์เลี้ยงของเรา",
+          "task": "negative",
+          "c": [
+            "We don't love our pets.",
+            "We doesn't love our pets.",
+            "We not love our pets."
+          ],
+          "a": 0
+        }
       ]
     }
   ]

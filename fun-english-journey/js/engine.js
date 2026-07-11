@@ -466,7 +466,7 @@ function render(){
     const item = L.speak[st.idx];
     const audioFile = `${L.id}-speak-${String(st.idx+1).padStart(2,"0")}.mp3`;
     stage.innerHTML = `
-      <div class="bubble"><b>Speak & Score! 🎤 (${st.idx+1}/${L.speak.length})</b>
+      <div class="bubble"><b>Speak & Practice! 🎤 (${st.idx+1}/${L.speak.length})</b>
         <div class="th">1️⃣ ฟังต้นแบบ → 2️⃣ กดไมค์แล้วพูด (ระบบอัดเสียงให้) → 3️⃣ กด ▶️ ฟังเสียงตัวเองเทียบ</div></div>
       <div class="card center">
         <div class="target-sentence">"${item.t}"</div>
@@ -602,11 +602,13 @@ function setupSpeech(target){
   };
 
   function finishScore(best, heard){
+    /* best = % ของคำที่ระบบได้ยินตรงกับต้นแบบ ไม่ใช่การวัดสำเนียง — สื่อสารให้ตรงความจริง
+       และให้ XP จากความพยายามทุกครั้ง เพราะระบบรู้จำเสียงอาจ bias กับสำเนียงเด็กไทย */
     const stars = best>=80?3:best>=50?2:1;
     starEl.textContent = "⭐".repeat(stars)+"☆".repeat(3-stars);
-    if(best>=80){ fb.innerHTML = `🌟 Excellent! <b>${best} คะแนน</b><br>กด ▶️ ฟังเสียงตัวเองเทียบกับต้นแบบได้เลย`; addXp(10); playSfx("star"); }
-    else if(best>=50){ fb.innerHTML = `👍 Good! <b>${best} คะแนน</b> (ได้ยิน: "${heard}")<br>ฟังเทียบแล้วลองอัดใหม่ได้นะ`; addXp(6); playSfx("star"); }
-    else { fb.innerHTML = `💪 ลองอีกครั้งนะ (ได้ยิน: "${heard||"—"}")<br>กด 🔊 ต้นแบบ ฟังช้าๆ ก่อน`; playSfx("wrong"); }
+    if(best>=80){ fb.innerHTML = `🌟 เยี่ยมมาก! ระบบได้ยินคำตรง <b>${best}%</b><br>กด ▶️ ฟังเสียงตัวเองเทียบกับต้นแบบได้เลย`; addXp(10); playSfx("star"); }
+    else if(best>=50){ fb.innerHTML = `👍 ดีมาก! ตรง <b>${best}%</b> ของคำ (ระบบได้ยิน: "${heard}")<br>สำเนียงแต่ละคนต่างกันได้นะ จะอัดใหม่หรือไปต่อก็ได้`; addXp(6); playSfx("star"); }
+    else { fb.innerHTML = `💪 เก่งมากที่ลองพูด! (ระบบได้ยิน: "${heard||"—"}")<br>กด 🔊 ต้นแบบ ฟังช้าๆ แล้วลองอีกครั้ง — พูดได้ก็ได้ดาวนะ`; addXp(3); playSfx("star"); }
     skip.style.display="block";
   }
 

@@ -297,6 +297,41 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {
+          "base": "I eat rice every day.",
+          "baseTh": "ฉันกินข้าวทุกวัน",
+          "task": "negative",
+          "c": [
+            "I don't eat rice every day.",
+            "I doesn't eat rice every day.",
+            "I not eat rice every day."
+          ],
+          "a": 0
+        },
+        {
+          "base": "You drink milk in the morning.",
+          "baseTh": "เธอดื่มนมตอนเช้า",
+          "task": "question",
+          "c": [
+            "Do you drink milk in the morning?",
+            "Does you drink milk in the morning?",
+            "Do you drinks milk in the morning?"
+          ],
+          "a": 0
+        },
+        {
+          "base": "She likes apples.",
+          "baseTh": "หล่อนชอบแอปเปิล",
+          "task": "question",
+          "c": [
+            "Does she like apples?",
+            "Does she likes apples?",
+            "Do she like apples?"
+          ],
+          "a": 0
+        }
       ]
     },
     {
