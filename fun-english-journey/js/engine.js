@@ -11,20 +11,26 @@ const UNIT_FILES = {
 };
 let CONTENT = null;
 
+async function fetchUnit(file){
+  const res = await fetch(file);
+  if(!res.ok) throw new Error(`โหลด ${file} ไม่สำเร็จ (${res.status})`);
+  return res.json();
+}
 async function loadContent(){
+  /* โหลดไฟล์บทเรียนทั้ง 48 ไฟล์พร้อมกัน (parallel) แทนการรอทีละไฟล์ (waterfall เดิมช้า ~29x บนเน็ตจริง)
+     Promise.all คงลำดับตาม array ให้อัตโนมัติ จึงไม่กระทบลำดับหน่วย/บท */
+  const grades = Object.keys(UNIT_FILES);
+  const perGrade = await Promise.all(
+    grades.map(grade => Promise.all(UNIT_FILES[grade].map(fetchUnit)))
+  );
   const build = {};
-  for(const grade of Object.keys(UNIT_FILES)){
-    const units = [];
-    let gradeName = "";
-    for(const file of UNIT_FILES[grade]){
-      const res = await fetch(file);
-      if(!res.ok) throw new Error(`โหลด ${file} ไม่สำเร็จ (${res.status})`);
-      const data = await res.json();
-      gradeName = data.gradeName;
-      units.push({ name: data.unitName, lessons: data.lessons });
-    }
-    build[grade] = { name: gradeName, units };
-  }
+  grades.forEach((grade, gi) => {
+    const datas = perGrade[gi];
+    build[grade] = {
+      name: datas[0].gradeName,
+      units: datas.map(d => ({ name: d.unitName, lessons: d.lessons }))
+    };
+  });
   return build;
 }
 
