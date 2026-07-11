@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 1 · What's This? — นี่คืออะไร",
+  "lessons": [
+    {
+      "id": "p1u1l1",
+      "icon": "🎒",
+      "title": "My School Bag",
+      "sub": "ของใช้ในกระเป๋า",
+      "intro": { "en": "What's in my bag?", "th": "ในกระเป๋าของฉันมีอะไรนะ?" },
+      "vocab": [
+        {"w":"bag","th":"กระเป๋า","e":"🎒"},
+        {"w":"pen","th":"ปากกา","e":"🖊️"},
+        {"w":"pencil","th":"ดินสอ","e":"✏️"},
+        {"w":"book","th":"หนังสือ","e":"📖"},
+        {"w":"ruler","th":"ไม้บรรทัด","e":"📏"},
+        {"w":"eraser","th":"ยางลบ","e":"🧼"},
+        {"w":"crayon","th":"สีเทียน","e":"🖍️"},
+        {"w":"box","th":"กล่อง","e":"📦"}
+      ],
+      "build": {"sentence":"This is my bag.","th":"นี่คือกระเป๋าของฉัน"},
+      "speak": [
+        {"t":"This is my bag.","th":"นี่คือกระเป๋าของฉัน"},
+        {"t":"I have a pencil.","th":"ฉันมีดินสอ"},
+        {"t":"This is a book.","th":"นี่คือหนังสือ"},
+        {"t":"I like my crayon.","th":"ฉันชอบสีเทียนของฉัน"}
+      ],
+      "quiz": [
+        {"q":"🎒 คือ...","c":["bag","book","box"],"a":0},
+        {"q":"'ปากกา' คือ...","c":["pen","pencil","ruler"],"a":0},
+        {"q":"✏️ คือ...","c":["pencil","pen","eraser"],"a":0},
+        {"q":"'หนังสือ' คือ...","c":["book","box","bag"],"a":0},
+        {"q":"📏 คือ...","c":["ruler","pencil","crayon"],"a":0},
+        {"q":"'ยางลบ' คือ...","c":["eraser","ruler","box"],"a":0},
+        {"q":"🖍️ คือ...","c":["crayon","pen","book"],"a":0},
+        {"q":"'กล่อง' คือ...","c":["box","bag","book"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u1l2",
+      "icon": "🏫",
+      "title": "In My Classroom",
+      "sub": "ของในห้องเรียน",
+      "intro": { "en": "What's this? It's my classroom!", "th": "นี่คืออะไรนะ? นี่คือห้องเรียนของฉัน!" },
+      "vocab": [
+        {"w":"desk","th":"โต๊ะเรียน","e":"🪑"},
+        {"w":"chair","th":"เก้าอี้","e":"🪑"},
+        {"w":"board","th":"กระดาน","e":"⬛"},
+        {"w":"door","th":"ประตู","e":"🚪"},
+        {"w":"window","th":"หน้าต่าง","e":"🪟"},
+        {"w":"wall","th":"กำแพง","e":"🧱"},
+        {"w":"clock","th":"นาฬิกา","e":"🕐"},
+        {"w":"bin","th":"ถังขยะ","e":"🗑️"}
+      ],
+      "build": {"sentence":"What's this? It's a desk.","th":"นี่คืออะไร? นี่คือโต๊ะเรียน"},
+      "speak": [
+        {"t":"What's this?","th":"นี่คืออะไร?"},
+        {"t":"It's a board.","th":"นี่คือกระดาน"},
+        {"t":"Open the door.","th":"เปิดประตู"},
+        {"t":"Look at the clock.","th":"ดูนาฬิกาสิ"}
+      ],
+      "quiz": [
+        {"q":"🪑 โต๊ะคือ...","c":["desk","chair","door"],"a":0},
+        {"q":"'กระดาน' คือ...","c":["board","wall","window"],"a":0},
+        {"q":"🚪 คือ...","c":["door","window","wall"],"a":0},
+        {"q":"'หน้าต่าง' คือ...","c":["window","door","clock"],"a":0},
+        {"q":"🕐 คือ...","c":["clock","bin","board"],"a":0},
+        {"q":"What's this? It's a ___. (เก้าอี้)","c":["chair","desk","bin"],"a":0},
+        {"q":"🗑️ คือ...","c":["bin","box","bag"],"a":0},
+        {"q":"'กำแพง' คือ...","c":["wall","window","door"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u1l3",
+      "icon": "🍎",
+      "title": "A or An?",
+      "sub": "a หรือ an ใช้ตอนไหน",
+      "intro": { "en": "A apple? No! An apple!", "th": "a apple เหรอ? ไม่ใช่นะ! an apple ต่างหาก!" },
+      "vocab": [
+        {"w":"an apple","th":"แอปเปิลหนึ่งลูก","e":"🍎"},
+        {"w":"an ant","th":"มดหนึ่งตัว","e":"🐜"},
+        {"w":"an egg","th":"ไข่หนึ่งฟอง","e":"🥚"},
+        {"w":"an umbrella","th":"ร่มหนึ่งคัน","e":"☂️"},
+        {"w":"a ball","th":"ลูกบอลหนึ่งลูก","e":"⚽"},
+        {"w":"a cat","th":"แมวหนึ่งตัว","e":"🐱"},
+        {"w":"a dog","th":"หมาหนึ่งตัว","e":"🐶"},
+        {"w":"a hat","th":"หมวกหนึ่งใบ","e":"🧢"}
+      ],
+      "build": {"sentence":"I have an apple.","th":"ฉันมีแอปเปิลหนึ่งลูก"},
+      "speak": [
+        {"t":"I have an apple.","th":"ฉันมีแอปเปิลหนึ่งลูก"},
+        {"t":"It's an egg.","th":"นี่คือไข่หนึ่งฟอง"},
+        {"t":"I have a ball.","th":"ฉันมีลูกบอลหนึ่งลูก"},
+        {"t":"It's a cat.","th":"นี่คือแมวหนึ่งตัว"}
+      ],
+      "quiz": [
+        {"q":"🍎 คือ...","c":["an apple","a apple","an apples"],"a":0},
+        {"q":"🥚 คือ...","c":["an egg","a egg","an eggs"],"a":0},
+        {"q":"⚽ คือ...","c":["a ball","an ball","a balls"],"a":0},
+        {"q":"🐜 คือ...","c":["an ant","a ant","an ants"],"a":0},
+        {"q":"🐱 คือ...","c":["a cat","an cat","a cats"],"a":0},
+        {"q":"☂️ คือ...","c":["an umbrella","a umbrella","an umbrellas"],"a":0},
+        {"q":"🐶 คือ...","c":["a dog","an dog","a dogs"],"a":0},
+        {"q":"🧢 คือ...","c":["a hat","an hat","a hats"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u1l4",
+      "icon": "👋",
+      "title": "At School",
+      "sub": "ที่โรงเรียน + ทบทวน",
+      "intro": { "en": "Welcome to my school!", "th": "ยินดีต้อนรับสู่โรงเรียนของฉัน! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"teacher","th":"คุณครู","e":"🧑‍🏫"},
+        {"w":"student","th":"นักเรียน","e":"🧒"},
+        {"w":"classroom","th":"ห้องเรียน","e":"🏫"},
+        {"w":"friend","th":"เพื่อน","e":"🤝"},
+        {"w":"school","th":"โรงเรียน","e":"🏫"},
+        {"w":"hello","th":"สวัสดี","e":"👋"},
+        {"w":"bag","th":"กระเป๋า","e":"🎒"},
+        {"w":"book","th":"หนังสือ","e":"📖"}
+      ],
+      "build": {"sentence":"Hello, teacher!","th":"สวัสดีค่ะ/ครับ คุณครู!"},
+      "speak": [
+        {"t":"Hello, teacher!","th":"สวัสดีค่ะ/ครับ คุณครู!"},
+        {"t":"This is my friend.","th":"นี่คือเพื่อนของฉัน"},
+        {"t":"I like my school.","th":"ฉันชอบโรงเรียนของฉัน"},
+        {"t":"I have a book.","th":"ฉันมีหนังสือ"}
+      ],
+      "quiz": [
+        {"q":"🧑‍🏫 คือ...","c":["teacher","student","friend"],"a":0},
+        {"q":"'นักเรียน' คือ...","c":["student","teacher","friend"],"a":0},
+        {"q":"🤝 คือ...","c":["friend","teacher","student"],"a":0},
+        {"q":"[ทบทวน] 🎒 คือ...","c":["bag","book","box"],"a":0},
+        {"q":"[ทบทวน] 🍎 คือ...","c":["an apple","a apple","an apples"],"a":0},
+        {"q":"[ทบทวน] 🪑 โต๊ะคือ...","c":["desk","chair","door"],"a":0},
+        {"q":"👋 คือ...","c":["hello","friend","school"],"a":0},
+        {"q":"'โรงเรียน' คือ...","c":["school","classroom","student"],"a":0}
+      ]
+    }
+  ]
+}

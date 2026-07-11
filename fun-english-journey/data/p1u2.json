@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 2 · Colors, Shapes & Numbers — สี รูปทรง และตัวเลข",
+  "lessons": [
+    {
+      "id": "p1u2l1",
+      "icon": "🎨",
+      "title": "My Colors",
+      "sub": "สีต่างๆ",
+      "intro": { "en": "I love colors!", "th": "ฉันชอบสีมากเลย!" },
+      "vocab": [
+        {"w":"red","th":"สีแดง","e":"🔴"},
+        {"w":"blue","th":"สีฟ้า","e":"🔵"},
+        {"w":"yellow","th":"สีเหลือง","e":"🟡"},
+        {"w":"green","th":"สีเขียว","e":"🟢"},
+        {"w":"orange","th":"สีส้ม","e":"🟠"},
+        {"w":"purple","th":"สีม่วง","e":"🟣"},
+        {"w":"pink","th":"สีชมพู","e":"🩷"},
+        {"w":"black","th":"สีดำ","e":"⚫"}
+      ],
+      "build": {"sentence":"I like red.","th":"ฉันชอบสีแดง"},
+      "speak": [
+        {"t":"I like red.","th":"ฉันชอบสีแดง"},
+        {"t":"The sky is blue.","th":"ท้องฟ้าเป็นสีฟ้า"},
+        {"t":"I have a yellow bag.","th":"ฉันมีกระเป๋าสีเหลือง"},
+        {"t":"My hat is green.","th":"หมวกของฉันเป็นสีเขียว"}
+      ],
+      "quiz": [
+        {"q":"🔴 คือ...","c":["red","blue","yellow"],"a":0},
+        {"q":"'สีฟ้า' คือ...","c":["blue","green","purple"],"a":0},
+        {"q":"🟡 คือ...","c":["yellow","orange","pink"],"a":0},
+        {"q":"'สีเขียว' คือ...","c":["green","blue","black"],"a":0},
+        {"q":"🟠 คือ...","c":["orange","red","yellow"],"a":0},
+        {"q":"'สีม่วง' คือ...","c":["purple","pink","blue"],"a":0},
+        {"q":"🩷 คือ...","c":["pink","red","orange"],"a":0},
+        {"q":"'สีดำ' คือ...","c":["black","purple","green"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u2l2",
+      "icon": "🔷",
+      "title": "Shapes Around Me",
+      "sub": "รูปทรงรอบตัว",
+      "intro": { "en": "Let's find shapes!", "th": "มาหารูปทรงกันเถอะ!" },
+      "vocab": [
+        {"w":"circle","th":"วงกลม","e":"⭕"},
+        {"w":"square","th":"สี่เหลี่ยมจัตุรัส","e":"🟦"},
+        {"w":"triangle","th":"สามเหลี่ยม","e":"🔺"},
+        {"w":"star","th":"ดาว","e":"⭐"},
+        {"w":"heart","th":"หัวใจ","e":"❤️"},
+        {"w":"oval","th":"วงรี","e":"🥚"},
+        {"w":"rectangle","th":"สี่เหลี่ยมผืนผ้า","e":"▭"},
+        {"w":"diamond","th":"สี่เหลี่ยมข้าวหลามตัด","e":"🔷"}
+      ],
+      "build": {"sentence":"This is a circle.","th":"นี่คือวงกลม"},
+      "speak": [
+        {"t":"This is a circle.","th":"นี่คือวงกลม"},
+        {"t":"I see a star.","th":"ฉันเห็นดาว"},
+        {"t":"The box is a square.","th":"กล่องนี้เป็นรูปสี่เหลี่ยมจัตุรัส"},
+        {"t":"I like the heart shape.","th":"ฉันชอบรูปหัวใจ"}
+      ],
+      "quiz": [
+        {"q":"⭕ คือ...","c":["circle","square","oval"],"a":0},
+        {"q":"'สามเหลี่ยม' คือ...","c":["triangle","square","star"],"a":0},
+        {"q":"⭐ คือ...","c":["star","heart","diamond"],"a":0},
+        {"q":"'หัวใจ' คือ...","c":["heart","star","circle"],"a":0},
+        {"q":"🟦 คือ...","c":["square","rectangle","triangle"],"a":0},
+        {"q":"'วงรี' คือ...","c":["oval","circle","diamond"],"a":0},
+        {"q":"▭ คือ...","c":["rectangle","square","triangle"],"a":0},
+        {"q":"🔷 คือ...","c":["diamond","star","heart"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u2l3",
+      "icon": "1️⃣",
+      "title": "Numbers 1-8",
+      "sub": "นับเลข 1-8",
+      "intro": { "en": "Let's count together!", "th": "มานับเลขด้วยกันเถอะ!" },
+      "vocab": [
+        {"w":"one","th":"หนึ่ง","e":"1️⃣"},
+        {"w":"two","th":"สอง","e":"2️⃣"},
+        {"w":"three","th":"สาม","e":"3️⃣"},
+        {"w":"four","th":"สี่","e":"4️⃣"},
+        {"w":"five","th":"ห้า","e":"5️⃣"},
+        {"w":"six","th":"หก","e":"6️⃣"},
+        {"w":"seven","th":"เจ็ด","e":"7️⃣"},
+        {"w":"eight","th":"แปด","e":"8️⃣"}
+      ],
+      "build": {"sentence":"I have two hands.","th":"ฉันมีมือสองข้าง"},
+      "speak": [
+        {"t":"One, two, three!","th":"หนึ่ง สอง สาม!"},
+        {"t":"I have five fingers.","th":"ฉันมีนิ้วห้านิ้ว"},
+        {"t":"Count to eight.","th":"นับถึงแปด"},
+        {"t":"I am seven years old.","th":"ฉันอายุเจ็ดขวบ"}
+      ],
+      "quiz": [
+        {"q":"1️⃣ คือ...","c":["one","two","three"],"a":0},
+        {"q":"'สอง' คือ...","c":["two","one","four"],"a":0},
+        {"q":"3️⃣ คือ...","c":["three","two","five"],"a":0},
+        {"q":"'ห้า' คือ...","c":["five","four","six"],"a":0},
+        {"q":"6️⃣ คือ...","c":["six","seven","five"],"a":0},
+        {"q":"'เจ็ด' คือ...","c":["seven","eight","six"],"a":0},
+        {"q":"8️⃣ คือ...","c":["eight","seven","six"],"a":0},
+        {"q":"'สี่' คือ...","c":["four","three","five"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u2l4",
+      "icon": "🔟",
+      "title": "Count and Play",
+      "sub": "นับต่อและเล่น + ทบทวน",
+      "intro": { "en": "Nine, ten! Let's play!", "th": "เก้า สิบ! มาเล่นกันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"nine","th":"เก้า","e":"9️⃣"},
+        {"w":"ten","th":"สิบ","e":"🔟"},
+        {"w":"count","th":"นับ","e":"🔢"},
+        {"w":"big","th":"ใหญ่","e":"🐘"},
+        {"w":"small","th":"เล็ก","e":"🐜"},
+        {"w":"first","th":"ที่หนึ่ง","e":"🥇"},
+        {"w":"last","th":"สุดท้าย","e":"🏁"},
+        {"w":"more","th":"เพิ่ม","e":"➕"}
+      ],
+      "build": {"sentence":"I have ten fingers.","th":"ฉันมีนิ้วสิบนิ้ว"},
+      "speak": [
+        {"t":"Nine, ten!","th":"เก้า สิบ!"},
+        {"t":"Let's count.","th":"มานับกันเถอะ"},
+        {"t":"This is big.","th":"นี่ใหญ่"},
+        {"t":"That is small.","th":"นั่นเล็ก"}
+      ],
+      "quiz": [
+        {"q":"9️⃣ คือ...","c":["nine","ten","eight"],"a":0},
+        {"q":"🔟 คือ...","c":["ten","nine","one"],"a":0},
+        {"q":"'ใหญ่' คือ...","c":["big","small","more"],"a":0},
+        {"q":"🐜 เล็กคือ...","c":["small","big","more"],"a":0},
+        {"q":"[ทบทวน] 🔴 คือ...","c":["red","blue","yellow"],"a":0},
+        {"q":"[ทบทวน] ⭕ คือ...","c":["circle","square","oval"],"a":0},
+        {"q":"[ทบทวน] 5️⃣ คือ...","c":["five","four","six"],"a":0},
+        {"q":"🥇 คือ...","c":["first","last","more"],"a":0}
+      ]
+    }
+  ]
+}

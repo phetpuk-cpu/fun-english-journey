@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 7 · My Friends & Animals — เพื่อนและสัตว์",
+  "lessons": [
+    {
+      "id": "p1u7l1",
+      "icon": "🤗",
+      "title": "My Friends",
+      "sub": "เพื่อนของฉัน",
+      "intro": { "en": "I have many friends!", "th": "ฉันมีเพื่อนเยอะเลย!" },
+      "vocab": [
+        {"w":"friend","th":"เพื่อน","e":"🤝"},
+        {"w":"play","th":"เล่น","e":"🎮"},
+        {"w":"share","th":"แบ่งปัน","e":"🤲"},
+        {"w":"kind","th":"ใจดี","e":"😊"},
+        {"w":"happy","th":"มีความสุข","e":"😄"},
+        {"w":"smile","th":"ยิ้ม","e":"😁"},
+        {"w":"hello","th":"สวัสดี","e":"👋"},
+        {"w":"bye","th":"ลาก่อน","e":"🙋"}
+      ],
+      "build": {"sentence":"This is my friend.","th":"นี่คือเพื่อนของฉัน"},
+      "speak": [
+        {"t":"This is my friend.","th":"นี่คือเพื่อนของฉัน"},
+        {"t":"Let's play together.","th":"มาเล่นด้วยกันเถอะ"},
+        {"t":"I am happy.","th":"ฉันมีความสุข"},
+        {"t":"Hello, friend!","th":"สวัสดี เพื่อน!"}
+      ],
+      "quiz": [
+        {"q":"🤝 คือ...","c":["friend","play","share"],"a":0},
+        {"q":"'เล่น' คือ...","c":["play","share","smile"],"a":0},
+        {"q":"🤲 คือ...","c":["share","play","kind"],"a":0},
+        {"q":"'ใจดี' คือ...","c":["kind","happy","smile"],"a":0},
+        {"q":"😄 คือ...","c":["happy","kind","smile"],"a":0},
+        {"q":"'ยิ้ม' คือ...","c":["smile","happy","hello"],"a":0},
+        {"q":"👋 คือ...","c":["hello","bye","friend"],"a":0},
+        {"q":"'ลาก่อน' คือ...","c":["bye","hello","play"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u7l2",
+      "icon": "🐶",
+      "title": "Pets I Like",
+      "sub": "สัตว์เลี้ยงที่ชอบ",
+      "intro": { "en": "Do you have a pet?", "th": "หนูมีสัตว์เลี้ยงไหมนะ?" },
+      "vocab": [
+        {"w":"dog","th":"หมา","e":"🐶"},
+        {"w":"cat","th":"แมว","e":"🐱"},
+        {"w":"fish","th":"ปลา","e":"🐠"},
+        {"w":"bird","th":"นก","e":"🐦"},
+        {"w":"rabbit","th":"กระต่าย","e":"🐰"},
+        {"w":"hamster","th":"หนูแฮมสเตอร์","e":"🐹"},
+        {"w":"turtle","th":"เต่า","e":"🐢"},
+        {"w":"puppy","th":"ลูกหมา","e":"🐕"}
+      ],
+      "build": {"sentence":"I have a dog.","th":"ฉันมีหมา"},
+      "speak": [
+        {"t":"I have a dog.","th":"ฉันมีหมา"},
+        {"t":"My cat is cute.","th":"แมวของฉันน่ารัก"},
+        {"t":"I like rabbits.","th":"ฉันชอบกระต่าย"},
+        {"t":"This is my puppy.","th":"นี่คือลูกหมาของฉัน"}
+      ],
+      "quiz": [
+        {"q":"🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
+        {"q":"'แมว' คือ...","c":["cat","dog","bird"],"a":0},
+        {"q":"🐠 คือ...","c":["fish","bird","turtle"],"a":0},
+        {"q":"'นก' คือ...","c":["bird","fish","cat"],"a":0},
+        {"q":"🐰 คือ...","c":["rabbit","hamster","turtle"],"a":0},
+        {"q":"'เต่า' คือ...","c":["turtle","rabbit","fish"],"a":0},
+        {"q":"🐹 คือ...","c":["hamster","rabbit","puppy"],"a":0},
+        {"q":"'ลูกหมา' คือ...","c":["puppy","dog","cat"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u7l3",
+      "icon": "🦁",
+      "title": "At the Zoo",
+      "sub": "ที่สวนสัตว์",
+      "intro": { "en": "Let's go to the zoo!", "th": "ไปสวนสัตว์กันเถอะ!" },
+      "vocab": [
+        {"w":"lion","th":"สิงโต","e":"🦁"},
+        {"w":"elephant","th":"ช้าง","e":"🐘"},
+        {"w":"monkey","th":"ลิง","e":"🐒"},
+        {"w":"tiger","th":"เสือ","e":"🐯"},
+        {"w":"giraffe","th":"ยีราฟ","e":"🦒"},
+        {"w":"zebra","th":"ม้าลาย","e":"🦓"},
+        {"w":"bear","th":"หมี","e":"🐻"},
+        {"w":"snake","th":"งู","e":"🐍"}
+      ],
+      "build": {"sentence":"I see a lion.","th":"ฉันเห็นสิงโต"},
+      "speak": [
+        {"t":"I see a lion.","th":"ฉันเห็นสิงโต"},
+        {"t":"The elephant is big.","th":"ช้างตัวใหญ่"},
+        {"t":"I like monkeys.","th":"ฉันชอบลิง"},
+        {"t":"The giraffe is tall.","th":"ยีราฟตัวสูง"}
+      ],
+      "quiz": [
+        {"q":"🦁 คือ...","c":["lion","tiger","bear"],"a":0},
+        {"q":"'ช้าง' คือ...","c":["elephant","giraffe","zebra"],"a":0},
+        {"q":"🐒 คือ...","c":["monkey","bear","snake"],"a":0},
+        {"q":"'เสือ' คือ...","c":["tiger","lion","monkey"],"a":0},
+        {"q":"🦒 คือ...","c":["giraffe","zebra","elephant"],"a":0},
+        {"q":"'ม้าลาย' คือ...","c":["zebra","giraffe","tiger"],"a":0},
+        {"q":"🐻 คือ...","c":["bear","snake","monkey"],"a":0},
+        {"q":"'งู' คือ...","c":["snake","bear","lion"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u7l4",
+      "icon": "🌳",
+      "title": "There Is a...",
+      "sub": "มี... + ทบทวน",
+      "intro": { "en": "There is a big lion!", "th": "มีสิงโตตัวใหญ่อยู่ตรงนั้น! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"there's","th":"มี(เอกพจน์)","e":"👉"},
+        {"w":"there are","th":"มี(พหูพจน์)","e":"👉"},
+        {"w":"animal","th":"สัตว์","e":"🐾"},
+        {"w":"zoo","th":"สวนสัตว์","e":"🦓"},
+        {"w":"cage","th":"กรง","e":"🔒"},
+        {"w":"big","th":"ใหญ่","e":"🐘"},
+        {"w":"small","th":"เล็ก","e":"🐹"},
+        {"w":"wild","th":"ป่า","e":"🌴"}
+      ],
+      "build": {"sentence":"There's a lion at the zoo.","th":"มีสิงโตอยู่ที่สวนสัตว์"},
+      "speak": [
+        {"t":"There's a lion.","th":"มีสิงโตตัวหนึ่ง"},
+        {"t":"There are two monkeys.","th":"มีลิงสองตัว"},
+        {"t":"This animal is wild.","th":"สัตว์ตัวนี้เป็นสัตว์ป่า"},
+        {"t":"The zoo is fun.","th":"สวนสัตว์สนุกมาก"}
+      ],
+      "quiz": [
+        {"q":"There ___ a lion. (มี, เอกพจน์)","c":["'s","are","is are"],"a":0},
+        {"q":"There ___ two dogs. (มี, พหูพจน์)","c":["are","'s","is"],"a":0},
+        {"q":"🐾 คือ...","c":["animal","zoo","cage"],"a":0},
+        {"q":"[ทบทวน] 🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
+        {"q":"[ทบทวน] 🦁 คือ...","c":["lion","tiger","bear"],"a":0},
+        {"q":"[ทบทวน] 🤝 คือ...","c":["friend","play","share"],"a":0},
+        {"q":"'ป่า' คือ...","c":["wild","big","small"],"a":0},
+        {"q":"🔒 คือ...","c":["cage","zoo","animal"],"a":0}
+      ]
+    }
+  ]
+}

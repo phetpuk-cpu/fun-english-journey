@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 3 · Jobs & My Family — อาชีพและครอบครัว",
+  "lessons": [
+    {
+      "id": "p1u3l1",
+      "icon": "👩‍🏫",
+      "title": "Jobs I Know",
+      "sub": "อาชีพที่ฉันรู้จัก",
+      "intro": { "en": "What do you want to be?", "th": "หนูอยากเป็นอะไรนะ?" },
+      "vocab": [
+        {"w":"teacher","th":"ครู","e":"👩‍🏫"},
+        {"w":"doctor","th":"หมอ","e":"👨‍⚕️"},
+        {"w":"nurse","th":"พยาบาล","e":"👩‍⚕️"},
+        {"w":"farmer","th":"ชาวนา","e":"👨‍🌾"},
+        {"w":"police officer","th":"ตำรวจ","e":"👮"},
+        {"w":"firefighter","th":"นักดับเพลิง","e":"👨‍🚒"},
+        {"w":"cook","th":"พ่อครัว","e":"👨‍🍳"},
+        {"w":"driver","th":"คนขับรถ","e":"🚕"}
+      ],
+      "build": {"sentence":"I want to be a teacher.","th":"ฉันอยากเป็นครู"},
+      "speak": [
+        {"t":"I want to be a doctor.","th":"ฉันอยากเป็นหมอ"},
+        {"t":"He is a police officer.","th":"เขาเป็นตำรวจ"},
+        {"t":"She is a nurse.","th":"เธอเป็นพยาบาล"},
+        {"t":"I like firefighters.","th":"ฉันชอบนักดับเพลิง"}
+      ],
+      "quiz": [
+        {"q":"👩‍🏫 คือ...","c":["teacher","doctor","nurse"],"a":0},
+        {"q":"'หมอ' คือ...","c":["doctor","nurse","farmer"],"a":0},
+        {"q":"👮 คือ...","c":["police officer","firefighter","driver"],"a":0},
+        {"q":"'นักดับเพลิง' คือ...","c":["firefighter","police officer","cook"],"a":0},
+        {"q":"👨‍🍳 คือ...","c":["cook","farmer","driver"],"a":0},
+        {"q":"'คนขับรถ' คือ...","c":["driver","cook","farmer"],"a":0},
+        {"q":"👨‍🌾 คือ...","c":["farmer","doctor","teacher"],"a":0},
+        {"q":"'พยาบาล' คือ...","c":["nurse","doctor","teacher"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u3l2",
+      "icon": "👨‍👩‍👧",
+      "title": "My Family",
+      "sub": "ครอบครัวของฉัน",
+      "intro": { "en": "This is my family!", "th": "นี่คือครอบครัวของฉัน!" },
+      "vocab": [
+        {"w":"mom","th":"แม่","e":"👩"},
+        {"w":"dad","th":"พ่อ","e":"👨"},
+        {"w":"brother","th":"พี่/น้องชาย","e":"👦"},
+        {"w":"sister","th":"พี่/น้องสาว","e":"👧"},
+        {"w":"grandma","th":"ย่า/ยาย","e":"👵"},
+        {"w":"grandpa","th":"ปู่/ตา","e":"👴"},
+        {"w":"baby","th":"ทารก","e":"👶"},
+        {"w":"family","th":"ครอบครัว","e":"👨‍👩‍👧"}
+      ],
+      "build": {"sentence":"This is my mom.","th":"นี่คือแม่ของฉัน"},
+      "speak": [
+        {"t":"This is my mom.","th":"นี่คือแม่ของฉัน"},
+        {"t":"This is my dad.","th":"นี่คือพ่อของฉัน"},
+        {"t":"I love my family.","th":"ฉันรักครอบครัวของฉัน"},
+        {"t":"My baby sister is cute.","th":"น้องสาวตัวเล็กของฉันน่ารัก"}
+      ],
+      "quiz": [
+        {"q":"👩 คือ...","c":["mom","sister","grandma"],"a":0},
+        {"q":"'พ่อ' คือ...","c":["dad","brother","grandpa"],"a":0},
+        {"q":"👦 คือ...","c":["brother","sister","baby"],"a":0},
+        {"q":"'พี่/น้องสาว' คือ...","c":["sister","brother","mom"],"a":0},
+        {"q":"👵 คือ...","c":["grandma","grandpa","mom"],"a":0},
+        {"q":"'ปู่/ตา' คือ...","c":["grandpa","grandma","dad"],"a":0},
+        {"q":"👶 คือ...","c":["baby","sister","brother"],"a":0},
+        {"q":"'ครอบครัว' คือ...","c":["family","friend","baby"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u3l3",
+      "icon": "🧸",
+      "title": "My Toys",
+      "sub": "ของเล่นของฉัน",
+      "intro": { "en": "This is my toy!", "th": "นี่คือของเล่นของฉัน!" },
+      "vocab": [
+        {"w":"ball","th":"ลูกบอล","e":"⚽"},
+        {"w":"doll","th":"ตุ๊กตา","e":"🪆"},
+        {"w":"car","th":"รถของเล่น","e":"🚗"},
+        {"w":"kite","th":"ว่าว","e":"🪁"},
+        {"w":"robot","th":"หุ่นยนต์","e":"🤖"},
+        {"w":"blocks","th":"บล็อกไม้","e":"🧱"},
+        {"w":"puzzle","th":"จิ๊กซอว์","e":"🧩"},
+        {"w":"teddy bear","th":"ตุ๊กตาหมี","e":"🧸"}
+      ],
+      "build": {"sentence":"This is my ball.","th":"นี่คือลูกบอลของฉัน"},
+      "speak": [
+        {"t":"This is my ball.","th":"นี่คือลูกบอลของฉัน"},
+        {"t":"Is this your car?","th":"นี่คือรถของเธอหรือเปล่า?"},
+        {"t":"I love my teddy bear.","th":"ฉันรักตุ๊กตาหมีของฉัน"},
+        {"t":"This is his robot.","th":"นี่คือหุ่นยนต์ของเขา"}
+      ],
+      "quiz": [
+        {"q":"⚽ คือ...","c":["ball","doll","kite"],"a":0},
+        {"q":"'ตุ๊กตา' คือ...","c":["doll","ball","robot"],"a":0},
+        {"q":"🪁 คือ...","c":["kite","car","puzzle"],"a":0},
+        {"q":"'หุ่นยนต์' คือ...","c":["robot","doll","car"],"a":0},
+        {"q":"🧱 คือ...","c":["blocks","puzzle","teddy bear"],"a":0},
+        {"q":"'จิ๊กซอว์' คือ...","c":["puzzle","blocks","robot"],"a":0},
+        {"q":"🧸 คือ...","c":["teddy bear","doll","ball"],"a":0},
+        {"q":"This is my ___. (รถ)","c":["car","ball","kite"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u3l4",
+      "icon": "❓",
+      "title": "Whose Is This?",
+      "sub": "ของใครนะ + ทบทวน",
+      "intro": { "en": "Whose ball is this?", "th": "ลูกบอลนี้ของใครนะ? บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"my","th":"ของฉัน","e":"🙋"},
+        {"w":"your","th":"ของเธอ","e":"👉"},
+        {"w":"his","th":"ของเขา(ผู้ชาย)","e":"👦"},
+        {"w":"her","th":"ของเธอ(ผู้หญิง)","e":"👧"},
+        {"w":"mine","th":"ของฉัน(เดี่ยว)","e":"☝️"},
+        {"w":"yours","th":"ของเธอ(เดี่ยว)","e":"👆"},
+        {"w":"whose","th":"ของใคร","e":"❓"},
+        {"w":"toy","th":"ของเล่น","e":"🧸"}
+      ],
+      "build": {"sentence":"Whose ball is this? It's mine.","th":"ลูกบอลนี้ของใคร? ของฉันเอง"},
+      "speak": [
+        {"t":"Whose is this?","th":"นี่ของใครนะ?"},
+        {"t":"It's mine.","th":"นี่ของฉันเอง"},
+        {"t":"This is her doll.","th":"นี่คือตุ๊กตาของเธอ"},
+        {"t":"That is his car.","th":"นั่นคือรถของเขา"}
+      ],
+      "quiz": [
+        {"q":"'ของฉัน' คือ...","c":["my","your","his"],"a":0},
+        {"q":"'ของเขา(ผู้ชาย)' คือ...","c":["his","her","my"],"a":0},
+        {"q":"❓ คือ...","c":["whose","toy","mine"],"a":0},
+        {"q":"[ทบทวน] 👩 คือ...","c":["mom","sister","grandma"],"a":0},
+        {"q":"[ทบทวน] 👩‍🏫 คือ...","c":["teacher","doctor","nurse"],"a":0},
+        {"q":"[ทบทวน] ⚽ คือ...","c":["ball","doll","kite"],"a":0},
+        {"q":"It's ___. (ของฉันเอง)","c":["mine","my","I"],"a":0},
+        {"q":"'ของเล่น' คือ...","c":["toy","game","doll"],"a":0}
+      ]
+    }
+  ]
+}

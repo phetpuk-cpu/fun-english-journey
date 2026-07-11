@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 5 · My Clothes & My House — เสื้อผ้าและบ้าน",
+  "lessons": [
+    {
+      "id": "p1u5l1",
+      "icon": "👕",
+      "title": "What I Wear",
+      "sub": "สิ่งที่ฉันใส่",
+      "intro": { "en": "What are you wearing today?", "th": "วันนี้หนูใส่อะไรนะ?" },
+      "vocab": [
+        {"w":"shirt","th":"เสื้อ","e":"👕"},
+        {"w":"shorts","th":"กางเกงขาสั้น","e":"🩳"},
+        {"w":"shoes","th":"รองเท้า","e":"👟"},
+        {"w":"socks","th":"ถุงเท้า","e":"🧦"},
+        {"w":"hat","th":"หมวก","e":"🧢"},
+        {"w":"dress","th":"ชุดกระโปรง","e":"👗"},
+        {"w":"jacket","th":"เสื้อแจ็คเก็ต","e":"🧥"},
+        {"w":"pants","th":"กางเกงขายาว","e":"👖"}
+      ],
+      "build": {"sentence":"I wear a shirt.","th":"ฉันใส่เสื้อ"},
+      "speak": [
+        {"t":"I wear a shirt.","th":"ฉันใส่เสื้อ"},
+        {"t":"I have new shoes.","th":"ฉันมีรองเท้าคู่ใหม่"},
+        {"t":"She wears a dress.","th":"เธอใส่ชุดกระโปรง"},
+        {"t":"I like my hat.","th":"ฉันชอบหมวกของฉัน"}
+      ],
+      "quiz": [
+        {"q":"👕 คือ...","c":["shirt","dress","jacket"],"a":0},
+        {"q":"'กางเกงขาสั้น' คือ...","c":["shorts","pants","socks"],"a":0},
+        {"q":"👟 คือ...","c":["shoes","socks","hat"],"a":0},
+        {"q":"'ถุงเท้า' คือ...","c":["socks","shoes","shorts"],"a":0},
+        {"q":"🧢 คือ...","c":["hat","dress","jacket"],"a":0},
+        {"q":"'ชุดกระโปรง' คือ...","c":["dress","shirt","pants"],"a":0},
+        {"q":"🧥 คือ...","c":["jacket","shirt","hat"],"a":0},
+        {"q":"'กางเกงขายาว' คือ...","c":["pants","shorts","socks"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u5l2",
+      "icon": "🧣",
+      "title": "I've Got a Hat!",
+      "sub": "ฉันมี... (have got)",
+      "intro": { "en": "Have you got a hat?", "th": "หนูมีหมวกไหมนะ?" },
+      "vocab": [
+        {"w":"glasses","th":"แว่นตา","e":"👓"},
+        {"w":"gloves","th":"ถุงมือ","e":"🧤"},
+        {"w":"scarf","th":"ผ้าพันคอ","e":"🧣"},
+        {"w":"boots","th":"รองเท้าบูท","e":"👢"},
+        {"w":"coat","th":"เสื้อโค้ท","e":"🧥"},
+        {"w":"umbrella","th":"ร่ม","e":"☂️"},
+        {"w":"bag","th":"กระเป๋า","e":"👜"},
+        {"w":"watch","th":"นาฬิกาข้อมือ","e":"⌚"}
+      ],
+      "build": {"sentence":"I've got a scarf.","th":"ฉันมีผ้าพันคอ"},
+      "speak": [
+        {"t":"I've got a scarf.","th":"ฉันมีผ้าพันคอ"},
+        {"t":"Have you got gloves?","th":"เธอมีถุงมือไหม?"},
+        {"t":"She's got glasses.","th":"เธอมีแว่นตา"},
+        {"t":"I've got an umbrella.","th":"ฉันมีร่ม"}
+      ],
+      "quiz": [
+        {"q":"👓 คือ...","c":["glasses","gloves","watch"],"a":0},
+        {"q":"'ถุงมือ' คือ...","c":["gloves","glasses","boots"],"a":0},
+        {"q":"🧣 คือ...","c":["scarf","coat","bag"],"a":0},
+        {"q":"'รองเท้าบูท' คือ...","c":["boots","shoes","socks"],"a":0},
+        {"q":"I've ___ a hat. (มี)","c":["got","get","have"],"a":0},
+        {"q":"☂️ คือ...","c":["umbrella","bag","watch"],"a":0},
+        {"q":"'นาฬิกาข้อมือ' คือ...","c":["watch","glasses","gloves"],"a":0},
+        {"q":"🧥 เสื้อโค้ทคือ...","c":["coat","scarf","boots"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u5l3",
+      "icon": "🏠",
+      "title": "Rooms in My House",
+      "sub": "ห้องต่างๆ ในบ้าน",
+      "intro": { "en": "Welcome to my house!", "th": "ยินดีต้อนรับสู่บ้านของฉัน!" },
+      "vocab": [
+        {"w":"bedroom","th":"ห้องนอน","e":"🛏️"},
+        {"w":"kitchen","th":"ห้องครัว","e":"🍳"},
+        {"w":"bathroom","th":"ห้องน้ำ","e":"🚽"},
+        {"w":"living room","th":"ห้องนั่งเล่น","e":"🛋️"},
+        {"w":"door","th":"ประตู","e":"🚪"},
+        {"w":"window","th":"หน้าต่าง","e":"🪟"},
+        {"w":"roof","th":"หลังคา","e":"🏠"},
+        {"w":"garden","th":"สวน","e":"🌳"}
+      ],
+      "build": {"sentence":"This is my bedroom.","th":"นี่คือห้องนอนของฉัน"},
+      "speak": [
+        {"t":"This is my bedroom.","th":"นี่คือห้องนอนของฉัน"},
+        {"t":"I cook in the kitchen.","th":"ฉันทำอาหารในห้องครัว"},
+        {"t":"We sit in the living room.","th":"พวกเรานั่งในห้องนั่งเล่น"},
+        {"t":"I play in the garden.","th":"ฉันเล่นในสวน"}
+      ],
+      "quiz": [
+        {"q":"🛏️ คือ...","c":["bedroom","kitchen","bathroom"],"a":0},
+        {"q":"'ห้องครัว' คือ...","c":["kitchen","bedroom","garden"],"a":0},
+        {"q":"🚽 คือ...","c":["bathroom","living room","kitchen"],"a":0},
+        {"q":"'ห้องนั่งเล่น' คือ...","c":["living room","bedroom","bathroom"],"a":0},
+        {"q":"🚪 คือ...","c":["door","window","roof"],"a":0},
+        {"q":"'หน้าต่าง' คือ...","c":["window","door","roof"],"a":0},
+        {"q":"🏠 หลังคาคือ...","c":["roof","door","window"],"a":0},
+        {"q":"'สวน' คือ...","c":["garden","bedroom","kitchen"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u5l4",
+      "icon": "🛋️",
+      "title": "My House",
+      "sub": "บ้านของฉัน + ทบทวน",
+      "intro": { "en": "I love my house!", "th": "ฉันรักบ้านของฉัน! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"house","th":"บ้าน","e":"🏠"},
+        {"w":"home","th":"บ้าน(ที่อยู่)","e":"🏡"},
+        {"w":"table","th":"โต๊ะ","e":"🪑"},
+        {"w":"bed","th":"เตียง","e":"🛏️"},
+        {"w":"sofa","th":"โซฟา","e":"🛋️"},
+        {"w":"TV","th":"โทรทัศน์","e":"📺"},
+        {"w":"fridge","th":"ตู้เย็น","e":"🧊"},
+        {"w":"lamp","th":"โคมไฟ","e":"💡"}
+      ],
+      "build": {"sentence":"I have a big house.","th":"ฉันมีบ้านหลังใหญ่"},
+      "speak": [
+        {"t":"I love my home.","th":"ฉันรักบ้านของฉัน"},
+        {"t":"I sit on the sofa.","th":"ฉันนั่งบนโซฟา"},
+        {"t":"I watch TV.","th":"ฉันดูโทรทัศน์"},
+        {"t":"I sleep on my bed.","th":"ฉันนอนบนเตียง"}
+      ],
+      "quiz": [
+        {"q":"🏠 คือ...","c":["house","table","bed"],"a":0},
+        {"q":"'โซฟา' คือ...","c":["sofa","table","fridge"],"a":0},
+        {"q":"📺 คือ...","c":["TV","lamp","fridge"],"a":0},
+        {"q":"[ทบทวน] 👕 คือ...","c":["shirt","dress","jacket"],"a":0},
+        {"q":"[ทบทวน] I've ___ a hat. (มี)","c":["got","get","have"],"a":0},
+        {"q":"[ทบทวน] 🛏️ คือ...","c":["bedroom","kitchen","bathroom"],"a":0},
+        {"q":"🧊 คือ...","c":["fridge","lamp","TV"],"a":0},
+        {"q":"'โคมไฟ' คือ...","c":["lamp","fridge","table"],"a":0}
+      ]
+    }
+  ]
+}

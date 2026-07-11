@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 8 · My Bedroom, Weather & The Beach — ห้องนอน อากาศ และชายหาด",
+  "lessons": [
+    {
+      "id": "p1u8l1",
+      "icon": "🛏️",
+      "title": "My Bedroom",
+      "sub": "ห้องนอนของฉัน",
+      "intro": { "en": "This is my bedroom!", "th": "นี่คือห้องนอนของฉัน!" },
+      "vocab": [
+        {"w":"bed","th":"เตียง","e":"🛏️"},
+        {"w":"pillow","th":"หมอน","e":"🛌"},
+        {"w":"blanket","th":"ผ้าห่ม","e":"🧣"},
+        {"w":"toy box","th":"กล่องของเล่น","e":"📦"},
+        {"w":"lamp","th":"โคมไฟ","e":"💡"},
+        {"w":"window","th":"หน้าต่าง","e":"🪟"},
+        {"w":"closet","th":"ตู้เสื้อผ้า","e":"🚪"},
+        {"w":"rug","th":"พรม","e":"🟫"}
+      ],
+      "build": {"sentence":"I sleep on my bed.","th":"ฉันนอนบนเตียง"},
+      "speak": [
+        {"t":"I sleep on my bed.","th":"ฉันนอนบนเตียง"},
+        {"t":"I have a soft pillow.","th":"ฉันมีหมอนนุ่มๆ"},
+        {"t":"My toys are in the toy box.","th":"ของเล่นของฉันอยู่ในกล่องของเล่น"},
+        {"t":"Turn on the lamp.","th":"เปิดโคมไฟสิ"}
+      ],
+      "quiz": [
+        {"q":"🛏️ คือ...","c":["bed","pillow","blanket"],"a":0},
+        {"q":"'หมอน' คือ...","c":["pillow","bed","rug"],"a":0},
+        {"q":"🧣 คือ...","c":["blanket","pillow","closet"],"a":0},
+        {"q":"'ผ้าห่ม' คือ...","c":["blanket","rug","lamp"],"a":0},
+        {"q":"📦 คือ...","c":["toy box","closet","lamp"],"a":0},
+        {"q":"'ตู้เสื้อผ้า' คือ...","c":["closet","toy box","rug"],"a":0},
+        {"q":"💡 คือ...","c":["lamp","window","rug"],"a":0},
+        {"q":"'พรม' คือ...","c":["rug","blanket","pillow"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u8l2",
+      "icon": "☀️",
+      "title": "What's the Weather?",
+      "sub": "อากาศเป็นยังไง",
+      "intro": { "en": "What's the weather today?", "th": "วันนี้อากาศเป็นยังไงนะ?" },
+      "vocab": [
+        {"w":"sunny","th":"แดดออก","e":"☀️"},
+        {"w":"rainy","th":"ฝนตก","e":"🌧️"},
+        {"w":"cloudy","th":"มีเมฆ","e":"☁️"},
+        {"w":"windy","th":"ลมแรง","e":"💨"},
+        {"w":"hot","th":"ร้อน","e":"🥵"},
+        {"w":"cold","th":"หนาว","e":"🥶"},
+        {"w":"snowy","th":"หิมะตก","e":"❄️"},
+        {"w":"weather","th":"อากาศ","e":"🌤️"}
+      ],
+      "build": {"sentence":"It is sunny today.","th":"วันนี้แดดออก"},
+      "speak": [
+        {"t":"It is sunny today.","th":"วันนี้แดดออก"},
+        {"t":"It is raining.","th":"ฝนกำลังตก"},
+        {"t":"It is hot.","th":"อากาศร้อน"},
+        {"t":"It is cold and windy.","th":"อากาศหนาวและลมแรง"}
+      ],
+      "quiz": [
+        {"q":"☀️ คือ...","c":["sunny","rainy","cloudy"],"a":0},
+        {"q":"'ฝนตก' คือ...","c":["rainy","sunny","windy"],"a":0},
+        {"q":"☁️ คือ...","c":["cloudy","windy","hot"],"a":0},
+        {"q":"'ลมแรง' คือ...","c":["windy","cloudy","cold"],"a":0},
+        {"q":"🥵 คือ...","c":["hot","cold","snowy"],"a":0},
+        {"q":"'หนาว' คือ...","c":["cold","hot","sunny"],"a":0},
+        {"q":"❄️ คือ...","c":["snowy","rainy","sunny"],"a":0},
+        {"q":"It is ___ today. (แดดออก)","c":["sunny","rainy","cold"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u8l3",
+      "icon": "🏖️",
+      "title": "At the Beach",
+      "sub": "ที่ชายหาด",
+      "intro": { "en": "Let's go to the beach!", "th": "ไปเที่ยวชายหาดกันเถอะ!" },
+      "vocab": [
+        {"w":"sea","th":"ทะเล","e":"🌊"},
+        {"w":"sand","th":"ทราย","e":"🏖️"},
+        {"w":"shell","th":"เปลือกหอย","e":"🐚"},
+        {"w":"wave","th":"คลื่น","e":"🌊"},
+        {"w":"sun","th":"พระอาทิตย์","e":"☀️"},
+        {"w":"swim","th":"ว่ายน้ำ","e":"🏊"},
+        {"w":"boat","th":"เรือ","e":"⛵"},
+        {"w":"fish","th":"ปลา","e":"🐟"}
+      ],
+      "build": {"sentence":"I can swim in the sea.","th":"ฉันว่ายน้ำในทะเลได้"},
+      "speak": [
+        {"t":"I can swim.","th":"ฉันว่ายน้ำได้"},
+        {"t":"I found a shell.","th":"ฉันเจอเปลือกหอย"},
+        {"t":"I play in the sand.","th":"ฉันเล่นในทราย"},
+        {"t":"I see a boat.","th":"ฉันเห็นเรือ"}
+      ],
+      "quiz": [
+        {"q":"🌊 ทะเลคือ...","c":["sea","sand","wave"],"a":0},
+        {"q":"'ทราย' คือ...","c":["sand","sea","shell"],"a":0},
+        {"q":"🐚 คือ...","c":["shell","sand","boat"],"a":0},
+        {"q":"'คลื่น' คือ...","c":["wave","sea","sun"],"a":0},
+        {"q":"🏊 คือ...","c":["swim","sea","sand"],"a":0},
+        {"q":"'เรือ' คือ...","c":["boat","fish","shell"],"a":0},
+        {"q":"🐟 คือ...","c":["fish","boat","wave"],"a":0},
+        {"q":"I can ___ in the sea. (ว่ายน้ำ)","c":["swim","play","run"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u8l4",
+      "icon": "🎓",
+      "title": "Let's Play!",
+      "sub": "มาเล่นกัน + ทบทวนใหญ่ทั้งปี",
+      "intro": { "en": "You finished Grade 1! Great job!", "th": "หนูเรียนจบ ป.1 แล้ว! เก่งมากๆ เลย! บทนี้มีทบทวนทุกอย่างที่เรียนมากันเถอะ" },
+      "vocab": [
+        {"w":"can","th":"ทำได้","e":"👍"},
+        {"w":"can't","th":"ทำไม่ได้","e":"👎"},
+        {"w":"let's","th":"มา...กันเถอะ","e":"🙌"},
+        {"w":"jump","th":"กระโดด","e":"🤸"},
+        {"w":"run","th":"วิ่ง","e":"🏃"},
+        {"w":"swim","th":"ว่ายน้ำ","e":"🏊"},
+        {"w":"stop","th":"หยุด","e":"🛑"},
+        {"w":"go","th":"ไป","e":"🚦"}
+      ],
+      "build": {"sentence":"Let's play together!","th":"มาเล่นด้วยกันเถอะ!"},
+      "speak": [
+        {"t":"I can jump.","th":"ฉันกระโดดได้"},
+        {"t":"I can't fly.","th":"ฉันบินไม่ได้"},
+        {"t":"Let's run!","th":"ไปวิ่งกันเถอะ!"},
+        {"t":"Stop! Then go!","th":"หยุด! แล้วก็ไป!"}
+      ],
+      "quiz": [
+        {"q":"[หน่วย1] 🎒 คือ...","c":["bag","book","box"],"a":0},
+        {"q":"[หน่วย2] 🔴 คือ...","c":["red","blue","yellow"],"a":0},
+        {"q":"[หน่วย3] 👩 คือ...","c":["mom","sister","grandma"],"a":0},
+        {"q":"[หน่วย4] 👀 คือ...","c":["eyes","ears","nose"],"a":0},
+        {"q":"[หน่วย5] 👕 คือ...","c":["shirt","dress","jacket"],"a":0},
+        {"q":"[หน่วย6] 🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
+        {"q":"[หน่วย7] 🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
+        {"q":"I ___ swim. (ทำได้)","c":["can","can't","let's"],"a":0}
+      ]
+    }
+  ]
+}

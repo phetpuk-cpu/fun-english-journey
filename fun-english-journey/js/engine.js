@@ -2,6 +2,7 @@
    DATA LOADING — CONTENT ย้ายไปอยู่ data/*.json (ดู project-handoff.md 3.1)
    ============================================================ */
 const UNIT_FILES = {
+  p1: ["data/p1u1.json", "data/p1u2.json", "data/p1u3.json", "data/p1u4.json", "data/p1u5.json", "data/p1u6.json", "data/p1u7.json", "data/p1u8.json"],
   p2: ["data/p2u1.json", "data/p2u2.json", "data/p2u3.json", "data/p2u4.json", "data/p2u5.json", "data/p2u6.json", "data/p2u7.json", "data/p2u8.json"],
   p3: ["data/p3u1.json", "data/p3u2.json", "data/p3u3.json", "data/p3u4.json", "data/p3u5.json", "data/p3u6.json", "data/p3u7.json", "data/p3u8.json"],
   p4: ["data/p4u1.json", "data/p4u2.json", "data/p4u3.json", "data/p4u4.json", "data/p4u5.json", "data/p4u6.json", "data/p4u7.json", "data/p4u8.json"],

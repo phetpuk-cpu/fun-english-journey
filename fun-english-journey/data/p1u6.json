@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 6 · My Lunch Box & What I Like — กล่องอาหารกลางวันและสิ่งที่ชอบ",
+  "lessons": [
+    {
+      "id": "p1u6l1",
+      "icon": "🍱",
+      "title": "In My Lunch Box",
+      "sub": "ในกล่องอาหารกลางวัน",
+      "intro": { "en": "What's in my lunch box?", "th": "ในกล่องอาหารกลางวันของฉันมีอะไรนะ?" },
+      "vocab": [
+        {"w":"sandwich","th":"แซนด์วิช","e":"🥪"},
+        {"w":"apple","th":"แอปเปิล","e":"🍎"},
+        {"w":"banana","th":"กล้วย","e":"🍌"},
+        {"w":"juice","th":"น้ำผลไม้","e":"🧃"},
+        {"w":"milk","th":"นม","e":"🥛"},
+        {"w":"cookie","th":"คุกกี้","e":"🍪"},
+        {"w":"rice","th":"ข้าว","e":"🍚"},
+        {"w":"egg","th":"ไข่","e":"🥚"}
+      ],
+      "build": {"sentence":"I have a sandwich.","th":"ฉันมีแซนด์วิช"},
+      "speak": [
+        {"t":"I have a sandwich.","th":"ฉันมีแซนด์วิช"},
+        {"t":"I have an apple.","th":"ฉันมีแอปเปิล"},
+        {"t":"I drink milk.","th":"ฉันดื่มนม"},
+        {"t":"I like cookies.","th":"ฉันชอบคุกกี้"}
+      ],
+      "quiz": [
+        {"q":"🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
+        {"q":"'แอปเปิล' คือ...","c":["apple","banana","egg"],"a":0},
+        {"q":"🍌 คือ...","c":["banana","apple","juice"],"a":0},
+        {"q":"'น้ำผลไม้' คือ...","c":["juice","milk","rice"],"a":0},
+        {"q":"🥛 คือ...","c":["milk","juice","egg"],"a":0},
+        {"q":"'คุกกี้' คือ...","c":["cookie","sandwich","rice"],"a":0},
+        {"q":"🍚 คือ...","c":["rice","egg","banana"],"a":0},
+        {"q":"'ไข่' คือ...","c":["egg","rice","apple"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u6l2",
+      "icon": "😋",
+      "title": "Yummy or Yucky",
+      "sub": "อร่อยหรือไม่อร่อย",
+      "intro": { "en": "Is it yummy?", "th": "นี่อร่อยไหมนะ?" },
+      "vocab": [
+        {"w":"sweet","th":"หวาน","e":"🍬"},
+        {"w":"sour","th":"เปรี้ยว","e":"🍋"},
+        {"w":"noodles","th":"ก๋วยเตี๋ยว","e":"🍜"},
+        {"w":"chicken","th":"ไก่","e":"🍗"},
+        {"w":"fish","th":"ปลา","e":"🐟"},
+        {"w":"bread","th":"ขนมปัง","e":"🍞"},
+        {"w":"soup","th":"ซุป","e":"🍲"},
+        {"w":"vegetable","th":"ผัก","e":"🥦"}
+      ],
+      "build": {"sentence":"This is sweet.","th":"อันนี้หวาน"},
+      "speak": [
+        {"t":"This is sweet.","th":"อันนี้หวาน"},
+        {"t":"I like noodles.","th":"ฉันชอบก๋วยเตี๋ยว"},
+        {"t":"I eat chicken.","th":"ฉันกินไก่"},
+        {"t":"I like vegetables.","th":"ฉันชอบผัก"}
+      ],
+      "quiz": [
+        {"q":"🍬 คือ...","c":["sweet","sour","soup"],"a":0},
+        {"q":"'เปรี้ยว' คือ...","c":["sour","sweet","bread"],"a":0},
+        {"q":"🍜 คือ...","c":["noodles","soup","bread"],"a":0},
+        {"q":"'ไก่' คือ...","c":["chicken","fish","bread"],"a":0},
+        {"q":"🐟 คือ...","c":["fish","chicken","vegetable"],"a":0},
+        {"q":"'ขนมปัง' คือ...","c":["bread","noodles","soup"],"a":0},
+        {"q":"🍲 คือ...","c":["soup","bread","fish"],"a":0},
+        {"q":"'ผัก' คือ...","c":["vegetable","fish","chicken"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u6l3",
+      "icon": "❤️",
+      "title": "I Like...",
+      "sub": "ฉันชอบ...",
+      "intro": { "en": "What do you like?", "th": "หนูชอบอะไรนะ?" },
+      "vocab": [
+        {"w":"like","th":"ชอบ","e":"❤️"},
+        {"w":"don't like","th":"ไม่ชอบ","e":"👎"},
+        {"w":"love","th":"รักมาก","e":"💕"},
+        {"w":"want","th":"อยากได้","e":"🙋"},
+        {"w":"food","th":"อาหาร","e":"🍽️"},
+        {"w":"drink","th":"เครื่องดื่ม","e":"🥤"},
+        {"w":"snack","th":"ขนม","e":"🍿"},
+        {"w":"fruit","th":"ผลไม้","e":"🍇"}
+      ],
+      "build": {"sentence":"I like fruit.","th":"ฉันชอบผลไม้"},
+      "speak": [
+        {"t":"I like fruit.","th":"ฉันชอบผลไม้"},
+        {"t":"I don't like fish.","th":"ฉันไม่ชอบปลา"},
+        {"t":"I love snacks.","th":"ฉันรักขนมมาก"},
+        {"t":"I want a drink.","th":"ฉันอยากได้เครื่องดื่ม"}
+      ],
+      "quiz": [
+        {"q":"❤️ คือ...","c":["like","don't like","love"],"a":0},
+        {"q":"👎 คือ...","c":["don't like","like","love"],"a":0},
+        {"q":"'รักมาก' คือ...","c":["love","like","want"],"a":0},
+        {"q":"🙋 คือ...","c":["want","like","love"],"a":0},
+        {"q":"🍽️ คือ...","c":["food","drink","snack"],"a":0},
+        {"q":"'เครื่องดื่ม' คือ...","c":["drink","food","snack"],"a":0},
+        {"q":"🍿 คือ...","c":["snack","food","fruit"],"a":0},
+        {"q":"I ___ fruit. (ชอบ)","c":["like","want","have"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u6l4",
+      "icon": "🍽️",
+      "title": "What Do You Like?",
+      "sub": "หนูชอบอะไร + ทบทวน",
+      "intro": { "en": "Let's talk about food!", "th": "มาคุยเรื่องอาหารกันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"favorite","th":"โปรด","e":"⭐"},
+        {"w":"best","th":"ที่สุด","e":"🏆"},
+        {"w":"yummy","th":"อร่อยจัง","e":"🤤"},
+        {"w":"hungry","th":"หิว","e":"😫"},
+        {"w":"thirsty","th":"กระหายน้ำ","e":"🥵"},
+        {"w":"eat","th":"กิน","e":"🍴"},
+        {"w":"drink","th":"ดื่ม","e":"🥤"},
+        {"w":"share","th":"แบ่งปัน","e":"🤝"}
+      ],
+      "build": {"sentence":"I am hungry.","th":"ฉันหิวแล้ว"},
+      "speak": [
+        {"t":"I am hungry.","th":"ฉันหิวแล้ว"},
+        {"t":"This is my favorite food.","th":"นี่คืออาหารโปรดของฉัน"},
+        {"t":"Let's share.","th":"มาแบ่งกันกินเถอะ"},
+        {"t":"This is yummy!","th":"อร่อยจัง!"}
+      ],
+      "quiz": [
+        {"q":"⭐ คือ...","c":["favorite","best","yummy"],"a":0},
+        {"q":"😫 หิวคือ...","c":["hungry","thirsty","yummy"],"a":0},
+        {"q":"[ทบทวน] 🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
+        {"q":"[ทบทวน] 🍬 คือ...","c":["sweet","sour","soup"],"a":0},
+        {"q":"[ทบทวน] I ___ fruit. (ชอบ)","c":["like","want","have"],"a":0},
+        {"q":"🥵 กระหายน้ำคือ...","c":["thirsty","hungry","full"],"a":0},
+        {"q":"🤝 คือ...","c":["share","eat","drink"],"a":0},
+        {"q":"'กิน' คือ...","c":["eat","drink","share"],"a":0}
+      ]
+    }
+  ]
+}

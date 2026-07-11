@@ -1,0 +1,143 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 4 · The Park & My Body — สวนสาธารณะและร่างกาย",
+  "lessons": [
+    {
+      "id": "p1u4l1",
+      "icon": "🛝",
+      "title": "At the Park",
+      "sub": "ที่สวนสาธารณะ",
+      "intro": { "en": "Let's go to the park!", "th": "ไปสวนสาธารณะกันเถอะ!" },
+      "vocab": [
+        {"w":"swing","th":"ชิงช้า","e":"🛝"},
+        {"w":"slide","th":"สไลเดอร์","e":"🛝"},
+        {"w":"seesaw","th":"กระดานหก","e":"⚖️"},
+        {"w":"sandbox","th":"บ่อทราย","e":"🏖️"},
+        {"w":"bench","th":"ม้านั่ง","e":"🪑"},
+        {"w":"tree","th":"ต้นไม้","e":"🌳"},
+        {"w":"ball","th":"ลูกบอล","e":"⚽"},
+        {"w":"kite","th":"ว่าว","e":"🪁"}
+      ],
+      "build": {"sentence":"I like the swing.","th":"ฉันชอบชิงช้า"},
+      "speak": [
+        {"t":"I like the swing.","th":"ฉันชอบชิงช้า"},
+        {"t":"Let's go on the slide.","th":"ไปเล่นสไลเดอร์กันเถอะ"},
+        {"t":"I sit on the bench.","th":"ฉันนั่งบนม้านั่ง"},
+        {"t":"I fly my kite.","th":"ฉันเล่นว่าว"}
+      ],
+      "quiz": [
+        {"q":"🛝 ชิงช้าคือ...","c":["swing","slide","seesaw"],"a":0},
+        {"q":"'สไลเดอร์' คือ...","c":["slide","swing","bench"],"a":0},
+        {"q":"⚖️ คือ...","c":["seesaw","swing","sandbox"],"a":0},
+        {"q":"'บ่อทราย' คือ...","c":["sandbox","bench","tree"],"a":0},
+        {"q":"🪑 คือ...","c":["bench","tree","swing"],"a":0},
+        {"q":"'ต้นไม้' คือ...","c":["tree","bench","kite"],"a":0},
+        {"q":"⚽ คือ...","c":["ball","kite","swing"],"a":0},
+        {"q":"'ว่าว' คือ...","c":["kite","ball","tree"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u4l2",
+      "icon": "🙂",
+      "title": "My Body",
+      "sub": "ร่างกายของฉัน",
+      "intro": { "en": "This is my body!", "th": "นี่คือร่างกายของฉัน!" },
+      "vocab": [
+        {"w":"head","th":"หัว","e":"😀"},
+        {"w":"eyes","th":"ตา","e":"👀"},
+        {"w":"ears","th":"หู","e":"👂"},
+        {"w":"nose","th":"จมูก","e":"👃"},
+        {"w":"mouth","th":"ปาก","e":"👄"},
+        {"w":"hands","th":"มือ","e":"✋"},
+        {"w":"legs","th":"ขา","e":"🦵"},
+        {"w":"feet","th":"เท้า","e":"🦶"}
+      ],
+      "build": {"sentence":"I have two eyes.","th":"ฉันมีตาสองข้าง"},
+      "speak": [
+        {"t":"This is my head.","th":"นี่คือหัวของฉัน"},
+        {"t":"I have two hands.","th":"ฉันมีมือสองข้าง"},
+        {"t":"I can see with my eyes.","th":"ฉันมองเห็นด้วยตา"},
+        {"t":"My feet are small.","th":"เท้าของฉันเล็ก"}
+      ],
+      "quiz": [
+        {"q":"👀 คือ...","c":["eyes","ears","nose"],"a":0},
+        {"q":"'หู' คือ...","c":["ears","eyes","mouth"],"a":0},
+        {"q":"👃 คือ...","c":["nose","mouth","head"],"a":0},
+        {"q":"'ปาก' คือ...","c":["mouth","nose","ears"],"a":0},
+        {"q":"✋ คือ...","c":["hands","feet","legs"],"a":0},
+        {"q":"'ขา' คือ...","c":["legs","hands","feet"],"a":0},
+        {"q":"🦶 คือ...","c":["feet","legs","hands"],"a":0},
+        {"q":"'หัว' คือ...","c":["head","eyes","mouth"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u4l3",
+      "icon": "📍",
+      "title": "Where Is It?",
+      "sub": "อยู่ที่ไหนนะ",
+      "intro": { "en": "Where is the ball?", "th": "ลูกบอลอยู่ที่ไหนนะ?" },
+      "vocab": [
+        {"w":"in","th":"อยู่ใน","e":"📥"},
+        {"w":"on","th":"อยู่บน","e":"⬆️"},
+        {"w":"under","th":"อยู่ใต้","e":"⬇️"},
+        {"w":"next to","th":"อยู่ข้างๆ","e":"↔️"},
+        {"w":"behind","th":"อยู่หลัง","e":"⏪"},
+        {"w":"in front of","th":"อยู่หน้า","e":"⏩"},
+        {"w":"up","th":"ขึ้น","e":"🔼"},
+        {"w":"down","th":"ลง","e":"🔽"}
+      ],
+      "build": {"sentence":"The ball is under the tree.","th":"ลูกบอลอยู่ใต้ต้นไม้"},
+      "speak": [
+        {"t":"The cat is on the box.","th":"แมวอยู่บนกล่อง"},
+        {"t":"The ball is under the bed.","th":"ลูกบอลอยู่ใต้เตียง"},
+        {"t":"I sit next to my friend.","th":"ฉันนั่งข้างๆ เพื่อน"},
+        {"t":"Look up!","th":"มองขึ้นไปสิ!"}
+      ],
+      "quiz": [
+        {"q":"📥 คือ...","c":["in","on","under"],"a":0},
+        {"q":"'อยู่บน' คือ...","c":["on","in","under"],"a":0},
+        {"q":"⬇️ คือ...","c":["under","on","up"],"a":0},
+        {"q":"'อยู่ข้างๆ' คือ...","c":["next to","behind","in front of"],"a":0},
+        {"q":"⏪ คือ...","c":["behind","in front of","next to"],"a":0},
+        {"q":"'อยู่หน้า' คือ...","c":["in front of","behind","under"],"a":0},
+        {"q":"🔼 คือ...","c":["up","down","in"],"a":0},
+        {"q":"The ball is ___ the tree. (ใต้)","c":["under","on","in"],"a":0}
+      ]
+    },
+    {
+      "id": "p1u4l4",
+      "icon": "🤸",
+      "title": "Playtime Fun",
+      "sub": "เวลาเล่นสนุก + ทบทวน",
+      "intro": { "en": "Let's play and have fun!", "th": "มาเล่นสนุกกันเถอะ! บทนี้มีทบทวนทั้งหน่วยด้วย" },
+      "vocab": [
+        {"w":"jump","th":"กระโดด","e":"🤸"},
+        {"w":"run","th":"วิ่ง","e":"🏃"},
+        {"w":"climb","th":"ปีน","e":"🧗"},
+        {"w":"slide","th":"เล่นสไลเดอร์","e":"🛝"},
+        {"w":"swing","th":"เล่นชิงช้า","e":"🛝"},
+        {"w":"play","th":"เล่น","e":"🎮"},
+        {"w":"park","th":"สวนสาธารณะ","e":"🏞️"},
+        {"w":"friend","th":"เพื่อน","e":"🤝"}
+      ],
+      "build": {"sentence":"I jump and run.","th":"ฉันกระโดดและวิ่ง"},
+      "speak": [
+        {"t":"I like to jump.","th":"ฉันชอบกระโดด"},
+        {"t":"Let's run!","th":"ไปวิ่งกันเถอะ!"},
+        {"t":"I can climb the tree.","th":"ฉันปีนต้นไม้ได้"},
+        {"t":"I play with my friend.","th":"ฉันเล่นกับเพื่อน"}
+      ],
+      "quiz": [
+        {"q":"🤸 คือ...","c":["jump","run","climb"],"a":0},
+        {"q":"'วิ่ง' คือ...","c":["run","jump","climb"],"a":0},
+        {"q":"🧗 คือ...","c":["climb","run","play"],"a":0},
+        {"q":"[ทบทวน] 🛝 ชิงช้าคือ...","c":["swing","slide","seesaw"],"a":0},
+        {"q":"[ทบทวน] 👀 คือ...","c":["eyes","ears","nose"],"a":0},
+        {"q":"[ทบทวน] The ball is ___ the tree. (ใต้)","c":["under","on","in"],"a":0},
+        {"q":"🏞️ คือ...","c":["park","school","house"],"a":0},
+        {"q":"'เพื่อน' คือ...","c":["friend","family","teacher"],"a":0}
+      ]
+    }
+  ]
+}
