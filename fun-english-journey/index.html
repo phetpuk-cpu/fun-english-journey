@@ -51,6 +51,11 @@
       <button class="tab" data-g="p5">🏆 ป.5</button>
       <button class="tab" data-g="p6">🚀 ป.6</button>
     </div>
+    <label class="consent-row" for="inp-consent">
+      <input type="checkbox" id="inp-consent">
+      <span>ผู้ปกครองอ่านและยินยอมตาม<a href="privacy.html" target="_blank" rel="noopener">นโยบายความเป็นส่วนตัว</a>แล้ว</span>
+    </label>
+    <p class="consent-warn" id="consent-warn" style="display:none">กรุณาให้ผู้ปกครองอ่านและติ๊กยินยอมก่อนเริ่มเล่นนะครับ</p>
     <button class="btn yellow" id="btn-start" onclick="startApp()" disabled>⏳ กำลังเปิดแอป...</button>
     <button class="btn ghost" id="btn-cancel-create" onclick="showProfilesList()" style="display:none; margin-top:10px">ยกเลิก ✖</button>
   </div>

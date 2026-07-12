@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="th"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ใบประกาศนียบัตร — Fun English Journey</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1D3557;--blue:#2E90FA;--duck:#FFC93C;--muted:#526580;}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Mali','Tahoma',sans-serif;background:#EAF6FF;color:var(--ink);min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:20px;}
+.top{width:100%;max-width:900px;display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;}
+.back{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:14px;background:#fff;color:var(--ink);text-decoration:none;font-weight:700;box-shadow:0 4px 0 rgba(29,53,87,.15);}
+.print-btn{border:none;border-radius:14px;padding:12px 20px;font-family:inherit;font-size:1rem;font-weight:700;cursor:pointer;background:linear-gradient(135deg,#5FE0A0,#34C77B);color:#fff;box-shadow:0 6px 0 #22935a;}
+.print-btn:active{transform:translateY(4px);box-shadow:0 2px 0 #22935a;}
+.certificate{width:100%;max-width:900px;aspect-ratio:1.414/1;background:#fff;border-radius:20px;box-shadow:0 12px 0 rgba(29,53,87,.08),0 24px 44px rgba(29,53,87,.12);position:relative;padding:28px;display:flex;}
+.certificate .inner{flex:1;border:4px solid var(--duck);border-radius:12px;padding:36px 44px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;}
+.certificate .inner::before,.certificate .inner::after{content:"⭐";position:absolute;font-size:1.6rem;opacity:.5;}
+.certificate .inner::before{top:14px;left:18px;}
+.certificate .inner::after{top:14px;right:18px;}
+.eyebrow{letter-spacing:.15em;font-size:.85rem;font-weight:700;color:var(--blue);text-transform:uppercase;}
+.cert-title{font-family:'Baloo 2','Mali',sans-serif;font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;margin:6px 0 2px;background:linear-gradient(135deg,#2E90FA,#9B7EDE);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:var(--ink);}
+.cert-sub{color:var(--muted);margin:0 0 18px;}
+.cert-avatar{font-size:3.4rem;margin-bottom:6px;}
+.cert-name{font-family:'Baloo 2','Mali',sans-serif;font-size:clamp(1.4rem,3.6vw,2rem);font-weight:800;margin:2px 0 16px;}
+.cert-grade{font-size:1.15rem;font-weight:700;margin:0 0 4px;}
+.cert-date{color:var(--muted);font-size:.9rem;margin:14px 0 0;}
+.cert-footer{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin-top:28px;}
+.cert-sign{text-align:center;}
+.cert-sign .line{width:150px;border-top:2px solid var(--muted);margin:0 auto 4px;}
+.cert-sign .who{font-size:.85rem;color:var(--muted);}
+.cert-mascot{font-size:2.2rem;}
+.status{text-align:center;color:var(--muted);padding:60px 20px;}
+@media (max-width:700px){.certificate{aspect-ratio:auto;}}
+@media print{
+  body{background:#fff;padding:0;}
+  .top{display:none;}
+  .certificate{box-shadow:none;max-width:100%;}
+  @page{size:landscape;margin:10mm;}
+}
+</style></head>
+<body>
+<div class="top">
+  <a class="back" href="index.html">← กลับหน้าแอป</a>
+  <button class="print-btn" id="btn-print" onclick="window.print()">🖨️ พิมพ์ใบประกาศ</button>
+</div>
+<div id="cert-root"></div>
+<script>
+const GRADE_NAMES = {
+  p1: "ป.1 — Ducky's Pond School 🌻",
+  p2: "ป.2 — Big City 🏙️",
+  p3: "ป.3 — Four Seasons Fair 🎪",
+  p4: "ป.4 — World Explorer Club 🌍",
+  p5: "ป.5 — Champion Academy 🏆",
+  p6: "ป.6 — Future & Beyond 🚀",
+};
+
+function openDb(){
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open("FunEnglishJourneyDB", 1);
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+    request.onupgradeneeded = () => {
+      const db = request.result;
+      if(!db.objectStoreNames.contains("profiles")) db.createObjectStore("profiles", {keyPath:"id", autoIncrement:true});
+    };
+  });
+}
+function getProfile(db, id){
+  return new Promise((resolve, reject) => {
+    const request = db.transaction("profiles", "readonly").objectStore("profiles").get(id);
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+function showStatus(msg){
+  document.getElementById("cert-root").innerHTML = `<p class="status">${msg}</p>`;
+  document.getElementById("btn-print").disabled = true;
+}
+function renderCertificate(profile, gradeName){
+  const today = new Date().toLocaleDateString("th-TH", {year:"numeric", month:"long", day:"numeric"});
+  const root = document.getElementById("cert-root");
+  root.innerHTML = "";
+  const cert = document.createElement("div"); cert.className = "certificate";
+  const inner = document.createElement("div"); inner.className = "inner";
+
+  const eyebrow = document.createElement("div"); eyebrow.className = "eyebrow"; eyebrow.textContent = "Certificate of Achievement";
+  const title = document.createElement("div"); title.className = "cert-title"; title.textContent = "ใบประกาศนียบัตร";
+  const sub = document.createElement("div"); sub.className = "cert-sub"; sub.textContent = "Fun English Journey — มอบให้เพื่อแสดงว่า";
+  const avatar = document.createElement("div"); avatar.className = "cert-avatar"; avatar.textContent = profile.avatar || "🦁";
+  const name = document.createElement("div"); name.className = "cert-name"; name.textContent = `น้อง ${profile.name || "เพื่อน"}`;
+  const grade = document.createElement("div"); grade.className = "cert-grade"; grade.textContent = `เรียนจบหลักสูตร ${gradeName} เรียบร้อยแล้ว 🎉`;
+  const date = document.createElement("div"); date.className = "cert-date"; date.textContent = `มอบให้ ณ วันที่ ${today}`;
+
+  const footer = document.createElement("div"); footer.className = "cert-footer";
+  const sign1 = document.createElement("div"); sign1.className = "cert-sign";
+  const line1 = document.createElement("div"); line1.className = "line";
+  const who1 = document.createElement("div"); who1.className = "who"; who1.textContent = "Teacher Owl 🦉";
+  sign1.append(line1, who1);
+  const mascot = document.createElement("div"); mascot.className = "cert-mascot"; mascot.textContent = "🦆";
+  const sign2 = document.createElement("div"); sign2.className = "cert-sign";
+  const line2 = document.createElement("div"); line2.className = "line";
+  const who2 = document.createElement("div"); who2.className = "who"; who2.textContent = "Fun English Journey";
+  sign2.append(line2, who2);
+  footer.append(sign1, mascot, sign2);
+
+  inner.append(eyebrow, title, sub, avatar, name, grade, date, footer);
+  cert.appendChild(inner);
+  root.appendChild(cert);
+}
+
+(async () => {
+  const params = new URLSearchParams(location.search);
+  const profileId = Number(params.get("profileId"));
+  const grade = params.get("grade");
+  if(!profileId || !GRADE_NAMES[grade]){
+    showStatus("ไม่พบข้อมูลใบประกาศนียบัตร กรุณากลับไปหน้าแผนที่แล้วแตะการ์ดใบประกาศอีกครั้ง");
+    return;
+  }
+  try{
+    const db = await openDb();
+    const profile = await getProfile(db, profileId);
+    db.close();
+    if(!profile){
+      showStatus("ไม่พบโปรไฟล์นี้ในอุปกรณ์นี้ ใบประกาศต้องเปิดจากเบราว์เซอร์/อุปกรณ์เดียวกับที่เรียน");
+      return;
+    }
+    renderCertificate(profile, GRADE_NAMES[grade]);
+  }catch(e){
+    console.error(e);
+    showStatus("โหลดข้อมูลไม่สำเร็จ กรุณาลองใหม่อีกครั้ง");
+  }
+})();
+</script>
+</body></html>

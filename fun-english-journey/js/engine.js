@@ -377,6 +377,14 @@ function syncGradeTabs(){
 async function startApp(){
   const n = document.getElementById("inp-name").value.trim();
   if(!n) return;
+  const consentBox = document.getElementById("inp-consent");
+  if(!consentBox.checked){
+    document.getElementById("consent-warn").style.display = "block";
+    consentBox.focus();
+    return;
+  }
+  document.getElementById("consent-warn").style.display = "none";
+  localStorage.setItem("fejParentConsent", JSON.stringify({given:true, at:Date.now()}));
   const newProfile = {
     name: n,
     avatar: state.avatar || "🦁",
@@ -406,8 +414,16 @@ async function drawMap(){
   const flatIds = [];
   g.units.forEach(u=>u.lessons.forEach(l=>flatIds.push(l.id)));
   const nextId = flatIds.find(id => !(state.stars[id] > 0));
+  const gradeComplete = flatIds.length > 0 && !nextId;
+  const certBanner = gradeComplete
+    ? `<a class="card certificate-banner" href="certificate.html?profileId=${encodeURIComponent(state.id ?? "")}&grade=${encodeURIComponent(state.grade)}">
+        <span class="icon">🏅</span>
+        <span class="info"><b>เก่งมาก! เรียนจบ ${g.name} แล้ว</b><span class="sub">แตะเพื่อดู/พิมพ์ใบประกาศนียบัตร 🖨️</span></span>
+      </a>`
+    : "";
   mapList.innerHTML =
     `<h2 style="margin:8px 0 0">🗺️ ${g.name}</h2>` +
+    certBanner +
     g.units.map(u=>`
       <div class="unit-head">${u.name}</div>
       ${u.lessons.map(l=>{
@@ -932,6 +948,11 @@ function stopMicTest(){
 (function init(){
   const btn = document.getElementById("btn-start");
   bindSettings(); syncSettingsUi(); saveAudioSettings();
+  try {
+    if(JSON.parse(localStorage.getItem("fejParentConsent") || "null")?.given){
+      document.getElementById("inp-consent").checked = true;
+    }
+  } catch(e) {}
   db.open().then(() => {
     btn.disabled = false;
     btn.textContent = "เริ่มผจญภัย! 🚀";
