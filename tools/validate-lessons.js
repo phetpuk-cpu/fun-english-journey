@@ -79,6 +79,10 @@ function checkLesson(file, l, idx) {
     if (l.questionBuild.sentence && /[.?!]$/.test(l.questionBuild.sentence.trim()))
       fail(file, `${where}.questionBuild.sentence ไม่ควรมีเครื่องหมาย .?! ต่อท้าย (engine เติม ? ให้เองตอนพูด/แสดงผล)`);
   }
+
+  if (l.writeSentence !== undefined && l.writeSentence !== true) {
+    fail(file, `${where}.writeSentence ถ้ามีต้องเป็น true เท่านั้น (engine ใช้ L.build.sentence/.th เป็นเป้าหมายอัตโนมัติ)`);
+  }
 }
 
 for (const grade of GRADES) {

@@ -137,7 +137,8 @@
         {"q":"💞 คือ...","c":["bond","trust","loyal"],"a":0},
         {"q":"📣 คือ...","c":["cheer","trust","bond"],"a":0},
         {"q":"My team is like my ___. (ครอบครัว)","c":["family","unity","bond"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

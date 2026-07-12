@@ -163,6 +163,7 @@
         {"q":"📸 คือ...","c":["memorable","exciting","adventure"],"a":0},
         {"q":"I am going to ___ my weekend. (สนุกกับ)","c":["enjoy","choose","relax"],"a":0}
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"I am going to enjoy my weekend.","baseTh":"ฉันจะสนุกกับสุดสัปดาห์ของฉัน","task":"negative",
          "c":["I am not going to enjoy my weekend.", "I amn't going to enjoy my weekend.", "I don't going to enjoy my weekend."],"a":0},

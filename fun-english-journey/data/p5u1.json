@@ -163,6 +163,7 @@
         {"q":"'เพื่อนร่วมทีม' คือ...","c":["teammate","coach","practice"],"a":0},
         {"q":"We ___ before practice. (อบอุ่นร่างกาย)","c":["warm up","cool down","rest"],"a":0}
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"We always warm up before practice.","baseTh":"พวกเราอบอุ่นร่างกายก่อนฝึกซ้อมเสมอ","task":"negative",
          "c":["We don't always warm up before practice.", "We not always warm up before practice.", "We doesn't always warm up before practice."],"a":0},

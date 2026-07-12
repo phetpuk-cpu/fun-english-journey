@@ -162,6 +162,7 @@
         {"q":"⏱️ คือ...","c":["punctual","forbidden","allowed"],"a":0},
         {"q":"A champion needs ___. (วินัย)","c":["discipline","permission","warning"],"a":0}
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"We must obey the academy rules.","baseTh":"พวกเราต้องเชื่อฟังกฎของสถาบัน","task":"negative",
          "c":["We mustn't obey the academy rules.", "We not must obey the academy rules.", "We don't must obey the academy rules."],"a":0},

@@ -153,7 +153,8 @@
         {"q":"[ป.6] Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0},
         {"q":"[ป.6] If I study hard, I ___ pass the exam. (จะ)","c":["will","would","won't"],"a":0},
         {"q":"You are a true ___ forever! (แชมป์เปี้ยน)","c":["champion","student","winner"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

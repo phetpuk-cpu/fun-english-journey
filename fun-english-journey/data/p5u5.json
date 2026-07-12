@@ -137,7 +137,8 @@
         {"q":"😌 คือ...","c":["proud","celebrate","improve"],"a":0},
         {"q":"📈 คือ...","c":["improve","remember","since"],"a":0},
         {"q":"We were so ___ of our team. (ภาคภูมิใจ)","c":["proud","improve","remember"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

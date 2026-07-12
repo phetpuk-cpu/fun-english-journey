@@ -161,7 +161,8 @@
         {"q":"♻️ คือ...","c":["recycled","eco-friendly","durable"],"a":0},
         {"q":"🌱 (เป็นมิตรต่อสิ่งแวดล้อม) คือ...","c":["eco-friendly","recycled","durable"],"a":0},
         {"q":"This material is very ___. (ทนทาน)","c":["durable","handmade","eco-friendly"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

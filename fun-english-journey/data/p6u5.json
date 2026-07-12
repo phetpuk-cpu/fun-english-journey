@@ -137,7 +137,8 @@
         {"q":"🌿 คือ...","c":["nature","technology","theory"],"a":0},
         {"q":"🔦 คือ...","c":["curiosity","knowledge","fact"],"a":0},
         {"q":"___ leads to great discoveries. (ความอยากรู้)","c":["Curiosity","Knowledge","Technology"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

@@ -645,6 +645,7 @@
           "a": 0
         }
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"I plant a tree every year.","baseTh":"ฉันปลูกต้นไม้ทุกปี","task":"negative",
          "c":["I don't plant a tree every year.", "I not plant a tree every year.", "I doesn't plant a tree every year."],"a":0},

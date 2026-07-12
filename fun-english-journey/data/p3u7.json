@@ -699,6 +699,7 @@
           "a": 0
         }
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"Yesterday was a great day.","baseTh":"เมื่อวานเป็นวันที่ดีมาก","task":"negative",
          "c":["Yesterday wasn't a great day.", "Yesterday weren't a great day.", "Yesterday didn't a great day."],"a":0},

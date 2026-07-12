@@ -464,6 +464,7 @@ function startLesson(id){
     {type:"match"},
     {type:"build"},
     ...(L.questionBuild ? [{type:"question-build"}] : []),
+    ...(L.writeSentence ? [{type:"write"}] : []),
     ...L.speak.map((s,i)=>({type:"speak", idx:i})),
     ...L.quiz.map((q,i)=>({type:"quiz", idx:i})),
     ...(L.transform||[]).map((t,i)=>({type:"transform", idx:i})),
@@ -652,6 +653,36 @@ function render(){
     draw();
   }
 
+  else if(st.type==="write"){
+    stage.innerHTML = `
+      <div class="bubble"><b>Write It! ✏️</b><div class="th">พิมพ์ประโยคภาษาอังกฤษที่แปลว่า: "${L.build.th}"</div></div>
+      <div class="card">
+        <input class="name-input" id="write-input" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="พิมพ์ประโยคที่นี่...">
+        <div class="feedback" id="write-fb"></div>
+        <button class="btn green" id="write-check">ตรวจคำตอบ ✔️</button>
+        <button class="btn ghost" id="write-skip" onclick="next()" style="display:none">ต่อไป ➜</button>
+      </div>`;
+    document.getElementById("write-check").onclick = ()=>{
+      const typed = document.getElementById("write-input").value.trim();
+      const fb = document.getElementById("write-fb");
+      if(!typed){ fb.textContent = "พิมพ์คำตอบก่อนนะ"; return; }
+      const score = similarity(L.build.sentence, typed);
+      if(score>=80){
+        fb.innerHTML = `🌟 เก่งมาก! ตรง ${score}%<br>${L.build.sentence}`;
+        addXp(5); playSfx("star");
+        setTimeout(next, 1600);
+      }else if(score>=50){
+        fb.innerHTML = `👍 ใกล้แล้ว! ตรง ${score}%<br>ลองดูอีกครั้ง หรือกดต่อไปก็ได้`;
+        addXp(3); playSfx("star");
+        document.getElementById("write-skip").style.display = "block";
+      }else{
+        fb.innerHTML = `💪 ลองอีกครั้งนะ (คำตอบคือ: ${L.build.sentence})`;
+        addXp(1); playSfx("star");
+        document.getElementById("write-skip").style.display = "block";
+      }
+    };
+  }
+
   else if(st.type==="speak"){
     const item = L.speak[st.idx];
     const audioFile = `${L.id}-speak-${String(st.idx+1).padStart(2,"0")}.mp3`;
@@ -729,7 +760,7 @@ function render(){
 
   else if(st.type==="result"){
     const L2 = getLesson(state.lessonId);
-    const max = 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
+    const max = 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.writeSentence?5:0) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
     const ratio = state.lessonXp / max;
     const stars = ratio>=.8?3:ratio>=.5?2:1;
     state.xp += state.lessonXp;

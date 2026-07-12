@@ -137,7 +137,8 @@
         {"q":"[หน่วย6] We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
         {"q":"[หน่วย7] We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0},
         {"q":"We are ___, now and forever! (แชมป์เปี้ยน)","c":["champions","brave","strong"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

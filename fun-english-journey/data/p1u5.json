@@ -137,7 +137,8 @@
         {"q":"[ทบทวน] 🛏️ คือ...","c":["bedroom","kitchen","bathroom"],"a":0},
         {"q":"🧊 คือ...","c":["fridge","lamp","TV"],"a":0},
         {"q":"'โคมไฟ' คือ...","c":["lamp","fridge","table"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

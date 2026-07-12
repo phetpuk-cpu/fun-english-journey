@@ -618,6 +618,7 @@
           "a": 0
         }
       ],
+      "writeSentence": true,
       "transform": [
         {
           "base": "She feeds her dog every day.",

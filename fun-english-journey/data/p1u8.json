@@ -137,7 +137,8 @@
         {"q":"[หน่วย6] 🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
         {"q":"[หน่วย7] 🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
         {"q":"I ___ swim. (ทำได้)","c":["can","can't","let's"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

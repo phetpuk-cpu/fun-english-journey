@@ -162,6 +162,7 @@
         {"q":"🧭 คือ...","c":["guide","support","choice"],"a":0},
         {"q":"I will always ___ you. (สนับสนุน)","c":["support","guide","recommend"],"a":0}
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"I recommend that you try your best.","baseTh":"ฉันแนะนำให้เธอพยายามให้ดีที่สุด","task":"negative",
          "c":["I don't recommend that you try your best.", "I not recommend that you try your best.", "I doesn't recommend that you try your best."],"a":0},

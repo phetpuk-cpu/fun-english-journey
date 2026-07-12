@@ -138,6 +138,7 @@
         {"q":"🤝 คือ...","c":["share","eat","drink"],"a":0},
         {"q":"'กิน' คือ...","c":["eat","drink","share"],"a":0}
       ],
+      "writeSentence": true,
       "questionBuild": {"sentence":"What do you like","th":"เธอชอบอะไร"}
     }
   ]

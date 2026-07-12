@@ -162,6 +162,7 @@
         {"q":"📣 คือ...","c":["encourage","support","inspire"],"a":0},
         {"q":"I will be a good ___. (ต้นแบบที่ดี)","c":["role model","leader","champion"],"a":0}
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"I will shine like a true champion.","baseTh":"ฉันจะเปล่งประกายเหมือนแชมป์เปี้ยนตัวจริง","task":"negative",
          "c":["I won't shine like a true champion.", "I will not shines like a true champion.", "I don't will shine like a true champion."],"a":0},

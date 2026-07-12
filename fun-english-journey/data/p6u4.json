@@ -155,6 +155,7 @@
         {"q":"⚡ คือ...","c":["powerful","convenient","digital"],"a":0},
         {"q":"Technology will make our lives ___. (ง่ายขึ้น)","c":["easier","harder","slower"],"a":0}
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"Technology will make our lives easier.","baseTh":"เทคโนโลยีจะทำให้ชีวิตเราง่ายขึ้น","task":"negative",
          "c":["Technology won't make our lives easier.", "Technology will not makes our lives easier.", "Technology don't will make our lives easier."],"a":0},

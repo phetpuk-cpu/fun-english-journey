@@ -138,7 +138,8 @@
         {"q":"[ทบทวน] The ball is ___ the tree. (ใต้)","c":["under","on","in"],"a":0},
         {"q":"🏞️ คือ...","c":["park","school","house"],"a":0},
         {"q":"'เพื่อน' คือ...","c":["friend","family","teacher"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

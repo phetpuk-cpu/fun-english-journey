@@ -137,7 +137,8 @@
         {"q":"[ทบทวน] ⭕ คือ...","c":["circle","square","oval"],"a":0},
         {"q":"[ทบทวน] 5️⃣ คือ...","c":["five","four","six"],"a":0},
         {"q":"🥇 คือ...","c":["first","last","more"],"a":0}
-      ]
+      ],
+      "writeSentence": true
     }
   ]
 }

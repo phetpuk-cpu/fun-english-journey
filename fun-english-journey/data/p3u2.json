@@ -645,6 +645,7 @@
           "a": 0
         }
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"We run to the finish line.","baseTh":"พวกเราวิ่งไปที่เส้นชัย","task":"negative",
          "c":["We don't run to the finish line.", "We not run to the finish line.", "We doesn't run to the finish line."],"a":0},

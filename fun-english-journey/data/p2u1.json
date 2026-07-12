@@ -645,6 +645,7 @@
           "a": 0
         }
       ],
+      "writeSentence": true,
       "questionBuild": {"sentence":"What time do you sleep","th":"เธอเข้านอนกี่โมง"},
       "transform": [
         {"base":"I go to bed at nine.","baseTh":"ฉันเข้านอนตอนสามทุ่ม","task":"negative",

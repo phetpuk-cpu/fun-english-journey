@@ -163,6 +163,7 @@
         {"q":"💫 คือ...","c":["unforgettable moment","lesson learned","reflect"],"a":0},
         {"q":"I am ___ my achievements. (ภูมิใจใน)","c":["proud of","grateful","reflect"],"a":0}
       ],
+      "writeSentence": true,
       "transform": [
         {"base":"I am proud of my achievements.","baseTh":"ฉันภูมิใจในความสำเร็จของฉัน","task":"negative",
          "c":["I am not proud of my achievements.", "I amn't proud of my achievements.", "I don't proud of my achievements."],"a":0},
