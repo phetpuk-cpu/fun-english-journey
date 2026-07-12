@@ -630,6 +630,7 @@
           "a": 0
         }
       ],
+      "reading": {"passage": [{"en": "The Grand Palace is in Bangkok.", "th": "พระบรมมหาราชวังอยู่ในกรุงเทพฯ"}, {"en": "It is beautiful and famous.", "th": "มันสวยงามและมีชื่อเสียง"}, {"en": "Many tourists visit every year.", "th": "นักท่องเที่ยวมากมายมาเยี่ยมชมทุกปี"}], "questions": [{"q": "Where is the Grand Palace?", "c": ["Bangkok", "Chiang Mai", "Phuket"], "a": 0}, {"q": "Is it famous?", "c": ["Yes, it is.", "No, it isn't."], "a": 0}]},
       "writeSentence": true
     }
   ]

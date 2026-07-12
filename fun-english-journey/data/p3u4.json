@@ -594,6 +594,7 @@
           "a": 0
         }
       ],
+      "reading": {"passage": [{"en": "There is a food festival at the fair.", "th": "มีเทศกาลอาหารที่งานแฟร์"}, {"en": "My favorite food is pizza.", "th": "อาหารโปรดของฉันคือพิซซ่า"}, {"en": "I also tried cotton candy.", "th": "ฉันยังได้ลองสายไหมด้วย"}], "questions": [{"q": "What is the favorite food?", "c": ["Pizza", "Noodles", "Rice"], "a": 0}, {"q": "Is there a food festival at the fair?", "c": ["Yes, there is.", "No, there isn't."], "a": 0}]},
       "writeSentence": true
     }
   ]

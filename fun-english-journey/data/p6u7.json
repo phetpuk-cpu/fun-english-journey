@@ -120,6 +120,7 @@
         {"q":"📦 (ถูกบรรจุ) คือ...","c":["packed","collected","delivered"],"a":0},
         {"q":"Rice is ___ in the field. (ถูกปลูก)","c":["grown","built","made"],"a":0}
       ],
+      "reading": {"passage": [{"en": "Rice is grown in the field.", "th": "ข้าวถูกปลูกในนา"}, {"en": "Farmers work very hard.", "th": "ชาวนาทำงานหนักมาก"}, {"en": "Then the rice is sold at the market.", "th": "จากนั้นข้าวจะถูกขายที่ตลาด"}], "questions": [{"q": "Where is rice grown?", "c": ["In the field", "In the factory", "In the sea"], "a": 0}, {"q": "Who works hard?", "c": ["Farmers", "Doctors", "Teachers"], "a": 0}]},
       "transform": [
         {"base":"Rice is grown in the field.","baseTh":"ข้าวถูกปลูกในนา","task":"negative",
          "c":["Rice isn't grown in the field.", "Rice aren't grown in the field.", "Rice doesn't grown in the field."],"a":0},

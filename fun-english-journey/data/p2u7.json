@@ -150,6 +150,7 @@
           "a": 0
         }
       ],
+      "reading": {"passage": [{"en": "I have a puppy named Milo.", "th": "ฉันมีลูกหมาชื่อไมโล"}, {"en": "Milo is small and fluffy.", "th": "ไมโลตัวเล็กและขนฟู"}, {"en": "I feed Milo every morning.", "th": "ฉันให้อาหารไมโลทุกเช้า"}], "questions": [{"q": "What is Milo?", "c": ["A puppy", "A cat", "A rabbit"], "a": 0}, {"q": "Is Milo small and fluffy?", "c": ["Yes, it is.", "No, it isn't."], "a": 0}]},
       "transform": [
         {"base":"I have a puppy at home.","baseTh":"ฉันมีลูกหมาที่บ้าน","task":"negative",
          "c":["I don't have a puppy at home.", "I not have a puppy at home.", "I doesn't have a puppy at home."],"a":0},

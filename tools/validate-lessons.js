@@ -84,6 +84,17 @@ function checkLesson(file, l, idx) {
     fail(file, `${where}.writeSentence ถ้ามีต้องเป็น true เท่านั้น (engine ใช้ L.build.sentence/.th เป็นเป้าหมายอัตโนมัติ)`);
   }
 
+  if (l.reading !== undefined) {
+    if (!Array.isArray(l.reading.passage) || !l.reading.passage.length) fail(file, `${where}.reading.passage ต้องเป็น array ไม่ว่าง`);
+    else l.reading.passage.forEach((p, i) => { checkString(file, `${where}.reading.passage[${i}].en`, p.en); checkString(file, `${where}.reading.passage[${i}].th`, p.th); });
+    if (!Array.isArray(l.reading.questions) || !l.reading.questions.length) fail(file, `${where}.reading.questions ต้องเป็น array ไม่ว่าง`);
+    else l.reading.questions.forEach((q, i) => {
+      checkString(file, `${where}.reading.questions[${i}].q`, q.q);
+      if (!Array.isArray(q.c) || q.c.length < 2) fail(file, `${where}.reading.questions[${i}].c ต้องมีตัวเลือกอย่างน้อย 2 ข้อ`);
+      if (typeof q.a !== "number" || !q.c || q.a < 0 || q.a >= q.c.length) fail(file, `${where}.reading.questions[${i}].a ต้องเป็น index ที่ถูกต้องใน c`);
+    });
+  }
+
   if (l.extraVocab !== undefined) {
     if (!Array.isArray(l.extraVocab) || !l.extraVocab.length) fail(file, `${where}.extraVocab ถ้ามีต้องเป็น array ไม่ว่าง`);
     else l.extraVocab.forEach((v, i) => {

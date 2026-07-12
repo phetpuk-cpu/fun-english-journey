@@ -332,7 +332,8 @@
           ],
           "a": 0
         }
-      ]
+      ],
+      "reading": {"passage": [{"en": "Songkran is the Thai New Year.", "th": "สงกรานต์คือปีใหม่ไทย"}, {"en": "People play with water.", "th": "ผู้คนเล่นน้ำกัน"}, {"en": "It happens in April.", "th": "มันเกิดขึ้นในเดือนเมษายน"}], "questions": [{"q": "Which month is Songkran?", "c": ["April", "January", "December"], "a": 0}, {"q": "Do people play with water?", "c": ["Yes, they do.", "No, they don't."], "a": 0}]}
     },
     {
       "id": "p4u6l3",

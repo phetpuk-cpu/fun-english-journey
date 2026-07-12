@@ -70,6 +70,7 @@
         {"q":"❄️ คือ...","c":["snowy","rainy","sunny"],"a":0},
         {"q":"It is ___ today. (แดดออก)","c":["sunny","rainy","cold"],"a":0}
       ],
+      "reading": {"passage": [{"en": "Today is sunny.", "th": "วันนี้แดดออก"}, {"en": "The sky is blue.", "th": "ท้องฟ้าเป็นสีฟ้า"}, {"en": "I like sunny days.", "th": "ฉันชอบวันที่แดดออก"}], "questions": [{"q": "Is it sunny today?", "c": ["Yes, it is.", "No, it isn't."], "a": 0}, {"q": "What color is the sky?", "c": ["Blue", "Red", "Green"], "a": 0}]},
       "extraVocab": [{"w": "windy", "th": "ลมแรง", "e": "💨"}, {"w": "snowy", "th": "หิมะตก", "e": "❄️"}, {"w": "foggy", "th": "มีหมอก", "e": "🌫️"}]
     },
     {

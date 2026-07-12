@@ -595,6 +595,7 @@
           "a": 0
         }
       ],
+      "reading": {"passage": [{"en": "My family has dinner together every night.", "th": "ครอบครัวของฉันกินข้าวเย็นด้วยกันทุกคืน"}, {"en": "We talk and laugh at the table.", "th": "พวกเราคุยกันและหัวเราะที่โต๊ะอาหาร"}, {"en": "I love my family time.", "th": "ฉันรักเวลาที่อยู่กับครอบครัว"}], "questions": [{"q": "Does the family have dinner together?", "c": ["Yes, they do.", "No, they don't."], "a": 0}, {"q": "What do they do at the table?", "c": ["Talk and laugh", "Watch TV", "Sleep"], "a": 0}]},
       "writeSentence": true
     }
   ]

@@ -149,7 +149,8 @@
           ],
           "a": 0
         }
-      ]
+      ],
+      "reading": {"passage": [{"en": "There are four seasons in a year.", "th": "หนึ่งปีมีสี่ฤดู"}, {"en": "Flowers bloom in spring.", "th": "ดอกไม้บานในฤดูใบไม้ผลิ"}, {"en": "It is cold in winter.", "th": "อากาศหนาวในฤดูหนาว"}], "questions": [{"q": "How many seasons are there in a year?", "c": ["Four", "Two", "Six"], "a": 0}, {"q": "When do flowers bloom?", "c": ["Spring", "Winter", "Fall"], "a": 0}]}
     },
     {
       "id": "p3u8l2",

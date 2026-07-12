@@ -163,6 +163,7 @@
         {"q":"'เพื่อนร่วมทีม' คือ...","c":["teammate","coach","practice"],"a":0},
         {"q":"We ___ before practice. (อบอุ่นร่างกาย)","c":["warm up","cool down","rest"],"a":0}
       ],
+      "reading": {"passage": [{"en": "I always warm up before practice.", "th": "ฉันอบอุ่นร่างกายก่อนฝึกซ้อมเสมอ"}, {"en": "I train every afternoon.", "th": "ฉันฝึกซ้อมทุกบ่าย"}, {"en": "Sunday is my rest day.", "th": "วันอาทิตย์คือวันพักของฉัน"}], "questions": [{"q": "Which day is the rest day?", "c": ["Sunday", "Monday", "Friday"], "a": 0}, {"q": "Does he train every single day, even Sunday?", "c": ["No, not on Sunday.", "Yes, every day."], "a": 0}]},
       "writeSentence": true,
       "transform": [
         {"base":"We always warm up before practice.","baseTh":"พวกเราอบอุ่นร่างกายก่อนฝึกซ้อมเสมอ","task":"negative",

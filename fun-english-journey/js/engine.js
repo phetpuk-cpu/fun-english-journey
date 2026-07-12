@@ -462,6 +462,7 @@ function startLesson(id){
     {type:"vocab"},
     ...listenTargets.map(v=>({type:"listen", item:v})),
     {type:"match"},
+    ...(L.reading ? [{type:"reading"}] : []),
     {type:"build"},
     ...(L.questionBuild ? [{type:"question-build"}] : []),
     ...(L.writeSentence ? [{type:"write"}] : []),
@@ -594,6 +595,44 @@ function render(){
         sel = null;
       };
     });
+  }
+
+  else if(st.type==="reading"){
+    const R = L.reading;
+    stage.innerHTML = `
+      <div class="bubble"><b>Reading Time! 📖</b><div class="th">อ่านย่อหน้าแล้วตอบคำถามด้านล่าง</div></div>
+      <div class="card">
+        ${R.passage.map(p=>`<p style="margin:.5em 0"><b>${p.en}</b><br><span class="th" style="color:#57678a">${p.th}</span></p>`).join("")}
+      </div>
+      ${R.questions.map((q,qi)=>`
+        <div class="card">
+          <h2 style="margin-top:0">${q.q}</h2>
+          ${q.c.map((c,ci)=>`<button class="choice" data-qi="${qi}" data-ci="${ci}" data-correct="${ci===q.a}">${c}</button>`).join("")}
+        </div>`).join("")}
+      <div class="feedback" id="reading-fb"></div>
+      <button class="btn green" id="reading-check">ตรวจคำตอบ ✔️</button>`;
+    const selected = {};
+    document.querySelectorAll(".choice").forEach(el=>{
+      el.onclick = ()=>{
+        const qi = el.dataset.qi;
+        document.querySelectorAll(`.choice[data-qi="${qi}"]`).forEach(b=>b.style.borderColor="transparent");
+        el.style.borderColor = "var(--blue)";
+        selected[qi] = el;
+      };
+    });
+    document.getElementById("reading-check").onclick = ()=>{
+      let correct = 0;
+      R.questions.forEach((q,qi)=>{
+        const chosen = selected[qi];
+        document.querySelectorAll(`.choice[data-qi="${qi}"]`).forEach(b=>{ if(b.dataset.correct==="true") b.classList.add("correct"); });
+        if(chosen && chosen.dataset.correct==="true") correct++;
+        else if(chosen) chosen.classList.add("wrong");
+      });
+      document.getElementById("reading-fb").textContent = `ตอบถูก ${correct}/${R.questions.length} ข้อ 🎉`;
+      addXp(correct*3); playSfx(correct===R.questions.length?"star":"correct");
+      document.getElementById("reading-check").style.display = "none";
+      setTimeout(next, 2200);
+    };
   }
 
   else if(st.type==="build"){
@@ -773,7 +812,7 @@ function render(){
 
   else if(st.type==="result"){
     const L2 = getLesson(state.lessonId);
-    const max = 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.writeSentence?5:0) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
+    const max = 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.writeSentence?5:0) + ((L2.reading?.questions.length||0)*3) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
     const ratio = state.lessonXp / max;
     const stars = ratio>=.8?3:ratio>=.5?2:1;
     state.xp += state.lessonXp;
