@@ -96,18 +96,38 @@ async function refreshProfilesList() {
       cancelBtn.style.display = "inline-block";
 
       const list = document.getElementById("profiles-list");
-      list.innerHTML = profiles.map(p => `
-        <button class="lesson-node" onclick="handleSelectProfile(${p.id})" style="border: 2px solid var(--blue); margin: 4px 0; width: 100%; text-align: left;">
-          <span class="icon" style="font-size: 2.2rem; margin-right: 10px;">${p.avatar}</span>
-          <span class="info" style="flex: 1;">
-            <span class="name" style="font-size: 1.1rem; font-weight: 700; display: block; color: var(--ink);">น้อง ${p.name}</span>
-            <span class="sub" style="font-size: 0.85rem; color: #6b7a99;">💎 ${p.xp || 0} XP</span>
-          </span>
-          <span style="font-size: 1rem; color: var(--duck); font-weight: bold;">
-            ⭐ ${Object.values(p.stars || {}).reduce((a, b) => a + b, 0)}
-          </span>
-        </button>
-      `).join("");
+      list.replaceChildren();
+      profiles.forEach(p => {
+        const id = Number.isInteger(p.id) ? p.id : null;
+        const xp = Number.isFinite(p.xp) && p.xp >= 0 ? p.xp : 0;
+        const stars = Object.values(p.stars || {}).reduce((a, b) => a + (Number.isFinite(b) ? b : 0), 0);
+
+        const btn = document.createElement("button");
+        btn.className = "lesson-node";
+        btn.style.cssText = "border: 2px solid var(--blue); margin: 4px 0; width: 100%; text-align: left;";
+        if (id !== null) btn.addEventListener("click", () => handleSelectProfile(id));
+
+        const icon = document.createElement("span");
+        icon.className = "icon"; icon.style.cssText = "font-size: 2.2rem; margin-right: 10px;";
+        icon.textContent = typeof p.avatar === "string" ? p.avatar : "🦁";
+
+        const info = document.createElement("span");
+        info.className = "info"; info.style.flex = "1";
+        const name = document.createElement("span");
+        name.className = "name"; name.style.cssText = "font-size: 1.1rem; font-weight: 700; display: block; color: var(--ink);";
+        name.textContent = "น้อง " + (typeof p.name === "string" ? p.name : "เพื่อน");
+        const sub = document.createElement("span");
+        sub.className = "sub"; sub.style.cssText = "font-size: 0.85rem; color: #6b7a99;";
+        sub.textContent = `💎 ${xp} XP`;
+        info.append(name, sub);
+
+        const starEl = document.createElement("span");
+        starEl.style.cssText = "font-size: 1rem; color: var(--duck); font-weight: bold;";
+        starEl.textContent = `⭐ ${stars}`;
+
+        btn.append(icon, info, starEl);
+        list.appendChild(btn);
+      });
     } else {
       pBox.style.display = "none";
       cBox.style.display = "block";
