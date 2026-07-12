@@ -35,6 +35,14 @@
         {"q":"'แผนการ' คือ...","c":["plan","goal","dream"],"a":0},
         {"q":"🎯 คือ...","c":["goal","plan","dream"],"a":0},
         {"q":"I ___ practice harder. (จะ)","c":["will","won't","must"],"a":0}
+      ],
+      "transform": [
+        {"base":"I will practice harder next season.","baseTh":"ฉันจะฝึกซ้อมให้หนักขึ้นในฤดูกาลหน้า","task":"negative",
+         "c":["I won't practice harder next season.", "I will not practices harder next season.", "I don't will practice harder next season."],"a":0},
+        {"base":"You will join a new team.","baseTh":"เธอจะเข้าร่วมทีมใหม่","task":"question",
+         "c":["Will you join a new team?", "Do you will join a new team?", "You will join a new team?"],"a":0},
+        {"base":"I will follow this plan.","baseTh":"ฉันจะทำตามแผนนี้","task":"negative",
+         "c":["I won't follow this plan.", "I will not follows this plan.", "I don't will follow this plan."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"🌟 คือ...","c":["succeed","try","hope"],"a":0},
         {"q":"🙏 คือ...","c":["hope","promise","believe"],"a":0},
         {"q":"I will ___ my goal. (บรรลุ)","c":["achieve","try","hope"],"a":0}
+      ],
+      "transform": [
+        {"base":"I will achieve my goal.","baseTh":"ฉันจะบรรลุเป้าหมายของฉัน","task":"negative",
+         "c":["I won't achieve my goal.", "I will not achieves my goal.", "I don't will achieve my goal."],"a":0},
+        {"base":"You will try your best.","baseTh":"เธอจะพยายามให้เต็มที่","task":"question",
+         "c":["Will you try your best?", "Do you will try your best?", "You will try your best?"],"a":0},
+        {"base":"I will succeed.","baseTh":"ฉันจะประสบความสำเร็จ","task":"negative",
+         "c":["I won't succeed.", "I will not succeeds.", "I don't will succeed."],"a":0}
       ]
     },
     {
@@ -103,6 +119,14 @@
         {"q":"🎉 คือ...","c":["victory","challenge","final"],"a":0},
         {"q":"🥇 คือ...","c":["final","semi-final","championship"],"a":0},
         {"q":"We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0}
+      ],
+      "transform": [
+        {"base":"We will win the championship.","baseTh":"พวกเราจะชนะการแข่งขันชิงแชมป์","task":"negative",
+         "c":["We won't win the championship.", "We will not wins the championship.", "We don't will win the championship."],"a":0},
+        {"base":"We will prepare very hard.","baseTh":"พวกเราจะเตรียมตัวอย่างหนัก","task":"question",
+         "c":["Will we prepare very hard?", "Do we will prepare very hard?", "We will prepare very hard?"],"a":0},
+        {"base":"Our opponent will be strong.","baseTh":"คู่แข่งของเราจะแข็งแกร่ง","task":"negative",
+         "c":["Our opponent won't be strong.", "Our opponent will not is strong.", "Our opponent don't will be strong."],"a":0}
       ]
     },
     {
@@ -137,6 +161,14 @@
         {"q":"😎 คือ...","c":["confidence","determination","support"],"a":0},
         {"q":"📣 คือ...","c":["encourage","support","inspire"],"a":0},
         {"q":"I will be a good ___. (ต้นแบบที่ดี)","c":["role model","leader","champion"],"a":0}
+      ],
+      "transform": [
+        {"base":"I will shine like a true champion.","baseTh":"ฉันจะเปล่งประกายเหมือนแชมป์เปี้ยนตัวจริง","task":"negative",
+         "c":["I won't shine like a true champion.", "I will not shines like a true champion.", "I don't will shine like a true champion."],"a":0},
+        {"base":"Your coach will always support you.","baseTh":"โค้ชของเธอจะสนับสนุนเธอเสมอ","task":"question",
+         "c":["Will your coach always support you?", "Do your coach will always support you?", "Your coach will always support you?"],"a":0},
+        {"base":"We will encourage each other.","baseTh":"พวกเราจะให้กำลังใจกันและกัน","task":"negative",
+         "c":["We won't encourage each other.", "We will not encourages each other.", "We don't will encourage each other."],"a":0}
       ]
     }
   ]

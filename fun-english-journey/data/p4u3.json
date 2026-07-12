@@ -332,6 +332,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I was reading at seven.","baseTh":"ฉันกำลังอ่านหนังสืออยู่ตอนหนึ่งทุ่ม","task":"negative",
+         "c":["I wasn't reading at seven.", "I weren't reading at seven.", "I didn't reading at seven."],"a":0},
+        {"base":"Your sister was singing.","baseTh":"น้องสาวของเธอกำลังร้องเพลงอยู่","task":"question",
+         "c":["Was your sister singing?", "Were your sister singing?", "Did your sister singing?"],"a":0},
+        {"base":"The phone was ringing.","baseTh":"โทรศัพท์กำลังดังอยู่","task":"negative",
+         "c":["The phone wasn't ringing.", "The phone weren't ringing.", "The phone didn't ringing."],"a":0}
       ]
     },
     {

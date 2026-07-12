@@ -149,6 +149,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"The elephant is bigger than the mouse.","baseTh":"ช้างตัวใหญ่กว่าหนู","task":"question",
+         "c":["Is the elephant bigger than the mouse?", "Does the elephant bigger than the mouse?", "The elephant is bigger than the mouse?"],"a":0},
+        {"base":"My bag is bigger than yours.","baseTh":"กระเป๋าของฉันใหญ่กว่าของเธอ","task":"negative",
+         "c":["My bag isn't bigger than yours.", "My bag aren't bigger than yours.", "My bag don't bigger than yours."],"a":0},
+        {"base":"The giraffe is taller than the horse.","baseTh":"ยีราฟตัวสูงกว่าม้า","task":"question",
+         "c":["Is the giraffe taller than the horse?", "Does the giraffe taller than the horse?", "The giraffe is taller than the horse?"],"a":0}
       ]
     },
     {
@@ -297,6 +305,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"A cheetah is faster than a horse.","baseTh":"เสือชีตาห์วิ่งเร็วกว่าม้า","task":"question",
+         "c":["Is a cheetah faster than a horse?", "Does a cheetah faster than a horse?", "A cheetah is faster than a horse?"],"a":0},
+        {"base":"An elephant is stronger than a dog.","baseTh":"ช้างแข็งแรงกว่าสุนัข","task":"negative",
+         "c":["An elephant isn't stronger than a dog.", "An elephant aren't stronger than a dog.", "An elephant don't stronger than a dog."],"a":0},
+        {"base":"This music is louder than that one.","baseTh":"เพลงนี้ดังกว่าเพลงนั้น","task":"question",
+         "c":["Is this music louder than that one?", "Does this music louder than that one?", "This music is louder than that one?"],"a":0}
       ]
     },
     {
@@ -445,6 +461,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"This game is easier than that one.","baseTh":"เกมนี้ง่ายกว่าเกมนั้น","task":"negative",
+         "c":["This game isn't easier than that one.", "This game aren't easier than that one.", "This game don't easier than that one."],"a":0},
+        {"base":"My score is the same as yours.","baseTh":"คะแนนของฉันเท่ากับของเธอ","task":"question",
+         "c":["Is my score the same as yours?", "Does my score the same as yours?", "My score is the same as yours?"],"a":0},
+        {"base":"This puzzle is harder than that one.","baseTh":"จิ๊กซอว์นี้ยากกว่าอันนั้น","task":"negative",
+         "c":["This puzzle isn't harder than that one.", "This puzzle aren't harder than that one.", "This puzzle don't harder than that one."],"a":0}
       ]
     },
     {

@@ -35,6 +35,14 @@
         {"q":"'ทุกวัน' คือ...","c":["every day","weekend","usually"],"a":0},
         {"q":"🎉 คือ...","c":["weekend","every day","often"],"a":0},
         {"q":"I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0}
+      ],
+      "transform": [
+        {"base":"I always practice in the morning.","baseTh":"ฉันฝึกซ้อมตอนเช้าเสมอ","task":"negative",
+         "c":["I don't always practice in the morning.", "I not always practice in the morning.", "I doesn't always practice in the morning."],"a":0},
+        {"base":"You usually train after school.","baseTh":"เธอฝึกซ้อมหลังเลิกเรียนเป็นประจำ","task":"question",
+         "c":["Do you usually train after school?", "Does you usually train after school?", "Are you usually train after school?"],"a":0},
+        {"base":"I rest on weekends.","baseTh":"ฉันพักผ่อนในวันหยุดสุดสัปดาห์","task":"negative",
+         "c":["I don't rest on weekends.", "I not rest on weekends.", "I doesn't rest on weekends."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"🗓️ คือ...","c":["schedule","routine","often"],"a":0},
         {"q":"📋 คือ...","c":["routine","schedule","often"],"a":0},
         {"q":"I practice ___ a week. (สามครั้ง)","c":["three times","once","twice"],"a":0}
+      ],
+      "transform": [
+        {"base":"I practice three times a week.","baseTh":"ฉันฝึกซ้อมสัปดาห์ละสามครั้ง","task":"negative",
+         "c":["I don't practice three times a week.", "I not practice three times a week.", "I doesn't practice three times a week."],"a":0},
+        {"base":"You practice twice a week.","baseTh":"เธอฝึกซ้อมสัปดาห์ละสองครั้ง","task":"question",
+         "c":["Do you practice twice a week?", "Does you practice twice a week?", "Are you practice twice a week?"],"a":0},
+        {"base":"I stretch every morning.","baseTh":"ฉันยืดเส้นยืดสายทุกเช้า","task":"negative",
+         "c":["I don't stretch every morning.", "I not stretch every morning.", "I doesn't stretch every morning."],"a":0}
       ]
     },
     {
@@ -103,6 +119,14 @@
         {"q":"'แบดมินตัน' คือ...","c":["badminton","tennis","gymnastics"],"a":0},
         {"q":"🏐 คือ...","c":["volleyball","football","basketball"],"a":0},
         {"q":"🤸 คือ...","c":["gymnastics","running","swimming"],"a":0}
+      ],
+      "transform": [
+        {"base":"I usually play basketball on Monday.","baseTh":"ปกติแล้วฉันเล่นบาสเกตบอลในวันจันทร์","task":"negative",
+         "c":["I don't usually play basketball on Monday.", "I not usually play basketball on Monday.", "I doesn't usually play basketball on Monday."],"a":0},
+        {"base":"You often go swimming after school.","baseTh":"เธอไปว่ายน้ำหลังเลิกเรียนบ่อยๆ","task":"question",
+         "c":["Do you often go swimming after school?", "Does you often go swimming after school?", "Are you often go swimming after school?"],"a":0},
+        {"base":"I sometimes play tennis with my dad.","baseTh":"บางครั้งฉันเล่นเทนนิสกับพ่อ","task":"negative",
+         "c":["I don't sometimes play tennis with my dad.", "I not sometimes play tennis with my dad.", "I doesn't sometimes play tennis with my dad."],"a":0}
       ]
     },
     {
@@ -137,6 +161,14 @@
         {"q":"🧑‍🏫 คือ...","c":["coach","teammate","gym"],"a":0},
         {"q":"'เพื่อนร่วมทีม' คือ...","c":["teammate","coach","practice"],"a":0},
         {"q":"We ___ before practice. (อบอุ่นร่างกาย)","c":["warm up","cool down","rest"],"a":0}
+      ],
+      "transform": [
+        {"base":"We always warm up before practice.","baseTh":"พวกเราอบอุ่นร่างกายก่อนฝึกซ้อมเสมอ","task":"negative",
+         "c":["We don't always warm up before practice.", "We not always warm up before practice.", "We doesn't always warm up before practice."],"a":0},
+        {"base":"Your coach is very kind.","baseTh":"โค้ชของเธอใจดีมาก","task":"question",
+         "c":["Is your coach very kind?", "Does your coach very kind?", "Are your coach very kind?"],"a":0},
+        {"base":"I go to the gym every day.","baseTh":"ฉันไปยิมทุกวัน","task":"negative",
+         "c":["I don't go to the gym every day.", "I not go to the gym every day.", "I doesn't go to the gym every day."],"a":0}
       ]
     }
   ]

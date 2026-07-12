@@ -149,6 +149,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"We must take care of the Earth.","baseTh":"พวกเราต้องดูแลโลก","task":"negative",
+         "c":["We mustn't take care of the Earth.", "We not must take care of the Earth.", "We don't must take care of the Earth."],"a":0},
+        {"base":"We must recycle more.","baseTh":"พวกเราต้องรีไซเคิลให้มากขึ้น","task":"question",
+         "c":["Must we recycle more?", "Do we must recycle more?", "We must recycle more?"],"a":0},
+        {"base":"The ocean is full of life.","baseTh":"มหาสมุทรเต็มไปด้วยสิ่งมีชีวิต","task":"negative",
+         "c":["The ocean isn't full of life.", "The ocean aren't full of life.", "The ocean don't full of life."],"a":0}
       ]
     },
     {
@@ -480,6 +488,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"We must protect endangered animals.","baseTh":"พวกเราต้องปกป้องสัตว์ที่ใกล้สูญพันธุ์","task":"negative",
+         "c":["We mustn't protect endangered animals.", "We not must protect endangered animals.", "We don't must protect endangered animals."],"a":0},
+        {"base":"They rescued a baby elephant.","baseTh":"พวกเขาช่วยเหลือลูกช้าง","task":"question",
+         "c":["Did they rescue a baby elephant?", "Did they rescued a baby elephant?", "Were they rescue a baby elephant?"],"a":0},
+        {"base":"This national park protects many animals.","baseTh":"อุทยานแห่งชาตินี้ปกป้องสัตว์หลายชนิด","task":"negative",
+         "c":["This national park doesn't protect many animals.", "This national park don't protect many animals.", "This national park not protects many animals."],"a":0}
       ]
     },
     {
@@ -628,6 +644,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I plant a tree every year.","baseTh":"ฉันปลูกต้นไม้ทุกปี","task":"negative",
+         "c":["I don't plant a tree every year.", "I not plant a tree every year.", "I doesn't plant a tree every year."],"a":0},
+        {"base":"You can walk or bike to school.","baseTh":"เธอเดินหรือขี่จักรยานไปโรงเรียนได้","task":"question",
+         "c":["Can you walk or bike to school?", "Do you can walk or bike to school?", "You can walk or bike to school?"],"a":0},
+        {"base":"We clean up the park together.","baseTh":"พวกเราช่วยกันทำความสะอาดสวนสาธารณะ","task":"negative",
+         "c":["We don't clean up the park together.", "We not clean up the park together.", "We doesn't clean up the park together."],"a":0}
       ]
     }
   ]

@@ -149,6 +149,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I can swim.","baseTh":"ฉันว่ายน้ำได้","task":"negative",
+         "c":["I can't swim.", "I cannot swims.", "I don't can swim."],"a":0},
+        {"base":"You can dance.","baseTh":"เธอเต้นได้","task":"question",
+         "c":["Can you dance?", "Do you can dance?", "You can dance?"],"a":0},
+        {"base":"I can play football.","baseTh":"ฉันเล่นฟุตบอลได้","task":"negative",
+         "c":["I can't play football.", "I cannot plays football.", "I don't can play football."],"a":0}
       ]
     },
     {
@@ -297,6 +305,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"My father can cook very well.","baseTh":"พ่อของฉันทำอาหารเก่งมาก","task":"negative",
+         "c":["My father can't cook very well.", "My father cannot cooks very well.", "My father doesn't can cook very well."],"a":0},
+        {"base":"Your friend can play the guitar.","baseTh":"เพื่อนของเธอเล่นกีตาร์ได้","task":"question",
+         "c":["Can your friend play the guitar?", "Does your friend can play the guitar?", "Your friend can play the guitar?"],"a":0},
+        {"base":"He can do a magic trick.","baseTh":"เขาเล่นมายากลได้","task":"negative",
+         "c":["He can't do a magic trick.", "He cannot does a magic trick.", "He doesn't can do a magic trick."],"a":0}
       ]
     },
     {
@@ -445,6 +461,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"A bird can fly.","baseTh":"นกบินได้","task":"negative",
+         "c":["A bird can't fly.", "A bird cannot flies.", "A bird doesn't can fly."],"a":0},
+        {"base":"A fish can swim fast.","baseTh":"ปลาว่ายน้ำเร็วได้","task":"question",
+         "c":["Can a fish swim fast?", "Does a fish can swim fast?", "A fish can swim fast?"],"a":0},
+        {"base":"An owl can see at night.","baseTh":"นกฮูกมองเห็นตอนกลางคืนได้","task":"negative",
+         "c":["An owl can't see at night.", "An owl cannot sees at night.", "An owl doesn't can see at night."],"a":0}
       ]
     },
     {
@@ -593,6 +617,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I always do my best.","baseTh":"ฉันทำเต็มที่เสมอ","task":"negative",
+         "c":["I don't always do my best.", "I not always do my best.", "I doesn't always do my best."],"a":0},
+        {"base":"You practice every day.","baseTh":"เธอฝึกซ้อมทุกวัน","task":"question",
+         "c":["Do you practice every day?", "Does you practice every day?", "Are you practice every day?"],"a":0},
+        {"base":"Everyone claps and cheers.","baseTh":"ทุกคนปรบมือและเชียร์","task":"negative",
+         "c":["Everyone doesn't clap and cheer.", "Everyone don't clap and cheer.", "Everyone not claps and cheers."],"a":0}
       ]
     }
   ]

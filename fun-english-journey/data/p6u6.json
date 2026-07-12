@@ -35,6 +35,14 @@
         {"q":"🚶 (past participle ของ go) คือ...","c":["gone","been","seen"],"a":0},
         {"q":"🛠️ (past participle ของ make) คือ...","c":["made","done","read"],"a":0},
         {"q":"Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0}
+      ],
+      "transform": [
+        {"base":"You have been to Japan.","baseTh":"เธอเคยไปญี่ปุ่น","task":"question",
+         "c":["Have you been to Japan?", "Did you have been to Japan?", "You have been to Japan?"],"a":0},
+        {"base":"I have seen a real elephant.","baseTh":"ฉันเคยเห็นช้างจริงๆ","task":"negative",
+         "c":["I haven't seen a real elephant.", "I have not saw a real elephant.", "I didn't have seen a real elephant."],"a":0},
+        {"base":"She has tried surfing before.","baseTh":"หล่อนเคยเล่นเซิร์ฟมาก่อน","task":"negative",
+         "c":["She hasn't tried surfing before.", "She have not tried surfing before.", "She didn't has tried surfing before."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"1️⃣ ครั้ง คือ...","c":["once","twice","many times"],"a":0},
         {"q":"2️⃣ ครั้ง คือ...","c":["twice","once","many times"],"a":0},
         {"q":"I have ___ finished my homework. (...แล้ว)","c":["already","yet","before"],"a":0}
+      ],
+      "transform": [
+        {"base":"I have already finished my homework.","baseTh":"ฉันทำการบ้านเสร็จแล้ว","task":"negative",
+         "c":["I haven't finished my homework yet.", "I have not finish my homework yet.", "I didn't have finished my homework yet."],"a":0},
+        {"base":"You have visited Chiang Mai twice.","baseTh":"เธอเคยไปเชียงใหม่สองครั้ง","task":"question",
+         "c":["Have you visited Chiang Mai twice?", "Did you have visited Chiang Mai twice?", "You have visited Chiang Mai twice?"],"a":0},
+        {"base":"She has arrived home.","baseTh":"หล่อนถึงบ้านแล้ว","task":"negative",
+         "c":["She hasn't arrived home.", "She have not arrived home.", "She didn't has arrived home."],"a":0}
       ]
     },
     {
@@ -103,6 +119,14 @@
         {"q":"🎢 คือ...","c":["exciting experience","unusual","surprising"],"a":0},
         {"q":"🌀 คือ...","c":["unusual","surprising","exciting experience"],"a":0},
         {"q":"I have ___ eaten durian before. (ไม่เคยเลย)","c":["never","ever","already"],"a":0}
+      ],
+      "transform": [
+        {"base":"You have seen snow.","baseTh":"เธอเคยเห็นหิมะ","task":"question",
+         "c":["Have you ever seen snow?", "Did you have ever seen snow?", "You have ever seen snow?"],"a":0},
+        {"base":"I have eaten durian before.","baseTh":"ฉันเคยกินทุเรียนมาก่อน","task":"negative",
+         "c":["I haven't eaten durian before.", "I have not ate durian before.", "I didn't have eaten durian before."],"a":0},
+        {"base":"That was a surprising experience.","baseTh":"นั่นเป็นประสบการณ์ที่น่าประหลาดใจ","task":"negative",
+         "c":["That wasn't a surprising experience.", "That weren't a surprising experience.", "That didn't a surprising experience."],"a":0}
       ]
     },
     {
@@ -137,6 +161,14 @@
         {"q":"🪞 คือ...","c":["reflect","grateful","proud of"],"a":0},
         {"q":"💫 คือ...","c":["unforgettable moment","lesson learned","reflect"],"a":0},
         {"q":"I am ___ my achievements. (ภูมิใจใน)","c":["proud of","grateful","reflect"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am proud of my achievements.","baseTh":"ฉันภูมิใจในความสำเร็จของฉัน","task":"negative",
+         "c":["I am not proud of my achievements.", "I amn't proud of my achievements.", "I don't proud of my achievements."],"a":0},
+        {"base":"You have grown so much this year.","baseTh":"เธอเติบโตขึ้นมากในปีนี้","task":"question",
+         "c":["Have you grown so much this year?", "Did you have grown so much this year?", "You have grown so much this year?"],"a":0},
+        {"base":"That was an unforgettable moment.","baseTh":"นั่นเป็นช่วงเวลาที่ไม่มีวันลืม","task":"negative",
+         "c":["That wasn't an unforgettable moment.", "That weren't an unforgettable moment.", "That didn't an unforgettable moment."],"a":0}
       ]
     }
   ]

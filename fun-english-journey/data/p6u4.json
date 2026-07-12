@@ -69,6 +69,14 @@
         {"q":"⌚ คือ...","c":["wearable device","smart home","drone"],"a":0},
         {"q":"🚁 คือ...","c":["drone","self-driving car","wearable device"],"a":0},
         {"q":"In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0}
+      ],
+      "transform": [
+        {"base":"Cars will drive themselves.","baseTh":"รถจะขับเคลื่อนได้เอง","task":"negative",
+         "c":["Cars won't drive themselves.", "Cars will not drives themselves.", "Cars don't will drive themselves."],"a":0},
+        {"base":"We will live in smart homes.","baseTh":"พวกเราจะอาศัยอยู่ในบ้านอัจฉริยะ","task":"question",
+         "c":["Will we live in smart homes?", "Do we will live in smart homes?", "We will live in smart homes?"],"a":0},
+        {"base":"Robots will help us more.","baseTh":"หุ่นยนต์จะช่วยเหลือพวกเรามากขึ้น","task":"negative",
+         "c":["Robots won't help us more.", "Robots will not helps us more.", "Robots don't will help us more."],"a":0}
       ]
     },
     {
@@ -103,6 +111,14 @@
         {"q":"📤 คือ...","c":["share","trust","safe"],"a":0},
         {"q":"⚠️ คือ...","c":["careful online","safe","trust"],"a":0},
         {"q":"You should keep your password ___. (ส่วนตัว)","c":["private","share","safe"],"a":0}
+      ],
+      "transform": [
+        {"base":"You should keep your password private.","baseTh":"เธอควรเก็บรหัสผ่านเป็นความลับ","task":"negative",
+         "c":["You shouldn't keep your password private.", "You not should keep your password private.", "You don't should keep your password private."],"a":0},
+        {"base":"You talk to strangers online.","baseTh":"เธอคุยกับคนแปลกหน้าออนไลน์","task":"question",
+         "c":["Do you talk to strangers online?", "Does you talk to strangers online?", "Are you talk to strangers online?"],"a":0},
+        {"base":"You should be careful online.","baseTh":"เธอควรระมัดระวังตอนออนไลน์","task":"negative",
+         "c":["You shouldn't be careful online.", "You not should be careful online.", "You don't should be careful online."],"a":0}
       ]
     },
     {
@@ -137,6 +153,14 @@
         {"q":"🔗 คือ...","c":["connect","digital","convenient"],"a":0},
         {"q":"⚡ คือ...","c":["powerful","convenient","digital"],"a":0},
         {"q":"Technology will make our lives ___. (ง่ายขึ้น)","c":["easier","harder","slower"],"a":0}
+      ],
+      "transform": [
+        {"base":"Technology will make our lives easier.","baseTh":"เทคโนโลยีจะทำให้ชีวิตเราง่ายขึ้น","task":"negative",
+         "c":["Technology won't make our lives easier.", "Technology will not makes our lives easier.", "Technology don't will make our lives easier."],"a":0},
+        {"base":"The internet connects the whole world.","baseTh":"อินเทอร์เน็ตเชื่อมโยงคนทั้งโลก","task":"question",
+         "c":["Does the internet connect the whole world?", "Do the internet connect the whole world?", "Is the internet connect the whole world?"],"a":0},
+        {"base":"We should upgrade our skills too.","baseTh":"พวกเราก็ควรพัฒนาทักษะด้วยเช่นกัน","task":"negative",
+         "c":["We shouldn't upgrade our skills too.", "We not should upgrade our skills too.", "We don't should upgrade our skills too."],"a":0}
       ]
     }
   ]

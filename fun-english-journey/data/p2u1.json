@@ -332,6 +332,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I study English at school.","baseTh":"ฉันเรียนภาษาอังกฤษที่โรงเรียน","task":"negative",
+         "c":["I don't study English at school.", "I not study English at school.", "I doesn't study English at school."],"a":0},
+        {"base":"You listen to the teacher.","baseTh":"เธอตั้งใจฟังคุณครู","task":"question",
+         "c":["Do you listen to the teacher?", "Does you listen to the teacher?", "Are you listen to the teacher?"],"a":0},
+        {"base":"We sing a song together.","baseTh":"พวกเราร้องเพลงด้วยกัน","task":"negative",
+         "c":["We don't sing a song together.", "We not sing a song together.", "We doesn't sing a song together."],"a":0}
       ]
     },
     {
@@ -480,6 +488,14 @@
           ],
           "a": 1
         }
+      ],
+      "transform": [
+        {"base":"I do my homework after school.","baseTh":"ฉันทำการบ้านหลังเลิกเรียน","task":"negative",
+         "c":["I don't do my homework after school.", "I not do my homework after school.", "I doesn't do my homework after school."],"a":0},
+        {"base":"You help your mom at home.","baseTh":"เธอช่วยแม่ที่บ้าน","task":"question",
+         "c":["Do you help your mom at home?", "Does you help your mom at home?", "Are you help your mom at home?"],"a":0},
+        {"base":"I eat dinner with my family.","baseTh":"ฉันกินข้าวเย็นกับครอบครัว","task":"negative",
+         "c":["I don't eat dinner with my family.", "I not eat dinner with my family.", "I doesn't eat dinner with my family."],"a":0}
       ]
     },
     {
@@ -628,6 +644,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I go to bed at nine.","baseTh":"ฉันเข้านอนตอนสามทุ่ม","task":"negative",
+         "c":["I don't go to bed at nine.", "I not go to bed at nine.", "I doesn't go to bed at nine."],"a":0},
+        {"base":"Mom reads a bedtime story.","baseTh":"แม่อ่านนิทานก่อนนอน","task":"question",
+         "c":["Does mom read a bedtime story?", "Do mom read a bedtime story?", "Is mom read a bedtime story?"],"a":0},
+        {"base":"I sleep tight every night.","baseTh":"ฉันหลับสนิททุกคืน","task":"negative",
+         "c":["I don't sleep tight every night.", "I not sleep tight every night.", "I doesn't sleep tight every night."],"a":0}
       ]
     }
   ]

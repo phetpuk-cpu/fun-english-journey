@@ -35,6 +35,14 @@
         {"q":"🥾 คือ...","c":["go hiking","ride a bike","sleep in"],"a":0},
         {"q":"🧺 คือ...","c":["have a picnic","go shopping","watch a movie"],"a":0},
         {"q":"😴 คือ...","c":["sleep in","go hiking","visit grandma"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am going to go shopping this weekend.","baseTh":"สุดสัปดาห์นี้ฉันจะไปช้อปปิ้ง","task":"negative",
+         "c":["I am not going to go shopping this weekend.", "I amn't going to go shopping this weekend.", "I don't going to go shopping this weekend."],"a":0},
+        {"base":"We are going to watch a movie.","baseTh":"พวกเราจะไปดูหนัง","task":"question",
+         "c":["Are we going to watch a movie?", "Do we going to watch a movie?", "We are going to watch a movie?"],"a":0},
+        {"base":"I am going to visit my grandma.","baseTh":"ฉันจะไปเยี่ยมคุณยาย","task":"negative",
+         "c":["I am not going to visit my grandma.", "I amn't going to visit my grandma.", "I don't going to visit my grandma."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"😎 คือ...","c":["hang out","meet up","busy"],"a":0},
         {"q":"⏰ คือ...","c":["free time","busy","plan"],"a":0},
         {"q":"What ___ you going to do? (จะ)","c":["are","is","will"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am going to invite my friends.","baseTh":"ฉันจะชวนเพื่อนๆ มา","task":"negative",
+         "c":["I am not going to invite my friends.", "I amn't going to invite my friends.", "I don't going to invite my friends."],"a":0},
+        {"base":"You are busy this weekend.","baseTh":"เธอมีธุระสุดสัปดาห์นี้","task":"question",
+         "c":["Are you busy this weekend?", "Do you busy this weekend?", "You are busy this weekend?"],"a":0},
+        {"base":"We are going to meet up on Saturday.","baseTh":"พวกเราจะเจอกันวันเสาร์","task":"negative",
+         "c":["We are not going to meet up on Saturday.", "We amn't going to meet up on Saturday.", "We don't going to meet up on Saturday."],"a":0}
       ]
     },
     {
@@ -103,6 +119,14 @@
         {"q":"📺 คือ...","c":["forecast","sunny","rainy"],"a":0},
         {"q":"❌ คือ...","c":["cancel","postpone","change plans"],"a":0},
         {"q":"We are going to stay indoors ___ it's rainy. (เพราะ)","c":["because","so","but"],"a":0}
+      ],
+      "transform": [
+        {"base":"We are going to stay indoors.","baseTh":"พวกเราจะอยู่ในร่ม","task":"negative",
+         "c":["We are not going to stay indoors.", "We amn't going to stay indoors.", "We don't going to stay indoors."],"a":0},
+        {"base":"We need to change our plans.","baseTh":"พวกเราต้องเปลี่ยนแผน","task":"question",
+         "c":["Do we need to change our plans?", "Does we need to change our plans?", "Are we need to change our plans?"],"a":0},
+        {"base":"We are going to postpone the picnic.","baseTh":"พวกเราจะเลื่อนปิกนิกออกไป","task":"negative",
+         "c":["We are not going to postpone the picnic.", "We amn't going to postpone the picnic.", "We don't going to postpone the picnic."],"a":0}
       ]
     },
     {
@@ -137,6 +161,14 @@
         {"q":"😄 คือ...","c":["enjoy","relax","choose"],"a":0},
         {"q":"📸 คือ...","c":["memorable","exciting","adventure"],"a":0},
         {"q":"I am going to ___ my weekend. (สนุกกับ)","c":["enjoy","choose","relax"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am going to enjoy my weekend.","baseTh":"ฉันจะสนุกกับสุดสัปดาห์ของฉัน","task":"negative",
+         "c":["I am not going to enjoy my weekend.", "I amn't going to enjoy my weekend.", "I don't going to enjoy my weekend."],"a":0},
+        {"base":"This weekend will be memorable.","baseTh":"สุดสัปดาห์นี้จะน่าจดจำ","task":"question",
+         "c":["Will this weekend be memorable?", "Does this weekend will be memorable?", "This weekend will be memorable?"],"a":0},
+        {"base":"I need to choose an activity.","baseTh":"ฉันต้องเลือกกิจกรรม","task":"negative",
+         "c":["I don't need to choose an activity.", "I not need to choose an activity.", "I doesn't need to choose an activity."],"a":0}
       ]
     }
   ]

@@ -35,6 +35,14 @@
         {"q":"📄 คือ...","c":["paper","cotton","rubber"],"a":0},
         {"q":"🧵 คือ...","c":["cotton","paper","rubber"],"a":0},
         {"q":"This chair is ___ wood. (ทำจาก)","c":["made of","made in","made by"],"a":0}
+      ],
+      "transform": [
+        {"base":"This chair is made of wood.","baseTh":"เก้าอี้ตัวนี้ทำจากไม้","task":"negative",
+         "c":["This chair isn't made of wood.", "This chair aren't made of wood.", "This chair doesn't made of wood."],"a":0},
+        {"base":"The window is made of glass.","baseTh":"หน้าต่างทำจากกระจก","task":"question",
+         "c":["Is the window made of glass?", "Does the window made of glass?", "The window is made of glass?"],"a":0},
+        {"base":"My shirt is made of cotton.","baseTh":"เสื้อของฉันทำจากผ้าฝ้าย","task":"negative",
+         "c":["My shirt isn't made of cotton.", "My shirt aren't made of cotton.", "My shirt doesn't made of cotton."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"📦 คือ...","c":["product","factory","label"],"a":0},
         {"q":"🏷️ คือ...","c":["label","product","country"],"a":0},
         {"q":"This toy is ___ Thailand. (ผลิตใน)","c":["made in","made of","made by"],"a":0}
+      ],
+      "transform": [
+        {"base":"This toy is made in Thailand.","baseTh":"ของเล่นนี้ผลิตในประเทศไทย","task":"negative",
+         "c":["This toy isn't made in Thailand.", "This toy aren't made in Thailand.", "This toy doesn't made in Thailand."],"a":0},
+        {"base":"This product is imported from Japan.","baseTh":"สินค้านี้นำเข้าจากญี่ปุ่น","task":"question",
+         "c":["Is this product imported from Japan?", "Does this product imported from Japan?", "This product is imported from Japan?"],"a":0},
+        {"base":"This bag was made here.","baseTh":"กระเป๋าใบนี้ผลิตที่นี่","task":"negative",
+         "c":["This bag wasn't made here.", "This bag weren't made here.", "This bag didn't made here."],"a":0}
       ]
     },
     {
@@ -103,6 +119,14 @@
         {"q":"🧺 คือ...","c":["collected","packed","delivered"],"a":0},
         {"q":"📦 (ถูกบรรจุ) คือ...","c":["packed","collected","delivered"],"a":0},
         {"q":"Rice is ___ in the field. (ถูกปลูก)","c":["grown","built","made"],"a":0}
+      ],
+      "transform": [
+        {"base":"Rice is grown in the field.","baseTh":"ข้าวถูกปลูกในนา","task":"negative",
+         "c":["Rice isn't grown in the field.", "Rice aren't grown in the field.", "Rice doesn't grown in the field."],"a":0},
+        {"base":"This bridge was built last year.","baseTh":"สะพานนี้ถูกสร้างเมื่อปีที่แล้ว","task":"question",
+         "c":["Was this bridge built last year?", "Were this bridge built last year?", "This bridge was built last year?"],"a":0},
+        {"base":"The package is delivered every day.","baseTh":"พัสดุถูกส่งทุกวัน","task":"negative",
+         "c":["The package isn't delivered every day.", "The package aren't delivered every day.", "The package doesn't delivered every day."],"a":0}
       ]
     },
     {

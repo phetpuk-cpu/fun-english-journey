@@ -149,6 +149,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I play basketball with my friends.","baseTh":"ฉันเล่นบาสเกตบอลกับเพื่อนๆ","task":"negative",
+         "c":["I don't play basketball with my friends.", "I not play basketball with my friends.", "I doesn't play basketball with my friends."],"a":0},
+        {"base":"You play badminton.","baseTh":"เธอเล่นแบดมินตัน","task":"question",
+         "c":["Do you play badminton?", "Does you play badminton?", "Are you play badminton?"],"a":0},
+        {"base":"Swimming is fun.","baseTh":"ว่ายน้ำสนุก","task":"negative",
+         "c":["Swimming isn't fun.", "Swimming aren't fun.", "Swimming don't fun."],"a":0}
       ]
     },
     {
@@ -480,6 +488,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"Our team has a good coach.","baseTh":"ทีมของเรามีโค้ชที่เก่ง","task":"negative",
+         "c":["Our team doesn't have a good coach.", "Our team don't have a good coach.", "Our team not has a good coach."],"a":0},
+        {"base":"The coach helps us practice.","baseTh":"โค้ชช่วยให้พวกเราฝึกซ้อม","task":"question",
+         "c":["Does the coach help us practice?", "Do the coach help us practice?", "Is the coach help us practice?"],"a":0},
+        {"base":"We want to win a medal.","baseTh":"พวกเราอยากได้เหรียญ","task":"negative",
+         "c":["We don't want to win a medal.", "We not want to win a medal.", "We doesn't want to win a medal."],"a":0}
       ]
     },
     {
@@ -628,6 +644,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"We run to the finish line.","baseTh":"พวกเราวิ่งไปที่เส้นชัย","task":"negative",
+         "c":["We don't run to the finish line.", "We not run to the finish line.", "We doesn't run to the finish line."],"a":0},
+        {"base":"You warm up before you play.","baseTh":"เธออบอุ่นร่างกายก่อนเล่น","task":"question",
+         "c":["Do you warm up before you play?", "Does you warm up before you play?", "Are you warm up before you play?"],"a":0},
+        {"base":"Teamwork makes us strong.","baseTh":"การทำงานเป็นทีมทำให้พวกเราแข็งแกร่ง","task":"negative",
+         "c":["Teamwork doesn't make us strong.", "Teamwork don't make us strong.", "Teamwork not makes us strong."],"a":0}
       ]
     }
   ]

@@ -149,6 +149,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I like eating apples.","baseTh":"ฉันชอบกินแอปเปิล","task":"negative",
+         "c":["I don't like eating apples.", "I not like eating apples.", "I doesn't like eating apples."],"a":0},
+        {"base":"You like bananas.","baseTh":"เธอชอบกล้วย","task":"question",
+         "c":["Do you like bananas?", "Does you like bananas?", "Are you like bananas?"],"a":0},
+        {"base":"Grapes are sweet and small.","baseTh":"องุ่นหวานและลูกเล็ก","task":"negative",
+         "c":["Grapes aren't sweet and small.", "Grapes isn't sweet and small.", "Grapes don't sweet and small."],"a":0}
       ]
     },
     {
@@ -480,6 +488,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"This soup is delicious.","baseTh":"ซุปนี้อร่อยมาก","task":"negative",
+         "c":["This soup isn't delicious.", "This soup aren't delicious.", "This soup don't delicious."],"a":0},
+        {"base":"This mango is sweet.","baseTh":"มะม่วงลูกนี้หวาน","task":"question",
+         "c":["Is this mango sweet?", "Does this mango sweet?", "Are this mango sweet?"],"a":0},
+        {"base":"I drink milk every morning.","baseTh":"ฉันดื่มนมทุกเช้า","task":"negative",
+         "c":["I don't drink milk every morning.", "I not drink milk every morning.", "I doesn't drink milk every morning."],"a":0}
       ]
     },
     {
@@ -628,6 +644,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I am hungry.","baseTh":"ฉันหิว","task":"negative",
+         "c":["I am not hungry.", "I amn't hungry.", "I don't hungry."],"a":0},
+        {"base":"You want more food.","baseTh":"เธออยากได้อาหารเพิ่ม","task":"question",
+         "c":["Do you want more food?", "Does you want more food?", "Are you want more food?"],"a":0},
+        {"base":"This food is spicy.","baseTh":"อาหารนี้เผ็ด","task":"negative",
+         "c":["This food isn't spicy.", "This food aren't spicy.", "This food don't spicy."],"a":0}
       ]
     }
   ]

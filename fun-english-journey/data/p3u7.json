@@ -698,6 +698,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"Yesterday was a great day.","baseTh":"เมื่อวานเป็นวันที่ดีมาก","task":"negative",
+         "c":["Yesterday wasn't a great day.", "Yesterday weren't a great day.", "Yesterday didn't a great day."],"a":0},
+        {"base":"You had fun at the fair.","baseTh":"เธอสนุกที่งานแฟร์","task":"question",
+         "c":["Did you have fun at the fair?", "Did you had fun at the fair?", "Were you have fun at the fair?"],"a":0},
+        {"base":"I slept early.","baseTh":"ฉันเข้านอนแต่หัวค่ำ","task":"negative",
+         "c":["I didn't sleep early.", "I not slept early.", "I didn't slept early."],"a":0}
       ]
     }
   ]

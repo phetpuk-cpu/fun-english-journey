@@ -149,6 +149,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"I have a puppy at home.","baseTh":"ฉันมีลูกหมาที่บ้าน","task":"negative",
+         "c":["I don't have a puppy at home.", "I not have a puppy at home.", "I doesn't have a puppy at home."],"a":0},
+        {"base":"Your cat is very cute.","baseTh":"แมวของเธอน่ารักมาก","task":"question",
+         "c":["Is your cat very cute?", "Does your cat very cute?", "Are your cat very cute?"],"a":0},
+        {"base":"My rabbit likes carrots.","baseTh":"กระต่ายของฉันชอบแครอท","task":"negative",
+         "c":["My rabbit doesn't like carrots.", "My rabbit don't like carrots.", "My rabbit not likes carrots."],"a":0}
       ]
     },
     {
@@ -297,6 +305,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"The cow says moo.","baseTh":"วัวร้องมู","task":"negative",
+         "c":["The cow doesn't say moo.", "The cow don't say moo.", "The cow not says moo."],"a":0},
+        {"base":"The duck swims in the pond.","baseTh":"เป็ดว่ายน้ำในบ่อ","task":"question",
+         "c":["Does the duck swim in the pond?", "Do the duck swim in the pond?", "Is the duck swim in the pond?"],"a":0},
+        {"base":"The horse can run fast.","baseTh":"ม้าวิ่งเร็วได้","task":"negative",
+         "c":["The horse can't run fast.", "The horse cannot fast run.", "The horse doesn't can run fast."],"a":0}
       ]
     },
     {
@@ -445,6 +461,14 @@
           ],
           "a": 0
         }
+      ],
+      "transform": [
+        {"base":"The lion is strong.","baseTh":"สิงโตแข็งแรง","task":"negative",
+         "c":["The lion isn't strong.", "The lion aren't strong.", "The lion don't strong."],"a":0},
+        {"base":"The giraffe has a long neck.","baseTh":"ยีราฟมีคอยาว","task":"question",
+         "c":["Does the giraffe have a long neck?", "Do the giraffe have a long neck?", "Has the giraffe a long neck?"],"a":0},
+        {"base":"The monkey likes bananas.","baseTh":"ลิงชอบกล้วย","task":"negative",
+         "c":["The monkey doesn't like bananas.", "The monkey don't like bananas.", "The monkey not likes bananas."],"a":0}
       ]
     },
     {

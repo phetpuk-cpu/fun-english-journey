@@ -35,6 +35,14 @@
         {"q":"🎯 คือ...","c":["outcome","condition","chance"],"a":0},
         {"q":"🍀 คือ...","c":["chance","decision","outcome"],"a":0},
         {"q":"___ I study hard, I will pass. (ถ้า)","c":["If","Then","So"],"a":0}
+      ],
+      "transform": [
+        {"base":"If I study hard, I will pass the exam.","baseTh":"ถ้าฉันเรียนหนัก ฉันจะสอบผ่าน","task":"negative",
+         "c":["If I don't study hard, I won't pass the exam.", "If I not study hard, I will not passes the exam.", "If I doesn't study hard, I don't will pass the exam."],"a":0},
+        {"base":"If you practice, you will improve.","baseTh":"ถ้าเธอฝึกซ้อม เธอจะพัฒนาขึ้น","task":"question",
+         "c":["Will you improve if you practice?", "Do you will improve if you practice?", "If you practice, you will improve?"],"a":0},
+        {"base":"I will win.","baseTh":"ฉันจะชนะ","task":"negative",
+         "c":["I won't win.", "I will not wins.", "I don't will win."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"💦 คือ...","c":["get wet","stay home","try again"],"a":0},
         {"q":"🎉 คือ...","c":["celebrate","try again","get wet"],"a":0},
         {"q":"If it rains, I will ___ home. (อยู่)","c":["stay","go","leave"],"a":0}
+      ],
+      "transform": [
+        {"base":"If it rains, I will stay home.","baseTh":"ถ้าฝนตก ฉันจะอยู่บ้าน","task":"negative",
+         "c":["If it doesn't rain, I won't stay home.", "If it not rains, I will not stays home.", "If it doesn't rains, I don't will stay home."],"a":0},
+        {"base":"If you have time, you will call me.","baseTh":"ถ้าเธอมีเวลา เธอจะโทรหาฉัน","task":"question",
+         "c":["Will you call me if you have time?", "Do you will call me if you have time?", "If you have time, you will call me?"],"a":0},
+        {"base":"I will celebrate.","baseTh":"ฉันจะฉลอง","task":"negative",
+         "c":["I won't celebrate.", "I will not celebrates.", "I don't will celebrate."],"a":0}
       ]
     },
     {

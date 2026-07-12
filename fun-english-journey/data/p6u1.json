@@ -35,6 +35,14 @@
         {"q":"'เชฟ' คือ...","c":["chef","artist","vet"],"a":0},
         {"q":"🐾 (สัตวแพทย์) คือ...","c":["vet","doctor","scientist"],"a":0},
         {"q":"I am ___ to be a doctor. (จะ)","c":["going","go","went"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am going to be a doctor.","baseTh":"ฉันจะเป็นหมอ","task":"negative",
+         "c":["I am not going to be a doctor.", "I amn't going to be a doctor.", "I don't going to be a doctor."],"a":0},
+        {"base":"She is going to be an engineer.","baseTh":"เธอจะเป็นวิศวกร","task":"question",
+         "c":["Is she going to be an engineer?", "Does she going to be an engineer?", "She is going to be an engineer?"],"a":0},
+        {"base":"He is going to be a pilot.","baseTh":"เขาจะเป็นนักบิน","task":"negative",
+         "c":["He is not going to be a pilot.", "He isn't going to is a pilot.", "He don't going to be a pilot."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"🎨 คือ...","c":["creative","brave","curious"],"a":0},
         {"q":"🦁 คือ...","c":["brave","creative","curious"],"a":0},
         {"q":"I am ___ science. (สนใจ)","c":["interested in","good at","curious of"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am interested in science.","baseTh":"ฉันสนใจในวิทยาศาสตร์","task":"negative",
+         "c":["I am not interested in science.", "I amn't interested in science.", "I don't interested in science."],"a":0},
+        {"base":"You are good at drawing.","baseTh":"เธอวาดรูปเก่ง","task":"question",
+         "c":["Are you good at drawing?", "Do you good at drawing?", "You are good at drawing?"],"a":0},
+        {"base":"I am going to travel the world.","baseTh":"ฉันจะเดินทางไปรอบโลก","task":"negative",
+         "c":["I am not going to travel the world.", "I amn't going to travel the world.", "I don't going to travel the world."],"a":0}
       ]
     },
     {
@@ -103,6 +119,14 @@
         {"q":"📝 คือ...","c":["experience","skill","achieve"],"a":0},
         {"q":"🔨 คือ...","c":["work hard","study hard","practice"],"a":0},
         {"q":"I am going to ___ hard. (เรียน)","c":["study","learn","practice"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am going to study hard.","baseTh":"ฉันจะเรียนอย่างหนัก","task":"negative",
+         "c":["I am not going to study hard.", "I amn't going to study hard.", "I don't going to study hard."],"a":0},
+        {"base":"You are going to university.","baseTh":"เธอจะไปเรียนมหาวิทยาลัย","task":"question",
+         "c":["Are you going to university?", "Do you going to university?", "You are going to university?"],"a":0},
+        {"base":"I will achieve my dream.","baseTh":"ฉันจะบรรลุความฝันของฉัน","task":"negative",
+         "c":["I won't achieve my dream.", "I will not achieves my dream.", "I don't will achieve my dream."],"a":0}
       ]
     },
     {
@@ -137,6 +161,14 @@
         {"q":"🔮 คือ...","c":["future","become","career"],"a":0},
         {"q":"🔥 คือ...","c":["determined","proud","passion"],"a":0},
         {"q":"I am going to ___ a great doctor. (กลายเป็น)","c":["become","becomes","became"],"a":0}
+      ],
+      "transform": [
+        {"base":"I am going to become a great doctor.","baseTh":"ฉันจะกลายเป็นหมอที่ยอดเยี่ยม","task":"negative",
+         "c":["I am not going to become a great doctor.", "I amn't going to become a great doctor.", "I don't going to become a great doctor."],"a":0},
+        {"base":"You are determined to succeed.","baseTh":"เธอมุ่งมั่นที่จะประสบความสำเร็จ","task":"question",
+         "c":["Are you determined to succeed?", "Do you determined to succeed?", "You are determined to succeed?"],"a":0},
+        {"base":"I will follow my passion.","baseTh":"ฉันจะทำตามสิ่งที่ฉันหลงใหล","task":"negative",
+         "c":["I won't follow my passion.", "I will not follows my passion.", "I don't will follow my passion."],"a":0}
       ]
     }
   ]

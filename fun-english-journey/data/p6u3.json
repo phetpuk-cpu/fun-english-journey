@@ -35,6 +35,14 @@
         {"q":"🦷 คือ...","c":["brush teeth","drink water","exercise"],"a":0},
         {"q":"💧 คือ...","c":["drink water","sleep well","brush teeth"],"a":0},
         {"q":"You ___ drink more water. (ควร)","c":["should","shouldn't","could"],"a":0}
+      ],
+      "transform": [
+        {"base":"You should drink more water.","baseTh":"เธอควรดื่มน้ำให้มากขึ้น","task":"negative",
+         "c":["You shouldn't drink more water.", "You not should drink more water.", "You don't should drink more water."],"a":0},
+        {"base":"You should exercise every day.","baseTh":"เธอควรออกกำลังกายทุกวัน","task":"question",
+         "c":["Should you exercise every day?", "Do you should exercise every day?", "You should exercise every day?"],"a":0},
+        {"base":"You should sleep well tonight.","baseTh":"คืนนี้เธอควรนอนหลับให้เพียงพอ","task":"negative",
+         "c":["You shouldn't sleep well tonight.", "You not should sleep well tonight.", "You don't should sleep well tonight."],"a":0}
       ]
     },
     {
@@ -69,6 +77,14 @@
         {"q":"'อาจจะ' คือ...","c":["perhaps","maybe","could"],"a":0},
         {"q":"💡 (ความคิด) คือ...","c":["idea","suggestion","option"],"a":0},
         {"q":"You ___ try a new hobby. (อาจลอง)","c":["could","should","must"],"a":0}
+      ],
+      "transform": [
+        {"base":"You could try a new hobby.","baseTh":"เธออาจลองทำงานอดิเรกใหม่ๆ ดู","task":"negative",
+         "c":["You couldn't try a new hobby.", "You not could try a new hobby.", "You don't could try a new hobby."],"a":0},
+        {"base":"You could join a club.","baseTh":"เธออาจเข้าร่วมชมรมดู","task":"question",
+         "c":["Could you join a club?", "Do you could join a club?", "You could join a club?"],"a":0},
+        {"base":"You could ask for help.","baseTh":"เธออาจขอความช่วยเหลือดู","task":"negative",
+         "c":["You couldn't ask for help.", "You not could ask for help.", "You don't could ask for help."],"a":0}
       ]
     },
     {
@@ -103,6 +119,14 @@
         {"q":"🧠 คือ...","c":["understand","listen","solve"],"a":0},
         {"q":"🤗 คือ...","c":["comfort","helpful","worried"],"a":0},
         {"q":"You should talk to someone about your ___. (ปัญหา)","c":["problem","solution","advice"],"a":0}
+      ],
+      "transform": [
+        {"base":"You should talk to someone about your problem.","baseTh":"เธอควรคุยกับใครสักคนเรื่องปัญหาของเธอ","task":"negative",
+         "c":["You shouldn't talk to someone about your problem.", "You not should talk to someone about your problem.", "You don't should talk to someone about your problem."],"a":0},
+        {"base":"You understand how I feel.","baseTh":"เธอเข้าใจความรู้สึกของฉัน","task":"question",
+         "c":["Do you understand how I feel?", "Does you understand how I feel?", "Are you understand how I feel?"],"a":0},
+        {"base":"We will find a solution together.","baseTh":"พวกเราจะหาทางออกด้วยกัน","task":"negative",
+         "c":["We won't find a solution together.", "We will not finds a solution together.", "We don't will find a solution together."],"a":0}
       ]
     },
     {
@@ -137,6 +161,14 @@
         {"q":"🦉 คือ...","c":["wise","kindness","encourage"],"a":0},
         {"q":"🧭 คือ...","c":["guide","support","choice"],"a":0},
         {"q":"I will always ___ you. (สนับสนุน)","c":["support","guide","recommend"],"a":0}
+      ],
+      "transform": [
+        {"base":"I recommend that you try your best.","baseTh":"ฉันแนะนำให้เธอพยายามให้ดีที่สุด","task":"negative",
+         "c":["I don't recommend that you try your best.", "I not recommend that you try your best.", "I doesn't recommend that you try your best."],"a":0},
+        {"base":"You made a wise choice.","baseTh":"เธอตัดสินใจได้อย่างชาญฉลาด","task":"question",
+         "c":["Did you make a wise choice?", "Did you made a wise choice?", "Were you make a wise choice?"],"a":0},
+        {"base":"I will always support you.","baseTh":"ฉันจะสนับสนุนเธอเสมอ","task":"negative",
+         "c":["I won't always support you.", "I will not always supports you.", "I don't will always support you."],"a":0}
       ]
     }
   ]

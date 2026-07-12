@@ -119,6 +119,14 @@
         {"q":"😇 คือ...","c":["honest","cheat","fair"],"a":0},
         {"q":"🎊 คือ...","c":["congratulate","shake hands","respect"],"a":0},
         {"q":"You mustn't ___ in the game. (โกง)","c":["cheat","respect","congratulate"],"a":0}
+      ],
+      "transform": [
+        {"base":"You must respect your opponent.","baseTh":"เธอต้องเคารพคู่แข่งของเธอ","task":"negative",
+         "c":["You mustn't respect your opponent.", "You not must respect your opponent.", "You don't must respect your opponent."],"a":0},
+        {"base":"We shake hands after the game.","baseTh":"พวกเราจับมือกันหลังเกม","task":"question",
+         "c":["Do we shake hands after the game?", "Does we shake hands after the game?", "Are we shake hands after the game?"],"a":0},
+        {"base":"I congratulate the winning team.","baseTh":"ฉันแสดงความยินดีกับทีมที่ชนะ","task":"negative",
+         "c":["I don't congratulate the winning team.", "I not congratulate the winning team.", "I doesn't congratulate the winning team."],"a":0}
       ]
     },
     {
@@ -153,6 +161,14 @@
         {"q":"🎯 คือ...","c":["discipline","permission","warning"],"a":0},
         {"q":"⏱️ คือ...","c":["punctual","forbidden","allowed"],"a":0},
         {"q":"A champion needs ___. (วินัย)","c":["discipline","permission","warning"],"a":0}
+      ],
+      "transform": [
+        {"base":"We must obey the academy rules.","baseTh":"พวกเราต้องเชื่อฟังกฎของสถาบัน","task":"negative",
+         "c":["We mustn't obey the academy rules.", "We not must obey the academy rules.", "We don't must obey the academy rules."],"a":0},
+        {"base":"Running is allowed here.","baseTh":"ที่นี่อนุญาตให้วิ่งได้","task":"question",
+         "c":["Is running allowed here?", "Does running allowed here?", "Are running allowed here?"],"a":0},
+        {"base":"A champion needs discipline.","baseTh":"แชมป์เปี้ยนต้องมีวินัย","task":"negative",
+         "c":["A champion doesn't need discipline.", "A champion don't need discipline.", "A champion not needs discipline."],"a":0}
       ]
     }
   ]
