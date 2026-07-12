@@ -9,6 +9,13 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="bg-decor" aria-hidden="true">
+  <span class="deco d1">⭐</span>
+  <span class="deco d2">☁️</span>
+  <span class="deco d3">🎈</span>
+  <span class="deco d4">✨</span>
+  <span class="deco d5">🌈</span>
+</div>
 
 <!-- ============ SCREEN: WELCOME ============ -->
 <div class="screen active welcome-screen" id="scr-welcome">
@@ -35,7 +42,16 @@
       <button class="avatar selected">🦁</button><button class="avatar">🐼</button>
       <button class="avatar">🦊</button><button class="avatar">🐸</button><button class="avatar">🦄</button>
     </div>
-    <button class="btn yellow" id="btn-start" onclick="startApp()" disabled>⏳ กำลังโหลดบทเรียน...</button>
+    <p style="margin:14px 0 4px"><b>อยากเริ่มเรียนชั้นไหน?</b></p>
+    <div class="tab-row" id="grade-row">
+      <button class="tab active" data-g="p1">🌻 ป.1</button>
+      <button class="tab" data-g="p2">🏙️ ป.2</button>
+      <button class="tab" data-g="p3">🎪 ป.3</button>
+      <button class="tab" data-g="p4">🌍 ป.4</button>
+      <button class="tab" data-g="p5">🏆 ป.5</button>
+      <button class="tab" data-g="p6">🚀 ป.6</button>
+    </div>
+    <button class="btn yellow" id="btn-start" onclick="startApp()" disabled>⏳ กำลังเปิดแอป...</button>
     <button class="btn ghost" id="btn-cancel-create" onclick="showProfilesList()" style="display:none; margin-top:10px">ยกเลิก ✖</button>
   </div>
   <p class="note">ชื่อเล่น ดาว และความก้าวหน้าจะบันทึกไว้ในอุปกรณ์นี้</p>
@@ -50,14 +66,14 @@
 <div class="screen" id="scr-map">
   <div class="topbar">
     <span class="mascot" style="font-size:2rem" id="map-avatar">🦁</span>
-    <div style="flex:1"><b id="map-name">เพื่อน</b><div style="font-size:.8rem;color:#6b7a99">นักผจญภัยฝึกหัด</div></div>
+    <div style="flex:1"><b id="map-name">เพื่อน</b><div style="font-size:.8rem;color:#57678a">นักผจญภัยฝึกหัด</div></div>
     <span class="xp-pill">💎 <span id="xp-total">0</span> XP</span>
     <button class="back" onclick="show('scr-characters')" title="รู้จักเพื่อนๆ" style="font-size:1.3rem">👥</button>
     <button class="back" onclick="openSettings()" title="ตั้งค่าเสียงและไมโครโฟน" aria-label="ตั้งค่าเสียงและไมโครโฟน" style="font-size:1.3rem">⚙️</button>
   </div>
   <div class="tab-row">
-    <button class="tab" data-g="p1">🌻 ป.1</button>
-    <button class="tab active" data-g="p2">🏙️ ป.2</button>
+    <button class="tab active" data-g="p1">🌻 ป.1</button>
+    <button class="tab" data-g="p2">🏙️ ป.2</button>
     <button class="tab" data-g="p3">🎪 ป.3</button>
     <button class="tab" data-g="p4">🌍 ป.4</button>
     <button class="tab" data-g="p5">🏆 ป.5</button>
@@ -115,19 +131,19 @@
   <div class="card" style="display:grid; grid-template-columns:1fr; gap:14px">
     <div style="display:flex; align-items:center; gap:14px">
       <img src="assets/img/characters/ducky-character-sheet.png" alt="Ducky" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🦆',style:'font-size:3.5rem'}))">
-      <div><b>Ducky 🦆</b><div style="font-size:.85rem;color:#6b7a99">ตัวเอกของเรื่อง เด็กเป็ดผู้กล้าหาญและอยากรู้อยากเห็น พาทุกคนผจญภัยเรียนภาษาอังกฤษไปด้วยกัน</div></div>
+      <div><b>Ducky 🦆</b><div style="font-size:.85rem;color:#57678a">ตัวเอกของเรื่อง เด็กเป็ดผู้กล้าหาญและอยากรู้อยากเห็น พาทุกคนผจญภัยเรียนภาษาอังกฤษไปด้วยกัน</div></div>
     </div>
     <div style="display:flex; align-items:center; gap:14px">
       <img src="assets/img/characters/mali-character-sheet.png" alt="Mali" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🐘',style:'font-size:3.5rem'}))">
-      <div><b>Mali 🐘</b><div style="font-size:.85rem;color:#6b7a99">ช้างน้อยผู้ช่วยแปลภาษาไทย ใจดีและคอยอธิบายทุกอย่างให้เข้าใจง่ายเสมอ</div></div>
+      <div><b>Mali 🐘</b><div style="font-size:.85rem;color:#57678a">ช้างน้อยผู้ช่วยแปลภาษาไทย ใจดีและคอยอธิบายทุกอย่างให้เข้าใจง่ายเสมอ</div></div>
     </div>
     <div style="display:flex; align-items:center; gap:14px">
       <img src="assets/img/characters/teacher-owl-character-sheet.png" alt="Teacher Owl" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🦉',style:'font-size:3.5rem'}))">
-      <div><b>Teacher Owl 🦉</b><div style="font-size:.85rem;color:#6b7a99">คุณครูนกฮูกผู้รอบรู้ คอยสอนกฎ คำแนะนำ และให้กำลังใจนักเรียนทุกคน</div></div>
+      <div><b>Teacher Owl 🦉</b><div style="font-size:.85rem;color:#57678a">คุณครูนกฮูกผู้รอบรู้ คอยสอนกฎ คำแนะนำ และให้กำลังใจนักเรียนทุกคน</div></div>
     </div>
     <div style="display:flex; align-items:center; gap:14px">
       <img src="assets/img/characters/grumpy-cat-character-sheet.png" alt="Grumpy Cat" style="width:88px;height:88px;object-fit:contain;border-radius:16px;background:#fff" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🐱',style:'font-size:3.5rem'}))">
-      <div><b>Grumpy Cat 🐱</b><div style="font-size:.85rem;color:#6b7a99">แมวหน้าบึ้งแต่จริงๆ ใจดี บางทีก็มาแซวๆ แต่จะคอยเชียร์อยู่ห่างๆ เสมอ</div></div>
+      <div><b>Grumpy Cat 🐱</b><div style="font-size:.85rem;color:#57678a">แมวหน้าบึ้งแต่จริงๆ ใจดี บางทีก็มาแซวๆ แต่จะคอยเชียร์อยู่ห่างๆ เสมอ</div></div>
     </div>
   </div>
 </div>
