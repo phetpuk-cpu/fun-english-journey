@@ -141,6 +141,13 @@ function selectProfile(profile) {
   speak("สวัสดี น้อง" + state.name + " ยินดีต้อนรับกลับมาผจญภัย!","th-TH");
   goMap();
 }
+function logout(){
+  stopAllAudio();
+  activeProfile = null;
+  state.id = null; state.name = "เพื่อน"; state.avatar = "🦁"; state.xp = 0; state.stars = {};
+  refreshProfilesList();
+  show("scr-welcome");
+}
 
 function showCreateForm() {
   document.getElementById("profiles-box").style.display = "none";
