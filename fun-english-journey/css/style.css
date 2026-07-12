@@ -9,8 +9,8 @@ body{margin:0; font-family:'Mali','Comic Sans MS',sans-serif; background:var(--s
 .screen.active{display:block; animation:pop .3s ease;}
 @keyframes pop{from{opacity:0; transform:scale(.97);} to{opacity:1; transform:scale(1);}}
 h1,h2{font-family:'Baloo 2','Mali',sans-serif;}
-h1{font-size:1.9rem; margin:.4em 0;}
-h2{font-size:1.4rem; margin:.4em 0;}
+h1{font-size:clamp(1.9rem,1.6rem + 1vw,2.3rem); margin:.4em 0;}
+h2{font-size:clamp(1.4rem,1.2rem + .6vw,1.6rem); margin:.4em 0;}
 .center{text-align:center;}
 .btn{font-family:inherit; font-size:1.1rem; font-weight:700; border:none; border-radius:20px;
   padding:14px 22px; cursor:pointer; box-shadow:var(--shadow); transition:transform .1s; color:var(--white); background:var(--blue); width:100%; margin:6px 0;}
@@ -101,3 +101,16 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 body.reduce-motion *,body.reduce-motion *::before,body.reduce-motion *::after{animation:none!important; transition:none!important;}
 @media (max-width:390px){.settings-actions{grid-template-columns:1fr;}.tab-row{overflow-x:auto;}.tab{min-width:72px;}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important; transition:none!important;}}
+
+/* ================= RESPONSIVE: tablet/desktop ใช้พื้นที่ให้คุ้มขึ้น =================
+   welcome/settings/characters คง max-width:520px เดิมไว้เสมอ (ฟอร์ม/ข้อความอ่านง่ายกว่าถ้าไม่กว้างเกิน)
+   map/lesson ขยายกว้างขึ้นตามจอ, #map-list เปลี่ยนเป็น grid หลายคอลัมน์บนจอกว้าง */
+@media (min-width:768px){
+  #scr-map, #scr-lesson{max-width:820px;}
+  #map-list{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; align-items:start;}
+  #map-list .unit-head{grid-column:1/-1;}
+}
+@media (min-width:1024px){
+  #scr-map, #scr-lesson{max-width:1080px;}
+  #map-list{grid-template-columns:repeat(auto-fill,minmax(320px,1fr));}
+}
