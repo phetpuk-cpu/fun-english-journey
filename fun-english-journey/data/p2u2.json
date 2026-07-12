@@ -593,7 +593,8 @@
           ],
           "a": 0
         }
-      ]
+      ],
+      "questionBuild": {"sentence":"What time do you get up","th":"เธอตื่นนอนกี่โมง"}
     }
   ]
 }

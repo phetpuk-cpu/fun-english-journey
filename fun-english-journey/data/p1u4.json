@@ -103,7 +103,8 @@
         {"q":"'อยู่หน้า' คือ...","c":["in front of","behind","under"],"a":0},
         {"q":"🔼 คือ...","c":["up","down","in"],"a":0},
         {"q":"The ball is ___ the tree. (ใต้)","c":["under","on","in"],"a":0}
-      ]
+      ],
+      "questionBuild": {"sentence":"Where is the ball","th":"ลูกบอลอยู่ที่ไหน"}
     },
     {
       "id": "p1u4l4",

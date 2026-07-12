@@ -69,7 +69,8 @@
         {"q":"0️⃣ คือ...","c":["none","some","any"],"a":0},
         {"q":"👌 คือ...","c":["enough","a little","none"],"a":0},
         {"q":"___ apples do you have? (กี่ลูก, นับได้)","c":["How many","How much","How"],"a":0}
-      ]
+      ],
+      "questionBuild": {"sentence":"How many apples do you have","th":"เธอมีแอปเปิลกี่ลูก"}
     },
     {
       "id": "p5u3l3",

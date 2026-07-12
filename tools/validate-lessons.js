@@ -72,6 +72,13 @@ function checkLesson(file, l, idx) {
       if (typeof t.a !== "number" || !t.c || t.a < 0 || t.a >= t.c.length) fail(file, `${where}.transform[${i}].a ต้องเป็น index ที่ถูกต้องใน c`);
     });
   }
+
+  if (l.questionBuild !== undefined) {
+    checkString(file, `${where}.questionBuild.sentence`, l.questionBuild.sentence);
+    checkString(file, `${where}.questionBuild.th`, l.questionBuild.th);
+    if (l.questionBuild.sentence && /[.?!]$/.test(l.questionBuild.sentence.trim()))
+      fail(file, `${where}.questionBuild.sentence ไม่ควรมีเครื่องหมาย .?! ต่อท้าย (engine เติม ? ให้เองตอนพูด/แสดงผล)`);
+  }
 }
 
 for (const grade of GRADES) {

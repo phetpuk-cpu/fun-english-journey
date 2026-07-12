@@ -69,7 +69,8 @@
         {"q":"'เต่า' คือ...","c":["turtle","rabbit","fish"],"a":0},
         {"q":"🐹 คือ...","c":["hamster","rabbit","puppy"],"a":0},
         {"q":"'ลูกหมา' คือ...","c":["puppy","dog","cat"],"a":0}
-      ]
+      ],
+      "questionBuild": {"sentence":"Do you have a pet","th":"เธอมีสัตว์เลี้ยงไหม"}
     },
     {
       "id": "p1u7l3",

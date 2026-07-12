@@ -137,7 +137,8 @@
         {"q":"'ให้ยืม' คือ...","c":["lend","borrow","share"],"a":0},
         {"q":"🤝 คือ...","c":["share","lend","borrow"],"a":0},
         {"q":"Can I ___ your gloves? (ยืม)","c":["borrow","lend","keep"],"a":0}
-      ]
+      ],
+      "questionBuild": {"sentence":"Is this bag yours","th":"กระเป๋าใบนี้เป็นของเธอไหม"}
     }
   ]
 }

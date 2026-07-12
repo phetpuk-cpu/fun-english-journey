@@ -137,7 +137,8 @@
         {"q":"🥵 กระหายน้ำคือ...","c":["thirsty","hungry","full"],"a":0},
         {"q":"🤝 คือ...","c":["share","eat","drink"],"a":0},
         {"q":"'กิน' คือ...","c":["eat","drink","share"],"a":0}
-      ]
+      ],
+      "questionBuild": {"sentence":"What do you like","th":"เธอชอบอะไร"}
     }
   ]
 }

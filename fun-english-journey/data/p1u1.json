@@ -69,7 +69,8 @@
         {"q":"What's this? It's a ___. (เก้าอี้)","c":["chair","desk","bin"],"a":0},
         {"q":"🗑️ คือ...","c":["bin","box","bag"],"a":0},
         {"q":"'กำแพง' คือ...","c":["wall","window","door"],"a":0}
-      ]
+      ],
+      "questionBuild": {"sentence":"What is this","th":"นี่คืออะไร"}
     },
     {
       "id": "p1u1l3",

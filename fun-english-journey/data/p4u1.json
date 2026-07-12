@@ -149,7 +149,8 @@
           ],
           "a": 0
         }
-      ]
+      ],
+      "questionBuild": {"sentence":"Where are you from","th":"เธอมาจากไหน"}
     },
     {
       "id": "p4u1l2",

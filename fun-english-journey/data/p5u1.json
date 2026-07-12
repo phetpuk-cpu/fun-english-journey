@@ -78,6 +78,7 @@
         {"q":"📋 คือ...","c":["routine","schedule","often"],"a":0},
         {"q":"I practice ___ a week. (สามครั้ง)","c":["three times","once","twice"],"a":0}
       ],
+      "questionBuild": {"sentence":"How often do you practice","th":"เธอฝึกซ้อมบ่อยแค่ไหน"},
       "transform": [
         {"base":"I practice three times a week.","baseTh":"ฉันฝึกซ้อมสัปดาห์ละสามครั้ง","task":"negative",
          "c":["I don't practice three times a week.", "I not practice three times a week.", "I doesn't practice three times a week."],"a":0},

@@ -445,7 +445,8 @@
           ],
           "a": 0
         }
-      ]
+      ],
+      "questionBuild": {"sentence":"Where is the hospital","th":"โรงพยาบาลอยู่ที่ไหน"}
     },
     {
       "id": "p3u5l4",

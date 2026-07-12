@@ -70,6 +70,7 @@
         {"q":"🚁 คือ...","c":["drone","self-driving car","wearable device"],"a":0},
         {"q":"In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0}
       ],
+      "questionBuild": {"sentence":"How will we live in the future","th":"ในอนาคตเราจะใช้ชีวิตกันอย่างไร"},
       "transform": [
         {"base":"Cars will drive themselves.","baseTh":"รถจะขับเคลื่อนได้เอง","task":"negative",
          "c":["Cars won't drive themselves.", "Cars will not drives themselves.", "Cars don't will drive themselves."],"a":0},

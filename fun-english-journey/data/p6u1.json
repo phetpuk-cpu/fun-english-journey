@@ -36,6 +36,7 @@
         {"q":"🐾 (สัตวแพทย์) คือ...","c":["vet","doctor","scientist"],"a":0},
         {"q":"I am ___ to be a doctor. (จะ)","c":["going","go","went"],"a":0}
       ],
+      "questionBuild": {"sentence":"What are you going to be","th":"เธอจะเป็นอะไร"},
       "transform": [
         {"base":"I am going to be a doctor.","baseTh":"ฉันจะเป็นหมอ","task":"negative",
          "c":["I am not going to be a doctor.", "I amn't going to be a doctor.", "I don't going to be a doctor."],"a":0},

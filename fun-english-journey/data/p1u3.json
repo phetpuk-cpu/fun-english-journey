@@ -137,7 +137,8 @@
         {"q":"[ทบทวน] ⚽ คือ...","c":["ball","doll","kite"],"a":0},
         {"q":"It's ___. (ของฉันเอง)","c":["mine","my","I"],"a":0},
         {"q":"'ของเล่น' คือ...","c":["toy","game","doll"],"a":0}
-      ]
+      ],
+      "questionBuild": {"sentence":"Whose ball is this","th":"ลูกบอลนี้ของใคร"}
     }
   ]
 }

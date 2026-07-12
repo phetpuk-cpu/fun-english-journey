@@ -462,6 +462,7 @@
           "a": 0
         }
       ],
+      "questionBuild": {"sentence":"Can a bird fly","th":"นกบินได้ไหม"},
       "transform": [
         {"base":"A bird can fly.","baseTh":"นกบินได้","task":"negative",
          "c":["A bird can't fly.", "A bird cannot flies.", "A bird doesn't can fly."],"a":0},

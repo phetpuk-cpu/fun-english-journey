@@ -36,6 +36,7 @@
         {"q":"🛠️ (past participle ของ make) คือ...","c":["made","done","read"],"a":0},
         {"q":"Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0}
       ],
+      "questionBuild": {"sentence":"Have you ever been to Japan","th":"เธอเคยไปญี่ปุ่นไหม"},
       "transform": [
         {"base":"You have been to Japan.","baseTh":"เธอเคยไปญี่ปุ่น","task":"question",
          "c":["Have you been to Japan?", "Did you have been to Japan?", "You have been to Japan?"],"a":0},

@@ -463,6 +463,7 @@ function startLesson(id){
     ...listenTargets.map(v=>({type:"listen", item:v})),
     {type:"match"},
     {type:"build"},
+    ...(L.questionBuild ? [{type:"question-build"}] : []),
     ...L.speak.map((s,i)=>({type:"speak", idx:i})),
     ...L.quiz.map((q,i)=>({type:"quiz", idx:i})),
     ...(L.transform||[]).map((t,i)=>({type:"transform", idx:i})),
@@ -616,6 +617,41 @@ function render(){
     draw();
   }
 
+  else if(st.type==="question-build"){
+    const target = L.questionBuild.sentence.replace(/[.?!]/g,"");
+    const words = target.split(" ");
+    const shuffled = [...words].map((w,i)=>({w,i})).sort(()=>Math.random()-.5);
+    let answer = [];
+    stage.innerHTML = `
+      <div class="bubble"><b>Ask It! ❓</b><div class="th">เรียงคำให้เป็นประโยคคำถาม: "${L.questionBuild.th}"</div></div>
+      <div class="card">
+        <div class="chip-zone" id="qanswer-zone"></div>
+        <div class="chip-zone" id="qbank-zone" style="border-style:solid;border-color:transparent;background:transparent"></div>
+        <div class="feedback" id="qbuild-fb"></div>
+        <button class="btn green" id="qbuild-check">ตรวจคำตอบ ✔️</button>
+      </div>`;
+    const bank = document.getElementById("qbank-zone"), zone = document.getElementById("qanswer-zone");
+    function draw(){
+      zone.innerHTML = answer.map((s,i)=>`<button class="chip in-answer" data-i="${i}">${s.w}</button>`).join("");
+      bank.innerHTML = shuffled.filter(s=>!answer.includes(s)).map((s)=>`<button class="chip" data-si="${s.i}">${s.w}</button>`).join("");
+      zone.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{ answer.splice(+c.dataset.i,1); draw(); });
+      bank.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{
+        const s = shuffled.find(x=>x.i===+c.dataset.si && !answer.includes(x));
+        if(s) answer.push(s); draw();
+      });
+    }
+    document.getElementById("qbuild-check").onclick = ()=>{
+      if(answer.map(s=>s.w).join(" ") === target){
+        document.getElementById("qbuild-fb").textContent = "🎉 ถามเก่งมาก! "+L.questionBuild.sentence+"?";
+        addXp(5); speak(L.questionBuild.sentence+"?","en-US");
+        setTimeout(next, 1600);
+      }else{
+        document.getElementById("qbuild-fb").textContent = "ยังไม่ถูก ลองสลับดูใหม่นะ 💪";
+      }
+    };
+    draw();
+  }
+
   else if(st.type==="speak"){
     const item = L.speak[st.idx];
     const audioFile = `${L.id}-speak-${String(st.idx+1).padStart(2,"0")}.mp3`;
@@ -693,7 +729,7 @@ function render(){
 
   else if(st.type==="result"){
     const L2 = getLesson(state.lessonId);
-    const max = 10 + 6 + 8 + 5 + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
+    const max = 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
     const ratio = state.lessonXp / max;
     const stars = ratio>=.8?3:ratio>=.5?2:1;
     state.xp += state.lessonXp;

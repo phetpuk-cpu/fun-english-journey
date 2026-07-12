@@ -78,6 +78,7 @@
         {"q":"⏰ คือ...","c":["free time","busy","plan"],"a":0},
         {"q":"What ___ you going to do? (จะ)","c":["are","is","will"],"a":0}
       ],
+      "questionBuild": {"sentence":"What are you going to do","th":"เธอจะทำอะไร"},
       "transform": [
         {"base":"I am going to invite my friends.","baseTh":"ฉันจะชวนเพื่อนๆ มา","task":"negative",
          "c":["I am not going to invite my friends.", "I amn't going to invite my friends.", "I don't going to invite my friends."],"a":0},

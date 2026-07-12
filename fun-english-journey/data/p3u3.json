@@ -297,7 +297,8 @@
           ],
           "a": 0
         }
-      ]
+      ],
+      "questionBuild": {"sentence":"How much is it","th":"ราคาเท่าไหร่"}
     },
     {
       "id": "p3u3l3",
