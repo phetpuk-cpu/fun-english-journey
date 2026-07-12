@@ -312,7 +312,9 @@ function hydrateImages(){
   document.querySelectorAll("#stage [data-img]").forEach(el=>{
     if(el.dataset.hydrated) return;
     el.dataset.hydrated = "1";
-    const candidates = [el.dataset.img, el.dataset.imgAlt].filter(Boolean);
+    const bases = [el.dataset.img, el.dataset.imgAlt].filter(Boolean);
+    /* ลอง .webp ก่อน (เบากว่า png มาก) แล้วค่อย fallback ไป .png เดิมถ้าไม่มีไฟล์ webp */
+    const candidates = bases.flatMap(f => [f.replace(/\.png$/i, ".webp"), f]);
     (function tryNext(i){
       if(i>=candidates.length) return; /* ไม่มีไฟล์จริงที่ path ไหนเลย — ปล่อย emoji เดิมไว้ */
       const img = new Image();
@@ -321,6 +323,11 @@ function hydrateImages(){
       img.src = "assets/img/"+candidates[i];
     })(0);
   });
+}
+/* ใช้กับ <img> นอก #stage เช่นหน้า Characters — ลอง .webp ก่อน แล้วค่อย .png แล้วค่อย emoji */
+function charImgFallback(img, emoji){
+  if(/\.webp$/i.test(img.src)){ img.src = img.src.replace(/\.webp$/i, ".png"); return; }
+  img.replaceWith(Object.assign(document.createElement("span"), {textContent: emoji, style: "font-size:3.5rem"}));
 }
 function playAudio(filename, fallbackText, fallbackLang, options={}){
   AudioManager.playMain(filename, fallbackText, fallbackLang, options);
@@ -714,6 +721,14 @@ function similarity(a,b){
   ta.forEach(w=>{ if(tb.includes(w)) hit++; });
   return Math.round(hit/ta.length*100);
 }
+function recordSpeakingAttempt(target, score){
+  if(!activeProfile) return;
+  if(!Array.isArray(activeProfile.speakingStats)) activeProfile.speakingStats = [];
+  activeProfile.speakingStats.push({ lessonId: state.lessonId, target, score, at: Date.now() });
+  /* เก็บแค่ 200 ครั้งล่าสุดต่อโปรไฟล์ กันข้อมูลบวมไม่มีที่สิ้นสุด */
+  if(activeProfile.speakingStats.length > 200) activeProfile.speakingStats = activeProfile.speakingStats.slice(-200);
+  db.saveProfile(activeProfile).catch(console.error);
+}
 function setupSpeech(target){
   const mic = document.getElementById("mic");
   const fb = document.getElementById("speak-fb");
@@ -740,6 +755,7 @@ function setupSpeech(target){
     else if(best>=50){ fb.innerHTML = `👍 ดีมาก! ตรง <b>${best}%</b> ของคำ (ระบบได้ยิน: "${heard}")<br>สำเนียงแต่ละคนต่างกันได้นะ จะอัดใหม่หรือไปต่อก็ได้`; addXp(6); playSfx("star"); }
     else { fb.innerHTML = `💪 เก่งมากที่ลองพูด! (ระบบได้ยิน: "${heard||"—"}")<br>กด 🔊 ต้นแบบ ฟังช้าๆ แล้วลองอีกครั้ง — พูดได้ก็ได้ดาวนะ`; addXp(3); playSfx("star"); }
     skip.style.display="block";
+    recordSpeakingAttempt(target, best);
   }
 
   async function startRecording(){

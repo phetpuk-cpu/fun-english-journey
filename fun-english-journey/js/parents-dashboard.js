@@ -32,6 +32,13 @@ function profileLessonCount(profile){
   return Object.keys(profile.stars||{}).length;
 }
 
+function profileSpeakingAverage(profile){
+  const stats = profile.speakingStats||[];
+  if(!stats.length) return null;
+  const sum = stats.reduce((total,s)=>total+(Number(s.score)||0),0);
+  return Math.round(sum/stats.length);
+}
+
 function createMetric(label,value,className){
   const item=document.createElement("div"); item.className=`profile-mini-metric ${className}`;
   const val=document.createElement("strong"); val.textContent=value;
@@ -56,6 +63,8 @@ function renderProfiles(profiles){
     copy.append(name,note); identity.append(avatar,copy);
     const metrics=document.createElement("div"); metrics.className="profile-mini-metrics";
     metrics.append(createMetric("XP",String(Number(profile.xp)||0),"mini-xp"),createMetric("ดาว",String(countProfileStars(profile)),"mini-stars"),createMetric("บท",String(profileLessonCount(profile)),"mini-lessons"));
+    const speakingAvg = profileSpeakingAverage(profile);
+    if(speakingAvg!==null) metrics.append(createMetric("พูดตรง",`${speakingAvg}%`,"mini-speaking"));
     card.append(identity,metrics); list.appendChild(card);
   });
 }
