@@ -38,7 +38,12 @@
     <button class="btn yellow" id="btn-start" onclick="startApp()" disabled>⏳ กำลังโหลดบทเรียน...</button>
     <button class="btn ghost" id="btn-cancel-create" onclick="showProfilesList()" style="display:none; margin-top:10px">ยกเลิก ✖</button>
   </div>
-  <p class="note">ข้อมูลบันทึกในอุปกรณ์นี้ออฟไลน์ด้วย IndexedDB</p>
+  <p class="note">ชื่อเล่น ดาว และความก้าวหน้าจะบันทึกไว้ในอุปกรณ์นี้</p>
+  <nav class="info-links" aria-label="ข้อมูลและความช่วยเหลือ">
+    <a href="parents.html">👨‍👩‍👧 สำหรับผู้ปกครอง</a>
+    <a href="privacy.html">🔒 ความเป็นส่วนตัว</a>
+    <a href="help.html">❓ วิธีใช้และแก้ปัญหา</a>
+  </nav>
 </div>
 
 <!-- ============ SCREEN: MAP ============ -->
@@ -48,6 +53,7 @@
     <div style="flex:1"><b id="map-name">เพื่อน</b><div style="font-size:.8rem;color:#6b7a99">นักผจญภัยฝึกหัด</div></div>
     <span class="xp-pill">💎 <span id="xp-total">0</span> XP</span>
     <button class="back" onclick="show('scr-characters')" title="รู้จักเพื่อนๆ" style="font-size:1.3rem">👥</button>
+    <button class="back" onclick="openSettings()" title="ตั้งค่าเสียงและไมโครโฟน" aria-label="ตั้งค่าเสียงและไมโครโฟน" style="font-size:1.3rem">⚙️</button>
   </div>
   <div class="tab-row">
     <button class="tab" data-g="p1">🌻 ป.1</button>
@@ -58,6 +64,37 @@
     <button class="tab" data-g="p6">🚀 ป.6</button>
   </div>
   <div id="map-list"></div>
+</div>
+
+<!-- ============ SCREEN: SETTINGS ============ -->
+<div class="screen" id="scr-settings">
+  <div class="topbar">
+    <button class="back" onclick="closeSettings()" aria-label="กลับหน้าก่อนหน้า">←</button>
+    <div style="flex:1"><b>ตั้งค่าเสียงและไมโครโฟน ⚙️</b></div>
+  </div>
+  <div class="card settings-card">
+    <h2>🔊 เสียง</h2>
+    <label class="setting-row" for="set-master"><span>เสียงทั้งหมด <output id="out-master">100%</output></span><input id="set-master" type="range" min="0" max="100" step="5"></label>
+    <label class="setting-row" for="set-speech"><span>เสียงบทเรียน <output id="out-speech">100%</output></span><input id="set-speech" type="range" min="0" max="100" step="5"></label>
+    <label class="setting-row" for="set-sfx"><span>เสียงเอฟเฟกต์ <output id="out-sfx">70%</output></span><input id="set-sfx" type="range" min="0" max="100" step="5"></label>
+    <label class="toggle-row"><span>เล่นเสียงบทเรียนอัตโนมัติ</span><input id="set-autoplay" type="checkbox"></label>
+    <label class="setting-row" for="set-rate"><span>ความเร็วเสียงพูด</span><select id="set-rate"><option value="slow">ช้า</option><option value="normal">ปกติ</option></select></label>
+    <button class="btn yellow" id="test-sound">▶️ ทดสอบเสียง</button>
+  </div>
+  <div class="card settings-card">
+    <h2>🎙️ ทดสอบไมโครโฟน</h2>
+    <p class="th">เสียงใช้ทดสอบในหน้านี้และไม่บันทึกลงโปรไฟล์ เบราว์เซอร์อาจใช้บริการรู้จำเสียงของผู้ผลิตอุปกรณ์</p>
+    <div class="mic-status" id="mic-test-status" role="status" aria-live="polite">ยังไม่ได้ทดสอบ</div>
+    <div class="mic-meter" aria-label="ระดับเสียงไมโครโฟน"><div id="mic-meter-fill"></div></div>
+    <div class="settings-actions"><button class="btn green" id="mic-test-start">🎙️ เริ่มทดสอบ</button><button class="btn ghost" id="mic-test-stop" disabled>⏹ หยุด</button></div>
+    <button class="btn" id="mic-test-play" disabled>▶️ ฟังเสียงทดสอบ</button>
+    <div id="mic-capability" class="capability-list"></div>
+    <p class="note">หาก Safari ไม่รู้จำคำพูด ให้ตรวจว่าเปิด Siri แล้ว การอัดเสียงอาจยังทำงานได้แม้ระบบให้คะแนนเสียงไม่พร้อม</p>
+  </div>
+  <div class="card settings-card">
+    <h2>♿ การแสดงผล</h2>
+    <label class="toggle-row"><span>ลดภาพเคลื่อนไหว</span><input id="set-motion" type="checkbox"></label>
+  </div>
 </div>
 
 <!-- ============ SCREEN: CHARACTERS ============ -->
@@ -92,6 +129,7 @@
     <button class="back" onclick="goMap()">🏠</button>
     <div class="progress-track"><div class="progress-fill" id="lesson-progress"></div></div>
     <span class="xp-pill">💎 <span id="xp-lesson">0</span></span>
+    <button class="back" onclick="openSettings()" aria-label="ตั้งค่าเสียงและไมโครโฟน">⚙️</button>
   </div>
   <div class="step-label" id="step-label"></div>
   <div id="stage"></div>

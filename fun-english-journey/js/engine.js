@@ -170,16 +170,97 @@ function nextLessonId(id){
   return null;
 }
 
-/* ================= AUDIO (TTS placeholder until real voice files) ================= */
-function speak(text, lang){
+/* ================= AUDIO SETTINGS + CENTRAL AUDIO MANAGER ================= */
+const DEFAULT_AUDIO_SETTINGS = { master:1, speech:1, sfx:.7, autoplay:true, rate:"slow", reduceMotion:false };
+function loadAudioSettings(){
+  try { return {...DEFAULT_AUDIO_SETTINGS, ...JSON.parse(localStorage.getItem("fejAudioSettings") || "{}")}; }
+  catch(e){ return {...DEFAULT_AUDIO_SETTINGS}; }
+}
+const audioSettings = loadAudioSettings();
+function saveAudioSettings(){
+  localStorage.setItem("fejAudioSettings", JSON.stringify(audioSettings));
+  document.body.classList.toggle("reduce-motion", !!audioSettings.reduceMotion);
+}
+function audioVolume(channel){ return Math.max(0, Math.min(1, audioSettings.master * audioSettings[channel])); }
+
+const AudioManager = {
+  main:null, self:null, sfx:new Set(), mediaStream:null, token:0, fallbackTimer:null,
+  stopElement(audio){
+    if(!audio) return;
+    try { audio.pause(); audio.removeAttribute("src"); audio.load(); } catch(e){}
+  },
+  stopPlayback(){
+    this.token++;
+    if(this.fallbackTimer){ clearTimeout(this.fallbackTimer); this.fallbackTimer = null; }
+    if("speechSynthesis" in window) speechSynthesis.cancel();
+    this.stopElement(this.main); this.main = null;
+    this.stopElement(this.self); this.self = null;
+    this.sfx.forEach(a=>this.stopElement(a)); this.sfx.clear();
+  },
+  stopCapture(){
+    if(this.mediaStream){ this.mediaStream.getTracks().forEach(t=>t.stop()); this.mediaStream = null; }
+  },
+  stopAll(){ this.stopPlayback(); this.stopCapture(); },
+  playMain(filename, fallbackText, fallbackLang, options={}){
+    this.stopPlayback();
+    if(options.autoplay && !audioSettings.autoplay) return;
+    const token = this.token;
+    if(!filename){ speak(fallbackText, fallbackLang, token); return; }
+    const audio = new Audio(`assets/audio/${filename}`);
+    this.main = audio; // เก็บทันที เพื่อให้เปลี่ยนหน้าระหว่างโหลดแล้วหยุดได้
+    audio.preload = "auto";
+    audio.volume = audioVolume("speech");
+    let settled = false;
+    const fallback = ()=>{
+      if(settled || token !== this.token || this.main !== audio) return;
+      settled = true; this.stopElement(audio); this.main = null;
+      speak(fallbackText, fallbackLang, token);
+    };
+    const begin = ()=>{
+      if(settled || token !== this.token || this.main !== audio) return;
+      if(this.fallbackTimer){ clearTimeout(this.fallbackTimer); this.fallbackTimer=null; }
+      audio.play().then(()=>{ settled=true; }).catch(err=>{
+        if(err && err.name === "NotAllowedError"){
+          settled=true; this.stopElement(audio); this.main=null;
+          showAudioNotice("Safari ปิดการเล่นอัตโนมัติ กรุณาแตะปุ่ม 🔊 เพื่อฟัง");
+        }else fallback();
+      });
+    };
+    audio.addEventListener("canplay", begin, {once:true});
+    audio.addEventListener("error", fallback, {once:true});
+    audio.addEventListener("ended", ()=>{ if(this.main===audio) this.main=null; }, {once:true});
+    audio.load();
+    this.fallbackTimer = setTimeout(fallback, 5000);
+  },
+  playSfx(name){
+    if(audioVolume("sfx") <= 0) return;
+    try{
+      const a = new Audio(`assets/audio/sfx-${name}.wav`);
+      a.volume = audioVolume("sfx"); this.sfx.add(a);
+      const cleanup = ()=>this.sfx.delete(a);
+      a.addEventListener("ended", cleanup, {once:true}); a.addEventListener("error", cleanup, {once:true});
+      a.play().catch(cleanup);
+    }catch(e){}
+  }
+};
+
+let currentAudio = null, mediaStream = null; // compatibility aliases for lesson speech code
+function syncAudioAliases(){ currentAudio = AudioManager.main; mediaStream = AudioManager.mediaStream; }
+function showAudioNotice(message){
+  const feedback = document.querySelector("#stage .feedback");
+  if(feedback && !feedback.textContent) feedback.textContent = message;
+}
+function speak(text, lang, token=AudioManager.token){
   try{
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = lang; u.rate = lang.startsWith("en") ? 0.75 : 0.65;
+    u.lang = lang;
+    u.rate = audioSettings.rate === "normal" ? 1 : (lang.startsWith("en") ? 0.75 : 0.65);
+    u.volume = audioVolume("speech");
     const voices = speechSynthesis.getVoices();
     const v = voices.find(v=>v.lang && v.lang.startsWith(lang.split("-")[0]));
     if(v) u.voice = v;
-    speechSynthesis.speak(u);
+    if(token === AudioManager.token) speechSynthesis.speak(u);
   }catch(e){}
 }
 if("speechSynthesis" in window){
@@ -187,11 +268,8 @@ if("speechSynthesis" in window){
   speechSynthesis.onvoiceschanged = ()=>speechSynthesis.getVoices();
 }
 
-let currentAudio = null, mediaStream = null;
 function stopAllAudio(){
-  speechSynthesis.cancel();
-  if(currentAudio){ currentAudio.pause(); currentAudio = null; }
-  if(mediaStream){ mediaStream.getTracks().forEach(t=>t.stop()); mediaStream = null; }
+  AudioManager.stopAll(); syncAudioAliases();
 }
 
 /* ================= ASSET RESOLUTION — real file ถ้ามี / fallback emoji+TTS ถ้าไม่มี =================
@@ -223,19 +301,9 @@ function hydrateImages(){
     })(0);
   });
 }
-function playAudio(filename, fallbackText, fallbackLang){
-  stopAllAudio();
-  if(!filename){ speak(fallbackText, fallbackLang); return; }
-  const audio = new Audio(`assets/audio/${filename}`);
-  let handled = false;
-  const useFallback = ()=>{ if(handled) return; handled = true; speak(fallbackText, fallbackLang); };
-  audio.addEventListener("canplaythrough", ()=>{
-    if(handled) return; handled = true;
-    currentAudio = audio; audio.play().catch(useFallback);
-  }, {once:true});
-  audio.addEventListener("error", useFallback, {once:true});
-  audio.load();
-  setTimeout(useFallback, 1200);
+function playAudio(filename, fallbackText, fallbackLang, options={}){
+  AudioManager.playMain(filename, fallbackText, fallbackLang, options);
+  syncAudioAliases();
 }
 document.addEventListener("click", e=>{
   const b = e.target.closest("[data-say]");
@@ -245,15 +313,23 @@ document.addEventListener("click", e=>{
 
 /* sfx-*.wav ไม่มี fallback (ไม่ใช่เสียงพูด ไม่มีอะไรให้ TTS แทน) เงียบไปเฉยๆ ถ้ายังไม่มีไฟล์ */
 function playSfx(name){
-  try{
-    const a = new Audio(`assets/audio/sfx-${name}.wav`);
-    a.volume = 0.7;
-    a.play().catch(()=>{});
-  }catch(e){}
+  AudioManager.playSfx(name);
 }
 
 /* ================= NAVIGATION ================= */
-function show(id){ document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active")); document.getElementById(id).classList.add("active"); window.scrollTo(0,0); }
+let settingsReturnScreen = "scr-map";
+function show(id){
+  stopAllAudio();
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
+  document.getElementById(id).classList.add("active"); window.scrollTo(0,0);
+}
+function openSettings(){
+  settingsReturnScreen = document.querySelector(".screen.active")?.id || "scr-map";
+  syncSettingsUi(); updateMicCapability(); show("scr-settings");
+}
+function closeSettings(){ stopMicTest(); show(settingsReturnScreen); }
+document.addEventListener("visibilitychange", ()=>{ if(document.hidden){ stopMicTest(); stopAllAudio(); } });
+window.addEventListener("pagehide", stopAllAudio);
 document.querySelectorAll("#avatar-row .avatar").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("#avatar-row .avatar").forEach(x=>x.classList.remove("selected"));
   b.classList.add("selected"); state.avatar=b.textContent;
@@ -351,7 +427,7 @@ function render(){
         <p>📖 ศัพท์ → 🎧 ฟังเลือก → 🎮 จับคู่ → 🧩 เรียงประโยค → 🎤 พูด → ⭐ ควิซ</p>
         <button class="btn yellow" onclick="next()">เริ่มเลย!</button>
       </div>`;
-    playAudio(`${L.id}-intro-en.mp3`, L.intro.en, "en-US");
+    playAudio(`${L.id}-intro-en.mp3`, L.intro.en, "en-US", {autoplay:true});
   }
 
   else if(st.type==="vocab"){
@@ -381,7 +457,7 @@ function render(){
         ${options.map(o=>`<button class="pick-item" data-w="${o.w}">${vocabImgSlot(L.id, o)}</button>`).join("")}
       </div>
       <div class="feedback" id="listen-fb"></div>`;
-    playAudio(`${L.id}-vocab-${slug(answer.w)}-en.mp3`, answer.w, "en-US");
+    playAudio(`${L.id}-vocab-${slug(answer.w)}-en.mp3`, answer.w, "en-US", {autoplay:true});
     document.querySelectorAll(".pick-item").forEach(el=>{
       el.onclick=()=>{
         if(el.dataset.w===answer.w){
@@ -487,7 +563,7 @@ function render(){
         <button class="btn ghost" id="speak-skip" onclick="next()" style="display:none">ต่อไป ➜</button>
       </div>`;
     setupSpeech(item.t);
-    playAudio(audioFile, item.t, "en-US");
+    playAudio(audioFile, item.t, "en-US", {autoplay:true});
   }
 
   else if(st.type==="quiz"){
@@ -601,10 +677,9 @@ function setupSpeech(target){
 
   playSelf.onclick = ()=>{
     if(!myVoiceUrl) return;
-    speechSynthesis.cancel();
-    if(currentAudio) currentAudio.pause();
-    currentAudio = new Audio(myVoiceUrl);
-    currentAudio.play();
+    AudioManager.stopPlayback();
+    const a = new Audio(myVoiceUrl); a.volume = audioVolume("speech"); AudioManager.self = a;
+    a.play().catch(()=>{ fb.textContent="Safari ไม่อนุญาตให้เล่นเสียง กรุณาแตะ ▶️ อีกครั้ง"; });
   };
 
   function finishScore(best, heard){
@@ -620,14 +695,22 @@ function setupSpeech(target){
 
   async function startRecording(){
     if(busy) return;
+    if(localStorage.getItem("fejMicConsent")!=="yes"){
+      const accepted = confirm("ไมโครโฟนใช้สำหรับฝึกพูดและฟังเสียงตนเอง เบราว์เซอร์อาจใช้บริการรู้จำเสียงของผู้ผลิตอุปกรณ์ หนูสามารถกดยกเลิกและข้ามกิจกรรมนี้ได้");
+      if(!accepted){ fb.textContent="ไม่ได้เปิดไมโครโฟน สามารถกด ต่อไป เพื่อข้ามกิจกรรมนี้"; skip.style.display="block"; return; }
+      localStorage.setItem("fejMicConsent","yes");
+    }
     busy = true;
     playSfx("record-start");
     speechSynthesis.cancel();
-    chunks = []; myVoiceUrl = null; playSelf.style.display="none";
+    chunks = [];
+    if(myVoiceUrl){ URL.revokeObjectURL(myVoiceUrl); myVoiceUrl=null; }
+    playSelf.style.display="none";
 
     if(canRecord){
       try{
-        mediaStream = await navigator.mediaDevices.getUserMedia({audio:true});
+        mediaStream = await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
+        AudioManager.mediaStream = mediaStream;
         recorder = new MediaRecorder(mediaStream);
         recorder.ondataavailable = e=>{ if(e.data.size) chunks.push(e.data); };
         recorder.onstop = ()=>{
@@ -637,10 +720,11 @@ function setupSpeech(target){
             fb.innerHTML += "<br>💾 อัดเสียงแล้ว! กด ▶️ ฟังได้เลย";
           }
           if(mediaStream){ mediaStream.getTracks().forEach(t=>t.stop()); mediaStream=null; }
+          AudioManager.mediaStream=null;
         };
         recorder.start();
       }catch(e){
-        fb.textContent = "เปิดไมค์ไม่ได้ ตรวจสอบการอนุญาตไมโครโฟนนะครับ 🙏";
+        fb.textContent = micErrorMessage(e);
         busy = false; skip.style.display="block"; return;
       }
     }
@@ -658,7 +742,11 @@ function setupSpeech(target){
         }
         finishScore(best, heard);
       };
-      rec.onerror = ()=>{ fb.textContent = "ไม่ได้ยินชัด ลองพูดดังๆ ใกล้ไมค์นะ 🎙️"; skip.style.display="block"; };
+      rec.onerror = ev=>{
+        const speechMessages={"not-allowed":"Safari ไม่อนุญาตระบบรู้จำเสียง กรุณาตรวจสิทธิ์ไมโครโฟนและเปิด Siri","audio-capture":"ระบบรู้จำเสียงไม่พบสัญญาณไมโครโฟน","no-speech":"ระบบไม่ได้ยินคำพูด ลองพูดใกล้ไมโครโฟนอีกครั้ง","network":"ระบบรู้จำเสียงเชื่อมต่อบริการไม่ได้ แต่อาจยังฟังเสียงที่อัดไว้ได้"};
+        fb.textContent = speechMessages[ev.error] || `ระบบรู้จำเสียงไม่พร้อม (${ev.error||"unknown"})`;
+        skip.style.display="block";
+      };
       rec.onend = ()=> stopRecording();
       try{ rec.start(); }catch(e){}
       setTimeout(()=>{ if(busy) stopRecording(); }, 6000);
@@ -677,13 +765,108 @@ function setupSpeech(target){
     mic.classList.remove("listening");
     if(rec){ try{ rec.stop(); }catch(e){} rec = null; }
     if(recorder && recorder.state !== "inactive") recorder.stop();
+    if(mediaStream && (!recorder || recorder.state === "inactive")){ mediaStream.getTracks().forEach(t=>t.stop()); mediaStream=null; AudioManager.mediaStream=null; }
   }
   mic.onclick = ()=>{ busy ? stopRecording() : startRecording(); };
+}
+
+/* ================= SETTINGS + MICROPHONE DIAGNOSTICS ================= */
+let micTestStream = null, micTestRecorder = null, micTestChunks = [], micTestUrl = null;
+let micTestContext = null, micTestFrame = null;
+function syncSettingsUi(){
+  const fields = {"set-master":audioSettings.master*100,"set-speech":audioSettings.speech*100,"set-sfx":audioSettings.sfx*100};
+  Object.entries(fields).forEach(([id,value])=>{ const el=document.getElementById(id); if(el) el.value=value; });
+  document.getElementById("set-autoplay").checked = !!audioSettings.autoplay;
+  document.getElementById("set-rate").value = audioSettings.rate;
+  document.getElementById("set-motion").checked = !!audioSettings.reduceMotion;
+  updateSettingsOutputs(); document.body.classList.toggle("reduce-motion", !!audioSettings.reduceMotion);
+}
+function updateSettingsOutputs(){
+  document.getElementById("out-master").textContent = Math.round(audioSettings.master*100)+"%";
+  document.getElementById("out-speech").textContent = Math.round(audioSettings.speech*100)+"%";
+  document.getElementById("out-sfx").textContent = Math.round(audioSettings.sfx*100)+"%";
+  if(AudioManager.main) AudioManager.main.volume = audioVolume("speech");
+}
+function bindSettings(){
+  [["set-master","master"],["set-speech","speech"],["set-sfx","sfx"]].forEach(([id,key])=>{
+    document.getElementById(id).addEventListener("input", e=>{ audioSettings[key]=+e.target.value/100; updateSettingsOutputs(); saveAudioSettings(); });
+  });
+  document.getElementById("set-autoplay").addEventListener("change", e=>{ audioSettings.autoplay=e.target.checked; saveAudioSettings(); });
+  document.getElementById("set-rate").addEventListener("change", e=>{ audioSettings.rate=e.target.value; saveAudioSettings(); });
+  document.getElementById("set-motion").addEventListener("change", e=>{ audioSettings.reduceMotion=e.target.checked; saveAudioSettings(); });
+  document.getElementById("test-sound").addEventListener("click", ()=>speak("Hello! เสียงทดสอบพร้อมแล้ว", "th-TH"));
+  document.getElementById("mic-test-start").addEventListener("click", startMicTest);
+  document.getElementById("mic-test-stop").addEventListener("click", stopMicTest);
+  document.getElementById("mic-test-play").addEventListener("click", ()=>{
+    if(!micTestUrl) return; AudioManager.stopPlayback();
+    const a = new Audio(micTestUrl); a.volume=audioVolume("speech"); AudioManager.self=a; a.play().catch(()=>setMicStatus("Safari ไม่อนุญาตให้เล่นเสียง กรุณาลองแตะอีกครั้ง"));
+  });
+}
+function micErrorMessage(err){
+  const messages = {
+    NotAllowedError:"ไม่ได้รับอนุญาตไมโครโฟน กรุณาเปิดสิทธิ์ Microphone ในการตั้งค่า Safari",
+    NotFoundError:"ไม่พบไมโครโฟนบนอุปกรณ์นี้",
+    NotReadableError:"ไมโครโฟนอาจถูกใช้งานโดยแอปอื่น กรุณาปิดแอปนั้นแล้วลองใหม่",
+    AbortError:"การเปิดไมโครโฟนถูกยกเลิก กรุณาลองใหม่",
+    SecurityError:"ต้องเปิดเว็บผ่าน HTTPS เพื่อใช้ไมโครโฟน",
+    OverconstrainedError:"อุปกรณ์ไม่รองรับการตั้งค่าไมโครโฟนที่ร้องขอ"
+  };
+  return messages[err?.name] || `เปิดไมโครโฟนไม่สำเร็จ${err?.name?` (${err.name})`:""}`;
+}
+function setMicStatus(text){ const el=document.getElementById("mic-test-status"); if(el) el.textContent=text; }
+async function updateMicCapability(){
+  const box=document.getElementById("mic-capability"); if(!box) return;
+  const secure=window.isSecureContext, media=!!navigator.mediaDevices?.getUserMedia;
+  const recorder=!!window.MediaRecorder, recognition=!!(window.SpeechRecognition||window.webkitSpeechRecognition);
+  let permission="ไม่ทราบ";
+  try{ if(navigator.permissions?.query) permission=(await navigator.permissions.query({name:"microphone"})).state; }catch(e){}
+  box.innerHTML=`<b>สถานะอุปกรณ์</b><br>${secure?"✅":"❌"} Secure connection<br>${media?"✅":"❌"} รับเสียงไมโครโฟน<br>${recorder?"✅":"❌"} อัดเสียง<br>${recognition?"✅":"⚠️"} รู้จำคำพูด${recognition?"":" (อัดเสียงได้ แต่ให้คะแนนอัตโนมัติไม่ได้)"}<br>สิทธิ์ไมโครโฟน: ${permission}`;
+}
+async function startMicTest(){
+  if(micTestStream) return;
+  setMicStatus("กำลังขออนุญาตไมโครโฟน…");
+  try{
+    if(!navigator.mediaDevices?.getUserMedia) throw Object.assign(new Error(),{name:window.isSecureContext?"NotSupportedError":"SecurityError"});
+    micTestStream = await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
+    AudioManager.mediaStream=micTestStream; syncAudioAliases(); micTestChunks=[];
+    document.getElementById("mic-test-start").disabled=true; document.getElementById("mic-test-stop").disabled=false;
+    if(micTestUrl){ URL.revokeObjectURL(micTestUrl); micTestUrl=null; }
+    document.getElementById("mic-test-play").disabled=true;
+    if(window.MediaRecorder){
+      micTestRecorder=new MediaRecorder(micTestStream);
+      const activeRecorder=micTestRecorder;
+      micTestRecorder.ondataavailable=e=>{if(e.data.size) micTestChunks.push(e.data);};
+      micTestRecorder.onstop=()=>{
+        if(micTestChunks.length){ micTestUrl=URL.createObjectURL(new Blob(micTestChunks,{type:activeRecorder.mimeType||"audio/mp4"})); document.getElementById("mic-test-play").disabled=false; }
+      };
+      micTestRecorder.start();
+    }
+    startMicMeter(micTestStream); setMicStatus("🔴 กำลังรับเสียง — ลองพูดแล้วดูแถบระดับเสียง"); updateMicCapability();
+  }catch(err){ setMicStatus(micErrorMessage(err)); document.getElementById("mic-test-start").disabled=false; document.getElementById("mic-test-stop").disabled=true; updateMicCapability(); }
+}
+function startMicMeter(stream){
+  try{
+    const AC=window.AudioContext||window.webkitAudioContext; if(!AC) return;
+    micTestContext=new AC(); const source=micTestContext.createMediaStreamSource(stream); const analyser=micTestContext.createAnalyser(); analyser.fftSize=256; source.connect(analyser);
+    const values=new Uint8Array(analyser.frequencyBinCount); const fill=document.getElementById("mic-meter-fill");
+    const draw=()=>{ analyser.getByteTimeDomainData(values); let sum=0; for(const v of values){const n=(v-128)/128;sum+=n*n;} const rms=Math.sqrt(sum/values.length); fill.style.width=Math.min(100,Math.max(2,rms*500))+"%"; micTestFrame=requestAnimationFrame(draw); }; draw();
+  }catch(e){}
+}
+function stopMicTest(){
+  if(micTestRecorder && micTestRecorder.state!=="inactive") micTestRecorder.stop();
+  micTestRecorder=null; if(micTestFrame) cancelAnimationFrame(micTestFrame); micTestFrame=null;
+  if(micTestContext){ micTestContext.close().catch(()=>{}); micTestContext=null; }
+  if(micTestStream){ micTestStream.getTracks().forEach(t=>t.stop()); micTestStream=null; }
+  AudioManager.mediaStream=null; syncAudioAliases();
+  const fill=document.getElementById("mic-meter-fill"); if(fill) fill.style.width="0";
+  const start=document.getElementById("mic-test-start"), stop=document.getElementById("mic-test-stop"); if(start) start.disabled=false; if(stop) stop.disabled=true;
+  if(document.getElementById("mic-test-status")?.textContent.includes("กำลังรับเสียง")) setMicStatus(micTestUrl?"✅ อัดเสียงทดสอบแล้ว กดฟังเพื่อตรวจสอบ":"หยุดทดสอบแล้ว");
 }
 
 /* ================= INIT: โหลดเนื้อหาบทเรียนและเปิดฐานข้อมูลก่อนปลดล็อก ================= */
 (function init(){
   const btn = document.getElementById("btn-start");
+  bindSettings(); syncSettingsUi(); saveAudioSettings();
   Promise.all([
     loadContent(),
     db.open()
