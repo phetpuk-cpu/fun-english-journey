@@ -9,29 +9,22 @@ const UNIT_FILES = {
   p5: ["data/p5u1.json", "data/p5u2.json", "data/p5u3.json", "data/p5u4.json", "data/p5u5.json", "data/p5u6.json", "data/p5u7.json", "data/p5u8.json"],
   p6: ["data/p6u1.json", "data/p6u2.json", "data/p6u3.json", "data/p6u4.json", "data/p6u5.json", "data/p6u6.json", "data/p6u7.json", "data/p6u8.json"],
 };
-let CONTENT = null;
+let CONTENT = {};
 
 async function fetchUnit(file){
   const res = await fetch(file);
   if(!res.ok) throw new Error(`โหลด ${file} ไม่สำเร็จ (${res.status})`);
   return res.json();
 }
-async function loadContent(){
-  /* โหลดไฟล์บทเรียนทั้ง 48 ไฟล์พร้อมกัน (parallel) แทนการรอทีละไฟล์ (waterfall เดิมช้า ~29x บนเน็ตจริง)
-     Promise.all คงลำดับตาม array ให้อัตโนมัติ จึงไม่กระทบลำดับหน่วย/บท */
-  const grades = Object.keys(UNIT_FILES);
-  const perGrade = await Promise.all(
-    grades.map(grade => Promise.all(UNIT_FILES[grade].map(fetchUnit)))
-  );
-  const build = {};
-  grades.forEach((grade, gi) => {
-    const datas = perGrade[gi];
-    build[grade] = {
-      name: datas[0].gradeName,
-      units: datas.map(d => ({ name: d.unitName, lessons: d.lessons }))
-    };
-  });
-  return build;
+async function loadGrade(grade){
+  /* โหลดเฉพาะ 8 ไฟล์ของชั้นที่เลือก แล้ว cache ไว้ใน CONTENT[grade] ไม่โหลดซ้ำ */
+  if(CONTENT[grade]) return CONTENT[grade];
+  const datas = await Promise.all(UNIT_FILES[grade].map(fetchUnit));
+  CONTENT[grade] = {
+    name: datas[0].gradeName,
+    units: datas.map(d => ({ name: d.unitName, lessons: d.lessons }))
+  };
+  return CONTENT[grade];
 }
 
 /* ================= DATABASE (IndexedDB) ================= */
@@ -153,7 +146,8 @@ function selectProfile(profile) {
   state.avatar = profile.avatar;
   state.xp = profile.xp || 0;
   state.stars = profile.stars || {};
-  
+  state.grade = profile.grade || "p1";
+
   document.getElementById("map-name").textContent = state.name;
   document.getElementById("map-avatar").textContent = state.avatar;
   document.getElementById("xp-total").textContent = state.xp;
@@ -181,7 +175,7 @@ function showProfilesList() {
 }
 
 /* ================= STATE (in-memory) ================= */
-const state = {id: null, name:"เพื่อน", avatar:"🦁", xp:0, grade:"p2", lessonId:null, step:0, lessonXp:0, stars:{}};
+const state = {id: null, name:"เพื่อน", avatar:"🦁", xp:0, grade:"p1", lessonId:null, step:0, lessonXp:0, stars:{}};
 function getLesson(id){
   for(const g of Object.values(CONTENT))
     for(const u of g.units)
@@ -361,16 +355,25 @@ document.querySelectorAll("#avatar-row .avatar").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("#avatar-row .avatar").forEach(x=>x.classList.remove("selected"));
   b.classList.add("selected"); state.avatar=b.textContent;
 });
-document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
-  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
-  t.classList.add("active"); state.grade = t.dataset.g; drawMap();
+let selectedGrade = "p1";
+document.querySelectorAll("#grade-row .tab").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#grade-row .tab").forEach(x=>x.classList.remove("active"));
+  b.classList.add("active"); selectedGrade = b.dataset.g;
 });
+document.querySelectorAll("#scr-map .tab").forEach(t=>t.onclick=async ()=>{
+  document.querySelectorAll("#scr-map .tab").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active"); state.grade = t.dataset.g; await drawMap();
+});
+function syncGradeTabs(){
+  document.querySelectorAll("#scr-map .tab").forEach(t=>t.classList.toggle("active", t.dataset.g===state.grade));
+}
 async function startApp(){
   const n = document.getElementById("inp-name").value.trim();
   if(!n) return;
   const newProfile = {
     name: n,
     avatar: state.avatar || "🦁",
+    grade: selectedGrade,
     xp: 0,
     stars: {},
     speakingStats: []
@@ -381,29 +384,48 @@ async function startApp(){
   } catch (e) {
     console.error(e);
     state.name = n;
+    state.grade = selectedGrade;
     goMap();
   }
 }
-function drawMap(){
+async function drawMap(){
+  const mapList = document.getElementById("map-list");
+  if(!CONTENT[state.grade]){
+    mapList.innerHTML = `<p class="map-loading">🦆 กำลังโหลดบทเรียน...</p>`;
+    try { await loadGrade(state.grade); }
+    catch(e){ mapList.innerHTML = `<p class="map-loading">โหลดบทเรียนไม่สำเร็จ 😢</p>`; console.error(e); return; }
+  }
   const g = CONTENT[state.grade];
-  document.getElementById("map-list").innerHTML =
+  const flatIds = [];
+  g.units.forEach(u=>u.lessons.forEach(l=>flatIds.push(l.id)));
+  const nextId = flatIds.find(id => !(state.stars[id] > 0));
+  mapList.innerHTML =
     `<h2 style="margin:8px 0 0">🗺️ ${g.name}</h2>` +
     g.units.map(u=>`
       <div class="unit-head">${u.name}</div>
       ${u.lessons.map(l=>{
         const s = state.stars[l.id]||0;
-        return `<button class="lesson-node" onclick="startLesson('${l.id}')">
+        const cls = "lesson-node" + (l.id===nextId ? " lesson-next" : "");
+        if(s>0){
+          return `<button class="${cls}" onclick="startLesson('${l.id}')">
+            <span class="icon">${l.icon}</span>
+            <span class="info"><span class="name">${l.title} — ${l.sub}</span>
+            <span class="sub">ศัพท์ 8 คำ · พูด 4 ประโยค · ควิซ 8 ข้อ</span></span>
+            <span>${"⭐".repeat(s)}${"☆".repeat(3-s)}</span></button>`;
+        }
+        return `<button class="${cls}" onclick="startLesson('${l.id}')">
           <span class="icon">${l.icon}</span>
-          <span class="info"><span class="name">${l.title} — ${l.sub}</span>
-          <span class="sub">ศัพท์ 8 คำ · พูด 4 ประโยค · ควิซ 8 ข้อ</span></span>
-          <span>${"⭐".repeat(s)}${"☆".repeat(3-s)}</span></button>`;
+          <span class="info"><span class="name">${l.title}</span>
+          <span class="sub">แตะเพื่อเริ่ม 👉</span></span>
+          <span>☆☆☆</span></button>`;
       }).join("")}`).join("");
 }
-function goMap(){
+async function goMap(){
   stopAllAudio();
   document.getElementById("xp-total").textContent = state.xp;
-  drawMap();
+  syncGradeTabs();
   show("scr-map");
+  await drawMap();
 }
 
 /* ================= LESSON ENGINE ================= */
@@ -894,11 +916,7 @@ function stopMicTest(){
 (function init(){
   const btn = document.getElementById("btn-start");
   bindSettings(); syncSettingsUi(); saveAudioSettings();
-  Promise.all([
-    loadContent(),
-    db.open()
-  ]).then(([c]) => {
-    CONTENT = c;
+  db.open().then(() => {
     btn.disabled = false;
     btn.textContent = "เริ่มผจญภัย! 🚀";
     refreshProfilesList();
