@@ -72,6 +72,8 @@ h2{font-size:clamp(1.4rem,1.2rem + .6vw,1.6rem); margin:.4em 0;}
 .info-links{display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin:10px 0 0;}
 .info-links a{display:inline-block; background:var(--white); color:var(--ink); text-decoration:none; font-size:.82rem; font-weight:700; padding:9px 12px; border-radius:14px; box-shadow:var(--shadow);}
 .info-links a:focus-visible{outline:4px solid var(--blue); outline-offset:3px;}
+.visitor-counter{text-align:center; margin:12px 0 0; opacity:.85;}
+.visitor-counter img{border-radius:6px; vertical-align:middle;}
 .feedback{min-height:34px; text-align:center; font-weight:700; font-size:1.05rem;}
 input.name-input{width:100%; font-family:inherit; font-size:1.2rem; padding:12px 16px; border-radius:16px; border:3px solid var(--duck); outline:none; text-align:center;}
 .avatar-row{display:flex; gap:8px; justify-content:center; margin:10px 0;}

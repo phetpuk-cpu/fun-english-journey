@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="th"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ส่งข้อเสนอแนะ — Fun English Journey</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=Baloo+2:wght@600;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/information.css"></head>
+<body><main class="page"><div class="top"><a class="back" href="index.html">← กลับหน้าแอป</a></div>
+<header class="hero"><div class="icon">💌</div><h1>ส่งข้อเสนอแนะถึงเรา</h1><p>ติชม แจ้งปัญหา หรือขอฟีเจอร์ใหม่ได้เลยครับ ทีมงานอ่านทุกข้อความ</p></header>
+
+<section class="card good">
+  <h2>แบบฟอร์มข้อเสนอแนะ</h2>
+  <div class="form-field">
+    <label for="fb-type">ประเภทข้อความ</label>
+    <select id="fb-type" class="field-select">
+      <option value="ข้อเสนอแนะฟีเจอร์ใหม่">💡 ข้อเสนอแนะฟีเจอร์ใหม่</option>
+      <option value="แจ้งปัญหาการใช้งาน">🐞 แจ้งปัญหาการใช้งาน</option>
+      <option value="ชื่นชม / ให้กำลังใจ">🌟 ชื่นชม / ให้กำลังใจ</option>
+      <option value="อื่นๆ">✏️ อื่นๆ</option>
+    </select>
+  </div>
+  <div class="form-field">
+    <label for="fb-name">ชื่อผู้ส่ง (ไม่บังคับ)</label>
+    <input id="fb-name" class="field-input" type="text" maxlength="60" placeholder="เช่น คุณแม่น้องพลอย">
+  </div>
+  <div class="form-field">
+    <label for="fb-email">อีเมลสำหรับติดต่อกลับ (ไม่บังคับ)</label>
+    <input id="fb-email" class="field-input" type="email" maxlength="120" placeholder="your@email.com">
+  </div>
+  <div class="form-field">
+    <label for="fb-message">ข้อความ</label>
+    <textarea id="fb-message" class="field-textarea" rows="5" maxlength="1000" placeholder="พิมพ์ข้อเสนอแนะหรือปัญหาที่พบ..."></textarea>
+  </div>
+  <button class="btn-submit" onclick="sendFeedback()">💌 ส่งข้อความทางอีเมล</button>
+  <p class="form-status" id="fb-status" role="status" aria-live="polite"></p>
+</section>
+
+<section class="card muted-card">
+  <p class="muted">กดปุ่มด้านบนแล้วโปรแกรมอีเมลของคุณจะเปิดขึ้นพร้อมข้อความที่กรอกไว้ หากไม่เปิดอัตโนมัติ ส่งมาที่ <a href="mailto:phetpuk@gmail.com">phetpuk@gmail.com</a> ได้โดยตรงเลยครับ</p>
+</section>
+
+<nav class="quick-links" aria-label="ข้อมูลเพิ่มเติม"><a href="parents.html">👨‍👩‍👧 สำหรับผู้ปกครอง</a><a href="privacy.html">🔒 ความเป็นส่วนตัว</a><a href="index.html">🦆 เริ่มเรียน</a></nav>
+</main>
+<script>
+function sendFeedback(){
+  const type = document.getElementById('fb-type').value;
+  const name = document.getElementById('fb-name').value.trim();
+  const email = document.getElementById('fb-email').value.trim();
+  const msg = document.getElementById('fb-message').value.trim();
+  const status = document.getElementById('fb-status');
+  if(!msg){ status.textContent = 'กรุณาพิมพ์ข้อความก่อนส่งนะครับ'; return; }
+  const subject = `[Fun English Journey] ${type}`;
+  const contactLines = [
+    name ? `ชื่อผู้ส่ง: ${name}` : null,
+    email ? `อีเมลติดต่อกลับ: ${email}` : null
+  ].filter(Boolean);
+  const bodyLines = [...contactLines, ...(contactLines.length ? [''] : []), msg].join('\n');
+  status.textContent = 'กำลังเปิดโปรแกรมอีเมล...';
+  window.location.href = `mailto:phetpuk@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines)}`;
+}
+</script>
+</body></html>
