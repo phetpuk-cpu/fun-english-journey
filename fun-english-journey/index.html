@@ -11,14 +11,14 @@
 <body>
 
 <!-- ============ SCREEN: WELCOME ============ -->
-<div class="screen active" id="scr-welcome">
-  <div class="center" style="margin-top:40px">
-    <div class="mascot">🦆</div>
+<div class="screen active welcome-screen" id="scr-welcome">
+  <div class="welcome-hero center">
+    <div class="mascot welcome-mascot" aria-hidden="true">🦆</div>
     <h1>Fun English Journey</h1>
     <p>เรียนอังกฤษกับ Ducky และผองเพื่อน!</p>
   </div>
   <!-- กล่องแสดงรายการโปรไฟล์ที่มีอยู่เดิม -->
-  <div class="card" id="profiles-box" style="display:none">
+  <div class="card card-welcome" id="profiles-box" style="display:none">
     <p style="margin:0 0 10px"><b>เลือกผู้เล่น 🎒</b></p>
     <div id="profiles-list" style="display:grid; grid-template-columns:1fr; gap:10px; margin-bottom:14px">
       <!-- รายการโปรไฟล์จะถูกแสดงด้วย JS -->
@@ -27,7 +27,7 @@
   </div>
 
   <!-- กล่องสร้างโปรไฟล์ใหม่ -->
-  <div class="card" id="create-profile-box">
+  <div class="card card-welcome" id="create-profile-box">
     <p style="margin:0 0 6px"><b>ชื่อเล่นของหนูคืออะไร?</b></p>
     <input class="name-input" id="inp-name" maxlength="12" placeholder="พิมพ์ชื่อเล่น">
     <p style="margin:14px 0 4px"><b>เลือกตัวแทนของหนู</b></p>
