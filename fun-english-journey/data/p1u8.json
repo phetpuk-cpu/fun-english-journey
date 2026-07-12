@@ -69,7 +69,8 @@
         {"q":"'หนาว' คือ...","c":["cold","hot","sunny"],"a":0},
         {"q":"❄️ คือ...","c":["snowy","rainy","sunny"],"a":0},
         {"q":"It is ___ today. (แดดออก)","c":["sunny","rainy","cold"],"a":0}
-      ]
+      ],
+      "extraVocab": [{"w": "windy", "th": "ลมแรง", "e": "💨"}, {"w": "snowy", "th": "หิมะตก", "e": "❄️"}, {"w": "foggy", "th": "มีหมอก", "e": "🌫️"}]
     },
     {
       "id": "p1u8l3",

@@ -462,6 +462,7 @@
           "a": 0
         }
       ],
+      "extraVocab": [{"w": "zebra", "th": "ม้าลาย", "e": "🦓"}, {"w": "bear", "th": "หมี", "e": "🐻"}, {"w": "crocodile", "th": "จระเข้", "e": "🐊"}],
       "transform": [
         {"base":"The lion is strong.","baseTh":"สิงโตแข็งแรง","task":"negative",
          "c":["The lion isn't strong.", "The lion aren't strong.", "The lion don't strong."],"a":0},

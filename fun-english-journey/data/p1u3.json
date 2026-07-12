@@ -103,7 +103,8 @@
         {"q":"'จิ๊กซอว์' คือ...","c":["puzzle","blocks","robot"],"a":0},
         {"q":"🧸 คือ...","c":["teddy bear","doll","ball"],"a":0},
         {"q":"This is my ___. (รถ)","c":["car","ball","kite"],"a":0}
-      ]
+      ],
+      "extraVocab": [{"w": "top", "th": "ลูกข่าง", "e": "🪀"}, {"w": "drum", "th": "กลอง", "e": "🥁"}, {"w": "marble", "th": "ลูกแก้ว", "e": "🔵"}]
     },
     {
       "id": "p1u3l4",

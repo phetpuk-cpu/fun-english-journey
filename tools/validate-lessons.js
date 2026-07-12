@@ -83,6 +83,15 @@ function checkLesson(file, l, idx) {
   if (l.writeSentence !== undefined && l.writeSentence !== true) {
     fail(file, `${where}.writeSentence ถ้ามีต้องเป็น true เท่านั้น (engine ใช้ L.build.sentence/.th เป็นเป้าหมายอัตโนมัติ)`);
   }
+
+  if (l.extraVocab !== undefined) {
+    if (!Array.isArray(l.extraVocab) || !l.extraVocab.length) fail(file, `${where}.extraVocab ถ้ามีต้องเป็น array ไม่ว่าง`);
+    else l.extraVocab.forEach((v, i) => {
+      checkString(file, `${where}.extraVocab[${i}].w`, v.w);
+      checkString(file, `${where}.extraVocab[${i}].th`, v.th);
+      checkString(file, `${where}.extraVocab[${i}].e`, v.e);
+    });
+  }
 }
 
 for (const grade of GRADES) {

@@ -518,6 +518,19 @@ function render(){
           </div>
         </div>`).join("")}
       </div>
+      ${L.extraVocab ? `
+      <div class="bubble" style="margin-top:14px"><b>คำศัพท์เสริม ⭐ (ไม่บังคับ)</b></div>
+      <div class="grid2">${L.extraVocab.map(v=>`
+        <div class="vocab-card">
+          <div class="emoji">${v.e}</div>
+          <div class="word">${v.w}</div>
+          <div class="th">${v.th}</div>
+          <div class="sound-row">
+            <button class="sound-btn en" data-say="${v.w}" data-lang="en-US">🔊 EN</button>
+            <button class="sound-btn th" data-say="${v.th}" data-lang="th-TH">🔊 TH</button>
+          </div>
+        </div>`).join("")}
+      </div>` : ""}
       <button class="btn green" onclick="addXp(10);next()">จำได้แล้ว! ต่อไป ➜</button>`;
   }
 

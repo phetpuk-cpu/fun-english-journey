@@ -150,6 +150,7 @@
           "a": 0
         }
       ],
+      "extraVocab": [{"w": "pear", "th": "ลูกแพร์", "e": "🍐"}, {"w": "peach", "th": "ลูกพีช", "e": "🍑"}, {"w": "cherry", "th": "เชอร์รี่", "e": "🍒"}],
       "transform": [
         {"base":"I like eating apples.","baseTh":"ฉันชอบกินแอปเปิล","task":"negative",
          "c":["I don't like eating apples.", "I not like eating apples.", "I doesn't like eating apples."],"a":0},

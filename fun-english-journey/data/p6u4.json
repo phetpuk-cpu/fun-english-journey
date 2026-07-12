@@ -35,7 +35,8 @@
         {"q":"📱 (แผ่นจอใหญ่กว่าโทรศัพท์) คือ...","c":["tablet","smartphone","camera"],"a":0},
         {"q":"📷 คือ...","c":["camera","screen","robot"],"a":0},
         {"q":"🖥️ คือ...","c":["screen","camera","computer"],"a":0}
-      ]
+      ],
+      "extraVocab": [{"w": "tablet", "th": "แท็บเล็ต", "e": "📱"}, {"w": "headphones", "th": "หูฟัง", "e": "🎧"}, {"w": "camera", "th": "กล้อง", "e": "📷"}]
     },
     {
       "id": "p6u4l2",

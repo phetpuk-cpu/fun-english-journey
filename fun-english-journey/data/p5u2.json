@@ -35,7 +35,8 @@
         {"q":"'ขวดน้ำ' คือ...","c":["water bottle","backpack","gear"],"a":0},
         {"q":"📯 คือ...","c":["whistle","helmet","gloves"],"a":0},
         {"q":"___ jersey is this? (ของใคร)","c":["Whose","Who","Which"],"a":0}
-      ]
+      ],
+      "extraVocab": [{"w": "helmet", "th": "หมวกกันน็อค", "e": "⛑️"}, {"w": "gloves", "th": "ถุงมือ", "e": "🧤"}, {"w": "cap", "th": "หมวกแก๊ป", "e": "🧢"}]
     },
     {
       "id": "p5u2l2",

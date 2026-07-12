@@ -79,6 +79,7 @@
         {"q":"🦁 คือ...","c":["brave","creative","curious"],"a":0},
         {"q":"I am ___ science. (สนใจ)","c":["interested in","good at","curious of"],"a":0}
       ],
+      "extraVocab": [{"w": "scientist", "th": "นักวิทยาศาสตร์", "e": "🧑‍🔬"}, {"w": "artist", "th": "ศิลปิน", "e": "🧑‍🎨"}, {"w": "chef", "th": "เชฟ", "e": "🧑‍🍳"}],
       "transform": [
         {"base":"I am interested in science.","baseTh":"ฉันสนใจในวิทยาศาสตร์","task":"negative",
          "c":["I am not interested in science.", "I amn't interested in science.", "I don't interested in science."],"a":0},

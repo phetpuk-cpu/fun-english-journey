@@ -35,7 +35,8 @@
         {"q":"⚡ คือ...","c":["energy","nutrition","protein"],"a":0},
         {"q":"🥗 คือ...","c":["nutrition","vegetable","snack"],"a":0},
         {"q":"Vegetables are ___. (มีประโยชน์)","c":["healthy","unhealthy","energy"],"a":0}
-      ]
+      ],
+      "extraVocab": [{"w": "yogurt", "th": "โยเกิร์ต", "e": "🥛"}, {"w": "nuts", "th": "ถั่ว", "e": "🥜"}, {"w": "granola", "th": "กราโนล่า", "e": "🥣"}]
     },
     {
       "id": "p5u3l2",

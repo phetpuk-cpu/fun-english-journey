@@ -103,7 +103,8 @@
         {"q":"🔎 คือ...","c":["evidence","result","record"],"a":0},
         {"q":"📏 คือ...","c":["measure","test","record"],"a":0},
         {"q":"We ___ our hypothesis. (ทดสอบ, อดีต)","c":["tested","recorded","measured"],"a":0}
-      ]
+      ],
+      "extraVocab": [{"w": "microscope", "th": "กล้องจุลทรรศน์", "e": "🔬"}, {"w": "experiment", "th": "การทดลอง", "e": "🧪"}, {"w": "laboratory", "th": "ห้องแล็บ", "e": "⚗️"}]
     },
     {
       "id": "p6u5l4",
