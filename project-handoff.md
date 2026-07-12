@@ -101,6 +101,16 @@ step type `"transform"` ใน engine.js (field `transform` ในไฟล์ J
 
 **Tier 4 — ทำท้ายสุด (ต้องมี backend ก่อนถึงจะเริ่มได้)**
 - [ ] Phase 5: หลายโปรไฟล์เด็กไม่จำกัด, adaptive lesson selection, cloud sync ข้ามอุปกรณ์ (Supabase) — รอ PDPA (Tier 1) เสร็จก่อนด้วย
+- [ ] **โหมดห้องเรียน (ครูสร้าง user นักเรียน + ดูผลรายคลาส) — ออกแบบไว้แล้ว 12 ก.ค. 2026 ยังไม่เริ่มสร้าง** (ผู้ใช้ขอให้ออกแบบไว้ก่อนเฉยๆ)
+  - **ขอบเขต**: ครูคนเดียว/กลุ่มเล็ก (ไม่ใช่ platform หลายโรงเรียน) — นักเรียนล็อกอินด้วยรหัสห้อง+PIN 4-6 หลัก ไม่ใช้อีเมล/รหัสผ่านสำหรับเด็ก
+  - **สถาปัตยกรรม**: เพิ่ม backend เบา (Supabase) เป็น "โหมดห้องเรียน" คู่ขนานกับโหมด local เดิม — โหมด local เดิมไม่ถูกแตะเลย
+  - **Data model**: `teachers`(=Supabase Auth user) → `classrooms`(teacher_id, name, room_code) → `students`(classroom_id, name, avatar, grade, pin) → `progress`(student_id, xp, stars jsonb, speakingStats jsonb) ใช้ RLS คุมให้ครูเห็นแค่ห้อง/นักเรียนตัวเอง
+  - **Auth 2 ทาง**: ครูใช้ Supabase Auth ปกติ (email/magic link); นักเรียน**ห้ามใช้ Supabase Auth ตรงๆ** ต้องเขียน Edge Function เอง 2 ตัว — `join-classroom` (room_code+pin → token ชั่วคราว) และ `sync-progress` (token+ผลการเรียน → บันทึก DB) แอปฝั่งนักเรียนคุยผ่าน API นี้เท่านั้น ไม่แตะตาราง Supabase ตรงๆ
+  - **ฝั่งแอป**: เพิ่มปุ่มที่ 3 ในหน้า welcome "เข้าห้องเรียนจากครู 🏫" กรอกรหัสห้อง+PIN แล้วเล่นเหมือนเดิมทุกอย่าง (engine ไม่ต้องแก้) ต่างแค่ยิง sync ขึ้น cloud เพิ่มตอนจบบท เก็บ local ไว้ด้วยกันเน็ตหลุด แล้ว retry
+  - **หน้าครู (ใหม่)**: `teacher-login.html` + `teacher-dashboard.html` — สร้างห้อง/นักเรียน (ได้ PIN), ดูสถิติรายคน/รายห้อง ต่อยอด UI แบบเดียวกับแดชบอร์ดผู้ปกครองที่มีอยู่แล้ว
+  - **⚠️ PDPA เปลี่ยนระดับ**: `privacy.html` ปัจจุบันสัญญาว่า "ข้อมูลเก็บในอุปกรณ์นี้เท่านั้น" — โหมดนี้ทำให้คำสัญญานั้นไม่จริงสำหรับผู้ใช้กลุ่มนี้ ต้องมีหน้า privacy แยกสำหรับโหมดห้องเรียนโดยเฉพาะ + ครูต้องรับทราบว่าเป็นผู้รับผิดชอบข้อมูลนักเรียนที่สร้าง + ต้องมีปุ่มลบห้อง/นักเรียนได้ (right to erasure) + เลือก Supabase region Singapore (ใกล้ไทยสุด)
+  - **แผนแบ่งงาน** (รวม ~3.5-4.5 วันทำงาน): (1) Supabase schema+RLS+Edge Functions (2) หน้าครู (3) ฝั่งนักเรียน+sync (4) หน้าสถิติรายคลาส+อัปเดต privacy
+  - **บล็อกอยู่ที่**: ต้องมีบัญชี Supabase ก่อน (Claude สร้างบัญชีให้ไม่ได้ตามกฎ) — รอผู้ใช้สมัครฟรีที่ supabase.com แล้วส่ง Project URL + anon key มาเริ่ม Chunk 1 ได้เลย
 
 ~~แก้ปัญหา symlink + subfolder ก่อน deploy~~ ✅ deploy สำเร็จแล้ว (ดูข้อ 3.3)
 
