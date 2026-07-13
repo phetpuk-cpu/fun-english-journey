@@ -451,6 +451,61 @@ async function goMap(){
   await drawMap();
 }
 
+/* ================= MOCK EXAM: สุ่มข้อสอบจาก quiz ทั้งชั้น สไตล์ Cambridge YLE ================= */
+let examState = null;
+async function startMockExam(){
+  stopAllAudio();
+  if(!CONTENT[state.grade]) await loadGrade(state.grade);
+  const g = CONTENT[state.grade];
+  const allQuiz = [];
+  g.units.forEach(u=>u.lessons.forEach(l=>l.quiz.forEach(q=>allQuiz.push(q))));
+  const picked = [...allQuiz].sort(()=>Math.random()-.5).slice(0, Math.min(20, allQuiz.length));
+  examState = {questions: picked, idx: 0, correct: 0};
+  show("scr-exam");
+  renderExamQuestion();
+}
+function renderExamQuestion(){
+  const stage = document.getElementById("exam-stage");
+  if(examState.idx >= examState.questions.length){ renderExamResult(); return; }
+  const q = examState.questions[examState.idx];
+  const opts = q.c.map((c,i)=>({text:c, correct:i===q.a})).sort(()=>Math.random()-.5);
+  stage.innerHTML = `
+    <div class="bubble"><b>ข้อ ${examState.idx+1}/${examState.questions.length} 🛡️</b></div>
+    <div class="card"><h2 style="margin-top:0">${q.q}</h2>
+      ${opts.map(o=>`<button class="choice" data-correct="${o.correct}">${o.text}</button>`).join("")}
+      <div class="feedback" id="exam-fb"></div>
+    </div>`;
+  stage.querySelectorAll(".choice").forEach(el=>{
+    el.onclick = ()=>{
+      stage.querySelectorAll(".choice").forEach(c=>c.style.pointerEvents="none");
+      if(el.dataset.correct==="true"){ el.classList.add("correct"); examState.correct++; playSfx("correct"); }
+      else{ el.classList.add("wrong"); playSfx("wrong"); }
+      examState.idx++;
+      setTimeout(renderExamQuestion, 900);
+    };
+  });
+}
+function renderExamResult(){
+  const total = examState.questions.length;
+  const pct = Math.round(examState.correct/total*100);
+  const shields = pct>=90?5:pct>=75?4:pct>=60?3:pct>=40?2:1;
+  document.getElementById("exam-stage").innerHTML = `
+    <div class="center">
+      <div class="badge-pop">🛡️</div>
+      <h1>ผลทดสอบจำลอง</h1>
+      <div class="stars" style="font-size:2rem">${"🛡️".repeat(shields)}${"⬜".repeat(5-shields)}</div>
+      <div class="card"><h2>ตอบถูก ${examState.correct}/${total} ข้อ (${pct}%)</h2>
+        <p class="th">คะแนนนี้ไม่ใช่ผลสอบจริง ใช้เพื่อลองประเมินความพร้อมเท่านั้น</p>
+      </div>
+      <button class="btn green" onclick="startMockExam()">🔁 ทดสอบอีกครั้ง</button>
+      <button class="btn ghost" onclick="goMap()">🗺️ กลับแผนที่</button>
+    </div>`;
+  state.xp += examState.correct;
+  const xpTotalEl = document.getElementById("xp-total");
+  if(xpTotalEl) xpTotalEl.textContent = state.xp;
+  if(activeProfile){ activeProfile.xp = state.xp; db.saveProfile(activeProfile).catch(console.error); }
+}
+
 /* ================= LESSON ENGINE ================= */
 let steps = [];
 function startLesson(id){
