@@ -298,6 +298,19 @@ function stopAllAudio(){
 function slug(w){
   return w.toLowerCase().replace(/'/g,"").replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
 }
+/* ธงชาติเล็กเกินจะมองเห็นในภาพขนาด 56px (ภาพจริงมีธงปักไว้ที่อกแล้ว แต่จิ๋วไป)
+   เลยแปะ emoji ธงเพิ่มเป็น badge แยกให้ชัดเจนสำหรับคำสัญชาติ/ประเทศ */
+const NATIONALITY_FLAGS = {
+  "Thai":"🇹🇭","Thailand":"🇹🇭","Japanese":"🇯🇵","Japan":"🇯🇵","Chinese":"🇨🇳","China":"🇨🇳",
+  "American":"🇺🇸","America":"🇺🇸","English":"🇬🇧","French":"🇫🇷","France":"🇫🇷",
+  "Australian":"🇦🇺","Australia":"🇦🇺","Italian":"🇮🇹","Italy":"🇮🇹",
+  "Korean":"🇰🇷","Korea":"🇰🇷","Vietnamese":"🇻🇳","Vietnam":"🇻🇳","Indian":"🇮🇳","India":"🇮🇳",
+  "Singapore":"🇸🇬","Malaysia":"🇲🇾","Brazil":"🇧🇷","Canada":"🇨🇦",
+};
+function flagBadge(word){
+  const flag = NATIONALITY_FLAGS[word];
+  return flag ? `<div class="flag-badge">${flag}</div>` : "";
+}
 /* Codex เก็บภาพเป็นหมวดหมู่ย่อย (characters/, scenes/, ...) ไม่ใช่ชื่อแบนตามกฎ A3/A4 เป๊ะ
    เลยลองทั้งสองที่: ชื่อแบนก่อน แล้วค่อย fallback ไปโฟลเดอร์หมวดหมู่ */
 function vocabImgSlot(lessonId, v){
@@ -566,6 +579,7 @@ function render(){
       <div class="grid2">${L.vocab.map(v=>`
         <div class="vocab-card">
           <div class="emoji">${vocabImgSlot(L.id, v)}</div>
+          ${flagBadge(v.w)}
           <div class="word">${v.w}</div>
           <div class="th">${v.th}</div>
           <div class="sound-row">
@@ -579,6 +593,7 @@ function render(){
       <div class="grid2">${L.extraVocab.map(v=>`
         <div class="vocab-card">
           <div class="emoji">${v.e}</div>
+          ${flagBadge(v.w)}
           <div class="word">${v.w}</div>
           <div class="th">${v.th}</div>
           <div class="sound-row">

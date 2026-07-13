@@ -32,6 +32,7 @@ h2{font-size:clamp(1.4rem,1.2rem + .6vw,1.6rem); margin:.4em 0;}
 .vocab-card .emoji{font-size:2.6rem;}
 .vocab-card .word{font-family:'Baloo 2'; font-size:1.05rem; font-weight:800; margin:4px 0 0;}
 .vocab-card .th{font-size:.9rem; color:#57678a;}
+.flag-badge{font-size:1.5rem; line-height:1; margin:2px 0 -2px;}
 .sound-row{display:flex; gap:6px; justify-content:center; margin-top:8px;}
 .sound-btn{border:none; border-radius:12px; padding:6px 10px; font-family:inherit; font-weight:700; cursor:pointer; box-shadow:var(--shadow);}
 .sound-btn.en{background:var(--blue); color:#fff;}
