@@ -31,6 +31,10 @@ for category in vocab characters scenes; do
   [ -d "$dir" ] || continue
   max="$(maxdim_for "$category")"
   while IFS= read -r -d '' png; do
+    # Ignore macOS AppleDouble metadata files such as ._image.png.
+    case "$(basename "$png")" in
+      ._*) continue ;;
+    esac
     webp="${png%.png}.webp"
     if [ -f "$webp" ] && [ "$webp" -nt "$png" ]; then
       skipped=$((skipped+1)); continue
