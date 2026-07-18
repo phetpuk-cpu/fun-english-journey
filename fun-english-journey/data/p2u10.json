@@ -1,0 +1,71 @@
+{
+  "grade": "p2",
+  "gradeName": "ป.2 — Big City 🏙️",
+  "unitName": "หน่วย 10 · Story Corner: Helping a Friend — มุมนิทาน ช่วยเพื่อน",
+  "lessons": [
+    {
+      "id": "p2u10l1",
+      "icon": "🤝",
+      "title": "Ducky Helps a Friend",
+      "sub": "Ducky ช่วยเพื่อน",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Grumpy Cat feels sad today.",
+            "th": "Grumpy Cat รู้สึกเศร้าวันนี้"
+          },
+          {
+            "en": "Ducky asks, 'Are you okay?'",
+            "th": "Ducky ถามว่า 'เธอโอเคไหม?'"
+          },
+          {
+            "en": "Grumpy Cat lost her hat.",
+            "th": "Grumpy Cat ทำหมวกหาย"
+          },
+          {
+            "en": "Ducky helps her look for it.",
+            "th": "Ducky ช่วยเธอหา"
+          },
+          {
+            "en": "They find the hat and feel happy!",
+            "th": "พวกเขาเจอหมวกแล้วมีความสุข!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "How does Grumpy Cat feel at first?",
+            "c": [
+              "Sad",
+              "Happy",
+              "Angry"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What did Grumpy Cat lose?",
+            "c": [
+              "Her hat",
+              "Her shoes",
+              "Her book"
+            ],
+            "a": 0
+          },
+          {
+            "q": "How do they feel at the end?",
+            "c": [
+              "Happy",
+              "Sad",
+              "Sleepy"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

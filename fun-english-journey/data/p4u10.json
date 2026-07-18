@@ -1,0 +1,71 @@
+{
+  "grade": "p4",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 10 · Story Corner: A Postcard — มุมนิทาน โปสการ์ด",
+  "lessons": [
+    {
+      "id": "p4u10l1",
+      "icon": "💌",
+      "title": "A Postcard from Ducky",
+      "sub": "โปสการ์ดจาก Ducky",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Ducky is on a trip to a new country.",
+            "th": "Ducky กำลังเดินทางไปประเทศใหม่"
+          },
+          {
+            "en": "He travels by airplane and by taxi.",
+            "th": "เขาเดินทางโดยเครื่องบินและแท็กซี่"
+          },
+          {
+            "en": "He visits a famous national park.",
+            "th": "เขาไปเที่ยวอุทยานแห่งชาติที่มีชื่อเสียง"
+          },
+          {
+            "en": "Ducky writes a postcard to Mali.",
+            "th": "Ducky เขียนโปสการ์ดถึง Mali"
+          },
+          {
+            "en": "He writes, 'I miss you! See you soon.'",
+            "th": "เขาเขียนว่า 'คิดถึงนะ! เจอกันเร็วๆ นี้'"
+          }
+        ],
+        "questions": [
+          {
+            "q": "How does Ducky travel?",
+            "c": [
+              "By airplane and taxi",
+              "By bike",
+              "By boat"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Who does Ducky write a postcard to?",
+            "c": [
+              "Mali",
+              "Grumpy Cat",
+              "Teacher Owl"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What does Ducky visit?",
+            "c": [
+              "A national park",
+              "A zoo",
+              "A school"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

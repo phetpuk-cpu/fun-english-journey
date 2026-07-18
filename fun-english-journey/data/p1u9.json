@@ -1,0 +1,57 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 9 · Story Corner: Rainy Day — มุมนิทาน วันฝนตก",
+  "lessons": [
+    {
+      "id": "p1u9l1",
+      "icon": "🌧️",
+      "title": "A Rainy Day",
+      "sub": "วันฝนตก",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "It is raining today.",
+            "th": "วันนี้ฝนตก"
+          },
+          {
+            "en": "Ducky and Mali stay at home.",
+            "th": "Ducky กับ Mali อยู่บ้าน"
+          },
+          {
+            "en": "They look out the window.",
+            "th": "พวกเขามองออกไปนอกหน้าต่าง"
+          },
+          {
+            "en": "The rain makes the flowers happy!",
+            "th": "ฝนทำให้ดอกไม้มีความสุข!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Is it raining today?",
+            "c": [
+              "Yes, it is.",
+              "No, it isn't."
+            ],
+            "a": 0
+          },
+          {
+            "q": "Where do Ducky and Mali stay?",
+            "c": [
+              "At home",
+              "At school",
+              "At the pond"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

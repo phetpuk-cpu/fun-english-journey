@@ -1,0 +1,75 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 10 · Story Corner: A Letter to My Future Self — มุมนิทาน จดหมายถึงอนาคต",
+  "lessons": [
+    {
+      "id": "p6u10l1",
+      "icon": "✉️",
+      "title": "A Letter to My Future Self",
+      "sub": "จดหมายถึงตัวเองในอนาคต",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Dear Future Me, I am going to be a scientist one day.",
+            "th": "ถึงตัวฉันในอนาคต ฉันจะเป็นนักวิทยาศาสตร์สักวันหนึ่ง"
+          },
+          {
+            "en": "I have learned so many new things this year.",
+            "th": "ปีนี้ฉันได้เรียนรู้สิ่งใหม่ๆ มากมาย"
+          },
+          {
+            "en": "I have never given up, even when lessons were hard.",
+            "th": "ฉันไม่เคยยอมแพ้ แม้บทเรียนจะยาก"
+          },
+          {
+            "en": "I hope you have achieved your dreams by now.",
+            "th": "ฉันหวังว่าตอนนี้เธอคงทำตามความฝันสำเร็จแล้ว"
+          },
+          {
+            "en": "Keep trying your best, just like Teacher Owl always says.",
+            "th": "พยายามเต็มที่ต่อไปนะ เหมือนที่ Teacher Owl พูดเสมอ"
+          },
+          {
+            "en": "With love, Ducky",
+            "th": "ด้วยรัก จาก Ducky"
+          }
+        ],
+        "questions": [
+          {
+            "q": "What does Ducky want to be one day?",
+            "c": [
+              "A scientist",
+              "A singer",
+              "A driver"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What has Ducky never done?",
+            "c": [
+              "Given up",
+              "Slept late",
+              "Made friends"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Who does Ducky quote at the end?",
+            "c": [
+              "Teacher Owl",
+              "Mali",
+              "Grumpy Cat"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

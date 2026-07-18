@@ -1,0 +1,71 @@
+{
+  "grade": "p3",
+  "gradeName": "ป.3 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 10 · Story Corner: Sports Day — มุมนิทาน วันกีฬาสี",
+  "lessons": [
+    {
+      "id": "p3u10l1",
+      "icon": "🏅",
+      "title": "Sports Day",
+      "sub": "วันกีฬาสี",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Yesterday was Sports Day at the fair.",
+            "th": "เมื่อวานเป็นวันกีฬาสีที่งานแฟร์"
+          },
+          {
+            "en": "Ducky ran faster than Grumpy Cat.",
+            "th": "Ducky วิ่งเร็วกว่า Grumpy Cat"
+          },
+          {
+            "en": "Mali was stronger than everyone in the tug of war.",
+            "th": "Mali แข็งแรงกว่าทุกคนในการชักเย่อ"
+          },
+          {
+            "en": "Ducky's team won first place!",
+            "th": "ทีมของ Ducky ได้ที่หนึ่ง!"
+          },
+          {
+            "en": "Everyone tried their best and had fun.",
+            "th": "ทุกคนพยายามอย่างเต็มที่และสนุกมาก"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Who ran faster than Grumpy Cat?",
+            "c": [
+              "Ducky",
+              "Mali",
+              "Teacher Owl"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What place did Ducky's team win?",
+            "c": [
+              "First place",
+              "Second place",
+              "Third place"
+            ],
+            "a": 0
+          },
+          {
+            "q": "When was Sports Day?",
+            "c": [
+              "Yesterday",
+              "Today",
+              "Tomorrow"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

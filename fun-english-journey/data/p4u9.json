@@ -1,0 +1,71 @@
+{
+  "grade": "p4",
+  "gradeName": "ป.4 — World Explorer Club 🌍",
+  "unitName": "หน่วย 9 · Story Corner: Recycling Heroes — มุมนิทาน ฮีโร่รีไซเคิล",
+  "lessons": [
+    {
+      "id": "p4u9l1",
+      "icon": "♻️",
+      "title": "The Recycling Heroes",
+      "sub": "ฮีโร่รีไซเคิล",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Ducky and his friends want to save the Earth.",
+            "th": "Ducky กับเพื่อนๆ อยากปกป้องโลก"
+          },
+          {
+            "en": "They collect plastic bottles at the park.",
+            "th": "พวกเขาเก็บขวดพลาสติกที่สวนสาธารณะ"
+          },
+          {
+            "en": "Mali says, 'We must save water too.'",
+            "th": "Mali พูดว่า 'เราต้องประหยัดน้ำด้วยนะ'"
+          },
+          {
+            "en": "They put the bottles in the recycling bin.",
+            "th": "พวกเขาเอาขวดใส่ถังรีไซเคิล"
+          },
+          {
+            "en": "Teacher Owl says they are green heroes!",
+            "th": "Teacher Owl บอกว่าพวกเขาเป็นฮีโร่รักษ์โลก!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "What do they collect at the park?",
+            "c": [
+              "Plastic bottles",
+              "Leaves",
+              "Toys"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What does Mali say they must save?",
+            "c": [
+              "Water",
+              "Time",
+              "Money"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What does Teacher Owl call them?",
+            "c": [
+              "Green heroes",
+              "Fast runners",
+              "Good singers"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

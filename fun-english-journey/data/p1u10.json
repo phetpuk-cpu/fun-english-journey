@@ -1,0 +1,58 @@
+{
+  "grade": "p1",
+  "gradeName": "ป.1 — Ducky's Pond School 🌻",
+  "unitName": "หน่วย 10 · Story Corner: Lost Toy — มุมนิทาน ของเล่นหาย",
+  "lessons": [
+    {
+      "id": "p1u10l1",
+      "icon": "🧸",
+      "title": "The Lost Toy",
+      "sub": "ของเล่นที่หายไป",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Ducky can't find his toy duck.",
+            "th": "Ducky หาของเล่นเป็ดตัวน้อยไม่เจอ"
+          },
+          {
+            "en": "He looks in his bedroom.",
+            "th": "เขามองหาในห้องนอน"
+          },
+          {
+            "en": "Mom finds the toy in the kitchen!",
+            "th": "แม่เจอของเล่นในห้องครัว!"
+          },
+          {
+            "en": "Ducky is very happy.",
+            "th": "Ducky มีความสุขมาก"
+          }
+        ],
+        "questions": [
+          {
+            "q": "What is Ducky looking for?",
+            "c": [
+              "His toy duck",
+              "His shoes",
+              "His book"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Where does Mom find the toy?",
+            "c": [
+              "In the kitchen",
+              "In the bedroom",
+              "In the garden"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

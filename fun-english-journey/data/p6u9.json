@@ -1,0 +1,79 @@
+{
+  "grade": "p6",
+  "gradeName": "ป.6 — Future & Beyond 🚀",
+  "unitName": "หน่วย 9 · Story Corner: The Recycling Robot — มุมนิทาน หุ่นยนต์รีไซเคิล",
+  "lessons": [
+    {
+      "id": "p6u9l1",
+      "icon": "🤖",
+      "title": "The Recycling Robot",
+      "sub": "หุ่นยนต์รีไซเคิล",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Ducky and his friends built a special robot.",
+            "th": "Ducky กับเพื่อนๆ สร้างหุ่นยนต์พิเศษตัวหนึ่ง"
+          },
+          {
+            "en": "The robot is called 'Green Bot.'",
+            "th": "หุ่นยนต์ตัวนี้ถูกเรียกว่า 'Green Bot'"
+          },
+          {
+            "en": "Green Bot is made of old plastic bottles and cans.",
+            "th": "Green Bot ถูกสร้างจากขวดพลาสติกและกระป๋องเก่า"
+          },
+          {
+            "en": "Every piece of trash is sorted by Green Bot.",
+            "th": "ขยะทุกชิ้นถูกคัดแยกโดย Green Bot"
+          },
+          {
+            "en": "The recyclable trash is turned into new things.",
+            "th": "ขยะที่รีไซเคิลได้ถูกเปลี่ยนเป็นของใหม่"
+          },
+          {
+            "en": "Green Bot is loved by everyone in the city.",
+            "th": "Green Bot เป็นที่รักของทุกคนในเมือง"
+          },
+          {
+            "en": "Ducky is proud of what his team has built.",
+            "th": "Ducky ภูมิใจในสิ่งที่ทีมของเขาสร้างขึ้น"
+          }
+        ],
+        "questions": [
+          {
+            "q": "What is Green Bot made of?",
+            "c": [
+              "Old plastic bottles and cans",
+              "Wood and stone",
+              "Paper and glue"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What is sorted by Green Bot?",
+            "c": [
+              "Trash",
+              "Food",
+              "Books"
+            ],
+            "a": 0
+          },
+          {
+            "q": "How does the city feel about Green Bot?",
+            "c": [
+              "They love it",
+              "They are scared of it",
+              "They ignore it"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

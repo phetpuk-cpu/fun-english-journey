@@ -1,0 +1,74 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 9 · Story Corner: Last Season — มุมนิทาน ฤดูกาลที่แล้ว",
+  "lessons": [
+    {
+      "id": "p5u9l1",
+      "icon": "🎯",
+      "title": "Last Season's Lesson",
+      "sub": "บทเรียนจากฤดูกาลที่แล้ว",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Last season, Ducky's team did not win the championship.",
+            "th": "ฤดูกาลที่แล้ว ทีมของ Ducky ไม่ได้แชมป์"
+          },
+          {
+            "en": "Ducky felt disappointed at first.",
+            "th": "ตอนแรก Ducky รู้สึกผิดหวัง"
+          },
+          {
+            "en": "Teacher Owl said, 'Because you practiced hard, you improved a lot.'",
+            "th": "Teacher Owl บอกว่า 'เพราะเธอฝึกซ้อมหนัก เธอเก่งขึ้นเยอะเลย'"
+          },
+          {
+            "en": "Ducky trained every day after that.",
+            "th": "หลังจากนั้น Ducky ฝึกซ้อมทุกวัน"
+          },
+          {
+            "en": "He learned that trying your best matters more than winning.",
+            "th": "เขาเรียนรู้ว่าการพยายามเต็มที่สำคัญกว่าการชนะ"
+          },
+          {
+            "en": "This season, Ducky feels more confident.",
+            "th": "ฤดูกาลนี้ Ducky รู้สึกมั่นใจมากขึ้น"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Did Ducky's team win last season?",
+            "c": [
+              "No, they did not.",
+              "Yes, they did."
+            ],
+            "a": 0
+          },
+          {
+            "q": "What did Ducky do after last season?",
+            "c": [
+              "Trained every day",
+              "Stopped playing",
+              "Went on vacation"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What did Ducky learn?",
+            "c": [
+              "Trying your best matters most",
+              "Winning is everything",
+              "Practice is not important"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

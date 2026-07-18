@@ -1,0 +1,75 @@
+{
+  "grade": "p3",
+  "gradeName": "ป.3 — Four Seasons Fair 🎪",
+  "unitName": "หน่วย 9 · Story Corner: The Lost Map — มุมนิทาน แผนที่หาย",
+  "lessons": [
+    {
+      "id": "p3u9l1",
+      "icon": "🗺️",
+      "title": "The Lost Map",
+      "sub": "แผนที่ที่หายไป",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Ducky and Mali want to go to the library.",
+            "th": "Ducky กับ Mali อยากไปห้องสมุด"
+          },
+          {
+            "en": "But Ducky loses the map!",
+            "th": "แต่ Ducky ทำแผนที่หาย!"
+          },
+          {
+            "en": "Mali says, 'Excuse me, where is the library?'",
+            "th": "Mali พูดว่า 'ขอโทษค่ะ ห้องสมุดอยู่ที่ไหน?'"
+          },
+          {
+            "en": "A police officer says, 'Turn left at the corner.'",
+            "th": "ตำรวจบอกว่า 'เลี้ยวซ้ายตรงหัวมุม'"
+          },
+          {
+            "en": "They walk straight and find the library.",
+            "th": "พวกเขาเดินตรงไปแล้วเจอห้องสมุด"
+          },
+          {
+            "en": "Ducky is happy they are not lost anymore.",
+            "th": "Ducky มีความสุขที่ไม่หลงทางแล้ว"
+          }
+        ],
+        "questions": [
+          {
+            "q": "What does Ducky lose?",
+            "c": [
+              "The map",
+              "His hat",
+              "His bag"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Who helps Ducky and Mali?",
+            "c": [
+              "A police officer",
+              "A teacher",
+              "A doctor"
+            ],
+            "a": 0
+          },
+          {
+            "q": "Where do they want to go?",
+            "c": [
+              "The library",
+              "The zoo",
+              "The market"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

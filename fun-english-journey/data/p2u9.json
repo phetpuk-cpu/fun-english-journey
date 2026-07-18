@@ -1,0 +1,71 @@
+{
+  "grade": "p2",
+  "gradeName": "ป.2 — Big City 🏙️",
+  "unitName": "หน่วย 9 · Story Corner: Zoo Trip — มุมนิทาน ไปสวนสัตว์",
+  "lessons": [
+    {
+      "id": "p2u9l1",
+      "icon": "🐘",
+      "title": "A Trip to the Zoo",
+      "sub": "ไปเที่ยวสวนสัตว์",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "Today, Ducky's family goes to the zoo.",
+            "th": "วันนี้ครอบครัวของ Ducky ไปสวนสัตว์"
+          },
+          {
+            "en": "They see a big elephant.",
+            "th": "พวกเขาเห็นช้างตัวใหญ่"
+          },
+          {
+            "en": "Mali waves at the elephant.",
+            "th": "Mali โบกมือให้ช้าง"
+          },
+          {
+            "en": "The monkeys are funny.",
+            "th": "ลิงตัวตลกมาก"
+          },
+          {
+            "en": "Everyone has a great day.",
+            "th": "ทุกคนมีวันที่ดีมาก"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Where does Ducky's family go?",
+            "c": [
+              "To the zoo",
+              "To the market",
+              "To school"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What does Mali wave at?",
+            "c": [
+              "An elephant",
+              "A monkey",
+              "A duck"
+            ],
+            "a": 0
+          },
+          {
+            "q": "How does everyone feel at the end?",
+            "c": [
+              "Great",
+              "Tired",
+              "Sad"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}

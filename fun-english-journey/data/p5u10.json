@@ -1,0 +1,71 @@
+{
+  "grade": "p5",
+  "gradeName": "ป.5 — Champion Academy 🏆",
+  "unitName": "หน่วย 10 · Story Corner: Big Plans — มุมนิทาน แผนใหญ่",
+  "lessons": [
+    {
+      "id": "p5u10l1",
+      "icon": "📋",
+      "title": "Big Plans for the Championship",
+      "sub": "แผนใหญ่สู่แชมป์เปี้ยน",
+      "lessonType": "reading",
+      "intro": {
+        "en": "Let's read a story!",
+        "th": "มาอ่านนิทานกันเถอะ!"
+      },
+      "reading": {
+        "passage": [
+          {
+            "en": "The championship is going to start next week.",
+            "th": "การแข่งชิงแชมป์กำลังจะเริ่มสัปดาห์หน้า"
+          },
+          {
+            "en": "Ducky's team is going to practice every day.",
+            "th": "ทีมของ Ducky จะฝึกซ้อมทุกวัน"
+          },
+          {
+            "en": "Mali is going to check everyone's gear.",
+            "th": "Mali จะตรวจอุปกรณ์ของทุกคน"
+          },
+          {
+            "en": "Grumpy Cat says, 'I will cheer for you from the sidelines!'",
+            "th": "Grumpy Cat พูดว่า 'ฉันจะเชียร์เธออยู่ข้างสนามนะ!'"
+          },
+          {
+            "en": "Everyone is excited for Champion's Day.",
+            "th": "ทุกคนตื่นเต้นสำหรับวันแห่งแชมป์เปี้ยน"
+          }
+        ],
+        "questions": [
+          {
+            "q": "When does the championship start?",
+            "c": [
+              "Next week",
+              "Tomorrow",
+              "Next month"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What is Mali going to check?",
+            "c": [
+              "Everyone's gear",
+              "The weather",
+              "The map"
+            ],
+            "a": 0
+          },
+          {
+            "q": "What does Grumpy Cat say she will do?",
+            "c": [
+              "Cheer for the team",
+              "Play in the game",
+              "Stay home"
+            ],
+            "a": 0
+          }
+        ]
+      }
+    }
+  ]
+}
