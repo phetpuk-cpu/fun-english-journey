@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* ตรวจ data/*.json ทั้ง 48 ไฟล์ (ป.1-6 x 8 หน่วย) ให้ตรง schema ที่ engine.js คาดหวัง
+/* ตรวจ data/*.json ทั้ง 60 ไฟล์ (ป.1-6 x 10 หน่วย) ให้ตรง schema ที่ engine.js คาดหวัง
    รัน: node tools/validate-lessons.js */
 "use strict";
 const fs = require("fs");
@@ -7,7 +7,7 @@ const path = require("path");
 
 const DATA_DIR = path.join(__dirname, "..", "fun-english-journey", "data");
 const GRADES = ["p1", "p2", "p3", "p4", "p5", "p6"];
-const UNITS_PER_GRADE = 8;
+const UNITS_PER_GRADE = 10;
 
 let errors = 0;
 let lessonCount = 0;
@@ -30,6 +30,17 @@ function checkBilingual(file, label, v) {
   checkString(file, `${label}.th`, v.th);
 }
 
+function checkReadingBlock(file, where, reading) {
+  if (!Array.isArray(reading.passage) || !reading.passage.length) fail(file, `${where}.reading.passage ต้องเป็น array ไม่ว่าง`);
+  else reading.passage.forEach((p, i) => { checkString(file, `${where}.reading.passage[${i}].en`, p.en); checkString(file, `${where}.reading.passage[${i}].th`, p.th); });
+  if (!Array.isArray(reading.questions) || !reading.questions.length) fail(file, `${where}.reading.questions ต้องเป็น array ไม่ว่าง`);
+  else reading.questions.forEach((q, i) => {
+    checkString(file, `${where}.reading.questions[${i}].q`, q.q);
+    if (!Array.isArray(q.c) || q.c.length < 2) fail(file, `${where}.reading.questions[${i}].c ต้องมีตัวเลือกอย่างน้อย 2 ข้อ`);
+    if (typeof q.a !== "number" || !q.c || q.a < 0 || q.a >= q.c.length) fail(file, `${where}.reading.questions[${i}].a ต้องเป็น index ที่ถูกต้องใน c`);
+  });
+}
+
 function checkLesson(file, l, idx) {
   const where = `lessons[${idx}]`;
   checkString(file, `${where}.id`, l.id);
@@ -41,6 +52,14 @@ function checkLesson(file, l, idx) {
   checkString(file, `${where}.title`, l.title);
   checkString(file, `${where}.sub`, l.sub);
   checkBilingual(file, `${where}.intro`, l.intro);
+
+  if (l.lessonType === "reading") {
+    if (l.reading === undefined) fail(file, `${where}.reading ต้องมีค่าเมื่อ lessonType เป็น "reading"`);
+    else checkReadingBlock(file, where, l.reading);
+    if (l.vocab !== undefined || l.build !== undefined || l.speak !== undefined || l.quiz !== undefined)
+      fail(file, `${where} lessonType เป็น "reading" ไม่ควรมี vocab/build/speak/quiz`);
+    return;
+  }
 
   if (!Array.isArray(l.vocab) || l.vocab.length !== 8) fail(file, `${where}.vocab ต้องมี 8 คำ (ได้ ${l.vocab?.length ?? "ไม่มี"})`);
   else l.vocab.forEach((v, i) => {
@@ -84,16 +103,7 @@ function checkLesson(file, l, idx) {
     fail(file, `${where}.writeSentence ถ้ามีต้องเป็น true เท่านั้น (engine ใช้ L.build.sentence/.th เป็นเป้าหมายอัตโนมัติ)`);
   }
 
-  if (l.reading !== undefined) {
-    if (!Array.isArray(l.reading.passage) || !l.reading.passage.length) fail(file, `${where}.reading.passage ต้องเป็น array ไม่ว่าง`);
-    else l.reading.passage.forEach((p, i) => { checkString(file, `${where}.reading.passage[${i}].en`, p.en); checkString(file, `${where}.reading.passage[${i}].th`, p.th); });
-    if (!Array.isArray(l.reading.questions) || !l.reading.questions.length) fail(file, `${where}.reading.questions ต้องเป็น array ไม่ว่าง`);
-    else l.reading.questions.forEach((q, i) => {
-      checkString(file, `${where}.reading.questions[${i}].q`, q.q);
-      if (!Array.isArray(q.c) || q.c.length < 2) fail(file, `${where}.reading.questions[${i}].c ต้องมีตัวเลือกอย่างน้อย 2 ข้อ`);
-      if (typeof q.a !== "number" || !q.c || q.a < 0 || q.a >= q.c.length) fail(file, `${where}.reading.questions[${i}].a ต้องเป็น index ที่ถูกต้องใน c`);
-    });
-  }
+  if (l.reading !== undefined) checkReadingBlock(file, where, l.reading);
 
   if (l.extraVocab !== undefined) {
     if (!Array.isArray(l.extraVocab) || !l.extraVocab.length) fail(file, `${where}.extraVocab ถ้ามีต้องเป็น array ไม่ว่าง`);

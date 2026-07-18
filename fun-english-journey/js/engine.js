@@ -2,12 +2,12 @@
    DATA LOADING — CONTENT ย้ายไปอยู่ data/*.json (ดู project-handoff.md 3.1)
    ============================================================ */
 const UNIT_FILES = {
-  p1: ["data/p1u1.json", "data/p1u2.json", "data/p1u3.json", "data/p1u4.json", "data/p1u5.json", "data/p1u6.json", "data/p1u7.json", "data/p1u8.json"],
-  p2: ["data/p2u1.json", "data/p2u2.json", "data/p2u3.json", "data/p2u4.json", "data/p2u5.json", "data/p2u6.json", "data/p2u7.json", "data/p2u8.json"],
-  p3: ["data/p3u1.json", "data/p3u2.json", "data/p3u3.json", "data/p3u4.json", "data/p3u5.json", "data/p3u6.json", "data/p3u7.json", "data/p3u8.json"],
-  p4: ["data/p4u1.json", "data/p4u2.json", "data/p4u3.json", "data/p4u4.json", "data/p4u5.json", "data/p4u6.json", "data/p4u7.json", "data/p4u8.json"],
-  p5: ["data/p5u1.json", "data/p5u2.json", "data/p5u3.json", "data/p5u4.json", "data/p5u5.json", "data/p5u6.json", "data/p5u7.json", "data/p5u8.json"],
-  p6: ["data/p6u1.json", "data/p6u2.json", "data/p6u3.json", "data/p6u4.json", "data/p6u5.json", "data/p6u6.json", "data/p6u7.json", "data/p6u8.json"],
+  p1: ["data/p1u1.json", "data/p1u2.json", "data/p1u3.json", "data/p1u4.json", "data/p1u5.json", "data/p1u6.json", "data/p1u7.json", "data/p1u8.json", "data/p1u9.json", "data/p1u10.json"],
+  p2: ["data/p2u1.json", "data/p2u2.json", "data/p2u3.json", "data/p2u4.json", "data/p2u5.json", "data/p2u6.json", "data/p2u7.json", "data/p2u8.json", "data/p2u9.json", "data/p2u10.json"],
+  p3: ["data/p3u1.json", "data/p3u2.json", "data/p3u3.json", "data/p3u4.json", "data/p3u5.json", "data/p3u6.json", "data/p3u7.json", "data/p3u8.json", "data/p3u9.json", "data/p3u10.json"],
+  p4: ["data/p4u1.json", "data/p4u2.json", "data/p4u3.json", "data/p4u4.json", "data/p4u5.json", "data/p4u6.json", "data/p4u7.json", "data/p4u8.json", "data/p4u9.json", "data/p4u10.json"],
+  p5: ["data/p5u1.json", "data/p5u2.json", "data/p5u3.json", "data/p5u4.json", "data/p5u5.json", "data/p5u6.json", "data/p5u7.json", "data/p5u8.json", "data/p5u9.json", "data/p5u10.json"],
+  p6: ["data/p6u1.json", "data/p6u2.json", "data/p6u3.json", "data/p6u4.json", "data/p6u5.json", "data/p6u6.json", "data/p6u7.json", "data/p6u8.json", "data/p6u9.json", "data/p6u10.json"],
 };
 let CONTENT = {};
 
@@ -17,7 +17,7 @@ async function fetchUnit(file){
   return res.json();
 }
 async function loadGrade(grade){
-  /* โหลดเฉพาะ 8 ไฟล์ของชั้นที่เลือก แล้ว cache ไว้ใน CONTENT[grade] ไม่โหลดซ้ำ */
+  /* โหลดเฉพาะ 10 ไฟล์ของชั้นที่เลือก แล้ว cache ไว้ใน CONTENT[grade] ไม่โหลดซ้ำ */
   if(CONTENT[grade]) return CONTENT[grade];
   const datas = await Promise.all(UNIT_FILES[grade].map(fetchUnit));
   CONTENT[grade] = {
@@ -434,6 +434,10 @@ async function drawMap(){
         <span class="info"><b>เก่งมาก! เรียนจบ ${g.name} แล้ว</b><span class="sub">แตะเพื่อดู/พิมพ์ใบประกาศนียบัตร 🖨️</span></span>
       </a>`
     : "";
+  const examCard = `<button class="card certificate-banner" style="width:100%;border:none;cursor:pointer;font:inherit;text-align:left" onclick="startMockExam()">
+      <span class="icon">📝</span>
+      <span class="info"><b>ทดสอบจำลอง Cambridge YLE</b><span class="sub">สุ่มข้อสอบจากทุกบทที่มีในชั้นนี้ ลองได้ไม่จำกัด</span></span>
+    </button>`;
   mapList.innerHTML =
     `<h2 style="margin:8px 0 0">🗺️ ${g.name}</h2>` +
     certBanner +
@@ -442,11 +446,12 @@ async function drawMap(){
       ${u.lessons.map(l=>{
         const s = state.stars[l.id]||0;
         const cls = "lesson-node" + (l.id===nextId ? " lesson-next" : "");
+        const readingSub = "📖 อ่านนิทานสั้น + ตอบคำถาม";
         if(s>0){
           return `<button class="${cls}" onclick="startLesson('${l.id}')">
             <span class="icon">${l.icon}</span>
             <span class="info"><span class="name">${l.title} — ${l.sub}</span>
-            <span class="sub">ศัพท์ 8 คำ · พูด 4 ประโยค · ควิซ 8 ข้อ</span></span>
+            <span class="sub">${l.lessonType==="reading" ? readingSub : "ศัพท์ 8 คำ · พูด 4 ประโยค · ควิซ 8 ข้อ"}</span></span>
             <span>${"⭐".repeat(s)}${"☆".repeat(3-s)}</span></button>`;
         }
         return `<button class="${cls}" onclick="startLesson('${l.id}')">
@@ -454,7 +459,8 @@ async function drawMap(){
           <span class="info"><span class="name">${l.title}</span>
           <span class="sub">แตะเพื่อเริ่ม 👉</span></span>
           <span>☆☆☆</span></button>`;
-      }).join("")}`).join("");
+      }).join("")}`).join("") +
+    examCard;
 }
 async function goMap(){
   stopAllAudio();
@@ -471,7 +477,7 @@ async function startMockExam(){
   if(!CONTENT[state.grade]) await loadGrade(state.grade);
   const g = CONTENT[state.grade];
   const allQuiz = [];
-  g.units.forEach(u=>u.lessons.forEach(l=>l.quiz.forEach(q=>allQuiz.push(q))));
+  g.units.forEach(u=>u.lessons.forEach(l=>(l.quiz||[]).forEach(q=>allQuiz.push(q))));
   const picked = [...allQuiz].sort(()=>Math.random()-.5).slice(0, Math.min(20, allQuiz.length));
   examState = {questions: picked, idx: 0, correct: 0};
   show("scr-exam");
@@ -524,21 +530,29 @@ let steps = [];
 function startLesson(id){
   state.lessonId = id; state.lessonXp = 0;
   const L = getLesson(id);
-  const listenTargets = [...L.vocab].sort(()=>Math.random()-.5).slice(0,3);
-  steps = [
-    {type:"intro"},
-    {type:"vocab"},
-    ...listenTargets.map(v=>({type:"listen", item:v})),
-    {type:"match"},
-    ...(L.reading ? [{type:"reading"}] : []),
-    {type:"build"},
-    ...(L.questionBuild ? [{type:"question-build"}] : []),
-    ...(L.writeSentence ? [{type:"write"}] : []),
-    ...L.speak.map((s,i)=>({type:"speak", idx:i})),
-    ...L.quiz.map((q,i)=>({type:"quiz", idx:i})),
-    ...(L.transform||[]).map((t,i)=>({type:"transform", idx:i})),
-    {type:"result"},
-  ];
+  if(L.lessonType === "reading"){
+    steps = [
+      {type:"intro"},
+      {type:"reading"},
+      {type:"result"},
+    ];
+  } else {
+    const listenTargets = [...L.vocab].sort(()=>Math.random()-.5).slice(0,3);
+    steps = [
+      {type:"intro"},
+      {type:"vocab"},
+      ...listenTargets.map(v=>({type:"listen", item:v})),
+      {type:"match"},
+      ...(L.reading ? [{type:"reading"}] : []),
+      {type:"build"},
+      ...(L.questionBuild ? [{type:"question-build"}] : []),
+      ...(L.writeSentence ? [{type:"write"}] : []),
+      ...L.speak.map((s,i)=>({type:"speak", idx:i})),
+      ...L.quiz.map((q,i)=>({type:"quiz", idx:i})),
+      ...(L.transform||[]).map((t,i)=>({type:"transform", idx:i})),
+      {type:"result"},
+    ];
+  }
   state.step = 0;
   show("scr-lesson");
   render();
@@ -547,7 +561,7 @@ function addXp(n){ state.lessonXp += n; document.getElementById("xp-lesson").tex
 function next(){ stopAllAudio(); state.step++; render(); }
 function stepLabel(){
   const t = steps[state.step].type;
-  const names = {intro:"เริ่มบทเรียน", vocab:"📖 คำศัพท์", listen:"🎧 ฟังแล้วเลือก", match:"🎮 จับคู่", build:"🧩 เรียงประโยค", speak:"🎤 ฝึกพูด", quiz:"⭐ ควิซ", transform:"🔄 แปลงประโยค", result:"สรุปผล"};
+  const names = {intro:"เริ่มบทเรียน", vocab:"📖 คำศัพท์", listen:"🎧 ฟังแล้วเลือก", match:"🎮 จับคู่", build:"🧩 เรียงประโยค", speak:"🎤 ฝึกพูด", quiz:"⭐ ควิซ", transform:"🔄 แปลงประโยค", reading:"📖 อ่านเรื่อง", result:"สรุปผล"};
   return `${names[t]||""} · ${state.step+1}/${steps.length}`;
 }
 function render(){
@@ -567,7 +581,7 @@ function render(){
         <button class="sound-btn th" data-say="${L.intro.th}" data-lang="th-TH" data-audio="${L.id}-intro-th.mp3">🔊 TH</button>
       </div>
       <div class="card center"><h2>${L.icon} ${L.title}</h2><p>${L.sub}</p>
-        <p>📖 ศัพท์ → 🎧 ฟังเลือก → 🎮 จับคู่ → 🧩 เรียงประโยค → 🎤 พูด → ⭐ ควิซ</p>
+        <p>${L.lessonType==="reading" ? "📖 อ่านนิทาน → ❓ ตอบคำถาม" : "📖 ศัพท์ → 🎧 ฟังเลือก → 🎮 จับคู่ → 🧩 เรียงประโยค → 🎤 พูด → ⭐ ควิซ"}</p>
         <button class="btn yellow" onclick="next()">เริ่มเลย!</button>
       </div>`;
     playAudio(`${L.id}-intro-en.mp3`, L.intro.en, "en-US", {autoplay:true});
@@ -882,7 +896,9 @@ function render(){
 
   else if(st.type==="result"){
     const L2 = getLesson(state.lessonId);
-    const max = 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.writeSentence?5:0) + ((L2.reading?.questions.length||0)*3) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
+    const max = L2.lessonType === "reading"
+      ? (L2.reading.questions.length*3)
+      : 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.writeSentence?5:0) + ((L2.reading?.questions.length||0)*3) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
     const ratio = state.lessonXp / max;
     const stars = ratio>=.8?3:ratio>=.5?2:1;
     state.xp += state.lessonXp;

@@ -116,6 +116,7 @@ body.reduce-motion *,body.reduce-motion *::before,body.reduce-motion *::after{an
   #scr-map, #scr-lesson{max-width:820px;}
   #map-list{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; align-items:start;}
   #map-list .unit-head{grid-column:1/-1;}
+  #map-list .certificate-banner{grid-column:1/-1;}
 }
 @media (min-width:1024px){
   #scr-map, #scr-lesson{max-width:1080px;}

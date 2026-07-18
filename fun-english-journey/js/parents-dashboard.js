@@ -39,7 +39,7 @@ function profileSpeakingAverage(profile){
   return Math.round(sum/stats.length);
 }
 
-const LESSONS_PER_GRADE = 32; // 8 หน่วย x 4 บท คงที่ทุกชั้น ป.1-6
+const LESSONS_PER_GRADE = 34; // 8 หน่วย x 4 บท + หน่วย 9-10 อย่างละ 1 บท (Reading) คงที่ทุกชั้น ป.1-6
 const GRADE_LABELS = {p1:"ป.1",p2:"ป.2",p3:"ป.3",p4:"ป.4",p5:"ป.5",p6:"ป.6"};
 
 function parseLessonId(id){
