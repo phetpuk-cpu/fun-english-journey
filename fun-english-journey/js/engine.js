@@ -685,6 +685,7 @@ function render(){
     const R = L.reading;
     stage.innerHTML = `
       <div class="bubble"><b>Reading Time! 📖</b><div class="th">อ่านย่อหน้าแล้วตอบคำถามด้านล่าง</div></div>
+      ${L.lessonType==="reading" ? `<div class="center">${sceneImgSlot(L.id, L.icon)}</div>` : ""}
       <div class="card">
         ${R.passage.map(p=>`<p style="margin:.5em 0"><b>${p.en}</b><br><span class="th" style="color:#57678a">${p.th}</span></p>`).join("")}
       </div>
