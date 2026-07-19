@@ -17,6 +17,7 @@ maxdim_for() {
     vocab) echo 160 ;;
     characters) echo 200 ;;
     scenes) echo 680 ;;
+    phonics) echo 512 ;;
   esac
 }
 
@@ -26,7 +27,7 @@ failed=0
 total_before=0
 total_after=0
 
-for category in vocab characters scenes; do
+for category in vocab characters scenes phonics; do
   dir="assets/img/$category"
   [ -d "$dir" ] || continue
   max="$(maxdim_for "$category")"
