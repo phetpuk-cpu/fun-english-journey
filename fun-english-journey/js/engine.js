@@ -2,6 +2,7 @@
    DATA LOADING — CONTENT ย้ายไปอยู่ data/*.json (ดู project-handoff.md 3.1)
    ============================================================ */
 const UNIT_FILES = {
+  k: ["data/ku1.json", "data/ku5.json"], /* อนุบาล pilot 2 หน่วย (หน่วย 2-4, 6-8 จะเพิ่มหลังทดสอบกับเด็กจริง) */
   p1: ["data/p1u1.json", "data/p1u2.json", "data/p1u3.json", "data/p1u4.json", "data/p1u5.json", "data/p1u6.json", "data/p1u7.json", "data/p1u8.json", "data/p1u9.json", "data/p1u10.json"],
   p2: ["data/p2u1.json", "data/p2u2.json", "data/p2u3.json", "data/p2u4.json", "data/p2u5.json", "data/p2u6.json", "data/p2u7.json", "data/p2u8.json", "data/p2u9.json", "data/p2u10.json"],
   p3: ["data/p3u1.json", "data/p3u2.json", "data/p3u3.json", "data/p3u4.json", "data/p3u5.json", "data/p3u6.json", "data/p3u7.json", "data/p3u8.json", "data/p3u9.json", "data/p3u10.json"],
@@ -321,6 +322,46 @@ function sceneImgSlot(lessonId, fallbackEmoji){
   const file = `${lessonId}-scene.png`;
   return `<span class="img-slot scene-slot" data-img="${file}" data-img-alt="scenes/${file}">${fallbackEmoji}</span>`;
 }
+/* ภาพโหมดอนุบาล: assets/img/phonics/ (hydrateImages เติม assets/img/ ให้เอง จึงส่ง path เริ่มที่ phonics/) */
+function phonicsImgSlot(file, fallbackEmoji){
+  return `<span class="img-slot phonics-slot" data-img="phonics/${file}">${fallbackEmoji}</span>`;
+}
+/* เล่นไฟล์เสียงเรียงต่อกัน (ใช้สะกดคำ c-a-t) — เคารพ token ของ AudioManager ให้เปลี่ยนหน้าแล้วเสียงหยุดเหมือนเสียงอื่น */
+function playPhonicsSequence(files, {onStep, onDone, gapMs=350}={}){
+  AudioManager.stopPlayback();
+  const token = AudioManager.token;
+  (function playNext(i){
+    if(token !== AudioManager.token) return;
+    if(i >= files.length){ if(onDone) onDone(); return; }
+    if(onStep) onStep(i);
+    const a = new Audio(`assets/audio/${files[i]}`);
+    AudioManager.main = a;
+    a.volume = audioVolume("speech");
+    let advanced = false;
+    const advance = ()=>{ if(advanced) return; advanced = true; setTimeout(()=>playNext(i+1), gapMs); };
+    a.addEventListener("ended", advance, {once:true});
+    a.addEventListener("error", advance, {once:true});
+    a.play().catch(advance);
+  })(0);
+}
+/* ปุ่มตอบของโหมดอนุบาล: ตอบถูกครั้งแรก +3 XP, ผิดแล้วลองใหม่จนถูกได้ +1 (ไม่มีตกรอบ — เด็กเล็กต้องจบด้วยความสำเร็จเสมอ) */
+function wirePhonicsChoices(container){
+  let wrongTried = false;
+  container.querySelectorAll(".phonics-choice").forEach(el=>{
+    el.onclick = ()=>{
+      if(el.dataset.correct==="true"){
+        el.classList.add("correct");
+        container.querySelectorAll(".phonics-choice").forEach(c=>c.style.pointerEvents="none");
+        addXp(wrongTried ? 1 : 3); playSfx("correct");
+        setTimeout(next, 900);
+      }else{
+        wrongTried = true;
+        el.classList.add("wrong"); playSfx("wrong");
+        setTimeout(()=>el.classList.remove("wrong"), 600);
+      }
+    };
+  });
+}
 function hydrateImages(){
   document.querySelectorAll("#stage [data-img]").forEach(el=>{
     if(el.dataset.hydrated) return;
@@ -434,10 +475,11 @@ async function drawMap(){
         <span class="info"><b>เก่งมาก! เรียนจบ ${g.name} แล้ว</b><span class="sub">แตะเพื่อดู/พิมพ์ใบประกาศนียบัตร 🖨️</span></span>
       </a>`
     : "";
-  const examCard = `<button class="card certificate-banner" style="width:100%;border:none;cursor:pointer;font:inherit;text-align:left" onclick="startMockExam()">
+  const hasQuiz = g.units.some(u=>u.lessons.some(l=>(l.quiz||[]).length));
+  const examCard = hasQuiz ? `<button class="card certificate-banner" style="width:100%;border:none;cursor:pointer;font:inherit;text-align:left" onclick="startMockExam()">
       <span class="icon">📝</span>
       <span class="info"><b>ทดสอบจำลอง Cambridge YLE</b><span class="sub">สุ่มข้อสอบจากทุกบทที่มีในชั้นนี้ ลองได้ไม่จำกัด</span></span>
-    </button>`;
+    </button>` : "";
   mapList.innerHTML =
     `<h2 style="margin:8px 0 0">🗺️ ${g.name}</h2>` +
     certBanner +
@@ -451,7 +493,7 @@ async function drawMap(){
           return `<button class="${cls}" onclick="startLesson('${l.id}')">
             <span class="icon">${l.icon}</span>
             <span class="info"><span class="name">${l.title} — ${l.sub}</span>
-            <span class="sub">${l.lessonType==="reading" ? readingSub : "ศัพท์ 8 คำ · พูด 4 ประโยค · ควิซ 8 ข้อ"}</span></span>
+            <span class="sub">${l.lessonType==="reading" ? readingSub : l.lessonType==="phonics" ? "🐣 ฟังเสียง แตะเล่น เก็บดาว" : "ศัพท์ 8 คำ · พูด 4 ประโยค · ควิซ 8 ข้อ"}</span></span>
             <span>${"⭐".repeat(s)}${"☆".repeat(3-s)}</span></button>`;
         }
         return `<button class="${cls}" onclick="startLesson('${l.id}')">
@@ -536,6 +578,21 @@ function startLesson(id){
       {type:"reading"},
       {type:"result"},
     ];
+  } else if(L.lessonType === "phonics"){
+    /* โหมดอนุบาล audio-first: บทตัวอักษร (letters) หรือบทสะกดคำ CVC (cvc), review=true ข้ามขั้นสอนไปเล่นเกมเลย */
+    const letters = L.letters || [];
+    const cvc = L.cvc || [];
+    const mix = arr => [...arr].sort(()=>Math.random()-.5);
+    steps = [
+      {type:"intro"},
+      ...(L.review ? [] : letters.map(it=>({type:"phonics-letter", item:it}))),
+      ...mix(letters).map(it=>({type:"phonics-listen", item:it})),
+      ...mix(letters).slice(0, L.review ? 4 : letters.length).map(it=>({type:"phonics-match", item:it})),
+      ...(L.review ? [] : cvc.map(it=>({type:"phonics-blend", item:it}))),
+      ...mix(cvc).map(it=>({type:"phonics-listen-word", item:it})),
+      ...(L.review && cvc.length ? mix(cvc).slice(0,3).map(it=>({type:"phonics-blend", item:it})) : []),
+      {type:"result"},
+    ];
   } else {
     const listenTargets = [...L.vocab].sort(()=>Math.random()-.5).slice(0,3);
     steps = [
@@ -561,7 +618,7 @@ function addXp(n){ state.lessonXp += n; document.getElementById("xp-lesson").tex
 function next(){ stopAllAudio(); state.step++; render(); }
 function stepLabel(){
   const t = steps[state.step].type;
-  const names = {intro:"เริ่มบทเรียน", vocab:"📖 คำศัพท์", listen:"🎧 ฟังแล้วเลือก", match:"🎮 จับคู่", build:"🧩 เรียงประโยค", speak:"🎤 ฝึกพูด", quiz:"⭐ ควิซ", transform:"🔄 แปลงประโยค", reading:"📖 อ่านเรื่อง", result:"สรุปผล"};
+  const names = {intro:"เริ่มบทเรียน", vocab:"📖 คำศัพท์", listen:"🎧 ฟังแล้วเลือก", match:"🎮 จับคู่", build:"🧩 เรียงประโยค", speak:"🎤 ฝึกพูด", quiz:"⭐ ควิซ", transform:"🔄 แปลงประโยค", reading:"📖 อ่านเรื่อง", "phonics-letter":"🔤 ตัวอักษร", "phonics-listen":"👂 ฟังแล้วแตะ", "phonics-match":"🖼️ จับคู่เสียง", "phonics-blend":"🧩 สะกดคำ", "phonics-listen-word":"👂 ฟังคำ", result:"สรุปผล"};
   return `${names[t]||""} · ${state.step+1}/${steps.length}`;
 }
 function render(){
@@ -581,7 +638,7 @@ function render(){
         <button class="sound-btn th" data-say="${L.intro.th}" data-lang="th-TH" data-audio="${L.id}-intro-th.mp3">🔊 TH</button>
       </div>
       <div class="card center"><h2>${L.icon} ${L.title}</h2><p>${L.sub}</p>
-        <p>${L.lessonType==="reading" ? "📖 อ่านนิทาน → ❓ ตอบคำถาม" : "📖 ศัพท์ → 🎧 ฟังเลือก → 🎮 จับคู่ → 🧩 เรียงประโยค → 🎤 พูด → ⭐ ควิซ"}</p>
+        <p>${L.lessonType==="reading" ? "📖 อ่านนิทาน → ❓ ตอบคำถาม" : L.lessonType==="phonics" ? "👂 ฟัง → 👆 แตะ → 🌟 เก็บดาว" : "📖 ศัพท์ → 🎧 ฟังเลือก → 🎮 จับคู่ → 🧩 เรียงประโยค → 🎤 พูด → ⭐ ควิซ"}</p>
         <button class="btn yellow" onclick="next()">เริ่มเลย!</button>
       </div>`;
     playAudio(`${L.id}-intro-en.mp3`, L.intro.en, "en-US", {autoplay:true});
@@ -895,10 +952,87 @@ function render(){
     });
   }
 
+  /* ================= PHONICS (โหมดอนุบาล) — ทุกกิจกรรม audio-first ไม่ต้องอ่านออก ================= */
+  else if(st.type==="phonics-letter"){
+    const it = st.item;
+    const U = it.letter.toUpperCase();
+    stage.innerHTML = `
+      <div class="bubble"><b>ตัวอักษรใหม่! 🔤</b><div class="th">แตะปุ่มฟังเสียง แล้วพูดตามนะ</div></div>
+      <div class="center"><div class="phonics-letter-big">${U} ${it.letter}</div></div>
+      <div class="center">${phonicsImgSlot(`phonics-${it.letter}-${slug(it.word)}.png`, it.emoji)}</div>
+      <div class="center"><b style="font-size:1.4rem">${it.word}</b> <span class="th" style="color:#57678a">${it.wordTh}</span></div>
+      <div class="center">
+        <button class="sound-btn en" id="ph-name">🔊 ชื่อ ${U}</button>
+        <button class="sound-btn en" id="ph-sound">🗣️ เสียง</button>
+        <button class="sound-btn en" id="ph-word">🔊 ${it.word}</button>
+      </div>
+      <div class="center"><button class="btn yellow" onclick="next()">ต่อไป ▶</button></div>`;
+    document.getElementById("ph-name").onclick = ()=>playAudio(`phonics-${it.letter}-name.mp3`, U, "en-US");
+    document.getElementById("ph-sound").onclick = ()=>playAudio(`phonics-${it.letter}-sound.mp3`, U, "en-US");
+    document.getElementById("ph-word").onclick = ()=>playAudio(`phonics-${it.letter}-word.mp3`, it.word, "en-US");
+    addXp(1);
+    if(audioSettings.autoplay) playPhonicsSequence([`phonics-${it.letter}-name.mp3`, `phonics-${it.letter}-sound.mp3`, `phonics-${it.letter}-word.mp3`], {gapMs:500});
+  }
+
+  else if(st.type==="phonics-listen" || st.type==="phonics-match"){
+    const L3 = getLesson(state.lessonId);
+    const it = st.item;
+    const pool = (L3.letters||[]).filter(x=>x.letter!==it.letter).sort(()=>Math.random()-.5).slice(0,2);
+    const choices = [it, ...pool].sort(()=>Math.random()-.5);
+    const isListen = st.type==="phonics-listen";
+    stage.innerHTML = isListen ? `
+      <div class="bubble"><b>ฟังเสียงแล้วแตะตัวอักษร 👂</b><div class="th">เสียงนี้คือตัวอักษรไหนนะ</div></div>
+      <div class="center"><button class="sound-btn en" id="ph-replay" style="font-size:1.2rem">🔊 ฟังอีกครั้ง</button></div>
+      <div class="phonics-choices">${choices.map(c=>`
+        <button class="choice phonics-choice" data-correct="${c.letter===it.letter}">${c.letter.toUpperCase()} ${c.letter}</button>`).join("")}
+      </div>` : `
+      <div class="bubble"><b>ตัวอักษรนี้ขึ้นต้นคำไหน 🖼️</b><div class="th">แตะภาพที่ขึ้นต้นด้วยเสียงนี้</div></div>
+      <div class="center"><div class="phonics-letter-big">${it.letter.toUpperCase()} ${it.letter}</div>
+        <button class="sound-btn en" id="ph-replay">🔊 ฟังเสียง</button></div>
+      <div class="phonics-choices">${choices.map(c=>`
+        <button class="choice phonics-choice" data-correct="${c.letter===it.letter}">
+          ${phonicsImgSlot(`phonics-${c.letter}-${slug(c.word)}.png`, c.emoji)}</button>`).join("")}
+      </div>`;
+    const play = ()=>playAudio(`phonics-${it.letter}-sound.mp3`, it.letter.toUpperCase(), "en-US");
+    document.getElementById("ph-replay").onclick = play;
+    if(audioSettings.autoplay) play();
+    wirePhonicsChoices(stage);
+  }
+
+  else if(st.type==="phonics-blend" || st.type==="phonics-listen-word"){
+    const L3 = getLesson(state.lessonId);
+    const it = st.item;
+    const pool = (L3.cvc||[]).filter(x=>x.word!==it.word).sort(()=>Math.random()-.5).slice(0,2);
+    const choices = [it, ...pool].sort(()=>Math.random()-.5);
+    const isBlend = st.type==="phonics-blend";
+    const tiles = it.word.split("");
+    stage.innerHTML = `
+      <div class="bubble"><b>${isBlend ? "สะกดคำกัน! 🧩" : "ฟังคำแล้วแตะภาพ 👂"}</b><div class="th">${isBlend ? "ฟังเสียงสะกดทีละตัว แล้วแตะภาพที่ถูกต้อง" : "คำนี้คือภาพไหนนะ"}</div></div>
+      ${isBlend ? `<div class="phonics-tiles">${tiles.map((ch,i)=>`<span class="phonics-tile" id="ph-tile-${i}">${ch}</span>`).join("")}</div>` : ""}
+      <div class="center"><button class="sound-btn en" id="ph-replay" style="font-size:1.2rem">${isBlend ? "🔤 สะกดอีกครั้ง" : "🔊 ฟังอีกครั้ง"}</button></div>
+      <div class="phonics-choices">${choices.map(c=>`
+        <button class="choice phonics-choice" data-correct="${c.word===it.word}">
+          ${phonicsImgSlot(`phonics-cvc-${c.word}.png`, c.emoji)}</button>`).join("")}
+      </div>`;
+    const play = isBlend
+      ? ()=>playPhonicsSequence(
+          [...tiles.map(ch=>`phonics-${ch}-sound.mp3`), `phonics-cvc-${it.word}.mp3`],
+          {gapMs:450, onStep:i=>{
+            tiles.forEach((_,j)=>document.getElementById(`ph-tile-${j}`)?.classList.toggle("lit", j===i));
+            if(i>=tiles.length) tiles.forEach((_,j)=>document.getElementById(`ph-tile-${j}`)?.classList.add("lit"));
+          }})
+      : ()=>playAudio(`phonics-cvc-${it.word}.mp3`, it.word, "en-US");
+    document.getElementById("ph-replay").onclick = play;
+    if(audioSettings.autoplay) play();
+    wirePhonicsChoices(stage);
+  }
+
   else if(st.type==="result"){
     const L2 = getLesson(state.lessonId);
     const max = L2.lessonType === "reading"
       ? (L2.reading.questions.length*3)
+      : L2.lessonType === "phonics"
+      ? steps.reduce((s,x)=> s + (x.type==="phonics-letter" ? 1 : (x.type||"").startsWith("phonics-") ? 3 : 0), 0)
       : 10 + 6 + 8 + 5 + (L2.questionBuild?5:0) + (L2.writeSentence?5:0) + ((L2.reading?.questions.length||0)*3) + (L2.speak.length*10) + (L2.quiz.length*3) + ((L2.transform||[]).length*4);
     const ratio = state.lessonXp / max;
     const stars = ratio>=.8?3:ratio>=.5?2:1;

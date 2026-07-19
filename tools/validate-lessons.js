@@ -53,6 +53,28 @@ function checkLesson(file, l, idx) {
   checkString(file, `${where}.sub`, l.sub);
   checkBilingual(file, `${where}.intro`, l.intro);
 
+  if (l.lessonType === "phonics") {
+    /* บทอนุบาล: ต้องมี letters และ/หรือ cvc — ห้ามมีโครงบทปกติ (vocab/build/speak/quiz) ปนมา */
+    const hasLetters = Array.isArray(l.letters) && l.letters.length;
+    const hasCvc = Array.isArray(l.cvc) && l.cvc.length;
+    if (!hasLetters && !hasCvc) fail(file, `${where} lessonType "phonics" ต้องมี letters หรือ cvc อย่างน้อยหนึ่งอย่าง`);
+    if (hasLetters) l.letters.forEach((it, i) => {
+      if (!/^[a-z]$/.test(it.letter || "")) fail(file, `${where}.letters[${i}].letter ต้องเป็น a-z ตัวเดียว (ได้ ${JSON.stringify(it.letter)})`);
+      checkString(file, `${where}.letters[${i}].word`, it.word);
+      checkString(file, `${where}.letters[${i}].wordTh`, it.wordTh);
+      checkString(file, `${where}.letters[${i}].emoji`, it.emoji);
+    });
+    if (hasCvc) l.cvc.forEach((it, i) => {
+      if (!/^[a-z]{3}$/.test(it.word || "")) fail(file, `${where}.cvc[${i}].word ต้องเป็นคำ CVC 3 ตัวอักษร (ได้ ${JSON.stringify(it.word)})`);
+      checkString(file, `${where}.cvc[${i}].th`, it.th);
+      checkString(file, `${where}.cvc[${i}].emoji`, it.emoji);
+    });
+    if (l.review !== undefined && l.review !== true) fail(file, `${where}.review ถ้ามีต้องเป็น true เท่านั้น`);
+    for (const k of ["vocab", "build", "speak", "quiz", "transform", "questionBuild", "writeSentence", "reading", "extraVocab"])
+      if (l[k] !== undefined) fail(file, `${where} lessonType "phonics" ห้ามมี field "${k}"`);
+    return;
+  }
+
   if (l.lessonType === "reading") {
     if (l.reading === undefined) fail(file, `${where}.reading ต้องมีค่าเมื่อ lessonType เป็น "reading"`);
     else checkReadingBlock(file, where, l.reading);
@@ -113,6 +135,24 @@ function checkLesson(file, l, idx) {
       checkString(file, `${where}.extraVocab[${i}].e`, v.e);
     });
   }
+}
+
+const K_UNIT_FILES = ["ku1.json", "ku5.json"]; // อนุบาล pilot — เพิ่มไฟล์ในลิสต์นี้เมื่อขยายหน่วย
+for (const file of K_UNIT_FILES) {
+  const full = path.join(DATA_DIR, file);
+  if (!fs.existsSync(full)) { fail(file, "ไฟล์หายไป (คาดว่าต้องมี)"); continue; }
+  let data;
+  try { data = JSON.parse(fs.readFileSync(full, "utf8")); }
+  catch (e) { fail(file, `JSON parse ไม่ผ่าน: ${e.message}`); continue; }
+  checkString(file, "grade", data.grade);
+  if (data.grade && data.grade !== "k") fail(file, `grade field เป็น "${data.grade}" แต่ควรเป็น "k"`);
+  checkString(file, "gradeName", data.gradeName);
+  checkString(file, "unitName", data.unitName);
+  if (!Array.isArray(data.lessons) || !data.lessons.length) fail(file, "lessons ต้องเป็น array ไม่ว่าง");
+  else data.lessons.forEach((l, i) => {
+    if (l.lessonType !== "phonics") fail(file, `lessons[${i}] ในไฟล์อนุบาลต้องมี lessonType "phonics"`);
+    checkLesson(file, l, i); lessonCount++;
+  });
 }
 
 for (const grade of GRADES) {

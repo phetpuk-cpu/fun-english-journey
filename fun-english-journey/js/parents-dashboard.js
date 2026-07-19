@@ -39,11 +39,12 @@ function profileSpeakingAverage(profile){
   return Math.round(sum/stats.length);
 }
 
-const LESSONS_PER_GRADE = 34; // 8 หน่วย x 4 บท + หน่วย 9-10 อย่างละ 1 บท (Reading) คงที่ทุกชั้น ป.1-6
-const GRADE_LABELS = {p1:"ป.1",p2:"ป.2",p3:"ป.3",p4:"ป.4",p5:"ป.5",p6:"ป.6"};
+const LESSONS_BY_GRADE = {k:7}; // อนุบาล pilot 2 หน่วย (4+3 บท); ชั้นอื่น 34 (8 หน่วย x 4 บท + หน่วย 9-10 อย่างละ 1 บท Reading)
+const GRADE_LABELS = {k:"อนุบาล",p1:"ป.1",p2:"ป.2",p3:"ป.3",p4:"ป.4",p5:"ป.5",p6:"ป.6"};
+function lessonsPerGrade(grade){ return LESSONS_BY_GRADE[grade] ?? 34; }
 
 function parseLessonId(id){
-  const m = /^(p[1-6])u(\d+)l\d+$/.exec(id||"");
+  const m = /^(k|p[1-6])u(\d+)l\d+$/.exec(id||"");
   return m ? {grade:m[1], unitFile:`${m[1]}u${m[2]}`} : null;
 }
 
@@ -86,8 +87,9 @@ function createMetric(label,value,className){
 
 function buildProgressBar(profile){
   const grade = profile.grade || "p1";
+  const total = lessonsPerGrade(grade);
   const done = profileLessonCount(profile);
-  const pct = Math.min(100, Math.round(done/LESSONS_PER_GRADE*100));
+  const pct = Math.min(100, Math.round(done/total*100));
   const wrap = document.createElement("div"); wrap.className = "grade-progress";
   const label = document.createElement("div"); label.className = "grade-progress-label";
   label.textContent = `เรียนไปแล้ว ${done}/${LESSONS_PER_GRADE} บทของชั้น ${GRADE_LABELS[grade]||grade} (${pct}%)`;
