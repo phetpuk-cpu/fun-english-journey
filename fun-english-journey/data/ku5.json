@@ -1,0 +1,50 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 5 · ครอบครัวคำ -at",
+  "lessons": [
+    {
+      "id": "ku5l1",
+      "icon": "🦇",
+      "title": "cat bat rat",
+      "sub": "สะกดคำ แคท แบท แรท",
+      "lessonType": "phonics",
+      "intro": {"en": "C-A-T... cat! Let's read together!", "th": "ซี-เอ-ที... แคท! มาสะกดคำกันเถอะ!"},
+      "cvc": [
+        {"word": "cat", "th": "แมว", "emoji": "🐱"},
+        {"word": "bat", "th": "ค้างคาว", "emoji": "🦇"},
+        {"word": "rat", "th": "หนู", "emoji": "🐀"}
+      ]
+    },
+    {
+      "id": "ku5l2",
+      "icon": "👒",
+      "title": "hat mat sat",
+      "sub": "สะกดคำ แฮท แมท แซท",
+      "lessonType": "phonics",
+      "intro": {"en": "H-A-T... hat! Let's read more words!", "th": "เอช-เอ-ที... แฮท! มาสะกดคำเพิ่มกัน!"},
+      "cvc": [
+        {"word": "hat", "th": "หมวก", "emoji": "👒"},
+        {"word": "mat", "th": "เสื่อ", "emoji": "🟫"},
+        {"word": "sat", "th": "นั่ง", "emoji": "🪑"}
+      ]
+    },
+    {
+      "id": "ku5l3",
+      "icon": "🎉",
+      "title": "-at Family Review",
+      "sub": "ทบทวนครอบครัวคำ -at",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Cat, bat, rat, hat, mat, sat! Let's play!", "th": "มาเล่นเกมทบทวนคำทั้งหมดกัน!"},
+      "cvc": [
+        {"word": "cat", "th": "แมว", "emoji": "🐱"},
+        {"word": "bat", "th": "ค้างคาว", "emoji": "🦇"},
+        {"word": "rat", "th": "หนู", "emoji": "🐀"},
+        {"word": "hat", "th": "หมวก", "emoji": "👒"},
+        {"word": "mat", "th": "เสื่อ", "emoji": "🟫"},
+        {"word": "sat", "th": "นั่ง", "emoji": "🪑"}
+      ]
+    }
+  ]
+}

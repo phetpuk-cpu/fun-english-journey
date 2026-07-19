@@ -1,0 +1,62 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 1 · ตัวอักษร A B C D E F G",
+  "lessons": [
+    {
+      "id": "ku1l1",
+      "icon": "🍎",
+      "title": "A and B",
+      "sub": "ตัวอักษร เอ กับ บี",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn A and B!", "th": "มารู้จักตัวอักษร เอ กับ บี กันเถอะ!"},
+      "letters": [
+        {"letter": "a", "word": "apple", "wordTh": "แอปเปิล", "emoji": "🍎"},
+        {"letter": "b", "word": "ball", "wordTh": "ลูกบอล", "emoji": "⚽"}
+      ]
+    },
+    {
+      "id": "ku1l2",
+      "icon": "🐱",
+      "title": "C and D",
+      "sub": "ตัวอักษร ซี กับ ดี",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn C and D!", "th": "มารู้จักตัวอักษร ซี กับ ดี กันเถอะ!"},
+      "letters": [
+        {"letter": "c", "word": "cat", "wordTh": "แมว", "emoji": "🐱"},
+        {"letter": "d", "word": "dog", "wordTh": "หมา", "emoji": "🐶"}
+      ]
+    },
+    {
+      "id": "ku1l3",
+      "icon": "🥚",
+      "title": "E F G",
+      "sub": "ตัวอักษร อี เอฟ จี",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn E, F and G!", "th": "มารู้จักตัวอักษร อี เอฟ จี กันเถอะ!"},
+      "letters": [
+        {"letter": "e", "word": "egg", "wordTh": "ไข่", "emoji": "🥚"},
+        {"letter": "f", "word": "fish", "wordTh": "ปลา", "emoji": "🐟"},
+        {"letter": "g", "word": "goat", "wordTh": "แพะ", "emoji": "🐐"}
+      ]
+    },
+    {
+      "id": "ku1l4",
+      "icon": "🌟",
+      "title": "A to G Review",
+      "sub": "ทบทวน เอ ถึง จี",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Let's play with A to G!", "th": "มาเล่นเกมทบทวนตัวอักษร เอ ถึง จี กัน!"},
+      "letters": [
+        {"letter": "a", "word": "apple", "wordTh": "แอปเปิล", "emoji": "🍎"},
+        {"letter": "b", "word": "ball", "wordTh": "ลูกบอล", "emoji": "⚽"},
+        {"letter": "c", "word": "cat", "wordTh": "แมว", "emoji": "🐱"},
+        {"letter": "d", "word": "dog", "wordTh": "หมา", "emoji": "🐶"},
+        {"letter": "e", "word": "egg", "wordTh": "ไข่", "emoji": "🥚"},
+        {"letter": "f", "word": "fish", "wordTh": "ปลา", "emoji": "🐟"},
+        {"letter": "g", "word": "goat", "wordTh": "แพะ", "emoji": "🐐"}
+      ]
+    }
+  ]
+}
