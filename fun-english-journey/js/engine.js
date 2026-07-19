@@ -967,11 +967,13 @@ function render(){
         <button class="sound-btn en" id="ph-word">🔊 ${it.word}</button>
       </div>
       <div class="center"><button class="btn yellow" onclick="next()">ต่อไป ▶</button></div>`;
-    document.getElementById("ph-name").onclick = ()=>playAudio(`phonics-${it.letter}-name.mp3`, U, "en-US");
+    /* ⚠️ interim: ไฟล์ phonics-*-name.mp3 ชุดแรกจาก Antigravity เสียยกชุด (16/26 เป็นไฟล์เสียง phoneme ซ้ำ, e อัดผิดเป็น egg)
+       ใช้ TTS อ่านชื่อตัวอักษรแทนไปก่อน (TTS อ่านชื่อตัวอักษรได้ถูกต้อง) — ดู phonics-audio-defect-report.md รออัดใหม่แล้วค่อยสลับกลับ */
+    document.getElementById("ph-name").onclick = ()=>{ stopAllAudio(); speak(U, "en-US"); };
     document.getElementById("ph-sound").onclick = ()=>playAudio(`phonics-${it.letter}-sound.mp3`, U, "en-US");
     document.getElementById("ph-word").onclick = ()=>playAudio(`phonics-${it.letter}-word.mp3`, it.word, "en-US");
     addXp(1);
-    if(audioSettings.autoplay) playPhonicsSequence([`phonics-${it.letter}-name.mp3`, `phonics-${it.letter}-sound.mp3`, `phonics-${it.letter}-word.mp3`], {gapMs:500});
+    if(audioSettings.autoplay) playPhonicsSequence([`phonics-${it.letter}-sound.mp3`, `phonics-${it.letter}-word.mp3`], {gapMs:500});
   }
 
   else if(st.type==="phonics-listen" || st.type==="phonics-match"){
