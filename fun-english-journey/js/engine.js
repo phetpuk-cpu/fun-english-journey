@@ -1132,18 +1132,27 @@ function setupSpeech(target){
       try{
         mediaStream = await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
         AudioManager.mediaStream = mediaStream;
-        recorder = new MediaRecorder(mediaStream);
-        recorder.ondataavailable = e=>{ if(e.data.size) chunks.push(e.data); };
+        /* เลือก mimeType ที่อุปกรณ์รองรับจริง — Android Chrome บางรุ่นได้ Blob เสียแม้ record สำเร็จ ถ้าไม่ระบุ */
+        let recOpts;
+        for(const mt of ["audio/webm","audio/mp4","audio/ogg"]){
+          if(window.MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(mt)){ recOpts={mimeType:mt}; break; }
+        }
+        recorder = recOpts ? new MediaRecorder(mediaStream, recOpts) : new MediaRecorder(mediaStream);
+        recorder.ondataavailable = e=>{ if(e.data && e.data.size) chunks.push(e.data); };
         recorder.onstop = ()=>{
           if(chunks.length){
-            myVoiceUrl = URL.createObjectURL(new Blob(chunks));
+            myVoiceUrl = URL.createObjectURL(new Blob(chunks, recorder.mimeType ? {type:recorder.mimeType} : undefined));
             playSelf.style.display="inline-block";
             fb.innerHTML += "<br>💾 อัดเสียงแล้ว! กด ▶️ ฟังได้เลย";
+          }else{
+            /* อัดไม่ติด (มักเกิดบนมือถือเมื่อระบบรู้จำเสียงแย่งไมโครโฟน) — แจ้งชัดเจน ไม่เงียบหาย */
+            fb.innerHTML += "<br>🎙️ อัดเสียงไม่ติดรอบนี้ ลองแตะไมค์อัดใหม่ หรือกด ต่อไป เพื่อข้ามได้";
           }
           if(mediaStream){ mediaStream.getTracks().forEach(t=>t.stop()); mediaStream=null; }
           AudioManager.mediaStream=null;
         };
-        recorder.start();
+        /* timeslice 500ms — flush เสียงเป็นช่วงระหว่างอัด กันกรณี stop มาเร็ว/track ถูกปิดก่อน final flush (อาการหลักบนมือถือ) */
+        recorder.start(500);
       }catch(e){
         fb.textContent = micErrorMessage(e);
         busy = false; skip.style.display="block"; return;
