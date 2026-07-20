@@ -1,35 +1,90 @@
 <!DOCTYPE html><html lang="th"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ตรวจเสียง Phonics — Fun English Journey (หน้าภายใน)</title>
 <style>
-body{font-family:'Mali',sans-serif;background:#EAF6FF;color:#1D3557;margin:0;padding:16px;}
+body{font-family:'Mali',sans-serif;background:#EAF6FF;color:#1D3557;margin:0;padding:16px;padding-bottom:90px;}
 h1{font-size:1.3rem} h2{font-size:1.05rem;margin:18px 0 6px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px;}
 .cell{background:#fff;border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:4px;box-shadow:0 2px 6px rgba(29,53,87,.08);}
 .cell b{font-size:1rem}
+.row{display:flex;gap:4px;align-items:center;}
+.row button.play{flex:1;}
 button{font-family:inherit;border:none;border-radius:8px;padding:6px 8px;cursor:pointer;background:#2E90FA;color:#fff;font-size:.85rem;}
 button.sound{background:#7c5fc4} button.word{background:#2a9d5c}
+button.mark{background:#e8edf5;color:#57678a;min-width:38px;font-size:1rem;padding:6px 4px;}
+button.mark.ok{background:#c8f2d8;color:#1d7a44} button.mark.bad{background:#ffd6d6;color:#c0392b}
 .hint{font-size:.85rem;color:#57678a}
 .expected{font-size:.8rem;color:#57678a}
+#toolbar{position:fixed;left:0;right:0;bottom:0;background:#fff;box-shadow:0 -2px 10px rgba(29,53,87,.15);padding:10px 16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+#toolbar .stat{font-size:.9rem;color:#57678a;flex:1;min-width:180px;}
+#report{width:100%;height:120px;font-family:monospace;font-size:.8rem;display:none;margin-top:8px;}
+button.big{background:#1D3557;font-size:.95rem;padding:10px 14px;}
+button.clear{background:#e8edf5;color:#c0392b;}
 </style></head><body>
 <h1>🎧 หน้าไล่ฟังตรวจเสียง Phonics (สำหรับทีมงาน ไม่ลิงก์จากแอป)</h1>
-<p class="hint">กดฟังทีละปุ่ม เทียบกับ "ที่ควรได้ยิน" — ปุ่ม <b>ชื่อ</b> ต้องเป็นชื่อตัวอักษร (บี), ปุ่ม <b>เสียง</b> ต้องเป็น phoneme สั้นๆ (บึ), ปุ่ม <b>คำ</b> ต้องเป็นคำศัพท์</p>
+<p class="hint">กดปุ่มสีฟัง แล้วติ๊กปุ่มขวา: แตะ 1 ครั้ง = ✓ ผ่าน · แตะซ้ำ = ✗ ผิด · แตะอีกครั้ง = ล้าง — ผลบันทึกในเครื่องอัตโนมัติ ปิดหน้าแล้วกลับมาทำต่อได้ เสร็จแล้วกด "คัดลอกผลตรวจ" ด้านล่างแล้วส่งข้อความให้ Claude ได้เลย</p>
 <h2>ตัวอักษร a-z (26 × 3 ไฟล์)</h2>
 <div class="grid" id="letters"></div>
 <h2>คำ CVC (30 ไฟล์)</h2>
 <div class="grid" id="cvc"></div>
+<div id="toolbar">
+  <span class="stat" id="stat">ยังไม่ได้ตรวจ</span>
+  <button class="big" onclick="copyReport()">📋 คัดลอกผลตรวจ</button>
+  <button class="clear" onclick="if(confirm('ล้างผลตรวจทั้งหมด?')){localStorage.removeItem(KEY);marks={};document.querySelectorAll('.mark').forEach(paint);refresh();}">🗑 ล้างผล</button>
+  <textarea id="report" readonly></textarea>
+</div>
 <script>
 const NAMES={a:"เอ",b:"บี",c:"ซี",d:"ดี",e:"อี",f:"เอฟ",g:"จี",h:"เอช",i:"ไอ",j:"เจ",k:"เค",l:"แอล",m:"เอ็ม",n:"เอ็น",o:"โอ",p:"พี",q:"คิว",r:"อาร์",s:"เอส",t:"ที",u:"ยู",v:"วี",w:"ดับเบิลยู",x:"เอกซ์",y:"วาย",z:"ซี"};
 const WORDS={a:"apple",b:"ball",c:"cat",d:"dog",e:"egg",f:"fish",g:"goat",h:"hat",i:"insect",j:"jam",k:"kite",l:"lion",m:"monkey",n:"nose",o:"octopus",p:"pig",q:"queen",r:"rabbit",s:"sun",t:"tiger",u:"umbrella",v:"van",w:"worm",x:"fox",y:"yo-yo",z:"zebra"};
 const CVC=["cat","bat","rat","hat","mat","sat","man","fan","pan","van","cap","map","nap","tap","pig","wig","dig","dog","log","bug","hug","rug","net","jet","vet","wet","hen","pen","bed","red"];
+const KEY="fejPhonicsAudit";
+let marks={}; try{ marks=JSON.parse(localStorage.getItem(KEY))||{}; }catch(e){}
 let cur=null;
 function play(f){ if(cur){cur.pause();} cur=new Audio("assets/audio/"+f); cur.play(); }
+function save(){ localStorage.setItem(KEY, JSON.stringify(marks)); refresh(); }
+function toggle(btn){
+  const f=btn.dataset.f;
+  marks[f] = marks[f]==="ok" ? "bad" : marks[f]==="bad" ? undefined : "ok";
+  if(marks[f]===undefined) delete marks[f];
+  paint(btn); save();
+}
+function paint(btn){
+  const s=marks[btn.dataset.f];
+  btn.className="mark"+(s==="ok"?" ok":s==="bad"?" bad":"");
+  btn.classList.add("mark"); btn.textContent = s==="ok"?"✓":s==="bad"?"✗":"—";
+}
+function markBtn(f){ return `<button class="mark" data-f="${f}" onclick="toggle(this)">—</button>`; }
+const TOTAL=26*3+30;
+function refresh(){
+  const vals=Object.values(marks);
+  const ok=vals.filter(v=>v==="ok").length, bad=vals.filter(v=>v==="bad").length;
+  document.getElementById("stat").textContent=`ตรวจแล้ว ${vals.length}/${TOTAL} · ✓ ผ่าน ${ok} · ✗ ผิด ${bad}`;
+}
+function copyReport(){
+  const bad=Object.keys(marks).filter(f=>marks[f]==="bad").sort();
+  const ok=Object.values(marks).filter(v=>v==="ok").length;
+  const lines=[
+    `ผลตรวจเสียง Phonics ${new Date().toLocaleDateString("th-TH")} — ตรวจ ${Object.keys(marks).length}/${TOTAL} ไฟล์ ผ่าน ${ok} ผิด ${bad.length}`,
+    ...(bad.length?["ไฟล์ที่ผิด:",...bad.map(f=>"✗ "+f)]:["ไม่มีไฟล์ผิด 🎉"]),
+  ];
+  const text=lines.join("\n");
+  const ta=document.getElementById("report");
+  ta.value=text; ta.style.display="block";
+  const stat=document.getElementById("stat");
+  (navigator.clipboard?navigator.clipboard.writeText(text):Promise.reject()).then(
+    ()=>{ stat.textContent="✅ คัดลอกแล้ว! วางส่งให้ Claude ได้เลย"; setTimeout(refresh,3000); },
+    ()=>{ ta.select(); stat.textContent="คัดลอกอัตโนมัติไม่ได้ — เลือกข้อความในกล่องด้านล่างแล้ว copy เองนะครับ"; }
+  );
+}
 document.getElementById("letters").innerHTML=Object.keys(NAMES).map(l=>`
   <div class="cell"><b>${l.toUpperCase()} ${l}</b>
-    <button onclick="play('phonics-${l}-name.mp3')">🔊 ชื่อ</button>
-    <button class="sound" onclick="play('phonics-${l}-sound.mp3')">🗣️ เสียง</button>
-    <button class="word" onclick="play('phonics-${l}-word.mp3')">🔊 ${WORDS[l]}</button>
+    <div class="row"><button class="play" onclick="play('phonics-${l}-name.mp3')">🔊 ชื่อ</button>${markBtn(`phonics-${l}-name`)}</div>
+    <div class="row"><button class="play sound" onclick="play('phonics-${l}-sound.mp3')">🗣️ เสียง</button>${markBtn(`phonics-${l}-sound`)}</div>
+    <div class="row"><button class="play word" onclick="play('phonics-${l}-word.mp3')">🔊 ${WORDS[l]}</button>${markBtn(`phonics-${l}-word`)}</div>
     <span class="expected">ควรได้ยิน: ${NAMES[l]} / phoneme สั้น / ${WORDS[l]}</span>
   </div>`).join("");
 document.getElementById("cvc").innerHTML=CVC.map(w=>`
-  <div class="cell"><b>${w}</b><button class="word" onclick="play('phonics-cvc-${w}.mp3')">🔊 ฟัง</button></div>`).join("");
+  <div class="cell"><b>${w}</b>
+    <div class="row"><button class="play word" onclick="play('phonics-cvc-${w}.mp3')">🔊 ฟัง</button>${markBtn(`phonics-cvc-${w}`)}</div>
+  </div>`).join("");
+document.querySelectorAll(".mark").forEach(paint); refresh();
 </script></body></html>
