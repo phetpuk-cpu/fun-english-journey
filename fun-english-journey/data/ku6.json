@@ -1,0 +1,54 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 6 · ครอบครัวคำ -an / -ap",
+  "lessons": [
+    {
+      "id": "ku6l1",
+      "icon": "👨",
+      "title": "man fan pan van",
+      "sub": "สะกดคำ แมน แฟน แพน แวน",
+      "lessonType": "phonics",
+      "intro": {"en": "M-A-N... man! Let's read together!", "th": "เอ็ม-เอ-เอ็น... แมน! มาสะกดคำกันเถอะ!"},
+      "cvc": [
+        {"word": "man", "th": "ผู้ชาย", "emoji": "👨"},
+        {"word": "fan", "th": "พัดลม", "emoji": "🌀"},
+        {"word": "pan", "th": "กระทะ", "emoji": "🍳"},
+        {"word": "van", "th": "รถตู้", "emoji": "🚐"}
+      ]
+    },
+    {
+      "id": "ku6l2",
+      "icon": "🧢",
+      "title": "cap map nap tap",
+      "sub": "สะกดคำ แคป แมป แนป แทป",
+      "lessonType": "phonics",
+      "intro": {"en": "C-A-P... cap! Let's read more words!", "th": "ซี-เอ-พี... แคป! มาสะกดคำเพิ่มกัน!"},
+      "cvc": [
+        {"word": "cap", "th": "หมวกแก๊ป", "emoji": "🧢"},
+        {"word": "map", "th": "แผนที่", "emoji": "🗺️"},
+        {"word": "nap", "th": "งีบหลับ", "emoji": "😴"},
+        {"word": "tap", "th": "ก๊อกน้ำ", "emoji": "🚰"}
+      ]
+    },
+    {
+      "id": "ku6l3",
+      "icon": "🎉",
+      "title": "-an / -ap Family Review",
+      "sub": "ทบทวนครอบครัวคำ -an -ap",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Man, fan, pan, van, cap, map, nap, tap! Let's play!", "th": "มาเล่นเกมทบทวนคำทั้งหมดกัน!"},
+      "cvc": [
+        {"word": "man", "th": "ผู้ชาย", "emoji": "👨"},
+        {"word": "fan", "th": "พัดลม", "emoji": "🌀"},
+        {"word": "pan", "th": "กระทะ", "emoji": "🍳"},
+        {"word": "van", "th": "รถตู้", "emoji": "🚐"},
+        {"word": "cap", "th": "หมวกแก๊ป", "emoji": "🧢"},
+        {"word": "map", "th": "แผนที่", "emoji": "🗺️"},
+        {"word": "nap", "th": "งีบหลับ", "emoji": "😴"},
+        {"word": "tap", "th": "ก๊อกน้ำ", "emoji": "🚰"}
+      ]
+    }
+  ]
+}

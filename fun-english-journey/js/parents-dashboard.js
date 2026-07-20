@@ -39,7 +39,7 @@ function profileSpeakingAverage(profile){
   return Math.round(sum/stats.length);
 }
 
-const LESSONS_BY_GRADE = {k:7}; // อนุบาล pilot 2 หน่วย (4+3 บท); ชั้นอื่น 34 (8 หน่วย x 4 บท + หน่วย 9-10 อย่างละ 1 บท Reading)
+const LESSONS_BY_GRADE = {k:25}; // อนุบาล 8 หน่วย (4×4 ตัวอักษร + 3×3 CVC = 25 บท); ชั้นอื่น 34 (8 หน่วย x 4 บท + หน่วย 9-10 อย่างละ 1 บท Reading)
 const GRADE_LABELS = {k:"อนุบาล",p1:"ป.1",p2:"ป.2",p3:"ป.3",p4:"ป.4",p5:"ป.5",p6:"ป.6"};
 function lessonsPerGrade(grade){ return LESSONS_BY_GRADE[grade] ?? 34; }
 

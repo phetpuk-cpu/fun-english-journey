@@ -1,0 +1,60 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 4 · ตัวอักษร U V W X Y Z",
+  "lessons": [
+    {
+      "id": "ku4l1",
+      "icon": "☂️",
+      "title": "U and V",
+      "sub": "ตัวอักษร ยู กับ วี",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn U and V!", "th": "มารู้จักตัวอักษร ยู กับ วี กันเถอะ!"},
+      "letters": [
+        {"letter": "u", "word": "umbrella", "wordTh": "ร่ม", "emoji": "☂️"},
+        {"letter": "v", "word": "van", "wordTh": "รถตู้", "emoji": "🚐"}
+      ]
+    },
+    {
+      "id": "ku4l2",
+      "icon": "🪱",
+      "title": "W and X",
+      "sub": "ตัวอักษร ดับเบิลยู กับ เอกซ์",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn W and X!", "th": "มารู้จักตัวอักษร ดับเบิลยู กับ เอกซ์ กันเถอะ!"},
+      "letters": [
+        {"letter": "w", "word": "worm", "wordTh": "หนอน", "emoji": "🪱"},
+        {"letter": "x", "word": "fox", "wordTh": "หมาจิ้งจอก", "emoji": "🦊"}
+      ]
+    },
+    {
+      "id": "ku4l3",
+      "icon": "🪀",
+      "title": "Y and Z",
+      "sub": "ตัวอักษร วาย กับ ซี",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn Y and Z!", "th": "มารู้จักตัวอักษร วาย กับ ซี กันเถอะ!"},
+      "letters": [
+        {"letter": "y", "word": "yo-yo", "wordTh": "โยโย่", "emoji": "🪀"},
+        {"letter": "z", "word": "zebra", "wordTh": "ม้าลาย", "emoji": "🦓"}
+      ]
+    },
+    {
+      "id": "ku4l4",
+      "icon": "🌟",
+      "title": "U to Z Review",
+      "sub": "ทบทวน ยู ถึง ซี",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Let's play with U to Z!", "th": "มาเล่นเกมทบทวนตัวอักษร ยู ถึง ซี กัน!"},
+      "letters": [
+        {"letter": "u", "word": "umbrella", "wordTh": "ร่ม", "emoji": "☂️"},
+        {"letter": "v", "word": "van", "wordTh": "รถตู้", "emoji": "🚐"},
+        {"letter": "w", "word": "worm", "wordTh": "หนอน", "emoji": "🪱"},
+        {"letter": "x", "word": "fox", "wordTh": "หมาจิ้งจอก", "emoji": "🦊"},
+        {"letter": "y", "word": "yo-yo", "wordTh": "โยโย่", "emoji": "🪀"},
+        {"letter": "z", "word": "zebra", "wordTh": "ม้าลาย", "emoji": "🦓"}
+      ]
+    }
+  ]
+}

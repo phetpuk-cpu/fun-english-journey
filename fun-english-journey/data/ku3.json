@@ -1,0 +1,60 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 3 · ตัวอักษร O P Q R S T",
+  "lessons": [
+    {
+      "id": "ku3l1",
+      "icon": "🐙",
+      "title": "O and P",
+      "sub": "ตัวอักษร โอ กับ พี",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn O and P!", "th": "มารู้จักตัวอักษร โอ กับ พี กันเถอะ!"},
+      "letters": [
+        {"letter": "o", "word": "octopus", "wordTh": "ปลาหมึกยักษ์", "emoji": "🐙"},
+        {"letter": "p", "word": "pig", "wordTh": "หมู", "emoji": "🐷"}
+      ]
+    },
+    {
+      "id": "ku3l2",
+      "icon": "👸",
+      "title": "Q and R",
+      "sub": "ตัวอักษร คิว กับ อาร์",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn Q and R!", "th": "มารู้จักตัวอักษร คิว กับ อาร์ กันเถอะ!"},
+      "letters": [
+        {"letter": "q", "word": "queen", "wordTh": "ราชินี", "emoji": "👸"},
+        {"letter": "r", "word": "rabbit", "wordTh": "กระต่าย", "emoji": "🐰"}
+      ]
+    },
+    {
+      "id": "ku3l3",
+      "icon": "☀️",
+      "title": "S and T",
+      "sub": "ตัวอักษร เอส กับ ที",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn S and T!", "th": "มารู้จักตัวอักษร เอส กับ ที กันเถอะ!"},
+      "letters": [
+        {"letter": "s", "word": "sun", "wordTh": "พระอาทิตย์", "emoji": "☀️"},
+        {"letter": "t", "word": "tiger", "wordTh": "เสือ", "emoji": "🐯"}
+      ]
+    },
+    {
+      "id": "ku3l4",
+      "icon": "🌟",
+      "title": "O to T Review",
+      "sub": "ทบทวน โอ ถึง ที",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Let's play with O to T!", "th": "มาเล่นเกมทบทวนตัวอักษร โอ ถึง ที กัน!"},
+      "letters": [
+        {"letter": "o", "word": "octopus", "wordTh": "ปลาหมึกยักษ์", "emoji": "🐙"},
+        {"letter": "p", "word": "pig", "wordTh": "หมู", "emoji": "🐷"},
+        {"letter": "q", "word": "queen", "wordTh": "ราชินี", "emoji": "👸"},
+        {"letter": "r", "word": "rabbit", "wordTh": "กระต่าย", "emoji": "🐰"},
+        {"letter": "s", "word": "sun", "wordTh": "พระอาทิตย์", "emoji": "☀️"},
+        {"letter": "t", "word": "tiger", "wordTh": "เสือ", "emoji": "🐯"}
+      ]
+    }
+  ]
+}

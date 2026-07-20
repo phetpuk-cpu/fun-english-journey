@@ -1,0 +1,54 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 7 · ครอบครัวคำ -ig / -og / -ug",
+  "lessons": [
+    {
+      "id": "ku7l1",
+      "icon": "🐷",
+      "title": "pig wig dig dog",
+      "sub": "สะกดคำ พิก วิก ดิก ดอก",
+      "lessonType": "phonics",
+      "intro": {"en": "P-I-G... pig! Let's read together!", "th": "พี-ไอ-จี... พิก! มาสะกดคำกันเถอะ!"},
+      "cvc": [
+        {"word": "pig", "th": "หมู", "emoji": "🐷"},
+        {"word": "wig", "th": "วิกผม", "emoji": "👱"},
+        {"word": "dig", "th": "ขุด", "emoji": "⛏️"},
+        {"word": "dog", "th": "หมา", "emoji": "🐶"}
+      ]
+    },
+    {
+      "id": "ku7l2",
+      "icon": "🪵",
+      "title": "log bug hug rug",
+      "sub": "สะกดคำ ลอก บัก ฮัก รัก",
+      "lessonType": "phonics",
+      "intro": {"en": "L-O-G... log! Let's read more words!", "th": "แอล-โอ-จี... ลอก! มาสะกดคำเพิ่มกัน!"},
+      "cvc": [
+        {"word": "log", "th": "ท่อนไม้", "emoji": "🪵"},
+        {"word": "bug", "th": "แมลง", "emoji": "🐛"},
+        {"word": "hug", "th": "กอด", "emoji": "🤗"},
+        {"word": "rug", "th": "พรม", "emoji": "🟪"}
+      ]
+    },
+    {
+      "id": "ku7l3",
+      "icon": "🎉",
+      "title": "-ig / -og / -ug Family Review",
+      "sub": "ทบทวนครอบครัวคำ -ig -og -ug",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Pig, wig, dig, dog, log, bug, hug, rug! Let's play!", "th": "มาเล่นเกมทบทวนคำทั้งหมดกัน!"},
+      "cvc": [
+        {"word": "pig", "th": "หมู", "emoji": "🐷"},
+        {"word": "wig", "th": "วิกผม", "emoji": "👱"},
+        {"word": "dig", "th": "ขุด", "emoji": "⛏️"},
+        {"word": "dog", "th": "หมา", "emoji": "🐶"},
+        {"word": "log", "th": "ท่อนไม้", "emoji": "🪵"},
+        {"word": "bug", "th": "แมลง", "emoji": "🐛"},
+        {"word": "hug", "th": "กอด", "emoji": "🤗"},
+        {"word": "rug", "th": "พรม", "emoji": "🟪"}
+      ]
+    }
+  ]
+}

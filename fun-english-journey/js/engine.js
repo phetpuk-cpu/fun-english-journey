@@ -2,7 +2,7 @@
    DATA LOADING — CONTENT ย้ายไปอยู่ data/*.json (ดู project-handoff.md 3.1)
    ============================================================ */
 const UNIT_FILES = {
-  k: ["data/ku1.json", "data/ku5.json"], /* อนุบาล pilot 2 หน่วย (หน่วย 2-4, 6-8 จะเพิ่มหลังทดสอบกับเด็กจริง) */
+  k: ["data/ku1.json", "data/ku2.json", "data/ku3.json", "data/ku4.json", "data/ku5.json", "data/ku6.json", "data/ku7.json", "data/ku8.json"], /* อนุบาล ครบ 8 หน่วย (1-4 ตัวอักษร a-z, 5-8 ตระกูลคำ CVC) */
   p1: ["data/p1u1.json", "data/p1u2.json", "data/p1u3.json", "data/p1u4.json", "data/p1u5.json", "data/p1u6.json", "data/p1u7.json", "data/p1u8.json", "data/p1u9.json", "data/p1u10.json"],
   p2: ["data/p2u1.json", "data/p2u2.json", "data/p2u3.json", "data/p2u4.json", "data/p2u5.json", "data/p2u6.json", "data/p2u7.json", "data/p2u8.json", "data/p2u9.json", "data/p2u10.json"],
   p3: ["data/p3u1.json", "data/p3u2.json", "data/p3u3.json", "data/p3u4.json", "data/p3u5.json", "data/p3u6.json", "data/p3u7.json", "data/p3u8.json", "data/p3u9.json", "data/p3u10.json"],

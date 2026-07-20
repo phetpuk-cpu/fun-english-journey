@@ -137,7 +137,7 @@ function checkLesson(file, l, idx) {
   }
 }
 
-const K_UNIT_FILES = ["ku1.json", "ku5.json"]; // อนุบาล pilot — เพิ่มไฟล์ในลิสต์นี้เมื่อขยายหน่วย
+const K_UNIT_FILES = ["ku1.json", "ku2.json", "ku3.json", "ku4.json", "ku5.json", "ku6.json", "ku7.json", "ku8.json"]; // อนุบาล ครบ 8 หน่วย
 for (const file of K_UNIT_FILES) {
   const full = path.join(DATA_DIR, file);
   if (!fs.existsSync(full)) { fail(file, "ไฟล์หายไป (คาดว่าต้องมี)"); continue; }

@@ -1,0 +1,62 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 2 · ตัวอักษร H I J K L M N",
+  "lessons": [
+    {
+      "id": "ku2l1",
+      "icon": "👒",
+      "title": "H and I",
+      "sub": "ตัวอักษร เอช กับ ไอ",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn H and I!", "th": "มารู้จักตัวอักษร เอช กับ ไอ กันเถอะ!"},
+      "letters": [
+        {"letter": "h", "word": "hat", "wordTh": "หมวก", "emoji": "👒"},
+        {"letter": "i", "word": "insect", "wordTh": "แมลง", "emoji": "🐞"}
+      ]
+    },
+    {
+      "id": "ku2l2",
+      "icon": "🍓",
+      "title": "J and K",
+      "sub": "ตัวอักษร เจ กับ เค",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn J and K!", "th": "มารู้จักตัวอักษร เจ กับ เค กันเถอะ!"},
+      "letters": [
+        {"letter": "j", "word": "jam", "wordTh": "แยม", "emoji": "🍓"},
+        {"letter": "k", "word": "kite", "wordTh": "ว่าว", "emoji": "🪁"}
+      ]
+    },
+    {
+      "id": "ku2l3",
+      "icon": "🦁",
+      "title": "L M N",
+      "sub": "ตัวอักษร แอล เอ็ม เอ็น",
+      "lessonType": "phonics",
+      "intro": {"en": "Let's learn L, M and N!", "th": "มารู้จักตัวอักษร แอล เอ็ม เอ็น กันเถอะ!"},
+      "letters": [
+        {"letter": "l", "word": "lion", "wordTh": "สิงโต", "emoji": "🦁"},
+        {"letter": "m", "word": "monkey", "wordTh": "ลิง", "emoji": "🐒"},
+        {"letter": "n", "word": "nose", "wordTh": "จมูก", "emoji": "👃"}
+      ]
+    },
+    {
+      "id": "ku2l4",
+      "icon": "🌟",
+      "title": "H to N Review",
+      "sub": "ทบทวน เอช ถึง เอ็น",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Let's play with H to N!", "th": "มาเล่นเกมทบทวนตัวอักษร เอช ถึง เอ็น กัน!"},
+      "letters": [
+        {"letter": "h", "word": "hat", "wordTh": "หมวก", "emoji": "👒"},
+        {"letter": "i", "word": "insect", "wordTh": "แมลง", "emoji": "🐞"},
+        {"letter": "j", "word": "jam", "wordTh": "แยม", "emoji": "🍓"},
+        {"letter": "k", "word": "kite", "wordTh": "ว่าว", "emoji": "🪁"},
+        {"letter": "l", "word": "lion", "wordTh": "สิงโต", "emoji": "🦁"},
+        {"letter": "m", "word": "monkey", "wordTh": "ลิง", "emoji": "🐒"},
+        {"letter": "n", "word": "nose", "wordTh": "จมูก", "emoji": "👃"}
+      ]
+    }
+  ]
+}

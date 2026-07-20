@@ -1,0 +1,54 @@
+{
+  "grade": "k",
+  "gradeName": "อนุบาล — ABC Phonics Pond 🐣",
+  "unitName": "หน่วย 8 · ครอบครัวคำ -et / -en / -ed",
+  "lessons": [
+    {
+      "id": "ku8l1",
+      "icon": "🥅",
+      "title": "net jet vet wet",
+      "sub": "สะกดคำ เน็ต เจ็ต เว็ต เว็ท",
+      "lessonType": "phonics",
+      "intro": {"en": "N-E-T... net! Let's read together!", "th": "เอ็น-อี-ที... เน็ต! มาสะกดคำกันเถอะ!"},
+      "cvc": [
+        {"word": "net", "th": "ตาข่าย", "emoji": "🥅"},
+        {"word": "jet", "th": "เครื่องบินเจ็ต", "emoji": "✈️"},
+        {"word": "vet", "th": "สัตวแพทย์", "emoji": "🩺"},
+        {"word": "wet", "th": "เปียก", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": "ku8l2",
+      "icon": "🐔",
+      "title": "hen pen bed red",
+      "sub": "สะกดคำ เฮ็น เพ็น เบ็ด เร็ด",
+      "lessonType": "phonics",
+      "intro": {"en": "H-E-N... hen! Let's read more words!", "th": "เอช-อี-เอ็น... เฮ็น! มาสะกดคำเพิ่มกัน!"},
+      "cvc": [
+        {"word": "hen", "th": "แม่ไก่", "emoji": "🐔"},
+        {"word": "pen", "th": "ปากกา", "emoji": "🖊️"},
+        {"word": "bed", "th": "เตียง", "emoji": "🛏️"},
+        {"word": "red", "th": "สีแดง", "emoji": "🔴"}
+      ]
+    },
+    {
+      "id": "ku8l3",
+      "icon": "🎉",
+      "title": "-et / -en / -ed Family Review",
+      "sub": "ทบทวนครอบครัวคำ -et -en -ed",
+      "lessonType": "phonics",
+      "review": true,
+      "intro": {"en": "Net, jet, vet, wet, hen, pen, bed, red! Let's play!", "th": "มาเล่นเกมทบทวนคำทั้งหมดกัน!"},
+      "cvc": [
+        {"word": "net", "th": "ตาข่าย", "emoji": "🥅"},
+        {"word": "jet", "th": "เครื่องบินเจ็ต", "emoji": "✈️"},
+        {"word": "vet", "th": "สัตวแพทย์", "emoji": "🩺"},
+        {"word": "wet", "th": "เปียก", "emoji": "💧"},
+        {"word": "hen", "th": "แม่ไก่", "emoji": "🐔"},
+        {"word": "pen", "th": "ปากกา", "emoji": "🖊️"},
+        {"word": "bed", "th": "เตียง", "emoji": "🛏️"},
+        {"word": "red", "th": "สีแดง", "emoji": "🔴"}
+      ]
+    }
+  ]
+}
