@@ -272,7 +272,7 @@ function showAudioNotice(message){
   const feedback = document.querySelector("#stage .feedback");
   if(feedback && !feedback.textContent) feedback.textContent = message;
 }
-function speak(text, lang, token=AudioManager.token){
+function speak(text, lang, token=AudioManager.token, onEnd){
   try{
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
@@ -282,8 +282,28 @@ function speak(text, lang, token=AudioManager.token){
     const voices = speechSynthesis.getVoices();
     const v = voices.find(v=>v.lang && v.lang.startsWith(lang.split("-")[0]));
     if(v) u.voice = v;
+    if(onEnd){
+      let fired = false;
+      const finish = ()=>{ if(fired) return; fired = true; onEnd(); };
+      u.onend = finish; u.onerror = finish;
+      /* กันเบราว์เซอร์ที่ไม่ยิง onend (พบบน iOS Safari บางเวอร์ชัน) — เผื่อเวลาตามจำนวนคำ */
+      const words = String(text).trim().split(/\s+/).length;
+      setTimeout(finish, 2500 + words * 900);
+    }
     if(token === AudioManager.token) speechSynthesis.speak(u);
-  }catch(e){}
+  }catch(e){ if(onEnd) onEnd(); }
+}
+/* ไปขั้นถัดไป "หลังเสียงพูดจบจริง" แทนการหน่วงเวลาตายตัวที่ตัดเสียงกลางคันเมื่อประโยคยาว
+   คงเวลาขั้นต่ำไว้ให้เด็กได้อ่านข้อความชมเชยทัน แม้เสียงจะจบเร็ว */
+function nextAfterSpeech(text, lang, minMs=1200){
+  const token = AudioManager.token;
+  const startedAt = Date.now();
+  let advanced = false;
+  speak(text, lang, token, ()=>{
+    if(advanced || token !== AudioManager.token) return;
+    advanced = true;
+    setTimeout(next, Math.max(0, minMs - (Date.now() - startedAt)));
+  });
 }
 if("speechSynthesis" in window){
   speechSynthesis.getVoices();
@@ -727,7 +747,8 @@ function render(){
           addXp(2); done++; playSfx("match");
           playAudio(`${L.id}-vocab-${slug(el.dataset.k)}-en.mp3`, el.dataset.k, "en-US");
           document.getElementById("match-fb").textContent = "✅ เก่งมาก!";
-          if(done===4) setTimeout(next, 900);
+          /* 1600ms เผื่อคำศัพท์ยาว (เช่น "take out the trash") เล่นจบก่อนข้ามขั้น */
+          if(done===4) setTimeout(next, 1600);
         }else{
           el.classList.add("wrong"); playSfx("wrong"); setTimeout(()=>el.classList.remove("wrong"),400);
           sel.classList.remove("selected");
@@ -803,8 +824,7 @@ function render(){
     document.getElementById("build-check").onclick = ()=>{
       if(answer.map(s=>s.w).join(" ") === target){
         document.getElementById("build-fb").textContent = "🎉 ถูกต้อง! "+L.build.sentence;
-        addXp(5); speak(L.build.sentence,"en-US");
-        setTimeout(next, 1600);
+        addXp(5); nextAfterSpeech(L.build.sentence, "en-US", 1600);
       }else{
         document.getElementById("build-fb").textContent = "ยังไม่ถูก ลองสลับดูใหม่นะ 💪";
       }
@@ -838,8 +858,7 @@ function render(){
     document.getElementById("qbuild-check").onclick = ()=>{
       if(answer.map(s=>s.w).join(" ") === target){
         document.getElementById("qbuild-fb").textContent = "🎉 ถามเก่งมาก! "+L.questionBuild.sentence+"?";
-        addXp(5); speak(L.questionBuild.sentence+"?","en-US");
-        setTimeout(next, 1600);
+        addXp(5); nextAfterSpeech(L.questionBuild.sentence+"?", "en-US", 1600);
       }else{
         document.getElementById("qbuild-fb").textContent = "ยังไม่ถูก ลองสลับดูใหม่นะ 💪";
       }
