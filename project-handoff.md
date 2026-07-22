@@ -118,7 +118,13 @@ step type `"transform"` ใน engine.js (field `transform` ในไฟล์ J
 **Tier 3 — โครงสร้างพื้นฐาน/technical debt (ไม่เร่ง แต่ความเสี่ยงโตขึ้นเรื่อยๆ ถ้าปล่อยไว้)**
 - [ ] Git LFS migration — ต้อง rewrite ประวัติ git + force-push ต้องเลือกจังหวะที่ไม่มี Codex/Antigravity กำลัง push งานอยู่
 - [ ] เลือก analytics service ต่อบทเรียน (ต้องสมัครบัญชี เช่น GoatCounter/Plausible)
-- [ ] Automated test เพิ่มเติมนอกจาก schema validator (เช่น navigation, save/resume, permission denied — ตามที่ระบุใน `docs/done/webapp-ux-ui-security-review-for-claude.md`)
+- [x] **Automated test — เสร็จแล้ว 21 ก.ค. 2026** (`tools/test/` · 103 เทสต์ · รันด้วย `node --test tools/test/*.test.js` ไม่ต้อง npm install)
+  - ครอบคลุม: ฟังก์ชันพื้นฐาน (slug/similarity), ลำดับขั้นบทเรียนทุกชนิด, สูตร XP+ดาว, แดชบอร์ดผู้ปกครอง, **ไฟล์ภาพ/เสียงตรงกับเนื้อหาไหม**, schema+ความสอดคล้องของเนื้อหา
+  - โหลด `engine.js` เข้า Node ผ่าน `tools/test/helpers/load-engine.js` โดย stub browser API — **ไม่แตะไฟล์ production เลย** (สำคัญเพราะหลายเอเจนต์แก้ไฟล์เดียวกัน)
+  - **เชื่อม CI แล้ว**: `deploy.yml` มี job `test` ที่ `build` ต้องรอ — ถ้าเทสต์ตก เว็บจะไม่ถูก deploy (กันไฟล์เสียทับของดี)
+  - พิสูจน์แล้วว่าจับบั๊กจริงได้: ทดลองทำโค้ดพัง 3 แบบ (จำนวนบทผิด / slug เพี้ยน / ลบ guard ควิซ) เทสต์แดงทุกครั้ง
+  - รายละเอียดและคู่มือสำหรับ Codex/Antigravity: `tools/test/README.md`
+  - *ยังไม่ครอบคลุม: การกดปุ่มจริงในเบราว์เซอร์ (E2E) — ตัดสินใจไม่ทำเพราะต้องลง Playwright ~300MB ไม่คุ้มกับขนาดโปรเจกต์*
 
 **Tier 4 — ทำท้ายสุด (ต้องมี backend ก่อนถึงจะเริ่มได้)**
 - [ ] Phase 5: หลายโปรไฟล์เด็กไม่จำกัด, adaptive lesson selection, cloud sync ข้ามอุปกรณ์ (Supabase) — รอ PDPA (Tier 1) เสร็จก่อนด้วย

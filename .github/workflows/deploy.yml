@@ -13,6 +13,7 @@ on:
     paths:
       - "fun-english-journey/**"
       - "assets/**"
+      - "tools/**"
       - ".github/workflows/deploy.yml"
   workflow_dispatch: {}
 
@@ -27,7 +28,26 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Guards production: if any test fails the site is not rebuilt, so a bad asset
+  # rename or engine regression can't overwrite a working deploy.
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # Uses Node's built-in test runner — the project has no npm dependencies.
+      # Glob is expanded by the shell (not node) so this works across Node versions.
+      - name: Run tests
+        run: node --test tools/test/*.test.js
+
   build:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
