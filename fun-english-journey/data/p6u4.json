@@ -66,7 +66,7 @@
         {"q":"'บ้านอัจฉริยะ' คือ...","c":["smart home","self-driving car","video call"],"a":0},
         {"q":"📹 คือ...","c":["video call","virtual reality","drone"],"a":0},
         {"q":"'ปัญญาประดิษฐ์' คือ...","c":["artificial intelligence","virtual reality","wearable device"],"a":0},
-        {"q":"🥽 คือ...","c":["virtual reality","artificial intelligence","drone"],"a":0},
+        {"q":"ความจริงเสมือน คือ...","c":["virtual reality","artificial intelligence","drone"],"a":0},
         {"q":"⌚ คือ...","c":["wearable device","smart home","drone"],"a":0},
         {"q":"🚁 คือ...","c":["drone","self-driving car","wearable device"],"a":0},
         {"q":"In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0}
@@ -109,7 +109,7 @@
         {"q":"'ส่วนตัว' คือ...","c":["private","personal information","share"],"a":0},
         {"q":"🛡️ คือ...","c":["safe","stranger","trust"],"a":0},
         {"q":"'คนแปลกหน้า' คือ...","c":["stranger","trust","share"],"a":0},
-        {"q":"📋 คือ...","c":["personal information","password","private"],"a":0},
+        {"q":"ข้อมูลส่วนตัว คือ...","c":["personal information","password","private"],"a":0},
         {"q":"📤 คือ...","c":["share","trust","safe"],"a":0},
         {"q":"⚠️ คือ...","c":["careful online","safe","trust"],"a":0},
         {"q":"You should keep your password ___. (ส่วนตัว)","c":["private","share","safe"],"a":0}
@@ -147,13 +147,13 @@
         {"t":"The internet connects the whole world.","th":"อินเทอร์เน็ตเชื่อมต่อคนทั้งโลกเข้าด้วยกัน"}
       ],
       "quiz": [
-        {"q":"[หน่วย4] 💡 คือ...","c":["invention","innovation","progress"],"a":0},
-        {"q":"[หน่วย4] 🚀 คือ...","c":["innovation","invention","upgrade"],"a":0},
-        {"q":"[ทบทวน] In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0},
-        {"q":"[ทบทวน] You should keep your password ___. (ส่วนตัว)","c":["private","share","safe"],"a":0},
-        {"q":"[ทบทวน] 💻 คือ...","c":["computer","smartphone","tablet"],"a":0},
+        {"q":"สิ่งประดิษฐ์ คือ...","c":["invention","innovation","progress"],"a":0},
+        {"q":"นวัตกรรม คือ...","c":["innovation","invention","upgrade"],"a":0},
+        {"q":"In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0},
+        {"q":"You should keep your password ___. (ส่วนตัว)","c":["private","share","safe"],"a":0},
+        {"q":"💻 คือ...","c":["computer","smartphone","tablet"],"a":0},
         {"q":"🔗 คือ...","c":["connect","digital","convenient"],"a":0},
-        {"q":"⚡ คือ...","c":["powerful","convenient","digital"],"a":0},
+        {"q":"ทรงพลัง คือ...","c":["powerful","convenient","digital"],"a":0},
         {"q":"Technology will make our lives ___. (ง่ายขึ้น)","c":["easier","harder","slower"],"a":0}
       ],
       "writeSentence": true,

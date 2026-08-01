@@ -134,9 +134,9 @@
         {"q":"🧑‍🏫 คือ...","c":["teacher","student","friend"],"a":0},
         {"q":"'นักเรียน' คือ...","c":["student","teacher","friend"],"a":0},
         {"q":"🤝 คือ...","c":["friend","teacher","student"],"a":0},
-        {"q":"[ทบทวน] 🎒 คือ...","c":["bag","book","box"],"a":0},
-        {"q":"[ทบทวน] 🍎 คือ...","c":["an apple","a apple","an apples"],"a":0},
-        {"q":"[ทบทวน] 🪑 โต๊ะคือ...","c":["desk","chair","door"],"a":0},
+        {"q":"🎒 คือ...","c":["bag","book","box"],"a":0},
+        {"q":"🍎 คือ...","c":["an apple","a apple","an apples"],"a":0},
+        {"q":"🪑 โต๊ะคือ...","c":["desk","chair","door"],"a":0},
         {"q":"👋 คือ...","c":["hello","friend","school"],"a":0},
         {"q":"'โรงเรียน' คือ...","c":["school","classroom","student"],"a":0}
       ],

@@ -31,9 +31,9 @@
         {"q":"'จะไม่' คือ...","c":["won't","will","never"],"a":0},
         {"q":"➡️ คือ...","c":["next season","next year","future"],"a":0},
         {"q":"📅 คือ...","c":["next year","next season","plan"],"a":0},
-        {"q":"🌠 คือ...","c":["future","past","dream"],"a":0},
+        {"q":"อนาคต คือ...","c":["future","past","dream"],"a":0},
         {"q":"'แผนการ' คือ...","c":["plan","goal","dream"],"a":0},
-        {"q":"🎯 คือ...","c":["goal","plan","dream"],"a":0},
+        {"q":"เป้าหมาย คือ...","c":["goal","plan","dream"],"a":0},
         {"q":"I ___ practice harder. (จะ)","c":["will","won't","must"],"a":0}
       ],
       "transform": [
@@ -74,8 +74,8 @@
         {"q":"🏅 คือ...","c":["achieve","improve","try"],"a":0},
         {"q":"'เชื่อมั่น' คือ...","c":["believe","hope","promise"],"a":0},
         {"q":"💪 คือ...","c":["try","succeed","achieve"],"a":0},
-        {"q":"🌟 คือ...","c":["succeed","try","hope"],"a":0},
-        {"q":"🙏 คือ...","c":["hope","promise","believe"],"a":0},
+        {"q":"ประสบความสำเร็จ คือ...","c":["succeed","try","hope"],"a":0},
+        {"q":"หวัง คือ...","c":["hope","promise","believe"],"a":0},
         {"q":"I will ___ my goal. (บรรลุ)","c":["achieve","try","hope"],"a":0}
       ],
       "transform": [
@@ -153,12 +153,12 @@
         {"t":"I will be a good role model.","th":"ฉันจะเป็นต้นแบบที่ดี"}
       ],
       "quiz": [
-        {"q":"[หน่วย6] ✨ คือ...","c":["inspire","shine","support"],"a":0},
-        {"q":"[หน่วย6] 🔥 คือ...","c":["determination","confidence","leader"],"a":0},
-        {"q":"[ทบทวน] I ___ practice harder. (จะ)","c":["will","won't","must"],"a":0},
-        {"q":"[ทบทวน] I will ___ my goal. (บรรลุ)","c":["achieve","try","hope"],"a":0},
-        {"q":"[ทบทวน] We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
-        {"q":"😎 คือ...","c":["confidence","determination","support"],"a":0},
+        {"q":"✨ คือ...","c":["inspire","shine","support"],"a":0},
+        {"q":"ความมุ่งมั่น คือ...","c":["determination","confidence","leader"],"a":0},
+        {"q":"I ___ practice harder. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"I will ___ my goal. (บรรลุ)","c":["achieve","try","hope"],"a":0},
+        {"q":"We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"ความมั่นใจ คือ...","c":["confidence","determination","support"],"a":0},
         {"q":"📣 คือ...","c":["encourage","support","inspire"],"a":0},
         {"q":"I will be a good ___. (ต้นแบบที่ดี)","c":["role model","leader","champion"],"a":0}
       ],

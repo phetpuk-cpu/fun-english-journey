@@ -410,7 +410,7 @@
           "a": 0
         },
         {
-          "q": "🛡️ คือ...",
+          "q": "จุดตรวจความปลอดภัย คือ...",
           "c": [
             "security",
             "gate",
@@ -549,7 +549,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] We travel by ___ to Japan.",
+          "q": "We travel by ___ to Japan.",
           "c": [
             "airplane",
             "foot",
@@ -558,7 +558,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] We walked ___ the bridge. (ข้าม)",
+          "q": "We walked ___ the bridge. (ข้าม)",
           "c": [
             "across",
             "into",
@@ -567,7 +567,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] Don't forget your ___! (หนังสือเดินทาง)",
+          "q": "Don't forget your ___! (หนังสือเดินทาง)",
           "c": [
             "passport",
             "ticket",

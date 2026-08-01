@@ -645,7 +645,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] I ___ happy yesterday.",
+          "q": "I ___ happy yesterday.",
           "c": [
             "was",
             "were",
@@ -654,7 +654,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] I ___ to the fair. (ไป)",
+          "q": "I ___ to the fair. (ไป)",
           "c": [
             "went",
             "go",
@@ -663,7 +663,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] Yesterday, I ___ games. (เล่น)",
+          "q": "Yesterday, I ___ games. (เล่น)",
           "c": [
             "played",
             "play",

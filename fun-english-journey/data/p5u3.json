@@ -32,8 +32,8 @@
         {"q":"🍗 คือ...","c":["protein","snack","energy"],"a":0},
         {"q":"'มีประโยชน์ต่อสุขภาพ' คือ...","c":["healthy","unhealthy","energy"],"a":0},
         {"q":"🚫 (ของกิน) คือ...","c":["unhealthy","healthy","nutrition"],"a":0},
-        {"q":"⚡ คือ...","c":["energy","nutrition","protein"],"a":0},
-        {"q":"🥗 คือ...","c":["nutrition","vegetable","snack"],"a":0},
+        {"q":"พลังงาน คือ...","c":["energy","nutrition","protein"],"a":0},
+        {"q":"โภชนาการ คือ...","c":["nutrition","vegetable","snack"],"a":0},
         {"q":"Vegetables are ___. (มีประโยชน์)","c":["healthy","unhealthy","energy"],"a":0}
       ],
       "extraVocab": [{"w": "yogurt", "th": "โยเกิร์ต", "e": "🥛"}, {"w": "nuts", "th": "ถั่ว", "e": "🥜"}, {"w": "granola", "th": "กราโนล่า", "e": "🥣"}]
@@ -131,10 +131,10 @@
         {"t":"Drink enough water every day.","th":"ดื่มน้ำให้เพียงพอทุกวัน"}
       ],
       "quiz": [
-        {"q":"[หน่วย3] 🍚 คือ...","c":["carbohydrate","protein","vitamin"],"a":0},
-        {"q":"[หน่วย3] 💊 คือ...","c":["vitamin","carbohydrate","protein"],"a":0},
-        {"q":"[ทบทวน] ___ apples do you have? (กี่ลูก)","c":["How many","How much","How"],"a":0},
-        {"q":"[ทบทวน] Can I have ___ juice? (บ้าง)","c":["some","any","none"],"a":0},
+        {"q":"🍚 คือ...","c":["carbohydrate","protein","vitamin"],"a":0},
+        {"q":"💊 คือ...","c":["vitamin","carbohydrate","protein"],"a":0},
+        {"q":"___ apples do you have? (กี่ลูก)","c":["How many","How much","How"],"a":0},
+        {"q":"Can I have ___ juice? (บ้าง)","c":["some","any","none"],"a":0},
         {"q":"🥚 คือ...","c":["egg","chicken","rice"],"a":0},
         {"q":"'นม' คือ...","c":["milk","water","juice"],"a":0},
         {"q":"⚖️ คือ...","c":["balanced diet","nutrition","energy"],"a":0},

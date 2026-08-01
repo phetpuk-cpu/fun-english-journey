@@ -27,9 +27,9 @@
         {"t":"I like to imagine new things.","th":"ฉันชอบจินตนาการสิ่งใหม่ๆ"}
       ],
       "quiz": [
-        {"q":"🤔 คือ...","c":["wonder","imagine","observe"],"a":0},
+        {"q":"สงสัย คือ...","c":["wonder","imagine","observe"],"a":0},
         {"q":"'สำรวจ' คือ...","c":["explore","investigate","observe"],"a":0},
-        {"q":"🔍 คือ...","c":["mystery","question","wonder"],"a":0},
+        {"q":"ความลึกลับ คือ...","c":["mystery","question","wonder"],"a":0},
         {"q":"❓ คือ...","c":["question","mystery","explore"],"a":0},
         {"q":"🕵️ คือ...","c":["investigate","observe","explore"],"a":0},
         {"q":"'สังเกต' คือ...","c":["observe","investigate","imagine"],"a":0},
@@ -67,7 +67,7 @@
         {"q":"🪐 คือ...","c":["planet","space","universe"],"a":0},
         {"q":"'อวกาศ' คือ...","c":["space","planet","gravity"],"a":0},
         {"q":"🍎 (แรงดึงดูด) คือ...","c":["gravity","energy","space"],"a":0},
-        {"q":"⚡ คือ...","c":["energy","gravity","universe"],"a":0},
+        {"q":"พลังงาน คือ...","c":["energy","gravity","universe"],"a":0},
         {"q":"Scientists ___ a new planet. (ค้นพบ, อดีต)","c":["discovered","invented","explored"],"a":0}
       ]
     },
@@ -99,8 +99,8 @@
         {"q":"'ทดสอบ' คือ...","c":["test","measure","record"],"a":0},
         {"q":"📓 คือ...","c":["record","result","method"],"a":0},
         {"q":"'ผลลัพธ์' คือ...","c":["result","conclusion","evidence"],"a":0},
-        {"q":"✅ คือ...","c":["conclusion","hypothesis","test"],"a":0},
-        {"q":"🔎 คือ...","c":["evidence","result","record"],"a":0},
+        {"q":"บทสรุป คือ...","c":["conclusion","hypothesis","test"],"a":0},
+        {"q":"หลักฐาน คือ...","c":["evidence","result","record"],"a":0},
         {"q":"📏 คือ...","c":["measure","test","record"],"a":0},
         {"q":"We ___ our hypothesis. (ทดสอบ, อดีต)","c":["tested","recorded","measured"],"a":0}
       ],
@@ -130,13 +130,13 @@
         {"t":"Knowledge is powerful.","th":"ความรู้คือพลัง"}
       ],
       "quiz": [
-        {"q":"[หน่วย5] 📚 คือ...","c":["knowledge","fact","theory"],"a":0},
-        {"q":"[หน่วย5] ✔️ คือ...","c":["fact","theory","knowledge"],"a":0},
-        {"q":"[ทบทวน] I ___ how birds fly. (สงสัย)","c":["wonder","imagine","observe"],"a":0},
-        {"q":"[ทบทวน] Scientists ___ a new planet. (ค้นพบ, อดีต)","c":["discovered","invented","explored"],"a":0},
-        {"q":"[ทบทวน] We ___ our hypothesis. (ทดสอบ, อดีต)","c":["tested","recorded","measured"],"a":0},
-        {"q":"🌿 คือ...","c":["nature","technology","theory"],"a":0},
-        {"q":"🔦 คือ...","c":["curiosity","knowledge","fact"],"a":0},
+        {"q":"ความรู้ คือ...","c":["knowledge","fact","theory"],"a":0},
+        {"q":"ข้อเท็จจริง คือ...","c":["fact","theory","knowledge"],"a":0},
+        {"q":"I ___ how birds fly. (สงสัย)","c":["wonder","imagine","observe"],"a":0},
+        {"q":"Scientists ___ a new planet. (ค้นพบ, อดีต)","c":["discovered","invented","explored"],"a":0},
+        {"q":"We ___ our hypothesis. (ทดสอบ, อดีต)","c":["tested","recorded","measured"],"a":0},
+        {"q":"ธรรมชาติ คือ...","c":["nature","technology","theory"],"a":0},
+        {"q":"ความอยากรู้อยากเห็น คือ...","c":["curiosity","knowledge","fact"],"a":0},
         {"q":"___ leads to great discoveries. (ความอยากรู้)","c":["Curiosity","Knowledge","Technology"],"a":0}
       ],
       "writeSentence": true

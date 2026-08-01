@@ -594,7 +594,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] This tower ___ a great view.",
+          "q": "This tower ___ a great view.",
           "c": [
             "has",
             "have",
@@ -603,7 +603,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] 🔺 คือ...",
+          "q": "🔺 คือ...",
           "c": [
             "pyramid",
             "tower",
@@ -612,7 +612,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] Many ___ visit this place.",
+          "q": "Many ___ visit this place.",
           "c": [
             "tourists",
             "guides",

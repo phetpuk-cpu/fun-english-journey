@@ -130,10 +130,10 @@
         {"t":"Please be careful with your gear.","th":"กรุณาระมัดระวังอุปกรณ์ของเธอด้วย"}
       ],
       "quiz": [
-        {"q":"[หน่วย2] 😟 คือ...","c":["lost","found","careful"],"a":0},
-        {"q":"[หน่วย2] 🏷️ คือ...","c":["name tag","label","borrow"],"a":0},
-        {"q":"[ทบทวน] This jersey is ___. (ของฉัน)","c":["mine","my","I"],"a":0},
-        {"q":"[ทบทวน] This is ___ locker. (ของเขา)","c":["his","he","him"],"a":0},
+        {"q":"😟 คือ...","c":["lost","found","careful"],"a":0},
+        {"q":"🏷️ คือ...","c":["name tag","label","borrow"],"a":0},
+        {"q":"This jersey is ___. (ของฉัน)","c":["mine","my","I"],"a":0},
+        {"q":"This is ___ locker. (ของเขา)","c":["his","he","him"],"a":0},
         {"q":"'ยืม' คือ...","c":["borrow","lend","share"],"a":0},
         {"q":"'ให้ยืม' คือ...","c":["lend","borrow","share"],"a":0},
         {"q":"🤝 คือ...","c":["share","lend","borrow"],"a":0},

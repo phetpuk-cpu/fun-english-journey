@@ -132,9 +132,9 @@
         {"q":"🏠 คือ...","c":["house","table","bed"],"a":0},
         {"q":"'โซฟา' คือ...","c":["sofa","table","fridge"],"a":0},
         {"q":"📺 คือ...","c":["TV","lamp","fridge"],"a":0},
-        {"q":"[ทบทวน] 👕 คือ...","c":["shirt","dress","jacket"],"a":0},
-        {"q":"[ทบทวน] I've ___ a hat. (มี)","c":["got","get","have"],"a":0},
-        {"q":"[ทบทวน] 🛏️ คือ...","c":["bedroom","kitchen","bathroom"],"a":0},
+        {"q":"👕 คือ...","c":["shirt","dress","jacket"],"a":0},
+        {"q":"I've ___ a hat. (มี)","c":["got","get","have"],"a":0},
+        {"q":"🛏️ คือ...","c":["bedroom","kitchen","bathroom"],"a":0},
         {"q":"🧊 คือ...","c":["fridge","lamp","TV"],"a":0},
         {"q":"'โคมไฟ' คือ...","c":["lamp","fridge","table"],"a":0}
       ],

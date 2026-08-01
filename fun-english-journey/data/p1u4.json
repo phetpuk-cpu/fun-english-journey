@@ -133,9 +133,9 @@
         {"q":"🤸 คือ...","c":["jump","run","climb"],"a":0},
         {"q":"'วิ่ง' คือ...","c":["run","jump","climb"],"a":0},
         {"q":"🧗 คือ...","c":["climb","run","play"],"a":0},
-        {"q":"[ทบทวน] 🛝 ชิงช้าคือ...","c":["swing","slide","seesaw"],"a":0},
-        {"q":"[ทบทวน] 👀 คือ...","c":["eyes","ears","nose"],"a":0},
-        {"q":"[ทบทวน] The ball is ___ the tree. (ใต้)","c":["under","on","in"],"a":0},
+        {"q":"🛝 ชิงช้าคือ...","c":["swing","slide","seesaw"],"a":0},
+        {"q":"👀 คือ...","c":["eyes","ears","nose"],"a":0},
+        {"q":"The ball is ___ the tree. (ใต้)","c":["under","on","in"],"a":0},
         {"q":"🏞️ คือ...","c":["park","school","house"],"a":0},
         {"q":"'เพื่อน' คือ...","c":["friend","family","teacher"],"a":0}
       ],

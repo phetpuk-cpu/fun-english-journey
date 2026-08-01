@@ -129,12 +129,12 @@
         {"t":"That was a great achievement.","th":"นั่นเป็นความสำเร็จที่ยอดเยี่ยม"}
       ],
       "quiz": [
-        {"q":"[หน่วย5] 📸 คือ...","c":["memory","achievement","proud"],"a":0},
-        {"q":"[หน่วย5] 🌟 คือ...","c":["achievement","memory","celebrate"],"a":0},
-        {"q":"[ทบทวน] There ___ ten players last year. (มี, พหูพจน์)","c":["were","was","are"],"a":0},
-        {"q":"[ทบทวน] I ___ a small jersey last year. (เคยมี)","c":["had","have","has"],"a":0},
-        {"q":"[ทบทวน] The game ___ exciting. (เป็น, เอกพจน์อดีต)","c":["was","were","is"],"a":0},
-        {"q":"😌 คือ...","c":["proud","celebrate","improve"],"a":0},
+        {"q":"ความทรงจำ คือ...","c":["memory","achievement","proud"],"a":0},
+        {"q":"ความสำเร็จ คือ...","c":["achievement","memory","celebrate"],"a":0},
+        {"q":"There ___ ten players last year. (มี, พหูพจน์)","c":["were","was","are"],"a":0},
+        {"q":"I ___ a small jersey last year. (เคยมี)","c":["had","have","has"],"a":0},
+        {"q":"The game ___ exciting. (เป็น, เอกพจน์อดีต)","c":["was","were","is"],"a":0},
+        {"q":"ภูมิใจ คือ...","c":["proud","celebrate","improve"],"a":0},
         {"q":"📈 คือ...","c":["improve","remember","since"],"a":0},
         {"q":"We were so ___ of our team. (ภาคภูมิใจ)","c":["proud","improve","remember"],"a":0}
       ],

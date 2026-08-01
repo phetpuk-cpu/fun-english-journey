@@ -114,9 +114,9 @@
         {"q":"🔄 คือ...","c":["process","packed","collected"],"a":0},
         {"q":"'ถูกปลูก' คือ...","c":["grown","built","designed"],"a":0},
         {"q":"🏗️ (ถูกสร้าง) คือ...","c":["built","grown","created"],"a":0},
-        {"q":"✏️ คือ...","c":["designed","created","built"],"a":0},
+        {"q":"ถูกออกแบบ คือ...","c":["designed","created","built"],"a":0},
         {"q":"'ถูกสร้างสรรค์' คือ...","c":["created","designed","grown"],"a":0},
-        {"q":"🧺 คือ...","c":["collected","packed","delivered"],"a":0},
+        {"q":"ถูกเก็บรวบรวม คือ...","c":["collected","packed","delivered"],"a":0},
         {"q":"📦 (ถูกบรรจุ) คือ...","c":["packed","collected","delivered"],"a":0},
         {"q":"Rice is ___ in the field. (ถูกปลูก)","c":["grown","built","made"],"a":0}
       ],
@@ -154,12 +154,12 @@
         {"t":"This material is very durable.","th":"วัสดุนี้ทนทานมาก"}
       ],
       "quiz": [
-        {"q":"[หน่วย7] 🧱 คือ...","c":["material","raw material","quality"],"a":0},
-        {"q":"[หน่วย7] ✋ คือ...","c":["handmade","machine-made","recycled"],"a":0},
-        {"q":"[ทบทวน] This chair is ___ wood. (ทำจาก)","c":["made of","made in","made by"],"a":0},
-        {"q":"[ทบทวน] This toy is ___ Thailand. (ผลิตใน)","c":["made in","made of","made by"],"a":0},
-        {"q":"[ทบทวน] Rice is ___ in the field. (ถูกปลูก)","c":["grown","built","made"],"a":0},
-        {"q":"♻️ คือ...","c":["recycled","eco-friendly","durable"],"a":0},
+        {"q":"🧱 คือ...","c":["material","raw material","quality"],"a":0},
+        {"q":"✋ คือ...","c":["handmade","machine-made","recycled"],"a":0},
+        {"q":"This chair is ___ wood. (ทำจาก)","c":["made of","made in","made by"],"a":0},
+        {"q":"This toy is ___ Thailand. (ผลิตใน)","c":["made in","made of","made by"],"a":0},
+        {"q":"Rice is ___ in the field. (ถูกปลูก)","c":["grown","built","made"],"a":0},
+        {"q":"ถูกนำกลับมาใช้ใหม่ คือ...","c":["recycled","eco-friendly","durable"],"a":0},
         {"q":"🌱 (เป็นมิตรต่อสิ่งแวดล้อม) คือ...","c":["eco-friendly","recycled","durable"],"a":0},
         {"q":"This material is very ___. (ทนทาน)","c":["durable","handmade","eco-friendly"],"a":0}
       ],

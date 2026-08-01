@@ -131,9 +131,9 @@
       "quiz": [
         {"q":"⭐ คือ...","c":["favorite","best","yummy"],"a":0},
         {"q":"😫 หิวคือ...","c":["hungry","thirsty","yummy"],"a":0},
-        {"q":"[ทบทวน] 🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
-        {"q":"[ทบทวน] 🍬 คือ...","c":["sweet","sour","soup"],"a":0},
-        {"q":"[ทบทวน] I ___ fruit. (ชอบ)","c":["like","want","have"],"a":0},
+        {"q":"🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
+        {"q":"🍬 คือ...","c":["sweet","sour","soup"],"a":0},
+        {"q":"I ___ fruit. (ชอบ)","c":["like","want","have"],"a":0},
         {"q":"🥵 กระหายน้ำคือ...","c":["thirsty","hungry","full"],"a":0},
         {"q":"🤝 คือ...","c":["share","eat","drink"],"a":0},
         {"q":"'กิน' คือ...","c":["eat","drink","share"],"a":0}

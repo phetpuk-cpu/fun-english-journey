@@ -69,7 +69,7 @@
         {"t":"I am busy this weekend.","th":"สุดสัปดาห์นี้ฉันยุ่ง"}
       ],
       "quiz": [
-        {"q":"📋 คือ...","c":["plan","decide","invite"],"a":0},
+        {"q":"แผนการ คือ...","c":["plan","decide","invite"],"a":0},
         {"q":"'ตัดสินใจ' คือ...","c":["decide","plan","meet up"],"a":0},
         {"q":"💌 คือ...","c":["invite","hang out","free time"],"a":0},
         {"q":"'ด้วยกัน' คือ...","c":["together","busy","hang out"],"a":0},
@@ -114,7 +114,7 @@
       "quiz": [
         {"q":"☀️ คือ...","c":["sunny","rainy","cancel"],"a":0},
         {"q":"'ฝนตก' คือ...","c":["rainy","sunny","postpone"],"a":0},
-        {"q":"🏠 คือ...","c":["indoor activity","outdoor activity","forecast"],"a":0},
+        {"q":"กิจกรรมในร่ม คือ...","c":["indoor activity","outdoor activity","forecast"],"a":0},
         {"q":"'กิจกรรมกลางแจ้ง' คือ...","c":["outdoor activity","indoor activity","change plans"],"a":0},
         {"q":"🔄 คือ...","c":["change plans","cancel","postpone"],"a":0},
         {"q":"📺 คือ...","c":["forecast","sunny","rainy"],"a":0},
@@ -154,11 +154,11 @@
         {"t":"Let's have an adventure!","th":"ไปผจญภัยกันเถอะ!"}
       ],
       "quiz": [
-        {"q":"[หน่วย2] 📆 คือ...","c":["schedule","activity","relax"],"a":0},
-        {"q":"[หน่วย2] 🧭 คือ...","c":["adventure","memorable","exciting"],"a":0},
-        {"q":"[ทบทวน] What ___ you going to do? (จะ)","c":["are","is","will"],"a":0},
-        {"q":"[ทบทวน] We are going to stay indoors ___ it's rainy. (เพราะ)","c":["because","so","but"],"a":0},
-        {"q":"[ทบทวน] 🛍️ คือ...","c":["go shopping","watch a movie","sleep in"],"a":0},
+        {"q":"📆 คือ...","c":["schedule","activity","relax"],"a":0},
+        {"q":"🧭 คือ...","c":["adventure","memorable","exciting"],"a":0},
+        {"q":"What ___ you going to do? (จะ)","c":["are","is","will"],"a":0},
+        {"q":"We are going to stay indoors ___ it's rainy. (เพราะ)","c":["because","so","but"],"a":0},
+        {"q":"🛍️ คือ...","c":["go shopping","watch a movie","sleep in"],"a":0},
         {"q":"😄 คือ...","c":["enjoy","relax","choose"],"a":0},
         {"q":"📸 คือ...","c":["memorable","exciting","adventure"],"a":0},
         {"q":"I am going to ___ my weekend. (สนุกกับ)","c":["enjoy","choose","relax"],"a":0}

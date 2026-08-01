@@ -96,9 +96,9 @@
       ],
       "quiz": [
         {"q":"🎤 คือ...","c":["speech","mention","support"],"a":0},
-        {"q":"🙏 คือ...","c":["grateful","thankful","appreciate"],"a":0},
+        {"q":"ซาบซึ้งใจ คือ...","c":["grateful","thankful","appreciate"],"a":0},
         {"q":"'ขอบคุณ' คือ...","c":["thankful","grateful","mention"],"a":0},
-        {"q":"💬 คือ...","c":["mention","speech","support"],"a":0},
+        {"q":"กล่าวถึง คือ...","c":["mention","speech","support"],"a":0},
         {"q":"❤️ คือ...","c":["appreciate","grateful","thankful"],"a":0},
         {"q":"🙌 คือ...","c":["support","journey","speech"],"a":0},
         {"q":"🛤️ คือ...","c":["journey","support","speech"],"a":0},
@@ -129,13 +129,13 @@
         {"t":"Let's celebrate together!","th":"มาเฉลิมฉลองด้วยกันเถอะ!"}
       ],
       "quiz": [
-        {"q":"[หน่วย1] I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0},
-        {"q":"[หน่วย2] This jersey is ___. (ของฉัน)","c":["mine","my","I"],"a":0},
-        {"q":"[หน่วย3] Can I have ___ juice? (บ้าง)","c":["some","any","none"],"a":0},
-        {"q":"[หน่วย4] You ___ wear your uniform. (ต้อง)","c":["must","can","like"],"a":0},
-        {"q":"[หน่วย5] There ___ ten players last year. (มี)","c":["were","was","are"],"a":0},
-        {"q":"[หน่วย6] We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
-        {"q":"[หน่วย7] We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0},
+        {"q":"I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0},
+        {"q":"This jersey is ___. (ของฉัน)","c":["mine","my","I"],"a":0},
+        {"q":"Can I have ___ juice? (บ้าง)","c":["some","any","none"],"a":0},
+        {"q":"You ___ wear your uniform. (ต้อง)","c":["must","can","like"],"a":0},
+        {"q":"There ___ ten players last year. (มี)","c":["were","was","are"],"a":0},
+        {"q":"We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0},
         {"q":"We are ___, now and forever! (แชมป์เปี้ยน)","c":["champions","brave","strong"],"a":0}
       ],
       "writeSentence": true

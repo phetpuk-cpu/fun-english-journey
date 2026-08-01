@@ -558,7 +558,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] I ___ like a hot dog, please.",
+          "q": "I ___ like a hot dog, please.",
           "c": [
             "would",
             "do",
@@ -567,7 +567,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] 🍭 คือ...",
+          "q": "🍭 คือ...",
           "c": [
             "cotton candy",
             "ice cream",
@@ -576,7 +576,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] Can I ___ some pizza? (ชิม)",
+          "q": "Can I ___ some pizza? (ชิม)",
           "c": [
             "taste",
             "share",

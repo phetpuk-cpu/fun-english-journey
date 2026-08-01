@@ -32,8 +32,8 @@
         {"q":"🤔 คือ...","c":["why","because","reason"],"a":0},
         {"q":"💪 คือ...","c":["strong","skilled","motivated"],"a":0},
         {"q":"'มีทักษะ' คือ...","c":["skilled","strong","dedicated"],"a":0},
-        {"q":"🔥 คือ...","c":["motivated","dedicated","passion"],"a":0},
-        {"q":"❤️ คือ...","c":["passion","motivated","reason"],"a":0},
+        {"q":"มีแรงจูงใจ คือ...","c":["motivated","dedicated","passion"],"a":0},
+        {"q":"ความหลงใหล คือ...","c":["passion","motivated","reason"],"a":0},
         {"q":"I practice ___ I love sports. (เพราะ)","c":["because","so","but"],"a":0}
       ]
     },
@@ -62,10 +62,10 @@
       ],
       "quiz": [
         {"q":"➡️ คือ...","c":["so","because","but"],"a":0},
-        {"q":"📊 คือ...","c":["result","effort","progress"],"a":0},
+        {"q":"ผลลัพธ์ คือ...","c":["result","effort","progress"],"a":0},
         {"q":"'ความพยายาม' คือ...","c":["effort","hard work","patience"],"a":0},
         {"q":"⚒️ คือ...","c":["hard work","effort","result"],"a":0},
-        {"q":"⏳ คือ...","c":["patience","consistent","progress"],"a":0},
+        {"q":"ความอดทน คือ...","c":["patience","consistent","progress"],"a":0},
         {"q":"🔁 คือ...","c":["consistent","patience","perfect"],"a":0},
         {"q":"📈 คือ...","c":["progress","result","effort"],"a":0},
         {"q":"I practice hard, ___ I improve. (ดังนั้น)","c":["so","because","but"],"a":0}
@@ -129,11 +129,11 @@
         {"t":"My team is like my family.","th":"ทีมของฉันเหมือนครอบครัวของฉัน"}
       ],
       "quiz": [
-        {"q":"[หน่วย7] 🔗 คือ...","c":["and","but","so"],"a":0},
-        {"q":"[หน่วย7] 🤝 คือ...","c":["unity","bond","trust"],"a":0},
-        {"q":"[ทบทวน] I practice ___ I love sports. (เพราะ)","c":["because","so","but"],"a":0},
-        {"q":"[ทบทวน] I practice hard, ___ I improve. (ดังนั้น)","c":["so","because","but"],"a":0},
-        {"q":"[ทบทวน] We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0},
+        {"q":"🔗 คือ...","c":["and","but","so"],"a":0},
+        {"q":"ความสามัคคี คือ...","c":["unity","bond","trust"],"a":0},
+        {"q":"I practice ___ I love sports. (เพราะ)","c":["because","so","but"],"a":0},
+        {"q":"I practice hard, ___ I improve. (ดังนั้น)","c":["so","because","but"],"a":0},
+        {"q":"We lost, ___ we learned a lot. (แต่)","c":["but","so","because"],"a":0},
         {"q":"💞 คือ...","c":["bond","trust","loyal"],"a":0},
         {"q":"📣 คือ...","c":["cheer","trust","bond"],"a":0},
         {"q":"My team is like my ___. (ครอบครัว)","c":["family","unity","bond"],"a":0}

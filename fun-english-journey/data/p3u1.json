@@ -592,7 +592,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] ___ you play the guitar?",
+          "q": "___ you play the guitar?",
           "c": [
             "Can",
             "Is",
@@ -601,7 +601,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] An owl can ___ at night.",
+          "q": "An owl can ___ at night.",
           "c": [
             "see",
             "cook",
@@ -610,7 +610,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] I can't swim, but I can ___ again!",
+          "q": "I can't swim, but I can ___ again!",
           "c": [
             "try",
             "fly",

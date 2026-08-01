@@ -114,7 +114,7 @@
           "a": 0
         },
         {
-          "q": "🌟 คือ...",
+          "q": "ประสบการณ์ คือ...",
           "c": [
             "experience",
             "memory",
@@ -132,7 +132,7 @@
           "a": 0
         },
         {
-          "q": "🙏 คือ...",
+          "q": "ซาบซึ้งใจ คือ...",
           "c": [
             "grateful",
             "proud",
@@ -523,7 +523,7 @@
       ],
       "quiz": [
         {
-          "q": "[หน่วย1] Where ___ you from?",
+          "q": "Where ___ you from?",
           "c": [
             "are",
             "is",
@@ -532,7 +532,7 @@
           "a": 0
         },
         {
-          "q": "[หน่วย2] This tower ___ a great view.",
+          "q": "This tower ___ a great view.",
           "c": [
             "has",
             "have",
@@ -541,7 +541,7 @@
           "a": 0
         },
         {
-          "q": "[หน่วย3] I ___ reading a book.",
+          "q": "I ___ reading a book.",
           "c": [
             "was",
             "is",
@@ -550,7 +550,7 @@
           "a": 0
         },
         {
-          "q": "[หน่วย4] This is the ___ mountain. (สูงที่สุด)",
+          "q": "This is the ___ mountain. (สูงที่สุด)",
           "c": [
             "tallest",
             "biggest",
@@ -559,7 +559,7 @@
           "a": 0
         },
         {
-          "q": "[หน่วย5] We travel by ___ to Japan.",
+          "q": "We travel by ___ to Japan.",
           "c": [
             "airplane",
             "foot",
@@ -568,7 +568,7 @@
           "a": 0
         },
         {
-          "q": "[หน่วย6] We ___ every year. (เฉลิมฉลอง)",
+          "q": "We ___ every year. (เฉลิมฉลอง)",
           "c": [
             "celebrate",
             "decorate",
@@ -577,7 +577,7 @@
           "a": 0
         },
         {
-          "q": "[หน่วย7] We should ___ plastic bottles.",
+          "q": "We should ___ plastic bottles.",
           "c": [
             "recycle",
             "throw",
@@ -586,7 +586,7 @@
           "a": 0
         },
         {
-          "q": "[หน่วย8] I am ___ of my adventures.",
+          "q": "I am ___ of my adventures.",
           "c": [
             "proud",
             "tired",

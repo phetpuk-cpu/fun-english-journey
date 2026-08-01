@@ -154,11 +154,11 @@
         {"t":"Sunday is my rest day.","th":"วันอาทิตย์คือวันพักของฉัน"}
       ],
       "quiz": [
-        {"q":"[หน่วย1] 🔥 คือ...","c":["warm up","cool down","stretch"],"a":0},
-        {"q":"[หน่วย1] 🛌 คือ...","c":["rest day","gym","practice"],"a":0},
-        {"q":"[ทบทวน] I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0},
-        {"q":"[ทบทวน] I practice ___ a week. (สามครั้ง)","c":["three times","once","twice"],"a":0},
-        {"q":"[ทบทวน] 🏀 คือ...","c":["basketball","football","tennis"],"a":0},
+        {"q":"🔥 คือ...","c":["warm up","cool down","stretch"],"a":0},
+        {"q":"🛌 คือ...","c":["rest day","gym","practice"],"a":0},
+        {"q":"I ___ practice in the morning. (เสมอ)","c":["always","never","rarely"],"a":0},
+        {"q":"I practice ___ a week. (สามครั้ง)","c":["three times","once","twice"],"a":0},
+        {"q":"🏀 คือ...","c":["basketball","football","tennis"],"a":0},
         {"q":"🧑‍🏫 คือ...","c":["coach","teammate","gym"],"a":0},
         {"q":"'เพื่อนร่วมทีม' คือ...","c":["teammate","coach","practice"],"a":0},
         {"q":"We ___ before practice. (อบอุ่นร่างกาย)","c":["warm up","cool down","rest"],"a":0}

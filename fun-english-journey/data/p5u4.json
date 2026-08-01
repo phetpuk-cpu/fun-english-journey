@@ -81,7 +81,7 @@
         {"q":"'ห้าม' คือ...","c":["mustn't","must","can"],"a":0},
         {"q":"🚪 คือ...","c":["hallway","gym","locker"],"a":0},
         {"q":"⛑️ คือ...","c":["helmet","gloves","jersey"],"a":0},
-        {"q":"🛡️ คือ...","c":["protect","dangerous","careful"],"a":0},
+        {"q":"ปกป้อง คือ...","c":["protect","dangerous","careful"],"a":0},
         {"q":"'อันตราย' คือ...","c":["dangerous","safety","careful"],"a":0},
         {"q":"🤕 คือ...","c":["injury","protect","careful"],"a":0},
         {"q":"You ___ run in the hallway. (ห้าม)","c":["mustn't","must","can"],"a":0}
@@ -114,9 +114,9 @@
         {"q":"🤝 คือ...","c":["sportsmanship","teamwork","respect"],"a":0},
         {"q":"'ยุติธรรม' คือ...","c":["fair","cheat","honest"],"a":0},
         {"q":"🙅 คือ...","c":["cheat","fair","respect"],"a":0},
-        {"q":"❤️ คือ...","c":["respect","congratulate","honest"],"a":0},
+        {"q":"ความเคารพ คือ...","c":["respect","congratulate","honest"],"a":0},
         {"q":"'การทำงานเป็นทีม' คือ...","c":["teamwork","sportsmanship","fair"],"a":0},
-        {"q":"😇 คือ...","c":["honest","cheat","fair"],"a":0},
+        {"q":"ซื่อสัตย์ คือ...","c":["honest","cheat","fair"],"a":0},
         {"q":"🎊 คือ...","c":["congratulate","shake hands","respect"],"a":0},
         {"q":"You mustn't ___ in the game. (โกง)","c":["cheat","respect","congratulate"],"a":0}
       ],
@@ -153,11 +153,11 @@
         {"t":"Please be punctual every day.","th":"กรุณาตรงต่อเวลาทุกวัน"}
       ],
       "quiz": [
-        {"q":"[หน่วย4] 🙇 คือ...","c":["obey","forbidden","warning"],"a":0},
-        {"q":"[หน่วย4] ⛔ คือ...","c":["forbidden","allowed","obey"],"a":0},
-        {"q":"[ทบทวน] You ___ wear your uniform. (ต้อง)","c":["must","can","like"],"a":0},
-        {"q":"[ทบทวน] You ___ run in the hallway. (ห้าม)","c":["mustn't","must","can"],"a":0},
-        {"q":"[ทบทวน] You mustn't ___ in the game. (โกง)","c":["cheat","respect","congratulate"],"a":0},
+        {"q":"🙇 คือ...","c":["obey","forbidden","warning"],"a":0},
+        {"q":"⛔ คือ...","c":["forbidden","allowed","obey"],"a":0},
+        {"q":"You ___ wear your uniform. (ต้อง)","c":["must","can","like"],"a":0},
+        {"q":"You ___ run in the hallway. (ห้าม)","c":["mustn't","must","can"],"a":0},
+        {"q":"You mustn't ___ in the game. (โกง)","c":["cheat","respect","congratulate"],"a":0},
         {"q":"🎯 คือ...","c":["discipline","permission","warning"],"a":0},
         {"q":"⏱️ คือ...","c":["punctual","forbidden","allowed"],"a":0},
         {"q":"A champion needs ___. (วินัย)","c":["discipline","permission","warning"],"a":0}

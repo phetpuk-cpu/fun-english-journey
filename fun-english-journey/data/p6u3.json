@@ -29,7 +29,7 @@
       "quiz": [
         {"q":"💡 คือ...","c":["should","shouldn't","advice"],"a":0},
         {"q":"'ไม่ควร' คือ...","c":["shouldn't","should","advice"],"a":0},
-        {"q":"🗣️ คือ...","c":["advice","healthy habit","exercise"],"a":0},
+        {"q":"คำแนะนำ คือ...","c":["advice","healthy habit","exercise"],"a":0},
         {"q":"💚 คือ...","c":["healthy habit","exercise","sleep well"],"a":0},
         {"q":"'ออกกำลังกาย' คือ...","c":["exercise","sleep well","brush teeth"],"a":0},
         {"q":"🦷 คือ...","c":["brush teeth","drink water","exercise"],"a":0},
@@ -111,7 +111,7 @@
         {"t":"I am here to listen.","th":"ฉันพร้อมรับฟังนะ"}
       ],
       "quiz": [
-        {"q":"❗ คือ...","c":["problem","solution","worried"],"a":0},
+        {"q":"ปัญหา คือ...","c":["problem","solution","worried"],"a":0},
         {"q":"'กังวล' คือ...","c":["worried","problem","helpful"],"a":0},
         {"q":"🧩 คือ...","c":["solve","solution","understand"],"a":0},
         {"q":"'ทางออก' คือ...","c":["solution","problem","comfort"],"a":0},
@@ -153,12 +153,12 @@
         {"t":"I will always support you.","th":"ฉันจะสนับสนุนเธอเสมอ"}
       ],
       "quiz": [
-        {"q":"[หน่วย3] 👍 คือ...","c":["recommend","tip","guide"],"a":0},
-        {"q":"[หน่วย3] ✨ คือ...","c":["tip","recommend","wise"],"a":0},
-        {"q":"[ทบทวน] You ___ drink more water. (ควร)","c":["should","shouldn't","could"],"a":0},
-        {"q":"[ทบทวน] You ___ try a new hobby. (อาจลอง)","c":["could","should","must"],"a":0},
-        {"q":"[ทบทวน] You should talk to someone about your ___. (ปัญหา)","c":["problem","solution","advice"],"a":0},
-        {"q":"🦉 คือ...","c":["wise","kindness","encourage"],"a":0},
+        {"q":"👍 คือ...","c":["recommend","tip","guide"],"a":0},
+        {"q":"✨ คือ...","c":["tip","recommend","wise"],"a":0},
+        {"q":"You ___ drink more water. (ควร)","c":["should","shouldn't","could"],"a":0},
+        {"q":"You ___ try a new hobby. (อาจลอง)","c":["could","should","must"],"a":0},
+        {"q":"You should talk to someone about your ___. (ปัญหา)","c":["problem","solution","advice"],"a":0},
+        {"q":"ฉลาดรอบคอบ คือ...","c":["wise","kindness","encourage"],"a":0},
         {"q":"🧭 คือ...","c":["guide","support","choice"],"a":0},
         {"q":"I will always ___ you. (สนับสนุน)","c":["support","guide","recommend"],"a":0}
       ],

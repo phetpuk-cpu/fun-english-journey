@@ -244,7 +244,7 @@
           "a": 0
         },
         {
-          "q": "🌸 คือ...",
+          "q": "สวยที่สุด คือ...",
           "c": [
             "most beautiful",
             "most delicious",
@@ -550,7 +550,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] This is the ___ tower. (สูงที่สุด)",
+          "q": "This is the ___ tower. (สูงที่สุด)",
           "c": [
             "tallest",
             "biggest",
@@ -559,7 +559,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] This is the ___ day of my life.",
+          "q": "This is the ___ day of my life.",
           "c": [
             "best",
             "worst",
@@ -568,7 +568,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] The cheetah is the ___ animal.",
+          "q": "The cheetah is the ___ animal.",
           "c": [
             "fastest",
             "slowest",
@@ -586,7 +586,7 @@
           "a": 0
         },
         {
-          "q": "🏅 คือ...",
+          "q": "ความสำเร็จ คือ...",
           "c": [
             "achievement",
             "record",

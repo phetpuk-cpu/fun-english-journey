@@ -70,7 +70,7 @@
         {"t":"I have visited Chiang Mai twice.","th":"ฉันเคยไปเชียงใหม่มาสองครั้งแล้ว"}
       ],
       "quiz": [
-        {"q":"🌟 คือ...","c":["experience","before","just"],"a":0},
+        {"q":"ประสบการณ์ คือ...","c":["experience","before","just"],"a":0},
         {"q":"'...แล้ว' คือ...","c":["already","yet","just"],"a":0},
         {"q":"⏳ คือ...","c":["yet","already","before"],"a":0},
         {"q":"'เพิ่งจะ' คือ...","c":["just","yet","once"],"a":0},
@@ -117,7 +117,7 @@
         {"q":"📍 คือ...","c":["so far","in my life","ever"],"a":0},
         {"q":"'ในชีวิตของฉัน' คือ...","c":["in my life","so far","first time"],"a":0},
         {"q":"1️⃣ (ครั้งแรก) คือ...","c":["first time","once","so far"],"a":0},
-        {"q":"🎢 คือ...","c":["exciting experience","unusual","surprising"],"a":0},
+        {"q":"ประสบการณ์ที่น่าตื่นเต้น คือ...","c":["exciting experience","unusual","surprising"],"a":0},
         {"q":"🌀 คือ...","c":["unusual","surprising","exciting experience"],"a":0},
         {"q":"I have ___ eaten durian before. (ไม่เคยเลย)","c":["never","ever","already"],"a":0}
       ],
@@ -154,13 +154,13 @@
         {"t":"I like to share my story.","th":"ฉันชอบเล่าเรื่องราวของฉัน"}
       ],
       "quiz": [
-        {"q":"[หน่วย6] 🏆 คือ...","c":["achievement","lesson learned","grow"],"a":0},
-        {"q":"[หน่วย6] 🌱 คือ...","c":["grow","achievement","reflect"],"a":0},
-        {"q":"[ทบทวน] Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0},
-        {"q":"[ทบทวน] I have ___ finished my homework. (...แล้ว)","c":["already","yet","before"],"a":0},
-        {"q":"[ทบทวน] I have ___ eaten durian before. (ไม่เคยเลย)","c":["never","ever","already"],"a":0},
+        {"q":"ความสำเร็จ คือ...","c":["achievement","lesson learned","grow"],"a":0},
+        {"q":"🌱 คือ...","c":["grow","achievement","reflect"],"a":0},
+        {"q":"Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0},
+        {"q":"I have ___ finished my homework. (...แล้ว)","c":["already","yet","before"],"a":0},
+        {"q":"I have ___ eaten durian before. (ไม่เคยเลย)","c":["never","ever","already"],"a":0},
         {"q":"🪞 คือ...","c":["reflect","grateful","proud of"],"a":0},
-        {"q":"💫 คือ...","c":["unforgettable moment","lesson learned","reflect"],"a":0},
+        {"q":"ช่วงเวลาที่ไม่มีวันลืม คือ...","c":["unforgettable moment","lesson learned","reflect"],"a":0},
         {"q":"I am ___ my achievements. (ภูมิใจใน)","c":["proud of","grateful","reflect"],"a":0}
       ],
       "writeSentence": true,

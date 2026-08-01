@@ -288,7 +288,7 @@
           "a": 0
         },
         {
-          "q": "📍 คือ...",
+          "q": "ในขณะนั้น คือ...",
           "c": [
             "at that moment",
             "while",
@@ -627,7 +627,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] I ___ reading a book.",
+          "q": "I ___ reading a book.",
           "c": [
             "was",
             "is",
@@ -636,7 +636,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] ___ I was reading, it started to rain.",
+          "q": "___ I was reading, it started to rain.",
           "c": [
             "While",
             "Suddenly",
@@ -645,7 +645,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] We were ___ at the paintings.",
+          "q": "We were ___ at the paintings.",
           "c": [
             "looking",
             "standing",

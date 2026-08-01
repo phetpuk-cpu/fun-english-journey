@@ -567,7 +567,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] 🛋️ คือ...",
+          "q": "🛋️ คือ...",
           "c": [
             "living room",
             "bedroom",
@@ -576,7 +576,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] I ___ my bed every morning.",
+          "q": "I ___ my bed every morning.",
           "c": [
             "make",
             "water",
@@ -585,7 +585,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] There is a ___ in my bedroom. (เตียง)",
+          "q": "There is a ___ in my bedroom. (เตียง)",
           "c": [
             "bed",
             "chair",

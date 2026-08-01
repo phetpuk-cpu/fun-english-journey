@@ -609,7 +609,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] ตื่นนอนตอนเช้า คือ...",
+          "q": "ตื่นนอนตอนเช้า คือ...",
           "c": [
             "go to bed",
             "wake up",
@@ -618,7 +618,7 @@
           "a": 1
         },
         {
-          "q": "[ทบทวน] I ___ my homework after school.",
+          "q": "I ___ my homework after school.",
           "c": [
             "do",
             "go",
@@ -627,7 +627,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] เรียงวันให้ถูก...",
+          "q": "เรียงวันให้ถูก...",
           "c": [
             "wake up → school → homework → bed",
             "bed → school → wake up",

@@ -131,13 +131,13 @@
         {"t":"Stop! Then go!","th":"หยุด! แล้วก็ไป!"}
       ],
       "quiz": [
-        {"q":"[หน่วย1] 🎒 คือ...","c":["bag","book","box"],"a":0},
-        {"q":"[หน่วย2] 🔴 คือ...","c":["red","blue","yellow"],"a":0},
-        {"q":"[หน่วย3] 👩 คือ...","c":["mom","sister","grandma"],"a":0},
-        {"q":"[หน่วย4] 👀 คือ...","c":["eyes","ears","nose"],"a":0},
-        {"q":"[หน่วย5] 👕 คือ...","c":["shirt","dress","jacket"],"a":0},
-        {"q":"[หน่วย6] 🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
-        {"q":"[หน่วย7] 🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
+        {"q":"🎒 คือ...","c":["bag","book","box"],"a":0},
+        {"q":"🔴 คือ...","c":["red","blue","yellow"],"a":0},
+        {"q":"👩 คือ...","c":["mom","sister","grandma"],"a":0},
+        {"q":"👀 คือ...","c":["eyes","ears","nose"],"a":0},
+        {"q":"👕 คือ...","c":["shirt","dress","jacket"],"a":0},
+        {"q":"🥪 คือ...","c":["sandwich","cookie","rice"],"a":0},
+        {"q":"🐶 คือ...","c":["dog","cat","rabbit"],"a":0},
         {"q":"I ___ swim. (ทำได้)","c":["can","can't","let's"],"a":0}
       ],
       "writeSentence": true

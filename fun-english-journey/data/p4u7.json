@@ -132,7 +132,7 @@
           "a": 0
         },
         {
-          "q": "🌱 คือ...",
+          "q": "สิ่งแวดล้อม คือ...",
           "c": [
             "environment",
             "nature",
@@ -417,7 +417,7 @@
       ],
       "quiz": [
         {
-          "q": "⚠️ คือ...",
+          "q": "ใกล้สูญพันธุ์ คือ...",
           "c": [
             "endangered",
             "extinct",
@@ -453,7 +453,7 @@
           "a": 0
         },
         {
-          "q": "🛡️ คือ...",
+          "q": "ปกป้อง คือ...",
           "c": [
             "protect",
             "rescue",
@@ -600,7 +600,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] We must take care of the ___.",
+          "q": "We must take care of the ___.",
           "c": [
             "Earth",
             "sky",
@@ -609,7 +609,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] We should ___ plastic bottles.",
+          "q": "We should ___ plastic bottles.",
           "c": [
             "recycle",
             "throw",
@@ -618,7 +618,7 @@
           "a": 0
         },
         {
-          "q": "[ทบทวน] We must ___ endangered animals.",
+          "q": "We must ___ endangered animals.",
           "c": [
             "protect",
             "hunt",

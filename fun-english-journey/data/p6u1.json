@@ -75,8 +75,8 @@
         {"q":"👍 คือ...","c":["good at","interested in","brave"],"a":0},
         {"q":"'ช่วยเหลือผู้คน' คือ...","c":["help people","travel","creative"],"a":0},
         {"q":"✈️ คือ...","c":["travel","brave","curious"],"a":0},
-        {"q":"🎨 คือ...","c":["creative","brave","curious"],"a":0},
-        {"q":"🦁 คือ...","c":["brave","creative","curious"],"a":0},
+        {"q":"มีความคิดสร้างสรรค์ คือ...","c":["creative","brave","curious"],"a":0},
+        {"q":"กล้าหาญ คือ...","c":["brave","creative","curious"],"a":0},
         {"q":"I am ___ science. (สนใจ)","c":["interested in","good at","curious of"],"a":0}
       ],
       "extraVocab": [{"w": "scientist", "th": "นักวิทยาศาสตร์", "e": "🧑‍🔬"}, {"w": "artist", "th": "ศิลปิน", "e": "🧑‍🎨"}, {"w": "chef", "th": "เชฟ", "e": "🧑‍🍳"}],
@@ -118,7 +118,7 @@
         {"q":"🧠 คือ...","c":["learn","skill","study hard"],"a":0},
         {"q":"'ทักษะ' คือ...","c":["skill","experience","achieve"],"a":0},
         {"q":"🎓 คือ...","c":["university","skill","experience"],"a":0},
-        {"q":"📝 คือ...","c":["experience","skill","achieve"],"a":0},
+        {"q":"ประสบการณ์ คือ...","c":["experience","skill","achieve"],"a":0},
         {"q":"🔨 คือ...","c":["work hard","study hard","practice"],"a":0},
         {"q":"I am going to ___ hard. (เรียน)","c":["study","learn","practice"],"a":0}
       ],
@@ -155,13 +155,13 @@
         {"t":"I will follow my passion.","th":"ฉันจะทำตามความหลงใหลของฉัน"}
       ],
       "quiz": [
-        {"q":"[หน่วย1] 💼 คือ...","c":["career","opportunity","success"],"a":0},
-        {"q":"[หน่วย1] 🚪 คือ...","c":["opportunity","career","future"],"a":0},
-        {"q":"[ทบทวน] I am ___ to be a doctor. (จะ)","c":["going","go","went"],"a":0},
-        {"q":"[ทบทวน] I am ___ science. (สนใจ)","c":["interested in","good at","curious of"],"a":0},
-        {"q":"[ทบทวน] I am going to ___ hard. (เรียน)","c":["study","learn","practice"],"a":0},
-        {"q":"🔮 คือ...","c":["future","become","career"],"a":0},
-        {"q":"🔥 คือ...","c":["determined","proud","passion"],"a":0},
+        {"q":"อาชีพ คือ...","c":["career","opportunity","success"],"a":0},
+        {"q":"โอกาส คือ...","c":["opportunity","career","future"],"a":0},
+        {"q":"I am ___ to be a doctor. (จะ)","c":["going","go","went"],"a":0},
+        {"q":"I am ___ science. (สนใจ)","c":["interested in","good at","curious of"],"a":0},
+        {"q":"I am going to ___ hard. (เรียน)","c":["study","learn","practice"],"a":0},
+        {"q":"อนาคต คือ...","c":["future","become","career"],"a":0},
+        {"q":"มุ่งมั่น คือ...","c":["determined","proud","passion"],"a":0},
         {"q":"I am going to ___ a great doctor. (กลายเป็น)","c":["become","becomes","became"],"a":0}
       ],
       "reading": {"passage": [{"en": "I am going to become a doctor.", "th": "ฉันจะกลายเป็นหมอ"}, {"en": "I want to help sick people.", "th": "ฉันอยากช่วยเหลือคนป่วย"}, {"en": "I will study hard for my dream.", "th": "ฉันจะเรียนหนักเพื่อความฝันของฉัน"}], "questions": [{"q": "What does he want to become?", "c": ["A doctor", "A pilot", "A teacher"], "a": 0}, {"q": "Who does he want to help?", "c": ["Sick people", "Animals", "Students"], "a": 0}]},

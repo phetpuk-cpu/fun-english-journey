@@ -29,11 +29,11 @@
       "quiz": [
         {"q":"🔀 คือ...","c":["if","then","condition"],"a":0},
         {"q":"'แล้ว/ดังนั้น' คือ...","c":["then","if","likely"],"a":0},
-        {"q":"📋 คือ...","c":["condition","outcome","decision"],"a":0},
+        {"q":"เงื่อนไข คือ...","c":["condition","outcome","decision"],"a":0},
         {"q":"'เป็นไปได้' คือ...","c":["possible","likely","chance"],"a":0},
         {"q":"📈 คือ...","c":["likely","possible","outcome"],"a":0},
         {"q":"🎯 คือ...","c":["outcome","condition","chance"],"a":0},
-        {"q":"🍀 คือ...","c":["chance","decision","outcome"],"a":0},
+        {"q":"โอกาส คือ...","c":["chance","decision","outcome"],"a":0},
         {"q":"___ I study hard, I will pass. (ถ้า)","c":["If","Then","So"],"a":0}
       ],
       "transform": [
@@ -114,10 +114,10 @@
         {"q":"🛤️ คือ...","c":["journey","milestone","growth"],"a":0},
         {"q":"🚩 คือ...","c":["milestone","journey","memories"],"a":0},
         {"q":"'การเติบโต' คือ...","c":["growth","milestone","journey"],"a":0},
-        {"q":"🙏 คือ...","c":["thankful","cherish","proud moment"],"a":0},
+        {"q":"ขอบคุณ คือ...","c":["thankful","cherish","proud moment"],"a":0},
         {"q":"💝 คือ...","c":["cherish","thankful","memories"],"a":0},
         {"q":"📸 คือ...","c":["memories","cherish","milestone"],"a":0},
-        {"q":"😌 คือ...","c":["proud moment","look back","growth"],"a":0},
+        {"q":"ช่วงเวลาที่ภาคภูมิใจ คือ...","c":["proud moment","look back","growth"],"a":0},
         {"q":"I have ___ so much on this journey. (เติบโต)","c":["grown","grow","growing"],"a":0}
       ]
     },
@@ -145,13 +145,13 @@
         {"t":"Keep going and shine bright!","th":"ก้าวต่อไปและเปล่งประกายนะ!"}
       ],
       "quiz": [
-        {"q":"[ป.1] This is my ___. (กระเป๋า)","c":["bag","book","pen"],"a":0},
-        {"q":"[ป.2] I ___ every year. (เฉลิมฉลอง)","c":["celebrate","decorate","dance"],"a":0},
-        {"q":"[ป.3] I ___ swim fast. (ทำได้)","c":["can","can't","must"],"a":0},
-        {"q":"[ป.4] In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0},
-        {"q":"[ป.5] We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
-        {"q":"[ป.6] Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0},
-        {"q":"[ป.6] If I study hard, I ___ pass the exam. (จะ)","c":["will","would","won't"],"a":0},
+        {"q":"This is my ___. (กระเป๋า)","c":["bag","book","pen"],"a":0},
+        {"q":"I ___ every year. (เฉลิมฉลอง)","c":["celebrate","decorate","dance"],"a":0},
+        {"q":"I ___ swim fast. (ทำได้)","c":["can","can't","must"],"a":0},
+        {"q":"In the future, cars ___ drive themselves. (จะ)","c":["will","won't","should"],"a":0},
+        {"q":"We ___ win the championship. (จะ)","c":["will","won't","must"],"a":0},
+        {"q":"Have you ever ___ to Japan? (เคยไป)","c":["been","go","went"],"a":0},
+        {"q":"If I study hard, I ___ pass the exam. (จะ)","c":["will","would","won't"],"a":0},
         {"q":"You are a true ___ forever! (แชมป์เปี้ยน)","c":["champion","student","winner"],"a":0}
       ],
       "writeSentence": true
